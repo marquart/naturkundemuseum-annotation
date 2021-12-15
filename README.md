@@ -18,13 +18,20 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 **E53 Place**
 
+| Type | Property | Companion | Scope |
+| ---- | -------- | ------ | ----- |
+| ← | P4 has time-span | \* | einzige valide Property |
+
 **E42 Identifier**
 
 Wikidata-ID → Postprocessing
 
 **E52 Time-Span**
 
-Jahr, meist im Postprocessing durch Jahr des Jahresberichtes angereichert
+Jahr (als Integer) oder Datum, meist im Postprocessing durch Jahr des Jahresberichtes angereichert
+| Type | Property | Companion | Scope |
+| ---- | -------- | ------ | ----- |
+| ← | P4 has time-span | \* | einzige valide Property |
 
 **E60 Number**
 
@@ -41,6 +48,9 @@ Sammlungen
 **E20 Biological Object**
 
 Ausstellungs-Objekte aus der Natur
+| Type | Property | Companion | Scope |
+| ---- | -------- | ------ | ----- |
+| → | P27 moved from | E53 Place | Herkunftsort des Objektes |
 
 **E28 Conceptual Object**
 
@@ -50,7 +60,7 @@ Taxonomien
 
 | Type | Property | Companion | Scope |
 | ---- | -------- | ------ | ----- |
-| ← | P2 has type |  |  |
+| ← | P2 has type | \* | einzige valide Property |
 
 
 
