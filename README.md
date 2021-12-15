@@ -8,27 +8,41 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ## Annotations-Guide
 
-### Domänen
+### Zugänge:Objekte
+---
+| Classes      | Properties  | Target      | Scope       |
+| -----------  | ----------- | ----------- | ----------- |
+| Header       | Title       |             |             |
+|              | Text        |             |             |
+|              | Text        |             |             |
 
-#### Zugänge:Objekte
+### Zugänge:Bibliothek
+---
 
-#### Zugänge:Bibliothek
+### Zugänge:Instrumente
+---
 
-#### Zugänge:Instrumente
+### Publikationen
+---
 
-#### Publikationen
+### Präparationsarbeit
+---
 
-#### Präparationsarbeit
+### Sammlungsorganisation
+---
 
-#### Sammlungsorganisation
+### Öffentlichkeit
+---
 
-#### Öffentlichkeit
+### Publikum
+---
 
-#### Publikum
+### Lehre
+---
 
-#### Lehre
+### Personalia
+---
 
-#### Personalia
-
-#### Gebäude
+### Gebäude
+---
 
