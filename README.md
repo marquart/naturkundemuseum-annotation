@@ -10,29 +10,38 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 
 ### Allgemein
+→: Klasse ist Source der Property (Class → Companion)
+←: Klasse ist Target der Property (Companion → Class)
 
 **E21 Person**
 
 **E53 Place**
 
 **E42 Identifier**
+Wikidata-ID → Postprocessing
 
 **E52 Time-Span**
+Jahr, meist im Postprocessing durch Jahr des Jahresberichtes angereichert
 
 **E60 Number**
+Anzahl an Objekten
 
 **E8 Acquisition**
+Eigentums-Übergänge, Art (Geschenk, Kauf etc.) wird im Postprocessing durch `P2 has type` angegeben 
 
 **E78 Curated Holding**
+Sammlungen
 
 **E20 Biological Object**
+Ausstellungs-Objekte aus der Natur
 
 **E28 Conceptual Object**
+Taxonomien
 
 **E55 Type**
-| Type | Property | Target | Scope |
+| Type | Property | Companion | Scope |
 | ---- | -------- | ------ | ----- |
-| --> | P2 has type |  |  |
+| ← | P2 has type |  |  |
 
 
 
