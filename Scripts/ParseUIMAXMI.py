@@ -45,7 +45,7 @@ class Corrector(object):
                 cursor = correction.end
                 
             correction.processed = True
-            
+        new_text.append(text[cursor:])
         #print(self.offsets)
         self.text = ''.join(new_text)
         return self.text
@@ -61,14 +61,34 @@ class Corrector(object):
 
 
 class SemanticEntity(object):
-    def __init__(self, tag, corrector):
-        self.id = int(tag["xmi:id"])
+    virtuals = []
+    next_id  = 0
+    def __init__(self, tag, corrector, virtual=False):
+        ''''''
+        self.id = self.next_id
+        SemanticEntity.next_id += 1
+        
         self.type = tag["SemanticClass"]
-        self.begin = corrector.offset(int(tag["begin"]))
-        self.end = corrector.offset(int(tag["end"]))
-        self.string = corrector.text[self.begin:self.end]
         self.incoming = []
         self.outgoing = []
+        
+        if virtual:
+            self.original_id = None
+            self.virtual = True
+            self.begin = None
+            self.end = None
+            self.string = tag["string"]
+            SemanticEntity.virtuals.append(self)
+        else:
+            self.original_id = int(tag["xmi:id"])
+            self.virtual = False
+            self.begin = corrector.offset(int(tag["begin"]))
+            self.end = corrector.offset(int(tag["end"]))
+            self.string = corrector.text[self.begin:self.end]
+
+            if tag.has_attr("Postprocessing"):
+                parse_postprocessing(tag['Postprocessing'], self)
+
     
     def __str__(self):
         return f"{self.type}: '{self.string}'"
@@ -76,25 +96,58 @@ class SemanticEntity(object):
 
 
 class SemanticProperty(object):
-    def __init__(self, tag, entity_map=None):
-        self.id = int(tag["xmi:id"])
-        self.type = tag["SemanticProperty"]
-        self.source_id = int(tag["Governor"])
-        self.target_id = int(tag["Dependent"])
+    virtuals = []
+    next_id  = 0
+    def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None):
+        self.id = self.next_id
+        SemanticProperty.next_id += 1
         
-        if entity_map:
-            self.source = entity_map[self.source_id]
-            self.target = entity_map[self.target_id]
+        if virtual:
+            assert isinstance(source, SemanticEntity) and isinstance(target, SemanticEntity)
+            self.type = tag["SemanticProperty"]
+            self.original_id = None
+            
+            self.source_id = source.original_id
+            self.source = source
+
+            self.target_id = target.original_id
+            self.target = target
             
             self.source.outgoing.append(self)
             self.target.incoming.append(self)
+            
+            
+            
+            SemanticProperty.virtuals.append(self)
         else:
-            self.source = None
-            self.target = None
+            self.original_id = int(tag["xmi:id"])
+            self.type = tag["SemanticProperty"]
+            self.source_id = int(tag["Governor"])
+            self.target_id = int(tag["Dependent"])
+            
+            if entity_map:
+                self.source = entity_map[self.source_id]
+                self.target = entity_map[self.target_id]
+                
+                self.source.outgoing.append(self)
+                self.target.incoming.append(self)
+            else:
+                self.source = None
+                self.target = None
     
     def __str__(self):
-        if self.source: return f"{self.source} → {self.type} → {self.target}"
+        if self.source: return f"{self.source.id}-{self.source} → {self.id}-{self.type} → {self.target.id}-{self.target}"
         return f"{self.source_id} → {self.type} → {self.target_id}"
+
+def parse_postprocessing(tag_string, source):
+    #print(f"Parsing post for {str(source)}")
+    for info in tag_string.split('|'):
+        triple = info.split(':')
+        assert len(triple) == 3
+        target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True)
+        property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
+        
+        
 
 def parse(filepath):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)'''
@@ -109,17 +162,18 @@ def parse(filepath):
     print(f"    Applied {len(corrector)} OCR-Corrections")
     
     entities = [SemanticEntity(tag, corrector) for tag in xml.find_all("custom:SemanticEntities")]
-    print(f"    Parsed {len(entities)} Entities")
+    print(f"    Parsed {len(entities)} original and {len(SemanticEntity.virtuals)} virtual Entities")
+    entities += SemanticEntity.virtuals
     
-    entity_map = {e.id:e for e in entities}
+    entity_map = {e.original_id:e for e in entities}
     properties = [SemanticProperty(tag, entity_map) for tag in xml.find_all("custom:SemanticRelations")]
-    print(f"    Parsed {len(properties)} Properties")
+    print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties")
+    properties += SemanticProperty.virtuals
     
     return text, entities, properties
 
 if __name__ == "__main__":
-    TEST_FILE = "C:/Users/Aron/Downloads/webanno5013015553902450731export/1887_Museum_67-67.xmi"
-    
+    TEST_FILE = "C:/Users/Aron/Downloads/webanno3163352340135431318export/1887_Museum_67-67.xmi"
     text, entities, properties = parse(TEST_FILE)
     print(text, '\n')
     
