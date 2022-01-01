@@ -10,64 +10,14 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 
 ### Allgemein
-
-1. `→` Klasse ist Source der Property (**Class → Companion**)
-2. `←` Klasse ist Target der Property (**Companion → Class**)
-
-**E21 Person**
-
-**E53 Place**
-
-| Type | Property | Companion | Scope |
-| ---- | -------- | ------ | ----- |
-| ← | P4 has time-span | \* | einzige valide Property |
-
-**E42 Identifier**
-
-Wikidata-ID → Postprocessing
-
-**E52 Time-Span**
-
-Jahr (als Integer) oder Datum, meist im Postprocessing durch Jahr des Jahresberichtes angereichert
-| Type | Property | Companion | Scope |
-| ---- | -------- | ------ | ----- |
-| ← | P4 has time-span | \* | einzige valide Property |
-
-**E60 Number**
-
-Anzahl an Objekten
-
-**E8 Acquisition**
-
-Eigentums-Übergänge, Art (Geschenk, Kauf etc.) wird im Postprocessing durch `P2 has type` angegeben 
-
-**E78 Curated Holding**
-
-Sammlungen
-
-**E20 Biological Object**
-
-Ausstellungs-Objekte aus der Natur
-| Type | Property | Companion | Scope |
-| ---- | -------- | ------ | ----- |
-| → | P27 moved from | E53 Place | Herkunftsort des Objektes |
-
-**E28 Conceptual Object**
-
-Taxonomien
-
-**E55 Type**
-
-| Type | Property | Companion | Scope |
-| ---- | -------- | ------ | ----- |
-| ← | P2 has type | \* | einzige valide Property |
-
-
+- Verfasser des jährlichen Berichts ist Person mit ´P2 has type:E55 Type:Reporter´
 
 
 ---
 ### Zugänge:Objekte
-
+- Place:
+    - **Herkunftsort**: ´P2 has type:E55 Type:Origin´ <-- falls keine Angabe wird dieser Fall induziert
+    - Letzter bekannter Ort der zugeführten Sammlung/Objektes: ´P2 has type:E55 Type:Storage´
 
 
 ---
@@ -78,6 +28,9 @@ Taxonomien
 
 ---
 ### Publikationen
+- Autor: ´P2 has type:E55 Type:Author´
+- Title: ´P2 has type:E55 Type:Publication´
+- Verbindung: ´P94 has created (was created by)´
 
 ---
 ### Präparationsarbeit
@@ -93,6 +46,8 @@ Taxonomien
 
 ---
 ### Lehre
+- ´E74 Group´ mit ´P2 has type:E55 Type:Teaching´
+- verbunden mit Anzahlen durch ´has number of parts´ --> ´Dimension´
 
 ---
 ### Personalia
