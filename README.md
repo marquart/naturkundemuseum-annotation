@@ -10,14 +10,15 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 
 ### Allgemein
-- Verfasser des jährlichen Berichts ist Person mit ´P2 has type:E55 Type:Reporter´
+- **Virtuelle Entitäten**: wird mit einem Verb z.B. mehrere unabhängige Aktionen beschrieben kann ein bedeutunsloses Wort mit `virtual` im Postprocessing-Feld markiert werden, dass als virtuelle Maske für die Annotation dient
+- Verfasser des jährlichen Berichts ist Person mit `P2 has type:E55 Type:Reporter`
 
 
 ---
 ### Zugänge:Objekte
 - Place:
-    - **Herkunftsort**: ´P2 has type:E55 Type:Origin´ <-- falls keine Angabe wird dieser Fall induziert
-    - Letzter bekannter Ort der zugeführten Sammlung/Objektes: ´P2 has type:E55 Type:Storage´
+    - **Herkunftsort**: `P2 has type:E55 Type:Origin` <-- falls keine Angabe wird dieser Fall induziert
+    - Letzter bekannter Ort der zugeführten Sammlung/Objektes: `P2 has type:E55 Type:Storage`
 
 
 ---
@@ -28,9 +29,9 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Publikationen
-- Autor: ´P2 has type:E55 Type:Author´
-- Title: ´P2 has type:E55 Type:Publication´
-- Verbindung: ´P94 has created (was created by)´
+- Autor: `P2 has type:E55 Type:Author`
+- Title: `P2 has type:E55 Type:Publication`
+- Verbindung: `P94 has created (was created by)`
 
 ---
 ### Präparationsarbeit
@@ -46,8 +47,8 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Lehre
-- ´E74 Group´ mit ´P2 has type:E55 Type:Teaching´
-- verbunden mit Anzahlen durch ´has number of parts´ --> ´Dimension´
+- `E74 Group` mit `P2 has type:E55 Type:Teaching`
+- verbunden mit Anzahlen durch `has number of parts` --> `Dimension`
 
 ---
 ### Personalia

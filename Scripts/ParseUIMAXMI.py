@@ -81,13 +81,22 @@ class SemanticEntity(object):
             SemanticEntity.virtuals.append(self)
         else:
             self.original_id = int(tag["xmi:id"])
-            self.virtual     = False
-            self.begin       = corrector.offset(int(tag["begin"]))
-            self.end         = corrector.offset(int(tag["end"]))
-            self.string      = corrector.text[self.begin:self.end]
-
+            maske = False
             if tag.has_attr("Postprocessing"):
-                parse_postprocessing(tag['Postprocessing'], self)
+                maske = parse_postprocessing(tag['Postprocessing'], self)
+            
+            if maske:
+                self.virtual     = True
+                self.begin       = None
+                self.end         = None
+                self.string      = "(implicit) Unknown"
+            else:
+                self.virtual     = False
+                self.begin       = corrector.offset(int(tag["begin"]))
+                self.end         = corrector.offset(int(tag["end"]))
+                self.string      = corrector.text[self.begin:self.end]
+
+
 
     
     def __str__(self):
@@ -141,7 +150,11 @@ class SemanticProperty(object):
 
 def parse_postprocessing(tag_string, source):
     #print(f"Parsing post for {str(source)}")
+    maske = False
     for info in tag_string.split('|'):
+        if info == 'virtual':
+            maske = True
+            continue
         if info.startswith('!'): implicit = True
         else: implicit = False
         
@@ -155,7 +168,7 @@ def parse_postprocessing(tag_string, source):
             target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
         
-        
+    return maske
 
 def parse(filepath):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)'''
