@@ -152,7 +152,7 @@ def parse_postprocessing(tag_string, source):
     #print(f"Parsing post for {str(source)}")
     maske = False
     for info in tag_string.split('|'):
-        if info == 'virtual':
+        if info.lower() == 'virtual':
             maske = True
             continue
         if info.startswith('!'): implicit = True
