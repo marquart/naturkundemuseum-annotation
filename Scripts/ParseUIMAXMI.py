@@ -1,4 +1,11 @@
+from collections import defaultdict
 from bs4 import BeautifulSoup
+
+class Anchors(object):
+    def __init__(self):
+        self.objs         = {} # string:Entity
+        self.properties   = defaultdict(list) #string:[(property, target)]
+
 
 class OCRCorrection(object):
     def __init__(self, tag, text):
@@ -63,7 +70,7 @@ class Corrector(object):
 class SemanticEntity(object):
     virtuals = []
     next_id  = 0
-    def __init__(self, tag, corrector, virtual=False):
+    def __init__(self, tag, corrector, anchors=None, virtual=False):
         ''''''
         self.id = self.next_id
         SemanticEntity.next_id += 1
@@ -83,7 +90,7 @@ class SemanticEntity(object):
             self.original_id = int(tag["xmi:id"])
             maske = False
             if tag.has_attr("Postprocessing"):
-                maske = parse_postprocessing(tag['Postprocessing'], self)
+                maske = parse_postprocessing(tag['Postprocessing'], self, anchors)
             
             if maske:
                 self.virtual     = True
@@ -148,27 +155,52 @@ class SemanticProperty(object):
         if self.source: return f"{self.source} → {self.type} → {self.target}"
         return f"{self.source_id} → {self.type} → {self.target_id}"
 
-def parse_postprocessing(tag_string, source):
+def parse_postprocessing(tag_string, source, anchors):
     #print(f"Parsing post for {str(source)}")
+    
     maske = False
     for info in tag_string.split('|'):
-        if info.lower() == 'virtual':
+        lowered_info = info.lower()
+        if lowered_info == "virtual":
             maske = True
             continue
-        if info.startswith('!'): implicit = True
-        else: implicit = False
         
-        triple = info.lstrip('!').split(':')
-        assert len(triple) == 3
         
-        if implicit:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':f"(implicit) {triple[2]}"}, None, virtual=True)
+        if lowered_info.startswith('!'): inverse = True
+        else: inverse = False
+        
+        if "anchor" in lowered_info:
+            if lowered_info.count(':'):
+                double = info.split(':')
+                assert len(double) == 2
+                
+                anchors.properties[double[1].lower()].append((double[0],source))
+            else:
+                # source ist selbst ein Anchor
+                anchors.objs[lowered_info] = source
+            continue
+                
+        else:
+            triple = info.lstrip('!').split(':')
+            assert len(triple) == 3
+        
+        if inverse:
+            target = SemanticEntity({'SemanticClass':triple[1],'string':f"{triple[2]}"}, None, virtual=True)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=target, target=source)
         else:
             target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
         
     return maske
+
+def set_anchors(anchors):
+    for anchor_str, anchor in anchors.objs.items():
+        for double in anchors.properties[anchor_str]:
+            if double[0].startswith('!'):
+                property = SemanticProperty({"SemanticProperty":double[0].lstrip('!')}, virtual=True, source=anchor, target=double[1])
+            else:
+                property = SemanticProperty({"SemanticProperty":double[0]}, virtual=True, source=double[1], target=anchor)
+
 
 def parse(filepath):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)'''
@@ -182,10 +214,13 @@ def parse(filepath):
     text = corrector.apply(text)
     print(f"    Applied {len(corrector)} OCR-Corrections")
     
-    entities = [SemanticEntity(tag, corrector) for tag in xml.find_all("custom:SemanticEntities")]
+    anchors = Anchors()
+    
+    entities = [SemanticEntity(tag, corrector, anchors) for tag in xml.find_all("custom:SemanticEntities")]
     print(f"    Parsed {len(entities)} original and {len(SemanticEntity.virtuals)} virtual Entities")
     entities += SemanticEntity.virtuals
     
+    set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
     properties = [SemanticProperty(tag, entity_map) for tag in xml.find_all("custom:SemanticRelations")]
     print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties")
@@ -194,7 +229,7 @@ def parse(filepath):
     return text, entities, properties
 
 if __name__ == "__main__":
-    TEST_FILE = "C:/Users/Aron/Downloads/webanno17844155560286750721export/1889_Geologisch-paläontologische_137-138.xmi"#"C:/Users/Aron/Downloads/webanno3163352340135431318export/1887_Museum_67-67.xmi"
+    TEST_FILE = "C:/Users/Aron/Downloads/webanno5422277547538360861export/1889_Zoologische_140-144.xmi"#"C:/Users/Aron/Downloads/webanno17844155560286750721export/1889_Geologisch-paläontologische_137-138.xmi"#"C:/Users/Aron/Downloads/webanno3163352340135431318export/1887_Museum_67-67.xmi"
     text, entities, properties = parse(TEST_FILE)
     print(text, '\n')
     
