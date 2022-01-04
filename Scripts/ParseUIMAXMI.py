@@ -9,23 +9,24 @@ class Anchors(object):
 
 class OCRCorrection(object):
     def __init__(self, tag, text):
-        self.processed = False
-        self.begin = int(tag["begin"])
-        self.end = int(tag["end"])
+        self.processed     = False
+        self.begin         = int(tag["begin"])
+        self.end           = int(tag["end"])
         self.to_be_deleted = tag["Deletion"] == "true"
+        
         if self.to_be_deleted:
             self.corrected_string = ""
-            self.original_string = ""
+            self.original_string  = ""
         else:
             self.corrected_string = tag["CorrectedString"]
-            self.original_string = text[self.begin:self.end]
+            self.original_string  = text[self.begin:self.end]
     
 
 class Corrector(object):
     def __init__(self, tags, text):
         self.corrections = sorted([OCRCorrection(tag, text) for tag in tags], key=lambda x: x.begin)
-        self.offsets = {}
-        self.text = text
+        self.offsets     = {}
+        self.text        = text
         
     def __len__(self):
         return len(self.corrections)
@@ -34,8 +35,8 @@ class Corrector(object):
         if not self.corrections:
             return self.text
         new_text = []
-        cursor = 0
-        accu = 0
+        cursor   = 0
+        accu     = 0
         for correction in self.corrections:
             if correction.processed: continue
             if correction.to_be_deleted:
@@ -88,20 +89,20 @@ class SemanticEntity(object):
             SemanticEntity.virtuals.append(self)
         else:
             self.original_id = int(tag["xmi:id"])
-            maske = False
+            blank = False
             if tag.has_attr("Postprocessing"):
-                maske = parse_postprocessing(tag['Postprocessing'], self, anchors)
+                blank = parse_postprocessing(tag['Postprocessing'], self, anchors)
             
-            if maske:
-                self.virtual     = True
-                self.begin       = None
-                self.end         = None
-                self.string      = "(implicit) Unknown"
+            if blank:
+                self.virtual = True
+                self.begin   = None
+                self.end     = None
+                self.string  = "(implicit) Unknown"
             else:
-                self.virtual     = False
-                self.begin       = corrector.offset(int(tag["begin"]))
-                self.end         = corrector.offset(int(tag["end"]))
-                self.string      = corrector.text[self.begin:self.end]
+                self.virtual = False
+                self.begin   = corrector.offset(int(tag["begin"]))
+                self.end     = corrector.offset(int(tag["end"]))
+                self.string  = corrector.text[self.begin:self.end]
 
 
 
@@ -158,11 +159,11 @@ class SemanticProperty(object):
 def parse_postprocessing(tag_string, source, anchors):
     #print(f"Parsing post for {str(source)}")
     
-    maske = False
+    blank = False # really no string
     for info in tag_string.split('|'):
         lowered_info = info.lower()
         if lowered_info == "virtual":
-            maske = True
+            blank = True
             continue
         
         
@@ -191,7 +192,7 @@ def parse_postprocessing(tag_string, source, anchors):
             target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
         
-    return maske
+    return blank
 
 def set_anchors(anchors):
     for anchor_str, anchor in anchors.objs.items():

@@ -82,4 +82,63 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 - Bau von Gebäuden: `E12 Production`
 - Orte in Gebäuden (z.B. Erdgeschoss): `E53 Place` mit `P2 has type:E55 Type:Building`
 
+## Fortschritt
 
+| Jahr | Museum | Mineralogisch-Petrographisch | Geologisch-Paläontologisch | Zoologisch |
+|------|--------|------------------------------|----------------------------|------------|
+| 1887 |    X   |               -              |              -             |      -     |
+| 1888 |    X   |               -              |              -             |      -     |
+| 1889 |    X   |               X              |              X             |      X     |
+| 1890 |        |                              |                            |            |
+| 1891 |        |                              |                            |            |
+| 1892 |        |                              |                            |            |
+| 1893 |        |                              |                            |            |
+| 1894 |        |                              |                            |            |
+| 1895 |        |                              |                            |            |
+| 1896 |        |                              |                            |            |
+| 1897 |        |                              |                            |            |
+| 1898 |        |                              |                            |            |
+| 1899 |        |                              |                            |            |
+| 1900 |        |                              |                            |            |
+| 1901 |        |                              |                            |            |
+| 1902 |        |                              |                            |            |
+| 1903 |        |                              |                            |            |
+| 1904 |        |                              |                            |            |
+| 1905 |        |                              |                            |            |
+| 1906 |        |                              |                            |            |
+| 1907 |        |                              |                            |            |
+| 1908 |        |                              |                            |            |
+| 1909 |        |                              |                            |            |
+| 1910 |        |                              |                            |            |
+| 1911 |        |                              |                            |            |
+| 1912 |        |                              |                            |            |
+| 1913 |        |                              |                            |            |
+| 1914 |        |                              |                            |            |
+| 1915 |        |                              |                            |            |
+| 1928 |        |                              |                            |            |
+| 1929 |        |                              |                            |            |
+| 1930 |        |                              |                            |            |
+| 1931 |        |                              |                            |            |
+| 1932 |        |                              |                            |            |
+| 1933 |        |                              |                            |            |
+| 1934 |        |                              |                            |            |
+| 1935 |        |                              |                            |            |
+| 1936 |        |                              |                            |            |
+| 1937 |        |                              |                            |            |
+| 1938 |        |                              |                            |            |
+
+
+## ToDo
+
+### Ausstehend
+- Text und Bild für Webseite verfassen (deutsch und englisch)
+- Web-Team kontaktieren
+- Große Runde zum Vernetzen organisieren (wg. Verknüpfen von verschiedenen Datenquellen)
+
+### Erledigt
+- [Identifikation der Seiten](https://docs.google.com/spreadsheets/d/1rg0r8WQP9fFhK58a9auRFerCYfGgzt_QPgEgJ_DOjyQ/edit?usp=sharing) in den digitalisierten Chroniken, die das Museum betreffen
+- Crawlen der relevanten Volltexte
+- Unicode-Normalisierung und simple OCR-Korrekturen
+- Themenbereiche in den Texten klassifiziert (siehe Annotation-Guide)
+- Festlegen auf Ontologie für die semantische Annotation ([CIDOC CRM 7.1.1](https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html)) 
+- Präsentation für Mini-Workshop vorbereitet
