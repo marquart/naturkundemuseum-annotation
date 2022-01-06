@@ -178,6 +178,7 @@ def parse_postprocessing(tag_string, source, anchors):
                 anchors.properties[double[1].lower()].append((double[0],source))
             else:
                 # source ist selbst ein Anchor
+                assert lowered_info not in anchors.objs
                 anchors.objs[lowered_info] = source
             continue
                 

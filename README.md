@@ -19,7 +19,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
     
     2. Füge der anderen Entität `{PropertyType}:anchor{ID}` hinzu (Invertieren funktioniert wie beim normalen Annotiern mit `!`)
     
-    z.B. `!P46 is composed of:anchor1`
+        z.B. `!P46 is composed of:anchor1`
         
 ---
 ### Zugänge:Objekte
@@ -62,9 +62,24 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Öffentlichkeit
+- Benutzung der Sammlungen durch Externe: `E7 Activity` mit `P2 has type:E55 Type:Extern Usage`
+      
+      ↓ `P14 carried out by` `E21 Person`
+      
+      ↓ `P16 used specific object` Holding oder Object
+    
+    
 
 ---
 ### Publikum
+- Besuche sind `P2 has type:E55 Type:Visiting` mit `P2 has type:E55 Type:Visiting`
+
+      	↓ `P14 carried out by`
+
+- Besucher sind `E74 Group` (z.B. Schulklassen) mit `P2 has type:E55 Type:Audience`
+- Besucherzahlen sind `E54 Dimension` von `E74 Group` mit Time-Spans und `P2 has type:E55 Type:Besucherzahlen`
+- Öffnungszeiten sind `E3 Condition State` mit `P2 has type:E55 Type:Opening Times` und Time-Spans als Dimensions
+
 
 ---
 ### Lehre
@@ -73,8 +88,11 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Personalia
-- Jobs sind `E41 Appellation` mit `P2 has type:E55 Type:Profession`
+- Jobs sind `E41 Appellation` mit `P2 has type:E55 Type:Profession|P2 has type:E55 Type:Intern`
+- Neue Jobs ohne Personen-Nennung sind `E66 Formation` mit `P2 has type:E55 Type:Profession`, ansonsten `E85 Joining` mit `P2 has type:E55 Type:Profession`
+- Falls die Herkunft/Neue Arbeisstelle benannt ist wird das Joining/Leaving mit `P146 separated from` bzw. `P144 joined with` verknüpft
 - Akademische Titel sind `E41 Appellation` mit `P2 has type:E55 Type:Academic Title`
+- Aufgabe im Job sind `E29 Design or Procedure` mit `P2 has type:E55 Type:Task` und durch `P14 carried out by` mit einer Person/Job verbunden
 
 ---
 ### Gebäude
@@ -89,7 +107,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1887 |    X   |               -              |              -             |      -     |
 | 1888 |    X   |               -              |              -             |      -     |
 | 1889 |    X   |               X              |              X             |      X     |
-| 1890 |        |                              |                            |            |
+| 1890 |    X   |                              |              X             |            |
 | 1891 |        |                              |                            |            |
 | 1892 |        |                              |                            |            |
 | 1893 |        |                              |                            |            |
