@@ -47,6 +47,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Zugänge:Instrumente
+- Acquisition oder Purchase eines Physical Objects mit `P2 has type:E55 Type:Tool`
 
 ---
 ### Publikationen
@@ -85,6 +86,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 ### Lehre
 - `E74 Group` mit `P2 has type:E55 Type:Teaching`
 - verbunden mit Anzahlen durch `has number of parts` --> `Dimension`
+- Vorlesungen: `E73 Information Object` mit `P2 has type:E55 Type:Lecture`, vebunden mit Person durch `P94 has created`
 
 ---
 ### Personalia
@@ -107,7 +109,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1887 |    X   |               -              |              -             |      -     |
 | 1888 |    X   |               -              |              -             |      -     |
 | 1889 |    X   |               X              |              X             |      X     |
-| 1890 |    X   |                              |              X             |            |
+| 1890 |    X   |               X              |              X             |            |
 | 1891 |        |                              |                            |            |
 | 1892 |        |                              |                            |            |
 | 1893 |        |                              |                            |            |
