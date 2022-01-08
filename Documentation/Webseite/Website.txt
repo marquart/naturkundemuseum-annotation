@@ -1,0 +1,15 @@
+Digitale Edition der Jahresberichte des Museums 1887-1915 und 1928-1938
+
+Als die zoologischen, mineralogisch-petrographischen und geologisch-paläontologischen Sammlungen und Institute zum Museum für Naturkunde der Friedrich-Wilhelms-Universität zu Berlin räumlich und organisatorisch zusammengeschlossen wurden, wurde auch jährlich begonnen bedeutende Ereignisse im Rahmen der Chronik der Universität zu dokumentieren. Mit diesem Zeitzeugnis ist es uns für die 28 Jahre zwischen 1887 und 1915 und die 10 Jahre zwischen 1928 und 1938 möglich, einen Blick auf die Geschichte des Museums zu werfen. Insbesondere lassen sich Informationen zu Zugängen von Objekten, Raumnutzung, Sammlungsorganisation und Präparationsarbeit, personeller Fluktuation, Lehrveranstaltungen und Veröffentlichungen finden.
+
+Unser Ansatz, die Jahresberichte digital zu erschließen, beruht auf einer semantischen Annotation der Texte mithilfe der vom International Council of Museums entwickelten Ontologie CIDOC Conceptual Reference Model (CRM).
+Der Ansatz der digitalen Edition beruht auf der Entwicklung einer Webplattform, in der die durch semantische Annotation systematisierten Informationen der Jahresberichte abgefragt werden können. Die durch diese Ontologie modellierten Informationen aus den Jahresberichten sollen in einer Graphdatenbank dargestellt werden, damit sowohl Daten aus externen Quellen möglichst simpel integriert werden können als auch andere Quellen die Möglichkeit haben, diese Daten in ihren Wissensgraph einzubetten.
+
+
+
+Digital Edition of the Annual Reports of the Museum 1887-1915 and 1928-1938
+
+When the zoological, mineralogical-petrographical and geological-paleontological collections and institutes were spatially and organizationally merged to form the Museum für Naturkunde of the Friedrich-Wilhelms-Universität zu Berlin, significant events were documented annually as part of the chronicle of the university. With this contemporary record it is possible to take a look at the history of the museum for the 28 years between 1887 and 1915 and the 10 years between 1928 and 1938. In particular, information can be found on additions of objects, use of space, collection organization and preparation work, staff turnover, teaching events, and publications.
+
+Our approach for the digital edition is based on semantic annotation of the texts using the CIDOC Conceptual Reference Model (CRM) ontology developed by the Inertnational Council of Museums.
+The approach of the digital edition is based on the development of a web platform in which the information of the annual reports, systematized by semantic annotation, can be queried. The information from the annual reports modeled by this ontology is to be represented in a graph database so that both data from external sources can be integrated as simply as possible and other sources have the possibility to embed this data in their knowledge graph.
