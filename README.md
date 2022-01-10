@@ -23,7 +23,8 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
         
 ---
 ### Zugänge:Objekte
-- Wird der Acquisition kein Type gegeben wird `P2 has type:E55 Type:Donation` induziert
+- Wird der Acquisition kein Type gegeben wird `P2 has type:E55 Type:Donation` induziert ansonsten `Purchase` bei Kauf oder `P2 has type:E55 Type:Trade` bei Tausch
+
 - Place:
 
     - **Herkunftsort**: `P2 has type:E55 Type:Origin` <-- falls keine Angabe wird dieser Fall induziert
@@ -57,6 +58,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Präparationsarbeit
+- Ausbesserungen an einzelnen Objekten (und nicht ganzen `Curated Holdings` --> `Curation Activity`) sind `Modification` mit `P2 has type:E55 Type:Curation Activity`
 
 ---
 ### Sammlungsorganisation
