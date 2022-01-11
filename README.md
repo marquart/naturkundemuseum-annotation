@@ -93,7 +93,8 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 ---
 ### Personalia
 - Jobs sind `E41 Appellation` mit `P2 has type:E55 Type:Profession|P2 has type:E55 Type:Intern`
-- Neue Jobs ohne Personen-Nennung sind `E66 Formation` mit `P2 has type:E55 Type:Profession`, ansonsten `E85 Joining` mit `P2 has type:E55 Type:Profession`
+- Neue Jobs ohne Personen-Nennung sind `E66 Formation` mit `P2 has type:E55 Type:Profession`, ansonsten `E85 Joining` mit `P2 has type:E55 Type:Profession`, Verbindung des Joining/Leaving/Formation mit Job-Namen (Appellation) durch `P1 is identified by`
+- Beförderungen sind Joining und Leaving gleichzeitig (zwei semantische Entitäten auf dem gleichen Wort)
 - Falls die Herkunft/Neue Arbeisstelle benannt ist wird das Joining/Leaving mit `P146 separated from` bzw. `P144 joined with` verknüpft
 - Akademische Titel sind `E41 Appellation` mit `P2 has type:E55 Type:Academic Title`
 - Aufgabe im Job sind `E29 Design or Procedure` mit `P2 has type:E55 Type:Task` und durch `P14 carried out by` mit einer Person/Job verbunden
@@ -111,7 +112,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1887 |    X   |               -              |              -             |      -     |
 | 1888 |    X   |               -              |              -             |      -     |
 | 1889 |    X   |               X              |              X             |      X     |
-| 1890 |    X   |               X              |              X             |            |
+| 1890 |    X   |               X              |              X             |      X     |
 | 1891 |        |                              |                            |            |
 | 1892 |        |                              |                            |            |
 | 1893 |        |                              |                            |            |

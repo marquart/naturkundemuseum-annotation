@@ -7,11 +7,11 @@ def modification_time(filepath):
     return stats.st_mtime
 
 
-def extractXMI(project_dir, target_dir):
+def extractXMI(project_dir, target_dir, last_index=0):
     '''Extracts all individual annotated XMI-Files of the latest INCEpTION-Project-Savefile in project_dir to target_dir
     '''
     if project_dir.endswith(".zip"): last_save = project_dir
-    else: last_save = sorted([os.path.join(project_dir, file) for file in os.listdir(project_dir)], key=modification_time, reverse=True)[0]
+    else: last_save = sorted([os.path.join(project_dir, file) for file in os.listdir(project_dir)], key=modification_time, reverse=True)[last_index]
     print("Last saved Project File: ", last_save)
     
     processed_files = set()
@@ -48,4 +48,4 @@ def extractXMI(project_dir, target_dir):
 if __name__ == "__main__":
     target_dir = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
     project_dir = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/Saved_projects"
-    extractXMI(project_dir, target_dir)
+    extractXMI(project_dir, target_dir, last_index=0)

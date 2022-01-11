@@ -1,5 +1,7 @@
-from collections import defaultdict
+import os
+from collections import defaultdict, Counter
 from bs4 import BeautifulSoup
+from bs4.element import Tag as BS4_TAG
 
 class Anchors(object):
     def __init__(self):
@@ -76,7 +78,8 @@ class SemanticEntity(object):
         self.id = self.next_id
         SemanticEntity.next_id += 1
         
-        self.type = tag["SemanticClass"]
+        if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
+        else: self.type = tag["SemanticClass"].strip()
         self.incoming = []
         self.outgoing = []
         
@@ -85,15 +88,15 @@ class SemanticEntity(object):
             self.virtual     = True
             self.begin       = None
             self.end         = None
-            self.string      = tag["string"]
+            self.string      = tag["string"].strip()
             SemanticEntity.virtuals.append(self)
         else:
             self.original_id = int(tag["xmi:id"])
-            blank = False
+            virtual_from_source = False
             if tag.has_attr("Postprocessing"):
-                blank = parse_postprocessing(tag['Postprocessing'], self, anchors)
+                virtual_from_source = parse_postprocessing(tag['Postprocessing'], self, anchors)
             
-            if blank:
+            if virtual_from_source:
                 self.virtual = True
                 self.begin   = None
                 self.end     = None
@@ -119,9 +122,12 @@ class SemanticProperty(object):
         self.id = self.next_id
         SemanticProperty.next_id += 1
         
+        if not check_property_exists(tag, "SemanticProperty"): self.type = "P0 Unknown"
+        else: self.type = tag["SemanticProperty"].strip()
+
+        
         if virtual:
             assert isinstance(source, SemanticEntity) and isinstance(target, SemanticEntity)
-            self.type        = tag["SemanticProperty"]
             self.original_id = None
             
             self.source_id = source.original_id
@@ -138,7 +144,7 @@ class SemanticProperty(object):
             SemanticProperty.virtuals.append(self)
         else:
             self.original_id = int(tag["xmi:id"])
-            self.type        = tag["SemanticProperty"]
+
             self.source_id   = int(tag["Governor"])
             self.target_id   = int(tag["Dependent"])
             
@@ -159,11 +165,11 @@ class SemanticProperty(object):
 def parse_postprocessing(tag_string, source, anchors):
     #print(f"Parsing post for {str(source)}")
     
-    blank = False # really no string
+    virtual_from_source = False # really no string
     for info in tag_string.split('|'):
         lowered_info = info.lower()
         if lowered_info == "virtual":
-            blank = True
+            virtual_from_source = True
             continue
         
         
@@ -193,7 +199,7 @@ def parse_postprocessing(tag_string, source, anchors):
             target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
         
-    return blank
+    return virtual_from_source
 
 def set_anchors(anchors):
     for anchor_str, anchor in anchors.objs.items():
@@ -203,6 +209,10 @@ def set_anchors(anchors):
             else:
                 property = SemanticProperty({"SemanticProperty":double[0]}, virtual=True, source=double[1], target=anchor)
 
+def check_property_exists(obj, property):
+    if isinstance(obj, BS4_TAG):
+        return obj.has_attr(property)
+    return property in obj
 
 def parse(filepath):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)'''
@@ -228,12 +238,40 @@ def parse(filepath):
     print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties")
     properties += SemanticProperty.virtuals
     
+    SemanticProperty.virtuals.clear()
+    SemanticEntity.virtuals.clear()
     return text, entities, properties
 
+def stats_directory(dirpath):
+    class_counter = Counter()
+    properties_counter = Counter()
+    
+    for file in os.listdir(dirpath):
+        if file.endswith(".xmi"):
+            text, entities, properties = parse(os.path.join(dirpath, file))
+            class_counter.update([e.type for e in entities])
+            properties_counter.update([p.type for p in properties])
+            print("\n".join([str(e) for e in properties]))
+    
+    print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
+    for t, c in class_counter.most_common():
+        print(f"| {t:<90} | {c:<5} |")
+        
+    print(f"\n\nParsed Properties in '{dirpath}':\n\n{len(properties_counter)} Types with {sum(properties_counter.values())} instances")
+    for t, c in properties_counter.most_common():
+        print(f"| {t:<90} | {c:<5} |")
+    
+    
 if __name__ == "__main__":
+    DIR_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
+    stats_directory(DIR_PATH)
+    
+    exit(3)
+
     TEST_FILE = "C:/Users/Aron/Downloads/webanno5422277547538360861export/1889_Zoologische_140-144.xmi"#"C:/Users/Aron/Downloads/webanno17844155560286750721export/1889_Geologisch-paläontologische_137-138.xmi"#"C:/Users/Aron/Downloads/webanno3163352340135431318export/1887_Museum_67-67.xmi"
     text, entities, properties = parse(TEST_FILE)
     print(text, '\n')
     
     print("\n".join([str(e) for e in properties]))
+
 
