@@ -8,6 +8,17 @@ Das Projekt hat zum Ziel:
 - Modellierung der Annotationen in einer Graphdatenbank, um möglichst einfach sowohl Daten aus externen Quellen zu integrieren als auch anderen Quellen die Möglichkeit zu bieten, die Informationen der Jahresberichte in ihren eigenen Wissensgraph einzubetten
 - Entwicklung einer Webplattform mit der die Informationen aus der Graphdatenbank abgefragt werden können
 
+Dadurch sollen insbesondere die Grundlagen für neue Perspektiven auf
+- die Entwicklung der Institution in wissenschaftlicher, infrastruktureller, personeller Hinsicht
+- den Ausbau der Sammlungen vom Beginn der deutschen Kolonialexpansion bis zum Nationalsozialismus
+- die Ermittlung des Anteils kolonialer Objekte am Gesamtbestand der eingehenden Sammlungen
+- die Identifikation der wichtigsten Herkunftsregionen und Hauptakteur*innen in diesem Zeitraum
+- die globale und lokale Vernetzung des Museums
+- die Rekonstruktion der Sammler*innen- und Institutionennetzwerke
+- die Erschließung von Metadaten für die taxonomische Arbeit an den Objekten
+- die Geschichte der Schausammlung sowie der präparatorischen Arbeit an den Objekten
+gelegt werden.
+
 
 Digital Edition of the Annual Reports of the Museum 1887-1915 and 1928-1938
 
@@ -16,8 +27,14 @@ The project serves interdisciplinary interests of curators, collection managers,
 
 The project aims to:
 - produce semantic annotations of the texts using the CIDOC Conceptual Reference Model (CRM) developed by the International Council of Museums.
-- Model the annotations in a graph database in order to integrate data from external sources as easily as possible as well as to offer other sources the possibility to embed the information of the annual reports into their own knowledge graphs
-- Development of a web platform with which the information from the graph database can be queried
+- model the annotations in a graph database in order to integrate data from external sources as easily as possible as well as to offer other sources the possibility to embed the information of the annual reports into their own knowledge graphs
+- develop a web platform with which the information from the graph database can be queried
 
-
+The project should form foundations for new perspectives on
+- the development of the institution in scientific, infrastructural and staffing ascpects
+- the development of the collections from the beginning of German colonial expansion to the era of National Socialism
+- the assessment of colonial objects in incoming collections
+- the identification of original regions and main collectors during this period
+- the reconstruction of the institutions' global and local networks
+- the history of the exhibition and the preparatory work on the objects.
 
