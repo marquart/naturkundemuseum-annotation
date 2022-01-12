@@ -107,8 +107,9 @@ class SemanticEntity(object):
                 self.end     = corrector.offset(int(tag["end"]))
                 self.string  = corrector.text[self.begin:self.end]
 
-
-
+        if check_property_exists(tag, "HasType"):
+            target = SemanticEntity({'SemanticClass':'E55 Type','string':tag["HasType"].strip()}, None, virtual=True)
+            property = SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=self, target=target)
     
     def __str__(self):
         return f"{self.type}: '{self.string}'"
@@ -252,6 +253,13 @@ def stats_directory(dirpath):
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
             print("\n".join([str(e) for e in properties]))
+            
+            for e in entities:
+                if "Condition" in e.type:
+                    for i in e.incoming:
+                        print(f"Incoming: {str(i)}-->{str(i.source)}")
+                    for i in e.outgoing:
+                        print(f"outgoing: {str(i)}-->{str(i.target)}")
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
     for t, c in class_counter.most_common():

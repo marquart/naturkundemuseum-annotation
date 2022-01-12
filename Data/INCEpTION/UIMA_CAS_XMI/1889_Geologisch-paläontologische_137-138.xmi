@@ -656,133 +656,134 @@
     <custom:OCRCorrection xmi:id="8263" sofa="1" begin="558" end="574" CorrectedString="Einweihungstage" Deletion="false"/>
     <custom:OCRCorrection xmi:id="8285" sofa="1" begin="1541" end="1545" CorrectedString="sche" Deletion="false"/>
     <custom:OCRCorrection xmi:id="8307" sofa="1" begin="1879" end="1891" CorrectedString="ungewöhnlich" Deletion="false"/>
-    <custom:OCRCorrection xmi:id="10943" sofa="1" begin="2275" end="2283" CorrectedString="Institut" Deletion="false"/>
+    <custom:OCRCorrection xmi:id="10990" sofa="1" begin="2275" end="2283" CorrectedString="Institut" Deletion="false"/>
     <custom:OCRCorrection xmi:id="8329" sofa="1" begin="3129" end="3130" Deletion="true"/>
-    <custom:SemanticEntities xmi:id="8387" sofa="1" begin="33" end="70" SemanticClass="E78 Curated Holding"/>
-    <custom:SemanticEntities xmi:id="8590" sofa="1" begin="167" end="174" SemanticClass="E39 Actor"/>
-    <custom:SemanticEntities xmi:id="8455" sofa="1" begin="274" end="285" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="8388" sofa="1" begin="33" end="70" SemanticClass="E78 Curated Holding"/>
+    <custom:SemanticEntities xmi:id="8595" sofa="1" begin="167" end="174" SemanticClass="E39 Actor"/>
+    <custom:SemanticEntities xmi:id="8457" sofa="1" begin="274" end="285" SemanticClass="E87 Curation Activity"/>
     <custom:SemanticEntities xmi:id="8365" sofa="1" begin="302" end="315" SemanticClass="E78 Curated Holding"/>
-    <custom:SemanticEntities xmi:id="8477" sofa="1" begin="357" end="363" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="8499" sofa="1" begin="368" end="380" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="8658" sofa="1" begin="413" end="423" SemanticClass="E39 Actor"/>
-    <custom:SemanticEntities xmi:id="8680" sofa="1" begin="428" end="440" SemanticClass="E39 Actor"/>
-    <custom:SemanticEntities xmi:id="8831" sofa="1" begin="559" end="573" SemanticClass="E63 Beginning of Existence"/>
-    <custom:SemanticEntities xmi:id="8809" sofa="1" begin="577" end="593" SemanticClass="E52 Time-Span"/>
-    <custom:SemanticEntities xmi:id="8976" sofa="1" begin="636" end="649" SemanticClass="E78 Curated Holding"/>
-    <custom:SemanticEntities xmi:id="9021" sofa="1" begin="880" end="924" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="9066" sofa="1" begin="1053" end="1063" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="9126" sofa="1" begin="1155" end="1187" SemanticClass="E78 Curated Holding"/>
-    <custom:SemanticEntities xmi:id="9307" sofa="1" begin="1188" end="1200" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="9171" sofa="1" begin="1217" end="1225" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="9209" sofa="1" begin="1231" end="1274" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="9239" sofa="1" begin="1276" end="1295" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="9269" sofa="1" begin="1323" end="1344" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="9444" sofa="1" begin="1535" end="1563" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E78 Curated Holding"/>
-    <custom:SemanticEntities xmi:id="10055" sofa="1" begin="1535" end="1540" SemanticClass="E21 Person"/>
-    <custom:SemanticEntities xmi:id="9664" sofa="1" begin="1585" end="1595" SemanticClass="E53 Place"/>
-    <custom:SemanticEntities xmi:id="9466" sofa="1" begin="1597" end="1614" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="10140" sofa="1" begin="1642" end="1648" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="9488" sofa="1" begin="1650" end="1671" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="9642" sofa="1" begin="1678" end="1687" SemanticClass="E53 Place"/>
-    <custom:SemanticEntities xmi:id="10226" sofa="1" begin="1701" end="1707" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="10279" sofa="1" begin="1713" end="1725" SemanticClass="E54 Dimension"/>
-    <custom:SemanticEntities xmi:id="9510" sofa="1" begin="1731" end="1754" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="10363" sofa="1" begin="1763" end="1782" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="9620" sofa="1" begin="1787" end="1813" SemanticClass="E53 Place"/>
-    <custom:SemanticEntities xmi:id="9763" sofa="1" begin="1823" end="1831" Postprocessing="P2 has type:E55 Type:Donation" SemanticClass="E8 Acquisition"/>
-    <custom:SemanticEntities xmi:id="9831" sofa="1" begin="1837" end="1855" Postprocessing="P2 has type:E55 Type:Profession" SemanticClass="E41 Appellation"/>
-    <custom:SemanticEntities xmi:id="9576" sofa="1" begin="1857" end="1863" SemanticClass="E21 Person"/>
-    <custom:SemanticEntities xmi:id="9598" sofa="1" begin="1867" end="1874" SemanticClass="E53 Place"/>
-    <custom:SemanticEntities xmi:id="9554" sofa="1" begin="1916" end="1931" SemanticClass="E20 Biological Object"/>
-    <custom:SemanticEntities xmi:id="9532" sofa="1" begin="1936" end="1968" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
-    <custom:SemanticEntities xmi:id="10636" sofa="1" begin="2010" end="2018" SemanticClass="E54 Dimension"/>
-    <custom:SemanticEntities xmi:id="10614" sofa="1" begin="2019" end="2032" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="10704" sofa="1" begin="2037" end="2087" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="10726" sofa="1" begin="2103" end="2133" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="10748" sofa="1" begin="2142" end="2192" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="10568" sofa="1" begin="2193" end="2204" Postprocessing="P2 has type:E55 Type:Acquisition" SemanticClass="E8 Acquisition"/>
-    <custom:SemanticEntities xmi:id="10883" sofa="1" begin="2247" end="2283"/>
-    <custom:SemanticEntities xmi:id="10839" sofa="1" begin="2356" end="2362" SemanticClass="E52 Time-Span"/>
-    <custom:SemanticEntities xmi:id="10861" sofa="1" begin="2364" end="2372" SemanticClass="E63 Beginning of Existence"/>
-    <custom:SemanticEntities xmi:id="10987" sofa="1" begin="2505" end="2515" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="11009" sofa="1" begin="2520" end="2530" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="10965" sofa="1" begin="2592" end="2601" Postprocessing="P2 has type:E55 Type:Acquisition" SemanticClass="E8 Acquisition"/>
-    <custom:SemanticEntities xmi:id="11101" sofa="1" begin="2608" end="2623" Postprocessing="P2 has type:E55 Type:Library" SemanticClass="E78 Curated Holding"/>
-    <custom:SemanticEntities xmi:id="11213" sofa="1" begin="2693" end="2703" SemanticClass="E8 Acquisition"/>
-    <custom:SemanticEntities xmi:id="11258" sofa="1" begin="2732" end="2815" SemanticClass="E19 Physical Object"/>
-    <custom:SemanticEntities xmi:id="11131" sofa="1" begin="2920" end="2932" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="11145" sofa="1" begin="2972" end="2990" SemanticClass="E87 Curation Activity"/>
-    <custom:SemanticEntities xmi:id="11371" sofa="1" begin="3291" end="3292" SemanticClass="E54 Dimension"/>
-    <custom:SemanticEntities xmi:id="11303" sofa="1" begin="3293" end="3305" Postprocessing="P2 has type:E55 Type:Teaching" SemanticClass="E74 Group"/>
-    <custom:SemanticEntities xmi:id="11432" sofa="1" begin="3349" end="3351" SemanticClass="E54 Dimension"/>
-    <custom:SemanticEntities xmi:id="11341" sofa="1" begin="3352" end="3361" Postprocessing="P2 has type:E55 Type:Teaching" SemanticClass="E74 Group"/>
-    <custom:SemanticEntities xmi:id="11505" sofa="1" begin="3392" end="3401" Postprocessing="P2 has type:E55 Type:Academic Title" SemanticClass="E41 Appellation"/>
-    <custom:SemanticEntities xmi:id="11491" sofa="1" begin="3402" end="3405" Postprocessing="P2 has type:E55 Type:Academic Title" SemanticClass="E41 Appellation"/>
-    <custom:SemanticEntities xmi:id="11477" sofa="1" begin="3406" end="3413" Postprocessing="P2 has type:E55 Type:Reporter" SemanticClass="E21 Person"/>
-    <custom:SemanticEntities xmi:id="11519" sofa="1" begin="3416" end="3424" Postprocessing="P2 has type:E55 Type:Profession" SemanticClass="E41 Appellation"/>
-    <custom:SemanticRelations xmi:id="8612" sofa="1" begin="167" end="174" Dependent="8590" Governor="8455" SemanticProperty="P14 carried out by (performed)"/>
-    <custom:SemanticRelations xmi:id="8635" sofa="1" begin="167" end="174" Dependent="8590" Governor="8477" SemanticProperty="P14 carried out by (performed)"/>
-    <custom:SemanticRelations xmi:id="8786" sofa="1" begin="167" end="174" Dependent="8590" Governor="8499" SemanticProperty="P14 carried out by (performed)"/>
-    <custom:SemanticRelations xmi:id="8432" sofa="1" begin="302" end="315" Dependent="8365" Governor="8387" SemanticProperty="P46 is composed of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="8521" sofa="1" begin="302" end="315" Dependent="8365" Governor="8455" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="8544" sofa="1" begin="302" end="315" Dependent="8365" Governor="8477" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="8567" sofa="1" begin="302" end="315" Dependent="8365" Governor="8499" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="8884" sofa="1" begin="302" end="315" Dependent="8365" Governor="8831" SemanticProperty="P92 brought into existence (was brought into existence by)"/>
-    <custom:SemanticRelations xmi:id="8748" sofa="1" begin="413" end="423" Dependent="8658" Governor="8499" SemanticProperty="P14 carried out by (performed)"/>
-    <custom:SemanticRelations xmi:id="8771" sofa="1" begin="428" end="440" Dependent="8680" Governor="8499" SemanticProperty="P14 carried out by (performed)"/>
-    <custom:SemanticRelations xmi:id="8907" sofa="1" begin="559" end="573" Dependent="8831" Governor="8499" SemanticProperty="P184 ends before or with the end of (ends with or after the end of)"/>
-    <custom:SemanticRelations xmi:id="8930" sofa="1" begin="559" end="573" Dependent="8831" Governor="8477" SemanticProperty="P184 ends before or with the end of (ends with or after the end of)"/>
-    <custom:SemanticRelations xmi:id="8953" sofa="1" begin="559" end="573" Dependent="8831" Governor="8455" SemanticProperty="P184 ends before or with the end of (ends with or after the end of)"/>
-    <custom:SemanticRelations xmi:id="8861" sofa="1" begin="577" end="593" Dependent="8809" Governor="8831" SemanticProperty="P4 has time-span (is time-span of)"/>
-    <custom:SemanticRelations xmi:id="8998" sofa="1" begin="636" end="649" Dependent="8976" Governor="8387" SemanticProperty="P46 is composed of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="9043" sofa="1" begin="636" end="649" Dependent="8976" Governor="9021" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="9111" sofa="1" begin="880" end="924" Dependent="9021" Governor="9066" SemanticProperty="P5 consists of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="9148" sofa="1" begin="1155" end="1187" Dependent="9126" Governor="8976" SemanticProperty="P46 is composed of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="9329" sofa="1" begin="1155" end="1187" Dependent="9126" Governor="9307" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="9352" sofa="1" begin="1217" end="1225" Dependent="9171" Governor="9307" SemanticProperty="P16 used specific object (was used for)"/>
-    <custom:SemanticRelations xmi:id="9375" sofa="1" begin="1231" end="1274" Dependent="9209" Governor="9307" SemanticProperty="P16 used specific object (was used for)"/>
-    <custom:SemanticRelations xmi:id="9398" sofa="1" begin="1276" end="1295" Dependent="9239" Governor="9307" SemanticProperty="P16 used specific object (was used for)"/>
-    <custom:SemanticRelations xmi:id="9421" sofa="1" begin="1323" end="1344" Dependent="9269" Governor="9307" SemanticProperty="P16 used specific object (was used for)"/>
-    <custom:SemanticRelations xmi:id="10077" sofa="1" begin="1535" end="1563" Dependent="9444" Governor="10055" SemanticProperty="P51 has former or current owner (is former or current owner of)"/>
-    <custom:SemanticRelations xmi:id="9686" sofa="1" begin="1585" end="1595" Dependent="9664" Governor="9466" SemanticProperty="P53 has former or current location (is former or current location of)"/>
-    <custom:SemanticRelations xmi:id="9709" sofa="1" begin="1678" end="1687" Dependent="9642" Governor="9488" SemanticProperty="P53 has former or current location (is former or current location of)"/>
-    <custom:SemanticRelations xmi:id="10301" sofa="1" begin="1713" end="1725" Dependent="10279" Governor="9510" SemanticProperty="P43 has dimension (is dimension of)"/>
-    <custom:SemanticRelations xmi:id="10248" sofa="1" begin="1731" end="1754" Dependent="9510" Governor="10226" SemanticProperty="P5 consists of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="10385" sofa="1" begin="1731" end="1754" Dependent="9510" Governor="10363" SemanticProperty="P5 consists of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="10340" sofa="1" begin="1787" end="1813" Dependent="9620" Governor="10226" SemanticProperty="P53 has former or current location (is former or current location of)"/>
-    <custom:SemanticRelations xmi:id="9861" sofa="1" begin="1837" end="1855" Dependent="9831" Governor="9576" SemanticProperty="P1 is identified by (identifies)"/>
-    <custom:SemanticRelations xmi:id="10016" sofa="1" begin="1857" end="1863" Dependent="9576" Governor="9763" SemanticProperty="P23 transferred title from (surrendered title through)"/>
-    <custom:SemanticRelations xmi:id="9884" sofa="1" begin="1867" end="1874" Dependent="9598" Governor="9576" SemanticProperty="P53 has former or current location (is former or current location of)"/>
-    <custom:SemanticRelations xmi:id="9915" sofa="1" begin="1916" end="1931" Dependent="9554" Governor="9763" SemanticProperty="P24 transferred title of (changed ownership through)"/>
-    <custom:SemanticRelations xmi:id="9977" sofa="1" begin="1916" end="1931" Dependent="9554" Governor="9532" SemanticProperty="P5 consists of (forms part of)"/>
-    <custom:SemanticRelations xmi:id="10658" sofa="1" begin="2010" end="2018" Dependent="10636" Governor="10614" SemanticProperty="P43 has dimension (is dimension of)"/>
-    <custom:SemanticRelations xmi:id="10681" sofa="1" begin="2019" end="2032" Dependent="10614" Governor="10568" SemanticProperty="P24 transferred title of (changed ownership through)"/>
-    <custom:SemanticRelations xmi:id="10770" sofa="1" begin="2019" end="2032" Dependent="10614" Governor="10704" SemanticProperty="P19 was intended use of (was made for)"/>
-    <custom:SemanticRelations xmi:id="10793" sofa="1" begin="2019" end="2032" Dependent="10614" Governor="10726" SemanticProperty="P19 was intended use of (was made for)"/>
-    <custom:SemanticRelations xmi:id="10816" sofa="1" begin="2019" end="2032" Dependent="10614" Governor="10748" SemanticProperty="P19 was intended use of (was made for)"/>
-    <custom:SemanticRelations xmi:id="10897" sofa="1" begin="2247" end="2283" Dependent="10883" Governor="10861" SemanticProperty="P92 brought into existence (was brought into existence by)"/>
-    <custom:SemanticRelations xmi:id="10920" sofa="1" begin="2356" end="2362" Dependent="10839" Governor="10861" SemanticProperty="P4 has time-span (is time-span of)"/>
-    <custom:SemanticRelations xmi:id="11054" sofa="1" begin="2505" end="2515" Dependent="10987" Governor="10965" SemanticProperty="P24 transferred title of (changed ownership through)"/>
-    <custom:SemanticRelations xmi:id="11031" sofa="1" begin="2520" end="2530" Dependent="11009" Governor="10965" SemanticProperty="P24 transferred title of (changed ownership through)"/>
-    <custom:SemanticRelations xmi:id="11167" sofa="1" begin="2608" end="2623" Dependent="11101" Governor="11131" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="11190" sofa="1" begin="2608" end="2623" Dependent="11101" Governor="11145" SemanticProperty="P147 curated (was curated by)"/>
-    <custom:SemanticRelations xmi:id="11235" sofa="1" begin="2608" end="2623" Dependent="11101" Governor="11213" SemanticProperty="P22 transferred title to (acquired title through)"/>
-    <custom:SemanticRelations xmi:id="11288" sofa="1" begin="2732" end="2815" Dependent="11258" Governor="11213" SemanticProperty="P24 transferred title of (changed ownership through)"/>
-    <custom:SemanticRelations xmi:id="11393" sofa="1" begin="3291" end="3292" Dependent="11371" Governor="11303" SemanticProperty="P57 has number of parts"/>
-    <custom:SemanticRelations xmi:id="11454" sofa="1" begin="3349" end="3351" Dependent="11432" Governor="11341" SemanticProperty="P57 has number of parts"/>
-    <custom:SemanticRelations xmi:id="11660" sofa="1" begin="3392" end="3401" Dependent="11505" Governor="11477" SemanticProperty="P1 is identified by (identifies)"/>
-    <custom:SemanticRelations xmi:id="11637" sofa="1" begin="3402" end="3405" Dependent="11491" Governor="11477" SemanticProperty="P1 is identified by (identifies)"/>
-    <custom:SemanticRelations xmi:id="11683" sofa="1" begin="3416" end="3424" Dependent="11519" Governor="11477" SemanticProperty="P1 is identified by (identifies)"/>
-    <type:LayerDefinition xmi:id="11760" name="webanno.custom.SemanticRelations" uiName="Semantic Relations"/>
-    <type:LayerDefinition xmi:id="11749" name="webanno.custom.SemanticEntities" uiName="Semantic Entities"/>
-    <type:LayerDefinition xmi:id="11738" name="webanno.custom.OCRCorrection" uiName="OCR Correction"/>
-    <type:FeatureDefinition xmi:id="11745" layer="11738" name="Deletion" uiName="Deletion"/>
-    <type:FeatureDefinition xmi:id="11756" layer="11749" name="SemanticClass" uiName="Semantic Class"/>
-    <type:FeatureDefinition xmi:id="11763" layer="11760" name="SemanticProperty" uiName="Semantic Property"/>
-    <type:FeatureDefinition xmi:id="11741" layer="11738" name="CorrectedString" uiName="Corrected String"/>
-    <type:FeatureDefinition xmi:id="11752" layer="11749" name="Postprocessing" uiName="Postprocessing"/>
-    <type3:TagsetDescription xmi:id="11767" sofa="1" begin="0" end="0" layer="webanno.custom.SemanticEntities" name="CIDOC CRM Entities" input="false"/>
-    <type3:TagsetDescription xmi:id="11780" sofa="1" begin="0" end="0" layer="webanno.custom.SemanticRelations" name="CIDOC CRM Properties" input="false"/>
+    <custom:SemanticEntities xmi:id="8480" sofa="1" begin="357" end="363" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="8503" sofa="1" begin="368" end="380" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="8664" sofa="1" begin="413" end="423" SemanticClass="E39 Actor"/>
+    <custom:SemanticEntities xmi:id="8687" sofa="1" begin="428" end="440" SemanticClass="E39 Actor"/>
+    <custom:SemanticEntities xmi:id="8840" sofa="1" begin="559" end="573" SemanticClass="E63 Beginning of Existence"/>
+    <custom:SemanticEntities xmi:id="8817" sofa="1" begin="577" end="593" SemanticClass="E52 Time-Span"/>
+    <custom:SemanticEntities xmi:id="8986" sofa="1" begin="636" end="649" SemanticClass="E78 Curated Holding"/>
+    <custom:SemanticEntities xmi:id="9032" sofa="1" begin="880" end="924" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="9078" sofa="1" begin="1053" end="1063" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="9139" sofa="1" begin="1155" end="1187" SemanticClass="E78 Curated Holding"/>
+    <custom:SemanticEntities xmi:id="9325" sofa="1" begin="1188" end="1200" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="9185" sofa="1" begin="1217" end="1225" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="9224" sofa="1" begin="1231" end="1274" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="9255" sofa="1" begin="1276" end="1295" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="9286" sofa="1" begin="1323" end="1344" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="9463" sofa="1" begin="1535" end="1563" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E78 Curated Holding"/>
+    <custom:SemanticEntities xmi:id="10088" sofa="1" begin="1535" end="1540" SemanticClass="E21 Person"/>
+    <custom:SemanticEntities xmi:id="9693" sofa="1" begin="1585" end="1595" SemanticClass="E53 Place"/>
+    <custom:SemanticEntities xmi:id="9486" sofa="1" begin="1597" end="1614" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="10174" sofa="1" begin="1642" end="1648" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="9509" sofa="1" begin="1650" end="1671" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="9670" sofa="1" begin="1678" end="1687" SemanticClass="E53 Place"/>
+    <custom:SemanticEntities xmi:id="10261" sofa="1" begin="1701" end="1707" Postprocessing="!P24 transferred title of:E8 Acquisition:Unknown" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="10315" sofa="1" begin="1713" end="1725" SemanticClass="E54 Dimension"/>
+    <custom:SemanticEntities xmi:id="9532" sofa="1" begin="1731" end="1754" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="10400" sofa="1" begin="1763" end="1782" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="9647" sofa="1" begin="1787" end="1813" SemanticClass="E53 Place"/>
+    <custom:SemanticEntities xmi:id="9793" sofa="1" begin="1823" end="1831" Postprocessing="P2 has type:E55 Type:Donation" SemanticClass="E8 Acquisition"/>
+    <custom:SemanticEntities xmi:id="9863" sofa="1" begin="1837" end="1855" Postprocessing="P2 has type:E55 Type:Profession" SemanticClass="E41 Appellation"/>
+    <custom:SemanticEntities xmi:id="9601" sofa="1" begin="1857" end="1863" SemanticClass="E21 Person"/>
+    <custom:SemanticEntities xmi:id="9624" sofa="1" begin="1867" end="1874" SemanticClass="E53 Place"/>
+    <custom:SemanticEntities xmi:id="9578" sofa="1" begin="1916" end="1931" SemanticClass="E20 Biological Object"/>
+    <custom:SemanticEntities xmi:id="9555" sofa="1" begin="1936" end="1968" Postprocessing="P2 has type:E55 Type:Taxon" SemanticClass="E28 Conceptual Object"/>
+    <custom:SemanticEntities xmi:id="10676" sofa="1" begin="2010" end="2018" SemanticClass="E54 Dimension"/>
+    <custom:SemanticEntities xmi:id="10653" sofa="1" begin="2019" end="2032" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="10745" sofa="1" begin="2037" end="2087" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="10768" sofa="1" begin="2103" end="2133" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="10791" sofa="1" begin="2142" end="2192" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="10606" sofa="1" begin="2193" end="2204" Postprocessing="P2 has type:E55 Type:Acquisition" SemanticClass="E8 Acquisition"/>
+    <custom:SemanticEntities xmi:id="10929" sofa="1" begin="2247" end="2283"/>
+    <custom:SemanticEntities xmi:id="10883" sofa="1" begin="2356" end="2362" SemanticClass="E52 Time-Span"/>
+    <custom:SemanticEntities xmi:id="10906" sofa="1" begin="2364" end="2372" SemanticClass="E63 Beginning of Existence"/>
+    <custom:SemanticEntities xmi:id="11035" sofa="1" begin="2505" end="2515" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="11058" sofa="1" begin="2520" end="2530" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="11012" sofa="1" begin="2592" end="2601" Postprocessing="P2 has type:E55 Type:Acquisition" SemanticClass="E8 Acquisition"/>
+    <custom:SemanticEntities xmi:id="11151" sofa="1" begin="2608" end="2623" Postprocessing="P2 has type:E55 Type:Library" SemanticClass="E78 Curated Holding"/>
+    <custom:SemanticEntities xmi:id="11266" sofa="1" begin="2693" end="2703" SemanticClass="E8 Acquisition"/>
+    <custom:SemanticEntities xmi:id="11312" sofa="1" begin="2732" end="2815" SemanticClass="E19 Physical Object"/>
+    <custom:SemanticEntities xmi:id="11182" sofa="1" begin="2920" end="2932" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="11197" sofa="1" begin="2972" end="2990" SemanticClass="E87 Curation Activity"/>
+    <custom:SemanticEntities xmi:id="11428" sofa="1" begin="3291" end="3292" SemanticClass="E54 Dimension"/>
+    <custom:SemanticEntities xmi:id="11358" sofa="1" begin="3293" end="3305" Postprocessing="P2 has type:E55 Type:Teaching" SemanticClass="E74 Group"/>
+    <custom:SemanticEntities xmi:id="11490" sofa="1" begin="3349" end="3351" SemanticClass="E54 Dimension"/>
+    <custom:SemanticEntities xmi:id="11397" sofa="1" begin="3352" end="3361" Postprocessing="P2 has type:E55 Type:Teaching" SemanticClass="E74 Group"/>
+    <custom:SemanticEntities xmi:id="11566" sofa="1" begin="3392" end="3401" Postprocessing="P2 has type:E55 Type:Academic Title" SemanticClass="E41 Appellation"/>
+    <custom:SemanticEntities xmi:id="11551" sofa="1" begin="3402" end="3405" Postprocessing="P2 has type:E55 Type:Academic Title" SemanticClass="E41 Appellation"/>
+    <custom:SemanticEntities xmi:id="11536" sofa="1" begin="3406" end="3413" Postprocessing="P2 has type:E55 Type:Reporter" SemanticClass="E21 Person"/>
+    <custom:SemanticEntities xmi:id="11581" sofa="1" begin="3416" end="3424" Postprocessing="P2 has type:E55 Type:Profession" SemanticClass="E41 Appellation"/>
+    <custom:SemanticRelations xmi:id="8618" sofa="1" begin="167" end="174" Dependent="8595" Governor="8457" SemanticProperty="P14 carried out by (performed)"/>
+    <custom:SemanticRelations xmi:id="8641" sofa="1" begin="167" end="174" Dependent="8595" Governor="8480" SemanticProperty="P14 carried out by (performed)"/>
+    <custom:SemanticRelations xmi:id="8794" sofa="1" begin="167" end="174" Dependent="8595" Governor="8503" SemanticProperty="P14 carried out by (performed)"/>
+    <custom:SemanticRelations xmi:id="8434" sofa="1" begin="302" end="315" Dependent="8365" Governor="8388" SemanticProperty="P46 is composed of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="8526" sofa="1" begin="302" end="315" Dependent="8365" Governor="8457" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="8549" sofa="1" begin="302" end="315" Dependent="8365" Governor="8480" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="8572" sofa="1" begin="302" end="315" Dependent="8365" Governor="8503" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="8894" sofa="1" begin="302" end="315" Dependent="8365" Governor="8840" SemanticProperty="P92 brought into existence (was brought into existence by)"/>
+    <custom:SemanticRelations xmi:id="8756" sofa="1" begin="413" end="423" Dependent="8664" Governor="8503" SemanticProperty="P14 carried out by (performed)"/>
+    <custom:SemanticRelations xmi:id="8779" sofa="1" begin="428" end="440" Dependent="8687" Governor="8503" SemanticProperty="P14 carried out by (performed)"/>
+    <custom:SemanticRelations xmi:id="8917" sofa="1" begin="559" end="573" Dependent="8840" Governor="8503" SemanticProperty="P184 ends before or with the end of (ends with or after the end of)"/>
+    <custom:SemanticRelations xmi:id="8940" sofa="1" begin="559" end="573" Dependent="8840" Governor="8480" SemanticProperty="P184 ends before or with the end of (ends with or after the end of)"/>
+    <custom:SemanticRelations xmi:id="8963" sofa="1" begin="559" end="573" Dependent="8840" Governor="8457" SemanticProperty="P184 ends before or with the end of (ends with or after the end of)"/>
+    <custom:SemanticRelations xmi:id="8871" sofa="1" begin="577" end="593" Dependent="8817" Governor="8840" SemanticProperty="P4 has time-span (is time-span of)"/>
+    <custom:SemanticRelations xmi:id="9009" sofa="1" begin="636" end="649" Dependent="8986" Governor="8388" SemanticProperty="P46 is composed of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="9055" sofa="1" begin="636" end="649" Dependent="8986" Governor="9032" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="9124" sofa="1" begin="880" end="924" Dependent="9032" Governor="9078" SemanticProperty="P5 consists of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="9162" sofa="1" begin="1155" end="1187" Dependent="9139" Governor="8986" SemanticProperty="P46 is composed of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="9348" sofa="1" begin="1155" end="1187" Dependent="9139" Governor="9325" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="9371" sofa="1" begin="1217" end="1225" Dependent="9185" Governor="9325" SemanticProperty="P16 used specific object (was used for)"/>
+    <custom:SemanticRelations xmi:id="9394" sofa="1" begin="1231" end="1274" Dependent="9224" Governor="9325" SemanticProperty="P16 used specific object (was used for)"/>
+    <custom:SemanticRelations xmi:id="9417" sofa="1" begin="1276" end="1295" Dependent="9255" Governor="9325" SemanticProperty="P16 used specific object (was used for)"/>
+    <custom:SemanticRelations xmi:id="9440" sofa="1" begin="1323" end="1344" Dependent="9286" Governor="9325" SemanticProperty="P16 used specific object (was used for)"/>
+    <custom:SemanticRelations xmi:id="10111" sofa="1" begin="1535" end="1563" Dependent="9463" Governor="10088" SemanticProperty="P51 has former or current owner (is former or current owner of)"/>
+    <custom:SemanticRelations xmi:id="9716" sofa="1" begin="1585" end="1595" Dependent="9693" Governor="9486" SemanticProperty="P53 has former or current location (is former or current location of)"/>
+    <custom:SemanticRelations xmi:id="9739" sofa="1" begin="1678" end="1687" Dependent="9670" Governor="9509" SemanticProperty="P53 has former or current location (is former or current location of)"/>
+    <custom:SemanticRelations xmi:id="10338" sofa="1" begin="1713" end="1725" Dependent="10315" Governor="9532" SemanticProperty="P43 has dimension (is dimension of)"/>
+    <custom:SemanticRelations xmi:id="10284" sofa="1" begin="1731" end="1754" Dependent="9532" Governor="10261" SemanticProperty="P5 consists of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="10423" sofa="1" begin="1731" end="1754" Dependent="9532" Governor="10400" SemanticProperty="P5 consists of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="10377" sofa="1" begin="1787" end="1813" Dependent="9647" Governor="10261" SemanticProperty="P53 has former or current location (is former or current location of)"/>
+    <custom:SemanticRelations xmi:id="9894" sofa="1" begin="1837" end="1855" Dependent="9863" Governor="9601" SemanticProperty="P1 is identified by (identifies)"/>
+    <custom:SemanticRelations xmi:id="10049" sofa="1" begin="1857" end="1863" Dependent="9601" Governor="9793" SemanticProperty="P23 transferred title from (surrendered title through)"/>
+    <custom:SemanticRelations xmi:id="9917" sofa="1" begin="1867" end="1874" Dependent="9624" Governor="9601" SemanticProperty="P53 has former or current location (is former or current location of)"/>
+    <custom:SemanticRelations xmi:id="9948" sofa="1" begin="1916" end="1931" Dependent="9578" Governor="9793" SemanticProperty="P24 transferred title of (changed ownership through)"/>
+    <custom:SemanticRelations xmi:id="10010" sofa="1" begin="1916" end="1931" Dependent="9578" Governor="9555" SemanticProperty="P5 consists of (forms part of)"/>
+    <custom:SemanticRelations xmi:id="10699" sofa="1" begin="2010" end="2018" Dependent="10676" Governor="10653" SemanticProperty="P43 has dimension (is dimension of)"/>
+    <custom:SemanticRelations xmi:id="10722" sofa="1" begin="2019" end="2032" Dependent="10653" Governor="10606" SemanticProperty="P24 transferred title of (changed ownership through)"/>
+    <custom:SemanticRelations xmi:id="10814" sofa="1" begin="2019" end="2032" Dependent="10653" Governor="10745" SemanticProperty="P19 was intended use of (was made for)"/>
+    <custom:SemanticRelations xmi:id="10837" sofa="1" begin="2019" end="2032" Dependent="10653" Governor="10768" SemanticProperty="P19 was intended use of (was made for)"/>
+    <custom:SemanticRelations xmi:id="10860" sofa="1" begin="2019" end="2032" Dependent="10653" Governor="10791" SemanticProperty="P19 was intended use of (was made for)"/>
+    <custom:SemanticRelations xmi:id="10944" sofa="1" begin="2247" end="2283" Dependent="10929" Governor="10906" SemanticProperty="P92 brought into existence (was brought into existence by)"/>
+    <custom:SemanticRelations xmi:id="10967" sofa="1" begin="2356" end="2362" Dependent="10883" Governor="10906" SemanticProperty="P4 has time-span (is time-span of)"/>
+    <custom:SemanticRelations xmi:id="11104" sofa="1" begin="2505" end="2515" Dependent="11035" Governor="11012" SemanticProperty="P24 transferred title of (changed ownership through)"/>
+    <custom:SemanticRelations xmi:id="11081" sofa="1" begin="2520" end="2530" Dependent="11058" Governor="11012" SemanticProperty="P24 transferred title of (changed ownership through)"/>
+    <custom:SemanticRelations xmi:id="11220" sofa="1" begin="2608" end="2623" Dependent="11151" Governor="11182" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="11243" sofa="1" begin="2608" end="2623" Dependent="11151" Governor="11197" SemanticProperty="P147 curated (was curated by)"/>
+    <custom:SemanticRelations xmi:id="11289" sofa="1" begin="2608" end="2623" Dependent="11151" Governor="11266" SemanticProperty="P22 transferred title to (acquired title through)"/>
+    <custom:SemanticRelations xmi:id="11343" sofa="1" begin="2732" end="2815" Dependent="11312" Governor="11266" SemanticProperty="P24 transferred title of (changed ownership through)"/>
+    <custom:SemanticRelations xmi:id="11451" sofa="1" begin="3291" end="3292" Dependent="11428" Governor="11358" SemanticProperty="P57 has number of parts"/>
+    <custom:SemanticRelations xmi:id="11513" sofa="1" begin="3349" end="3351" Dependent="11490" Governor="11397" SemanticProperty="P57 has number of parts"/>
+    <custom:SemanticRelations xmi:id="11723" sofa="1" begin="3392" end="3401" Dependent="11566" Governor="11536" SemanticProperty="P1 is identified by (identifies)"/>
+    <custom:SemanticRelations xmi:id="11700" sofa="1" begin="3402" end="3405" Dependent="11551" Governor="11536" SemanticProperty="P1 is identified by (identifies)"/>
+    <custom:SemanticRelations xmi:id="11746" sofa="1" begin="3416" end="3424" Dependent="11581" Governor="11536" SemanticProperty="P1 is identified by (identifies)"/>
+    <type:LayerDefinition xmi:id="11812" name="webanno.custom.SemanticEntities" uiName="Semantic Entities"/>
+    <type:LayerDefinition xmi:id="11801" name="webanno.custom.OCRCorrection" uiName="OCR Correction"/>
+    <type:LayerDefinition xmi:id="11827" name="webanno.custom.SemanticRelations" uiName="Semantic Relations"/>
+    <type:FeatureDefinition xmi:id="11823" layer="11812" name="SemanticClass" uiName="Semantic Class"/>
+    <type:FeatureDefinition xmi:id="11819" layer="11812" name="Postprocessing" uiName="Postprocessing"/>
+    <type:FeatureDefinition xmi:id="11808" layer="11801" name="Deletion" uiName="Deletion"/>
+    <type:FeatureDefinition xmi:id="11815" layer="11812" name="HasType" uiName="Has Type"/>
+    <type:FeatureDefinition xmi:id="11804" layer="11801" name="CorrectedString" uiName="Corrected String"/>
+    <type:FeatureDefinition xmi:id="11830" layer="11827" name="SemanticProperty" uiName="Semantic Property"/>
+    <type3:TagsetDescription xmi:id="11834" sofa="1" begin="0" end="0" layer="webanno.custom.SemanticEntities" name="CIDOC CRM Entities" input="false"/>
+    <type3:TagsetDescription xmi:id="11847" sofa="1" begin="0" end="0" layer="webanno.custom.SemanticRelations" name="CIDOC CRM Properties" input="false"/>
     <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="====PAGEBEGIN 137====&#13;&#10;&#13;&#10;133&#13;&#10;2. Geologisch-palaeontologische Sammlung nebst Institut.&#13;&#10;Während der ersten Hälfte des verflossenen Etatsjahres&#13;&#10;war die Thätigkeit der Beamten fast ausschliesslich damit in&#13;&#10;Anspruch genommen, aus den vorhandenen Beständen diejenigen&#13;&#10;Stücke auszusuchen, welche für die Schausammlung geeignet&#13;&#10;schienen, dann diese Stücke zu ordnen und aufzustellen, sowie&#13;&#10;die dabei beschäftigten Handwerker und Kalligraphen zu beauf­sichtigen und zu instruiren. Diese Arbeit ist soweit ausgeführt,&#13;&#10;dass der Schausammlungssaal der Thiere am KEinweihungstage&#13;&#10;(2. December 1889) fertig gestellt war.&#13;&#10;Die Neuordnung der Hauptsammlung hat durch die eben&#13;&#10;erwähnte Thätigkeit nur geringe Fortschritte gemacht. Sie&#13;&#10;wurde allmählich, je nachdem die neuen Schrankreihen von den&#13;&#10;Tischlern abgeliefert worden, aus den alten Schränken in diese&#13;&#10;umgelegt und ist nunmehr völlig in den neuen Schränken unter­gebracht. Diese Umlegung geschah auf Grund sorgfältig er­wogener Dispositionen, so dass damit eine der wichtigsten Vor­arbeiten für eine Neuordnung als erledigt zu betrachten ist.&#13;&#10;Nach der Einweihung sind bereits einzelne Theile aus der&#13;&#10;Abtheilung der wirbellosen Tiere neu geordnet worden, so die&#13;&#10;Spongien, die palaeozoischen und triassischen Gastropoden, tertiäre&#13;&#10;Mollusken verschiedener Fundorte und jurassische Ammoniten.&#13;&#10;Ferner ist ein Theil der Zugänge in die Hauptsammlung ein­geordnet worden.&#13;&#10;Die Bereicherung der Sammlung war im vergangenen Jahre&#13;&#10;eine sehr bedeutende. Vor Allem ist hier zu nennen die&#13;&#10;Künow'sehe Bernsteinsammlung, grössere Suiten von englischen&#13;&#10;Jura- Petrefakten, ein Exemplar des ältesten Reptils ­Stereostenum tumidum — aus Brasilien. ferner eine Platte mit&#13;&#10;19 Exemplaren von Neusticosaurus pusillus aus der Lettenkohlen­gruppe von Ludwigsburg in Württemberg, und als Geschenk&#13;&#10;des Kiesgrubenbesitzers Korner in Rixdorf ein ungewdhnlich&#13;&#10;vollständig erhaltenes Schädelfragment vom Riesenhirsch (Cervus&#13;&#10;euryceros).&#13;&#10;Behufs Ordnung der Hauptsammlung wurde allerlei Hand­werkzeug zur Anfertigung von Gestellen für grössere Petrefakten&#13;&#10;sowie für die Herrichtung von Gesteinsstufen und das Her­stellen von Gesteins- und Petrefaktenschliffen angeschafft.&#13;&#10;&#13;&#10;====PAGEBREAK TO 138====&#13;&#10;&#13;&#10;134&#13;&#10;Das geologisch-palaeontologische Jnstitut wurde nach Mass­gabe der vorhandenen Mittel so eingerichtet, dass es am 1. Mai&#13;&#10;eröffnet werden konnte. Für dasselbe besteht eine theils aus&#13;&#10;Dubletten, theils aus Neu-Anschaffungen entstandene Bibliothek.&#13;&#10;Ferner wurden Mikroskope und Standlupen zum Gebrauch bei&#13;&#10;Vorlesungen und bei eigenen Untersuchungen beschafft.&#13;&#10;Die Hauptbibliothek ist Dank der zur Verfügung stehenden&#13;&#10;ausserordentlichen Mittel sehr bereichert worden, namentlich&#13;&#10;auch an grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken. Sie ist nach Aussonderung&#13;&#10;der der mineralogisch-petrographischen Sammlung überwiesenen&#13;&#10;Bücher völlig neu geordnet und aufgestellt, und es ist mit einer&#13;&#10;Neu-Katalogisirung begonnen.&#13;&#10;Der Besuch des Instituts konnte noch nicht bedeutend sein,&#13;&#10;da die Beamten, wie erwähnt, mit der Herstellung der Schau­sammlung‘ fast ausschliesslich beschäftigt waren und somit die&#13;&#10;Praktikanten und Studenten von ihnen nur geringe Förderung&#13;&#10;erwarten durften. Es haben im Lauf des Jahres 8 Praktikanten&#13;&#10;selbstständige Untersuchungen gemacht und 12 Studenten die&#13;&#10;Lehrsammlungen benutzt.&#13;&#10;Professor Dr. Beyrich,&#13;&#10;Direktor der geologisch-palaeontologischen Sammlung.&#13;&#10;3. Mineralogiseh-petrographisches Institut.&#13;&#10;Das mit dem Wintersemester 1888/89 ins Leben und in&#13;&#10;Wirksamkeit getretene mineralogisch-petrographische Institut&#13;&#10;hat zunächst die Aufgabe, den durch die nöthigen Vorlesungen&#13;&#10;dazu vorbereiteten Studirenden die Möglichkeit zu gewähren,&#13;&#10;sich in Mineralogie und Petrographie wissenschaftlich auszubilden.&#13;&#10;respective in diesen Disciplinen eigene Arbeiten zu unternehmen.&#13;&#10;Um dieses zu bewirken, sind vorab eine mineralogische und&#13;&#10;eine petrographische Repetirsammlung erforderlich. Dieselben&#13;&#10;wurden gebildet und im Wintersemester 1889/90 der Benutzung&#13;&#10;übergeben.&#13;&#10;Was die Arbeitseinrichtung anlangt, so wurden für Anfünger&#13;&#10;8 Arbeitsplätze geschaffen und für Vorgerücktere deren 4 für&#13;&#10;mineralogisch - krystallographische Arbeiten eingerichtet. Die&#13;&#10;Herstellung der chemisch-petrographischen Einrichtung für Vor­ä"/>
-    <cas:View sofa="1" members="8 19 24 29 34 39 44 49 54 59 64 69 74 79 84 89 94 99 104 109 114 119 124 129 134 139 144 149 154 159 164 169 182 195 208 221 234 247 260 273 286 299 312 325 338 351 364 377 390 403 416 429 442 455 468 481 494 507 520 533 546 559 572 585 598 611 624 637 650 663 676 689 702 715 728 741 754 767 780 793 806 819 832 845 858 871 884 897 910 923 936 949 962 975 988 1001 1014 1027 1040 1053 1066 1079 1092 1105 1118 1131 1144 1157 1170 1183 1196 1209 1222 1235 1248 1261 1274 1287 1300 1313 1326 1339 1352 1365 1378 1391 1404 1417 1430 1443 1456 1469 1482 1495 1508 1521 1534 1547 1560 1573 1586 1599 1612 1625 1638 1651 1664 1677 1690 1703 1716 1729 1742 1755 1768 1781 1794 1807 1820 1833 1846 1859 1872 1885 1898 1911 1924 1937 1950 1963 1976 1989 2002 2015 2028 2041 2054 2067 2080 2093 2106 2119 2132 2145 2158 2171 2184 2197 2210 2223 2236 2249 2262 2275 2288 2301 2314 2327 2340 2353 2366 2379 2392 2405 2418 2431 2444 2457 2470 2483 2496 2509 2522 2535 2548 2561 2574 2587 2600 2613 2626 2639 2652 2665 2678 2691 2704 2717 2730 2743 2756 2769 2782 2795 2808 2821 2834 2847 2860 2873 2886 2899 2912 2925 2938 2951 2964 2977 2990 3003 3016 3029 3042 3055 3068 3081 3094 3107 3120 3133 3146 3159 3172 3185 3198 3211 3224 3237 3250 3263 3276 3289 3302 3315 3328 3341 3354 3367 3380 3393 3406 3419 3432 3445 3458 3471 3484 3497 3510 3523 3536 3549 3562 3575 3588 3601 3614 3627 3640 3653 3666 3679 3692 3705 3718 3731 3744 3757 3770 3783 3796 3809 3822 3835 3848 3861 3874 3887 3900 3913 3926 3939 3952 3965 3978 3991 4004 4017 4030 4043 4056 4069 4082 4095 4108 4121 4134 4147 4160 4173 4186 4199 4212 4225 4238 4251 4264 4277 4290 4303 4316 4329 4342 4355 4368 4381 4394 4407 4420 4433 4446 4459 4472 4485 4498 4511 4524 4537 4550 4563 4576 4589 4602 4615 4628 4641 4654 4667 4680 4693 4706 4719 4732 4745 4758 4771 4784 4797 4810 4823 4836 4849 4862 4875 4888 4901 4914 4927 4940 4953 4966 4979 4992 5005 5018 5031 5044 5057 5070 5083 5096 5109 5122 5135 5148 5161 5174 5187 5200 5213 5226 5239 5252 5265 5278 5291 5304 5317 5330 5343 5356 5369 5382 5395 5408 5421 5434 5447 5460 5473 5486 5499 5512 5525 5538 5551 5564 5577 5590 5603 5616 5629 5642 5655 5668 5681 5694 5707 5720 5733 5746 5759 5772 5785 5798 5811 5824 5837 5850 5863 5876 5889 5902 5915 5928 5941 5954 5967 5980 5993 6006 6019 6032 6045 6058 6071 6084 6097 6110 6123 6136 6149 6162 6175 6188 6201 6214 6227 6240 6253 6266 6279 6292 6305 6318 6331 6344 6357 6370 6383 6396 6409 6422 6435 6448 6461 6474 6487 6500 6513 6526 6539 6552 6565 6578 6591 6604 6617 6630 6643 6656 6669 6682 6695 6708 6721 6734 6747 6760 6773 6786 6799 6812 6825 6838 6851 6864 6877 6890 6903 6916 6929 6942 6955 6968 6981 6994 7007 7020 7033 7046 7059 7072 7085 7098 7111 7124 7137 7150 7163 7176 7189 7202 7215 7228 7241 7254 7267 7280 7293 7306 7319 7332 7345 7358 7371 7384 7397 7410 7423 7436 7449 7462 7475 7488 7501 7514 7527 7540 7553 7566 7579 7592 7605 7618 7631 7644 7657 7670 7683 7696 7709 7722 7735 7748 7761 7774 7787 7800 7813 7826 7839 7852 7865 7878 7891 7904 7917 7930 7943 7956 7969 7982 7995 8008 8021 8034 8047 8060 8073 8086 8099 8112 8125 8138 8151 8164 8177 8190 8203 8216 8229 8242 8263 8285 8307 10943 8329 8387 8590 8455 8365 8477 8499 8658 8680 8831 8809 8976 9021 9066 9126 9307 9171 9209 9239 9269 9444 10055 9664 9466 10140 9488 9642 10226 10279 9510 10363 9620 9763 9831 9576 9598 9554 9532 10636 10614 10704 10726 10748 10568 10883 10839 10861 10987 11009 10965 11101 11213 11258 11131 11145 11371 11303 11432 11341 11505 11491 11477 11519 8612 8635 8786 8432 8521 8544 8567 8884 8748 8771 8907 8930 8953 8861 8998 9043 9111 9148 9329 9352 9375 9398 9421 10077 9686 9709 10301 10248 10385 10340 9861 10016 9884 9915 9977 10658 10681 10770 10793 10816 10897 10920 11054 11031 11167 11190 11235 11288 11393 11454 11660 11637 11683 11760 11749 11738 11745 11756 11763 11741 11752 11767 11780"/>
+    <cas:View sofa="1" members="8 19 24 29 34 39 44 49 54 59 64 69 74 79 84 89 94 99 104 109 114 119 124 129 134 139 144 149 154 159 164 169 182 195 208 221 234 247 260 273 286 299 312 325 338 351 364 377 390 403 416 429 442 455 468 481 494 507 520 533 546 559 572 585 598 611 624 637 650 663 676 689 702 715 728 741 754 767 780 793 806 819 832 845 858 871 884 897 910 923 936 949 962 975 988 1001 1014 1027 1040 1053 1066 1079 1092 1105 1118 1131 1144 1157 1170 1183 1196 1209 1222 1235 1248 1261 1274 1287 1300 1313 1326 1339 1352 1365 1378 1391 1404 1417 1430 1443 1456 1469 1482 1495 1508 1521 1534 1547 1560 1573 1586 1599 1612 1625 1638 1651 1664 1677 1690 1703 1716 1729 1742 1755 1768 1781 1794 1807 1820 1833 1846 1859 1872 1885 1898 1911 1924 1937 1950 1963 1976 1989 2002 2015 2028 2041 2054 2067 2080 2093 2106 2119 2132 2145 2158 2171 2184 2197 2210 2223 2236 2249 2262 2275 2288 2301 2314 2327 2340 2353 2366 2379 2392 2405 2418 2431 2444 2457 2470 2483 2496 2509 2522 2535 2548 2561 2574 2587 2600 2613 2626 2639 2652 2665 2678 2691 2704 2717 2730 2743 2756 2769 2782 2795 2808 2821 2834 2847 2860 2873 2886 2899 2912 2925 2938 2951 2964 2977 2990 3003 3016 3029 3042 3055 3068 3081 3094 3107 3120 3133 3146 3159 3172 3185 3198 3211 3224 3237 3250 3263 3276 3289 3302 3315 3328 3341 3354 3367 3380 3393 3406 3419 3432 3445 3458 3471 3484 3497 3510 3523 3536 3549 3562 3575 3588 3601 3614 3627 3640 3653 3666 3679 3692 3705 3718 3731 3744 3757 3770 3783 3796 3809 3822 3835 3848 3861 3874 3887 3900 3913 3926 3939 3952 3965 3978 3991 4004 4017 4030 4043 4056 4069 4082 4095 4108 4121 4134 4147 4160 4173 4186 4199 4212 4225 4238 4251 4264 4277 4290 4303 4316 4329 4342 4355 4368 4381 4394 4407 4420 4433 4446 4459 4472 4485 4498 4511 4524 4537 4550 4563 4576 4589 4602 4615 4628 4641 4654 4667 4680 4693 4706 4719 4732 4745 4758 4771 4784 4797 4810 4823 4836 4849 4862 4875 4888 4901 4914 4927 4940 4953 4966 4979 4992 5005 5018 5031 5044 5057 5070 5083 5096 5109 5122 5135 5148 5161 5174 5187 5200 5213 5226 5239 5252 5265 5278 5291 5304 5317 5330 5343 5356 5369 5382 5395 5408 5421 5434 5447 5460 5473 5486 5499 5512 5525 5538 5551 5564 5577 5590 5603 5616 5629 5642 5655 5668 5681 5694 5707 5720 5733 5746 5759 5772 5785 5798 5811 5824 5837 5850 5863 5876 5889 5902 5915 5928 5941 5954 5967 5980 5993 6006 6019 6032 6045 6058 6071 6084 6097 6110 6123 6136 6149 6162 6175 6188 6201 6214 6227 6240 6253 6266 6279 6292 6305 6318 6331 6344 6357 6370 6383 6396 6409 6422 6435 6448 6461 6474 6487 6500 6513 6526 6539 6552 6565 6578 6591 6604 6617 6630 6643 6656 6669 6682 6695 6708 6721 6734 6747 6760 6773 6786 6799 6812 6825 6838 6851 6864 6877 6890 6903 6916 6929 6942 6955 6968 6981 6994 7007 7020 7033 7046 7059 7072 7085 7098 7111 7124 7137 7150 7163 7176 7189 7202 7215 7228 7241 7254 7267 7280 7293 7306 7319 7332 7345 7358 7371 7384 7397 7410 7423 7436 7449 7462 7475 7488 7501 7514 7527 7540 7553 7566 7579 7592 7605 7618 7631 7644 7657 7670 7683 7696 7709 7722 7735 7748 7761 7774 7787 7800 7813 7826 7839 7852 7865 7878 7891 7904 7917 7930 7943 7956 7969 7982 7995 8008 8021 8034 8047 8060 8073 8086 8099 8112 8125 8138 8151 8164 8177 8190 8203 8216 8229 8242 8263 8285 8307 10990 8329 8388 8595 8457 8365 8480 8503 8664 8687 8840 8817 8986 9032 9078 9139 9325 9185 9224 9255 9286 9463 10088 9693 9486 10174 9509 9670 10261 10315 9532 10400 9647 9793 9863 9601 9624 9578 9555 10676 10653 10745 10768 10791 10606 10929 10883 10906 11035 11058 11012 11151 11266 11312 11182 11197 11428 11358 11490 11397 11566 11551 11536 11581 8618 8641 8794 8434 8526 8549 8572 8894 8756 8779 8917 8940 8963 8871 9009 9055 9124 9162 9348 9371 9394 9417 9440 10111 9716 9739 10338 10284 10423 10377 9894 10049 9917 9948 10010 10699 10722 10814 10837 10860 10944 10967 11104 11081 11220 11243 11289 11343 11451 11513 11723 11700 11746 11812 11801 11827 11823 11819 11808 11815 11804 11830 11834 11847"/>
 </xmi:XMI>

@@ -75,7 +75,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Publikum
-- Besuche sind `P2 has type:E55 Type:Visiting` mit `P2 has type:E55 Type:Visiting`
+- Besuche sind `E7 Activity` mit `P2 has type:E55 Type:Visiting`
 
       	↓ `P14 carried out by`
 
@@ -113,7 +113,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1888 |    X   |               -              |              -             |      -     |
 | 1889 |    X   |               X              |              X             |      X     |
 | 1890 |    X   |               X              |              X             |      X     |
-| 1891 |        |                              |                            |            |
+| 1891 |    X   |               X              |              X             |            |
 | 1892 |        |                              |                            |            |
 | 1893 |        |                              |                            |            |
 | 1894 |        |                              |                            |            |
@@ -157,6 +157,8 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 - Text und Bild für Webseite verfassen (deutsch und englisch)
 - Web-Team kontaktieren
 - Große Runde zum Vernetzen organisieren (wg. Verknüpfen von verschiedenen Datenquellen)
+- Terminvorschlag Projektvorstellung SDI
+- Franziska Schuster bzgl. SHK anschreiben
 
 ### Erledigt
 - [Identifikation der Seiten](https://docs.google.com/spreadsheets/d/1rg0r8WQP9fFhK58a9auRFerCYfGgzt_QPgEgJ_DOjyQ/edit?usp=sharing) in den digitalisierten Chroniken, die das Museum betreffen

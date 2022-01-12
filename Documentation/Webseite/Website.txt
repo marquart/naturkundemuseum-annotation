@@ -1,9 +1,10 @@
+==Deutsch:==
 Digitale Edition der Jahresberichte des Museums für Naturkunde 1887-1915 und 1928-1938
 
 Als die zoologischen, mineralogisch-petrographischen und geologisch-paläontologischen Sammlungen und Institute zum Museum für Naturkunde der Friedrich-Wilhelms-Universität zu Berlin räumlich und organisatorisch zusammengeschlossen wurden, wurde auch jährlich begonnen bedeutende Ereignisse im Rahmen der Chronik der Universität zu dokumentieren. Mit diesem Zeitzeugnis ist es uns für die 28 Jahre zwischen 1887 und 1915 und die 10 Jahre zwischen 1928 und 1938 möglich, einen Blick auf die Geschichte des Museums zu werfen. Insbesondere lassen sich Informationen zur Organisationsstruktur des Museums, zu personellen Veränderungen, Veröffentlichungen und Lehrveranstaltungen, Raumnutzung, Museumsinfrastruktur, Ordnungen, Nutzung und Zuwachs der einzelnen Museumssammlungen sowie ihrer wissenschaftlichen Auswertung und Bearbeitung finden. Daneben sind zahlreiche Sammler*innennamen sowie Herkunftsorte und Informationen des Zu- und Abgangs von Objekten enthalten.
 Das Projekt dient interdisziplinären Interessen von Kurator*innen, Sammlungsmanager*innen, Digitalisierungsverantwortlichen, Forscher*innen, Bürgerwissenschaftler*innen, Guides etc. und stellt diese Quelle für weitergehende Forschungen zur Verfügung
 
-Das Projekt hat zum Ziel:
+Das Projekt hat methodisch zum Ziel:
 - semantische Annotation der Texte anhand dem vom International Council of Museums entwickelten CIDOC Conceptual Reference Model (CRM)
 - Modellierung der Annotationen in einer Graphdatenbank, um möglichst einfach sowohl Daten aus externen Quellen zu integrieren als auch anderen Quellen die Möglichkeit zu bieten, die Informationen der Jahresberichte in ihren eigenen Wissensgraph einzubetten
 - Entwicklung einer Webplattform mit der die Informationen aus der Graphdatenbank abgefragt werden können
@@ -15,11 +16,10 @@ Dadurch sollen insbesondere die Grundlagen für neue Perspektiven auf
 - die Identifikation der wichtigsten Herkunftsregionen und Hauptakteur*innen in diesem Zeitraum
 - die globale und lokale Vernetzung des Museums
 - die Rekonstruktion der Sammler*innen- und Institutionennetzwerke
-- die Erschließung von Metadaten für die taxonomische Arbeit an den Objekten
 - die Geschichte der Schausammlung sowie der präparatorischen Arbeit an den Objekten
 gelegt werden.
 
-
+==English:==
 Digital Edition of the Annual Reports of the Museum 1887-1915 and 1928-1938
 
 When the zoological, mineralogical-petrographical and geological-paleontological collections and institutes were spatially and organizationally merged to form the Museum für Naturkunde of the Friedrich-Wilhelms-Universität zu Berlin, significant events were documented annually as part of the chronicle of the university. With this contemporary record it is possible to take a look at the history of the museum for the 28 years between 1887 and 1915 and the 10 years between 1928 and 1938. In particular, information can be found on the organizational structure of the museum, personnel changes, publications and lectures, use of space, development of the museum infrastructure, arrangements, utilization and growth of the individual museum collections as well as their scientific evaluation and curation. In addition, numerous collectors' names as well as places of origin and information on the inflow and outflow of objects are included.
@@ -37,4 +37,3 @@ The project should form foundations for new perspectives on
 - the identification of original regions and main collectors during this period
 - the reconstruction of the institutions' global and local networks
 - the history of the exhibition and the preparatory work on the objects.
-
