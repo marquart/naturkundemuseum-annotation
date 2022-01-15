@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+%\setmainfont[Ligatures=TeX, BoldFont=Libertinus Serif Semibold, BoldItalicFont=Libertinus Serif Semibold Italic]{Libertinus Serif}
+%\setmainfont[Ligatures=TeX, ItalicFont=Source Serif Pro Light Italic, BoldFont=Source Serif Pro, BoldItalicFont=Source Serif Pro Italic]{Source Serif Pro Light}
+%\setmainfont[Ligatures=TeX, BoldFont=Source Serif Pro Semibold, BoldItalicFont=Source Serif Pro Semibold Italic]{Source Serif Pro}
+\setmainfont[Ligatures=TeX, BoldFont=Source Sans Pro Semibold, BoldItalicFont=Source Sans Pro Semibold Italic]{Source Sans Pro}
+%\setmainfont[Ligatures=TeX, BoldFont=Noto Serif SemiBold, BoldItalicFont=Noto Serif SemiBold Italic]{Noto Serif}
+%\setmainfont[Ligatures=TeX, BoldFont=Vollkorn SemiBold, BoldItalicFont=Vollkorn SemiBold Italic, Numbers={Proportional,Uppercase}]{Vollkorn} %TeX Gyre Pagella
+\setmonofont{Nimbus Mono}
+%\usepackage{indentfirst} %Paragraph Indent after Headings
+
+\usepackage{polyglossia}
+\setmainlanguage{german}
+
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+\usepackage[onehalfspacing]{setspace}
+
+\usepackage{graphicx} %package to manage images
+\graphicspath{ {./images/} }
+
+\usepackage{bookmark}
+\usepackage{hyperref}
+
+\usepackage{csquotes}
+\usepackage{caption}
+\captionsetup{font=footnotesize,width=0.95\textwidth} %justification=raggedright,
+
+
+\begin{document}
+{ \centering
+    \begin{spacing}{1.8}
+        {\scshape \Large Provenienz und Forschung:\\
+        Digitale Edition der Jahresberichte des Museums für Naturkunde 1887--1915 und 1928--1938}
+    \end{spacing}
+    
+    {
+        %\vspace{6pt} %fontsize*0.5
+        
+        \bigskip%\vspace{22pt} %fontsize*1
+        \huge Grundkonzept Websystem\par
+        \medskip
+        \rule{0.07\textwidth}{0.7pt}
+    }\par
+    
+    Berlin, \today
+
+}\par
+
+
+\bigskip
+\tableofcontents
+\clearpage
+
+\section{Rolle der Webseite im Kontext des Projektes}
+Das Projekt, das vom Innovationsfonds des Museums finanziert wird, hat sich zu Ziel gesetzt eine digitale Edition der Jahresberichte des Museums zu entwickeln. Für eine erfolgreiche Umsetzung einer digitalen Edition ist ein Webservice zentral, der als Anlaufstelle für die Ergebnisse des Projektes fungiert. 
+
+
+\section{Kurzbeschreibung der allgemeinen funktionalen Ausrichtung der Webseite}
+
+\section{Beschreibung aller Anforderungen}
+Für das Frontend wird eine Subdomain benötigt. Das Backend benötigt entweder Ressourcen in einem schon existierenden Webservice, der RDF Triplestores und einen SPARQL Endpoint unterstützt oder Ressourcen für den Unterhalt eines eigenen Webservice. Das Frontend muss eine Landing Page hosten, die einmalig durch das Vue-JS Framework gebaut wird.
+
+\section{Spezifikation der für das Hosting benötigten Ressourcen}
+\subsection{Backend}
+Falls es schon ein Webservice mit RDF Triplestores und SPARQL Endpoint auf den Servern des Museums gibt und dieser mehrere Repsitorien unterstützt, wird für das Backend kein eigener Dienst benötigt. Die Graphdatenbank mit den Annotationen aus der Chronik muss dann nur von dem exisitierenden Dienst importiert werden.\par
+Ansonsten wird ein freier Port und ausreichende Ressourcen für einen Webservice mit RDF Triplestores und SPARQL Endpoint benötigt. Dieser soll die Graphdatenbank (in Form von RDF Triples) durch SPARQL-Queries abfragen können, die er über HTTP bekommt, und seine Ergebnisse per HTTP zurückschicken können. Als Software bietet sich z.B. \href{https://jena.apache.org/documentation/fuseki2/}{Apache Jena Fuseki} an.
+
+\subsection{Frontend}
+Das Frontend wird in \href{https://vuejs.org}{Vue-JS} programmiert. Das Ziel ist es eine Oberfläche zu bieten, mit der visuell SPARQL-Queries gebaut werden können, die dann an das Backend geschickt werden. Die Ergebnisse der Abfrage aus dem Backend sollen dann wiederum ansprechend präsentiert werden.
+
+\section{Spezifikation von Schnittstellen zu MfN-Diensten}
+
+\section{Web-Domains}
+
+\section{Betriebsdauer}
+
+\section{Konzept für die redationelle Betreuung}
+Die redaktionelle Betreuung übernimmt Ina Heumann, Co-Leiterin der Abteilung \enquote{\href{https://www.museumfuernaturkunde.berlin/de/wissenschaft/forschung/museum-und-gesellschaft/kultur-und-sozialwissenschaften-der-natur}{Sozial- und Kulturwissenschaften der Natur}} im \href{https://www.museumfuernaturkunde.berlin/de/science/research/museum-und-gesellschaft}{Forschungsbereich \enquote{Museum und Gesellschaft}}.
+
+\section{Konzept für die technische Betreuung}
+
+\section{Planung der Umsetzung}
+
+\section{Planung verfügbarer finanzieller und personeller Ressourcen}
+
+\section{Zeitplan}
+
+\section{Berechtigungskonzept}
+
+\bigskip
+\vfill
+
+{
+    \raggedleft
+    \tt
+    {Aron Marquart, \today}\\
+    \href{mailto:Aron.Marquart@mfn.berlin}{Aron.Marquart@mfn.berlin}\\
+}
+\end{document}
