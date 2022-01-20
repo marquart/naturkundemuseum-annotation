@@ -178,7 +178,7 @@ def parse_postprocessing(tag_string, source, anchors):
         else: inverse = False
         
         if "anchor" in lowered_info:
-            if lowered_info.count(':'):
+            if ':' in lowered_info:
                 double = info.split(':')
                 assert len(double) == 2
                 
@@ -254,12 +254,13 @@ def stats_directory(dirpath):
             properties_counter.update([p.type for p in properties])
             print("\n".join([str(e) for e in properties]))
             
+            '''
             for e in entities:
                 if "Condition" in e.type:
                     for i in e.incoming:
                         print(f"Incoming: {str(i)}-->{str(i.source)}")
                     for i in e.outgoing:
-                        print(f"outgoing: {str(i)}-->{str(i.target)}")
+                        print(f"outgoing: {str(i)}-->{str(i.target)}")'''
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
     for t, c in class_counter.most_common():

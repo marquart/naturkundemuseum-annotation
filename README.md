@@ -42,6 +42,13 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
   
     - Tiere sind `Conceptual Objects` mit `P2 has type:E55 Type:Taxon`
 
+- Schlussnummern: `E78 Curated Holding` 
+      ↓ `P43 has dimension`
+        `E60 Number`
+      ↓ `P2 has type`                   ↓ `P4 has time-span`
+        `E55 Type: 'Schlussnummer'`       `E52 Time-Span` 
+    
+    Nummern, die nur von der Art Schlussnummern sind (z.B. Holding vermehrte sich um 60 Nummern) sind einfach `E60 Number` mit `has dimension` einer Acquisition
 
 ---
 ### Zugänge:Bibliothek
@@ -58,7 +65,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 ---
 ### Präparationsarbeit
-- Ausbesserungen an einzelnen Objekten (und nicht ganzen `Curated Holdings` --> `Curation Activity`) sind `Modification` mit `P2 has type:E55 Type:Curation Activity`
+- Ausbesserungen an einzelnen Objekten (und nicht ganzen `Curated Holdings` --> `Curation Activity`) sind `Modification` mit `P2 has type:E55 Type:Curation Activity`, verbunden mit Person oder Group durch `P14 carried out by`, verbunden mit der `Curated Holding` die das Objekt hält mit `refers to`
 
 ---
 ### Sammlungsorganisation
@@ -113,7 +120,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1888 |    X   |               -              |              -             |      -     |
 | 1889 |    X   |               X              |              X             |      X     |
 | 1890 |    X   |               X              |              X             |      X     |
-| 1891 |    X   |               X              |              X             |            |
+| 1891 |    X   |               X              |              X             |      X     |
 | 1892 |        |                              |                            |            |
 | 1893 |        |                              |                            |            |
 | 1894 |        |                              |                            |            |
