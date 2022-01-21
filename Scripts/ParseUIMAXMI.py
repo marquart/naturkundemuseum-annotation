@@ -1,5 +1,7 @@
 import os
 from collections import defaultdict, Counter
+
+import json, re
 from bs4 import BeautifulSoup
 from bs4.element import Tag as BS4_TAG
 
@@ -162,6 +164,9 @@ class SemanticProperty(object):
     def __str__(self):
         if self.source: return f"{self.source} → {self.type} → {self.target}"
         return f"{self.source_id} → {self.type} → {self.target_id}"
+    
+
+        
 
 def parse_postprocessing(tag_string, source, anchors):
     #print(f"Parsing post for {str(source)}")
@@ -243,16 +248,80 @@ def parse(filepath):
     SemanticEntity.virtuals.clear()
     return text, entities, properties
 
-def stats_directory(dirpath):
+def extract_ins_year(filename):
+    FILENAME_PATTERN = re.compile("^(\d\d\d\d)_(.*?)_(\d?\d?\d)-(\d?\d?\d)\.xmi$")
+    verbose_institutions = {
+        "Museum": "Museum für Naturkunde - Allgemeine Verwaltung",
+        "Geologisch-paläontologische": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+        "Mineralogisch-petrographische": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+        "Zoologische": "Zoologisches Institut und zoologische Sammlung"
+    }
+    
+    match = FILENAME_PATTERN.search(filename)
+    assert match
+    year = int(match.group(1))
+    institution = verbose_institutions[match.group(2)]
+    page_begin = int(match.group(3))
+    page_end = int(match.group(4))
+    
+    return year, institution, page_begin, page_end
+    
+def serialize(obj, stringify=True):
+    if isinstance(obj, SemanticProperty):
+        return {
+        "id": str(obj.id) if stringify else obj.id,
+        "type": obj.type,
+        "source": str(obj.source.id) if stringify else obj.source.id,
+        "target": str(obj.target.id) if stringify else obj.target.id
+        }
+    elif isinstance(obj, SemanticEntity):
+        return {
+        "id": str(obj.id) if stringify else obj.id,
+        "type": obj.type,
+        "virtual": obj.virtual,
+        "text": obj.string.replace('\r', '').replace('\n', ' ') if stringify else obj.string,
+        "begin": obj.begin,
+        "end": obj.end,
+        "incoming": [str(prop.id) if stringify else prop.id for prop in obj.incoming],
+        "outgoing": [str(prop.id) if stringify else prop.id for prop in obj.outgoing]
+        }
+    else:
+        return obj
+
+def save_json(filepath, file, text, entities, properties):
+    year, institution, page_begin, page_end = extract_ins_year(file)
+    export = {
+        "Institution": institution,
+        "Year": year,
+        "Page_Begin": page_begin,
+        "Page_End": page_end,
+        "Text": text,
+        "Entities": {serialized['id']:serialized for e in entities if (serialized := serialize(e))},
+        "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))}
+    }
+    assert len(export["Entities"]) == len(entities) and len(export["Properties"]) == len(properties)
+    
+    json_file = f"{file.rstrip('.xmi')}.json"
+    with open(os.path.join(filepath, json_file), 'w', encoding="utf-8") as f:
+        json.dump(export, f, ensure_ascii=False, indent=4)
+    
+    print(f"\nSaved '{file}' as JSON to '{os.path.join(filepath, json_file)}'\n")
+    
+
+def stats_directory(dirpath, save=False):
     class_counter = Counter()
     properties_counter = Counter()
     
+    JSON_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/JSON/"
     for file in os.listdir(dirpath):
         if file.endswith(".xmi"):
             text, entities, properties = parse(os.path.join(dirpath, file))
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
             print("\n".join([str(e) for e in properties]))
+            
+            if save:
+                save_json(JSON_PATH, file, text, entities, properties)
             
             '''
             for e in entities:
@@ -273,7 +342,7 @@ def stats_directory(dirpath):
     
 if __name__ == "__main__":
     DIR_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
-    stats_directory(DIR_PATH)
+    stats_directory(DIR_PATH, save=True)
     
     exit(3)
 

@@ -1,0 +1,512 @@
+{
+    "Institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+    "Year": 1888,
+    "Page_Begin": 54,
+    "Page_End": 54,
+    "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
+    "Entities": {
+        "39": {
+            "id": "39",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Assistenten­stelle",
+            "begin": 499,
+            "end": 517,
+            "incoming": [
+                "51"
+            ],
+            "outgoing": [
+                "42"
+            ]
+        },
+        "41": {
+            "id": "41",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "geologisch-paläontologischen Abtheilung",
+            "begin": 526,
+            "end": 565,
+            "incoming": [
+                "52"
+            ],
+            "outgoing": []
+        },
+        "42": {
+            "id": "42",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Privat-Dozenten",
+            "begin": 575,
+            "end": 590,
+            "incoming": [
+                "53"
+            ],
+            "outgoing": [
+                "43"
+            ]
+        },
+        "44": {
+            "id": "44",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 591,
+            "end": 594,
+            "incoming": [
+                "54"
+            ],
+            "outgoing": [
+                "44"
+            ]
+        },
+        "46": {
+            "id": "46",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Koken",
+            "begin": 595,
+            "end": 600,
+            "incoming": [],
+            "outgoing": [
+                "53",
+                "54",
+                "55"
+            ]
+        },
+        "47": {
+            "id": "47",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "übertragen",
+            "begin": 601,
+            "end": 611,
+            "incoming": [
+                "55"
+            ],
+            "outgoing": [
+                "51",
+                "52"
+            ]
+        },
+        "48": {
+            "id": "48",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Assistent",
+            "begin": 618,
+            "end": 627,
+            "incoming": [
+                "56"
+            ],
+            "outgoing": [
+                "45"
+            ]
+        },
+        "50": {
+            "id": "50",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "begin": 636,
+            "end": 659,
+            "incoming": [
+                "57"
+            ],
+            "outgoing": []
+        },
+        "51": {
+            "id": "51",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 660,
+            "end": 663,
+            "incoming": [
+                "58"
+            ],
+            "outgoing": [
+                "46"
+            ]
+        },
+        "53": {
+            "id": "53",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Rei­chenow",
+            "begin": 664,
+            "end": 674,
+            "incoming": [],
+            "outgoing": [
+                "56",
+                "58",
+                "60"
+            ]
+        },
+        "54": {
+            "id": "54",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kustos",
+            "begin": 683,
+            "end": 689,
+            "incoming": [
+                "59"
+            ],
+            "outgoing": [
+                "47"
+            ]
+        },
+        "56": {
+            "id": "56",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "ernannt",
+            "begin": 690,
+            "end": 697,
+            "incoming": [
+                "60"
+            ],
+            "outgoing": [
+                "57",
+                "59"
+            ]
+        },
+        "57": {
+            "id": "57",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Zoologisches Institut",
+            "begin": 710,
+            "end": 731,
+            "incoming": [
+                "61"
+            ],
+            "outgoing": []
+        },
+        "58": {
+            "id": "58",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "zweite Assi­stentenstelle",
+            "begin": 779,
+            "end": 804,
+            "incoming": [
+                "62"
+            ],
+            "outgoing": [
+                "48"
+            ]
+        },
+        "60": {
+            "id": "60",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Privat-Dozenten",
+            "begin": 813,
+            "end": 828,
+            "incoming": [
+                "63"
+            ],
+            "outgoing": [
+                "49"
+            ]
+        },
+        "62": {
+            "id": "62",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr. phil.",
+            "begin": 829,
+            "end": 838,
+            "incoming": [
+                "64"
+            ],
+            "outgoing": [
+                "50"
+            ]
+        },
+        "64": {
+            "id": "64",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Fritz Magde­burg",
+            "begin": 839,
+            "end": 855,
+            "incoming": [],
+            "outgoing": [
+                "63",
+                "64",
+                "65"
+            ]
+        },
+        "65": {
+            "id": "65",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "übertragen",
+            "begin": 856,
+            "end": 866,
+            "incoming": [
+                "65"
+            ],
+            "outgoing": [
+                "61",
+                "62"
+            ]
+        },
+        "40": {
+            "id": "40",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "42"
+            ],
+            "outgoing": []
+        },
+        "43": {
+            "id": "43",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "43"
+            ],
+            "outgoing": []
+        },
+        "45": {
+            "id": "45",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "44"
+            ],
+            "outgoing": []
+        },
+        "49": {
+            "id": "49",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "45"
+            ],
+            "outgoing": []
+        },
+        "52": {
+            "id": "52",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "46"
+            ],
+            "outgoing": []
+        },
+        "55": {
+            "id": "55",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "47"
+            ],
+            "outgoing": []
+        },
+        "59": {
+            "id": "59",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "48"
+            ],
+            "outgoing": []
+        },
+        "61": {
+            "id": "61",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "49"
+            ],
+            "outgoing": []
+        },
+        "63": {
+            "id": "63",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "50"
+            ],
+            "outgoing": []
+        }
+    },
+    "Properties": {
+        "51": {
+            "id": "51",
+            "type": "P1 is identified by (identifies)",
+            "source": "47",
+            "target": "39"
+        },
+        "52": {
+            "id": "52",
+            "type": "P144 joined with (gained member by)",
+            "source": "47",
+            "target": "41"
+        },
+        "53": {
+            "id": "53",
+            "type": "P1 is identified by (identifies)",
+            "source": "46",
+            "target": "42"
+        },
+        "54": {
+            "id": "54",
+            "type": "P1 is identified by (identifies)",
+            "source": "46",
+            "target": "44"
+        },
+        "55": {
+            "id": "55",
+            "type": "P143 joined (was joined by)",
+            "source": "46",
+            "target": "47"
+        },
+        "56": {
+            "id": "56",
+            "type": "P1 is identified by (identifies)",
+            "source": "53",
+            "target": "48"
+        },
+        "57": {
+            "id": "57",
+            "type": "P144 joined with (gained member by)",
+            "source": "56",
+            "target": "50"
+        },
+        "58": {
+            "id": "58",
+            "type": "P1 is identified by (identifies)",
+            "source": "53",
+            "target": "51"
+        },
+        "59": {
+            "id": "59",
+            "type": "P1 is identified by (identifies)",
+            "source": "56",
+            "target": "54"
+        },
+        "60": {
+            "id": "60",
+            "type": "P143 joined (was joined by)",
+            "source": "53",
+            "target": "56"
+        },
+        "61": {
+            "id": "61",
+            "type": "P144 joined with (gained member by)",
+            "source": "65",
+            "target": "57"
+        },
+        "62": {
+            "id": "62",
+            "type": "P1 is identified by (identifies)",
+            "source": "65",
+            "target": "58"
+        },
+        "63": {
+            "id": "63",
+            "type": "P1 is identified by (identifies)",
+            "source": "64",
+            "target": "60"
+        },
+        "64": {
+            "id": "64",
+            "type": "P1 is identified by (identifies)",
+            "source": "64",
+            "target": "62"
+        },
+        "65": {
+            "id": "65",
+            "type": "P143 joined (was joined by)",
+            "source": "64",
+            "target": "65"
+        },
+        "42": {
+            "id": "42",
+            "type": "P2 has Type",
+            "source": "39",
+            "target": "40"
+        },
+        "43": {
+            "id": "43",
+            "type": "P2 has Type",
+            "source": "42",
+            "target": "43"
+        },
+        "44": {
+            "id": "44",
+            "type": "P2 has Type",
+            "source": "44",
+            "target": "45"
+        },
+        "45": {
+            "id": "45",
+            "type": "P2 has Type",
+            "source": "48",
+            "target": "49"
+        },
+        "46": {
+            "id": "46",
+            "type": "P2 has Type",
+            "source": "51",
+            "target": "52"
+        },
+        "47": {
+            "id": "47",
+            "type": "P2 has Type",
+            "source": "54",
+            "target": "55"
+        },
+        "48": {
+            "id": "48",
+            "type": "P2 has Type",
+            "source": "58",
+            "target": "59"
+        },
+        "49": {
+            "id": "49",
+            "type": "P2 has Type",
+            "source": "60",
+            "target": "61"
+        },
+        "50": {
+            "id": "50",
+            "type": "P2 has Type",
+            "source": "62",
+            "target": "63"
+        }
+    }
+}

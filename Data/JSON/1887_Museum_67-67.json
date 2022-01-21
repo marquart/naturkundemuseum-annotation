@@ -1,0 +1,790 @@
+{
+    "Institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+    "Year": 1887,
+    "Page_Begin": 67,
+    "Page_End": 67,
+    "Text": "====PAGEBEGIN 67====\r\n\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 7. Mai 1887 hat das für die\r\nAufnahme der geologisch-paläontologischen, der mineralogisch­petrographischen und der zoologischen Sammlung der Universität\r\nbestimmte Museum die Bezeichnung „Museum für Natur­kunde“ erhalten.\r\nZu Direktoren der vorgedachten drei Abtheilungen sind die\r\nProfessoren Geheimer Bergrath Dr. Beyrich, Dr. Klein und\r\nDr. Moebius ernannt worden.\r\nDurch Ministerial-Reskript vom 25. Mai 1887 ist die Er­nennung des Geheimen Bergraths Professors Dr. Beyrich zum\r\nVerwaltungsdirektor des Museums erfolgt.\r\nDem ausserordentlichen Professor Dr. von Martens ist der\r\nTitel eines zweiten Direktors der zoologischen Abtheilung bei­gelegt worden.\r\n2. Seminar für Deutsches Recht.\r\nDurch Ministerial-Erlass vom 12. November 1887 ist die\r\nBegründung eines besonderen Seminars für Deutsches Recht an\r\nder Universität genehmigt worden.\r\nZum geschäftsführenden Direktor desselben ist der Geheime\r\nJustizrath Professor Dr. Beseler und zu Mitdirektoren sind die\r\nGeheimen Justizräthe Professoren Dr. Brunner und Dr. Gierke\r\nernannt worden. Mit Wahrnehmung der Funktionen eines Bi­bliothekars und Assistenten ist bis auf Weiteres der Privatdocent\r\nDr. Zeumer beauftragt worden.\r\n3. Geographisches Institut.\r\nDurch Ministerial-Erlass vom 4. April 1887 ist ein geogra­phisches Institut an der Universität begründet worden. Mit der\r\nDirektion desselben ist der Professor Dr. Freiherr von Richt­hofen beauftragt.\r\n4. Anatomisches Theater.\r\nDas anatomische Theater ist aus dem Gebäude der alten\r\nBörse am Lustgarten entfernt und in dem Anatomie-Gebäude,\r\n62\r\n",
+    "Entities": {
+        "0": {
+            "id": "0",
+            "type": "E63 Beginning of Existence",
+            "virtual": false,
+            "text": "Ministerial-Erlass",
+            "begin": 108,
+            "end": 126,
+            "incoming": [],
+            "outgoing": [
+                "13",
+                "21"
+            ]
+        },
+        "1": {
+            "id": "1",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "7. Mai 1887",
+            "begin": 131,
+            "end": 142,
+            "incoming": [
+                "13",
+                "14"
+            ],
+            "outgoing": []
+        },
+        "2": {
+            "id": "2",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "geologisch-paläontologischen",
+            "begin": 173,
+            "end": 201,
+            "incoming": [
+                "15",
+                "16"
+            ],
+            "outgoing": []
+        },
+        "3": {
+            "id": "3",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "mineralogisch­petrographischen",
+            "begin": 207,
+            "end": 237,
+            "incoming": [
+                "17",
+                "18"
+            ],
+            "outgoing": []
+        },
+        "4": {
+            "id": "4",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen",
+            "begin": 246,
+            "end": 258,
+            "incoming": [
+                "19",
+                "20"
+            ],
+            "outgoing": []
+        },
+        "5": {
+            "id": "5",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Museum für Natur­kunde",
+            "begin": 319,
+            "end": 341,
+            "incoming": [
+                "21"
+            ],
+            "outgoing": [
+                "15",
+                "17",
+                "19"
+            ]
+        },
+        "6": {
+            "id": "6",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Direktor",
+            "begin": 357,
+            "end": 365,
+            "incoming": [
+                "22",
+                "23",
+                "24"
+            ],
+            "outgoing": [
+                "0",
+                "14"
+            ]
+        },
+        "8": {
+            "id": "8",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "begin": 413,
+            "end": 422,
+            "incoming": [
+                "25",
+                "26",
+                "27"
+            ],
+            "outgoing": [
+                "1"
+            ]
+        },
+        "10": {
+            "id": "10",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Geheimer Bergrath",
+            "begin": 425,
+            "end": 442,
+            "incoming": [
+                "28"
+            ],
+            "outgoing": [
+                "2"
+            ]
+        },
+        "12": {
+            "id": "12",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 443,
+            "end": 446,
+            "incoming": [
+                "29"
+            ],
+            "outgoing": [
+                "3"
+            ]
+        },
+        "14": {
+            "id": "14",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Beyrich",
+            "begin": 447,
+            "end": 454,
+            "incoming": [],
+            "outgoing": [
+                "16",
+                "22",
+                "25",
+                "28",
+                "29"
+            ]
+        },
+        "15": {
+            "id": "15",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 456,
+            "end": 459,
+            "incoming": [
+                "30"
+            ],
+            "outgoing": [
+                "4"
+            ]
+        },
+        "17": {
+            "id": "17",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Klein",
+            "begin": 460,
+            "end": 465,
+            "incoming": [],
+            "outgoing": [
+                "18",
+                "23",
+                "26",
+                "30"
+            ]
+        },
+        "18": {
+            "id": "18",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 471,
+            "end": 474,
+            "incoming": [
+                "31"
+            ],
+            "outgoing": [
+                "5"
+            ]
+        },
+        "20": {
+            "id": "20",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Moebius",
+            "begin": 475,
+            "end": 482,
+            "incoming": [],
+            "outgoing": [
+                "20",
+                "24",
+                "27",
+                "31"
+            ]
+        },
+        "21": {
+            "id": "21",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "25. Mai 1887",
+            "begin": 531,
+            "end": 543,
+            "incoming": [
+                "32",
+                "33"
+            ],
+            "outgoing": []
+        },
+        "22": {
+            "id": "22",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Geheimen Bergrath",
+            "begin": 567,
+            "end": 584,
+            "incoming": [
+                "34"
+            ],
+            "outgoing": [
+                "6"
+            ]
+        },
+        "24": {
+            "id": "24",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "begin": 586,
+            "end": 595,
+            "incoming": [
+                "35"
+            ],
+            "outgoing": [
+                "7"
+            ]
+        },
+        "26": {
+            "id": "26",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 597,
+            "end": 600,
+            "incoming": [
+                "36"
+            ],
+            "outgoing": [
+                "8"
+            ]
+        },
+        "28": {
+            "id": "28",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Beyrich",
+            "begin": 601,
+            "end": 608,
+            "incoming": [],
+            "outgoing": [
+                "34",
+                "35",
+                "36",
+                "37"
+            ]
+        },
+        "29": {
+            "id": "29",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Verwaltungsdirektor",
+            "begin": 614,
+            "end": 633,
+            "incoming": [
+                "37"
+            ],
+            "outgoing": [
+                "9",
+                "32"
+            ]
+        },
+        "31": {
+            "id": "31",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "begin": 679,
+            "end": 688,
+            "incoming": [
+                "38"
+            ],
+            "outgoing": [
+                "10"
+            ]
+        },
+        "33": {
+            "id": "33",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 689,
+            "end": 692,
+            "incoming": [
+                "39"
+            ],
+            "outgoing": [
+                "11"
+            ]
+        },
+        "35": {
+            "id": "35",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "von Martens",
+            "begin": 693,
+            "end": 704,
+            "incoming": [],
+            "outgoing": [
+                "38",
+                "39",
+                "40",
+                "41"
+            ]
+        },
+        "36": {
+            "id": "36",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "zweiten Direktor",
+            "begin": 726,
+            "end": 742,
+            "incoming": [
+                "40"
+            ],
+            "outgoing": [
+                "12",
+                "33"
+            ]
+        },
+        "38": {
+            "id": "38",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "begin": 748,
+            "end": 771,
+            "incoming": [
+                "41"
+            ],
+            "outgoing": []
+        },
+        "7": {
+            "id": "7",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "0"
+            ],
+            "outgoing": []
+        },
+        "9": {
+            "id": "9",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1"
+            ],
+            "outgoing": []
+        },
+        "11": {
+            "id": "11",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "2"
+            ],
+            "outgoing": []
+        },
+        "13": {
+            "id": "13",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "3"
+            ],
+            "outgoing": []
+        },
+        "16": {
+            "id": "16",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "4"
+            ],
+            "outgoing": []
+        },
+        "19": {
+            "id": "19",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "5"
+            ],
+            "outgoing": []
+        },
+        "23": {
+            "id": "23",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "6"
+            ],
+            "outgoing": []
+        },
+        "25": {
+            "id": "25",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "7"
+            ],
+            "outgoing": []
+        },
+        "27": {
+            "id": "27",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "8"
+            ],
+            "outgoing": []
+        },
+        "30": {
+            "id": "30",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "9"
+            ],
+            "outgoing": []
+        },
+        "32": {
+            "id": "32",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "10"
+            ],
+            "outgoing": []
+        },
+        "34": {
+            "id": "34",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "11"
+            ],
+            "outgoing": []
+        },
+        "37": {
+            "id": "37",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "12"
+            ],
+            "outgoing": []
+        }
+    },
+    "Properties": {
+        "13": {
+            "id": "13",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "0",
+            "target": "1"
+        },
+        "14": {
+            "id": "14",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "6",
+            "target": "1"
+        },
+        "15": {
+            "id": "15",
+            "type": "P107 has current or former member (is current or former member of)",
+            "source": "5",
+            "target": "2"
+        },
+        "16": {
+            "id": "16",
+            "type": "P143 joined (was joined by)",
+            "source": "14",
+            "target": "2"
+        },
+        "17": {
+            "id": "17",
+            "type": "P107 has current or former member (is current or former member of)",
+            "source": "5",
+            "target": "3"
+        },
+        "18": {
+            "id": "18",
+            "type": "P143 joined (was joined by)",
+            "source": "17",
+            "target": "3"
+        },
+        "19": {
+            "id": "19",
+            "type": "P107 has current or former member (is current or former member of)",
+            "source": "5",
+            "target": "4"
+        },
+        "20": {
+            "id": "20",
+            "type": "P143 joined (was joined by)",
+            "source": "20",
+            "target": "4"
+        },
+        "21": {
+            "id": "21",
+            "type": "P92 brought into existence (was brought into existence by)",
+            "source": "0",
+            "target": "5"
+        },
+        "22": {
+            "id": "22",
+            "type": "P1 is identified by (identifies)",
+            "source": "14",
+            "target": "6"
+        },
+        "23": {
+            "id": "23",
+            "type": "P1 is identified by (identifies)",
+            "source": "17",
+            "target": "6"
+        },
+        "24": {
+            "id": "24",
+            "type": "P1 is identified by (identifies)",
+            "source": "20",
+            "target": "6"
+        },
+        "25": {
+            "id": "25",
+            "type": "P1 is identified by (identifies)",
+            "source": "14",
+            "target": "8"
+        },
+        "26": {
+            "id": "26",
+            "type": "P1 is identified by (identifies)",
+            "source": "17",
+            "target": "8"
+        },
+        "27": {
+            "id": "27",
+            "type": "P1 is identified by (identifies)",
+            "source": "20",
+            "target": "8"
+        },
+        "28": {
+            "id": "28",
+            "type": "P1 is identified by (identifies)",
+            "source": "14",
+            "target": "10"
+        },
+        "29": {
+            "id": "29",
+            "type": "P1 is identified by (identifies)",
+            "source": "14",
+            "target": "12"
+        },
+        "30": {
+            "id": "30",
+            "type": "P1 is identified by (identifies)",
+            "source": "17",
+            "target": "15"
+        },
+        "31": {
+            "id": "31",
+            "type": "P1 is identified by (identifies)",
+            "source": "20",
+            "target": "18"
+        },
+        "32": {
+            "id": "32",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "29",
+            "target": "21"
+        },
+        "33": {
+            "id": "33",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "36",
+            "target": "21"
+        },
+        "34": {
+            "id": "34",
+            "type": "P1 is identified by (identifies)",
+            "source": "28",
+            "target": "22"
+        },
+        "35": {
+            "id": "35",
+            "type": "P1 is identified by (identifies)",
+            "source": "28",
+            "target": "24"
+        },
+        "36": {
+            "id": "36",
+            "type": "P1 is identified by (identifies)",
+            "source": "28",
+            "target": "26"
+        },
+        "37": {
+            "id": "37",
+            "type": "P1 is identified by (identifies)",
+            "source": "28",
+            "target": "29"
+        },
+        "38": {
+            "id": "38",
+            "type": "P1 is identified by (identifies)",
+            "source": "35",
+            "target": "31"
+        },
+        "39": {
+            "id": "39",
+            "type": "P1 is identified by (identifies)",
+            "source": "35",
+            "target": "33"
+        },
+        "40": {
+            "id": "40",
+            "type": "P1 is identified by (identifies)",
+            "source": "35",
+            "target": "36"
+        },
+        "41": {
+            "id": "41",
+            "type": "P143 joined (was joined by)",
+            "source": "35",
+            "target": "38"
+        },
+        "0": {
+            "id": "0",
+            "type": "P2 has Type",
+            "source": "6",
+            "target": "7"
+        },
+        "1": {
+            "id": "1",
+            "type": "P2 has Type",
+            "source": "8",
+            "target": "9"
+        },
+        "2": {
+            "id": "2",
+            "type": "P2 has Type",
+            "source": "10",
+            "target": "11"
+        },
+        "3": {
+            "id": "3",
+            "type": "P2 has Type",
+            "source": "12",
+            "target": "13"
+        },
+        "4": {
+            "id": "4",
+            "type": "P2 has Type",
+            "source": "15",
+            "target": "16"
+        },
+        "5": {
+            "id": "5",
+            "type": "P2 has Type",
+            "source": "18",
+            "target": "19"
+        },
+        "6": {
+            "id": "6",
+            "type": "P2 has Type",
+            "source": "22",
+            "target": "23"
+        },
+        "7": {
+            "id": "7",
+            "type": "P2 has Type",
+            "source": "24",
+            "target": "25"
+        },
+        "8": {
+            "id": "8",
+            "type": "P2 has Type",
+            "source": "26",
+            "target": "27"
+        },
+        "9": {
+            "id": "9",
+            "type": "P2 has Type",
+            "source": "29",
+            "target": "30"
+        },
+        "10": {
+            "id": "10",
+            "type": "P2 has Type",
+            "source": "31",
+            "target": "32"
+        },
+        "11": {
+            "id": "11",
+            "type": "P2 has Type",
+            "source": "33",
+            "target": "34"
+        },
+        "12": {
+            "id": "12",
+            "type": "P2 has Type",
+            "source": "36",
+            "target": "37"
+        }
+    }
+}

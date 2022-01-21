@@ -43,11 +43,15 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
     - Tiere sind `Conceptual Objects` mit `P2 has type:E55 Type:Taxon`
 
 - Schlussnummern: `E78 Curated Holding` 
+
       ↓ `P43 has dimension`
+
         `E60 Number`
+
       ↓ `P2 has type`                   ↓ `P4 has time-span`
+
         `E55 Type: 'Schlussnummer'`       `E52 Time-Span` 
-    
+
     Nummern, die nur von der Art Schlussnummern sind (z.B. Holding vermehrte sich um 60 Nummern) sind einfach `E60 Number` mit `has dimension` einer Acquisition
 
 ---

@@ -1,0 +1,888 @@
+{
+    "Institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+    "Year": 1890,
+    "Page_Begin": 120,
+    "Page_End": 120,
+    "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
+    "Entities": {
+        "1056": {
+            "id": "1056",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Juli v. Js.",
+            "begin": 654,
+            "end": 668,
+            "incoming": [
+                "1017"
+            ],
+            "outgoing": []
+        },
+        "1057": {
+            "id": "1057",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Montags",
+            "begin": 680,
+            "end": 687,
+            "incoming": [
+                "1018"
+            ],
+            "outgoing": []
+        },
+        "1058": {
+            "id": "1058",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Sonnabends von 11 bis 3 Uhr",
+            "begin": 694,
+            "end": 721,
+            "incoming": [
+                "1019"
+            ],
+            "outgoing": []
+        },
+        "1059": {
+            "id": "1059",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Publikum",
+            "begin": 730,
+            "end": 738,
+            "incoming": [],
+            "outgoing": [
+                "1001"
+            ]
+        },
+        "1061": {
+            "id": "1061",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Mittwochs  Nachmittags von 1 bis 4 Uhr",
+            "begin": 743,
+            "end": 781,
+            "incoming": [
+                "1020"
+            ],
+            "outgoing": []
+        },
+        "1062": {
+            "id": "1062",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Schüler höherer Lehr­anstalten",
+            "begin": 790,
+            "end": 820,
+            "incoming": [],
+            "outgoing": [
+                "1002"
+            ]
+        },
+        "1064": {
+            "id": "1064",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "geöffnet",
+            "begin": 821,
+            "end": 829,
+            "incoming": [],
+            "outgoing": [
+                "1003",
+                "1017",
+                "1018",
+                "1019",
+                "1020"
+            ]
+        },
+        "1066": {
+            "id": "1066",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Wintersemester",
+            "begin": 856,
+            "end": 870,
+            "incoming": [
+                "1021"
+            ],
+            "outgoing": []
+        },
+        "1067": {
+            "id": "1067",
+            "type": "E7 Activity",
+            "virtual": false,
+            "text": "besuchten",
+            "begin": 912,
+            "end": 921,
+            "incoming": [],
+            "outgoing": [
+                "1004",
+                "1021",
+                "1023",
+                "1025"
+            ]
+        },
+        "1069": {
+            "id": "1069",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "11579",
+            "begin": 932,
+            "end": 937,
+            "incoming": [
+                "1022"
+            ],
+            "outgoing": []
+        },
+        "1070": {
+            "id": "1070",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Personen",
+            "begin": 938,
+            "end": 946,
+            "incoming": [
+                "1023"
+            ],
+            "outgoing": [
+                "1005",
+                "1022"
+            ]
+        },
+        "1072": {
+            "id": "1072",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "13",
+            "begin": 952,
+            "end": 954,
+            "incoming": [
+                "1024"
+            ],
+            "outgoing": []
+        },
+        "1073": {
+            "id": "1073",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Schulklassen",
+            "begin": 955,
+            "end": 967,
+            "incoming": [
+                "1025"
+            ],
+            "outgoing": [
+                "1006",
+                "1024"
+            ]
+        },
+        "1075": {
+            "id": "1075",
+            "type": "E55 Type",
+            "virtual": false,
+            "text": "Besucherzahl",
+            "begin": 1020,
+            "end": 1032,
+            "incoming": [
+                "1026",
+                "1027"
+            ],
+            "outgoing": []
+        },
+        "1076": {
+            "id": "1076",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "28. März d. Js.",
+            "begin": 1040,
+            "end": 1055,
+            "incoming": [
+                "1028"
+            ],
+            "outgoing": []
+        },
+        "1077": {
+            "id": "1077",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "690",
+            "begin": 1060,
+            "end": 1063,
+            "incoming": [
+                "1029"
+            ],
+            "outgoing": [
+                "1026",
+                "1028"
+            ]
+        },
+        "1078": {
+            "id": "1078",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "15. Dezember v. Js.",
+            "begin": 1087,
+            "end": 1106,
+            "incoming": [
+                "1030"
+            ],
+            "outgoing": []
+        },
+        "1079": {
+            "id": "1079",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "75",
+            "begin": 1111,
+            "end": 1113,
+            "incoming": [
+                "1031"
+            ],
+            "outgoing": [
+                "1027",
+                "1030"
+            ]
+        },
+        "1080": {
+            "id": "1080",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Personen",
+            "begin": 1114,
+            "end": 1122,
+            "incoming": [],
+            "outgoing": [
+                "1007",
+                "1029",
+                "1031",
+                "1033"
+            ]
+        },
+        "1082": {
+            "id": "1082",
+            "type": "E55 Type",
+            "virtual": false,
+            "text": "Durchschnitt",
+            "begin": 1144,
+            "end": 1156,
+            "incoming": [
+                "1032"
+            ],
+            "outgoing": []
+        },
+        "1083": {
+            "id": "1083",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "219",
+            "begin": 1204,
+            "end": 1207,
+            "incoming": [
+                "1033"
+            ],
+            "outgoing": [
+                "1032"
+            ]
+        },
+        "1084": {
+            "id": "1084",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Juli v. Js.",
+            "begin": 1280,
+            "end": 1294,
+            "incoming": [
+                "1034"
+            ],
+            "outgoing": []
+        },
+        "1085": {
+            "id": "1085",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "drei",
+            "begin": 1302,
+            "end": 1306,
+            "incoming": [
+                "1035"
+            ],
+            "outgoing": []
+        },
+        "1086": {
+            "id": "1086",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Aufsichtsdiener",
+            "begin": 1321,
+            "end": 1336,
+            "incoming": [
+                "1036"
+            ],
+            "outgoing": [
+                "1008",
+                "1035"
+            ]
+        },
+        "1088": {
+            "id": "1088",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "acht",
+            "begin": 1370,
+            "end": 1374,
+            "incoming": [
+                "1037"
+            ],
+            "outgoing": []
+        },
+        "1089": {
+            "id": "1089",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Hilfsaufseher",
+            "begin": 1375,
+            "end": 1388,
+            "incoming": [
+                "1038"
+            ],
+            "outgoing": [
+                "1009",
+                "1037"
+            ]
+        },
+        "1091": {
+            "id": "1091",
+            "type": "E66 Formation",
+            "virtual": false,
+            "text": "angenommen",
+            "begin": 1429,
+            "end": 1439,
+            "incoming": [],
+            "outgoing": [
+                "1010",
+                "1034",
+                "1036",
+                "1038"
+            ]
+        },
+        "1093": {
+            "id": "1093",
+            "type": "E29 Design or Procedure",
+            "virtual": false,
+            "text": "Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände",
+            "begin": 1771,
+            "end": 1840,
+            "incoming": [
+                "1039"
+            ],
+            "outgoing": [
+                "1011"
+            ]
+        },
+        "1095": {
+            "id": "1095",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Portier",
+            "begin": 1861,
+            "end": 1868,
+            "incoming": [],
+            "outgoing": [
+                "1012",
+                "1039"
+            ]
+        },
+        "1097": {
+            "id": "1097",
+            "type": "E29 Design or Procedure",
+            "virtual": false,
+            "text": "Oberaufsicht",
+            "begin": 1874,
+            "end": 1886,
+            "incoming": [
+                "1040"
+            ],
+            "outgoing": [
+                "1013"
+            ]
+        },
+        "1099": {
+            "id": "1099",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kastellan",
+            "begin": 1901,
+            "end": 1910,
+            "incoming": [],
+            "outgoing": [
+                "1014",
+                "1040"
+            ]
+        },
+        "1101": {
+            "id": "1101",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Professor Dr. Beyrich",
+            "begin": 1922,
+            "end": 1943,
+            "incoming": [],
+            "outgoing": [
+                "1015",
+                "1041"
+            ]
+        },
+        "1103": {
+            "id": "1103",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Verwaltungsdirektor",
+            "begin": 1946,
+            "end": 1965,
+            "incoming": [
+                "1041"
+            ],
+            "outgoing": [
+                "1016"
+            ]
+        },
+        "1060": {
+            "id": "1060",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1001"
+            ],
+            "outgoing": []
+        },
+        "1063": {
+            "id": "1063",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1002"
+            ],
+            "outgoing": []
+        },
+        "1065": {
+            "id": "1065",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Opening Times",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1003"
+            ],
+            "outgoing": []
+        },
+        "1068": {
+            "id": "1068",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Visiting",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1004"
+            ],
+            "outgoing": []
+        },
+        "1071": {
+            "id": "1071",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1005"
+            ],
+            "outgoing": []
+        },
+        "1074": {
+            "id": "1074",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1006"
+            ],
+            "outgoing": []
+        },
+        "1081": {
+            "id": "1081",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1007"
+            ],
+            "outgoing": []
+        },
+        "1087": {
+            "id": "1087",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1008"
+            ],
+            "outgoing": []
+        },
+        "1090": {
+            "id": "1090",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1009"
+            ],
+            "outgoing": []
+        },
+        "1092": {
+            "id": "1092",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1010"
+            ],
+            "outgoing": []
+        },
+        "1094": {
+            "id": "1094",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Task",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1011"
+            ],
+            "outgoing": []
+        },
+        "1096": {
+            "id": "1096",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1012"
+            ],
+            "outgoing": []
+        },
+        "1098": {
+            "id": "1098",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Task",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1013"
+            ],
+            "outgoing": []
+        },
+        "1100": {
+            "id": "1100",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1014"
+            ],
+            "outgoing": []
+        },
+        "1102": {
+            "id": "1102",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Reporter",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1015"
+            ],
+            "outgoing": []
+        },
+        "1104": {
+            "id": "1104",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1016"
+            ],
+            "outgoing": []
+        }
+    },
+    "Properties": {
+        "1017": {
+            "id": "1017",
+            "type": "P79 beginning is qualified by",
+            "source": "1064",
+            "target": "1056"
+        },
+        "1018": {
+            "id": "1018",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1064",
+            "target": "1057"
+        },
+        "1019": {
+            "id": "1019",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1064",
+            "target": "1058"
+        },
+        "1020": {
+            "id": "1020",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1064",
+            "target": "1061"
+        },
+        "1021": {
+            "id": "1021",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1067",
+            "target": "1066"
+        },
+        "1022": {
+            "id": "1022",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1070",
+            "target": "1069"
+        },
+        "1023": {
+            "id": "1023",
+            "type": "P14 carried out by (performed)",
+            "source": "1067",
+            "target": "1070"
+        },
+        "1024": {
+            "id": "1024",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1073",
+            "target": "1072"
+        },
+        "1025": {
+            "id": "1025",
+            "type": "P14 carried out by (performed)",
+            "source": "1067",
+            "target": "1073"
+        },
+        "1026": {
+            "id": "1026",
+            "type": "P2 has type (is type of)",
+            "source": "1077",
+            "target": "1075"
+        },
+        "1027": {
+            "id": "1027",
+            "type": "P2 has type (is type of)",
+            "source": "1079",
+            "target": "1075"
+        },
+        "1028": {
+            "id": "1028",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1077",
+            "target": "1076"
+        },
+        "1029": {
+            "id": "1029",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1080",
+            "target": "1077"
+        },
+        "1030": {
+            "id": "1030",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1079",
+            "target": "1078"
+        },
+        "1031": {
+            "id": "1031",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1080",
+            "target": "1079"
+        },
+        "1032": {
+            "id": "1032",
+            "type": "P2 has type (is type of)",
+            "source": "1083",
+            "target": "1082"
+        },
+        "1033": {
+            "id": "1033",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1080",
+            "target": "1083"
+        },
+        "1034": {
+            "id": "1034",
+            "type": "P4 has time-span (is time-span of)",
+            "source": "1091",
+            "target": "1084"
+        },
+        "1035": {
+            "id": "1035",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1086",
+            "target": "1085"
+        },
+        "1036": {
+            "id": "1036",
+            "type": "P95 has formed (was formed by)",
+            "source": "1091",
+            "target": "1086"
+        },
+        "1037": {
+            "id": "1037",
+            "type": "P43 has dimension (is dimension of)",
+            "source": "1089",
+            "target": "1088"
+        },
+        "1038": {
+            "id": "1038",
+            "type": "P95 has formed (was formed by)",
+            "source": "1091",
+            "target": "1089"
+        },
+        "1039": {
+            "id": "1039",
+            "type": "P14 carried out by (performed)",
+            "source": "1095",
+            "target": "1093"
+        },
+        "1040": {
+            "id": "1040",
+            "type": "P14 carried out by (performed)",
+            "source": "1099",
+            "target": "1097"
+        },
+        "1041": {
+            "id": "1041",
+            "type": "P1 is identified by (identifies)",
+            "source": "1101",
+            "target": "1103"
+        },
+        "1001": {
+            "id": "1001",
+            "type": "P2 has type",
+            "source": "1059",
+            "target": "1060"
+        },
+        "1002": {
+            "id": "1002",
+            "type": "P2 has type",
+            "source": "1062",
+            "target": "1063"
+        },
+        "1003": {
+            "id": "1003",
+            "type": "P2 has type",
+            "source": "1064",
+            "target": "1065"
+        },
+        "1004": {
+            "id": "1004",
+            "type": "P2 has type",
+            "source": "1067",
+            "target": "1068"
+        },
+        "1005": {
+            "id": "1005",
+            "type": "P2 has type",
+            "source": "1070",
+            "target": "1071"
+        },
+        "1006": {
+            "id": "1006",
+            "type": "P2 has type",
+            "source": "1073",
+            "target": "1074"
+        },
+        "1007": {
+            "id": "1007",
+            "type": "P2 has type",
+            "source": "1080",
+            "target": "1081"
+        },
+        "1008": {
+            "id": "1008",
+            "type": "P2 has type",
+            "source": "1086",
+            "target": "1087"
+        },
+        "1009": {
+            "id": "1009",
+            "type": "P2 has type",
+            "source": "1089",
+            "target": "1090"
+        },
+        "1010": {
+            "id": "1010",
+            "type": "P2 has type",
+            "source": "1091",
+            "target": "1092"
+        },
+        "1011": {
+            "id": "1011",
+            "type": "P2 has type",
+            "source": "1093",
+            "target": "1094"
+        },
+        "1012": {
+            "id": "1012",
+            "type": "P2 has type",
+            "source": "1095",
+            "target": "1096"
+        },
+        "1013": {
+            "id": "1013",
+            "type": "P2 has type",
+            "source": "1097",
+            "target": "1098"
+        },
+        "1014": {
+            "id": "1014",
+            "type": "P2 has type",
+            "source": "1099",
+            "target": "1100"
+        },
+        "1015": {
+            "id": "1015",
+            "type": "P2 has type",
+            "source": "1101",
+            "target": "1102"
+        },
+        "1016": {
+            "id": "1016",
+            "type": "P2 has type",
+            "source": "1103",
+            "target": "1104"
+        }
+    }
+}
