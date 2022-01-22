@@ -2,6 +2,7 @@ import os
 import json
 from itertools import chain
 
+
 def lookup_through_property(prop_id, name, lookup):
     return lookup["Entities"][str(lookup["Properties"][str(prop_id)][name])]
 

@@ -47,7 +47,7 @@
             "id": "784",
             "type": "E87 Curation Activity",
             "virtual": false,
-            "text": "Austausch schlechter erhaltener  Stücke gegen bessere",
+            "text": "Austausch schlechter erhaltener Stücke gegen bessere",
             "begin": 322,
             "end": 375,
             "incoming": [],
@@ -208,7 +208,7 @@
             "id": "796",
             "type": "E20 Biological Object",
             "virtual": false,
-            "text": "verkieselte Hölzer verschiedener  Formationen",
+            "text": "verkieselte Hölzer verschiedener Formationen",
             "begin": 1072,
             "end": 1117,
             "incoming": [
@@ -412,7 +412,7 @@
             "id": "815",
             "type": "E74 Group",
             "virtual": false,
-            "text": "geologischen  Institut der Universität Freiburg i/Br",
+            "text": "geologischen Institut der Universität Freiburg i/Br",
             "begin": 1648,
             "end": 1700,
             "incoming": [
@@ -657,7 +657,7 @@
             "id": "835",
             "type": "E53 Place",
             "virtual": false,
-            "text": "St.  Gérand le Puy (Dept. Allier)",
+            "text": "St. Gérand le Puy (Dept. Allier)",
             "begin": 2507,
             "end": 2540,
             "incoming": [
@@ -707,7 +707,7 @@
             "id": "839",
             "type": "E19 Physical Object",
             "virtual": false,
-            "text": "paläozoischen, mesozoischen  und quartären Petrefacten",
+            "text": "paläozoischen, mesozoischen und quartären Petrefacten",
             "begin": 2602,
             "end": 2656,
             "incoming": [
@@ -891,7 +891,7 @@
             "id": "856",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Professor  von Könen",
+            "text": "Professor von Könen",
             "begin": 2979,
             "end": 2999,
             "incoming": [
@@ -969,7 +969,7 @@
             "id": "862",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Dr.  Denckmann",
+            "text": "Dr. Denckmann",
             "begin": 3099,
             "end": 3113,
             "incoming": [

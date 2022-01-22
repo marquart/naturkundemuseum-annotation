@@ -806,7 +806,7 @@
             "id": "346",
             "type": "E74 Group",
             "virtual": false,
-            "text": "Beamte zur  Aushülfe",
+            "text": "Beamte zur Aushülfe",
             "begin": 6264,
             "end": 6284,
             "incoming": [
@@ -832,7 +832,7 @@
             "id": "349",
             "type": "E5 Event",
             "virtual": false,
-            "text": "Oeffnung  des Museums",
+            "text": "Oeffnung des Museums",
             "begin": 6331,
             "end": 6352,
             "incoming": [],
@@ -899,7 +899,7 @@
             "id": "356",
             "type": "E41 Appellation",
             "virtual": false,
-            "text": "Verwaltungs-Director.  199",
+            "text": "Verwaltungs-Director. 199",
             "begin": 6490,
             "end": 6518,
             "incoming": [

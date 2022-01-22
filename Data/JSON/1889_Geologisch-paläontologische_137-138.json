@@ -247,7 +247,7 @@
             "id": "85",
             "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "tertiäre  Mollusken",
+            "text": "tertiäre Mollusken",
             "begin": 1275,
             "end": 1294,
             "incoming": [
@@ -499,7 +499,7 @@
             "id": "114",
             "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "Riesenhirsch (Cervus  euryceros)",
+            "text": "Riesenhirsch (Cervus euryceros)",
             "begin": 1935,
             "end": 1967,
             "incoming": [],

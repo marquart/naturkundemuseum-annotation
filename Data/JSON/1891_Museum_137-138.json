@@ -66,7 +66,7 @@
             "id": "2288",
             "type": "E41 Appellation",
             "virtual": false,
-            "text": "Kanzlei- und  Bureau-Hilfsarbeiter",
+            "text": "Kanzlei- und Bureau-Hilfsarbeiter",
             "begin": 1417,
             "end": 1451,
             "incoming": [
@@ -109,7 +109,7 @@
             "id": "2295",
             "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "sächlichen  Ausgabefonds",
+            "text": "sächlichen Ausgabefonds",
             "begin": 1536,
             "end": 1560,
             "incoming": [
@@ -174,7 +174,7 @@
             "id": "2301",
             "type": "E4 Period",
             "virtual": false,
-            "text": "Montags  und Sonnabends, auch Sonntags",
+            "text": "Montags und Sonnabends, auch Sonntags",
             "begin": 1848,
             "end": 1886,
             "incoming": [

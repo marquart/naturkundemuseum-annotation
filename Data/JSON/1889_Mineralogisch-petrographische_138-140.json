@@ -9,7 +9,7 @@
             "id": "150",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "eine mineralogische und  eine petrographische Repetirsammlung",
+            "text": "eine mineralogische und eine petrographische Repetirsammlung",
             "begin": 1709,
             "end": 1770,
             "incoming": [
@@ -33,7 +33,7 @@
             "id": "152",
             "type": "E63 Beginning of Existence",
             "virtual": false,
-            "text": "Benutzung  übergeben",
+            "text": "Benutzung übergeben",
             "begin": 1846,
             "end": 1866,
             "incoming": [],
@@ -137,7 +137,7 @@
             "id": "165",
             "type": "E35 Title",
             "virtual": false,
-            "text": "Ueber Gismondin vom Hohenberg bei Bühne in  Westfalen.",
+            "text": "Ueber Gismondin vom Hohenberg bei Bühne in Westfalen.",
             "begin": 2839,
             "end": 2893,
             "incoming": [
@@ -257,7 +257,7 @@
             "id": "179",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "mineralogische und  petrographische Schausammlung",
+            "text": "mineralogische und petrographische Schausammlung",
             "begin": 3486,
             "end": 3535,
             "incoming": [
@@ -270,7 +270,7 @@
             "id": "180",
             "type": "E87 Curation Activity",
             "virtual": false,
-            "text": "bilden, zu bestimmen und zu  etikettiren",
+            "text": "bilden, zu bestimmen und zu etikettiren",
             "begin": 3599,
             "end": 3639,
             "incoming": [],
@@ -469,7 +469,7 @@
             "id": "198",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Carl  Rumpff’sche Sammlung",
+            "text": "Carl Rumpff’sche Sammlung",
             "begin": 4652,
             "end": 4678,
             "incoming": [
@@ -498,7 +498,7 @@
             "id": "200",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Sr. Excellenz dem Herrn  Cultusminister",
+            "text": "Sr. Excellenz dem Herrn Cultusminister",
             "begin": 4946,
             "end": 4985,
             "incoming": [
@@ -523,7 +523,7 @@
             "id": "202",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Suite selbstgesammelter  Mineralien und Gesteine",
+            "text": "Suite selbstgesammelter Mineralien und Gesteine",
             "begin": 5006,
             "end": 5054,
             "incoming": [
@@ -791,7 +791,7 @@
             "id": "225",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Aden in  Arabien",
+            "text": "Aden in Arabien",
             "begin": 5309,
             "end": 5325,
             "incoming": [
@@ -971,7 +971,7 @@
             "id": "241",
             "type": "E19 Physical Object",
             "virtual": false,
-            "text": "Meteoriten  von Tysnes",
+            "text": "Meteoriten von Tysnes",
             "begin": 5479,
             "end": 5501,
             "incoming": [

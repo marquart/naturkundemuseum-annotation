@@ -1,7 +1,7 @@
 import os
 from collections import defaultdict, Counter
-
 import json, re
+import pickle
 from bs4 import BeautifulSoup
 from bs4.element import Tag as BS4_TAG
 
@@ -307,10 +307,26 @@ def save_json(filepath, file, text, entities, properties):
     
     print(f"\nSaved '{file}' as JSON to '{os.path.join(filepath, json_file)}'\n")
     
+def get_data_for_pickling(file, text, entities, properties):
+    year, institution, page_begin, page_end = extract_ins_year(file)
+    export = {
+        "Institution": institution,
+        "Year": year,
+        "Page_Begin": page_begin,
+        "Page_End": page_end,
+        "Text": text,
+        "Entities": {e.id:e for e in entities},
+        "Properties": {p.id:p for p in properties}
+    }
+    assert len(export["Entities"]) == len(entities) and len(export["Properties"]) == len(properties)
+    return export
+
 
 def stats_directory(dirpath, save=False):
     class_counter = Counter()
     properties_counter = Counter()
+    
+    for_pickling = []
     
     JSON_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/JSON/"
     for file in os.listdir(dirpath):
@@ -322,6 +338,7 @@ def stats_directory(dirpath, save=False):
             
             if save:
                 save_json(JSON_PATH, file, text, entities, properties)
+                for_pickling.append(get_data_for_pickling(file, text, entities, properties))
             
             '''
             for e in entities:
@@ -330,6 +347,10 @@ def stats_directory(dirpath, save=False):
                         print(f"Incoming: {str(i)}-->{str(i.source)}")
                     for i in e.outgoing:
                         print(f"outgoing: {str(i)}-->{str(i.target)}")'''
+    
+    if for_pickling:
+        with open("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle", 'wb') as f:
+            pickle.dump(for_pickling, f)
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
     for t, c in class_counter.most_common():

@@ -1813,7 +1813,7 @@
             "id": "529",
             "type": "E19 Physical Object",
             "virtual": false,
-            "text": "anatomische  Präparate",
+            "text": "anatomische Präparate",
             "begin": 5360,
             "end": 5382,
             "incoming": [
@@ -2494,7 +2494,7 @@
             "id": "588",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Mollusken und  Echinodermen",
+            "text": "Mollusken und Echinodermen",
             "begin": 7614,
             "end": 7641,
             "incoming": [
@@ -2657,7 +2657,7 @@
             "id": "601",
             "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "Delphinus  acutus",
+            "text": "Delphinus acutus",
             "begin": 7982,
             "end": 7999,
             "incoming": [
@@ -4037,7 +4037,7 @@
             "id": "743",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Krustenthiere und  Pycnogonideln",
+            "text": "Krustenthiere und Pycnogonideln",
             "begin": 9493,
             "end": 9525,
             "incoming": [],
@@ -4321,7 +4321,7 @@
             "id": "775",
             "type": "E55 Type",
             "virtual": false,
-            "text": "zoologischer  Werke",
+            "text": "zoologischer Werke",
             "begin": 9859,
             "end": 9878,
             "incoming": [
