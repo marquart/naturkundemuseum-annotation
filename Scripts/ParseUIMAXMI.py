@@ -78,6 +78,7 @@ class SemanticEntity(object):
     def __init__(self, tag, corrector, anchors=None, virtual=False):
         ''''''
         self.id = self.next_id
+        self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
         SemanticEntity.next_id += 1
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
@@ -114,7 +115,7 @@ class SemanticEntity(object):
             property = SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=self, target=target)
     
     def __str__(self):
-        return f"{self.type}: '{self.string}'"
+        return f"{self.type}: '{replace_nl(self.string)}'"
 
 
 
@@ -123,6 +124,7 @@ class SemanticProperty(object):
     next_id  = 0
     def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None):
         self.id = self.next_id
+        self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
         SemanticProperty.next_id += 1
         
         if not check_property_exists(tag, "SemanticProperty"): self.type = "P0 Unknown"
@@ -162,8 +164,8 @@ class SemanticProperty(object):
                 self.target = None
     
     def __str__(self):
-        if self.source: return f"{self.source} → {self.type} → {self.target}"
-        return f"{self.source_id} → {self.type} → {self.target_id}"
+        if self.source: return f"{str(self.source):<90} → {self.type:<30} → {str(self.target):<50}"
+        return f"{str(self.source_id):<90} → {str(self.type):<30} → {str(self.target_id):<50}"
     
 
         
@@ -196,6 +198,8 @@ def parse_postprocessing(tag_string, source, anchors):
                 
         else:
             triple = info.lstrip('!').split(':')
+            if len(triple) != 3:
+                print(triple)
             assert len(triple) == 3
         
         if inverse:
@@ -206,6 +210,9 @@ def parse_postprocessing(tag_string, source, anchors):
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
         
     return virtual_from_source
+
+def replace_nl(txt):
+    return txt.replace('\r\n', ' ').replace('\n', ' ')
 
 def set_anchors(anchors):
     for anchor_str, anchor in anchors.objs.items():
@@ -241,7 +248,7 @@ def parse(filepath):
     set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
     properties = [SemanticProperty(tag, entity_map) for tag in xml.find_all("custom:SemanticRelations")]
-    print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties")
+    print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
     properties += SemanticProperty.virtuals
     
     SemanticProperty.virtuals.clear()
