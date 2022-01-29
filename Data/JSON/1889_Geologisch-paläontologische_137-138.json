@@ -5,496 +5,6 @@
     "Page_End": 138,
     "Text": "====PAGEBEGIN 137====\r\n\r\n133\r\n2. Geologisch-palaeontologische Sammlung nebst Institut.\r\nWährend der ersten Hälfte des verflossenen Etatsjahres\r\nwar die Thätigkeit der Beamten fast ausschliesslich damit in\r\nAnspruch genommen, aus den vorhandenen Beständen diejenigen\r\nStücke auszusuchen, welche für die Schausammlung geeignet\r\nschienen, dann diese Stücke zu ordnen und aufzustellen, sowie\r\ndie dabei beschäftigten Handwerker und Kalligraphen zu beauf­sichtigen und zu instruiren. Diese Arbeit ist soweit ausgeführt,\r\ndass der Schausammlungssaal der Thiere am Einweihungstage\r\n(2. December 1889) fertig gestellt war.\r\nDie Neuordnung der Hauptsammlung hat durch die eben\r\nerwähnte Thätigkeit nur geringe Fortschritte gemacht. Sie\r\nwurde allmählich, je nachdem die neuen Schrankreihen von den\r\nTischlern abgeliefert worden, aus den alten Schränken in diese\r\numgelegt und ist nunmehr völlig in den neuen Schränken unter­gebracht. Diese Umlegung geschah auf Grund sorgfältig er­wogener Dispositionen, so dass damit eine der wichtigsten Vor­arbeiten für eine Neuordnung als erledigt zu betrachten ist.\r\nNach der Einweihung sind bereits einzelne Theile aus der\r\nAbtheilung der wirbellosen Tiere neu geordnet worden, so die\r\nSpongien, die palaeozoischen und triassischen Gastropoden, tertiäre\r\nMollusken verschiedener Fundorte und jurassische Ammoniten.\r\nFerner ist ein Theil der Zugänge in die Hauptsammlung ein­geordnet worden.\r\nDie Bereicherung der Sammlung war im vergangenen Jahre\r\neine sehr bedeutende. Vor Allem ist hier zu nennen die\r\nKünow'sche Bernsteinsammlung, grössere Suiten von englischen\r\nJura- Petrefakten, ein Exemplar des ältesten Reptils ­Stereostenum tumidum — aus Brasilien. ferner eine Platte mit\r\n19 Exemplaren von Neusticosaurus pusillus aus der Lettenkohlen­gruppe von Ludwigsburg in Württemberg, und als Geschenk\r\ndes Kiesgrubenbesitzers Korner in Rixdorf ein ungewöhnlich\r\nvollständig erhaltenes Schädelfragment vom Riesenhirsch (Cervus\r\neuryceros).\r\nBehufs Ordnung der Hauptsammlung wurde allerlei Hand­werkzeug zur Anfertigung von Gestellen für grössere Petrefakten\r\nsowie für die Herrichtung von Gesteinsstufen und das Her­stellen von Gesteins- und Petrefaktenschliffen angeschafft.\r\n\r\n====PAGEBREAK TO 138====\r\n\r\n134\r\nDas geologisch-palaeontologische Institut wurde nach Mass­gabe der vorhandenen Mittel so eingerichtet, dass es am 1. Mai\r\neröffnet werden konnte. Für dasselbe besteht eine theils aus\r\nDubletten, theils aus Neu-Anschaffungen entstandene Bibliothek.\r\nFerner wurden Mikroskope und Standlupen zum Gebrauch bei\r\nVorlesungen und bei eigenen Untersuchungen beschafft.\r\nDie Hauptbibliothek ist Dank der zur Verfügung stehenden\r\nausserordentlichen Mittel sehr bereichert worden, namentlich\r\nauch an grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken. Sie ist nach Aussonderung\r\nder der mineralogisch-petrographischen Sammlung überwiesenen\r\nBücher völlig neu geordnet und aufgestellt, und es ist mit einer\r\nNeu-Katalogisirung begonnen.\r\nDer Besuch des Instituts konnte noch nicht bedeutend sein,\r\nda die Beamten, wie erwähnt, mit der Herstellung der Schau­sammlung fast ausschliesslich beschäftigt waren und somit die\r\nPraktikanten und Studenten von ihnen nur geringe Förderung\r\nerwarten durften. Es haben im Lauf des Jahres 8 Praktikanten\r\nselbstständige Untersuchungen gemacht und 12 Studenten die\r\nLehrsammlungen benutzt.\r\nProfessor Dr. Beyrich,\r\nDirektor der geologisch-palaeontologischen Sammlung.\r\n3. Mineralogiseh-petrographisches Institut.\r\nDas mit dem Wintersemester 1888/89 ins Leben und in\r\nWirksamkeit getretene mineralogisch-petrographische Institut\r\nhat zunächst die Aufgabe, den durch die nöthigen Vorlesungen\r\ndazu vorbereiteten Studirenden die Möglichkeit zu gewähren,\r\nsich in Mineralogie und Petrographie wissenschaftlich auszubilden.\r\nrespective in diesen Disciplinen eigene Arbeiten zu unternehmen.\r\nUm dieses zu bewirken, sind vorab eine mineralogische und\r\neine petrographische Repetirsammlung erforderlich. Dieselben\r\nwurden gebildet und im Wintersemester 1889/90 der Benutzung\r\nübergeben.\r\nWas die Arbeitseinrichtung anlangt, so wurden für Anfünger\r\n8 Arbeitsplätze geschaffen und für Vorgerücktere deren 4 für\r\nmineralogisch - krystallographische Arbeiten eingerichtet. Die\r\nHerstellung der chemisch-petrographischen Einrichtung für Vor­ä",
     "Entities": {
-        "66": {
-            "id": "66",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Geologisch-palaeontologische Sammlung",
-            "begin": 33,
-            "end": 70,
-            "incoming": [],
-            "outgoing": [
-                "91",
-                "102"
-            ]
-        },
-        "67": {
-            "id": "67",
-            "type": "E39 Actor",
-            "virtual": false,
-            "text": "Beamten",
-            "begin": 167,
-            "end": 174,
-            "incoming": [
-                "88",
-                "89",
-                "90"
-            ],
-            "outgoing": []
-        },
-        "68": {
-            "id": "68",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "auszusuchen",
-            "begin": 274,
-            "end": 285,
-            "incoming": [],
-            "outgoing": [
-                "88",
-                "92",
-                "100"
-            ]
-        },
-        "69": {
-            "id": "69",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Schausammlung",
-            "begin": 302,
-            "end": 315,
-            "incoming": [
-                "91",
-                "92",
-                "93",
-                "94",
-                "95"
-            ],
-            "outgoing": []
-        },
-        "70": {
-            "id": "70",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "ordnen",
-            "begin": 357,
-            "end": 363,
-            "incoming": [],
-            "outgoing": [
-                "89",
-                "93",
-                "99"
-            ]
-        },
-        "71": {
-            "id": "71",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "aufzustellen",
-            "begin": 368,
-            "end": 380,
-            "incoming": [],
-            "outgoing": [
-                "90",
-                "94",
-                "96",
-                "97",
-                "98"
-            ]
-        },
-        "72": {
-            "id": "72",
-            "type": "E39 Actor",
-            "virtual": false,
-            "text": "Handwerker",
-            "begin": 413,
-            "end": 423,
-            "incoming": [
-                "96"
-            ],
-            "outgoing": []
-        },
-        "73": {
-            "id": "73",
-            "type": "E39 Actor",
-            "virtual": false,
-            "text": "Kalligraphen",
-            "begin": 428,
-            "end": 440,
-            "incoming": [
-                "97"
-            ],
-            "outgoing": []
-        },
-        "74": {
-            "id": "74",
-            "type": "E63 Beginning of Existence",
-            "virtual": false,
-            "text": "inweihungstage",
-            "begin": 559,
-            "end": 573,
-            "incoming": [
-                "98",
-                "99",
-                "100"
-            ],
-            "outgoing": [
-                "95",
-                "101"
-            ]
-        },
-        "75": {
-            "id": "75",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "2. December 1889",
-            "begin": 576,
-            "end": 592,
-            "incoming": [
-                "101"
-            ],
-            "outgoing": []
-        },
-        "76": {
-            "id": "76",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Hauptsammlung",
-            "begin": 635,
-            "end": 648,
-            "incoming": [
-                "102",
-                "103"
-            ],
-            "outgoing": [
-                "105"
-            ]
-        },
-        "77": {
-            "id": "77",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "völlig in den neuen Schränken unter­gebracht",
-            "begin": 879,
-            "end": 923,
-            "incoming": [
-                "104"
-            ],
-            "outgoing": [
-                "103"
-            ]
-        },
-        "78": {
-            "id": "78",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Neuordnung",
-            "begin": 1052,
-            "end": 1062,
-            "incoming": [],
-            "outgoing": [
-                "104"
-            ]
-        },
-        "79": {
-            "id": "79",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Abtheilung der wirbellosen Tiere",
-            "begin": 1154,
-            "end": 1186,
-            "incoming": [
-                "105",
-                "106"
-            ],
-            "outgoing": []
-        },
-        "80": {
-            "id": "80",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "neu geordnet",
-            "begin": 1187,
-            "end": 1199,
-            "incoming": [],
-            "outgoing": [
-                "106",
-                "107",
-                "108",
-                "109",
-                "110"
-            ]
-        },
-        "81": {
-            "id": "81",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Spongien",
-            "begin": 1216,
-            "end": 1224,
-            "incoming": [
-                "107"
-            ],
-            "outgoing": [
-                "66"
-            ]
-        },
-        "83": {
-            "id": "83",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "palaeozoischen und triassischen Gastropoden",
-            "begin": 1230,
-            "end": 1273,
-            "incoming": [
-                "108"
-            ],
-            "outgoing": [
-                "67"
-            ]
-        },
-        "85": {
-            "id": "85",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "tertiäre Mollusken",
-            "begin": 1275,
-            "end": 1294,
-            "incoming": [
-                "109"
-            ],
-            "outgoing": [
-                "68"
-            ]
-        },
-        "87": {
-            "id": "87",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "jurassische Ammoniten",
-            "begin": 1322,
-            "end": 1343,
-            "incoming": [
-                "110"
-            ],
-            "outgoing": [
-                "69"
-            ]
-        },
-        "89": {
-            "id": "89",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Künow'sche Bernsteinsammlung",
-            "begin": 1534,
-            "end": 1562,
-            "incoming": [
-                "70",
-                "111"
-            ],
-            "outgoing": []
-        },
-        "91": {
-            "id": "91",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Künow",
-            "begin": 1534,
-            "end": 1539,
-            "incoming": [],
-            "outgoing": [
-                "111"
-            ]
-        },
-        "92": {
-            "id": "92",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "englischen",
-            "begin": 1584,
-            "end": 1594,
-            "incoming": [
-                "112"
-            ],
-            "outgoing": []
-        },
-        "93": {
-            "id": "93",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Jura- Petrefakten",
-            "begin": 1596,
-            "end": 1613,
-            "incoming": [
-                "71"
-            ],
-            "outgoing": [
-                "112"
-            ]
-        },
-        "95": {
-            "id": "95",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Reptil",
-            "begin": 1641,
-            "end": 1647,
-            "incoming": [],
-            "outgoing": [
-                "72"
-            ]
-        },
-        "97": {
-            "id": "97",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "­Stereostenum tumidum",
-            "begin": 1649,
-            "end": 1670,
-            "incoming": [
-                "73"
-            ],
-            "outgoing": [
-                "113"
-            ]
-        },
-        "99": {
-            "id": "99",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Brasilien",
-            "begin": 1677,
-            "end": 1686,
-            "incoming": [
-                "113"
-            ],
-            "outgoing": []
-        },
-        "100": {
-            "id": "100",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Platte",
-            "begin": 1700,
-            "end": 1706,
-            "incoming": [
-                "74"
-            ],
-            "outgoing": [
-                "115",
-                "117"
-            ]
-        },
-        "102": {
-            "id": "102",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "19 Exemplare",
-            "begin": 1712,
-            "end": 1724,
-            "incoming": [
-                "114"
-            ],
-            "outgoing": []
-        },
-        "103": {
-            "id": "103",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Neusticosaurus pusillus",
-            "begin": 1730,
-            "end": 1753,
-            "incoming": [
-                "115",
-                "116"
-            ],
-            "outgoing": [
-                "75",
-                "114"
-            ]
-        },
-        "105": {
-            "id": "105",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Lettenkohlen­gruppe",
-            "begin": 1762,
-            "end": 1781,
-            "incoming": [],
-            "outgoing": [
-                "116"
-            ]
-        },
-        "106": {
-            "id": "106",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Ludwigsburg in Württemberg",
-            "begin": 1786,
-            "end": 1812,
-            "incoming": [
-                "117"
-            ],
-            "outgoing": []
-        },
-        "107": {
-            "id": "107",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "Geschenk",
-            "begin": 1822,
-            "end": 1830,
-            "incoming": [],
-            "outgoing": [
-                "76",
-                "119",
-                "121"
-            ]
-        },
-        "109": {
-            "id": "109",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Kiesgrubenbesitzer",
-            "begin": 1836,
-            "end": 1854,
-            "incoming": [
-                "118"
-            ],
-            "outgoing": [
-                "77"
-            ]
-        },
-        "111": {
-            "id": "111",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Korner",
-            "begin": 1856,
-            "end": 1862,
-            "incoming": [
-                "119"
-            ],
-            "outgoing": [
-                "118",
-                "120"
-            ]
-        },
-        "112": {
-            "id": "112",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Rixdorf",
-            "begin": 1866,
-            "end": 1873,
-            "incoming": [
-                "120"
-            ],
-            "outgoing": []
-        },
-        "113": {
-            "id": "113",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "Schädelfragment",
-            "begin": 1915,
-            "end": 1930,
-            "incoming": [
-                "121",
-                "122"
-            ],
-            "outgoing": []
-        },
         "114": {
             "id": "114",
             "type": "E28 Conceptual Object",
@@ -520,6 +30,20 @@
             ],
             "outgoing": []
         },
+        "85": {
+            "id": "85",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "tertiäre Mollusken",
+            "begin": 1275,
+            "end": 1294,
+            "incoming": [
+                "109"
+            ],
+            "outgoing": [
+                "68"
+            ]
+        },
         "117": {
             "id": "117",
             "type": "E19 Physical Object",
@@ -535,6 +59,20 @@
             ],
             "outgoing": [
                 "123"
+            ]
+        },
+        "87": {
+            "id": "87",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "jurassische Ammoniten",
+            "begin": 1322,
+            "end": 1343,
+            "incoming": [
+                "110"
+            ],
+            "outgoing": [
+                "69"
             ]
         },
         "118": {
@@ -573,6 +111,19 @@
                 "127"
             ]
         },
+        "89": {
+            "id": "89",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Künow'sche Bernsteinsammlung",
+            "begin": 1534,
+            "end": 1562,
+            "incoming": [
+                "70",
+                "111"
+            ],
+            "outgoing": []
+        },
         "121": {
             "id": "121",
             "type": "E8 Acquisition",
@@ -597,6 +148,43 @@
                 "128"
             ],
             "outgoing": []
+        },
+        "122": {
+            "id": "122",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Acquisition",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "79",
+                "80"
+            ],
+            "outgoing": []
+        },
+        "91": {
+            "id": "91",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Künow",
+            "begin": 1534,
+            "end": 1539,
+            "incoming": [],
+            "outgoing": [
+                "111"
+            ]
+        },
+        "90": {
+            "id": "90",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "70"
+            ]
         },
         "124": {
             "id": "124",
@@ -623,6 +211,18 @@
                 "129"
             ]
         },
+        "92": {
+            "id": "92",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "englischen",
+            "begin": 1584,
+            "end": 1594,
+            "incoming": [
+                "112"
+            ],
+            "outgoing": []
+        },
         "126": {
             "id": "126",
             "type": "E19 Physical Object",
@@ -634,6 +234,20 @@
                 "130"
             ],
             "outgoing": []
+        },
+        "93": {
+            "id": "93",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Jura- Petrefakten",
+            "begin": 1596,
+            "end": 1613,
+            "incoming": [
+                "71"
+            ],
+            "outgoing": [
+                "112"
+            ]
         },
         "127": {
             "id": "127",
@@ -647,6 +261,18 @@
             ],
             "outgoing": []
         },
+        "95": {
+            "id": "95",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Reptil",
+            "begin": 1641,
+            "end": 1647,
+            "incoming": [],
+            "outgoing": [
+                "72"
+            ]
+        },
         "128": {
             "id": "128",
             "type": "E8 Acquisition",
@@ -659,6 +285,18 @@
                 "80",
                 "130",
                 "131"
+            ]
+        },
+        "94": {
+            "id": "94",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "71"
             ]
         },
         "130": {
@@ -677,6 +315,34 @@
                 "81"
             ]
         },
+        "68": {
+            "id": "68",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "auszusuchen",
+            "begin": 274,
+            "end": 285,
+            "incoming": [],
+            "outgoing": [
+                "88",
+                "92",
+                "100"
+            ]
+        },
+        "97": {
+            "id": "97",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "­Stereostenum tumidum",
+            "begin": 1649,
+            "end": 1670,
+            "incoming": [
+                "73"
+            ],
+            "outgoing": [
+                "113"
+            ]
+        },
         "132": {
             "id": "132",
             "type": "E8 Acquisition",
@@ -690,6 +356,42 @@
                 "135"
             ]
         },
+        "131": {
+            "id": "131",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Library",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "81"
+            ],
+            "outgoing": []
+        },
+        "99": {
+            "id": "99",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Brasilien",
+            "begin": 1677,
+            "end": 1686,
+            "incoming": [
+                "113"
+            ],
+            "outgoing": []
+        },
+        "98": {
+            "id": "98",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "73"
+            ]
+        },
         "133": {
             "id": "133",
             "type": "E19 Physical Object",
@@ -699,6 +401,20 @@
             "end": 2814,
             "incoming": [
                 "135"
+            ],
+            "outgoing": []
+        },
+        "67": {
+            "id": "67",
+            "type": "E39 Actor",
+            "virtual": false,
+            "text": "Beamten",
+            "begin": 167,
+            "end": 174,
+            "incoming": [
+                "88",
+                "89",
+                "90"
             ],
             "outgoing": []
         },
@@ -714,6 +430,34 @@
                 "132"
             ]
         },
+        "66": {
+            "id": "66",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Geologisch-palaeontologische Sammlung",
+            "begin": 33,
+            "end": 70,
+            "incoming": [],
+            "outgoing": [
+                "91",
+                "102"
+            ]
+        },
+        "100": {
+            "id": "100",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Platte",
+            "begin": 1700,
+            "end": 1706,
+            "incoming": [
+                "74"
+            ],
+            "outgoing": [
+                "115",
+                "117"
+            ]
+        },
         "135": {
             "id": "135",
             "type": "E87 Curation Activity",
@@ -726,6 +470,18 @@
                 "133"
             ]
         },
+        "102": {
+            "id": "102",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "19 Exemplare",
+            "begin": 1712,
+            "end": 1724,
+            "incoming": [
+                "114"
+            ],
+            "outgoing": []
+        },
         "136": {
             "id": "136",
             "type": "E54 Dimension",
@@ -737,6 +493,18 @@
                 "136"
             ],
             "outgoing": []
+        },
+        "101": {
+            "id": "101",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "74"
+            ]
         },
         "137": {
             "id": "137",
@@ -763,6 +531,93 @@
             ],
             "outgoing": []
         },
+        "69": {
+            "id": "69",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Schausammlung",
+            "begin": 302,
+            "end": 315,
+            "incoming": [
+                "91",
+                "92",
+                "93",
+                "94",
+                "95"
+            ],
+            "outgoing": []
+        },
+        "103": {
+            "id": "103",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Neusticosaurus pusillus",
+            "begin": 1730,
+            "end": 1753,
+            "incoming": [
+                "115",
+                "116"
+            ],
+            "outgoing": [
+                "75",
+                "114"
+            ]
+        },
+        "138": {
+            "id": "138",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Teaching",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "82",
+                "83"
+            ],
+            "outgoing": []
+        },
+        "70": {
+            "id": "70",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "ordnen",
+            "begin": 357,
+            "end": 363,
+            "incoming": [],
+            "outgoing": [
+                "89",
+                "93",
+                "99"
+            ]
+        },
+        "105": {
+            "id": "105",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Lettenkohlen­gruppe",
+            "begin": 1762,
+            "end": 1781,
+            "incoming": [],
+            "outgoing": [
+                "116"
+            ]
+        },
+        "71": {
+            "id": "71",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "aufzustellen",
+            "begin": 368,
+            "end": 380,
+            "incoming": [],
+            "outgoing": [
+                "90",
+                "94",
+                "96",
+                "97",
+                "98"
+            ]
+        },
         "140": {
             "id": "140",
             "type": "E74 Group",
@@ -775,6 +630,18 @@
                 "83",
                 "137"
             ]
+        },
+        "72": {
+            "id": "72",
+            "type": "E39 Actor",
+            "virtual": false,
+            "text": "Handwerker",
+            "begin": 413,
+            "end": 423,
+            "incoming": [
+                "96"
+            ],
+            "outgoing": []
         },
         "142": {
             "id": "142",
@@ -790,6 +657,87 @@
                 "84"
             ]
         },
+        "73": {
+            "id": "73",
+            "type": "E39 Actor",
+            "virtual": false,
+            "text": "Kalligraphen",
+            "begin": 428,
+            "end": 440,
+            "incoming": [
+                "97"
+            ],
+            "outgoing": []
+        },
+        "106": {
+            "id": "106",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Ludwigsburg in Württemberg",
+            "begin": 1786,
+            "end": 1812,
+            "incoming": [
+                "117"
+            ],
+            "outgoing": []
+        },
+        "74": {
+            "id": "74",
+            "type": "E63 Beginning of Existence",
+            "virtual": false,
+            "text": "inweihungstage",
+            "begin": 559,
+            "end": 573,
+            "incoming": [
+                "98",
+                "99",
+                "100"
+            ],
+            "outgoing": [
+                "95",
+                "101"
+            ]
+        },
+        "107": {
+            "id": "107",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "Geschenk",
+            "begin": 1822,
+            "end": 1830,
+            "incoming": [],
+            "outgoing": [
+                "76",
+                "119",
+                "121"
+            ]
+        },
+        "75": {
+            "id": "75",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "2. December 1889",
+            "begin": 576,
+            "end": 592,
+            "incoming": [
+                "101"
+            ],
+            "outgoing": []
+        },
+        "109": {
+            "id": "109",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kiesgrubenbesitzer",
+            "begin": 1836,
+            "end": 1854,
+            "incoming": [
+                "118"
+            ],
+            "outgoing": [
+                "77"
+            ]
+        },
         "144": {
             "id": "144",
             "type": "E41 Appellation",
@@ -802,6 +750,87 @@
             ],
             "outgoing": [
                 "85"
+            ]
+        },
+        "76": {
+            "id": "76",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Hauptsammlung",
+            "begin": 635,
+            "end": 648,
+            "incoming": [
+                "102",
+                "103"
+            ],
+            "outgoing": [
+                "105"
+            ]
+        },
+        "108": {
+            "id": "108",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Donation",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "76"
+            ],
+            "outgoing": []
+        },
+        "143": {
+            "id": "143",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "84",
+                "85"
+            ],
+            "outgoing": []
+        },
+        "77": {
+            "id": "77",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "völlig in den neuen Schränken unter­gebracht",
+            "begin": 879,
+            "end": 923,
+            "incoming": [
+                "104"
+            ],
+            "outgoing": [
+                "103"
+            ]
+        },
+        "78": {
+            "id": "78",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Neuordnung",
+            "begin": 1052,
+            "end": 1062,
+            "incoming": [],
+            "outgoing": [
+                "104"
+            ]
+        },
+        "111": {
+            "id": "111",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Korner",
+            "begin": 1856,
+            "end": 1862,
+            "incoming": [
+                "119"
+            ],
+            "outgoing": [
+                "118",
+                "120"
             ]
         },
         "146": {
@@ -819,6 +848,74 @@
                 "140"
             ]
         },
+        "79": {
+            "id": "79",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Abtheilung der wirbellosen Tiere",
+            "begin": 1154,
+            "end": 1186,
+            "incoming": [
+                "105",
+                "106"
+            ],
+            "outgoing": []
+        },
+        "110": {
+            "id": "110",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "77",
+                "87"
+            ],
+            "outgoing": []
+        },
+        "80": {
+            "id": "80",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "neu geordnet",
+            "begin": 1187,
+            "end": 1199,
+            "incoming": [],
+            "outgoing": [
+                "106",
+                "107",
+                "108",
+                "109",
+                "110"
+            ]
+        },
+        "81": {
+            "id": "81",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Spongien",
+            "begin": 1216,
+            "end": 1224,
+            "incoming": [
+                "107"
+            ],
+            "outgoing": [
+                "66"
+            ]
+        },
+        "112": {
+            "id": "112",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Rixdorf",
+            "begin": 1866,
+            "end": 1873,
+            "incoming": [
+                "120"
+            ],
+            "outgoing": []
+        },
         "148": {
             "id": "148",
             "type": "E41 Appellation",
@@ -833,243 +930,30 @@
                 "87"
             ]
         },
-        "82": {
-            "id": "82",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
+        "83": {
+            "id": "83",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "palaeozoischen und triassischen Gastropoden",
+            "begin": 1230,
+            "end": 1273,
             "incoming": [
-                "66"
+                "108"
             ],
-            "outgoing": []
-        },
-        "84": {
-            "id": "84",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
-            "incoming": [
+            "outgoing": [
                 "67"
-            ],
-            "outgoing": []
-        },
-        "86": {
-            "id": "86",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "68"
-            ],
-            "outgoing": []
-        },
-        "88": {
-            "id": "88",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "69"
-            ],
-            "outgoing": []
-        },
-        "90": {
-            "id": "90",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "70"
             ]
         },
-        "94": {
-            "id": "94",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "71"
-            ]
-        },
-        "96": {
-            "id": "96",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
+        "113": {
+            "id": "113",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Schädelfragment",
+            "begin": 1915,
+            "end": 1930,
             "incoming": [
-                "72"
-            ],
-            "outgoing": []
-        },
-        "98": {
-            "id": "98",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "73"
-            ]
-        },
-        "101": {
-            "id": "101",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "74"
-            ]
-        },
-        "104": {
-            "id": "104",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "75"
-            ],
-            "outgoing": []
-        },
-        "108": {
-            "id": "108",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Donation",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "76"
-            ],
-            "outgoing": []
-        },
-        "110": {
-            "id": "110",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "77"
-            ],
-            "outgoing": []
-        },
-        "115": {
-            "id": "115",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "78"
-            ],
-            "outgoing": []
-        },
-        "122": {
-            "id": "122",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Acquisition",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "79"
-            ],
-            "outgoing": []
-        },
-        "129": {
-            "id": "129",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Acquisition",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "80"
-            ],
-            "outgoing": []
-        },
-        "131": {
-            "id": "131",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Library",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "81"
-            ],
-            "outgoing": []
-        },
-        "138": {
-            "id": "138",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Teaching",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "82"
-            ],
-            "outgoing": []
-        },
-        "141": {
-            "id": "141",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Teaching",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "83"
-            ],
-            "outgoing": []
-        },
-        "143": {
-            "id": "143",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Academic Title",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "84"
-            ],
-            "outgoing": []
-        },
-        "145": {
-            "id": "145",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Academic Title",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "85"
+                "121",
+                "122"
             ],
             "outgoing": []
         },
@@ -1085,15 +969,21 @@
             ],
             "outgoing": []
         },
-        "149": {
-            "id": "149",
+        "82": {
+            "id": "82",
             "type": "E55 Type",
             "virtual": true,
-            "text": "Profession",
+            "text": "Taxon",
             "begin": null,
             "end": null,
             "incoming": [
-                "87"
+                "66",
+                "67",
+                "68",
+                "69",
+                "72",
+                "75",
+                "78"
             ],
             "outgoing": []
         }
@@ -1427,19 +1317,19 @@
             "id": "67",
             "type": "P2 has type",
             "source": "83",
-            "target": "84"
+            "target": "82"
         },
         "68": {
             "id": "68",
             "type": "P2 has type",
             "source": "85",
-            "target": "86"
+            "target": "82"
         },
         "69": {
             "id": "69",
             "type": "P2 has type",
             "source": "87",
-            "target": "88"
+            "target": "82"
         },
         "70": {
             "id": "70",
@@ -1457,7 +1347,7 @@
             "id": "72",
             "type": "P2 has type",
             "source": "95",
-            "target": "96"
+            "target": "82"
         },
         "73": {
             "id": "73",
@@ -1475,7 +1365,7 @@
             "id": "75",
             "type": "P2 has type",
             "source": "103",
-            "target": "104"
+            "target": "82"
         },
         "76": {
             "id": "76",
@@ -1493,7 +1383,7 @@
             "id": "78",
             "type": "P2 has type",
             "source": "114",
-            "target": "115"
+            "target": "82"
         },
         "79": {
             "id": "79",
@@ -1505,7 +1395,7 @@
             "id": "80",
             "type": "P2 has type",
             "source": "128",
-            "target": "129"
+            "target": "122"
         },
         "81": {
             "id": "81",
@@ -1523,7 +1413,7 @@
             "id": "83",
             "type": "P2 has type",
             "source": "140",
-            "target": "141"
+            "target": "138"
         },
         "84": {
             "id": "84",
@@ -1535,7 +1425,7 @@
             "id": "85",
             "type": "P2 has type",
             "source": "144",
-            "target": "145"
+            "target": "143"
         },
         "86": {
             "id": "86",
@@ -1547,7 +1437,7 @@
             "id": "87",
             "type": "P2 has type",
             "source": "148",
-            "target": "149"
+            "target": "110"
         }
     }
 }

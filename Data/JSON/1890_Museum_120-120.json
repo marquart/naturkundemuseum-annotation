@@ -5,160 +5,6 @@
     "Page_End": 120,
     "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
     "Entities": {
-        "1056": {
-            "id": "1056",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "1. Juli v. Js.",
-            "begin": 654,
-            "end": 668,
-            "incoming": [
-                "1017"
-            ],
-            "outgoing": []
-        },
-        "1057": {
-            "id": "1057",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Montags",
-            "begin": 680,
-            "end": 687,
-            "incoming": [
-                "1018"
-            ],
-            "outgoing": []
-        },
-        "1058": {
-            "id": "1058",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Sonnabends von 11 bis 3 Uhr",
-            "begin": 694,
-            "end": 721,
-            "incoming": [
-                "1019"
-            ],
-            "outgoing": []
-        },
-        "1059": {
-            "id": "1059",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Publikum",
-            "begin": 730,
-            "end": 738,
-            "incoming": [],
-            "outgoing": [
-                "1001"
-            ]
-        },
-        "1061": {
-            "id": "1061",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
-            "begin": 743,
-            "end": 781,
-            "incoming": [
-                "1020"
-            ],
-            "outgoing": []
-        },
-        "1062": {
-            "id": "1062",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Schüler höherer Lehr­anstalten",
-            "begin": 790,
-            "end": 820,
-            "incoming": [],
-            "outgoing": [
-                "1002"
-            ]
-        },
-        "1064": {
-            "id": "1064",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "geöffnet",
-            "begin": 821,
-            "end": 829,
-            "incoming": [],
-            "outgoing": [
-                "1003",
-                "1017",
-                "1018",
-                "1019",
-                "1020"
-            ]
-        },
-        "1066": {
-            "id": "1066",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Wintersemester",
-            "begin": 856,
-            "end": 870,
-            "incoming": [
-                "1021"
-            ],
-            "outgoing": []
-        },
-        "1067": {
-            "id": "1067",
-            "type": "E7 Activity",
-            "virtual": false,
-            "text": "besuchten",
-            "begin": 912,
-            "end": 921,
-            "incoming": [],
-            "outgoing": [
-                "1004",
-                "1021",
-                "1023",
-                "1025"
-            ]
-        },
-        "1069": {
-            "id": "1069",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "11579",
-            "begin": 932,
-            "end": 937,
-            "incoming": [
-                "1022"
-            ],
-            "outgoing": []
-        },
-        "1070": {
-            "id": "1070",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Personen",
-            "begin": 938,
-            "end": 946,
-            "incoming": [
-                "1023"
-            ],
-            "outgoing": [
-                "1005",
-                "1022"
-            ]
-        },
-        "1072": {
-            "id": "1072",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "13",
-            "begin": 952,
-            "end": 954,
-            "incoming": [
-                "1024"
-            ],
-            "outgoing": []
-        },
         "1073": {
             "id": "1073",
             "type": "E74 Group",
@@ -306,6 +152,18 @@
             ],
             "outgoing": []
         },
+        "1058": {
+            "id": "1058",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Sonnabends von 11 bis 3 Uhr",
+            "begin": 694,
+            "end": 721,
+            "incoming": [
+                "1019"
+            ],
+            "outgoing": []
+        },
         "1086": {
             "id": "1086",
             "type": "E41 Appellation",
@@ -333,6 +191,35 @@
             ],
             "outgoing": []
         },
+        "1087": {
+            "id": "1087",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1008",
+                "1009",
+                "1010",
+                "1012",
+                "1014",
+                "1016"
+            ],
+            "outgoing": []
+        },
+        "1057": {
+            "id": "1057",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Montags",
+            "begin": 680,
+            "end": 687,
+            "incoming": [
+                "1018"
+            ],
+            "outgoing": []
+        },
         "1089": {
             "id": "1089",
             "type": "E41 Appellation",
@@ -347,6 +234,18 @@
                 "1009",
                 "1037"
             ]
+        },
+        "1056": {
+            "id": "1056",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Juli v. Js.",
+            "begin": 654,
+            "end": 668,
+            "incoming": [
+                "1017"
+            ],
+            "outgoing": []
         },
         "1091": {
             "id": "1091",
@@ -377,6 +276,46 @@
                 "1011"
             ]
         },
+        "1059": {
+            "id": "1059",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Publikum",
+            "begin": 730,
+            "end": 738,
+            "incoming": [],
+            "outgoing": [
+                "1001"
+            ]
+        },
+        "1061": {
+            "id": "1061",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
+            "begin": 743,
+            "end": 781,
+            "incoming": [
+                "1020"
+            ],
+            "outgoing": []
+        },
+        "1060": {
+            "id": "1060",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1001",
+                "1002",
+                "1005",
+                "1006",
+                "1007"
+            ],
+            "outgoing": []
+        },
         "1095": {
             "id": "1095",
             "type": "E41 Appellation",
@@ -388,6 +327,47 @@
             "outgoing": [
                 "1012",
                 "1039"
+            ]
+        },
+        "1094": {
+            "id": "1094",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Task",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1011",
+                "1013"
+            ],
+            "outgoing": []
+        },
+        "1062": {
+            "id": "1062",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Schüler höherer Lehr­anstalten",
+            "begin": 790,
+            "end": 820,
+            "incoming": [],
+            "outgoing": [
+                "1002"
+            ]
+        },
+        "1064": {
+            "id": "1064",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "geöffnet",
+            "begin": 821,
+            "end": 829,
+            "incoming": [],
+            "outgoing": [
+                "1003",
+                "1017",
+                "1018",
+                "1019",
+                "1020"
             ]
         },
         "1097": {
@@ -404,6 +384,18 @@
                 "1013"
             ]
         },
+        "1066": {
+            "id": "1066",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Wintersemester",
+            "begin": 856,
+            "end": 870,
+            "incoming": [
+                "1021"
+            ],
+            "outgoing": []
+        },
         "1099": {
             "id": "1099",
             "type": "E41 Appellation",
@@ -415,6 +407,33 @@
             "outgoing": [
                 "1014",
                 "1040"
+            ]
+        },
+        "1065": {
+            "id": "1065",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Opening Times",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1003"
+            ],
+            "outgoing": []
+        },
+        "1067": {
+            "id": "1067",
+            "type": "E7 Activity",
+            "virtual": false,
+            "text": "besuchten",
+            "begin": 912,
+            "end": 921,
+            "incoming": [],
+            "outgoing": [
+                "1004",
+                "1021",
+                "1023",
+                "1025"
             ]
         },
         "1101": {
@@ -430,53 +449,15 @@
                 "1041"
             ]
         },
-        "1103": {
-            "id": "1103",
-            "type": "E41 Appellation",
+        "1069": {
+            "id": "1069",
+            "type": "E54 Dimension",
             "virtual": false,
-            "text": "Verwaltungsdirektor",
-            "begin": 1946,
-            "end": 1965,
+            "text": "11579",
+            "begin": 932,
+            "end": 937,
             "incoming": [
-                "1041"
-            ],
-            "outgoing": [
-                "1016"
-            ]
-        },
-        "1060": {
-            "id": "1060",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1001"
-            ],
-            "outgoing": []
-        },
-        "1063": {
-            "id": "1063",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1002"
-            ],
-            "outgoing": []
-        },
-        "1065": {
-            "id": "1065",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Opening Times",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1003"
+                "1022"
             ],
             "outgoing": []
         },
@@ -492,125 +473,34 @@
             ],
             "outgoing": []
         },
-        "1071": {
-            "id": "1071",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
+        "1103": {
+            "id": "1103",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Verwaltungsdirektor",
+            "begin": 1946,
+            "end": 1965,
             "incoming": [
-                "1005"
+                "1041"
             ],
-            "outgoing": []
+            "outgoing": [
+                "1016"
+            ]
         },
-        "1074": {
-            "id": "1074",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
+        "1070": {
+            "id": "1070",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Personen",
+            "begin": 938,
+            "end": 946,
             "incoming": [
-                "1006"
+                "1023"
             ],
-            "outgoing": []
-        },
-        "1081": {
-            "id": "1081",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1007"
-            ],
-            "outgoing": []
-        },
-        "1087": {
-            "id": "1087",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1008"
-            ],
-            "outgoing": []
-        },
-        "1090": {
-            "id": "1090",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1009"
-            ],
-            "outgoing": []
-        },
-        "1092": {
-            "id": "1092",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1010"
-            ],
-            "outgoing": []
-        },
-        "1094": {
-            "id": "1094",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Task",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1011"
-            ],
-            "outgoing": []
-        },
-        "1096": {
-            "id": "1096",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1012"
-            ],
-            "outgoing": []
-        },
-        "1098": {
-            "id": "1098",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Task",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1013"
-            ],
-            "outgoing": []
-        },
-        "1100": {
-            "id": "1100",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1014"
-            ],
-            "outgoing": []
+            "outgoing": [
+                "1005",
+                "1022"
+            ]
         },
         "1102": {
             "id": "1102",
@@ -624,15 +514,15 @@
             ],
             "outgoing": []
         },
-        "1104": {
-            "id": "1104",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
+        "1072": {
+            "id": "1072",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "13",
+            "begin": 952,
+            "end": 954,
             "incoming": [
-                "1016"
+                "1024"
             ],
             "outgoing": []
         }
@@ -798,7 +688,7 @@
             "id": "1002",
             "type": "P2 has type",
             "source": "1062",
-            "target": "1063"
+            "target": "1060"
         },
         "1003": {
             "id": "1003",
@@ -816,19 +706,19 @@
             "id": "1005",
             "type": "P2 has type",
             "source": "1070",
-            "target": "1071"
+            "target": "1060"
         },
         "1006": {
             "id": "1006",
             "type": "P2 has type",
             "source": "1073",
-            "target": "1074"
+            "target": "1060"
         },
         "1007": {
             "id": "1007",
             "type": "P2 has type",
             "source": "1080",
-            "target": "1081"
+            "target": "1060"
         },
         "1008": {
             "id": "1008",
@@ -840,13 +730,13 @@
             "id": "1009",
             "type": "P2 has type",
             "source": "1089",
-            "target": "1090"
+            "target": "1087"
         },
         "1010": {
             "id": "1010",
             "type": "P2 has type",
             "source": "1091",
-            "target": "1092"
+            "target": "1087"
         },
         "1011": {
             "id": "1011",
@@ -858,19 +748,19 @@
             "id": "1012",
             "type": "P2 has type",
             "source": "1095",
-            "target": "1096"
+            "target": "1087"
         },
         "1013": {
             "id": "1013",
             "type": "P2 has type",
             "source": "1097",
-            "target": "1098"
+            "target": "1094"
         },
         "1014": {
             "id": "1014",
             "type": "P2 has type",
             "source": "1099",
-            "target": "1100"
+            "target": "1087"
         },
         "1015": {
             "id": "1015",
@@ -882,7 +772,7 @@
             "id": "1016",
             "type": "P2 has type",
             "source": "1103",
-            "target": "1104"
+            "target": "1087"
         }
     }
 }

@@ -128,8 +128,8 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1890 |    X   |               X              |              X             |      X       |
 | 1891 |    X   |               X              |              X             |      X       |
 | 1892 |        |                              |                            |      (X)     |
-| 1893 |        |                              |                            |       Zeile 462     |
-| 1894 |        |                              |                            |              |
+| 1893 |        |                              |                            |      (X)     |
+| 1894 |        |                              |                            |      (X)     |
 | 1895 |        |                              |                            |              |
 | 1896 |        |                              |                            |              |
 | 1897 |        |                              |                            |              |

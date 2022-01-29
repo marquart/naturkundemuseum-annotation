@@ -87,7 +87,7 @@ class SemanticEntity(object):
         self.outgoing = []
         
         if virtual:
-            self.original_id = None
+            self.original_id = f"V{self.id}"
             self.virtual     = True
             self.begin       = None
             self.end         = None
@@ -211,6 +211,42 @@ def parse_postprocessing(tag_string, source, anchors):
         
     return virtual_from_source
 
+def postprocessing(entities, properties):
+    pass
+
+def resolve_properties(property, queen, incoming=True):
+    assert isinstance(property, SemanticProperty) and isinstance(queen, SemanticEntity)
+    if incoming:
+        property.target = queen
+    else:
+        property.source = queen
+    return property
+    
+
+def resolve_uniques(entities, entity_map):
+    only_one_entity_needed = ("E55 Type", "E78 Curated Holding", "E21 Person", "E53 Place")
+    uniques = defaultdict(dict)
+    
+    matches = 0
+    for entity in entities:
+        if entity.type in only_one_entity_needed:
+            entity_string = replace_nl(entity.string).lower()
+            if entity_string in uniques[entity.type]:
+                queen = uniques[entity.type][entity_string]
+                queen.incoming += [resolve_properties(p, queen, incoming=True) for p in entity.incoming]
+                queen.outgoing += [resolve_properties(p, queen, incoming=False) for p in entity.outgoing]
+                entity_map[entity.original_id] = queen
+                matches += 1
+                print(f"    Resolved {entity}({entity.id}) to {queen}({queen.id})")
+            else:
+                uniques[entity.type][entity_string] = entity
+    
+    result = set(entity_map.values())
+    assert len(entities)-matches == len(result)
+    
+    print(f"{len(entities)} Entities resolved to {len(result)} Entities")
+    return result, entity_map
+
 def replace_nl(txt):
     return txt.replace('\r\n', ' ').replace('\n', ' ')
 
@@ -227,8 +263,9 @@ def check_property_exists(obj, property):
         return obj.has_attr(property)
     return property in obj
 
-def parse(filepath):
-    '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)'''
+def parse(filepath, verbose=False):
+    '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)
+    '''
     
     print(f"Parsing {filepath}:")
     with open(filepath, 'r', encoding="utf-8") as f:
@@ -237,18 +274,20 @@ def parse(filepath):
     text = xml.find("cas:Sofa")["sofaString"]
     corrector = Corrector(xml.find_all("custom:OCRCorrection"), text)
     text = corrector.apply(text)
-    print(f"    Applied {len(corrector)} OCR-Corrections")
+    if verbose: print(f"    Applied {len(corrector)} OCR-Corrections")
     
     anchors = Anchors()
     
     entities = [SemanticEntity(tag, corrector, anchors) for tag in xml.find_all("custom:SemanticEntities")]
-    print(f"    Parsed {len(entities)} original and {len(SemanticEntity.virtuals)} virtual Entities")
+    if verbose: print(f"    Parsed {len(entities)} original and {len(SemanticEntity.virtuals)} virtual Entities")
     entities += SemanticEntity.virtuals
     
     set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
+    entities, entity_map = resolve_uniques(entities, entity_map) # Types and Holdings
+    
     properties = [SemanticProperty(tag, entity_map) for tag in xml.find_all("custom:SemanticRelations")]
-    print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
+    if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
     properties += SemanticProperty.virtuals
     
     SemanticProperty.virtuals.clear()
@@ -341,7 +380,7 @@ def stats_directory(dirpath, save=False):
             text, entities, properties = parse(os.path.join(dirpath, file))
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
-            print("\n".join([str(e) for e in properties]))
+            #print("\n".join([str(e) for e in properties]))
             
             if save:
                 save_json(JSON_PATH, file, text, entities, properties)
