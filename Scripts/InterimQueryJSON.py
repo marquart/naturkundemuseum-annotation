@@ -43,7 +43,7 @@ def find_components(data):
     print(f"\n{data['Year'], data['Institution']}: Found {len(components)} Components for {processed} Entities (from {len(data['Entities'])} Entities without {types} Types)")
 
     for c_id, c_lst in components.items():
-        print(f"    Component {c_id}: {len(c_lst)} Entities, top: {c_lst[0]['type']} '{c_lst[0]['text']}' with {len(c_lst[0]['outgoing'])} targets")
+        print(f"    Component {c_id}: {len(c_lst)} Entities, top: {c_lst[0]['type']} '{c_lst[0]['text']}' (ID: {c_lst[0]['id']}) with {len(c_lst[0]['outgoing'])} targets")
     return components
     
 

@@ -214,7 +214,7 @@ def parse_postprocessing(tag_string, source, anchors):
 def postprocessing(entities, properties):
     pass
 
-def resolve_properties(property, queen, incoming=True):
+def consolidate_properties(property, queen, incoming=True):
     assert isinstance(property, SemanticProperty) and isinstance(queen, SemanticEntity)
     if incoming:
         property.target = queen
@@ -223,8 +223,8 @@ def resolve_properties(property, queen, incoming=True):
     return property
     
 
-def resolve_uniques(entities, entity_map):
-    only_one_entity_needed = ("E55 Type", "E78 Curated Holding", "E21 Person", "E53 Place")
+def consolidate_entities(entities, entity_map):
+    only_one_entity_needed = ("E55 Type", "E78 Curated Holding", "E21 Person", "E53 Place", "E28 Conceptual Object")
     uniques = defaultdict(dict)
     
     matches = 0
@@ -233,8 +233,8 @@ def resolve_uniques(entities, entity_map):
             entity_string = replace_nl(entity.string).lower()
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]
-                queen.incoming += [resolve_properties(p, queen, incoming=True) for p in entity.incoming]
-                queen.outgoing += [resolve_properties(p, queen, incoming=False) for p in entity.outgoing]
+                queen.incoming += [consolidate_properties(p, queen, incoming=True) for p in entity.incoming]
+                queen.outgoing += [consolidate_properties(p, queen, incoming=False) for p in entity.outgoing]
                 entity_map[entity.original_id] = queen
                 matches += 1
                 print(f"    Resolved {entity}({entity.id}) to {queen}({queen.id})")
@@ -284,7 +284,7 @@ def parse(filepath, verbose=False):
     
     set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
-    entities, entity_map = resolve_uniques(entities, entity_map) # Types and Holdings
+    entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
     
     properties = [SemanticProperty(tag, entity_map) for tag in xml.find_all("custom:SemanticRelations")]
     if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
