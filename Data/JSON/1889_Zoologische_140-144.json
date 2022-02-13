@@ -2306,21 +2306,6 @@
                 "540"
             ]
         },
-        "640": {
-            "id": "640",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "Skelette",
-            "begin": 8347,
-            "end": 8355,
-            "incoming": [
-                "688"
-            ],
-            "outgoing": [
-                "687",
-                "689"
-            ]
-        },
         "441": {
             "id": "441",
             "type": "E19 Physical Object",
@@ -2517,33 +2502,6 @@
                 "361"
             ]
         },
-        "643": {
-            "id": "643",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Insektensammlung",
-            "begin": 8382,
-            "end": 8398,
-            "incoming": [
-                "690",
-                "691",
-                "692",
-                "693"
-            ],
-            "outgoing": []
-        },
-        "584": {
-            "id": "584",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "präpariert",
-            "begin": 7429,
-            "end": 7439,
-            "incoming": [],
-            "outgoing": [
-                "647"
-            ]
-        },
         "717": {
             "id": "717",
             "type": "E60 Number",
@@ -2557,6 +2515,18 @@
             "outgoing": [
                 "413",
                 "444"
+            ]
+        },
+        "584": {
+            "id": "584",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "präpariert",
+            "begin": 7429,
+            "end": 7439,
+            "incoming": [],
+            "outgoing": [
+                "647"
             ]
         },
         "719": {
@@ -3767,6 +3737,21 @@
                 "749"
             ]
         },
+        "640": {
+            "id": "640",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Skelette",
+            "begin": 8347,
+            "end": 8355,
+            "incoming": [
+                "688"
+            ],
+            "outgoing": [
+                "687",
+                "689"
+            ]
+        },
         "628": {
             "id": "628",
             "type": "E20 Biological Object",
@@ -4017,20 +4002,20 @@
                 "578"
             ]
         },
-        "765": {
-            "id": "765",
-            "type": "E60 Number",
+        "643": {
+            "id": "643",
+            "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "1249",
-            "begin": 9667,
-            "end": 9671,
+            "text": "Insektensammlung",
+            "begin": 8382,
+            "end": 8398,
             "incoming": [
-                "751"
+                "690",
+                "691",
+                "692",
+                "693"
             ],
-            "outgoing": [
-                "429",
-                "460"
-            ]
+            "outgoing": []
         },
         "639": {
             "id": "639",
@@ -4058,20 +4043,20 @@
                 "357"
             ]
         },
-        "361": {
-            "id": "361",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Building",
-            "begin": null,
-            "end": null,
+        "765": {
+            "id": "765",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1249",
+            "begin": 9667,
+            "end": 9671,
             "incoming": [
-                "323",
-                "371",
-                "373",
-                "374"
+                "751"
             ],
-            "outgoing": []
+            "outgoing": [
+                "429",
+                "460"
+            ]
         },
         "363": {
             "id": "363",
@@ -4099,6 +4084,21 @@
             "outgoing": [
                 "580"
             ]
+        },
+        "361": {
+            "id": "361",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Building",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "323",
+                "371",
+                "373",
+                "374"
+            ],
+            "outgoing": []
         },
         "364": {
             "id": "364",

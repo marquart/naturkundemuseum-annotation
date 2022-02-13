@@ -12,6 +12,7 @@ class Node(object):
             self.entity = entity
             self.id = entity.id
             self.label = f"{entity.type}<BR/>({entity.id})|{clean(entity.string)}"
+            
         else:
             self.entity = None
             self.id = _id
@@ -94,6 +95,7 @@ def load_pickle(filepath):
 def generate_DOT(entity):
     template = """
 digraph Annotationen {
+    bgcolor="transparent";
     rankdir="LR";
     ranksep="0.8 equally";
     fontname="sans-serif"; 
@@ -139,7 +141,9 @@ if __name__ == "__main__":
     data = load_pickle(pickle_file)
     
     dot_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Visualizations/DOTs/4325.gv"
-    entity = data[-1]["Entities"][4732]#sehr kurz[4347]#[4732]#[4322]#[4325]#[4566]
+    last_item = max(data[-1]["Entities"])
+    #entity = data[-1]["Entities"][4732]#sehr kurz[4347]#[4732]#[4322]#[4325]#[4566]
+    entity = data[-1]["Entities"][last_item]
     dot = generate_DOT(entity)
     print(dot)
     with open(dot_filepath, 'w', encoding="utf-8") as f:

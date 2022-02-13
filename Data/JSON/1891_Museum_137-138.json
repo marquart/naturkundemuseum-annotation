@@ -5,132 +5,6 @@
     "Page_End": 138,
     "Text": "====PAGEBEGIN 137====\r\n\r\n133\r\n0\r\nF. E. Schulze, Ueber Trichoplax adhaerens (Abhandl. d. Akad.\r\nd. Wiss. zu Berlin).\r\n- Freie Nervenenden in der Epidermis der Knochenfische\r\n(Sitzungsber. d. Akad. d. Wiss. zu Berlin).\r\nE. Korschelt und C. Heider, Lehrbuch der vergleichenden\r\n/ Entwicklungsgeschichte der wirbellosen' Thiere. Specieller\r\nTheil, 2. Heft.\r\nE. Korsehelt, Ueber die Entwicklung von Dreissena poly­morpha Pallas (Sitzungsber. d. Gesellsch. naturforsch.\r\nFreunde, Berlin).\r\nA. Brauer, Ueber die Entwicklung von Hydra (Zeitschr. f.\r\nwiss. Zool. 52. Bd.)\r\nUeber die Entstehung der Geschlechtsprodukte und die\r\nEntwicklung von Tubularia mesembryanthemum Allm.\r\n(Zeitschr. f. wiss. Zool. 52. Bd.)\r\nR. Heymons, Die Entwicklung der weiblichen Geschlechts­organe von Phyllodromia (Blatta) germanica L. (Zeitschr.\r\nf. wiss. Zool. 53. Bd.)\r\nO. Maas, Die craspedoten Medusen der Plankton-Expedition.\r\n(Sitzungsber. d. Akad. d. Wiss. zu Berlin).\r\nB. Wandolleck, Zur Embryonalentwicklung des Strongylus\r\nparadoxus (Diss.)\r\nH. Stadelmann, Ueber den anatomischen Bau des Strongylus\r\nconvolutus Ostertag, nebst einigen Bemerkungen zu\r\nseiner Biologie. (Diss.)\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDurch den Staatshaushaltsetat für das Jahr 1. April 1891/92\r\nsind der allgemeinen Verwaltung des Museums für Naturkunde\r\ndie erbetenen Geldmittel zur Annahme eines Kanzlei- und\r\nBureau-Hilfsarbeiters und von Hilfsaufsehern für die Schau­sammlung, deren Remunerationen bisher aus dem sächlichen\r\nAusgabefonds entnommen worden waren, zur Verfügung gestellt;\r\nauch ist der letztere Fonds, welcher sich als unzulänglich er­wiesen hatte, um 10000 M. erhöht worden.\r\n\r\n====PAGEBREAK TO 138====\r\n\r\n ­Die Schausammlungen sind nun, den verfügbaren Geld­mitteln entsprechend, vom 1. April 1891 ab, ausser Montags\r\nund Sonnabends, auch Sonntags für das Publikum geöffnet ge­wesen. Die Zahl der Besucher schwankt zwischen 810 am\r\n6. April 1891 und 26 am 22. August 1891; sie beträgt im\r\nDurchschnitt 225 an 156 Besuchstagen und erreicht für das\r\nEtatsjahr die Höhe von 35 060.\r\nVon den hiesigen Schulen machten in dem verflossenen\r\nJahre 11 Klassen, gegen 18 Klassen im Vorjahre, von der\r\nErlaubniss, die Schausammlungen Mittwochs Nachmittags be­sichtigen zu dürfen, Gebrauch.\r\nIm Berichtsjahre wurde die Neuaufstellung des Gebäude­einrichtungsinventariums beendet und das Museumsgebäude auf\r\nGrund desselben und des Gebäudeinventars von der Bauver­waltung für den Neubau des Museums für Naturkunde am\r\n29. Januar 1892 definitiv übernommen.\r\nDie neu errichtete Bureauhilfsarbeiterstelle wurde dem\r\nMilitäranwärter Roesel übertragen und an Stelle des am 1. Mai\r\nauf seinen Wunseh entlassenen Oberheizers Hartmann, der bis­herige zweite Heizer Weiss und für diesen der Militäran­wärter Cuba als zweiter Heizer angenommen.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n2. Geologisch-palaeontologisches Institut und geologisch-palaeontologische\r\nSammlung.\r\n1. Geologisch-palaeontologisches Institut.\r\nIm geologisch-palaeontologischen Institut haben während\r\ndes verflossenen Etatsjahres etwa 15 Studenten die Lehrsamm­lungen zu Repetitionszwecken benutzt. Einige Vorgeschrittenere,\r\ndarunter auch mehrere Auslünder, übten sich unter Leitung\r\nder Beamten des Instituts in der Bestimmung von Petrefacten\r\nund ihrer Herstellung zu mikroskopischer Untersuchung. Inau­gural-Dissertationen wurden nicht verfasst, wohl aber entstanden\r\neinige umfassendere Abhandlungen aus den Untersuchungen\r\nverschiedener Materialien der Sammlung. Es sind folgende:\r\n1. Koken. Neue Untersuchungen an fossilen Fischotolithen II.\r\n(Zeitschr. d. D. geol. Ges. Bd. 43. 1891. S. 77 ff. t. 1—10).\r\n1 x",
     "Entities": {
-        "2319": {
-            "id": "2319",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Klassen",
-            "begin": 2182,
-            "end": 2189,
-            "incoming": [
-                "2264"
-            ],
-            "outgoing": [
-                "2263"
-            ]
-        },
-        "2350": {
-            "id": "2350",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Militäran­wärter Cuba",
-            "begin": 2808,
-            "end": 2829,
-            "incoming": [
-                "2283"
-            ],
-            "outgoing": []
-        },
-        "2288": {
-            "id": "2288",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Kanzlei- und Bureau-Hilfsarbeiter",
-            "begin": 1417,
-            "end": 1451,
-            "incoming": [
-                "2246"
-            ],
-            "outgoing": [
-                "2217",
-                "2218",
-                "2245"
-            ]
-        },
-        "2320": {
-            "id": "2320",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "18",
-            "begin": 2197,
-            "end": 2199,
-            "incoming": [
-                "2265"
-            ],
-            "outgoing": []
-        },
-        "2351": {
-            "id": "2351",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "angenommen",
-            "begin": 2849,
-            "end": 2859,
-            "incoming": [],
-            "outgoing": [
-                "2240",
-                "2274",
-                "2280",
-                "2283"
-            ]
-        },
-        "2291": {
-            "id": "2291",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Hilfsaufseher",
-            "begin": 1461,
-            "end": 1474,
-            "incoming": [
-                "2247"
-            ],
-            "outgoing": [
-                "2219",
-                "2220"
-            ]
-        },
-        "2321": {
-            "id": "2321",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Klassen",
-            "begin": 2200,
-            "end": 2207,
-            "incoming": [
-                "2266"
-            ],
-            "outgoing": [
-                "2265",
-                "2267"
-            ]
-        },
-        "2353": {
-            "id": "2353",
-            "type": "E85 Joining",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "2241",
-                "2275",
-                "2277",
-                "2282"
-            ]
-        },
-        "2322": {
-            "id": "2322",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Vorjahr",
-            "begin": 2211,
-            "end": 2218,
-            "incoming": [
-                "2267"
-            ],
-            "outgoing": []
-        },
         "2290": {
             "id": "2290",
             "type": "E55 Type",
@@ -763,6 +637,132 @@
             "end": 1415,
             "incoming": [
                 "2245"
+            ],
+            "outgoing": []
+        },
+        "2319": {
+            "id": "2319",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Klassen",
+            "begin": 2182,
+            "end": 2189,
+            "incoming": [
+                "2264"
+            ],
+            "outgoing": [
+                "2263"
+            ]
+        },
+        "2350": {
+            "id": "2350",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Militäran­wärter Cuba",
+            "begin": 2808,
+            "end": 2829,
+            "incoming": [
+                "2283"
+            ],
+            "outgoing": []
+        },
+        "2288": {
+            "id": "2288",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kanzlei- und Bureau-Hilfsarbeiter",
+            "begin": 1417,
+            "end": 1451,
+            "incoming": [
+                "2246"
+            ],
+            "outgoing": [
+                "2217",
+                "2218",
+                "2245"
+            ]
+        },
+        "2320": {
+            "id": "2320",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "18",
+            "begin": 2197,
+            "end": 2199,
+            "incoming": [
+                "2265"
+            ],
+            "outgoing": []
+        },
+        "2351": {
+            "id": "2351",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "angenommen",
+            "begin": 2849,
+            "end": 2859,
+            "incoming": [],
+            "outgoing": [
+                "2240",
+                "2274",
+                "2280",
+                "2283"
+            ]
+        },
+        "2291": {
+            "id": "2291",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Hilfsaufseher",
+            "begin": 1461,
+            "end": 1474,
+            "incoming": [
+                "2247"
+            ],
+            "outgoing": [
+                "2219",
+                "2220"
+            ]
+        },
+        "2321": {
+            "id": "2321",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Klassen",
+            "begin": 2200,
+            "end": 2207,
+            "incoming": [
+                "2266"
+            ],
+            "outgoing": [
+                "2265",
+                "2267"
+            ]
+        },
+        "2353": {
+            "id": "2353",
+            "type": "E85 Joining",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "2241",
+                "2275",
+                "2277",
+                "2282"
+            ]
+        },
+        "2322": {
+            "id": "2322",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Vorjahr",
+            "begin": 2211,
+            "end": 2218,
+            "incoming": [
+                "2267"
             ],
             "outgoing": []
         }

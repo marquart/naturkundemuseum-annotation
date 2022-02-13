@@ -98,6 +98,9 @@ class SemanticEntity(object):
             virtual_from_source = False
             if tag.has_attr("Postprocessing"):
                 virtual_from_source = parse_postprocessing(tag['Postprocessing'], self, anchors)
+                
+            if not virtual_from_source and check_property_exists(tag, "Virtual"):
+                virtual_from_source = tag["Virtual"] == "true"
             
             if virtual_from_source:
                 self.virtual = True
@@ -248,7 +251,7 @@ def consolidate_entities(entities, entity_map):
     return result, entity_map
 
 def replace_nl(txt):
-    return txt.replace('\r\n', ' ').replace('\n', ' ')
+    return txt.strip().replace('\r\n', ' ').replace('\n', ' ')
 
 def set_anchors(anchors):
     for anchor_str, anchor in anchors.objs.items():
