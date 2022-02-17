@@ -75,11 +75,14 @@ class Corrector(object):
 class SemanticEntity(object):
     virtuals = []
     next_id  = 0
-    def __init__(self, tag, corrector, anchors=None, virtual=False):
+    def __init__(self, tag, corrector, anchors=None, virtual=False, year=None, institution=None):
         ''''''
         self.id = self.next_id
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
         SemanticEntity.next_id += 1
+        
+        self.year = year
+        self.institution = institution
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
         else: self.type = tag["SemanticClass"].strip()
@@ -125,10 +128,13 @@ class SemanticEntity(object):
 class SemanticProperty(object):
     virtuals = []
     next_id  = 0
-    def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None):
+    def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None, year=None, institution=None):
         self.id = self.next_id
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
         SemanticProperty.next_id += 1
+        
+        self.year = year
+        self.institution = institution
         
         if not check_property_exists(tag, "SemanticProperty"): self.type = "P0 Unknown"
         else: self.type = tag["SemanticProperty"].strip()
@@ -206,11 +212,11 @@ def parse_postprocessing(tag_string, source, anchors):
             assert len(triple) == 3
         
         if inverse:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':f"{triple[2]}"}, None, virtual=True)
-            property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=target, target=source)
+            target = SemanticEntity({'SemanticClass':triple[1],'string':f"{triple[2]}"}, None, virtual=True, year=source.year, institution=source.institution)
+            property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=target, target=source, year=source.year, institution=source.institution)
         else:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True)
-            property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target)
+            target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True, year=source.year, institution=source.institution)
+            property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target, year=source.year, institution=source.institution)
         
     return virtual_from_source
 
@@ -266,7 +272,7 @@ def check_property_exists(obj, property):
         return obj.has_attr(property)
     return property in obj
 
-def parse(filepath, verbose=False):
+def parse(filepath, verbose=False, year=None, institution=None):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)
     '''
     
@@ -281,7 +287,7 @@ def parse(filepath, verbose=False):
     
     anchors = Anchors()
     
-    entities = [SemanticEntity(tag, corrector, anchors) for tag in xml.find_all("custom:SemanticEntities")]
+    entities = [SemanticEntity(tag, corrector, anchors, year=year, institution=institution) for tag in xml.find_all("custom:SemanticEntities")]
     if verbose: print(f"    Parsed {len(entities)} original and {len(SemanticEntity.virtuals)} virtual Entities")
     entities += SemanticEntity.virtuals
     
@@ -289,7 +295,7 @@ def parse(filepath, verbose=False):
     entity_map = {e.original_id:e for e in entities}
     entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
     
-    properties = [SemanticProperty(tag, entity_map) for tag in xml.find_all("custom:SemanticRelations")]
+    properties = [SemanticProperty(tag, entity_map, year=year, institution=institution) for tag in xml.find_all("custom:SemanticRelations")]
     if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
     properties += SemanticProperty.virtuals
     
@@ -380,7 +386,8 @@ def stats_directory(dirpath, save=False):
     JSON_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/JSON/"
     for file in os.listdir(dirpath):
         if file.endswith(".xmi"):
-            text, entities, properties = parse(os.path.join(dirpath, file))
+            year, institution, _, __ = extract_ins_year(file)
+            text, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution)
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
             #print("\n".join([str(e) for e in properties]))

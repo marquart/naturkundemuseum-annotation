@@ -119,6 +119,7 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 ## Fortschritt
 
 `(X)` = Acquisitions und Schlussnummern
+`(x)` = Acquisitions der Säugetiere
 
 | Jahr | Museum | Mineralogisch-Petrographisch | Geologisch-Paläontologisch | Zoologisch   |
 |------|--------|------------------------------|----------------------------|--------------|
@@ -131,11 +132,11 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1893 |        |                              |                            |      (X)     |
 | 1894 |        |                              |                            |      (X)     |
 | 1895 |        |                              |                            |      (X)     |
-| 1896 |        |                              |                            |              |
-| 1897 |        |                              |                            |              |
-| 1898 |        |                              |                            |              |
-| 1899 |        |                              |                            |              |
-| 1900 |        |                              |                            |              |
+| 1896 |        |                              |                            |      (x)     |
+| 1897 |        |                              |                            |      (x)     |
+| 1898 |        |                              |                            |      (x)     |
+| 1899 |        |                              |                            |      (x)     |
+| 1900 |        |                              |                            |      (x)     |
 | 1901 |        |                              |                            |              |
 | 1902 |        |                              |                            |              |
 | 1903 |        |                              |                            |              |
