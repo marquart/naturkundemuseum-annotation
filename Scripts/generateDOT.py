@@ -1,6 +1,7 @@
 import os
 from operator import attrgetter
 from collections import deque
+from itertools import chain
 import re
 import pickle
 from subprocess import run
@@ -63,7 +64,7 @@ def BFS(node, maxdepth=3):
         assert isinstance(node, Node)
         if depths[node.entity] > maxdepth:
             break
-        if (neighbors := len(node.entity.incoming)+len(node.entity.outgoing))>8 and depths[node.entity]>0:
+        if (neighbors := len(node.entity.incoming)+len(node.entity.outgoing))>18-len(real_nodes) and depths[node.entity]>0:
             excuse = Node(_id=-1*node.id, label=f"...|{neighbors} Neighbors")
             arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbors to draw"))
             virtual_nodes.append(excuse)
@@ -72,8 +73,6 @@ def BFS(node, maxdepth=3):
             
         for property in node.entity.outgoing:
             neighbour = property.target
-            if neighbour.id == 5730:
-                print(neighbour, neighbour in depths, neighbour in too_many_neighbors)
             if neighbour in depths:
                 if property in processed_properties:
                     continue
@@ -93,8 +92,6 @@ def BFS(node, maxdepth=3):
             depths[neighbour] = depths[node.entity] + 1
         for property in node.entity.incoming:
             neighbour = property.source
-            if node.entity.id == 5730:
-                print(neighbour, neighbour in depths, neighbour in too_many_neighbors)
             if neighbour in depths:
                 if property in processed_properties:
                     continue
@@ -205,13 +202,13 @@ NODES
     return with_legend
     
 def generateSVG(pickle_path, output_path, entity_id=None):
-    data = load_pickle(pickle_path)
+    data = {e.id:e for e in chain.from_iterable([doc["Entities"].values() for doc in load_pickle(pickle_path)])}
     if not entity_id:
-        last_item = max(data[-1]["Entities"])
+        last_item = max(data)
         #entity = data[-2]["Entities"][4732]#sehr kurz[4347]#[4732]#[4322]#[4325]#[4566]
-        entity = data[-1]["Entities"][last_item]
+        entity = data[last_item]
     else:
-        entity = data[-1]["Entities"][entity_id]
+        entity = data[entity_id]
     svg_path = os.path.join(output_path, f"{entity.id}.svg")
     dot = generate_DOT(entity)
     
@@ -224,8 +221,8 @@ def generateSVG(pickle_path, output_path, entity_id=None):
 if __name__ == "__main__":
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
     svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Visualizations/DOTs/"
-    generateSVG(pickle_file, svg_filepath, entity_id=5012)
-    
+    generateSVG(pickle_file, svg_filepath, entity_id=6922)
+    #generateSVG(pickle_file, svg_filepath)
     '''
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
     data = load_pickle(pickle_file)

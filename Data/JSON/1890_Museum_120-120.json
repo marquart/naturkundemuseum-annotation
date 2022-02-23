@@ -5,6 +5,236 @@
     "Page_End": 120,
     "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
     "Entities": {
+        "1087": {
+            "id": "1087",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1008",
+                "1009",
+                "1010",
+                "1012",
+                "1014",
+                "1016"
+            ],
+            "outgoing": []
+        },
+        "1057": {
+            "id": "1057",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Montags",
+            "begin": 680,
+            "end": 687,
+            "incoming": [
+                "1018"
+            ],
+            "outgoing": []
+        },
+        "1089": {
+            "id": "1089",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Hilfsaufseher",
+            "begin": 1375,
+            "end": 1388,
+            "incoming": [
+                "1038"
+            ],
+            "outgoing": [
+                "1009",
+                "1037"
+            ]
+        },
+        "1056": {
+            "id": "1056",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Juli v. Js.",
+            "begin": 654,
+            "end": 668,
+            "incoming": [
+                "1017"
+            ],
+            "outgoing": []
+        },
+        "1091": {
+            "id": "1091",
+            "type": "E66 Formation",
+            "virtual": false,
+            "text": "angenommen",
+            "begin": 1429,
+            "end": 1439,
+            "incoming": [],
+            "outgoing": [
+                "1010",
+                "1034",
+                "1036",
+                "1038"
+            ]
+        },
+        "1093": {
+            "id": "1093",
+            "type": "E29 Design or Procedure",
+            "virtual": false,
+            "text": "Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände",
+            "begin": 1771,
+            "end": 1840,
+            "incoming": [
+                "1039"
+            ],
+            "outgoing": [
+                "1011"
+            ]
+        },
+        "1059": {
+            "id": "1059",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Publikum",
+            "begin": 730,
+            "end": 738,
+            "incoming": [],
+            "outgoing": [
+                "1001"
+            ]
+        },
+        "1061": {
+            "id": "1061",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
+            "begin": 743,
+            "end": 781,
+            "incoming": [
+                "1020"
+            ],
+            "outgoing": []
+        },
+        "1060": {
+            "id": "1060",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1001",
+                "1002",
+                "1005",
+                "1006",
+                "1007"
+            ],
+            "outgoing": []
+        },
+        "1095": {
+            "id": "1095",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Portier",
+            "begin": 1861,
+            "end": 1868,
+            "incoming": [],
+            "outgoing": [
+                "1012",
+                "1039"
+            ]
+        },
+        "1094": {
+            "id": "1094",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Task",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1011",
+                "1013"
+            ],
+            "outgoing": []
+        },
+        "1062": {
+            "id": "1062",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Schüler höherer Lehr­anstalten",
+            "begin": 790,
+            "end": 820,
+            "incoming": [],
+            "outgoing": [
+                "1002"
+            ]
+        },
+        "1064": {
+            "id": "1064",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "geöffnet",
+            "begin": 821,
+            "end": 829,
+            "incoming": [],
+            "outgoing": [
+                "1003",
+                "1017",
+                "1018",
+                "1019",
+                "1020"
+            ]
+        },
+        "1097": {
+            "id": "1097",
+            "type": "E29 Design or Procedure",
+            "virtual": false,
+            "text": "Oberaufsicht",
+            "begin": 1874,
+            "end": 1886,
+            "incoming": [
+                "1040"
+            ],
+            "outgoing": [
+                "1013"
+            ]
+        },
+        "1066": {
+            "id": "1066",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Wintersemester",
+            "begin": 856,
+            "end": 870,
+            "incoming": [
+                "1021"
+            ],
+            "outgoing": []
+        },
+        "1099": {
+            "id": "1099",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kastellan",
+            "begin": 1901,
+            "end": 1910,
+            "incoming": [],
+            "outgoing": [
+                "1014",
+                "1040"
+            ]
+        },
+        "1065": {
+            "id": "1065",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Opening Times",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "1003"
+            ],
+            "outgoing": []
+        },
         "1067": {
             "id": "1067",
             "type": "E7 Activity",
@@ -293,236 +523,6 @@
             "end": 1374,
             "incoming": [
                 "1037"
-            ],
-            "outgoing": []
-        },
-        "1087": {
-            "id": "1087",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1008",
-                "1009",
-                "1010",
-                "1012",
-                "1014",
-                "1016"
-            ],
-            "outgoing": []
-        },
-        "1057": {
-            "id": "1057",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Montags",
-            "begin": 680,
-            "end": 687,
-            "incoming": [
-                "1018"
-            ],
-            "outgoing": []
-        },
-        "1089": {
-            "id": "1089",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Hilfsaufseher",
-            "begin": 1375,
-            "end": 1388,
-            "incoming": [
-                "1038"
-            ],
-            "outgoing": [
-                "1009",
-                "1037"
-            ]
-        },
-        "1056": {
-            "id": "1056",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "1. Juli v. Js.",
-            "begin": 654,
-            "end": 668,
-            "incoming": [
-                "1017"
-            ],
-            "outgoing": []
-        },
-        "1091": {
-            "id": "1091",
-            "type": "E66 Formation",
-            "virtual": false,
-            "text": "angenommen",
-            "begin": 1429,
-            "end": 1439,
-            "incoming": [],
-            "outgoing": [
-                "1010",
-                "1034",
-                "1036",
-                "1038"
-            ]
-        },
-        "1093": {
-            "id": "1093",
-            "type": "E29 Design or Procedure",
-            "virtual": false,
-            "text": "Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände",
-            "begin": 1771,
-            "end": 1840,
-            "incoming": [
-                "1039"
-            ],
-            "outgoing": [
-                "1011"
-            ]
-        },
-        "1059": {
-            "id": "1059",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Publikum",
-            "begin": 730,
-            "end": 738,
-            "incoming": [],
-            "outgoing": [
-                "1001"
-            ]
-        },
-        "1061": {
-            "id": "1061",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
-            "begin": 743,
-            "end": 781,
-            "incoming": [
-                "1020"
-            ],
-            "outgoing": []
-        },
-        "1060": {
-            "id": "1060",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1001",
-                "1002",
-                "1005",
-                "1006",
-                "1007"
-            ],
-            "outgoing": []
-        },
-        "1095": {
-            "id": "1095",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Portier",
-            "begin": 1861,
-            "end": 1868,
-            "incoming": [],
-            "outgoing": [
-                "1012",
-                "1039"
-            ]
-        },
-        "1094": {
-            "id": "1094",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Task",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1011",
-                "1013"
-            ],
-            "outgoing": []
-        },
-        "1062": {
-            "id": "1062",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Schüler höherer Lehr­anstalten",
-            "begin": 790,
-            "end": 820,
-            "incoming": [],
-            "outgoing": [
-                "1002"
-            ]
-        },
-        "1064": {
-            "id": "1064",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "geöffnet",
-            "begin": 821,
-            "end": 829,
-            "incoming": [],
-            "outgoing": [
-                "1003",
-                "1017",
-                "1018",
-                "1019",
-                "1020"
-            ]
-        },
-        "1097": {
-            "id": "1097",
-            "type": "E29 Design or Procedure",
-            "virtual": false,
-            "text": "Oberaufsicht",
-            "begin": 1874,
-            "end": 1886,
-            "incoming": [
-                "1040"
-            ],
-            "outgoing": [
-                "1013"
-            ]
-        },
-        "1066": {
-            "id": "1066",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "Wintersemester",
-            "begin": 856,
-            "end": 870,
-            "incoming": [
-                "1021"
-            ],
-            "outgoing": []
-        },
-        "1099": {
-            "id": "1099",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Kastellan",
-            "begin": 1901,
-            "end": 1910,
-            "incoming": [],
-            "outgoing": [
-                "1014",
-                "1040"
-            ]
-        },
-        "1065": {
-            "id": "1065",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Opening Times",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "1003"
             ],
             "outgoing": []
         }

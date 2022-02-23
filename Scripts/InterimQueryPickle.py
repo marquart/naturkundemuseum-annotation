@@ -65,12 +65,12 @@ if __name__ == "__main__":
     conceptuals = 0
     for i,pl in enumerate(places):
             
-        print(f"| {i:<3} | {pl[0]:<4} | {pl[1]:<85} | {rm_newline(pl[2].string):<50} |")
+        print(f"| {i:<3} | {pl[0]:<4} | {pl[1]:<85} | {pl[2].id:<4} | {rm_newline(pl[2].string):<50} |")
         if has_type_in_neighborhood(pl[2], "E28 ", radius=3): conceptuals += 1
     
     print('\n\n')
     for i,pl in enumerate(other_places):
-        print(f"| {i:<3} | {pl[0]:<4} | {pl[1]:<85} | {rm_newline(pl[2].string):<50} |")
+        print(f"| {i:<3} | {pl[0]:<4} | {pl[1]:<85} | {pl[2].id:<4} | {rm_newline(pl[2].string):<50} |")
         #if pl[2].string == 'Peru':
             #print_neighborhood(pl[2])
     print(f"\n{conceptuals}")
