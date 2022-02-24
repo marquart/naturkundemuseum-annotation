@@ -17,6 +17,18 @@
             ],
             "outgoing": []
         },
+        "2306": {
+            "id": "2306",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Audience",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "2223"
+            ],
+            "outgoing": []
+        },
         "2340": {
             "id": "2340",
             "type": "E86 Leaving",
@@ -31,18 +43,6 @@
                 "2279",
                 "2281"
             ]
-        },
-        "2306": {
-            "id": "2306",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "2223"
-            ],
-            "outgoing": []
         },
         "2338": {
             "id": "2338",
@@ -101,37 +101,6 @@
             ],
             "outgoing": []
         },
-        "2303": {
-            "id": "2303",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "geöffnet",
-            "begin": 1904,
-            "end": 1912,
-            "incoming": [
-                "2255"
-            ],
-            "outgoing": [
-                "2222",
-                "2252",
-                "2253",
-                "2254"
-            ]
-        },
-        "2335": {
-            "id": "2335",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "übertragen",
-            "begin": 2662,
-            "end": 2672,
-            "incoming": [],
-            "outgoing": [
-                "2233",
-                "2270",
-                "2271"
-            ]
-        },
         "2305": {
             "id": "2305",
             "type": "E74 Group",
@@ -148,6 +117,20 @@
                 "2262"
             ]
         },
+        "2335": {
+            "id": "2335",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "übertragen",
+            "begin": 2662,
+            "end": 2672,
+            "incoming": [],
+            "outgoing": [
+                "2233",
+                "2270",
+                "2271"
+            ]
+        },
         "2302": {
             "id": "2302",
             "type": "E74 Group",
@@ -160,17 +143,22 @@
             ],
             "outgoing": []
         },
-        "2300": {
-            "id": "2300",
-            "type": "E52 Time-Span",
+        "2303": {
+            "id": "2303",
+            "type": "E3 Condition State",
             "virtual": false,
-            "text": "1. April 1891",
-            "begin": 1823,
-            "end": 1836,
+            "text": "geöffnet",
+            "begin": 1904,
+            "end": 1912,
             "incoming": [
-                "2252"
+                "2255"
             ],
-            "outgoing": []
+            "outgoing": [
+                "2222",
+                "2252",
+                "2253",
+                "2254"
+            ]
         },
         "2301": {
             "id": "2301",
@@ -210,15 +198,15 @@
             ],
             "outgoing": []
         },
-        "2297": {
-            "id": "2297",
-            "type": "E54 Dimension",
+        "2300": {
+            "id": "2300",
+            "type": "E52 Time-Span",
             "virtual": false,
-            "text": "10000 M.",
-            "begin": 1689,
-            "end": 1697,
+            "text": "1. April 1891",
+            "begin": 1823,
+            "end": 1836,
             "incoming": [
-                "2250"
+                "2252"
             ],
             "outgoing": []
         },
@@ -252,19 +240,17 @@
                 "2232"
             ]
         },
-        "2295": {
-            "id": "2295",
-            "type": "E28 Conceptual Object",
+        "2297": {
+            "id": "2297",
+            "type": "E54 Dimension",
             "virtual": false,
-            "text": "sächlichen Ausgabefonds",
-            "begin": 1536,
-            "end": 1560,
+            "text": "10000 M.",
+            "begin": 1689,
+            "end": 1697,
             "incoming": [
-                "2249"
+                "2250"
             ],
-            "outgoing": [
-                "2221"
-            ]
+            "outgoing": []
         },
         "2330": {
             "id": "2330",
@@ -289,17 +275,19 @@
             ],
             "outgoing": []
         },
-        "2356": {
-            "id": "2356",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Reporter",
-            "begin": null,
-            "end": null,
+        "2295": {
+            "id": "2295",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "sächlichen Ausgabefonds",
+            "begin": 1536,
+            "end": 1560,
             "incoming": [
-                "2242"
+                "2249"
             ],
-            "outgoing": []
+            "outgoing": [
+                "2221"
+            ]
         },
         "2328": {
             "id": "2328",
@@ -315,6 +303,18 @@
                 "2230"
             ]
         },
+        "2356": {
+            "id": "2356",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Reporter",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "2242"
+            ],
+            "outgoing": []
+        },
         "2325": {
             "id": "2325",
             "type": "E55 Type",
@@ -327,21 +327,6 @@
             ],
             "outgoing": []
         },
-        "2324": {
-            "id": "2324",
-            "type": "E7 Activity",
-            "virtual": false,
-            "text": "be­sichtigen",
-            "begin": 2284,
-            "end": 2296,
-            "incoming": [],
-            "outgoing": [
-                "2228",
-                "2264",
-                "2266",
-                "2268"
-            ]
-        },
         "2294": {
             "id": "2294",
             "type": "E78 Curated Holding",
@@ -353,18 +338,6 @@
                 "2248"
             ],
             "outgoing": []
-        },
-        "2355": {
-            "id": "2355",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Professor Dr. Beyrich",
-            "begin": 2862,
-            "end": 2883,
-            "incoming": [],
-            "outgoing": [
-                "2242"
-            ]
         },
         "2326": {
             "id": "2326",
@@ -395,34 +368,31 @@
             ],
             "outgoing": []
         },
-        "2321": {
-            "id": "2321",
-            "type": "E74 Group",
+        "2355": {
+            "id": "2355",
+            "type": "E21 Person",
             "virtual": false,
-            "text": "Klassen",
-            "begin": 2200,
-            "end": 2207,
-            "incoming": [
-                "2266"
-            ],
-            "outgoing": [
-                "2265",
-                "2267"
-            ]
-        },
-        "2353": {
-            "id": "2353",
-            "type": "E85 Joining",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "begin": null,
-            "end": null,
+            "text": "Professor Dr. Beyrich",
+            "begin": 2862,
+            "end": 2883,
             "incoming": [],
             "outgoing": [
-                "2241",
-                "2275",
-                "2277",
-                "2282"
+                "2242"
+            ]
+        },
+        "2324": {
+            "id": "2324",
+            "type": "E7 Activity",
+            "virtual": false,
+            "text": "be­sichtigen",
+            "begin": 2284,
+            "end": 2296,
+            "incoming": [],
+            "outgoing": [
+                "2228",
+                "2264",
+                "2266",
+                "2268"
             ]
         },
         "2322": {
@@ -452,6 +422,33 @@
                 "2220"
             ]
         },
+        "2353": {
+            "id": "2353",
+            "type": "E85 Joining",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "2241",
+                "2275",
+                "2277",
+                "2282"
+            ]
+        },
+        "2320": {
+            "id": "2320",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "18",
+            "begin": 2197,
+            "end": 2199,
+            "incoming": [
+                "2265"
+            ],
+            "outgoing": []
+        },
         "2351": {
             "id": "2351",
             "type": "E85 Joining",
@@ -467,29 +464,20 @@
                 "2283"
             ]
         },
-        "2320": {
-            "id": "2320",
-            "type": "E54 Dimension",
+        "2321": {
+            "id": "2321",
+            "type": "E74 Group",
             "virtual": false,
-            "text": "18",
-            "begin": 2197,
-            "end": 2199,
+            "text": "Klassen",
+            "begin": 2200,
+            "end": 2207,
             "incoming": [
-                "2265"
+                "2266"
             ],
-            "outgoing": []
-        },
-        "2350": {
-            "id": "2350",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Militäran­wärter Cuba",
-            "begin": 2808,
-            "end": 2829,
-            "incoming": [
-                "2283"
-            ],
-            "outgoing": []
+            "outgoing": [
+                "2265",
+                "2267"
+            ]
         },
         "2288": {
             "id": "2288",
@@ -506,6 +494,18 @@
                 "2218",
                 "2245"
             ]
+        },
+        "2350": {
+            "id": "2350",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Militäran­wärter Cuba",
+            "begin": 2808,
+            "end": 2829,
+            "incoming": [
+                "2283"
+            ],
+            "outgoing": []
         },
         "2319": {
             "id": "2319",
@@ -581,8 +581,8 @@
             ],
             "outgoing": []
         },
-        "2283": {
-            "id": "2283",
+        "2285": {
+            "id": "2285",
             "type": "E66 Formation",
             "virtual": false,
             "text": "Annahme",
@@ -590,9 +590,10 @@
             "end": 1410,
             "incoming": [],
             "outgoing": [
-                "2215",
-                "2243",
-                "2246"
+                "2216",
+                "2244",
+                "2247",
+                "2248"
             ]
         },
         "2346": {
@@ -609,36 +610,6 @@
             "outgoing": [
                 "2238",
                 "2239"
-            ]
-        },
-        "2314": {
-            "id": "2314",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "225",
-            "begin": 2041,
-            "end": 2044,
-            "incoming": [
-                "2261"
-            ],
-            "outgoing": [
-                "2226",
-                "2260"
-            ]
-        },
-        "2285": {
-            "id": "2285",
-            "type": "E66 Formation",
-            "virtual": false,
-            "text": "Annahme",
-            "begin": 1403,
-            "end": 1410,
-            "incoming": [],
-            "outgoing": [
-                "2216",
-                "2244",
-                "2247",
-                "2248"
             ]
         },
         "2316": {
@@ -667,6 +638,35 @@
             ],
             "outgoing": []
         },
+        "2283": {
+            "id": "2283",
+            "type": "E66 Formation",
+            "virtual": false,
+            "text": "Annahme",
+            "begin": 1403,
+            "end": 1410,
+            "incoming": [],
+            "outgoing": [
+                "2215",
+                "2243",
+                "2246"
+            ]
+        },
+        "2314": {
+            "id": "2314",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "225",
+            "begin": 2041,
+            "end": 2044,
+            "incoming": [
+                "2261"
+            ],
+            "outgoing": [
+                "2226",
+                "2260"
+            ]
+        },
         "2281": {
             "id": "2281",
             "type": "E28 Conceptual Object",
@@ -683,18 +683,6 @@
                 "2251"
             ]
         },
-        "2345": {
-            "id": "2345",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Hartmann",
-            "begin": 2744,
-            "end": 2752,
-            "incoming": [
-                "2278"
-            ],
-            "outgoing": []
-        },
         "2312": {
             "id": "2312",
             "type": "E52 Time-Span",
@@ -704,6 +692,18 @@
             "end": 2010,
             "incoming": [
                 "2259"
+            ],
+            "outgoing": []
+        },
+        "2345": {
+            "id": "2345",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Hartmann",
+            "begin": 2744,
+            "end": 2752,
+            "incoming": [
+                "2278"
             ],
             "outgoing": []
         },
@@ -735,6 +735,21 @@
                 "2259"
             ]
         },
+        "2308": {
+            "id": "2308",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Besucherzahlen",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "2224",
+                "2225",
+                "2226",
+                "2227"
+            ],
+            "outgoing": []
+        },
         "2342": {
             "id": "2342",
             "type": "E41 Appellation",
@@ -750,21 +765,6 @@
                 "2236",
                 "2237"
             ]
-        },
-        "2308": {
-            "id": "2308",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Besucherzahlen",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "2224",
-                "2225",
-                "2226",
-                "2227"
-            ],
-            "outgoing": []
         }
     },
     "Properties": {

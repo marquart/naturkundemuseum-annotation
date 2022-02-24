@@ -5,6 +5,20 @@
     "Page_End": 54,
     "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
     "Entities": {
+        "62": {
+            "id": "62",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr. phil.",
+            "begin": 829,
+            "end": 838,
+            "incoming": [
+                "64"
+            ],
+            "outgoing": [
+                "50"
+            ]
+        },
         "64": {
             "id": "64",
             "type": "E21 Person",
@@ -269,20 +283,6 @@
             ],
             "outgoing": [
                 "49"
-            ]
-        },
-        "62": {
-            "id": "62",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr. phil.",
-            "begin": 829,
-            "end": 838,
-            "incoming": [
-                "64"
-            ],
-            "outgoing": [
-                "50"
             ]
         }
     },

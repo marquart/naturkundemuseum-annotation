@@ -119,7 +119,9 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 ## Fortschritt
 
 `(X)` = Acquisitions und Schlussnummern
+`(y)` = Acquisitions der Säugetiere, Vögel und Reptilien & Amphibien
 `(x)` = Acquisitions der Säugetiere
+
 
 | Jahr | Museum | Mineralogisch-Petrographisch | Geologisch-Paläontologisch | Zoologisch   |
 |------|--------|------------------------------|----------------------------|--------------|
@@ -132,9 +134,9 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1893 |        |                              |                            |      (X)     |
 | 1894 |        |                              |                            |      (X)     |
 | 1895 |        |                              |                            |      (X)     |
-| 1896 |        |                              |                            |      (x)     |
-| 1897 |        |                              |                            |      (x)     |
-| 1898 |        |                              |                            |      (x)     |
+| 1896 |        |                              |                            |      (y)     |
+| 1897 |        |                              |                            |      (y)     |
+| 1898 |        |                              |                            |      (y)     |
 | 1899 |        |                              |                            |      (x)     |
 | 1900 |        |                              |                            |      (x)     |
 | 1901 |        |                              |                            |      (x)     |
@@ -149,20 +151,20 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1910 |        |                              |                            |      (x)     |
 | 1911 |        |                              |                            |      (x)     |
 | 1912 |        |                              |                            |      (x)     |
-| 1913 |        |                              |                            |      (X)     |
-| 1914 |        |                              |                            |      (X)     |
-| 1915 |        |                              |                            |      (X)     |
-| 1928 |        |                              |                            |              |
-| 1929 |        |                              |                            |              |
-| 1930 |        |                              |                            |              |
-| 1931 |        |                              |                            |              |
-| 1932 |        |                              |                            |              |
-| 1933 |        |                              |                            |              |
-| 1934 |        |                              |                            |              |
-| 1935 |        |                              |                            |              |
-| 1936 |        |                              |                            |              |
-| 1937 |        |                              |                            |              |
-| 1938 |        |                              |                            |              |
+| 1913 |        |                              |                            |      (X)     | ausf. in Mitteilungen des Zool. Museums
+| 1914 |        |                              |                            |      (X)     | ausf. in Mitteilungen des Zool. Museums
+| 1915 |        |                              |                            |      (X)     | ausf. in Mitteilungen des Zool. Museums
+| 1928 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1929 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1930 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1931 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1932 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1933 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1934 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1935 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1936 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1937 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
+| 1938 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums
 
 
 ## ToDo
