@@ -122,6 +122,9 @@ class SemanticEntity(object):
     
     def __str__(self):
         return f"{self.type}: '{replace_nl(self.string)}'"
+    
+    def verbose(self):
+        return f"{self.type}: '{replace_nl(self.string)}' ({self.id}, {self.institution} {self.year})"
 
 
 

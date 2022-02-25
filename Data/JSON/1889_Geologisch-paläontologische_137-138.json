@@ -5,6 +5,30 @@
     "Page_End": 138,
     "Text": "====PAGEBEGIN 137====\r\n\r\n133\r\n2. Geologisch-palaeontologische Sammlung nebst Institut.\r\nWährend der ersten Hälfte des verflossenen Etatsjahres\r\nwar die Thätigkeit der Beamten fast ausschliesslich damit in\r\nAnspruch genommen, aus den vorhandenen Beständen diejenigen\r\nStücke auszusuchen, welche für die Schausammlung geeignet\r\nschienen, dann diese Stücke zu ordnen und aufzustellen, sowie\r\ndie dabei beschäftigten Handwerker und Kalligraphen zu beauf­sichtigen und zu instruiren. Diese Arbeit ist soweit ausgeführt,\r\ndass der Schausammlungssaal der Thiere am Einweihungstage\r\n(2. December 1889) fertig gestellt war.\r\nDie Neuordnung der Hauptsammlung hat durch die eben\r\nerwähnte Thätigkeit nur geringe Fortschritte gemacht. Sie\r\nwurde allmählich, je nachdem die neuen Schrankreihen von den\r\nTischlern abgeliefert worden, aus den alten Schränken in diese\r\numgelegt und ist nunmehr völlig in den neuen Schränken unter­gebracht. Diese Umlegung geschah auf Grund sorgfältig er­wogener Dispositionen, so dass damit eine der wichtigsten Vor­arbeiten für eine Neuordnung als erledigt zu betrachten ist.\r\nNach der Einweihung sind bereits einzelne Theile aus der\r\nAbtheilung der wirbellosen Tiere neu geordnet worden, so die\r\nSpongien, die palaeozoischen und triassischen Gastropoden, tertiäre\r\nMollusken verschiedener Fundorte und jurassische Ammoniten.\r\nFerner ist ein Theil der Zugänge in die Hauptsammlung ein­geordnet worden.\r\nDie Bereicherung der Sammlung war im vergangenen Jahre\r\neine sehr bedeutende. Vor Allem ist hier zu nennen die\r\nKünow'sche Bernsteinsammlung, grössere Suiten von englischen\r\nJura- Petrefakten, ein Exemplar des ältesten Reptils ­Stereostenum tumidum — aus Brasilien. ferner eine Platte mit\r\n19 Exemplaren von Neusticosaurus pusillus aus der Lettenkohlen­gruppe von Ludwigsburg in Württemberg, und als Geschenk\r\ndes Kiesgrubenbesitzers Korner in Rixdorf ein ungewöhnlich\r\nvollständig erhaltenes Schädelfragment vom Riesenhirsch (Cervus\r\neuryceros).\r\nBehufs Ordnung der Hauptsammlung wurde allerlei Hand­werkzeug zur Anfertigung von Gestellen für grössere Petrefakten\r\nsowie für die Herrichtung von Gesteinsstufen und das Her­stellen von Gesteins- und Petrefaktenschliffen angeschafft.\r\n\r\n====PAGEBREAK TO 138====\r\n\r\n134\r\nDas geologisch-palaeontologische Institut wurde nach Mass­gabe der vorhandenen Mittel so eingerichtet, dass es am 1. Mai\r\neröffnet werden konnte. Für dasselbe besteht eine theils aus\r\nDubletten, theils aus Neu-Anschaffungen entstandene Bibliothek.\r\nFerner wurden Mikroskope und Standlupen zum Gebrauch bei\r\nVorlesungen und bei eigenen Untersuchungen beschafft.\r\nDie Hauptbibliothek ist Dank der zur Verfügung stehenden\r\nausserordentlichen Mittel sehr bereichert worden, namentlich\r\nauch an grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken. Sie ist nach Aussonderung\r\nder der mineralogisch-petrographischen Sammlung überwiesenen\r\nBücher völlig neu geordnet und aufgestellt, und es ist mit einer\r\nNeu-Katalogisirung begonnen.\r\nDer Besuch des Instituts konnte noch nicht bedeutend sein,\r\nda die Beamten, wie erwähnt, mit der Herstellung der Schau­sammlung fast ausschliesslich beschäftigt waren und somit die\r\nPraktikanten und Studenten von ihnen nur geringe Förderung\r\nerwarten durften. Es haben im Lauf des Jahres 8 Praktikanten\r\nselbstständige Untersuchungen gemacht und 12 Studenten die\r\nLehrsammlungen benutzt.\r\nProfessor Dr. Beyrich,\r\nDirektor der geologisch-palaeontologischen Sammlung.\r\n3. Mineralogiseh-petrographisches Institut.\r\nDas mit dem Wintersemester 1888/89 ins Leben und in\r\nWirksamkeit getretene mineralogisch-petrographische Institut\r\nhat zunächst die Aufgabe, den durch die nöthigen Vorlesungen\r\ndazu vorbereiteten Studirenden die Möglichkeit zu gewähren,\r\nsich in Mineralogie und Petrographie wissenschaftlich auszubilden.\r\nrespective in diesen Disciplinen eigene Arbeiten zu unternehmen.\r\nUm dieses zu bewirken, sind vorab eine mineralogische und\r\neine petrographische Repetirsammlung erforderlich. Dieselben\r\nwurden gebildet und im Wintersemester 1889/90 der Benutzung\r\nübergeben.\r\nWas die Arbeitseinrichtung anlangt, so wurden für Anfünger\r\n8 Arbeitsplätze geschaffen und für Vorgerücktere deren 4 für\r\nmineralogisch - krystallographische Arbeiten eingerichtet. Die\r\nHerstellung der chemisch-petrographischen Einrichtung für Vor­ä",
     "Entities": {
+        "90": {
+            "id": "90",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "begin": null,
+            "end": null,
+            "incoming": [],
+            "outgoing": [
+                "70"
+            ]
+        },
+        "124": {
+            "id": "124",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Mai",
+            "begin": 2355,
+            "end": 2361,
+            "incoming": [
+                "129"
+            ],
+            "outgoing": []
+        },
         "125": {
             "id": "125",
             "type": "E63 Beginning of Existence",
@@ -962,30 +986,6 @@
             "outgoing": [
                 "111"
             ]
-        },
-        "90": {
-            "id": "90",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "70"
-            ]
-        },
-        "124": {
-            "id": "124",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "1. Mai",
-            "begin": 2355,
-            "end": 2361,
-            "incoming": [
-                "129"
-            ],
-            "outgoing": []
         }
     },
     "Properties": {

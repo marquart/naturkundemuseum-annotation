@@ -221,7 +221,7 @@ def generateSVG(pickle_path, output_path, entity_id=None):
 if __name__ == "__main__":
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
     svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Visualizations/DOTs/"
-    generateSVG(pickle_file, svg_filepath, entity_id=6922)
+    generateSVG(pickle_file, svg_filepath, entity_id=7825)
     #generateSVG(pickle_file, svg_filepath)
     '''
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"

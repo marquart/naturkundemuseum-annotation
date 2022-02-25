@@ -18,18 +18,6 @@
                 "3800"
             ]
         },
-        "3460": {
-            "id": "3460",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Wetzlar",
-            "begin": 1947,
-            "end": 1954,
-            "incoming": [
-                "3582"
-            ],
-            "outgoing": []
-        },
         "3755": {
             "id": "3755",
             "type": "E60 Number",
@@ -44,6 +32,768 @@
                 "3440",
                 "3511"
             ]
+        },
+        "3757": {
+            "id": "3757",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "13 286",
+            "begin": 22028,
+            "end": 22034,
+            "incoming": [
+                "3800"
+            ],
+            "outgoing": [
+                "3441",
+                "3534"
+            ]
+        },
+        "3759": {
+            "id": "3759",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Lepidopteren",
+            "begin": 22037,
+            "end": 22049,
+            "incoming": [],
+            "outgoing": [
+                "3801",
+                "3802"
+            ]
+        },
+        "3760": {
+            "id": "3760",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "26727",
+            "begin": 22050,
+            "end": 22055,
+            "incoming": [
+                "3801"
+            ],
+            "outgoing": [
+                "3442",
+                "3512"
+            ]
+        },
+        "3762": {
+            "id": "3762",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "26 517",
+            "begin": 22057,
+            "end": 22063,
+            "incoming": [
+                "3802"
+            ],
+            "outgoing": [
+                "3443",
+                "3535"
+            ]
+        },
+        "3764": {
+            "id": "3764",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Coleop­tera",
+            "begin": 22066,
+            "end": 22077,
+            "incoming": [],
+            "outgoing": [
+                "3803",
+                "3804"
+            ]
+        },
+        "3765": {
+            "id": "3765",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "64461",
+            "begin": 22078,
+            "end": 22083,
+            "incoming": [
+                "3803"
+            ],
+            "outgoing": [
+                "3444",
+                "3513"
+            ]
+        },
+        "3767": {
+            "id": "3767",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "64 170",
+            "begin": 22085,
+            "end": 22091,
+            "incoming": [
+                "3804"
+            ],
+            "outgoing": [
+                "3445",
+                "3536"
+            ]
+        },
+        "3769": {
+            "id": "3769",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Hymenopteren",
+            "begin": 22094,
+            "end": 22106,
+            "incoming": [],
+            "outgoing": [
+                "3805",
+                "3806"
+            ]
+        },
+        "3770": {
+            "id": "3770",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "26 023",
+            "begin": 22107,
+            "end": 22113,
+            "incoming": [
+                "3805"
+            ],
+            "outgoing": [
+                "3446",
+                "3514"
+            ]
+        },
+        "3772": {
+            "id": "3772",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "25 190",
+            "begin": 22115,
+            "end": 22121,
+            "incoming": [
+                "3806"
+            ],
+            "outgoing": [
+                "3447",
+                "3537"
+            ]
+        },
+        "3774": {
+            "id": "3774",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Dipteren",
+            "begin": 22124,
+            "end": 22132,
+            "incoming": [],
+            "outgoing": [
+                "3807",
+                "3808"
+            ]
+        },
+        "3775": {
+            "id": "3775",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "11619",
+            "begin": 22134,
+            "end": 22139,
+            "incoming": [
+                "3807"
+            ],
+            "outgoing": [
+                "3448",
+                "3515"
+            ]
+        },
+        "3777": {
+            "id": "3777",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "11458",
+            "begin": 22141,
+            "end": 22146,
+            "incoming": [
+                "3808"
+            ],
+            "outgoing": [
+                "3449",
+                "3538"
+            ]
+        },
+        "3779": {
+            "id": "3779",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Neuropteren",
+            "begin": 22149,
+            "end": 22160,
+            "incoming": [],
+            "outgoing": [
+                "3809",
+                "3810"
+            ]
+        },
+        "3780": {
+            "id": "3780",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1132",
+            "begin": 22161,
+            "end": 22165,
+            "incoming": [
+                "3809"
+            ],
+            "outgoing": [
+                "3450",
+                "3516"
+            ]
+        },
+        "3782": {
+            "id": "3782",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1110",
+            "begin": 22167,
+            "end": 22171,
+            "incoming": [
+                "3810"
+            ],
+            "outgoing": [
+                "3451",
+                "3539"
+            ]
+        },
+        "3784": {
+            "id": "3784",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Orthopteren",
+            "begin": 22174,
+            "end": 22185,
+            "incoming": [],
+            "outgoing": [
+                "3811",
+                "3812"
+            ]
+        },
+        "3785": {
+            "id": "3785",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "6011",
+            "begin": 22186,
+            "end": 22190,
+            "incoming": [
+                "3811"
+            ],
+            "outgoing": [
+                "3452",
+                "3517"
+            ]
+        },
+        "3787": {
+            "id": "3787",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "5521",
+            "begin": 22193,
+            "end": 22197,
+            "incoming": [
+                "3812"
+            ],
+            "outgoing": [
+                "3453",
+                "3540"
+            ]
+        },
+        "3789": {
+            "id": "3789",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Hemipteren",
+            "begin": 22200,
+            "end": 22210,
+            "incoming": [],
+            "outgoing": [
+                "3813",
+                "3814"
+            ]
+        },
+        "3790": {
+            "id": "3790",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "11 010",
+            "begin": 22211,
+            "end": 22217,
+            "incoming": [
+                "3813"
+            ],
+            "outgoing": [
+                "3454",
+                "3518"
+            ]
+        },
+        "3792": {
+            "id": "3792",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "10 800",
+            "begin": 22219,
+            "end": 22225,
+            "incoming": [
+                "3814"
+            ],
+            "outgoing": [
+                "3455",
+                "3541"
+            ]
+        },
+        "3794": {
+            "id": "3794",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Arachniden",
+            "begin": 22228,
+            "end": 22238,
+            "incoming": [],
+            "outgoing": [
+                "3815",
+                "3816"
+            ]
+        },
+        "3795": {
+            "id": "3795",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "7136",
+            "begin": 22239,
+            "end": 22243,
+            "incoming": [
+                "3815"
+            ],
+            "outgoing": [
+                "3456",
+                "3519"
+            ]
+        },
+        "3797": {
+            "id": "3797",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "7001",
+            "begin": 22245,
+            "end": 22249,
+            "incoming": [
+                "3816"
+            ],
+            "outgoing": [
+                "3457",
+                "3542"
+            ]
+        },
+        "3799": {
+            "id": "3799",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Myriopoden",
+            "begin": 22253,
+            "end": 22263,
+            "incoming": [],
+            "outgoing": [
+                "3817",
+                "3818"
+            ]
+        },
+        "3800": {
+            "id": "3800",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1690",
+            "begin": 22264,
+            "end": 22268,
+            "incoming": [
+                "3817"
+            ],
+            "outgoing": [
+                "3458",
+                "3520"
+            ]
+        },
+        "3802": {
+            "id": "3802",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1316",
+            "begin": 22270,
+            "end": 22274,
+            "incoming": [
+                "3818"
+            ],
+            "outgoing": [
+                "3459",
+                "3543"
+            ]
+        },
+        "3804": {
+            "id": "3804",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Crustaceen und Pycnogoniden",
+            "begin": 22277,
+            "end": 22304,
+            "incoming": [],
+            "outgoing": [
+                "3819",
+                "3820"
+            ]
+        },
+        "3805": {
+            "id": "3805",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "8690",
+            "begin": 22305,
+            "end": 22309,
+            "incoming": [
+                "3819"
+            ],
+            "outgoing": [
+                "3460",
+                "3521"
+            ]
+        },
+        "3807": {
+            "id": "3807",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "8454",
+            "begin": 22312,
+            "end": 22316,
+            "incoming": [
+                "3820"
+            ],
+            "outgoing": [
+                "3461",
+                "3544"
+            ]
+        },
+        "3809": {
+            "id": "3809",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Freilebende Würmer",
+            "begin": 22319,
+            "end": 22337,
+            "incoming": [],
+            "outgoing": [
+                "3821",
+                "3822"
+            ]
+        },
+        "3810": {
+            "id": "3810",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "2281",
+            "begin": 22338,
+            "end": 22342,
+            "incoming": [
+                "3821"
+            ],
+            "outgoing": [
+                "3462",
+                "3522"
+            ]
+        },
+        "3812": {
+            "id": "3812",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "2086",
+            "begin": 22344,
+            "end": 22348,
+            "incoming": [
+                "3822"
+            ],
+            "outgoing": [
+                "3463",
+                "3545"
+            ]
+        },
+        "3815": {
+            "id": "3815",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "3114",
+            "begin": 22360,
+            "end": 22364,
+            "incoming": [
+                "3823"
+            ],
+            "outgoing": [
+                "3464",
+                "3523"
+            ]
+        },
+        "3817": {
+            "id": "3817",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "3059",
+            "begin": 22366,
+            "end": 22370,
+            "incoming": [
+                "3824"
+            ],
+            "outgoing": [
+                "3465",
+                "3546"
+            ]
+        },
+        "3819": {
+            "id": "3819",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Tunikaten",
+            "begin": 22374,
+            "end": 22383,
+            "incoming": [],
+            "outgoing": [
+                "3825",
+                "3826"
+            ]
+        },
+        "3820": {
+            "id": "3820",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "377",
+            "begin": 22384,
+            "end": 22387,
+            "incoming": [
+                "3825"
+            ],
+            "outgoing": [
+                "3466",
+                "3524"
+            ]
+        },
+        "3822": {
+            "id": "3822",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "362",
+            "begin": 22389,
+            "end": 22392,
+            "incoming": [
+                "3826"
+            ],
+            "outgoing": [
+                "3467",
+                "3547"
+            ]
+        },
+        "3825": {
+            "id": "3825",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "551",
+            "begin": 22404,
+            "end": 22407,
+            "incoming": [
+                "3827"
+            ],
+            "outgoing": [
+                "3468",
+                "3525"
+            ]
+        },
+        "3827": {
+            "id": "3827",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "506",
+            "begin": 22409,
+            "end": 22412,
+            "incoming": [
+                "3828"
+            ],
+            "outgoing": [
+                "3469",
+                "3548"
+            ]
+        },
+        "3829": {
+            "id": "3829",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Mollusken und Brachio­poden",
+            "begin": 22415,
+            "end": 22442,
+            "incoming": [],
+            "outgoing": [
+                "3829",
+                "3830"
+            ]
+        },
+        "3830": {
+            "id": "3830",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "45 770",
+            "begin": 22443,
+            "end": 22449,
+            "incoming": [
+                "3829"
+            ],
+            "outgoing": [
+                "3470",
+                "3526"
+            ]
+        },
+        "3832": {
+            "id": "3832",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "44 652",
+            "begin": 22451,
+            "end": 22457,
+            "incoming": [
+                "3830"
+            ],
+            "outgoing": [
+                "3471",
+                "3549"
+            ]
+        },
+        "3835": {
+            "id": "3835",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "3438",
+            "begin": 22472,
+            "end": 22476,
+            "incoming": [
+                "3831"
+            ],
+            "outgoing": [
+                "3472",
+                "3527"
+            ]
+        },
+        "3837": {
+            "id": "3837",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "3353",
+            "begin": 22478,
+            "end": 22482,
+            "incoming": [
+                "3832"
+            ],
+            "outgoing": [
+                "3473",
+                "3550"
+            ]
+        },
+        "3839": {
+            "id": "3839",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Cülenteraten",
+            "begin": 22485,
+            "end": 22497,
+            "incoming": [],
+            "outgoing": [
+                "3833",
+                "3834"
+            ]
+        },
+        "3840": {
+            "id": "3840",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "3309",
+            "begin": 22499,
+            "end": 22503,
+            "incoming": [
+                "3833"
+            ],
+            "outgoing": [
+                "3474",
+                "3528"
+            ]
+        },
+        "3842": {
+            "id": "3842",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "8243",
+            "begin": 22505,
+            "end": 22509,
+            "incoming": [
+                "3834"
+            ],
+            "outgoing": [
+                "3475",
+                "3551"
+            ]
+        },
+        "3844": {
+            "id": "3844",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Spongien und Protozoen",
+            "begin": 22512,
+            "end": 22534,
+            "incoming": [],
+            "outgoing": [
+                "3835",
+                "3836"
+            ]
+        },
+        "3845": {
+            "id": "3845",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1706",
+            "begin": 22535,
+            "end": 22539,
+            "incoming": [
+                "3835"
+            ],
+            "outgoing": [
+                "3476",
+                "3529"
+            ]
+        },
+        "3847": {
+            "id": "3847",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1662",
+            "begin": 22541,
+            "end": 22545,
+            "incoming": [
+                "3836"
+            ],
+            "outgoing": [
+                "3477",
+                "3552"
+            ]
+        },
+        "3460": {
+            "id": "3460",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Wetzlar",
+            "begin": 1947,
+            "end": 1954,
+            "incoming": [
+                "3582"
+            ],
+            "outgoing": []
         },
         "3461": {
             "id": "3461",
@@ -73,21 +823,6 @@
                 "3585"
             ]
         },
-        "3757": {
-            "id": "3757",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "13 286",
-            "begin": 22028,
-            "end": 22034,
-            "incoming": [
-                "3800"
-            ],
-            "outgoing": [
-                "3441",
-                "3534"
-            ]
-        },
         "3464": {
             "id": "3464",
             "type": "E53 Place",
@@ -112,19 +847,6 @@
             ],
             "outgoing": []
         },
-        "3759": {
-            "id": "3759",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Lepidopteren",
-            "begin": 22037,
-            "end": 22049,
-            "incoming": [],
-            "outgoing": [
-                "3801",
-                "3802"
-            ]
-        },
         "3466": {
             "id": "3466",
             "type": "E96 Purchase",
@@ -138,21 +860,6 @@
                 "3583",
                 "3584",
                 "3586"
-            ]
-        },
-        "3760": {
-            "id": "3760",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "26727",
-            "begin": 22050,
-            "end": 22055,
-            "incoming": [
-                "3801"
-            ],
-            "outgoing": [
-                "3442",
-                "3512"
             ]
         },
         "3467": {
@@ -194,21 +901,6 @@
             ],
             "outgoing": []
         },
-        "3762": {
-            "id": "3762",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "26 517",
-            "begin": 22057,
-            "end": 22063,
-            "incoming": [
-                "3802"
-            ],
-            "outgoing": [
-                "3443",
-                "3535"
-            ]
-        },
         "3470": {
             "id": "3470",
             "type": "E60 Number",
@@ -246,19 +938,6 @@
                 "3590"
             ]
         },
-        "3764": {
-            "id": "3764",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Coleop­tera",
-            "begin": 22066,
-            "end": 22077,
-            "incoming": [],
-            "outgoing": [
-                "3803",
-                "3804"
-            ]
-        },
         "3473": {
             "id": "3473",
             "type": "E60 Number",
@@ -270,21 +949,6 @@
                 "3590"
             ],
             "outgoing": []
-        },
-        "3765": {
-            "id": "3765",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "64461",
-            "begin": 22078,
-            "end": 22083,
-            "incoming": [
-                "3803"
-            ],
-            "outgoing": [
-                "3444",
-                "3513"
-            ]
         },
         "3474": {
             "id": "3474",
@@ -310,21 +974,6 @@
             ],
             "outgoing": [
                 "3396"
-            ]
-        },
-        "3767": {
-            "id": "3767",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "64 170",
-            "begin": 22085,
-            "end": 22091,
-            "incoming": [
-                "3804"
-            ],
-            "outgoing": [
-                "3445",
-                "3536"
             ]
         },
         "3476": {
@@ -410,19 +1059,6 @@
                 "3594"
             ]
         },
-        "3769": {
-            "id": "3769",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Hymenopteren",
-            "begin": 22094,
-            "end": 22106,
-            "incoming": [],
-            "outgoing": [
-                "3805",
-                "3806"
-            ]
-        },
         "3479": {
             "id": "3479",
             "type": "E28 Conceptual Object",
@@ -435,21 +1071,6 @@
             ],
             "outgoing": [
                 "3397"
-            ]
-        },
-        "3770": {
-            "id": "3770",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "26 023",
-            "begin": 22107,
-            "end": 22113,
-            "incoming": [
-                "3805"
-            ],
-            "outgoing": [
-                "3446",
-                "3514"
             ]
         },
         "3480": {
@@ -494,21 +1115,6 @@
                 "3595"
             ]
         },
-        "3772": {
-            "id": "3772",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "25 190",
-            "begin": 22115,
-            "end": 22121,
-            "incoming": [
-                "3806"
-            ],
-            "outgoing": [
-                "3447",
-                "3537"
-            ]
-        },
         "3482": {
             "id": "3482",
             "type": "E28 Conceptual Object",
@@ -521,19 +1127,6 @@
             ],
             "outgoing": [
                 "3398"
-            ]
-        },
-        "3774": {
-            "id": "3774",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Dipteren",
-            "begin": 22124,
-            "end": 22132,
-            "incoming": [],
-            "outgoing": [
-                "3807",
-                "3808"
             ]
         },
         "3484": {
@@ -555,21 +1148,6 @@
                 "3596"
             ],
             "outgoing": []
-        },
-        "3775": {
-            "id": "3775",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "11619",
-            "begin": 22134,
-            "end": 22139,
-            "incoming": [
-                "3807"
-            ],
-            "outgoing": [
-                "3448",
-                "3515"
-            ]
         },
         "3485": {
             "id": "3485",
@@ -609,21 +1187,6 @@
             "incoming": [],
             "outgoing": [
                 "3598"
-            ]
-        },
-        "3777": {
-            "id": "3777",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "11458",
-            "begin": 22141,
-            "end": 22146,
-            "incoming": [
-                "3808"
-            ],
-            "outgoing": [
-                "3449",
-                "3538"
             ]
         },
         "3487": {
@@ -669,19 +1232,6 @@
                 "3478"
             ]
         },
-        "3779": {
-            "id": "3779",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Neuropteren",
-            "begin": 22149,
-            "end": 22160,
-            "incoming": [],
-            "outgoing": [
-                "3809",
-                "3810"
-            ]
-        },
         "3491": {
             "id": "3491",
             "type": "E21 Person",
@@ -693,21 +1243,6 @@
             "outgoing": [
                 "3599",
                 "3605"
-            ]
-        },
-        "3780": {
-            "id": "3780",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1132",
-            "begin": 22161,
-            "end": 22165,
-            "incoming": [
-                "3809"
-            ],
-            "outgoing": [
-                "3450",
-                "3516"
             ]
         },
         "3492": {
@@ -723,21 +1258,6 @@
             "outgoing": [
                 "3401",
                 "3479"
-            ]
-        },
-        "3782": {
-            "id": "3782",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1110",
-            "begin": 22167,
-            "end": 22171,
-            "incoming": [
-                "3810"
-            ],
-            "outgoing": [
-                "3451",
-                "3539"
             ]
         },
         "3494": {
@@ -756,19 +1276,6 @@
                 "3617"
             ]
         },
-        "3784": {
-            "id": "3784",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Orthopteren",
-            "begin": 22174,
-            "end": 22185,
-            "incoming": [],
-            "outgoing": [
-                "3811",
-                "3812"
-            ]
-        },
         "3495": {
             "id": "3495",
             "type": "E73 Information Object",
@@ -784,21 +1291,6 @@
                 "3480"
             ]
         },
-        "3785": {
-            "id": "3785",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "6011",
-            "begin": 22186,
-            "end": 22190,
-            "incoming": [
-                "3811"
-            ],
-            "outgoing": [
-                "3452",
-                "3517"
-            ]
-        },
         "3497": {
             "id": "3497",
             "type": "E21 Person",
@@ -810,21 +1302,6 @@
             "outgoing": [
                 "3601",
                 "3608"
-            ]
-        },
-        "3787": {
-            "id": "3787",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "5521",
-            "begin": 22193,
-            "end": 22197,
-            "incoming": [
-                "3812"
-            ],
-            "outgoing": [
-                "3453",
-                "3540"
             ]
         },
         "3498": {
@@ -853,34 +1330,6 @@
             "outgoing": [
                 "3602",
                 "3607"
-            ]
-        },
-        "3789": {
-            "id": "3789",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Hemipteren",
-            "begin": 22200,
-            "end": 22210,
-            "incoming": [],
-            "outgoing": [
-                "3813",
-                "3814"
-            ]
-        },
-        "3790": {
-            "id": "3790",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "11 010",
-            "begin": 22211,
-            "end": 22217,
-            "incoming": [
-                "3813"
-            ],
-            "outgoing": [
-                "3454",
-                "3518"
             ]
         },
         "3501": {
@@ -917,21 +1366,6 @@
             ],
             "outgoing": []
         },
-        "3792": {
-            "id": "3792",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "10 800",
-            "begin": 22219,
-            "end": 22225,
-            "incoming": [
-                "3814"
-            ],
-            "outgoing": [
-                "3455",
-                "3541"
-            ]
-        },
         "3505": {
             "id": "3505",
             "type": "E73 Information Object",
@@ -947,19 +1381,6 @@
                 "3486"
             ]
         },
-        "3794": {
-            "id": "3794",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Arachniden",
-            "begin": 22228,
-            "end": 22238,
-            "incoming": [],
-            "outgoing": [
-                "3815",
-                "3816"
-            ]
-        },
         "3507": {
             "id": "3507",
             "type": "E21 Person",
@@ -970,21 +1391,6 @@
             "incoming": [],
             "outgoing": [
                 "3604"
-            ]
-        },
-        "3795": {
-            "id": "3795",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "7136",
-            "begin": 22239,
-            "end": 22243,
-            "incoming": [
-                "3815"
-            ],
-            "outgoing": [
-                "3456",
-                "3519"
             ]
         },
         "3508": {
@@ -1002,34 +1408,6 @@
                 "3487"
             ]
         },
-        "3797": {
-            "id": "3797",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "7001",
-            "begin": 22245,
-            "end": 22249,
-            "incoming": [
-                "3816"
-            ],
-            "outgoing": [
-                "3457",
-                "3542"
-            ]
-        },
-        "3799": {
-            "id": "3799",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Myriopoden",
-            "begin": 22253,
-            "end": 22263,
-            "incoming": [],
-            "outgoing": [
-                "3817",
-                "3818"
-            ]
-        },
         "3511": {
             "id": "3511",
             "type": "E73 Information Object",
@@ -1043,36 +1421,6 @@
             "outgoing": [
                 "3407",
                 "3488"
-            ]
-        },
-        "3800": {
-            "id": "3800",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1690",
-            "begin": 22264,
-            "end": 22268,
-            "incoming": [
-                "3817"
-            ],
-            "outgoing": [
-                "3458",
-                "3520"
-            ]
-        },
-        "3802": {
-            "id": "3802",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1316",
-            "begin": 22270,
-            "end": 22274,
-            "incoming": [
-                "3818"
-            ],
-            "outgoing": [
-                "3459",
-                "3543"
             ]
         },
         "3514": {
@@ -1090,34 +1438,6 @@
                 "3489"
             ]
         },
-        "3804": {
-            "id": "3804",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Crustaceen und Pycnogoniden",
-            "begin": 22277,
-            "end": 22304,
-            "incoming": [],
-            "outgoing": [
-                "3819",
-                "3820"
-            ]
-        },
-        "3805": {
-            "id": "3805",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "8690",
-            "begin": 22305,
-            "end": 22309,
-            "incoming": [
-                "3819"
-            ],
-            "outgoing": [
-                "3460",
-                "3521"
-            ]
-        },
         "3517": {
             "id": "3517",
             "type": "E73 Information Object",
@@ -1131,21 +1451,6 @@
             "outgoing": [
                 "3409",
                 "3490"
-            ]
-        },
-        "3807": {
-            "id": "3807",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "8454",
-            "begin": 22312,
-            "end": 22316,
-            "incoming": [
-                "3820"
-            ],
-            "outgoing": [
-                "3461",
-                "3544"
             ]
         },
         "3520": {
@@ -1179,34 +1484,6 @@
                 "3619"
             ]
         },
-        "3809": {
-            "id": "3809",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Freilebende Würmer",
-            "begin": 22319,
-            "end": 22337,
-            "incoming": [],
-            "outgoing": [
-                "3821",
-                "3822"
-            ]
-        },
-        "3810": {
-            "id": "3810",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "2281",
-            "begin": 22338,
-            "end": 22342,
-            "incoming": [
-                "3821"
-            ],
-            "outgoing": [
-                "3462",
-                "3522"
-            ]
-        },
         "3525": {
             "id": "3525",
             "type": "E74 Group",
@@ -1219,36 +1496,6 @@
                 "3610",
                 "3614",
                 "3618"
-            ]
-        },
-        "3812": {
-            "id": "3812",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "2086",
-            "begin": 22344,
-            "end": 22348,
-            "incoming": [
-                "3822"
-            ],
-            "outgoing": [
-                "3463",
-                "3545"
-            ]
-        },
-        "3815": {
-            "id": "3815",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "3114",
-            "begin": 22360,
-            "end": 22364,
-            "incoming": [
-                "3823"
-            ],
-            "outgoing": [
-                "3464",
-                "3523"
             ]
         },
         "3527": {
@@ -1281,21 +1528,6 @@
             ],
             "outgoing": []
         },
-        "3817": {
-            "id": "3817",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "3059",
-            "begin": 22366,
-            "end": 22370,
-            "incoming": [
-                "3824"
-            ],
-            "outgoing": [
-                "3465",
-                "3546"
-            ]
-        },
         "3530": {
             "id": "3530",
             "type": "E73 Information Object",
@@ -1325,34 +1557,6 @@
                 "3616"
             ],
             "outgoing": []
-        },
-        "3819": {
-            "id": "3819",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Tunikaten",
-            "begin": 22374,
-            "end": 22383,
-            "incoming": [],
-            "outgoing": [
-                "3825",
-                "3826"
-            ]
-        },
-        "3820": {
-            "id": "3820",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "377",
-            "begin": 22384,
-            "end": 22387,
-            "incoming": [
-                "3825"
-            ],
-            "outgoing": [
-                "3466",
-                "3524"
-            ]
         },
         "3533": {
             "id": "3533",
@@ -1384,21 +1588,6 @@
             ],
             "outgoing": []
         },
-        "3822": {
-            "id": "3822",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "362",
-            "begin": 22389,
-            "end": 22392,
-            "incoming": [
-                "3826"
-            ],
-            "outgoing": [
-                "3467",
-                "3547"
-            ]
-        },
         "3536": {
             "id": "3536",
             "type": "E73 Information Object",
@@ -1425,21 +1614,6 @@
             ],
             "outgoing": []
         },
-        "3825": {
-            "id": "3825",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "551",
-            "begin": 22404,
-            "end": 22407,
-            "incoming": [
-                "3827"
-            ],
-            "outgoing": [
-                "3468",
-                "3525"
-            ]
-        },
         "3539": {
             "id": "3539",
             "type": "E73 Information Object",
@@ -1454,21 +1628,6 @@
                 "3622"
             ]
         },
-        "3827": {
-            "id": "3827",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "506",
-            "begin": 22409,
-            "end": 22412,
-            "incoming": [
-                "3828"
-            ],
-            "outgoing": [
-                "3469",
-                "3548"
-            ]
-        },
         "3541": {
             "id": "3541",
             "type": "E54 Dimension",
@@ -1480,19 +1639,6 @@
                 "3622"
             ],
             "outgoing": []
-        },
-        "3829": {
-            "id": "3829",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Mollusken und Brachio­poden",
-            "begin": 22415,
-            "end": 22442,
-            "incoming": [],
-            "outgoing": [
-                "3829",
-                "3830"
-            ]
         },
         "3542": {
             "id": "3542",
@@ -1516,21 +1662,6 @@
                 "3504",
                 "3505",
                 "3626"
-            ]
-        },
-        "3830": {
-            "id": "3830",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "45 770",
-            "begin": 22443,
-            "end": 22449,
-            "incoming": [
-                "3829"
-            ],
-            "outgoing": [
-                "3470",
-                "3526"
             ]
         },
         "3543": {
@@ -1578,21 +1709,6 @@
                 "3628"
             ],
             "outgoing": []
-        },
-        "3832": {
-            "id": "3832",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "44 652",
-            "begin": 22451,
-            "end": 22457,
-            "incoming": [
-                "3830"
-            ],
-            "outgoing": [
-                "3471",
-                "3549"
-            ]
         },
         "3546": {
             "id": "3546",
@@ -1654,21 +1770,6 @@
                 "3689"
             ]
         },
-        "3835": {
-            "id": "3835",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "3438",
-            "begin": 22472,
-            "end": 22476,
-            "incoming": [
-                "3831"
-            ],
-            "outgoing": [
-                "3472",
-                "3527"
-            ]
-        },
         "3550": {
             "id": "3550",
             "type": "E53 Place",
@@ -1706,21 +1807,6 @@
                 "3635"
             ],
             "outgoing": []
-        },
-        "3837": {
-            "id": "3837",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "3353",
-            "begin": 22478,
-            "end": 22482,
-            "incoming": [
-                "3832"
-            ],
-            "outgoing": [
-                "3473",
-                "3550"
-            ]
         },
         "3553": {
             "id": "3553",
@@ -1760,19 +1846,6 @@
             ],
             "outgoing": []
         },
-        "3839": {
-            "id": "3839",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Cülenteraten",
-            "begin": 22485,
-            "end": 22497,
-            "incoming": [],
-            "outgoing": [
-                "3833",
-                "3834"
-            ]
-        },
         "3556": {
             "id": "3556",
             "type": "E19 Physical Object",
@@ -1786,21 +1859,6 @@
             "outgoing": [
                 "3637",
                 "3646"
-            ]
-        },
-        "3840": {
-            "id": "3840",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "3309",
-            "begin": 22499,
-            "end": 22503,
-            "incoming": [
-                "3833"
-            ],
-            "outgoing": [
-                "3474",
-                "3528"
             ]
         },
         "3557": {
@@ -1828,21 +1886,6 @@
             ],
             "outgoing": [
                 "3418"
-            ]
-        },
-        "3842": {
-            "id": "3842",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "8243",
-            "begin": 22505,
-            "end": 22509,
-            "incoming": [
-                "3834"
-            ],
-            "outgoing": [
-                "3475",
-                "3551"
             ]
         },
         "3560": {
@@ -1874,19 +1917,6 @@
                 "3647"
             ]
         },
-        "3844": {
-            "id": "3844",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Spongien und Protozoen",
-            "begin": 22512,
-            "end": 22534,
-            "incoming": [],
-            "outgoing": [
-                "3835",
-                "3836"
-            ]
-        },
         "3562": {
             "id": "3562",
             "type": "E60 Number",
@@ -1898,21 +1928,6 @@
                 "3643"
             ],
             "outgoing": []
-        },
-        "3845": {
-            "id": "3845",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1706",
-            "begin": 22535,
-            "end": 22539,
-            "incoming": [
-                "3835"
-            ],
-            "outgoing": [
-                "3476",
-                "3529"
-            ]
         },
         "3563": {
             "id": "3563",
@@ -1952,21 +1967,6 @@
             "outgoing": [
                 "3644",
                 "3645"
-            ]
-        },
-        "3847": {
-            "id": "3847",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1662",
-            "begin": 22541,
-            "end": 22545,
-            "incoming": [
-                "3836"
-            ],
-            "outgoing": [
-                "3477",
-                "3552"
             ]
         },
         "3566": {
@@ -3500,6 +3500,18 @@
             ],
             "outgoing": []
         },
+        "3427": {
+            "id": "3427",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Richard Heymons",
+            "begin": 1260,
+            "end": 1279,
+            "incoming": [
+                "3557"
+            ],
+            "outgoing": []
+        },
         "3697": {
             "id": "3697",
             "type": "E54 Dimension",
@@ -3726,6 +3738,20 @@
                 "3780"
             ]
         },
+        "3426": {
+            "id": "3426",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "Eintritt",
+            "begin": 1247,
+            "end": 1255,
+            "incoming": [],
+            "outgoing": [
+                "3553",
+                "3557",
+                "3558"
+            ]
+        },
         "3718": {
             "id": "3718",
             "type": "E19 Physical Object",
@@ -3740,6 +3766,23 @@
                 "3776",
                 "3778",
                 "3779"
+            ]
+        },
+        "3425": {
+            "id": "3425",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologische Institut",
+            "begin": 1145,
+            "end": 1165,
+            "incoming": [
+                "3553",
+                "3554",
+                "3555",
+                "3556"
+            ],
+            "outgoing": [
+                "3568"
             ]
         },
         "3719": {
@@ -3794,6 +3837,36 @@
                 "3431"
             ]
         },
+        "3428": {
+            "id": "3428",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "2. Assistent",
+            "begin": 1285,
+            "end": 1297,
+            "incoming": [
+                "3558",
+                "3559"
+            ],
+            "outgoing": [
+                "3386",
+                "3387"
+            ]
+        },
+        "3431": {
+            "id": "3431",
+            "type": "E86 Leaving",
+            "virtual": false,
+            "text": "ausgeschiedene",
+            "begin": 1312,
+            "end": 1326,
+            "incoming": [],
+            "outgoing": [
+                "3554",
+                "3559",
+                "3560"
+            ]
+        },
         "3724": {
             "id": "3724",
             "type": "E19 Physical Object",
@@ -3808,6 +3881,21 @@
                 "3782",
                 "3783"
             ]
+        },
+        "3429": {
+            "id": "3429",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "3386",
+                "3388",
+                "3390",
+                "3411"
+            ],
+            "outgoing": []
         },
         "3725": {
             "id": "3725",
@@ -3838,6 +3926,20 @@
                 "3786"
             ]
         },
+        "3430": {
+            "id": "3430",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Intern",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "3387",
+                "3389",
+                "3412"
+            ],
+            "outgoing": []
+        },
         "3727": {
             "id": "3727",
             "type": "E19 Physical Object",
@@ -3855,6 +3957,30 @@
                 "3790"
             ]
         },
+        "3432": {
+            "id": "3432",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. August Brauer",
+            "begin": 1328,
+            "end": 1345,
+            "incoming": [
+                "3560"
+            ],
+            "outgoing": []
+        },
+        "3433": {
+            "id": "3433",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Eugen Korschelt",
+            "begin": 1348,
+            "end": 1367,
+            "incoming": [
+                "3561"
+            ],
+            "outgoing": []
+        },
         "3729": {
             "id": "3729",
             "type": "E53 Place",
@@ -3867,6 +3993,22 @@
             ],
             "outgoing": []
         },
+        "3434": {
+            "id": "3434",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "erster Assistent",
+            "begin": 1385,
+            "end": 1401,
+            "incoming": [
+                "3562",
+                "3563"
+            ],
+            "outgoing": [
+                "3388",
+                "3389"
+            ]
+        },
         "3730": {
             "id": "3730",
             "type": "E53 Place",
@@ -3878,6 +4020,21 @@
                 "3789"
             ],
             "outgoing": []
+        },
+        "3437": {
+            "id": "3437",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "folgte",
+            "begin": 1419,
+            "end": 1425,
+            "incoming": [
+                "3564"
+            ],
+            "outgoing": [
+                "3565",
+                "3566"
+            ]
         },
         "3731": {
             "id": "3731",
@@ -3974,294 +4131,6 @@
                 "3507"
             ]
         },
-        "3737": {
-            "id": "3737",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "6422",
-            "begin": 21879,
-            "end": 21883,
-            "incoming": [
-                "3792"
-            ],
-            "outgoing": [
-                "3433",
-                "3530"
-            ]
-        },
-        "3739": {
-            "id": "3739",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Vögel",
-            "begin": 21886,
-            "end": 21891,
-            "incoming": [],
-            "outgoing": [
-                "3793",
-                "3794"
-            ]
-        },
-        "3740": {
-            "id": "3740",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "30 678",
-            "begin": 21892,
-            "end": 21898,
-            "incoming": [
-                "3793"
-            ],
-            "outgoing": [
-                "3434",
-                "3508"
-            ]
-        },
-        "3742": {
-            "id": "3742",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "29 666",
-            "begin": 21900,
-            "end": 21906,
-            "incoming": [
-                "3794"
-            ],
-            "outgoing": [
-                "3435",
-                "3531"
-            ]
-        },
-        "3744": {
-            "id": "3744",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Vogel­eier",
-            "begin": 21909,
-            "end": 21919,
-            "incoming": [],
-            "outgoing": [
-                "3795",
-                "3796"
-            ]
-        },
-        "3745": {
-            "id": "3745",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "5492",
-            "begin": 21920,
-            "end": 21924,
-            "incoming": [
-                "3795"
-            ],
-            "outgoing": [
-                "3436",
-                "3509"
-            ]
-        },
-        "3747": {
-            "id": "3747",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "5409",
-            "begin": 21926,
-            "end": 21930,
-            "incoming": [
-                "3796"
-            ],
-            "outgoing": [
-                "3437",
-                "3532"
-            ]
-        },
-        "3750": {
-            "id": "3750",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "11234",
-            "begin": 21957,
-            "end": 21962,
-            "incoming": [
-                "3797"
-            ],
-            "outgoing": [
-                "3438",
-                "3510"
-            ]
-        },
-        "3752": {
-            "id": "3752",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "10906",
-            "begin": 21964,
-            "end": 21969,
-            "incoming": [
-                "3798"
-            ],
-            "outgoing": [
-                "3439",
-                "3533"
-            ]
-        },
-        "3427": {
-            "id": "3427",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. Richard Heymons",
-            "begin": 1260,
-            "end": 1279,
-            "incoming": [
-                "3557"
-            ],
-            "outgoing": []
-        },
-        "3426": {
-            "id": "3426",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "Eintritt",
-            "begin": 1247,
-            "end": 1255,
-            "incoming": [],
-            "outgoing": [
-                "3553",
-                "3557",
-                "3558"
-            ]
-        },
-        "3425": {
-            "id": "3425",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologische Institut",
-            "begin": 1145,
-            "end": 1165,
-            "incoming": [
-                "3553",
-                "3554",
-                "3555",
-                "3556"
-            ],
-            "outgoing": [
-                "3568"
-            ]
-        },
-        "3428": {
-            "id": "3428",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "2. Assistent",
-            "begin": 1285,
-            "end": 1297,
-            "incoming": [
-                "3558",
-                "3559"
-            ],
-            "outgoing": [
-                "3386",
-                "3387"
-            ]
-        },
-        "3431": {
-            "id": "3431",
-            "type": "E86 Leaving",
-            "virtual": false,
-            "text": "ausgeschiedene",
-            "begin": 1312,
-            "end": 1326,
-            "incoming": [],
-            "outgoing": [
-                "3554",
-                "3559",
-                "3560"
-            ]
-        },
-        "3429": {
-            "id": "3429",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "3386",
-                "3388",
-                "3390",
-                "3411"
-            ],
-            "outgoing": []
-        },
-        "3430": {
-            "id": "3430",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Intern",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "3387",
-                "3389",
-                "3412"
-            ],
-            "outgoing": []
-        },
-        "3432": {
-            "id": "3432",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. August Brauer",
-            "begin": 1328,
-            "end": 1345,
-            "incoming": [
-                "3560"
-            ],
-            "outgoing": []
-        },
-        "3433": {
-            "id": "3433",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. Eugen Korschelt",
-            "begin": 1348,
-            "end": 1367,
-            "incoming": [
-                "3561"
-            ],
-            "outgoing": []
-        },
-        "3434": {
-            "id": "3434",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "erster Assistent",
-            "begin": 1385,
-            "end": 1401,
-            "incoming": [
-                "3562",
-                "3563"
-            ],
-            "outgoing": [
-                "3388",
-                "3389"
-            ]
-        },
-        "3437": {
-            "id": "3437",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "folgte",
-            "begin": 1419,
-            "end": 1425,
-            "incoming": [
-                "3564"
-            ],
-            "outgoing": [
-                "3565",
-                "3566"
-            ]
-        },
         "3438": {
             "id": "3438",
             "type": "E41 Appellation",
@@ -4289,6 +4158,21 @@
             ],
             "outgoing": []
         },
+        "3737": {
+            "id": "3737",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "6422",
+            "begin": 21879,
+            "end": 21883,
+            "incoming": [
+                "3792"
+            ],
+            "outgoing": [
+                "3433",
+                "3530"
+            ]
+        },
         "3440": {
             "id": "3440",
             "type": "E55 Type",
@@ -4300,6 +4184,19 @@
                 "3391"
             ],
             "outgoing": []
+        },
+        "3739": {
+            "id": "3739",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Vögel",
+            "begin": 21886,
+            "end": 21891,
+            "incoming": [],
+            "outgoing": [
+                "3793",
+                "3794"
+            ]
         },
         "3442": {
             "id": "3442",
@@ -4314,6 +4211,21 @@
                 "3561",
                 "3562",
                 "3564"
+            ]
+        },
+        "3740": {
+            "id": "3740",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "30 678",
+            "begin": 21892,
+            "end": 21898,
+            "incoming": [
+                "3793"
+            ],
+            "outgoing": [
+                "3434",
+                "3508"
             ]
         },
         "3443": {
@@ -4358,6 +4270,21 @@
             ],
             "outgoing": []
         },
+        "3742": {
+            "id": "3742",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "29 666",
+            "begin": 21900,
+            "end": 21906,
+            "incoming": [
+                "3794"
+            ],
+            "outgoing": [
+                "3435",
+                "3531"
+            ]
+        },
         "3446": {
             "id": "3446",
             "type": "E96 Purchase",
@@ -4400,6 +4327,19 @@
                 "3575"
             ]
         },
+        "3744": {
+            "id": "3744",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Vogel­eier",
+            "begin": 21909,
+            "end": 21919,
+            "incoming": [],
+            "outgoing": [
+                "3795",
+                "3796"
+            ]
+        },
         "3449": {
             "id": "3449",
             "type": "E54 Dimension",
@@ -4411,6 +4351,21 @@
                 "3574"
             ],
             "outgoing": []
+        },
+        "3745": {
+            "id": "3745",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "5492",
+            "begin": 21920,
+            "end": 21924,
+            "incoming": [
+                "3795"
+            ],
+            "outgoing": [
+                "3436",
+                "3509"
+            ]
         },
         "3450": {
             "id": "3450",
@@ -4454,6 +4409,21 @@
                 "3578"
             ]
         },
+        "3747": {
+            "id": "3747",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "5409",
+            "begin": 21926,
+            "end": 21930,
+            "incoming": [
+                "3796"
+            ],
+            "outgoing": [
+                "3437",
+                "3532"
+            ]
+        },
         "3452": {
             "id": "3452",
             "type": "E55 Type",
@@ -4495,6 +4465,21 @@
                 "3393"
             ]
         },
+        "3750": {
+            "id": "3750",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "11234",
+            "begin": 21957,
+            "end": 21962,
+            "incoming": [
+                "3797"
+            ],
+            "outgoing": [
+                "3438",
+                "3510"
+            ]
+        },
         "3457": {
             "id": "3457",
             "type": "E19 Physical Object",
@@ -4507,6 +4492,21 @@
             ],
             "outgoing": [
                 "3394"
+            ]
+        },
+        "3752": {
+            "id": "3752",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "10906",
+            "begin": 21964,
+            "end": 21969,
+            "incoming": [
+                "3798"
+            ],
+            "outgoing": [
+                "3439",
+                "3533"
             ]
         },
         "3459": {
