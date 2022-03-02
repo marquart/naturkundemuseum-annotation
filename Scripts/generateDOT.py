@@ -4,22 +4,25 @@ from collections import deque
 from itertools import chain
 import re
 import pickle
+import argparse
 from subprocess import run
 
 from ParseUIMAXMI import SemanticEntity, SemanticProperty
 
 
 class Node(object):
-    def __init__(self, entity=None, _id=0, label=""):
+    def __init__(self, entity=None, _id=0, label="", style="solid"):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
             self.label = f"{entity.type}<BR/>({entity.id})|{clean(entity.string)}"
+            self.style = style
             
         else:
             self.entity = None
             self.id = _id
             self.label = label
+            self.style = style
         
     def __str__(self):
         return f"N{self.id}".replace('-','_')
@@ -51,6 +54,12 @@ class Arrow(object):
     def __str__(self):
         return f'{str(self.source)} -> {str(self.target)} [xlabel="{self.label}"];'
 
+def add_virtual_node(node, arrows, virtual_nodes, neighbors=None):
+    entity = node.entity
+    if neighbors is None: neighbors = len(entity.incoming)+len(entity.outgoing)
+    excuse = Node(_id=-1*entity.id, label=f"...|{neighbors} Neighbors", style="dashed")
+    arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbors to draw"))
+    virtual_nodes.append(excuse)
 
 def BFS(node, maxdepth=3):
     queue = deque([node])
@@ -65,9 +74,7 @@ def BFS(node, maxdepth=3):
         if depths[node.entity] > maxdepth:
             break
         if (neighbors := len(node.entity.incoming)+len(node.entity.outgoing))>18-len(real_nodes) and depths[node.entity]>0:
-            excuse = Node(_id=-1*node.id, label=f"...|{neighbors} Neighbors")
-            arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbors to draw"))
-            virtual_nodes.append(excuse)
+            add_virtual_node(node, arrows, virtual_nodes, neighbors=neighbors)
             too_many_neighbors[node.entity] = node
             continue
             
@@ -90,6 +97,8 @@ def BFS(node, maxdepth=3):
             processed_properties.add(property)
             queue.append(neighbour_node)
             depths[neighbour] = depths[node.entity] + 1
+            if depths[neighbour]>maxdepth and len(neighbour.incoming)+len(neighbour.outgoing)>1:
+                add_virtual_node(neighbour_node, arrows, virtual_nodes)
         for property in node.entity.incoming:
             neighbour = property.source
             if neighbour in depths:
@@ -109,6 +118,8 @@ def BFS(node, maxdepth=3):
             processed_properties.add(property)
             queue.append(neighbour_node)
             depths[neighbour] = depths[node.entity] + 1
+            if depths[neighbour]>maxdepth and len(neighbour.incoming)+len(neighbour.outgoing)>1:
+                add_virtual_node(neighbour_node, arrows, virtual_nodes)
     return list(real_nodes.values()) + virtual_nodes, arrows
 
 
@@ -186,12 +197,12 @@ NODES
 
 }
     """.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year})")
-    nodes = [Node(entity)]
+    nodes = [Node(entity, style="bold")]
     #result = traverse(nodes[0], {}, set(), depth=3)
     result = BFS(nodes[0], maxdepth=3)
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
-    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> color="{"black" if i>0 else "red"}"];' for i, node in enumerate(nodes)]))
+    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> color="{"black" if i>0 else "red"}" style="{node.style}"];' for i, node in enumerate(nodes)]))
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))
@@ -219,9 +230,15 @@ def generateSVG(pickle_path, output_path, entity_id=None):
     
     
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--entity', '-e', type=int, default=-1)
+    
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
     svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Visualizations/DOTs/"
-    generateSVG(pickle_file, svg_filepath, entity_id=7825)
+
+    args = parser.parse_args()
+    if args.entity > -1: generateSVG(pickle_file, svg_filepath, entity_id=args.entity)
+    else: generateSVG(pickle_file, svg_filepath, entity_id=None)
     #generateSVG(pickle_file, svg_filepath)
     '''
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"

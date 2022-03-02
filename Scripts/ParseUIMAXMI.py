@@ -31,6 +31,8 @@ class Corrector(object):
         self.corrections = sorted([OCRCorrection(tag, text) for tag in tags], key=lambda x: x.begin)
         self.offsets     = {}
         self.text        = text
+        self.pagenumbers = {}
+        self.linenumbers = {}
         
     def __len__(self):
         return len(self.corrections)
@@ -60,8 +62,16 @@ class Corrector(object):
         new_text.append(text[cursor:])
         #print(self.offsets)
         self.text = ''.join(new_text)
+        self.set_pagenumbers()
+        self.set_linenumbers()
         return self.text
     
+    def set_pagenumbers(self):
+        pass
+        
+    def set_linenumbers(self):
+        pass
+        
     def offset(self, index):
         cursor = index
         if self.offsets and cursor < len(self.text):
@@ -131,6 +141,7 @@ class SemanticEntity(object):
 class SemanticProperty(object):
     virtuals = []
     next_id  = 0
+    PATTERN = re.compile("^(.*?) \(")
     def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None, year=None, institution=None):
         self.id = self.next_id
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
@@ -140,7 +151,10 @@ class SemanticProperty(object):
         self.institution = institution
         
         if not check_property_exists(tag, "SemanticProperty"): self.type = "P0 Unknown"
-        else: self.type = tag["SemanticProperty"].strip()
+        else:
+            match = SemanticProperty.PATTERN.search(tag["SemanticProperty"].strip())
+            if match: self.type = match.group(1)
+            else: self.type = tag["SemanticProperty"].strip()
 
         
         if virtual:
@@ -241,7 +255,7 @@ def consolidate_entities(entities, entity_map):
     
     matches = 0
     for entity in entities:
-        if entity.type in only_one_entity_needed:
+        if entity.type in only_one_entity_needed and "chausammlung" not in entity.string:
             entity_string = replace_nl(entity.string).lower()
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]

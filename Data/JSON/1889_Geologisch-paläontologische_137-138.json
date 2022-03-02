@@ -5,6 +5,136 @@
     "Page_End": 138,
     "Text": "====PAGEBEGIN 137====\r\n\r\n133\r\n2. Geologisch-palaeontologische Sammlung nebst Institut.\r\nWährend der ersten Hälfte des verflossenen Etatsjahres\r\nwar die Thätigkeit der Beamten fast ausschliesslich damit in\r\nAnspruch genommen, aus den vorhandenen Beständen diejenigen\r\nStücke auszusuchen, welche für die Schausammlung geeignet\r\nschienen, dann diese Stücke zu ordnen und aufzustellen, sowie\r\ndie dabei beschäftigten Handwerker und Kalligraphen zu beauf­sichtigen und zu instruiren. Diese Arbeit ist soweit ausgeführt,\r\ndass der Schausammlungssaal der Thiere am Einweihungstage\r\n(2. December 1889) fertig gestellt war.\r\nDie Neuordnung der Hauptsammlung hat durch die eben\r\nerwähnte Thätigkeit nur geringe Fortschritte gemacht. Sie\r\nwurde allmählich, je nachdem die neuen Schrankreihen von den\r\nTischlern abgeliefert worden, aus den alten Schränken in diese\r\numgelegt und ist nunmehr völlig in den neuen Schränken unter­gebracht. Diese Umlegung geschah auf Grund sorgfältig er­wogener Dispositionen, so dass damit eine der wichtigsten Vor­arbeiten für eine Neuordnung als erledigt zu betrachten ist.\r\nNach der Einweihung sind bereits einzelne Theile aus der\r\nAbtheilung der wirbellosen Tiere neu geordnet worden, so die\r\nSpongien, die palaeozoischen und triassischen Gastropoden, tertiäre\r\nMollusken verschiedener Fundorte und jurassische Ammoniten.\r\nFerner ist ein Theil der Zugänge in die Hauptsammlung ein­geordnet worden.\r\nDie Bereicherung der Sammlung war im vergangenen Jahre\r\neine sehr bedeutende. Vor Allem ist hier zu nennen die\r\nKünow'sche Bernsteinsammlung, grössere Suiten von englischen\r\nJura- Petrefakten, ein Exemplar des ältesten Reptils ­Stereostenum tumidum — aus Brasilien. ferner eine Platte mit\r\n19 Exemplaren von Neusticosaurus pusillus aus der Lettenkohlen­gruppe von Ludwigsburg in Württemberg, und als Geschenk\r\ndes Kiesgrubenbesitzers Korner in Rixdorf ein ungewöhnlich\r\nvollständig erhaltenes Schädelfragment vom Riesenhirsch (Cervus\r\neuryceros).\r\nBehufs Ordnung der Hauptsammlung wurde allerlei Hand­werkzeug zur Anfertigung von Gestellen für grössere Petrefakten\r\nsowie für die Herrichtung von Gesteinsstufen und das Her­stellen von Gesteins- und Petrefaktenschliffen angeschafft.\r\n\r\n====PAGEBREAK TO 138====\r\n\r\n134\r\nDas geologisch-palaeontologische Institut wurde nach Mass­gabe der vorhandenen Mittel so eingerichtet, dass es am 1. Mai\r\neröffnet werden konnte. Für dasselbe besteht eine theils aus\r\nDubletten, theils aus Neu-Anschaffungen entstandene Bibliothek.\r\nFerner wurden Mikroskope und Standlupen zum Gebrauch bei\r\nVorlesungen und bei eigenen Untersuchungen beschafft.\r\nDie Hauptbibliothek ist Dank der zur Verfügung stehenden\r\nausserordentlichen Mittel sehr bereichert worden, namentlich\r\nauch an grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken. Sie ist nach Aussonderung\r\nder der mineralogisch-petrographischen Sammlung überwiesenen\r\nBücher völlig neu geordnet und aufgestellt, und es ist mit einer\r\nNeu-Katalogisirung begonnen.\r\nDer Besuch des Instituts konnte noch nicht bedeutend sein,\r\nda die Beamten, wie erwähnt, mit der Herstellung der Schau­sammlung fast ausschliesslich beschäftigt waren und somit die\r\nPraktikanten und Studenten von ihnen nur geringe Förderung\r\nerwarten durften. Es haben im Lauf des Jahres 8 Praktikanten\r\nselbstständige Untersuchungen gemacht und 12 Studenten die\r\nLehrsammlungen benutzt.\r\nProfessor Dr. Beyrich,\r\nDirektor der geologisch-palaeontologischen Sammlung.\r\n3. Mineralogiseh-petrographisches Institut.\r\nDas mit dem Wintersemester 1888/89 ins Leben und in\r\nWirksamkeit getretene mineralogisch-petrographische Institut\r\nhat zunächst die Aufgabe, den durch die nöthigen Vorlesungen\r\ndazu vorbereiteten Studirenden die Möglichkeit zu gewähren,\r\nsich in Mineralogie und Petrographie wissenschaftlich auszubilden.\r\nrespective in diesen Disciplinen eigene Arbeiten zu unternehmen.\r\nUm dieses zu bewirken, sind vorab eine mineralogische und\r\neine petrographische Repetirsammlung erforderlich. Dieselben\r\nwurden gebildet und im Wintersemester 1889/90 der Benutzung\r\nübergeben.\r\nWas die Arbeitseinrichtung anlangt, so wurden für Anfünger\r\n8 Arbeitsplätze geschaffen und für Vorgerücktere deren 4 für\r\nmineralogisch - krystallographische Arbeiten eingerichtet. Die\r\nHerstellung der chemisch-petrographischen Einrichtung für Vor­ä",
     "Entities": {
+        "87": {
+            "id": "87",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "jurassische Ammoniten",
+            "begin": 1322,
+            "end": 1343,
+            "incoming": [
+                "110"
+            ],
+            "outgoing": [
+                "69"
+            ]
+        },
+        "117": {
+            "id": "117",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Hand­werkzeug",
+            "begin": 2018,
+            "end": 2031,
+            "incoming": [
+                "124",
+                "125",
+                "126",
+                "127"
+            ],
+            "outgoing": [
+                "123"
+            ]
+        },
+        "118": {
+            "id": "118",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Anfertigung von Gestellen für grössere Petrefakten",
+            "begin": 2036,
+            "end": 2086,
+            "incoming": [],
+            "outgoing": [
+                "125"
+            ]
+        },
+        "119": {
+            "id": "119",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Herrichtung von Gesteinsstufen",
+            "begin": 2102,
+            "end": 2132,
+            "incoming": [],
+            "outgoing": [
+                "126"
+            ]
+        },
+        "89": {
+            "id": "89",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Künow'sche Bernsteinsammlung",
+            "begin": 1534,
+            "end": 1562,
+            "incoming": [
+                "70",
+                "111"
+            ],
+            "outgoing": []
+        },
+        "120": {
+            "id": "120",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Her­stellen von Gesteins- und Petrefaktenschliffen",
+            "begin": 2141,
+            "end": 2191,
+            "incoming": [],
+            "outgoing": [
+                "127"
+            ]
+        },
+        "121": {
+            "id": "121",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "angeschafft",
+            "begin": 2192,
+            "end": 2203,
+            "incoming": [],
+            "outgoing": [
+                "79",
+                "124"
+            ]
+        },
+        "123": {
+            "id": "123",
+            "type": "E0 Unknown",
+            "virtual": false,
+            "text": "eologisch-palaeontologische Institut",
+            "begin": 2246,
+            "end": 2282,
+            "incoming": [
+                "128"
+            ],
+            "outgoing": []
+        },
+        "91": {
+            "id": "91",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Künow",
+            "begin": 1534,
+            "end": 1539,
+            "incoming": [],
+            "outgoing": [
+                "111"
+            ]
+        },
+        "122": {
+            "id": "122",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Acquisition",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "79",
+                "80"
+            ],
+            "outgoing": []
+        },
         "90": {
             "id": "90",
             "type": "E8 Acquisition",
@@ -29,19 +159,6 @@
             ],
             "outgoing": []
         },
-        "125": {
-            "id": "125",
-            "type": "E63 Beginning of Existence",
-            "virtual": false,
-            "text": "eröffnet",
-            "begin": 2363,
-            "end": 2371,
-            "incoming": [],
-            "outgoing": [
-                "128",
-                "129"
-            ]
-        },
         "92": {
             "id": "92",
             "type": "E53 Place",
@@ -54,17 +171,18 @@
             ],
             "outgoing": []
         },
-        "126": {
-            "id": "126",
-            "type": "E19 Physical Object",
+        "125": {
+            "id": "125",
+            "type": "E63 Beginning of Existence",
             "virtual": false,
-            "text": "Mikroskope",
-            "begin": 2504,
-            "end": 2514,
-            "incoming": [
-                "130"
-            ],
-            "outgoing": []
+            "text": "eröffnet",
+            "begin": 2363,
+            "end": 2371,
+            "incoming": [],
+            "outgoing": [
+                "128",
+                "129"
+            ]
         },
         "93": {
             "id": "93",
@@ -80,15 +198,15 @@
                 "112"
             ]
         },
-        "127": {
-            "id": "127",
+        "126": {
+            "id": "126",
             "type": "E19 Physical Object",
             "virtual": false,
-            "text": "Standlupen",
-            "begin": 2519,
-            "end": 2529,
+            "text": "Mikroskope",
+            "begin": 2504,
+            "end": 2514,
             "incoming": [
-                "131"
+                "130"
             ],
             "outgoing": []
         },
@@ -104,19 +222,17 @@
                 "72"
             ]
         },
-        "128": {
-            "id": "128",
-            "type": "E8 Acquisition",
+        "127": {
+            "id": "127",
+            "type": "E19 Physical Object",
             "virtual": false,
-            "text": "beschafft",
-            "begin": 2591,
-            "end": 2600,
-            "incoming": [],
-            "outgoing": [
-                "80",
-                "130",
+            "text": "Standlupen",
+            "begin": 2519,
+            "end": 2529,
+            "incoming": [
                 "131"
-            ]
+            ],
+            "outgoing": []
         },
         "94": {
             "id": "94",
@@ -130,20 +246,18 @@
                 "71"
             ]
         },
-        "130": {
-            "id": "130",
-            "type": "E78 Curated Holding",
+        "128": {
+            "id": "128",
+            "type": "E8 Acquisition",
             "virtual": false,
-            "text": "Hauptbibliothek",
-            "begin": 2607,
-            "end": 2622,
-            "incoming": [
-                "132",
-                "133",
-                "134"
-            ],
+            "text": "beschafft",
+            "begin": 2591,
+            "end": 2600,
+            "incoming": [],
             "outgoing": [
-                "81"
+                "80",
+                "130",
+                "131"
             ]
         },
         "68": {
@@ -174,6 +288,22 @@
                 "113"
             ]
         },
+        "130": {
+            "id": "130",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Hauptbibliothek",
+            "begin": 2607,
+            "end": 2622,
+            "incoming": [
+                "132",
+                "133",
+                "134"
+            ],
+            "outgoing": [
+                "81"
+            ]
+        },
         "132": {
             "id": "132",
             "type": "E8 Acquisition",
@@ -187,18 +317,6 @@
                 "135"
             ]
         },
-        "131": {
-            "id": "131",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Library",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "81"
-            ],
-            "outgoing": []
-        },
         "99": {
             "id": "99",
             "type": "E53 Place",
@@ -208,6 +326,18 @@
             "end": 1686,
             "incoming": [
                 "113"
+            ],
+            "outgoing": []
+        },
+        "131": {
+            "id": "131",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Library",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "81"
             ],
             "outgoing": []
         },
@@ -223,18 +353,6 @@
                 "73"
             ]
         },
-        "133": {
-            "id": "133",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken",
-            "begin": 2731,
-            "end": 2814,
-            "incoming": [
-                "135"
-            ],
-            "outgoing": []
-        },
         "67": {
             "id": "67",
             "type": "E39 Actor",
@@ -248,18 +366,6 @@
                 "90"
             ],
             "outgoing": []
-        },
-        "134": {
-            "id": "134",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "neu geordnet",
-            "begin": 2919,
-            "end": 2931,
-            "incoming": [],
-            "outgoing": [
-                "132"
-            ]
         },
         "66": {
             "id": "66",
@@ -289,16 +395,28 @@
                 "117"
             ]
         },
-        "135": {
-            "id": "135",
+        "133": {
+            "id": "133",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken",
+            "begin": 2731,
+            "end": 2814,
+            "incoming": [
+                "135"
+            ],
+            "outgoing": []
+        },
+        "134": {
+            "id": "134",
             "type": "E87 Curation Activity",
             "virtual": false,
-            "text": "Neu-Katalogisirung",
-            "begin": 2971,
-            "end": 2989,
+            "text": "neu geordnet",
+            "begin": 2919,
+            "end": 2931,
             "incoming": [],
             "outgoing": [
-                "133"
+                "132"
             ]
         },
         "102": {
@@ -313,17 +431,17 @@
             ],
             "outgoing": []
         },
-        "136": {
-            "id": "136",
-            "type": "E54 Dimension",
+        "135": {
+            "id": "135",
+            "type": "E87 Curation Activity",
             "virtual": false,
-            "text": "8",
-            "begin": 3289,
-            "end": 3290,
-            "incoming": [
-                "136"
-            ],
-            "outgoing": []
+            "text": "Neu-Katalogisirung",
+            "begin": 2971,
+            "end": 2989,
+            "incoming": [],
+            "outgoing": [
+                "133"
+            ]
         },
         "101": {
             "id": "101",
@@ -337,28 +455,15 @@
                 "74"
             ]
         },
-        "137": {
-            "id": "137",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Praktikanten",
-            "begin": 3291,
-            "end": 3303,
-            "incoming": [],
-            "outgoing": [
-                "82",
-                "136"
-            ]
-        },
-        "139": {
-            "id": "139",
+        "136": {
+            "id": "136",
             "type": "E54 Dimension",
             "virtual": false,
-            "text": "12",
-            "begin": 3347,
-            "end": 3349,
+            "text": "8",
+            "begin": 3289,
+            "end": 3290,
             "incoming": [
-                "137"
+                "136"
             ],
             "outgoing": []
         },
@@ -394,18 +499,18 @@
                 "114"
             ]
         },
-        "138": {
-            "id": "138",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Teaching",
-            "begin": null,
-            "end": null,
-            "incoming": [
+        "137": {
+            "id": "137",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Praktikanten",
+            "begin": 3291,
+            "end": 3303,
+            "incoming": [],
+            "outgoing": [
                 "82",
-                "83"
-            ],
-            "outgoing": []
+                "136"
+            ]
         },
         "70": {
             "id": "70",
@@ -433,6 +538,18 @@
                 "116"
             ]
         },
+        "139": {
+            "id": "139",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "12",
+            "begin": 3347,
+            "end": 3349,
+            "incoming": [
+                "137"
+            ],
+            "outgoing": []
+        },
         "71": {
             "id": "71",
             "type": "E87 Curation Activity",
@@ -449,18 +566,18 @@
                 "98"
             ]
         },
-        "140": {
-            "id": "140",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Studenten",
-            "begin": 3350,
-            "end": 3359,
-            "incoming": [],
-            "outgoing": [
-                "83",
-                "137"
-            ]
+        "138": {
+            "id": "138",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Teaching",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "82",
+                "83"
+            ],
+            "outgoing": []
         },
         "72": {
             "id": "72",
@@ -473,20 +590,6 @@
                 "96"
             ],
             "outgoing": []
-        },
-        "142": {
-            "id": "142",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Professor",
-            "begin": 3390,
-            "end": 3399,
-            "incoming": [
-                "138"
-            ],
-            "outgoing": [
-                "84"
-            ]
         },
         "73": {
             "id": "73",
@@ -511,6 +614,19 @@
                 "117"
             ],
             "outgoing": []
+        },
+        "140": {
+            "id": "140",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Studenten",
+            "begin": 3350,
+            "end": 3359,
+            "incoming": [],
+            "outgoing": [
+                "83",
+                "137"
+            ]
         },
         "74": {
             "id": "74",
@@ -543,6 +659,20 @@
                 "121"
             ]
         },
+        "142": {
+            "id": "142",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "begin": 3390,
+            "end": 3399,
+            "incoming": [
+                "138"
+            ],
+            "outgoing": [
+                "84"
+            ]
+        },
         "75": {
             "id": "75",
             "type": "E52 Time-Span",
@@ -567,20 +697,6 @@
             ],
             "outgoing": [
                 "77"
-            ]
-        },
-        "144": {
-            "id": "144",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "begin": 3400,
-            "end": 3403,
-            "incoming": [
-                "139"
-            ],
-            "outgoing": [
-                "85"
             ]
         },
         "76": {
@@ -610,19 +726,6 @@
             ],
             "outgoing": []
         },
-        "143": {
-            "id": "143",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Academic Title",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "84",
-                "85"
-            ],
-            "outgoing": []
-        },
         "77": {
             "id": "77",
             "type": "E87 Curation Activity",
@@ -635,6 +738,20 @@
             ],
             "outgoing": [
                 "103"
+            ]
+        },
+        "144": {
+            "id": "144",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 3400,
+            "end": 3403,
+            "incoming": [
+                "139"
+            ],
+            "outgoing": [
+                "85"
             ]
         },
         "78": {
@@ -664,20 +781,18 @@
                 "120"
             ]
         },
-        "146": {
-            "id": "146",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Beyrich",
-            "begin": 3404,
-            "end": 3411,
-            "incoming": [],
-            "outgoing": [
-                "86",
-                "138",
-                "139",
-                "140"
-            ]
+        "143": {
+            "id": "143",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "84",
+                "85"
+            ],
+            "outgoing": []
         },
         "79": {
             "id": "79",
@@ -721,6 +836,21 @@
                 "110"
             ]
         },
+        "146": {
+            "id": "146",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Beyrich",
+            "begin": 3404,
+            "end": 3411,
+            "incoming": [],
+            "outgoing": [
+                "86",
+                "138",
+                "139",
+                "140"
+            ]
+        },
         "81": {
             "id": "81",
             "type": "E28 Conceptual Object",
@@ -746,20 +876,6 @@
                 "120"
             ],
             "outgoing": []
-        },
-        "148": {
-            "id": "148",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Direktor",
-            "begin": 3414,
-            "end": 3422,
-            "incoming": [
-                "140"
-            ],
-            "outgoing": [
-                "87"
-            ]
         },
         "83": {
             "id": "83",
@@ -788,17 +904,32 @@
             ],
             "outgoing": []
         },
-        "147": {
-            "id": "147",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Reporter",
-            "begin": null,
-            "end": null,
+        "148": {
+            "id": "148",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Direktor",
+            "begin": 3414,
+            "end": 3422,
             "incoming": [
-                "86"
+                "140"
             ],
-            "outgoing": []
+            "outgoing": [
+                "87"
+            ]
+        },
+        "114": {
+            "id": "114",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Riesenhirsch (Cervus euryceros)",
+            "begin": 1935,
+            "end": 1967,
+            "incoming": [],
+            "outgoing": [
+                "78",
+                "122"
+            ]
         },
         "82": {
             "id": "82",
@@ -818,18 +949,17 @@
             ],
             "outgoing": []
         },
-        "114": {
-            "id": "114",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Riesenhirsch (Cervus euryceros)",
-            "begin": 1935,
-            "end": 1967,
-            "incoming": [],
-            "outgoing": [
-                "78",
-                "122"
-            ]
+        "147": {
+            "id": "147",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Reporter",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "86"
+            ],
+            "outgoing": []
         },
         "116": {
             "id": "116",
@@ -856,424 +986,294 @@
             "outgoing": [
                 "68"
             ]
-        },
-        "117": {
-            "id": "117",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Hand­werkzeug",
-            "begin": 2018,
-            "end": 2031,
-            "incoming": [
-                "124",
-                "125",
-                "126",
-                "127"
-            ],
-            "outgoing": [
-                "123"
-            ]
-        },
-        "87": {
-            "id": "87",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "jurassische Ammoniten",
-            "begin": 1322,
-            "end": 1343,
-            "incoming": [
-                "110"
-            ],
-            "outgoing": [
-                "69"
-            ]
-        },
-        "118": {
-            "id": "118",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Anfertigung von Gestellen für grössere Petrefakten",
-            "begin": 2036,
-            "end": 2086,
-            "incoming": [],
-            "outgoing": [
-                "125"
-            ]
-        },
-        "119": {
-            "id": "119",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Herrichtung von Gesteinsstufen",
-            "begin": 2102,
-            "end": 2132,
-            "incoming": [],
-            "outgoing": [
-                "126"
-            ]
-        },
-        "120": {
-            "id": "120",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Her­stellen von Gesteins- und Petrefaktenschliffen",
-            "begin": 2141,
-            "end": 2191,
-            "incoming": [],
-            "outgoing": [
-                "127"
-            ]
-        },
-        "89": {
-            "id": "89",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Künow'sche Bernsteinsammlung",
-            "begin": 1534,
-            "end": 1562,
-            "incoming": [
-                "70",
-                "111"
-            ],
-            "outgoing": []
-        },
-        "121": {
-            "id": "121",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "angeschafft",
-            "begin": 2192,
-            "end": 2203,
-            "incoming": [],
-            "outgoing": [
-                "79",
-                "124"
-            ]
-        },
-        "123": {
-            "id": "123",
-            "type": "E0 Unknown",
-            "virtual": false,
-            "text": "eologisch-palaeontologische Institut",
-            "begin": 2246,
-            "end": 2282,
-            "incoming": [
-                "128"
-            ],
-            "outgoing": []
-        },
-        "122": {
-            "id": "122",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Acquisition",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "79",
-                "80"
-            ],
-            "outgoing": []
-        },
-        "91": {
-            "id": "91",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Künow",
-            "begin": 1534,
-            "end": 1539,
-            "incoming": [],
-            "outgoing": [
-                "111"
-            ]
         }
     },
     "Properties": {
         "88": {
             "id": "88",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "68",
             "target": "67"
         },
         "89": {
             "id": "89",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "70",
             "target": "67"
         },
         "90": {
             "id": "90",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "71",
             "target": "67"
         },
         "91": {
             "id": "91",
-            "type": "P46 is composed of (forms part of)",
+            "type": "P46 is composed of",
             "source": "66",
             "target": "69"
         },
         "92": {
             "id": "92",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "68",
             "target": "69"
         },
         "93": {
             "id": "93",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "70",
             "target": "69"
         },
         "94": {
             "id": "94",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "71",
             "target": "69"
         },
         "95": {
             "id": "95",
-            "type": "P92 brought into existence (was brought into existence by)",
+            "type": "P92 brought into existence",
             "source": "74",
             "target": "69"
         },
         "96": {
             "id": "96",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "71",
             "target": "72"
         },
         "97": {
             "id": "97",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "71",
             "target": "73"
         },
         "98": {
             "id": "98",
-            "type": "P184 ends before or with the end of (ends with or after the end of)",
+            "type": "P184 ends before or with the end of",
             "source": "71",
             "target": "74"
         },
         "99": {
             "id": "99",
-            "type": "P184 ends before or with the end of (ends with or after the end of)",
+            "type": "P184 ends before or with the end of",
             "source": "70",
             "target": "74"
         },
         "100": {
             "id": "100",
-            "type": "P184 ends before or with the end of (ends with or after the end of)",
+            "type": "P184 ends before or with the end of",
             "source": "68",
             "target": "74"
         },
         "101": {
             "id": "101",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "74",
             "target": "75"
         },
         "102": {
             "id": "102",
-            "type": "P46 is composed of (forms part of)",
+            "type": "P46 is composed of",
             "source": "66",
             "target": "76"
         },
         "103": {
             "id": "103",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "77",
             "target": "76"
         },
         "104": {
             "id": "104",
-            "type": "P5 consists of (forms part of)",
+            "type": "P5 consists of",
             "source": "78",
             "target": "77"
         },
         "105": {
             "id": "105",
-            "type": "P46 is composed of (forms part of)",
+            "type": "P46 is composed of",
             "source": "76",
             "target": "79"
         },
         "106": {
             "id": "106",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "80",
             "target": "79"
         },
         "107": {
             "id": "107",
-            "type": "P16 used specific object (was used for)",
+            "type": "P16 used specific object",
             "source": "80",
             "target": "81"
         },
         "108": {
             "id": "108",
-            "type": "P16 used specific object (was used for)",
+            "type": "P16 used specific object",
             "source": "80",
             "target": "83"
         },
         "109": {
             "id": "109",
-            "type": "P16 used specific object (was used for)",
+            "type": "P16 used specific object",
             "source": "80",
             "target": "85"
         },
         "110": {
             "id": "110",
-            "type": "P16 used specific object (was used for)",
+            "type": "P16 used specific object",
             "source": "80",
             "target": "87"
         },
         "111": {
             "id": "111",
-            "type": "P51 has former or current owner (is former or current owner of)",
+            "type": "P51 has former or current owner",
             "source": "91",
             "target": "89"
         },
         "112": {
             "id": "112",
-            "type": "P53 has former or current location (is former or current location of)",
+            "type": "P53 has former or current location",
             "source": "93",
             "target": "92"
         },
         "113": {
             "id": "113",
-            "type": "P53 has former or current location (is former or current location of)",
+            "type": "P53 has former or current location",
             "source": "97",
             "target": "99"
         },
         "114": {
             "id": "114",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "103",
             "target": "102"
         },
         "115": {
             "id": "115",
-            "type": "P5 consists of (forms part of)",
+            "type": "P5 consists of",
             "source": "100",
             "target": "103"
         },
         "116": {
             "id": "116",
-            "type": "P5 consists of (forms part of)",
+            "type": "P5 consists of",
             "source": "105",
             "target": "103"
         },
         "117": {
             "id": "117",
-            "type": "P53 has former or current location (is former or current location of)",
+            "type": "P53 has former or current location",
             "source": "100",
             "target": "106"
         },
         "118": {
             "id": "118",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "111",
             "target": "109"
         },
         "119": {
             "id": "119",
-            "type": "P23 transferred title from (surrendered title through)",
+            "type": "P23 transferred title from",
             "source": "107",
             "target": "111"
         },
         "120": {
             "id": "120",
-            "type": "P53 has former or current location (is former or current location of)",
+            "type": "P53 has former or current location",
             "source": "111",
             "target": "112"
         },
         "121": {
             "id": "121",
-            "type": "P24 transferred title of (changed ownership through)",
+            "type": "P24 transferred title of",
             "source": "107",
             "target": "113"
         },
         "122": {
             "id": "122",
-            "type": "P5 consists of (forms part of)",
+            "type": "P5 consists of",
             "source": "114",
             "target": "113"
         },
         "123": {
             "id": "123",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "117",
             "target": "116"
         },
         "124": {
             "id": "124",
-            "type": "P24 transferred title of (changed ownership through)",
+            "type": "P24 transferred title of",
             "source": "121",
             "target": "117"
         },
         "125": {
             "id": "125",
-            "type": "P19 was intended use of (was made for)",
+            "type": "P19 was intended use of",
             "source": "118",
             "target": "117"
         },
         "126": {
             "id": "126",
-            "type": "P19 was intended use of (was made for)",
+            "type": "P19 was intended use of",
             "source": "119",
             "target": "117"
         },
         "127": {
             "id": "127",
-            "type": "P19 was intended use of (was made for)",
+            "type": "P19 was intended use of",
             "source": "120",
             "target": "117"
         },
         "128": {
             "id": "128",
-            "type": "P92 brought into existence (was brought into existence by)",
+            "type": "P92 brought into existence",
             "source": "125",
             "target": "123"
         },
         "129": {
             "id": "129",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "125",
             "target": "124"
         },
         "130": {
             "id": "130",
-            "type": "P24 transferred title of (changed ownership through)",
+            "type": "P24 transferred title of",
             "source": "128",
             "target": "126"
         },
         "131": {
             "id": "131",
-            "type": "P24 transferred title of (changed ownership through)",
+            "type": "P24 transferred title of",
             "source": "128",
             "target": "127"
         },
         "132": {
             "id": "132",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "134",
             "target": "130"
         },
         "133": {
             "id": "133",
-            "type": "P147 curated (was curated by)",
+            "type": "P147 curated",
             "source": "135",
             "target": "130"
         },
         "134": {
             "id": "134",
-            "type": "P22 transferred title to (acquired title through)",
+            "type": "P22 transferred title to",
             "source": "132",
             "target": "130"
         },
         "135": {
             "id": "135",
-            "type": "P24 transferred title of (changed ownership through)",
+            "type": "P24 transferred title of",
             "source": "132",
             "target": "133"
         },
@@ -1291,19 +1291,19 @@
         },
         "138": {
             "id": "138",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "146",
             "target": "142"
         },
         "139": {
             "id": "139",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "146",
             "target": "144"
         },
         "140": {
             "id": "140",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "146",
             "target": "148"
         },

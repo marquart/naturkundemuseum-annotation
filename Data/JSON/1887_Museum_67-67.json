@@ -5,6 +5,137 @@
     "Page_End": 67,
     "Text": "====PAGEBEGIN 67====\r\n\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 7. Mai 1887 hat das für die\r\nAufnahme der geologisch-paläontologischen, der mineralogisch­petrographischen und der zoologischen Sammlung der Universität\r\nbestimmte Museum die Bezeichnung „Museum für Natur­kunde“ erhalten.\r\nZu Direktoren der vorgedachten drei Abtheilungen sind die\r\nProfessoren Geheimer Bergrath Dr. Beyrich, Dr. Klein und\r\nDr. Moebius ernannt worden.\r\nDurch Ministerial-Reskript vom 25. Mai 1887 ist die Er­nennung des Geheimen Bergraths Professors Dr. Beyrich zum\r\nVerwaltungsdirektor des Museums erfolgt.\r\nDem ausserordentlichen Professor Dr. von Martens ist der\r\nTitel eines zweiten Direktors der zoologischen Abtheilung bei­gelegt worden.\r\n2. Seminar für Deutsches Recht.\r\nDurch Ministerial-Erlass vom 12. November 1887 ist die\r\nBegründung eines besonderen Seminars für Deutsches Recht an\r\nder Universität genehmigt worden.\r\nZum geschäftsführenden Direktor desselben ist der Geheime\r\nJustizrath Professor Dr. Beseler und zu Mitdirektoren sind die\r\nGeheimen Justizräthe Professoren Dr. Brunner und Dr. Gierke\r\nernannt worden. Mit Wahrnehmung der Funktionen eines Bi­bliothekars und Assistenten ist bis auf Weiteres der Privatdocent\r\nDr. Zeumer beauftragt worden.\r\n3. Geographisches Institut.\r\nDurch Ministerial-Erlass vom 4. April 1887 ist ein geogra­phisches Institut an der Universität begründet worden. Mit der\r\nDirektion desselben ist der Professor Dr. Freiherr von Richt­hofen beauftragt.\r\n4. Anatomisches Theater.\r\nDas anatomische Theater ist aus dem Gebäude der alten\r\nBörse am Lustgarten entfernt und in dem Anatomie-Gebäude,\r\n62\r\n",
     "Entities": {
+        "35": {
+            "id": "35",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "von Martens",
+            "begin": 693,
+            "end": 704,
+            "incoming": [],
+            "outgoing": [
+                "38",
+                "39",
+                "40",
+                "41"
+            ]
+        },
+        "3": {
+            "id": "3",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "mineralogisch­petrographischen",
+            "begin": 207,
+            "end": 237,
+            "incoming": [
+                "17",
+                "18"
+            ],
+            "outgoing": []
+        },
+        "4": {
+            "id": "4",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen",
+            "begin": 246,
+            "end": 258,
+            "incoming": [
+                "19",
+                "20"
+            ],
+            "outgoing": []
+        },
+        "5": {
+            "id": "5",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Museum für Natur­kunde",
+            "begin": 319,
+            "end": 341,
+            "incoming": [
+                "21"
+            ],
+            "outgoing": [
+                "15",
+                "17",
+                "19"
+            ]
+        },
+        "36": {
+            "id": "36",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "zweiten Direktor",
+            "begin": 726,
+            "end": 742,
+            "incoming": [
+                "40"
+            ],
+            "outgoing": [
+                "12",
+                "33"
+            ]
+        },
+        "6": {
+            "id": "6",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Direktor",
+            "begin": 357,
+            "end": 365,
+            "incoming": [
+                "22",
+                "23",
+                "24"
+            ],
+            "outgoing": [
+                "0",
+                "14"
+            ]
+        },
+        "38": {
+            "id": "38",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "begin": 748,
+            "end": 771,
+            "incoming": [
+                "41"
+            ],
+            "outgoing": []
+        },
+        "8": {
+            "id": "8",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "begin": 413,
+            "end": 422,
+            "incoming": [
+                "25",
+                "26",
+                "27"
+            ],
+            "outgoing": [
+                "1"
+            ]
+        },
+        "7": {
+            "id": "7",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "incoming": [
+                "0",
+                "9",
+                "12"
+            ],
+            "outgoing": []
+        },
         "10": {
             "id": "10",
             "type": "E41 Appellation",
@@ -268,311 +399,180 @@
             "outgoing": [
                 "11"
             ]
-        },
-        "35": {
-            "id": "35",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "von Martens",
-            "begin": 693,
-            "end": 704,
-            "incoming": [],
-            "outgoing": [
-                "38",
-                "39",
-                "40",
-                "41"
-            ]
-        },
-        "3": {
-            "id": "3",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "mineralogisch­petrographischen",
-            "begin": 207,
-            "end": 237,
-            "incoming": [
-                "17",
-                "18"
-            ],
-            "outgoing": []
-        },
-        "4": {
-            "id": "4",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen",
-            "begin": 246,
-            "end": 258,
-            "incoming": [
-                "19",
-                "20"
-            ],
-            "outgoing": []
-        },
-        "5": {
-            "id": "5",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Museum für Natur­kunde",
-            "begin": 319,
-            "end": 341,
-            "incoming": [
-                "21"
-            ],
-            "outgoing": [
-                "15",
-                "17",
-                "19"
-            ]
-        },
-        "36": {
-            "id": "36",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "zweiten Direktor",
-            "begin": 726,
-            "end": 742,
-            "incoming": [
-                "40"
-            ],
-            "outgoing": [
-                "12",
-                "33"
-            ]
-        },
-        "6": {
-            "id": "6",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Direktor",
-            "begin": 357,
-            "end": 365,
-            "incoming": [
-                "22",
-                "23",
-                "24"
-            ],
-            "outgoing": [
-                "0",
-                "14"
-            ]
-        },
-        "38": {
-            "id": "38",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen Abtheilung",
-            "begin": 748,
-            "end": 771,
-            "incoming": [
-                "41"
-            ],
-            "outgoing": []
-        },
-        "8": {
-            "id": "8",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Professor",
-            "begin": 413,
-            "end": 422,
-            "incoming": [
-                "25",
-                "26",
-                "27"
-            ],
-            "outgoing": [
-                "1"
-            ]
-        },
-        "7": {
-            "id": "7",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "0",
-                "9",
-                "12"
-            ],
-            "outgoing": []
         }
     },
     "Properties": {
         "13": {
             "id": "13",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "0",
             "target": "1"
         },
         "14": {
             "id": "14",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "6",
             "target": "1"
         },
         "15": {
             "id": "15",
-            "type": "P107 has current or former member (is current or former member of)",
+            "type": "P107 has current or former member",
             "source": "5",
             "target": "2"
         },
         "16": {
             "id": "16",
-            "type": "P143 joined (was joined by)",
+            "type": "P143 joined",
             "source": "14",
             "target": "2"
         },
         "17": {
             "id": "17",
-            "type": "P107 has current or former member (is current or former member of)",
+            "type": "P107 has current or former member",
             "source": "5",
             "target": "3"
         },
         "18": {
             "id": "18",
-            "type": "P143 joined (was joined by)",
+            "type": "P143 joined",
             "source": "17",
             "target": "3"
         },
         "19": {
             "id": "19",
-            "type": "P107 has current or former member (is current or former member of)",
+            "type": "P107 has current or former member",
             "source": "5",
             "target": "4"
         },
         "20": {
             "id": "20",
-            "type": "P143 joined (was joined by)",
+            "type": "P143 joined",
             "source": "20",
             "target": "4"
         },
         "21": {
             "id": "21",
-            "type": "P92 brought into existence (was brought into existence by)",
+            "type": "P92 brought into existence",
             "source": "0",
             "target": "5"
         },
         "22": {
             "id": "22",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "6"
         },
         "23": {
             "id": "23",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "17",
             "target": "6"
         },
         "24": {
             "id": "24",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "20",
             "target": "6"
         },
         "25": {
             "id": "25",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "8"
         },
         "26": {
             "id": "26",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "17",
             "target": "8"
         },
         "27": {
             "id": "27",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "20",
             "target": "8"
         },
         "28": {
             "id": "28",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "10"
         },
         "29": {
             "id": "29",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "12"
         },
         "30": {
             "id": "30",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "17",
             "target": "15"
         },
         "31": {
             "id": "31",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "20",
             "target": "18"
         },
         "32": {
             "id": "32",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "29",
             "target": "21"
         },
         "33": {
             "id": "33",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "36",
             "target": "21"
         },
         "34": {
             "id": "34",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "22"
         },
         "35": {
             "id": "35",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "24"
         },
         "36": {
             "id": "36",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "26"
         },
         "37": {
             "id": "37",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "14",
             "target": "29"
         },
         "38": {
             "id": "38",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "35",
             "target": "31"
         },
         "39": {
             "id": "39",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "35",
             "target": "33"
         },
         "40": {
             "id": "40",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "35",
             "target": "36"
         },
         "41": {
             "id": "41",
-            "type": "P143 joined (was joined by)",
+            "type": "P143 joined",
             "source": "35",
             "target": "38"
         },

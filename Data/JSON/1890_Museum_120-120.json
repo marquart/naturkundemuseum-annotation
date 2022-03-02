@@ -5,6 +5,125 @@
     "Page_End": 120,
     "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
     "Entities": {
+        "1076": {
+            "id": "1076",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "28. März d. Js.",
+            "begin": 1040,
+            "end": 1055,
+            "incoming": [
+                "1028"
+            ],
+            "outgoing": []
+        },
+        "1077": {
+            "id": "1077",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "690",
+            "begin": 1060,
+            "end": 1063,
+            "incoming": [
+                "1029"
+            ],
+            "outgoing": [
+                "1026",
+                "1028"
+            ]
+        },
+        "1078": {
+            "id": "1078",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "15. Dezember v. Js.",
+            "begin": 1087,
+            "end": 1106,
+            "incoming": [
+                "1030"
+            ],
+            "outgoing": []
+        },
+        "1079": {
+            "id": "1079",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "75",
+            "begin": 1111,
+            "end": 1113,
+            "incoming": [
+                "1031"
+            ],
+            "outgoing": [
+                "1027",
+                "1030"
+            ]
+        },
+        "1080": {
+            "id": "1080",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Personen",
+            "begin": 1114,
+            "end": 1122,
+            "incoming": [],
+            "outgoing": [
+                "1007",
+                "1029",
+                "1031",
+                "1033"
+            ]
+        },
+        "1082": {
+            "id": "1082",
+            "type": "E55 Type",
+            "virtual": false,
+            "text": "Durchschnitt",
+            "begin": 1144,
+            "end": 1156,
+            "incoming": [
+                "1032"
+            ],
+            "outgoing": []
+        },
+        "1083": {
+            "id": "1083",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "219",
+            "begin": 1204,
+            "end": 1207,
+            "incoming": [
+                "1033"
+            ],
+            "outgoing": [
+                "1032"
+            ]
+        },
+        "1084": {
+            "id": "1084",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Juli v. Js.",
+            "begin": 1280,
+            "end": 1294,
+            "incoming": [
+                "1034"
+            ],
+            "outgoing": []
+        },
+        "1085": {
+            "id": "1085",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "drei",
+            "begin": 1302,
+            "end": 1306,
+            "incoming": [
+                "1035"
+            ],
+            "outgoing": []
+        },
         "1058": {
             "id": "1058",
             "type": "E52 Time-Span",
@@ -406,125 +525,6 @@
                 "1027"
             ],
             "outgoing": []
-        },
-        "1076": {
-            "id": "1076",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "28. März d. Js.",
-            "begin": 1040,
-            "end": 1055,
-            "incoming": [
-                "1028"
-            ],
-            "outgoing": []
-        },
-        "1077": {
-            "id": "1077",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "690",
-            "begin": 1060,
-            "end": 1063,
-            "incoming": [
-                "1029"
-            ],
-            "outgoing": [
-                "1026",
-                "1028"
-            ]
-        },
-        "1078": {
-            "id": "1078",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "15. Dezember v. Js.",
-            "begin": 1087,
-            "end": 1106,
-            "incoming": [
-                "1030"
-            ],
-            "outgoing": []
-        },
-        "1079": {
-            "id": "1079",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "75",
-            "begin": 1111,
-            "end": 1113,
-            "incoming": [
-                "1031"
-            ],
-            "outgoing": [
-                "1027",
-                "1030"
-            ]
-        },
-        "1080": {
-            "id": "1080",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Personen",
-            "begin": 1114,
-            "end": 1122,
-            "incoming": [],
-            "outgoing": [
-                "1007",
-                "1029",
-                "1031",
-                "1033"
-            ]
-        },
-        "1082": {
-            "id": "1082",
-            "type": "E55 Type",
-            "virtual": false,
-            "text": "Durchschnitt",
-            "begin": 1144,
-            "end": 1156,
-            "incoming": [
-                "1032"
-            ],
-            "outgoing": []
-        },
-        "1083": {
-            "id": "1083",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "219",
-            "begin": 1204,
-            "end": 1207,
-            "incoming": [
-                "1033"
-            ],
-            "outgoing": [
-                "1032"
-            ]
-        },
-        "1084": {
-            "id": "1084",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "1. Juli v. Js.",
-            "begin": 1280,
-            "end": 1294,
-            "incoming": [
-                "1034"
-            ],
-            "outgoing": []
-        },
-        "1085": {
-            "id": "1085",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "drei",
-            "begin": 1302,
-            "end": 1306,
-            "incoming": [
-                "1035"
-            ],
-            "outgoing": []
         }
     },
     "Properties": {
@@ -536,145 +536,145 @@
         },
         "1018": {
             "id": "1018",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1064",
             "target": "1057"
         },
         "1019": {
             "id": "1019",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1064",
             "target": "1058"
         },
         "1020": {
             "id": "1020",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1064",
             "target": "1061"
         },
         "1021": {
             "id": "1021",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1067",
             "target": "1066"
         },
         "1022": {
             "id": "1022",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1070",
             "target": "1069"
         },
         "1023": {
             "id": "1023",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "1067",
             "target": "1070"
         },
         "1024": {
             "id": "1024",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1073",
             "target": "1072"
         },
         "1025": {
             "id": "1025",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "1067",
             "target": "1073"
         },
         "1026": {
             "id": "1026",
-            "type": "P2 has type (is type of)",
+            "type": "P2 has type",
             "source": "1077",
             "target": "1075"
         },
         "1027": {
             "id": "1027",
-            "type": "P2 has type (is type of)",
+            "type": "P2 has type",
             "source": "1079",
             "target": "1075"
         },
         "1028": {
             "id": "1028",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1077",
             "target": "1076"
         },
         "1029": {
             "id": "1029",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1080",
             "target": "1077"
         },
         "1030": {
             "id": "1030",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1079",
             "target": "1078"
         },
         "1031": {
             "id": "1031",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1080",
             "target": "1079"
         },
         "1032": {
             "id": "1032",
-            "type": "P2 has type (is type of)",
+            "type": "P2 has type",
             "source": "1083",
             "target": "1082"
         },
         "1033": {
             "id": "1033",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1080",
             "target": "1083"
         },
         "1034": {
             "id": "1034",
-            "type": "P4 has time-span (is time-span of)",
+            "type": "P4 has time-span",
             "source": "1091",
             "target": "1084"
         },
         "1035": {
             "id": "1035",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1086",
             "target": "1085"
         },
         "1036": {
             "id": "1036",
-            "type": "P95 has formed (was formed by)",
+            "type": "P95 has formed",
             "source": "1091",
             "target": "1086"
         },
         "1037": {
             "id": "1037",
-            "type": "P43 has dimension (is dimension of)",
+            "type": "P43 has dimension",
             "source": "1089",
             "target": "1088"
         },
         "1038": {
             "id": "1038",
-            "type": "P95 has formed (was formed by)",
+            "type": "P95 has formed",
             "source": "1091",
             "target": "1089"
         },
         "1039": {
             "id": "1039",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "1095",
             "target": "1093"
         },
         "1040": {
             "id": "1040",
-            "type": "P14 carried out by (performed)",
+            "type": "P14 carried out by",
             "source": "1099",
             "target": "1097"
         },
         "1041": {
             "id": "1041",
-            "type": "P1 is identified by (identifies)",
+            "type": "P1 is identified by",
             "source": "1101",
             "target": "1103"
         },
