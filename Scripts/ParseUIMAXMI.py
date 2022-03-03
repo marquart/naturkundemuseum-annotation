@@ -1,5 +1,6 @@
 import os
 from collections import defaultdict, Counter
+from operator import attrgetter
 import json, re
 import pickle
 from bs4 import BeautifulSoup
@@ -28,17 +29,20 @@ class OCRCorrection(object):
 
 class Corrector(object):
     def __init__(self, tags, text):
-        self.corrections = sorted([OCRCorrection(tag, text) for tag in tags], key=lambda x: x.begin)
+        self.corrections = sorted([OCRCorrection(tag, text) for tag in tags], key=attrgetter('begin'))
         self.offsets     = {}
         self.text        = text
         self.pagenumbers = {}
         self.linenumbers = {}
+        self.cleaner     = str.maketrans("\n", " ", "\r‑-­")
         
     def __len__(self):
         return len(self.corrections)
     
     def apply(self, text):
         if not self.corrections:
+            self.set_pagenumbers()
+            self.set_linenumbers()
             return self.text
         new_text = []
         cursor   = 0
@@ -66,17 +70,47 @@ class Corrector(object):
         self.set_linenumbers()
         return self.text
     
+    def clean(self, txt):
+        #return txt.replace('\r\n', ' ').replace('\n', ' ').replace('‑', '').replace('-', '').replace('­', '')
+        return txt.strip().translate(self.cleaner)
+    
     def set_pagenumbers(self):
-        pass
+        BEGIN_PATTERN = re.compile(r"====PAGEBEGIN (\d+?)====\r?\n")
+        BREAK_PATTERN = re.compile(r"====PAGEBREAK TO (\d+?)====\r?\n")
+        begin = BEGIN_PATTERN.search(self.text)
+        self.pagenumbers[begin.end()] = int(begin.group(1))
+        for match in BREAK_PATTERN.finditer(self.text):
+            self.pagenumbers[match.end()] = int(match.group(1))
+
         
     def set_linenumbers(self):
-        pass
+        LINEBREAK_PATTERN = re.compile('\n|­')
+        for i, match in enumerate(LINEBREAK_PATTERN.finditer(self.text), start=2):
+            self.linenumbers[match.start()] = i
+        
+    def get_pagenumber(self, index):
+        cursor = index
+        if self.pagenumbers:
+            while 0 <= cursor:
+                if cursor in self.pagenumbers: return self.pagenumbers[cursor]
+                cursor -= 1
+        return -1
+    
+    def get_linenumber(self, index):
+        cursor = index
+        if self.linenumbers:
+            while 0 <= cursor:
+                if cursor in self.linenumbers: return self.linenumbers[cursor]
+                cursor -= 1
+        return -1
         
     def offset(self, index):
         cursor = index
-        if self.offsets and cursor < len(self.text):
+        if self.offsets:
             while 0 <= cursor:
-                if cursor in self.offsets: return self.offsets[cursor] + index
+                if cursor in self.offsets:
+                    assert self.offsets[cursor] + index < len(self.text)
+                    return self.offsets[cursor] + index
                 cursor -= 1
         return index
             
@@ -104,13 +138,19 @@ class SemanticEntity(object):
             self.virtual     = True
             self.begin       = None
             self.end         = None
-            self.string      = tag["string"].strip()
+            self.string      = corrector.clean(tag["string"])
+            self.page        = -1
+            self.line        = -1
             SemanticEntity.virtuals.append(self)
         else:
             self.original_id = int(tag["xmi:id"])
             virtual_from_source = False
+            
+            char_begin = int(tag["begin"])
+            char_end = int(tag["end"])
+            
             if tag.has_attr("Postprocessing"):
-                virtual_from_source = parse_postprocessing(tag['Postprocessing'], self, anchors)
+                virtual_from_source = parse_postprocessing(tag['Postprocessing'], self, anchors, corrector)
                 
             if not virtual_from_source and check_property_exists(tag, "Virtual"):
                 virtual_from_source = tag["Virtual"] == "true"
@@ -120,22 +160,29 @@ class SemanticEntity(object):
                 self.begin   = None
                 self.end     = None
                 self.string  = "(implicit) Unknown"
+                self.page    = corrector.get_pagenumber(char_begin)
+                self.line    = corrector.get_linenumber(char_begin)
             else:
                 self.virtual = False
-                self.begin   = corrector.offset(int(tag["begin"]))
-                self.end     = corrector.offset(int(tag["end"]))
-                self.string  = corrector.text[self.begin:self.end]
+                self.begin   = corrector.offset(char_begin)
+                self.end     = corrector.offset(char_end)
+                self.string  = corrector.clean(corrector.text[self.begin:self.end]) # self.clean(corrector.text[self.begin:self.end])
+                self.page    = corrector.get_pagenumber(char_begin)
+                self.line    = corrector.get_linenumber(char_begin)
 
         if check_property_exists(tag, "HasType"):
-            target = SemanticEntity({'SemanticClass':'E55 Type','string':tag["HasType"].strip()}, None, virtual=True)
+            target = SemanticEntity({'SemanticClass':'E55 Type','string':tag["HasType"].strip()}, corrector, virtual=True)
             property = SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=self, target=target)
     
     def __str__(self):
-        return f"{self.type}: '{replace_nl(self.string)}'"
+        return f"{self.type}: '{self.string}'"
+        
+    def __len__(self):
+        return len(self.incoming)+len(self.outgoing)
     
     def verbose(self):
-        return f"{self.type}: '{replace_nl(self.string)}' ({self.id}, {self.institution} {self.year})"
-
+        return f"{self.type}: '{self.string}' ({self.id}, {self.institution} {self.year})"
+    
 
 
 class SemanticProperty(object):
@@ -196,7 +243,7 @@ class SemanticProperty(object):
 
         
 
-def parse_postprocessing(tag_string, source, anchors):
+def parse_postprocessing(tag_string, source, anchors, corrector):
     #print(f"Parsing post for {str(source)}")
     
     virtual_from_source = False # really no string
@@ -229,10 +276,10 @@ def parse_postprocessing(tag_string, source, anchors):
             assert len(triple) == 3
         
         if inverse:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':f"{triple[2]}"}, None, virtual=True, year=source.year, institution=source.institution)
+            target = SemanticEntity({'SemanticClass':triple[1],'string':f"{triple[2]}"}, corrector, virtual=True, year=source.year, institution=source.institution)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=target, target=source, year=source.year, institution=source.institution)
         else:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, None, virtual=True, year=source.year, institution=source.institution)
+            target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, corrector, virtual=True, year=source.year, institution=source.institution)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target, year=source.year, institution=source.institution)
         
     return virtual_from_source
@@ -256,7 +303,7 @@ def consolidate_entities(entities, entity_map):
     matches = 0
     for entity in entities:
         if entity.type in only_one_entity_needed and "chausammlung" not in entity.string:
-            entity_string = replace_nl(entity.string).lower()
+            entity_string = entity.string.lower()
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]
                 queen.incoming += [consolidate_properties(p, queen, incoming=True) for p in entity.incoming]
@@ -273,8 +320,6 @@ def consolidate_entities(entities, entity_map):
     print(f"{len(entities)} Entities resolved to {len(result)} Entities")
     return result, entity_map
 
-def replace_nl(txt):
-    return txt.strip().replace('\r\n', ' ').replace('\n', ' ')
 
 def set_anchors(anchors):
     for anchor_str, anchor in anchors.objs.items():
@@ -354,6 +399,8 @@ def serialize(obj, stringify=True):
         "text": obj.string.replace('\r', '').replace('\n', ' ') if stringify else obj.string,
         "begin": obj.begin,
         "end": obj.end,
+        "page": obj.page,
+        "line": obj.line,
         "incoming": [str(prop.id) if stringify else prop.id for prop in obj.incoming],
         "outgoing": [str(prop.id) if stringify else prop.id for prop in obj.outgoing]
         }

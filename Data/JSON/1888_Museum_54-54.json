@@ -5,203 +5,6 @@
     "Page_End": 54,
     "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
     "Entities": {
-        "54": {
-            "id": "54",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Kustos",
-            "begin": 683,
-            "end": 689,
-            "incoming": [
-                "59"
-            ],
-            "outgoing": [
-                "47"
-            ]
-        },
-        "56": {
-            "id": "56",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "ernannt",
-            "begin": 690,
-            "end": 697,
-            "incoming": [
-                "60"
-            ],
-            "outgoing": [
-                "57",
-                "59"
-            ]
-        },
-        "57": {
-            "id": "57",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Zoologisches Institut",
-            "begin": 710,
-            "end": 731,
-            "incoming": [
-                "61"
-            ],
-            "outgoing": []
-        },
-        "58": {
-            "id": "58",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "zweite Assi­stentenstelle",
-            "begin": 779,
-            "end": 804,
-            "incoming": [
-                "62"
-            ],
-            "outgoing": [
-                "48"
-            ]
-        },
-        "60": {
-            "id": "60",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Privat-Dozenten",
-            "begin": 813,
-            "end": 828,
-            "incoming": [
-                "63"
-            ],
-            "outgoing": [
-                "49"
-            ]
-        },
-        "62": {
-            "id": "62",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr. phil.",
-            "begin": 829,
-            "end": 838,
-            "incoming": [
-                "64"
-            ],
-            "outgoing": [
-                "50"
-            ]
-        },
-        "64": {
-            "id": "64",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Fritz Magde­burg",
-            "begin": 839,
-            "end": 855,
-            "incoming": [],
-            "outgoing": [
-                "63",
-                "64",
-                "65"
-            ]
-        },
-        "65": {
-            "id": "65",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "übertragen",
-            "begin": 856,
-            "end": 866,
-            "incoming": [
-                "65"
-            ],
-            "outgoing": [
-                "61",
-                "62"
-            ]
-        },
-        "39": {
-            "id": "39",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Assistenten­stelle",
-            "begin": 499,
-            "end": 517,
-            "incoming": [
-                "51"
-            ],
-            "outgoing": [
-                "42"
-            ]
-        },
-        "40": {
-            "id": "40",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "42",
-                "45",
-                "47",
-                "48"
-            ],
-            "outgoing": []
-        },
-        "41": {
-            "id": "41",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "geologisch-paläontologischen Abtheilung",
-            "begin": 526,
-            "end": 565,
-            "incoming": [
-                "52"
-            ],
-            "outgoing": []
-        },
-        "42": {
-            "id": "42",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Privat-Dozenten",
-            "begin": 575,
-            "end": 590,
-            "incoming": [
-                "53"
-            ],
-            "outgoing": [
-                "43"
-            ]
-        },
-        "44": {
-            "id": "44",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "begin": 591,
-            "end": 594,
-            "incoming": [
-                "54"
-            ],
-            "outgoing": [
-                "44"
-            ]
-        },
-        "43": {
-            "id": "43",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Academic Title",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "43",
-                "44",
-                "46",
-                "49",
-                "50"
-            ],
-            "outgoing": []
-        },
         "46": {
             "id": "46",
             "type": "E21 Person",
@@ -209,6 +12,8 @@
             "text": "Koken",
             "begin": 595,
             "end": 600,
+            "page": 54,
+            "line": 14,
             "incoming": [],
             "outgoing": [
                 "53",
@@ -223,6 +28,8 @@
             "text": "übertragen",
             "begin": 601,
             "end": 611,
+            "page": 54,
+            "line": 14,
             "incoming": [
                 "55"
             ],
@@ -238,6 +45,8 @@
             "text": "Assistent",
             "begin": 618,
             "end": 627,
+            "page": 54,
+            "line": 15,
             "incoming": [
                 "56"
             ],
@@ -252,6 +61,8 @@
             "text": "zoologischen Abtheilung",
             "begin": 636,
             "end": 659,
+            "page": 54,
+            "line": 15,
             "incoming": [
                 "57"
             ],
@@ -264,6 +75,8 @@
             "text": "Dr.",
             "begin": 660,
             "end": 663,
+            "page": 54,
+            "line": 15,
             "incoming": [
                 "58"
             ],
@@ -275,15 +88,242 @@
             "id": "53",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Rei­chenow",
+            "text": "Reichenow",
             "begin": 664,
             "end": 674,
+            "page": 54,
+            "line": 15,
             "incoming": [],
             "outgoing": [
                 "56",
                 "58",
                 "60"
             ]
+        },
+        "54": {
+            "id": "54",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kustos",
+            "begin": 683,
+            "end": 689,
+            "page": 54,
+            "line": 16,
+            "incoming": [
+                "59"
+            ],
+            "outgoing": [
+                "47"
+            ]
+        },
+        "56": {
+            "id": "56",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "ernannt",
+            "begin": 690,
+            "end": 697,
+            "page": 54,
+            "line": 16,
+            "incoming": [
+                "60"
+            ],
+            "outgoing": [
+                "57",
+                "59"
+            ]
+        },
+        "57": {
+            "id": "57",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Zoologisches Institut",
+            "begin": 710,
+            "end": 731,
+            "page": 54,
+            "line": 17,
+            "incoming": [
+                "61"
+            ],
+            "outgoing": []
+        },
+        "58": {
+            "id": "58",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "zweite Assistentenstelle",
+            "begin": 779,
+            "end": 804,
+            "page": 54,
+            "line": 18,
+            "incoming": [
+                "62"
+            ],
+            "outgoing": [
+                "48"
+            ]
+        },
+        "60": {
+            "id": "60",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "PrivatDozenten",
+            "begin": 813,
+            "end": 828,
+            "page": 54,
+            "line": 19,
+            "incoming": [
+                "63"
+            ],
+            "outgoing": [
+                "49"
+            ]
+        },
+        "62": {
+            "id": "62",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr. phil.",
+            "begin": 829,
+            "end": 838,
+            "page": 54,
+            "line": 19,
+            "incoming": [
+                "64"
+            ],
+            "outgoing": [
+                "50"
+            ]
+        },
+        "64": {
+            "id": "64",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Fritz Magdeburg",
+            "begin": 839,
+            "end": 855,
+            "page": 54,
+            "line": 19,
+            "incoming": [],
+            "outgoing": [
+                "63",
+                "64",
+                "65"
+            ]
+        },
+        "65": {
+            "id": "65",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "übertragen",
+            "begin": 856,
+            "end": 866,
+            "page": 54,
+            "line": 20,
+            "incoming": [
+                "65"
+            ],
+            "outgoing": [
+                "61",
+                "62"
+            ]
+        },
+        "41": {
+            "id": "41",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "geologischpaläontologischen Abtheilung",
+            "begin": 526,
+            "end": 565,
+            "page": 54,
+            "line": 13,
+            "incoming": [
+                "52"
+            ],
+            "outgoing": []
+        },
+        "40": {
+            "id": "40",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Profession",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "incoming": [
+                "42",
+                "45",
+                "47",
+                "48"
+            ],
+            "outgoing": []
+        },
+        "39": {
+            "id": "39",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Assistentenstelle",
+            "begin": 499,
+            "end": 517,
+            "page": 54,
+            "line": 12,
+            "incoming": [
+                "51"
+            ],
+            "outgoing": [
+                "42"
+            ]
+        },
+        "42": {
+            "id": "42",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "PrivatDozenten",
+            "begin": 575,
+            "end": 590,
+            "page": 54,
+            "line": 14,
+            "incoming": [
+                "53"
+            ],
+            "outgoing": [
+                "43"
+            ]
+        },
+        "44": {
+            "id": "44",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 591,
+            "end": 594,
+            "page": 54,
+            "line": 14,
+            "incoming": [
+                "54"
+            ],
+            "outgoing": [
+                "44"
+            ]
+        },
+        "43": {
+            "id": "43",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Academic Title",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "incoming": [
+                "43",
+                "44",
+                "46",
+                "49",
+                "50"
+            ],
+            "outgoing": []
         }
     },
     "Properties": {

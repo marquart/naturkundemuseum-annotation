@@ -5,511 +5,347 @@
     "Page_End": 122,
     "Text": "====PAGEBEGIN 121====\r\n\r\n117\r\n2. Geologisch - palaentologische Sammlung und geologisch - palaentologisches\r\nInstitut.\r\n1. Schausammlung. Im Schausaal der fossilen Thiere\r\nbeschränkte sich die Thätigkeit auf eine Revision der Bestim­mungen und Etiquetten, auf Einfügung einzelner Stücke in das\r\nfrüher Aufgestellte und auf Austausch schlechter erhaltener\r\nStücke gegen bessere. Der Schausaal der fossilen Pflanzen war\r\nbei der Einweihung des Museums noch nicht geöffnet worden,\r\nweil für denselben grösstentheils noch die innere Einrichtung\r\nfehlte und die Beamten mit der Fertigstellung des Schausaales\r\nder fossilen Thiere vollauf beschäftigt gewesen waren. Im Laufe\r\ndes verflossenen Etatsjahres ist nun auch der Pflanzensaal voll­ständig zur Eröffnung bereit gestellt, und zwar derart, dass in\r\n4 grossen Flachvitrinen eine botanisch-systematische, in den\r\nHochvitrinen an den Wänden eine geologische Anordnung der\r\nObjekte getroffen ist. Ausserdem enthält der Saal noch einzelne\r\ngrosse Platten mit tertiären Palmen und auf den Postamenten\r\nzwischen den Flachvitrinen verkieselte Hölzer verschiedener\r\nFormationen. An den Fenstern sind Rahmen mit Holzdünn­schliffen und Bernsteininclusen in Canadabalsam angebracht. Da\r\nauch die Etiquettirung fast vollständig durchgeführt ist, konnte\r\nim März 1891 die Eröffnung für das Publikum erfolgen. Die\r\nschwierige und bedeutende Arbeit der Aufstellung der fossilen\r\nPflanzen ist das ausschliessliche Verdienst des bisherigen Assi­stenten, Herrn Dr. E. Koken, welcher nunmehr als Professor\r\nordinarius nach Königsberg i/Pr. berufen worden ist. — An\r\nseine Stelle tritt Dr. Futterer, bisher Assistent am geologischen\r\nInstitut der Universität Freiburg i/Br.\r\n2. Hauptsammlung. Die Arbeiten für die Ordnung der\r\nHauptsammlung sind auf verschiedenen Gebieten fortgeschritten,\r\nund zwar bei den tertiären Mollusken, den Spongien, deren\r\nOrdnung beendigt ist, und bei den jurassischen Gastropoden.\r\nAusserdem wurden einige Serien von einzelnen Localitäten\r\nbestimmt und in die Hauptsammlung vertheilt, z. B. solche\r\nverschiedener deutscher und ausländischer Kreidegebiete. — Auch\r\nim verflossenen Etatsjahr war die Bereicherung der Sammlung\r\neine erfreulich bedeutende. Unter den namhafteren Erwerbungen\r\nsind zu nennen: Umfangreiche Sammlungen aus den Silurabla­gerungen der Insel Gotland und Dalarnes, zusammengebracht\r\n\r\n====PAGEBREAK TO 122====\r\n\r\n1\r\nvom Custos Dr. W. Dames, und aus dem baltischen Silur,\r\ngesammelt von Dr. E. Koken, fossile Säugethierreste von St.\r\nGérand le Puy (Dept. Allier), Crinoiden aus dem Neocom von\r\nStramberg, eine Sammlung von  paläozoischen, mesozoischen\r\nund quartären Petrefacten aus Peru und Bolivien, gesammelt\r\nvon Herrn Dr. Hettner, und Petrefacten der Kreideformation\r\nvon Umtamfuma in Natal, gesammelt von Herrn Conrad Beyrich.\r\n Aus den Beständen der Hauptsammlung wurden mancherlei\r\nObjekte zum Studium und zum Vergleich auswärtigen Gelehrten\r\nzugänglich gemacht, so tertiäre Gastropoden Herrn Professor\r\nvon Könen in Göttingen, cretaceische Echiniden Herrn Pro­fessor Schlüter in Bonn, liassische Ammoniten Herrn Dr.\r\nDenckmann in Berlin u. s. f.\r\n3. Geologisch-paläontologisches Institut. Das In­stitut wurde von 5 Praktikanten zu eigenen Untersuchungen\r\nund Abfassung von Abhandlungen benutzt; einer von ihnen hat\r\neine Inauguraldissertation über die Crustaceen der nordwest­deutschen Juraformation vollendet.  Ungefähr 12 Studenten\r\nhaben die Lehrsammlungen zu Repetitionszwecken benützt. ­Es ist noch hinzuzufügen, dass die Bibliothek vollständig geordnet\r\nund aufgestellt und der Katalog derselben vollendet\r\nist. Es fehlt noch der der Kartensammlung, mit dessen Her­stellung begonnen wurde.\r\nProfessor Dr. Beyrich,\r\nDirektor.\r\n3. Mineralogisch-petrographisches Institut.\r\nWas die Thätigkeit im mineralogisch-petrographischen In­stitut anlangt, so wurden an den Unterrichts- und Repetir­sammlungen desselben die zur wissenschaftlichen Verwerthung\r\nerforderlichen, näheren Bestimmungen der einzelnen Stücke in\r\nausgedehntem Maasse weiter fortgesetzt. Fernerhin ward durch\r\ndie Thätigkeit des Präparators und der Diener eine erhebliche\r\nVermehrung der Mineral- und Gesteinspräparate erzielt.\r\nIm Institut, das von dem Assistenten, Herrn Dr. Rinne, beauf­sichügt wurde, entfaltete sich eine rege Thätigkeit bezüglich der\r\nAnleitung der Anfünger und der Arbeiten der Vorgerückteren,\r\nso dass die vorhandenen Arbeitsplütze, von denen acht für die\r\n.18",
     "Entities": {
-        "849": {
-            "id": "849",
-            "type": "E7 Activity",
-            "virtual": false,
-            "text": "Studium",
-            "begin": 2880,
-            "end": 2887,
-            "incoming": [],
-            "outgoing": [
-                "762",
-                "828",
-                "829"
-            ]
-        },
-        "874": {
-            "id": "874",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Crustaceen",
-            "begin": 3339,
-            "end": 3349,
-            "incoming": [
-                "844"
-            ],
-            "outgoing": [
-                "769"
-            ]
-        },
-        "846": {
-            "id": "846",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "gesammelt",
-            "begin": 2775,
-            "end": 2784,
-            "incoming": [],
-            "outgoing": [
-                "824",
-                "826"
-            ]
-        },
-        "847": {
-            "id": "847",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Conrad Beyrich",
-            "begin": 2795,
-            "end": 2809,
-            "incoming": [
-                "826"
-            ],
-            "outgoing": []
-        },
-        "876": {
-            "id": "876",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "nordwest­deutsch",
-            "begin": 3354,
-            "end": 3370,
-            "incoming": [
-                "845"
-            ],
-            "outgoing": []
-        },
-        "845": {
-            "id": "845",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Umtamfuma in Natal",
-            "begin": 2755,
-            "end": 2773,
-            "incoming": [
-                "825"
-            ],
-            "outgoing": []
-        },
-        "844": {
-            "id": "844",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Petrefacten der Kreideformation",
-            "begin": 2718,
-            "end": 2749,
-            "incoming": [
-                "824"
-            ],
-            "outgoing": [
-                "825"
-            ]
-        },
-        "843": {
-            "id": "843",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. Hettner",
-            "begin": 2701,
-            "end": 2712,
-            "incoming": [
-                "823"
-            ],
-            "outgoing": []
-        },
-        "882": {
-            "id": "882",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Bibliothek",
-            "begin": 3514,
-            "end": 3524,
-            "incoming": [
-                "848"
-            ],
-            "outgoing": []
-        },
-        "842": {
-            "id": "842",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "gesammelt",
-            "begin": 2680,
-            "end": 2689,
-            "incoming": [],
-            "outgoing": [
-                "820",
-                "823"
-            ]
-        },
-        "880": {
-            "id": "880",
-            "type": "E7 Activity",
-            "virtual": false,
-            "text": "benützt",
-            "begin": 3469,
-            "end": 3476,
-            "incoming": [],
-            "outgoing": [
-                "770",
-                "776",
-                "847"
-            ]
-        },
-        "840": {
-            "id": "840",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Peru",
-            "begin": 2661,
-            "end": 2665,
-            "incoming": [
-                "821"
-            ],
-            "outgoing": []
-        },
-        "841": {
-            "id": "841",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Bolivien",
-            "begin": 2670,
-            "end": 2678,
-            "incoming": [
-                "822"
-            ],
-            "outgoing": []
-        },
-        "839": {
-            "id": "839",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "paläozoischen, mesozoischen und quartären Petrefacten",
-            "begin": 2602,
-            "end": 2656,
-            "incoming": [
-                "820"
-            ],
-            "outgoing": [
-                "821",
-                "822"
-            ]
-        },
-        "837": {
-            "id": "837",
-            "type": "E96 Purchase",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "818"
-            ]
-        },
-        "838": {
-            "id": "838",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Stramberg",
-            "begin": 2572,
-            "end": 2581,
-            "incoming": [
-                "819"
-            ],
-            "outgoing": []
-        },
-        "836": {
-            "id": "836",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Crinoiden aus dem Neocom",
-            "begin": 2542,
-            "end": 2566,
-            "incoming": [
-                "818"
-            ],
-            "outgoing": [
-                "819"
-            ]
-        },
-        "834": {
-            "id": "834",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "761",
-                "768",
-                "769"
-            ],
-            "outgoing": []
-        },
-        "835": {
-            "id": "835",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "St. Gérand le Puy (Dept. Allier)",
-            "begin": 2507,
-            "end": 2540,
-            "incoming": [
-                "817"
-            ],
-            "outgoing": []
-        },
-        "878": {
-            "id": "878",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Studenten",
-            "begin": 3411,
-            "end": 3420,
-            "incoming": [
-                "776"
-            ],
-            "outgoing": [
-                "846"
-            ]
-        },
-        "832": {
-            "id": "832",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "fossil",
-            "begin": 2479,
-            "end": 2485,
-            "incoming": [
-                "815"
-            ],
-            "outgoing": [
-                "816",
-                "817"
-            ]
-        },
-        "851": {
-            "id": "851",
-            "type": "E7 Activity",
-            "virtual": false,
-            "text": "Vergleich",
-            "begin": 2896,
-            "end": 2905,
-            "incoming": [],
-            "outgoing": [
-                "763",
-                "832",
-                "833"
-            ]
-        },
-        "833": {
-            "id": "833",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Säugethier",
-            "begin": 2487,
-            "end": 2497,
-            "incoming": [
-                "816"
-            ],
-            "outgoing": [
-                "761"
-            ]
-        },
-        "850": {
-            "id": "850",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Extern Usage",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "762",
-                "763",
-                "764",
-                "765",
-                "770"
-            ],
-            "outgoing": []
-        },
-        "831": {
-            "id": "831",
-            "type": "E96 Purchase",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "815"
-            ]
-        },
-        "829": {
-            "id": "829",
-            "type": "E96 Purchase",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "begin": null,
-            "end": null,
-            "incoming": [],
-            "outgoing": [
-                "813",
-                "814"
-            ]
-        },
-        "877": {
-            "id": "877",
+        "792": {
+            "id": "792",
             "type": "E54 Dimension",
             "virtual": false,
-            "text": "12",
-            "begin": 3408,
-            "end": 3410,
+            "text": "einzelne",
+            "begin": 974,
+            "end": 982,
+            "page": 121,
+            "line": 19,
             "incoming": [
-                "846"
+                "786"
             ],
             "outgoing": []
         },
-        "828": {
-            "id": "828",
+        "793": {
+            "id": "793",
             "type": "E19 Physical Object",
             "virtual": false,
-            "text": "Silur",
-            "begin": 2443,
-            "end": 2448,
+            "text": "Platte",
+            "begin": 991,
+            "end": 997,
+            "page": 121,
+            "line": 20,
             "incoming": [
-                "813"
+                "787"
             ],
             "outgoing": [
-                "812"
+                "786",
+                "788"
             ]
         },
-        "862": {
-            "id": "862",
-            "type": "E21 Person",
+        "794": {
+            "id": "794",
+            "type": "E20 Biological Object",
             "virtual": false,
-            "text": "Dr. Denckmann",
-            "begin": 3099,
-            "end": 3113,
+            "text": "tertiären Palme",
+            "begin": 1003,
+            "end": 1018,
+            "page": 121,
+            "line": 20,
             "incoming": [
-                "837"
-            ],
-            "outgoing": [
-                "838"
-            ]
-        },
-        "827": {
-            "id": "827",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "baltisch",
-            "begin": 2432,
-            "end": 2440,
-            "incoming": [
-                "812"
+                "788"
             ],
             "outgoing": []
         },
-        "826": {
-            "id": "826",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Custos Dr. W. Dames",
-            "begin": 2399,
-            "end": 2418,
-            "incoming": [
-                "811"
-            ],
-            "outgoing": []
-        },
-        "825": {
-            "id": "825",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Dalarnes",
-            "begin": 2334,
-            "end": 2342,
-            "incoming": [
-                "810"
-            ],
-            "outgoing": []
-        },
-        "824": {
-            "id": "824",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Gotland",
-            "begin": 2322,
-            "end": 2329,
-            "incoming": [
-                "809"
-            ],
-            "outgoing": []
-        },
-        "823": {
-            "id": "823",
+        "795": {
+            "id": "795",
             "type": "E19 Physical Object",
             "virtual": false,
-            "text": "Silurabla­gerungen",
-            "begin": 2293,
-            "end": 2311,
+            "text": "Postamenten",
+            "begin": 1032,
+            "end": 1043,
+            "page": 121,
+            "line": 20,
             "incoming": [
-                "808"
+                "789"
             ],
             "outgoing": [
-                "809",
-                "810"
+                "790"
             ]
         },
-        "822": {
-            "id": "822",
-            "type": "E96 Purchase",
+        "796": {
+            "id": "796",
+            "type": "E20 Biological Object",
             "virtual": false,
-            "text": "Erwerbungen",
-            "begin": 2232,
-            "end": 2243,
-            "incoming": [],
-            "outgoing": [
-                "808",
-                "811"
-            ]
-        },
-        "820": {
-            "id": "820",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Ordnung beendigt",
-            "begin": 1878,
-            "end": 1894,
-            "incoming": [],
-            "outgoing": [
-                "807"
-            ]
-        },
-        "821": {
-            "id": "821",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "jurassischen Gastropoden",
-            "begin": 1912,
-            "end": 1936,
+            "text": "verkieselte Hölzer verschiedener Formationen",
+            "begin": 1072,
+            "end": 1117,
+            "page": 121,
+            "line": 21,
             "incoming": [
-                "775"
+                "790"
             ],
             "outgoing": []
         },
-        "871": {
-            "id": "871",
+        "797": {
+            "id": "797",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Rahmen",
+            "begin": 1140,
+            "end": 1146,
+            "page": 121,
+            "line": 22,
+            "incoming": [
+                "791"
+            ],
+            "outgoing": [
+                "792",
+                "793"
+            ]
+        },
+        "798": {
+            "id": "798",
+            "type": "E57 Material",
+            "virtual": false,
+            "text": "Holzdünnschliffen",
+            "begin": 1151,
+            "end": 1169,
+            "page": 121,
+            "line": 22,
+            "incoming": [
+                "792"
+            ],
+            "outgoing": []
+        },
+        "799": {
+            "id": "799",
+            "type": "E57 Material",
+            "virtual": false,
+            "text": "Bernsteininclusen",
+            "begin": 1174,
+            "end": 1191,
+            "page": 121,
+            "line": 23,
+            "incoming": [
+                "793"
+            ],
+            "outgoing": [
+                "794"
+            ]
+        },
+        "800": {
+            "id": "800",
+            "type": "E57 Material",
+            "virtual": false,
+            "text": "Canadabalsam",
+            "begin": 1195,
+            "end": 1207,
+            "page": 121,
+            "line": 23,
+            "incoming": [
+                "794"
+            ],
+            "outgoing": []
+        },
+        "801": {
+            "id": "801",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "März 1891",
+            "begin": 1293,
+            "end": 1302,
+            "page": 121,
+            "line": 25,
+            "incoming": [
+                "773",
+                "795",
+                "796"
+            ],
+            "outgoing": []
+        },
+        "802": {
+            "id": "802",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Assistent",
+            "begin": 1471,
+            "end": 1481,
+            "page": 121,
+            "line": 27,
+            "incoming": [
+                "797"
+            ],
+            "outgoing": [
+                "757"
+            ]
+        },
+        "804": {
+            "id": "804",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. E. Koken",
+            "begin": 1491,
+            "end": 1503,
+            "page": 121,
+            "line": 28,
+            "incoming": [
+                "798",
+                "814"
+            ],
+            "outgoing": [
+                "797"
+            ]
+        },
+        "803": {
+            "id": "803",
             "type": "E55 Type",
             "virtual": true,
-            "text": "Publication",
+            "text": "Profession",
             "begin": null,
             "end": null,
+            "page": -1,
+            "line": -1,
             "incoming": [
-                "767"
+                "757",
+                "758",
+                "759",
+                "760",
+                "772"
             ],
             "outgoing": []
         },
-        "819": {
-            "id": "819",
-            "type": "E78 Curated Holding",
+        "805": {
+            "id": "805",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Spongien",
-            "begin": 1861,
-            "end": 1869,
+            "text": "Königsberg i/Pr.",
+            "begin": 1552,
+            "end": 1568,
+            "page": 121,
+            "line": 29,
             "incoming": [
-                "774",
-                "807"
+                "799"
+            ],
+            "outgoing": []
+        },
+        "806": {
+            "id": "806",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Königsberg i/Pr.",
+            "begin": 1552,
+            "end": 1568,
+            "page": 121,
+            "line": 29,
+            "incoming": [
+                "800"
+            ],
+            "outgoing": [
+                "799"
+            ]
+        },
+        "807": {
+            "id": "807",
+            "type": "E86 Leaving",
+            "virtual": false,
+            "text": "berufen",
+            "begin": 1569,
+            "end": 1576,
+            "page": 121,
+            "line": 29,
+            "incoming": [],
+            "outgoing": [
+                "758",
+                "795",
+                "798",
+                "800"
+            ]
+        },
+        "809": {
+            "id": "809",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "tritt",
+            "begin": 1608,
+            "end": 1613,
+            "page": 121,
+            "line": 30,
+            "incoming": [],
+            "outgoing": [
+                "759",
+                "796",
+                "801",
+                "804"
+            ]
+        },
+        "811": {
+            "id": "811",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Futterer",
+            "begin": 1614,
+            "end": 1626,
+            "page": 121,
+            "line": 30,
+            "incoming": [
+                "801"
+            ],
+            "outgoing": [
+                "803"
+            ]
+        },
+        "812": {
+            "id": "812",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "bisher",
+            "begin": 1628,
+            "end": 1634,
+            "page": 121,
+            "line": 30,
+            "incoming": [
+                "802"
+            ],
+            "outgoing": []
+        },
+        "813": {
+            "id": "813",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Assistent",
+            "begin": 1635,
+            "end": 1644,
+            "page": 121,
+            "line": 30,
+            "incoming": [
+                "803"
+            ],
+            "outgoing": [
+                "760",
+                "802"
+            ]
+        },
+        "815": {
+            "id": "815",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "geologischen Institut der Universität Freiburg i/Br",
+            "begin": 1648,
+            "end": 1700,
+            "page": 121,
+            "line": 30,
+            "incoming": [
+                "804"
+            ],
+            "outgoing": [
+                "805"
+            ]
+        },
+        "816": {
+            "id": "816",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Freiburg i/Br",
+            "begin": 1687,
+            "end": 1700,
+            "page": 121,
+            "line": 31,
+            "incoming": [
+                "805"
             ],
             "outgoing": []
         },
@@ -520,6 +356,8 @@
             "text": "Hauptsammlung",
             "begin": 1706,
             "end": 1719,
+            "page": 121,
+            "line": 32,
             "incoming": [],
             "outgoing": [
                 "774",
@@ -537,62 +375,493 @@
             "text": "tertiären Mollusken",
             "begin": 1836,
             "end": 1855,
+            "page": 121,
+            "line": 34,
             "incoming": [
                 "806"
             ],
             "outgoing": []
         },
-        "816": {
-            "id": "816",
-            "type": "E53 Place",
+        "819": {
+            "id": "819",
+            "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Freiburg i/Br",
-            "begin": 1687,
-            "end": 1700,
+            "text": "Spongien",
+            "begin": 1861,
+            "end": 1869,
+            "page": 121,
+            "line": 34,
             "incoming": [
-                "805"
+                "774",
+                "807"
             ],
             "outgoing": []
         },
-        "815": {
-            "id": "815",
-            "type": "E74 Group",
+        "820": {
+            "id": "820",
+            "type": "E87 Curation Activity",
             "virtual": false,
-            "text": "geologischen Institut der Universität Freiburg i/Br",
-            "begin": 1648,
-            "end": 1700,
-            "incoming": [
-                "804"
-            ],
+            "text": "Ordnung beendigt",
+            "begin": 1878,
+            "end": 1894,
+            "page": 121,
+            "line": 35,
+            "incoming": [],
             "outgoing": [
-                "805"
+                "807"
             ]
         },
-        "812": {
-            "id": "812",
-            "type": "E52 Time-Span",
+        "821": {
+            "id": "821",
+            "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "bisher",
-            "begin": 1628,
-            "end": 1634,
+            "text": "jurassischen Gastropoden",
+            "begin": 1912,
+            "end": 1936,
+            "page": 121,
+            "line": 35,
             "incoming": [
-                "802"
+                "775"
             ],
             "outgoing": []
         },
-        "870": {
-            "id": "870",
-            "type": "E31 Document",
+        "822": {
+            "id": "822",
+            "type": "E96 Purchase",
             "virtual": false,
-            "text": "Inauguraldissertation",
-            "begin": 3308,
-            "end": 3329,
+            "text": "Erwerbungen",
+            "begin": 2232,
+            "end": 2243,
+            "page": 121,
+            "line": 40,
+            "incoming": [],
+            "outgoing": [
+                "808",
+                "811"
+            ]
+        },
+        "823": {
+            "id": "823",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Silurablagerungen",
+            "begin": 2293,
+            "end": 2311,
+            "page": 121,
+            "line": 41,
             "incoming": [
-                "842"
+                "808"
             ],
             "outgoing": [
-                "767",
-                "843"
+                "809",
+                "810"
+            ]
+        },
+        "824": {
+            "id": "824",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Gotland",
+            "begin": 2322,
+            "end": 2329,
+            "page": 121,
+            "line": 42,
+            "incoming": [
+                "809"
+            ],
+            "outgoing": []
+        },
+        "825": {
+            "id": "825",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Dalarnes",
+            "begin": 2334,
+            "end": 2342,
+            "page": 121,
+            "line": 42,
+            "incoming": [
+                "810"
+            ],
+            "outgoing": []
+        },
+        "826": {
+            "id": "826",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Custos Dr. W. Dames",
+            "begin": 2399,
+            "end": 2418,
+            "page": 122,
+            "line": 47,
+            "incoming": [
+                "811"
+            ],
+            "outgoing": []
+        },
+        "827": {
+            "id": "827",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "baltisch",
+            "begin": 2432,
+            "end": 2440,
+            "page": 122,
+            "line": 47,
+            "incoming": [
+                "812"
+            ],
+            "outgoing": []
+        },
+        "828": {
+            "id": "828",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Silur",
+            "begin": 2443,
+            "end": 2448,
+            "page": 122,
+            "line": 47,
+            "incoming": [
+                "813"
+            ],
+            "outgoing": [
+                "812"
+            ]
+        },
+        "829": {
+            "id": "829",
+            "type": "E96 Purchase",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "begin": null,
+            "end": null,
+            "page": 122,
+            "line": 48,
+            "incoming": [],
+            "outgoing": [
+                "813",
+                "814"
+            ]
+        },
+        "831": {
+            "id": "831",
+            "type": "E96 Purchase",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "begin": null,
+            "end": null,
+            "page": 122,
+            "line": 48,
+            "incoming": [],
+            "outgoing": [
+                "815"
+            ]
+        },
+        "832": {
+            "id": "832",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "fossil",
+            "begin": 2479,
+            "end": 2485,
+            "page": 122,
+            "line": 48,
+            "incoming": [
+                "815"
+            ],
+            "outgoing": [
+                "816",
+                "817"
+            ]
+        },
+        "833": {
+            "id": "833",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Säugethier",
+            "begin": 2487,
+            "end": 2497,
+            "page": 122,
+            "line": 48,
+            "incoming": [
+                "816"
+            ],
+            "outgoing": [
+                "761"
+            ]
+        },
+        "835": {
+            "id": "835",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "St. Gérand le Puy (Dept. Allier)",
+            "begin": 2507,
+            "end": 2540,
+            "page": 122,
+            "line": 48,
+            "incoming": [
+                "817"
+            ],
+            "outgoing": []
+        },
+        "834": {
+            "id": "834",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Taxon",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "incoming": [
+                "761",
+                "768",
+                "769"
+            ],
+            "outgoing": []
+        },
+        "836": {
+            "id": "836",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Crinoiden aus dem Neocom",
+            "begin": 2542,
+            "end": 2566,
+            "page": 122,
+            "line": 49,
+            "incoming": [
+                "818"
+            ],
+            "outgoing": [
+                "819"
+            ]
+        },
+        "837": {
+            "id": "837",
+            "type": "E96 Purchase",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "begin": null,
+            "end": null,
+            "page": 122,
+            "line": 49,
+            "incoming": [],
+            "outgoing": [
+                "818"
+            ]
+        },
+        "838": {
+            "id": "838",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Stramberg",
+            "begin": 2572,
+            "end": 2581,
+            "page": 122,
+            "line": 50,
+            "incoming": [
+                "819"
+            ],
+            "outgoing": []
+        },
+        "839": {
+            "id": "839",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "paläozoischen, mesozoischen und quartären Petrefacten",
+            "begin": 2602,
+            "end": 2656,
+            "page": 122,
+            "line": 50,
+            "incoming": [
+                "820"
+            ],
+            "outgoing": [
+                "821",
+                "822"
+            ]
+        },
+        "840": {
+            "id": "840",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Peru",
+            "begin": 2661,
+            "end": 2665,
+            "page": 122,
+            "line": 51,
+            "incoming": [
+                "821"
+            ],
+            "outgoing": []
+        },
+        "841": {
+            "id": "841",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Bolivien",
+            "begin": 2670,
+            "end": 2678,
+            "page": 122,
+            "line": 51,
+            "incoming": [
+                "822"
+            ],
+            "outgoing": []
+        },
+        "842": {
+            "id": "842",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "gesammelt",
+            "begin": 2680,
+            "end": 2689,
+            "page": 122,
+            "line": 51,
+            "incoming": [],
+            "outgoing": [
+                "820",
+                "823"
+            ]
+        },
+        "843": {
+            "id": "843",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Hettner",
+            "begin": 2701,
+            "end": 2712,
+            "page": 122,
+            "line": 52,
+            "incoming": [
+                "823"
+            ],
+            "outgoing": []
+        },
+        "844": {
+            "id": "844",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Petrefacten der Kreideformation",
+            "begin": 2718,
+            "end": 2749,
+            "page": 122,
+            "line": 52,
+            "incoming": [
+                "824"
+            ],
+            "outgoing": [
+                "825"
+            ]
+        },
+        "845": {
+            "id": "845",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Umtamfuma in Natal",
+            "begin": 2755,
+            "end": 2773,
+            "page": 122,
+            "line": 53,
+            "incoming": [
+                "825"
+            ],
+            "outgoing": []
+        },
+        "846": {
+            "id": "846",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "gesammelt",
+            "begin": 2775,
+            "end": 2784,
+            "page": 122,
+            "line": 53,
+            "incoming": [],
+            "outgoing": [
+                "824",
+                "826"
+            ]
+        },
+        "847": {
+            "id": "847",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Conrad Beyrich",
+            "begin": 2795,
+            "end": 2809,
+            "page": 122,
+            "line": 53,
+            "incoming": [
+                "826"
+            ],
+            "outgoing": []
+        },
+        "849": {
+            "id": "849",
+            "type": "E7 Activity",
+            "virtual": false,
+            "text": "Studium",
+            "begin": 2880,
+            "end": 2887,
+            "page": 122,
+            "line": 55,
+            "incoming": [],
+            "outgoing": [
+                "762",
+                "828",
+                "829"
+            ]
+        },
+        "851": {
+            "id": "851",
+            "type": "E7 Activity",
+            "virtual": false,
+            "text": "Vergleich",
+            "begin": 2896,
+            "end": 2905,
+            "page": 122,
+            "line": 55,
+            "incoming": [],
+            "outgoing": [
+                "763",
+                "832",
+                "833"
+            ]
+        },
+        "850": {
+            "id": "850",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Extern Usage",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "incoming": [
+                "762",
+                "763",
+                "764",
+                "765",
+                "770"
+            ],
+            "outgoing": []
+        },
+        "853": {
+            "id": "853",
+            "type": "E7 Activity",
+            "virtual": false,
+            "text": "zugänglich",
+            "begin": 2929,
+            "end": 2939,
+            "page": 122,
+            "line": 56,
+            "incoming": [],
+            "outgoing": [
+                "764",
+                "836",
+                "837"
             ]
         },
         "855": {
@@ -602,514 +871,133 @@
             "text": "tertiäre Gastropoden",
             "begin": 2952,
             "end": 2972,
+            "page": 122,
+            "line": 56,
             "incoming": [
                 "827",
                 "828"
             ],
             "outgoing": []
         },
-        "813": {
-            "id": "813",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Assistent",
-            "begin": 1635,
-            "end": 1644,
-            "incoming": [
-                "803"
-            ],
-            "outgoing": [
-                "760",
-                "802"
-            ]
-        },
-        "811": {
-            "id": "811",
+        "856": {
+            "id": "856",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Dr. Futterer",
-            "begin": 1614,
-            "end": 1626,
+            "text": "Professor von Könen",
+            "begin": 2979,
+            "end": 2999,
+            "page": 122,
+            "line": 56,
             "incoming": [
-                "801"
+                "829"
             ],
             "outgoing": [
-                "803"
+                "830"
             ]
         },
-        "809": {
-            "id": "809",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "tritt",
-            "begin": 1608,
-            "end": 1613,
-            "incoming": [],
-            "outgoing": [
-                "759",
-                "796",
-                "801",
-                "804"
-            ]
-        },
-        "807": {
-            "id": "807",
-            "type": "E86 Leaving",
-            "virtual": false,
-            "text": "berufen",
-            "begin": 1569,
-            "end": 1576,
-            "incoming": [],
-            "outgoing": [
-                "758",
-                "795",
-                "798",
-                "800"
-            ]
-        },
-        "883": {
-            "id": "883",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "vollständig geordnet",
-            "begin": 3525,
-            "end": 3545,
-            "incoming": [],
-            "outgoing": [
-                "848"
-            ]
-        },
-        "805": {
-            "id": "805",
+        "857": {
+            "id": "857",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Königsberg i/Pr.",
-            "begin": 1552,
-            "end": 1568,
+            "text": "Göttingen",
+            "begin": 3003,
+            "end": 3012,
+            "page": 122,
+            "line": 57,
             "incoming": [
-                "799"
+                "830"
             ],
             "outgoing": []
         },
-        "806": {
-            "id": "806",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Königsberg i/Pr.",
-            "begin": 1552,
-            "end": 1568,
-            "incoming": [
-                "800"
-            ],
-            "outgoing": [
-                "799"
-            ]
-        },
-        "884": {
-            "id": "884",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Professor Dr. Beyrich",
-            "begin": 3684,
-            "end": 3705,
-            "incoming": [],
-            "outgoing": [
-                "771",
-                "849"
-            ]
-        },
-        "885": {
-            "id": "885",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Reporter",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "771"
-            ],
-            "outgoing": []
-        },
-        "886": {
-            "id": "886",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Direktor",
-            "begin": 3708,
-            "end": 3716,
-            "incoming": [
-                "849"
-            ],
-            "outgoing": [
-                "772"
-            ]
-        },
-        "803": {
-            "id": "803",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Profession",
-            "begin": null,
-            "end": null,
-            "incoming": [
-                "757",
-                "758",
-                "759",
-                "760",
-                "772"
-            ],
-            "outgoing": []
-        },
-        "804": {
-            "id": "804",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. E. Koken",
-            "begin": 1491,
-            "end": 1503,
-            "incoming": [
-                "798",
-                "814"
-            ],
-            "outgoing": [
-                "797"
-            ]
-        },
-        "802": {
-            "id": "802",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Assi­stent",
-            "begin": 1471,
-            "end": 1481,
-            "incoming": [
-                "797"
-            ],
-            "outgoing": [
-                "757"
-            ]
-        },
-        "801": {
-            "id": "801",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "März 1891",
-            "begin": 1293,
-            "end": 1302,
-            "incoming": [
-                "773",
-                "795",
-                "796"
-            ],
-            "outgoing": []
-        },
-        "800": {
-            "id": "800",
-            "type": "E57 Material",
-            "virtual": false,
-            "text": "Canadabalsam",
-            "begin": 1195,
-            "end": 1207,
-            "incoming": [
-                "794"
-            ],
-            "outgoing": []
-        },
-        "799": {
-            "id": "799",
-            "type": "E57 Material",
-            "virtual": false,
-            "text": "Bernsteininclusen",
-            "begin": 1174,
-            "end": 1191,
-            "incoming": [
-                "793"
-            ],
-            "outgoing": [
-                "794"
-            ]
-        },
-        "798": {
-            "id": "798",
-            "type": "E57 Material",
-            "virtual": false,
-            "text": "Holzdünn­schliffen",
-            "begin": 1151,
-            "end": 1169,
-            "incoming": [
-                "792"
-            ],
-            "outgoing": []
-        },
-        "797": {
-            "id": "797",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Rahmen",
-            "begin": 1140,
-            "end": 1146,
-            "incoming": [
-                "791"
-            ],
-            "outgoing": [
-                "792",
-                "793"
-            ]
-        },
-        "796": {
-            "id": "796",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "verkieselte Hölzer verschiedener Formationen",
-            "begin": 1072,
-            "end": 1117,
-            "incoming": [
-                "790"
-            ],
-            "outgoing": []
-        },
-        "795": {
-            "id": "795",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Postamenten",
-            "begin": 1032,
-            "end": 1043,
-            "incoming": [
-                "789"
-            ],
-            "outgoing": [
-                "790"
-            ]
-        },
-        "794": {
-            "id": "794",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "tertiären Palme",
-            "begin": 1003,
-            "end": 1018,
-            "incoming": [
-                "788"
-            ],
-            "outgoing": []
-        },
-        "793": {
-            "id": "793",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Platte",
-            "begin": 991,
-            "end": 997,
-            "incoming": [
-                "787"
-            ],
-            "outgoing": [
-                "786",
-                "788"
-            ]
-        },
-        "792": {
-            "id": "792",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "einzelne",
-            "begin": 974,
-            "end": 982,
-            "incoming": [
-                "786"
-            ],
-            "outgoing": []
-        },
-        "791": {
-            "id": "791",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "geologische Anordnung",
-            "begin": 892,
-            "end": 913,
-            "incoming": [
-                "785"
-            ],
-            "outgoing": []
-        },
-        "790": {
-            "id": "790",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Hochvitrinen",
-            "begin": 860,
-            "end": 872,
-            "incoming": [
-                "784"
-            ],
-            "outgoing": [
-                "785"
-            ]
-        },
-        "789": {
-            "id": "789",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "botanisch-systematisch",
-            "begin": 827,
-            "end": 849,
-            "incoming": [
-                "783"
-            ],
-            "outgoing": []
-        },
-        "788": {
-            "id": "788",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Flachvitrinen",
-            "begin": 808,
-            "end": 821,
-            "incoming": [
-                "782"
-            ],
-            "outgoing": [
-                "781",
-                "783"
-            ]
-        },
-        "787": {
-            "id": "787",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "4",
-            "begin": 798,
-            "end": 799,
-            "incoming": [
-                "781"
-            ],
-            "outgoing": []
-        },
-        "786": {
-            "id": "786",
-            "type": "E63 Beginning of Existence",
-            "virtual": false,
-            "text": "Eröffnung",
-            "begin": 745,
-            "end": 754,
-            "incoming": [],
-            "outgoing": [
-                "773",
-                "780"
-            ]
-        },
-        "785": {
-            "id": "785",
+        "858": {
+            "id": "858",
             "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Pflanzensaal",
-            "begin": 715,
-            "end": 727,
+            "text": "cretaceische Echiniden",
+            "begin": 3014,
+            "end": 3036,
+            "page": 122,
+            "line": 57,
             "incoming": [
-                "780"
-            ],
-            "outgoing": [
-                "782",
-                "784",
-                "787",
-                "789",
-                "791"
-            ]
-        },
-        "784": {
-            "id": "784",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Austausch schlechter erhaltener Stücke gegen bessere",
-            "begin": 322,
-            "end": 375,
-            "incoming": [],
-            "outgoing": [
-                "779"
-            ]
-        },
-        "781": {
-            "id": "781",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Schausammlung",
-            "begin": 122,
-            "end": 135,
-            "incoming": [
-                "777",
-                "778",
-                "779"
+                "831",
+                "832"
             ],
             "outgoing": []
         },
-        "782": {
-            "id": "782",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Revision der Bestim­mungen und Etiquetten",
-            "begin": 212,
-            "end": 253,
-            "incoming": [],
-            "outgoing": [
-                "777"
-            ]
-        },
-        "783": {
-            "id": "783",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Einfügung einzelner Stücke",
-            "begin": 259,
-            "end": 285,
-            "incoming": [],
-            "outgoing": [
-                "778"
-            ]
-        },
-        "872": {
-            "id": "872",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Crustaceen",
-            "begin": 3339,
-            "end": 3349,
-            "incoming": [
-                "843"
-            ],
-            "outgoing": [
-                "768",
-                "844",
-                "845"
-            ]
-        },
-        "868": {
-            "id": "868",
+        "859": {
+            "id": "859",
             "type": "E21 Person",
             "virtual": false,
-            "text": "einer",
-            "begin": 3282,
-            "end": 3287,
+            "text": "Professor Schlüter",
+            "begin": 3043,
+            "end": 3062,
+            "page": 122,
+            "line": 57,
             "incoming": [
-                "841"
+                "833"
             ],
             "outgoing": [
-                "766",
-                "842"
+                "834"
             ]
         },
-        "866": {
-            "id": "866",
-            "type": "E7 Activity",
+        "860": {
+            "id": "860",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "benutzt",
-            "begin": 3273,
-            "end": 3280,
-            "incoming": [],
+            "text": "Bonn",
+            "begin": 3066,
+            "end": 3070,
+            "page": 122,
+            "line": 58,
+            "incoming": [
+                "834"
+            ],
+            "outgoing": []
+        },
+        "861": {
+            "id": "861",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "liassische Ammoniten",
+            "begin": 3072,
+            "end": 3092,
+            "page": 122,
+            "line": 58,
+            "incoming": [
+                "835",
+                "836"
+            ],
+            "outgoing": []
+        },
+        "862": {
+            "id": "862",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Denckmann",
+            "begin": 3099,
+            "end": 3113,
+            "page": 122,
+            "line": 58,
+            "incoming": [
+                "837"
+            ],
             "outgoing": [
-                "765",
-                "840"
+                "838"
             ]
+        },
+        "863": {
+            "id": "863",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Berlin",
+            "begin": 3117,
+            "end": 3123,
+            "page": 122,
+            "line": 59,
+            "incoming": [
+                "838"
+            ],
+            "outgoing": []
         },
         "864": {
             "id": "864",
@@ -1118,6 +1006,8 @@
             "text": "5",
             "begin": 3200,
             "end": 3201,
+            "page": 122,
+            "line": 61,
             "incoming": [
                 "839"
             ],
@@ -1130,6 +1020,8 @@
             "text": "Praktikanten",
             "begin": 3202,
             "end": 3214,
+            "page": 122,
+            "line": 61,
             "incoming": [
                 "840"
             ],
@@ -1138,43 +1030,53 @@
                 "841"
             ]
         },
-        "863": {
-            "id": "863",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Berlin",
-            "begin": 3117,
-            "end": 3123,
-            "incoming": [
-                "838"
-            ],
-            "outgoing": []
-        },
-        "861": {
-            "id": "861",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "liassische Ammoniten",
-            "begin": 3072,
-            "end": 3092,
-            "incoming": [
-                "835",
-                "836"
-            ],
-            "outgoing": []
-        },
-        "853": {
-            "id": "853",
+        "866": {
+            "id": "866",
             "type": "E7 Activity",
             "virtual": false,
-            "text": "zugänglich",
-            "begin": 2929,
-            "end": 2939,
+            "text": "benutzt",
+            "begin": 3273,
+            "end": 3280,
+            "page": 122,
+            "line": 62,
             "incoming": [],
             "outgoing": [
-                "764",
-                "836",
-                "837"
+                "765",
+                "840"
+            ]
+        },
+        "868": {
+            "id": "868",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "einer",
+            "begin": 3282,
+            "end": 3287,
+            "page": 122,
+            "line": 62,
+            "incoming": [
+                "841"
+            ],
+            "outgoing": [
+                "766",
+                "842"
+            ]
+        },
+        "870": {
+            "id": "870",
+            "type": "E31 Document",
+            "virtual": false,
+            "text": "Inauguraldissertation",
+            "begin": 3308,
+            "end": 3329,
+            "page": 122,
+            "line": 63,
+            "incoming": [
+                "842"
+            ],
+            "outgoing": [
+                "767",
+                "843"
             ]
         },
         "869": {
@@ -1184,48 +1086,103 @@
             "text": "Author",
             "begin": null,
             "end": null,
+            "page": -1,
+            "line": -1,
             "incoming": [
                 "766"
             ],
             "outgoing": []
         },
-        "858": {
-            "id": "858",
-            "type": "E78 Curated Holding",
+        "872": {
+            "id": "872",
+            "type": "E19 Physical Object",
             "virtual": false,
-            "text": "cretaceische Echiniden",
-            "begin": 3014,
-            "end": 3036,
+            "text": "Crustaceen",
+            "begin": 3339,
+            "end": 3349,
+            "page": 122,
+            "line": 63,
             "incoming": [
-                "831",
-                "832"
-            ],
-            "outgoing": []
-        },
-        "857": {
-            "id": "857",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Göttingen",
-            "begin": 3003,
-            "end": 3012,
-            "incoming": [
-                "830"
-            ],
-            "outgoing": []
-        },
-        "859": {
-            "id": "859",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Pro­fessor Schlüter",
-            "begin": 3043,
-            "end": 3062,
-            "incoming": [
-                "833"
+                "843"
             ],
             "outgoing": [
-                "834"
+                "768",
+                "844",
+                "845"
+            ]
+        },
+        "871": {
+            "id": "871",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Publication",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "incoming": [
+                "767"
+            ],
+            "outgoing": []
+        },
+        "874": {
+            "id": "874",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Crustaceen",
+            "begin": 3339,
+            "end": 3349,
+            "page": 122,
+            "line": 63,
+            "incoming": [
+                "844"
+            ],
+            "outgoing": [
+                "769"
+            ]
+        },
+        "876": {
+            "id": "876",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "nordwestdeutsch",
+            "begin": 3354,
+            "end": 3370,
+            "page": 122,
+            "line": 63,
+            "incoming": [
+                "845"
+            ],
+            "outgoing": []
+        },
+        "877": {
+            "id": "877",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "12",
+            "begin": 3408,
+            "end": 3410,
+            "page": 122,
+            "line": 64,
+            "incoming": [
+                "846"
+            ],
+            "outgoing": []
+        },
+        "878": {
+            "id": "878",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Studenten",
+            "begin": 3411,
+            "end": 3420,
+            "page": 122,
+            "line": 64,
+            "incoming": [
+                "776"
+            ],
+            "outgoing": [
+                "846"
             ]
         },
         "879": {
@@ -1235,36 +1192,269 @@
             "text": "Lehrsammlungen",
             "begin": 3432,
             "end": 3446,
+            "page": 122,
+            "line": 65,
             "incoming": [
                 "847"
             ],
             "outgoing": []
         },
-        "860": {
-            "id": "860",
-            "type": "E53 Place",
+        "880": {
+            "id": "880",
+            "type": "E7 Activity",
             "virtual": false,
-            "text": "Bonn",
-            "begin": 3066,
-            "end": 3070,
+            "text": "benützt",
+            "begin": 3469,
+            "end": 3476,
+            "page": 122,
+            "line": 65,
+            "incoming": [],
+            "outgoing": [
+                "770",
+                "776",
+                "847"
+            ]
+        },
+        "882": {
+            "id": "882",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Bibliothek",
+            "begin": 3514,
+            "end": 3524,
+            "page": 122,
+            "line": 66,
             "incoming": [
-                "834"
+                "848"
             ],
             "outgoing": []
         },
-        "856": {
-            "id": "856",
+        "883": {
+            "id": "883",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "vollständig geordnet",
+            "begin": 3525,
+            "end": 3545,
+            "page": 122,
+            "line": 66,
+            "incoming": [],
+            "outgoing": [
+                "848"
+            ]
+        },
+        "884": {
+            "id": "884",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Professor von Könen",
-            "begin": 2979,
-            "end": 2999,
+            "text": "Professor Dr. Beyrich",
+            "begin": 3684,
+            "end": 3705,
+            "page": 122,
+            "line": 70,
+            "incoming": [],
+            "outgoing": [
+                "771",
+                "849"
+            ]
+        },
+        "886": {
+            "id": "886",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Direktor",
+            "begin": 3708,
+            "end": 3716,
+            "page": 122,
+            "line": 71,
             "incoming": [
-                "829"
+                "849"
             ],
             "outgoing": [
-                "830"
+                "772"
             ]
+        },
+        "885": {
+            "id": "885",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Reporter",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "incoming": [
+                "771"
+            ],
+            "outgoing": []
+        },
+        "782": {
+            "id": "782",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Revision der Bestimmungen und Etiquetten",
+            "begin": 212,
+            "end": 253,
+            "page": 121,
+            "line": 7,
+            "incoming": [],
+            "outgoing": [
+                "777"
+            ]
+        },
+        "783": {
+            "id": "783",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Einfügung einzelner Stücke",
+            "begin": 259,
+            "end": 285,
+            "page": 121,
+            "line": 8,
+            "incoming": [],
+            "outgoing": [
+                "778"
+            ]
+        },
+        "781": {
+            "id": "781",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Schausammlung",
+            "begin": 122,
+            "end": 135,
+            "page": 121,
+            "line": 6,
+            "incoming": [
+                "777",
+                "778",
+                "779"
+            ],
+            "outgoing": []
+        },
+        "784": {
+            "id": "784",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Austausch schlechter erhaltener Stücke gegen bessere",
+            "begin": 322,
+            "end": 375,
+            "page": 121,
+            "line": 9,
+            "incoming": [],
+            "outgoing": [
+                "779"
+            ]
+        },
+        "785": {
+            "id": "785",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Pflanzensaal",
+            "begin": 715,
+            "end": 727,
+            "page": 121,
+            "line": 15,
+            "incoming": [
+                "780"
+            ],
+            "outgoing": [
+                "782",
+                "784",
+                "787",
+                "789",
+                "791"
+            ]
+        },
+        "786": {
+            "id": "786",
+            "type": "E63 Beginning of Existence",
+            "virtual": false,
+            "text": "Eröffnung",
+            "begin": 745,
+            "end": 754,
+            "page": 121,
+            "line": 16,
+            "incoming": [],
+            "outgoing": [
+                "773",
+                "780"
+            ]
+        },
+        "787": {
+            "id": "787",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "4",
+            "begin": 798,
+            "end": 799,
+            "page": 121,
+            "line": 17,
+            "incoming": [
+                "781"
+            ],
+            "outgoing": []
+        },
+        "788": {
+            "id": "788",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Flachvitrinen",
+            "begin": 808,
+            "end": 821,
+            "page": 121,
+            "line": 17,
+            "incoming": [
+                "782"
+            ],
+            "outgoing": [
+                "781",
+                "783"
+            ]
+        },
+        "789": {
+            "id": "789",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "botanischsystematisch",
+            "begin": 827,
+            "end": 849,
+            "page": 121,
+            "line": 17,
+            "incoming": [
+                "783"
+            ],
+            "outgoing": []
+        },
+        "790": {
+            "id": "790",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Hochvitrinen",
+            "begin": 860,
+            "end": 872,
+            "page": 121,
+            "line": 18,
+            "incoming": [
+                "784"
+            ],
+            "outgoing": [
+                "785"
+            ]
+        },
+        "791": {
+            "id": "791",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "geologische Anordnung",
+            "begin": 892,
+            "end": 913,
+            "page": 121,
+            "line": 18,
+            "incoming": [
+                "785"
+            ],
+            "outgoing": []
         }
     },
     "Properties": {

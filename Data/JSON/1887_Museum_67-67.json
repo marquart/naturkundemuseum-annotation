@@ -5,77 +5,36 @@
     "Page_End": 67,
     "Text": "====PAGEBEGIN 67====\r\n\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 7. Mai 1887 hat das für die\r\nAufnahme der geologisch-paläontologischen, der mineralogisch­petrographischen und der zoologischen Sammlung der Universität\r\nbestimmte Museum die Bezeichnung „Museum für Natur­kunde“ erhalten.\r\nZu Direktoren der vorgedachten drei Abtheilungen sind die\r\nProfessoren Geheimer Bergrath Dr. Beyrich, Dr. Klein und\r\nDr. Moebius ernannt worden.\r\nDurch Ministerial-Reskript vom 25. Mai 1887 ist die Er­nennung des Geheimen Bergraths Professors Dr. Beyrich zum\r\nVerwaltungsdirektor des Museums erfolgt.\r\nDem ausserordentlichen Professor Dr. von Martens ist der\r\nTitel eines zweiten Direktors der zoologischen Abtheilung bei­gelegt worden.\r\n2. Seminar für Deutsches Recht.\r\nDurch Ministerial-Erlass vom 12. November 1887 ist die\r\nBegründung eines besonderen Seminars für Deutsches Recht an\r\nder Universität genehmigt worden.\r\nZum geschäftsführenden Direktor desselben ist der Geheime\r\nJustizrath Professor Dr. Beseler und zu Mitdirektoren sind die\r\nGeheimen Justizräthe Professoren Dr. Brunner und Dr. Gierke\r\nernannt worden. Mit Wahrnehmung der Funktionen eines Bi­bliothekars und Assistenten ist bis auf Weiteres der Privatdocent\r\nDr. Zeumer beauftragt worden.\r\n3. Geographisches Institut.\r\nDurch Ministerial-Erlass vom 4. April 1887 ist ein geogra­phisches Institut an der Universität begründet worden. Mit der\r\nDirektion desselben ist der Professor Dr. Freiherr von Richt­hofen beauftragt.\r\n4. Anatomisches Theater.\r\nDas anatomische Theater ist aus dem Gebäude der alten\r\nBörse am Lustgarten entfernt und in dem Anatomie-Gebäude,\r\n62\r\n",
     "Entities": {
-        "35": {
-            "id": "35",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "von Martens",
-            "begin": 693,
-            "end": 704,
-            "incoming": [],
-            "outgoing": [
-                "38",
-                "39",
-                "40",
-                "41"
-            ]
-        },
-        "3": {
-            "id": "3",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "mineralogisch­petrographischen",
-            "begin": 207,
-            "end": 237,
-            "incoming": [
-                "17",
-                "18"
-            ],
-            "outgoing": []
-        },
-        "4": {
-            "id": "4",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen",
-            "begin": 246,
-            "end": 258,
-            "incoming": [
-                "19",
-                "20"
-            ],
-            "outgoing": []
-        },
-        "5": {
-            "id": "5",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Museum für Natur­kunde",
-            "begin": 319,
-            "end": 341,
-            "incoming": [
-                "21"
-            ],
-            "outgoing": [
-                "15",
-                "17",
-                "19"
-            ]
-        },
-        "36": {
-            "id": "36",
+        "26": {
+            "id": "26",
             "type": "E41 Appellation",
             "virtual": false,
-            "text": "zweiten Direktor",
-            "begin": 726,
-            "end": 742,
+            "text": "Dr.",
+            "begin": 597,
+            "end": 600,
+            "page": 67,
+            "line": 14,
             "incoming": [
-                "40"
+                "36"
             ],
             "outgoing": [
-                "12",
-                "33"
+                "8"
             ]
+        },
+        "2": {
+            "id": "2",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "geologischpaläontologischen",
+            "begin": 173,
+            "end": 201,
+            "page": 67,
+            "line": 6,
+            "incoming": [
+                "15",
+                "16"
+            ],
+            "outgoing": []
         },
         "6": {
             "id": "6",
@@ -84,6 +43,8 @@
             "text": "Direktor",
             "begin": 357,
             "end": 365,
+            "page": 67,
+            "line": 10,
             "incoming": [
                 "22",
                 "23",
@@ -94,6 +55,167 @@
                 "14"
             ]
         },
+        "29": {
+            "id": "29",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Verwaltungsdirektor",
+            "begin": 614,
+            "end": 633,
+            "page": 67,
+            "line": 15,
+            "incoming": [
+                "37"
+            ],
+            "outgoing": [
+                "9",
+                "32"
+            ]
+        },
+        "3": {
+            "id": "3",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "mineralogischpetrographischen",
+            "begin": 207,
+            "end": 237,
+            "page": 67,
+            "line": 6,
+            "incoming": [
+                "17",
+                "18"
+            ],
+            "outgoing": []
+        },
+        "31": {
+            "id": "31",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "begin": 679,
+            "end": 688,
+            "page": 67,
+            "line": 16,
+            "incoming": [
+                "38"
+            ],
+            "outgoing": [
+                "10"
+            ]
+        },
+        "5": {
+            "id": "5",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Museum für Naturkunde",
+            "begin": 319,
+            "end": 341,
+            "page": 67,
+            "line": 8,
+            "incoming": [
+                "21"
+            ],
+            "outgoing": [
+                "15",
+                "17",
+                "19"
+            ]
+        },
+        "33": {
+            "id": "33",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "begin": 689,
+            "end": 692,
+            "page": 67,
+            "line": 16,
+            "incoming": [
+                "39"
+            ],
+            "outgoing": [
+                "11"
+            ]
+        },
+        "0": {
+            "id": "0",
+            "type": "E63 Beginning of Existence",
+            "virtual": false,
+            "text": "MinisterialErlass",
+            "begin": 108,
+            "end": 126,
+            "page": 67,
+            "line": 5,
+            "incoming": [],
+            "outgoing": [
+                "13",
+                "21"
+            ]
+        },
+        "35": {
+            "id": "35",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "von Martens",
+            "begin": 693,
+            "end": 704,
+            "page": 67,
+            "line": 16,
+            "incoming": [],
+            "outgoing": [
+                "38",
+                "39",
+                "40",
+                "41"
+            ]
+        },
+        "4": {
+            "id": "4",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen",
+            "begin": 246,
+            "end": 258,
+            "page": 67,
+            "line": 7,
+            "incoming": [
+                "19",
+                "20"
+            ],
+            "outgoing": []
+        },
+        "36": {
+            "id": "36",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "zweiten Direktor",
+            "begin": 726,
+            "end": 742,
+            "page": 67,
+            "line": 17,
+            "incoming": [
+                "40"
+            ],
+            "outgoing": [
+                "12",
+                "33"
+            ]
+        },
+        "1": {
+            "id": "1",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "7. Mai 1887",
+            "begin": 131,
+            "end": 142,
+            "page": 67,
+            "line": 5,
+            "incoming": [
+                "13",
+                "14"
+            ],
+            "outgoing": []
+        },
         "38": {
             "id": "38",
             "type": "E74 Group",
@@ -101,6 +223,8 @@
             "text": "zoologischen Abtheilung",
             "begin": 748,
             "end": 771,
+            "page": 67,
+            "line": 17,
             "incoming": [
                 "41"
             ],
@@ -113,6 +237,8 @@
             "text": "Professor",
             "begin": 413,
             "end": 422,
+            "page": 67,
+            "line": 11,
             "incoming": [
                 "25",
                 "26",
@@ -129,6 +255,8 @@
             "text": "Profession",
             "begin": null,
             "end": null,
+            "page": -1,
+            "line": -1,
             "incoming": [
                 "0",
                 "9",
@@ -143,6 +271,8 @@
             "text": "Geheimer Bergrath",
             "begin": 425,
             "end": 442,
+            "page": 67,
+            "line": 11,
             "incoming": [
                 "28"
             ],
@@ -157,6 +287,8 @@
             "text": "Academic Title",
             "begin": null,
             "end": null,
+            "page": -1,
+            "line": -1,
             "incoming": [
                 "1",
                 "2",
@@ -178,6 +310,8 @@
             "text": "Dr.",
             "begin": 443,
             "end": 446,
+            "page": 67,
+            "line": 11,
             "incoming": [
                 "29"
             ],
@@ -192,6 +326,8 @@
             "text": "Beyrich",
             "begin": 447,
             "end": 454,
+            "page": 67,
+            "line": 11,
             "incoming": [],
             "outgoing": [
                 "16",
@@ -212,6 +348,8 @@
             "text": "Dr.",
             "begin": 456,
             "end": 459,
+            "page": 67,
+            "line": 11,
             "incoming": [
                 "30"
             ],
@@ -226,6 +364,8 @@
             "text": "Klein",
             "begin": 460,
             "end": 465,
+            "page": 67,
+            "line": 11,
             "incoming": [],
             "outgoing": [
                 "18",
@@ -241,6 +381,8 @@
             "text": "Dr.",
             "begin": 471,
             "end": 474,
+            "page": 67,
+            "line": 12,
             "incoming": [
                 "31"
             ],
@@ -255,6 +397,8 @@
             "text": "Moebius",
             "begin": 475,
             "end": 482,
+            "page": 67,
+            "line": 12,
             "incoming": [],
             "outgoing": [
                 "20",
@@ -270,6 +414,8 @@
             "text": "25. Mai 1887",
             "begin": 531,
             "end": 543,
+            "page": 67,
+            "line": 13,
             "incoming": [
                 "32",
                 "33"
@@ -283,6 +429,8 @@
             "text": "Geheimen Bergrath",
             "begin": 567,
             "end": 584,
+            "page": 67,
+            "line": 14,
             "incoming": [
                 "34"
             ],
@@ -297,107 +445,13 @@
             "text": "Professor",
             "begin": 586,
             "end": 595,
+            "page": 67,
+            "line": 14,
             "incoming": [
                 "35"
             ],
             "outgoing": [
                 "7"
-            ]
-        },
-        "26": {
-            "id": "26",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "begin": 597,
-            "end": 600,
-            "incoming": [
-                "36"
-            ],
-            "outgoing": [
-                "8"
-            ]
-        },
-        "2": {
-            "id": "2",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "geologisch-paläontologischen",
-            "begin": 173,
-            "end": 201,
-            "incoming": [
-                "15",
-                "16"
-            ],
-            "outgoing": []
-        },
-        "29": {
-            "id": "29",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Verwaltungsdirektor",
-            "begin": 614,
-            "end": 633,
-            "incoming": [
-                "37"
-            ],
-            "outgoing": [
-                "9",
-                "32"
-            ]
-        },
-        "31": {
-            "id": "31",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Professor",
-            "begin": 679,
-            "end": 688,
-            "incoming": [
-                "38"
-            ],
-            "outgoing": [
-                "10"
-            ]
-        },
-        "1": {
-            "id": "1",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "7. Mai 1887",
-            "begin": 131,
-            "end": 142,
-            "incoming": [
-                "13",
-                "14"
-            ],
-            "outgoing": []
-        },
-        "0": {
-            "id": "0",
-            "type": "E63 Beginning of Existence",
-            "virtual": false,
-            "text": "Ministerial-Erlass",
-            "begin": 108,
-            "end": 126,
-            "incoming": [],
-            "outgoing": [
-                "13",
-                "21"
-            ]
-        },
-        "33": {
-            "id": "33",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "begin": 689,
-            "end": 692,
-            "incoming": [
-                "39"
-            ],
-            "outgoing": [
-                "11"
             ]
         }
     },
