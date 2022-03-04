@@ -1,36 +1,34 @@
 <template>
     <div id="mask">
-        <EntitySearcher class="gridItem" ref="source" @query="query"/>
-        <PropertySearcher class="gridItem" ref="prop" @query="query"/>
-        <EntitySearcher class="gridItem" ref="target" @query="query"/>
+        <EntitySearcher class="gridItem" ref="source" :classes="entityClasses" @query="query"/>
+        <PropertySearcher class="gridItem" ref="prop" :classes="propertyClasses" @query="query"/>
+        <EntitySearcher class="gridItem" ref="target" :classes="entityClasses" @query="query"/>
     </div>
     <input type="submit" value="Search" id="button" @click="query"
     />
-    <SearchResults v-show="showResults" :results="searchResults"/>
+    
 </template>
 
 <script>
 import EntitySearcher from './EntitySearcher.vue'
 import PropertySearcher from './PropertySearcher.vue'
-import SearchResults from './SearchResults.vue'
-import SemanticData from '../data/1906_Zoologische_172-215.json'
+import SemanticClassStats from '../data/class_stats.json'
 
 export default {
     name: 'QueryConstructor',
     components: {
         EntitySearcher,
-        PropertySearcher,
-        SearchResults
+        PropertySearcher
+    },
+
+    props: {
+        entities: Array
     },
 
     data() {
         return {
-            showResults: false,
-            entitiesMap: null,
-            properties: [],
-            entities: [],
-            entitiesLength: 0,
-
+            entityClasses: SemanticClassStats.Entities,
+            propertyClasses: SemanticClassStats.Properties,
             searchResults: [],
 
             sourceSearchString: '',
@@ -38,8 +36,11 @@ export default {
             propSearchClass: '',
             targetSearchString: '',
             targetSearchClass: '',
+
         }
     },
+
+    emits: ['queryResults'],
 
     methods: {
         getDataFromComponents() {
@@ -55,60 +56,44 @@ export default {
             this.getDataFromComponents();
             console.log(this.sourceSearchString);
             console.log(this.sourceSearchClass);
-            this.showResults = true;
             this.searchResults = Array.from(this.filterEntities());
             console.log(this.searchResults);
+            this.$emit('queryResults', this.searchResults);
         },
 
-        loadData() {
-            this.entitiesMap = SemanticData.Entities;
-            this.properties = Object.values(SemanticData.Properties);
-            this.properties.forEach(this.populateProperty);
 
-            this.entities = Object.values(this.entitiesMap)
-            this.entitiesLength = this.entities.length;
-            console.log(this.entitiesLength);
-        },
-
-        populateProperty(element) {
-            element.source = this.entitiesMap[element.source];
-            element.target = this.entitiesMap[element.target];
-
-            if (Object.prototype.hasOwnProperty.call(element.source, "outgoingProps")) {
-                element.source.outgoingProps.push(element);
-            } else {
-                element.source.outgoingProps = [element];
-            }
-
-            if (Object.prototype.hasOwnProperty.call(element.target, "incomingProps")) {
-                element.target.incomingProps.push(element);
-            } else {
-                element.target.incomingProps = [element];
-            }
-
-        },
 
         * filterEntities() {
             let maxSize = 20;
-            if (maxSize > this.entitiesLength) {
-                maxSize = this.entitiesLength;
+            if (maxSize > this.entities.length) {
+                maxSize = this.entities.length;
             }
             let count = 0;
+            /* BACKWARDS SEARCH:*/
+            let i = this.entities.length-1;
+            let string = this.sourceSearchString.toLowerCase();
+            while (count < maxSize && i >= 0) {
+                if (this.entities[i].lowered_text.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1) {
+                    yield this.entities[i];
+                    count++;
+                }
+                i--;
+            }
+
+            /* FOWARD SEARCH:
             let i = 0;
             let string = this.sourceSearchString.toLowerCase();
-            while (count < maxSize && i < this.entitiesLength) {
-                if (this.entities[i].text.toLowerCase().indexOf(string) != -1) {
+            while (count < maxSize && i < this.entities.length) {
+                if (this.entities[i].lowered_text.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1) {
                     yield this.entities[i];
                     count++;
                 }
                 i++;
-            }
-        },
+            }*/
+        }
     },
 
-    mounted() {
-        this.loadData();
-    },
+
 }
 </script>
 

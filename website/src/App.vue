@@ -57,7 +57,8 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
   body {
     /*background: linear-gradient(to bottom, #ffffff,  #f0f0f0);*/
@@ -69,7 +70,7 @@ export default {
   }
 
   #app {
-    font-family: "Open Sans", "Trade Gothic Next LT", Helvetica, Arial, sans-serif;
+    font-family: "Titillium Web", "Open Sans", "Trade Gothic Next LT", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;

@@ -1,7 +1,7 @@
 <template>
     <div class="card">
-        <h4 class="typeHeading">{{entity.text}}</h4>
-        <h5 class="entityText">{{entity.type}}</h5>
+        <h2 class="typeHeading">{{entity.text}}</h2>
+        <h3 class="entityText">{{entity.type}}</h3>
         <div class="numericTable">
             <div class="lcell">ID:</div>
             <div class="rcell">{{entity.id}}</div>
@@ -11,30 +11,36 @@
 
             <div class="lcell">Line:</div>
             <div class="rcell">{{entity.line}}</div>
+
+            <div class="lcell">Year:</div>
+            <div class="rcell">{{entity.year}}</div>
+
+            <div class="lcell">Institution:</div>
+            <div class="rcell">{{entity.institution}}</div>
         </div>
 
-        <h5>Incoming Relations</h5>
+        <h4>Predecessors (incoming Relations)</h4>
         <div class="propTable">
             <template
                 v-for="(prop, i) in entity.incomingProps"
                 :key="i">
                 <div class="propItem">{{prop.source.type}}:</div>
-                <div class="propItem">{{prop.source.text}}</div>
-                <div class="propItem">→</div>
+                <div class="propItem itemLink" @click="requestDetails(prop.source)">{{prop.source.text}}</div>
+                <div class="propItem">🡺</div>
                 <div class="propItem">{{prop.type}}</div>
-                <div class="propItem">→</div>
+                <div class="propItem">🡺</div>
             </template>
         </div>
-        <h5>Outgoing Relations</h5>
+        <h4>Successors (outgoing Relations)</h4>
         <div class="propTable">
             <template
                 v-for="(prop, i) in entity.outgoingProps"
                 :key="i">
-                <div class="propItem">→</div>
+                <div class="propItem">🡺</div>
                 <div class="propItem">{{prop.type}}</div>
-                <div class="propItem">→</div>
+                <div class="propItem">🡺</div>
                 <div class="propItem">{{prop.target.type}}:</div>
-                <div class="propItem">{{prop.target.text}}</div>
+                <div class="propItem itemLink" @click="requestDetails(prop.target)">{{prop.target.text}}</div>
             </template>
         </div>
 
@@ -55,7 +61,12 @@ export default {
         }
     },
 
+    emits: ['details'],
+
     methods: {
+        requestDetails(item) {
+            this.$emit('details', item);
+        }
     },
 }
 </script>
@@ -64,26 +75,31 @@ export default {
 <style scoped>
     .numericTable {
         display: grid;
-        grid:
+        /*grid:
             'lcell rcell'
             'lcell rcell'
-            'lcell rcell';
-        width: 10%;
-        margin-left: 46%;
+            'lcell rcell';*/
+        grid-template-columns: 1fr 6fr;
+        width: 60%;
+        margin-left: 20%;
     }
 
     .lcell {
-        grid-area: 'lcell';
+        /*grid-area: 'lcell';*/
         display: block;
         text-align: left;
-        margin: 5px;
+        margin: 3px;
+        border: 1px solid #f0f0f0;
+        padding: 3px;
     }
 
     .rcell {
-        grid-area: 'rcell';
+        /*grid-area: 'rcell';*/
         display: block;
         text-align: left;
-        margin: 5px;
+        margin: 3px;
+        border: 1px solid #f0f0f0;
+        padding: 3px;
     }
 
     .card {
@@ -92,12 +108,14 @@ export default {
         width: 80%;
         margin-left: 10%;
         margin-bottom: 1.5em;
-
+        border: 0.8ex solid #7da30b77;
+        border-radius: 5px;
     }
 
+
     .typeHeading {
-        border-bottom: 1ex solid #f0f0f0;
-        margin-bottom: 1px;
+        /*border-bottom: 0.5ex solid #EBEBEB;*/
+        margin-bottom: 1ex;
     }
 
     .entityText {
@@ -112,6 +130,15 @@ export default {
 
     .propItem {
         border: 1px solid #f0f0f0;
+    }
+
+    .itemLink {
+        text-decoration: underline;
+    }
+
+    .itemLink:hover {
+        cursor: pointer;
+        background: #EBEBEB;
     }
 
 </style>

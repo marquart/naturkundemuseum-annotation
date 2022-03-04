@@ -2,6 +2,7 @@
     <div>
         <p>Found {{results.length}} Entities</p>
         <EntityCard
+            @details="requestDetails"
             v-for="(result, i) in results"
             :key="i"
             :entity="result"
@@ -26,7 +27,12 @@ export default {
         }
     },
 
+    emits: ['details'],
+
     methods: {
+        requestDetails(item) {
+            this.$emit('details', item);
+        }
     },
 }
 </script>

@@ -7,11 +7,11 @@
             v-model="searchClass">
             <option selected value=""></option>
             <option class="selectoption"
-                v-for="(year, i) in ['A1','A2','A3']"
+                v-for="(classString, i) in classes"
                 :key="i"
-                :value="year"
+                :value="classString.slice(0,4)"
             >
-                {{year}}
+                {{classString}}
             </option>
         </select>
     </div>
@@ -25,6 +25,11 @@ export default {
 
     },
     expose: ['getData',],
+
+    props: {
+        classes: Array
+    },
+
     data() {
         return {
             searchClass:  ''
