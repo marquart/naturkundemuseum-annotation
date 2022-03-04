@@ -5,142 +5,35 @@
     "Page_End": 138,
     "Text": "====PAGEBEGIN 137====\r\n\r\n133\r\n0\r\nF. E. Schulze, Ueber Trichoplax adhaerens (Abhandl. d. Akad.\r\nd. Wiss. zu Berlin).\r\n- Freie Nervenenden in der Epidermis der Knochenfische\r\n(Sitzungsber. d. Akad. d. Wiss. zu Berlin).\r\nE. Korschelt und C. Heider, Lehrbuch der vergleichenden\r\n/ Entwicklungsgeschichte der wirbellosen' Thiere. Specieller\r\nTheil, 2. Heft.\r\nE. Korsehelt, Ueber die Entwicklung von Dreissena poly­morpha Pallas (Sitzungsber. d. Gesellsch. naturforsch.\r\nFreunde, Berlin).\r\nA. Brauer, Ueber die Entwicklung von Hydra (Zeitschr. f.\r\nwiss. Zool. 52. Bd.)\r\nUeber die Entstehung der Geschlechtsprodukte und die\r\nEntwicklung von Tubularia mesembryanthemum Allm.\r\n(Zeitschr. f. wiss. Zool. 52. Bd.)\r\nR. Heymons, Die Entwicklung der weiblichen Geschlechts­organe von Phyllodromia (Blatta) germanica L. (Zeitschr.\r\nf. wiss. Zool. 53. Bd.)\r\nO. Maas, Die craspedoten Medusen der Plankton-Expedition.\r\n(Sitzungsber. d. Akad. d. Wiss. zu Berlin).\r\nB. Wandolleck, Zur Embryonalentwicklung des Strongylus\r\nparadoxus (Diss.)\r\nH. Stadelmann, Ueber den anatomischen Bau des Strongylus\r\nconvolutus Ostertag, nebst einigen Bemerkungen zu\r\nseiner Biologie. (Diss.)\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDurch den Staatshaushaltsetat für das Jahr 1. April 1891/92\r\nsind der allgemeinen Verwaltung des Museums für Naturkunde\r\ndie erbetenen Geldmittel zur Annahme eines Kanzlei- und\r\nBureau-Hilfsarbeiters und von Hilfsaufsehern für die Schau­sammlung, deren Remunerationen bisher aus dem sächlichen\r\nAusgabefonds entnommen worden waren, zur Verfügung gestellt;\r\nauch ist der letztere Fonds, welcher sich als unzulänglich er­wiesen hatte, um 10000 M. erhöht worden.\r\n\r\n====PAGEBREAK TO 138====\r\n\r\n ­Die Schausammlungen sind nun, den verfügbaren Geld­mitteln entsprechend, vom 1. April 1891 ab, ausser Montags\r\nund Sonnabends, auch Sonntags für das Publikum geöffnet ge­wesen. Die Zahl der Besucher schwankt zwischen 810 am\r\n6. April 1891 und 26 am 22. August 1891; sie beträgt im\r\nDurchschnitt 225 an 156 Besuchstagen und erreicht für das\r\nEtatsjahr die Höhe von 35 060.\r\nVon den hiesigen Schulen machten in dem verflossenen\r\nJahre 11 Klassen, gegen 18 Klassen im Vorjahre, von der\r\nErlaubniss, die Schausammlungen Mittwochs Nachmittags be­sichtigen zu dürfen, Gebrauch.\r\nIm Berichtsjahre wurde die Neuaufstellung des Gebäude­einrichtungsinventariums beendet und das Museumsgebäude auf\r\nGrund desselben und des Gebäudeinventars von der Bauver­waltung für den Neubau des Museums für Naturkunde am\r\n29. Januar 1892 definitiv übernommen.\r\nDie neu errichtete Bureauhilfsarbeiterstelle wurde dem\r\nMilitäranwärter Roesel übertragen und an Stelle des am 1. Mai\r\nauf seinen Wunseh entlassenen Oberheizers Hartmann, der bis­herige zweite Heizer Weiss und für diesen der Militäran­wärter Cuba als zweiter Heizer angenommen.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n2. Geologisch-palaeontologisches Institut und geologisch-palaeontologische\r\nSammlung.\r\n1. Geologisch-palaeontologisches Institut.\r\nIm geologisch-palaeontologischen Institut haben während\r\ndes verflossenen Etatsjahres etwa 15 Studenten die Lehrsamm­lungen zu Repetitionszwecken benutzt. Einige Vorgeschrittenere,\r\ndarunter auch mehrere Auslünder, übten sich unter Leitung\r\nder Beamten des Instituts in der Bestimmung von Petrefacten\r\nund ihrer Herstellung zu mikroskopischer Untersuchung. Inau­gural-Dissertationen wurden nicht verfasst, wohl aber entstanden\r\neinige umfassendere Abhandlungen aus den Untersuchungen\r\nverschiedener Materialien der Sammlung. Es sind folgende:\r\n1. Koken. Neue Untersuchungen an fossilen Fischotolithen II.\r\n(Zeitschr. d. D. geol. Ges. Bd. 43. 1891. S. 77 ff. t. 1—10).\r\n1 x",
     "Entities": {
-        "2320": {
-            "id": "2320",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "18",
-            "begin": 2197,
-            "end": 2199,
-            "page": 138,
-            "line": 54,
-            "incoming": [
-                "2265"
-            ],
-            "outgoing": []
-        },
-        "2319": {
-            "id": "2319",
+        "2302": {
+            "id": "2302",
             "type": "E74 Group",
             "virtual": false,
-            "text": "Klassen",
-            "begin": 2182,
-            "end": 2189,
+            "text": "Publikum",
+            "lowered_text": "publikum",
+            "begin": 1895,
+            "end": 1903,
             "page": 138,
-            "line": 54,
+            "line": 48,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2264"
-            ],
-            "outgoing": [
-                "2263"
-            ]
-        },
-        "2301": {
-            "id": "2301",
-            "type": "E4 Period",
-            "virtual": false,
-            "text": "Montags und Sonnabends, auch Sonntags",
-            "begin": 1848,
-            "end": 1886,
-            "page": 138,
-            "line": 47,
-            "incoming": [
-                "2253"
+                "2254"
             ],
             "outgoing": []
-        },
-        "2288": {
-            "id": "2288",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Kanzlei und BureauHilfsarbeiter",
-            "begin": 1417,
-            "end": 1451,
-            "page": 137,
-            "line": 36,
-            "incoming": [
-                "2246"
-            ],
-            "outgoing": [
-                "2217",
-                "2218",
-                "2245"
-            ]
-        },
-        "2318": {
-            "id": "2318",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "11",
-            "begin": 2179,
-            "end": 2181,
-            "page": 138,
-            "line": 54,
-            "incoming": [
-                "2263"
-            ],
-            "outgoing": []
-        },
-        "2281": {
-            "id": "2281",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Staatshaushaltsetat",
-            "begin": 1263,
-            "end": 1282,
-            "page": 137,
-            "line": 34,
-            "incoming": [
-                "2243",
-                "2244"
-            ],
-            "outgoing": [
-                "2214",
-                "2251"
-            ]
-        },
-        "2316": {
-            "id": "2316",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "35 060",
-            "begin": 2110,
-            "end": 2116,
-            "page": 138,
-            "line": 52,
-            "incoming": [
-                "2262"
-            ],
-            "outgoing": [
-                "2227"
-            ]
-        },
-        "2314": {
-            "id": "2314",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "225",
-            "begin": 2041,
-            "end": 2044,
-            "page": 138,
-            "line": 51,
-            "incoming": [
-                "2261"
-            ],
-            "outgoing": [
-                "2226",
-                "2260"
-            ]
         },
         "2335": {
             "id": "2335",
             "type": "E85 Joining",
             "virtual": false,
             "text": "übertragen",
+            "lowered_text": "übertragen",
             "begin": 2662,
             "end": 2672,
             "page": 138,
             "line": 63,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [],
             "outgoing": [
                 "2233",
@@ -148,116 +41,98 @@
                 "2271"
             ]
         },
-        "2356": {
-            "id": "2356",
+        "2305": {
+            "id": "2305",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Besucher",
+            "lowered_text": "besucher",
+            "begin": 1936,
+            "end": 1944,
+            "page": 138,
+            "line": 49,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2223",
+                "2256",
+                "2258",
+                "2261",
+                "2262"
+            ]
+        },
+        "2303": {
+            "id": "2303",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "geöffnet",
+            "lowered_text": "geöffnet",
+            "begin": 1904,
+            "end": 1912,
+            "page": 138,
+            "line": 48,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2255"
+            ],
+            "outgoing": [
+                "2222",
+                "2252",
+                "2253",
+                "2254"
+            ]
+        },
+        "2337": {
+            "id": "2337",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Mai",
+            "lowered_text": "1. mai",
+            "begin": 2694,
+            "end": 2700,
+            "page": 138,
+            "line": 64,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2272",
+                "2273",
+                "2274",
+                "2275"
+            ],
+            "outgoing": []
+        },
+        "2304": {
+            "id": "2304",
             "type": "E55 Type",
             "virtual": true,
-            "text": "Reporter",
+            "text": "Opening Times",
+            "lowered_text": "opening times",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2242"
+                "2222"
             ],
             "outgoing": []
-        },
-        "2313": {
-            "id": "2313",
-            "type": "E55 Type",
-            "virtual": false,
-            "text": "Durchschnitt",
-            "begin": 2028,
-            "end": 2040,
-            "page": 138,
-            "line": 51,
-            "incoming": [
-                "2260"
-            ],
-            "outgoing": []
-        },
-        "2300": {
-            "id": "2300",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "1. April 1891",
-            "begin": 1823,
-            "end": 1836,
-            "page": 138,
-            "line": 47,
-            "incoming": [
-                "2252"
-            ],
-            "outgoing": []
-        },
-        "2345": {
-            "id": "2345",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Hartmann",
-            "begin": 2744,
-            "end": 2752,
-            "page": 138,
-            "line": 64,
-            "incoming": [
-                "2278"
-            ],
-            "outgoing": []
-        },
-        "2312": {
-            "id": "2312",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "22. August 1891",
-            "begin": 1995,
-            "end": 2010,
-            "page": 138,
-            "line": 50,
-            "incoming": [
-                "2259"
-            ],
-            "outgoing": []
-        },
-        "2299": {
-            "id": "2299",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Schausammlung",
-            "begin": 1750,
-            "end": 1763,
-            "page": 138,
-            "line": 46,
-            "incoming": [],
-            "outgoing": [
-                "2255"
-            ]
-        },
-        "2310": {
-            "id": "2310",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "26",
-            "begin": 1989,
-            "end": 1991,
-            "page": 138,
-            "line": 50,
-            "incoming": [
-                "2258"
-            ],
-            "outgoing": [
-                "2225",
-                "2259"
-            ]
         },
         "2307": {
             "id": "2307",
             "type": "E54 Dimension",
             "virtual": false,
             "text": "810",
+            "lowered_text": "810",
             "begin": 1963,
             "end": 1966,
             "page": 138,
             "line": 49,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
                 "2256"
             ],
@@ -266,173 +141,136 @@
                 "2257"
             ]
         },
-        "2334": {
-            "id": "2334",
-            "type": "E21 Person",
+        "2338": {
+            "id": "2338",
+            "type": "E86 Leaving",
             "virtual": false,
-            "text": "Militäranwärter Roesel",
-            "begin": 2639,
-            "end": 2661,
+            "text": "entlassen",
+            "lowered_text": "entlassen",
+            "begin": 2720,
+            "end": 2729,
             "page": 138,
-            "line": 63,
-            "incoming": [
-                "2271"
-            ],
-            "outgoing": []
+            "line": 64,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2234",
+                "2272",
+                "2276",
+                "2278"
+            ]
         },
-        "2294": {
-            "id": "2294",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Schausammlung",
-            "begin": 1484,
-            "end": 1498,
-            "page": 137,
-            "line": 37,
-            "incoming": [
-                "2248"
-            ],
-            "outgoing": []
-        },
-        "2287": {
-            "id": "2287",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "eine",
-            "begin": 1411,
-            "end": 1415,
-            "page": 137,
-            "line": 36,
-            "incoming": [
-                "2245"
-            ],
-            "outgoing": []
-        },
-        "2327": {
-            "id": "2327",
+        "2282": {
+            "id": "2282",
             "type": "E55 Type",
             "virtual": true,
-            "text": "Building",
+            "text": "Sponsor",
+            "lowered_text": "sponsor",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": null,
+            "year": 0,
             "incoming": [
-                "2229",
-                "2230"
+                "2214",
+                "2221"
             ],
             "outgoing": []
         },
-        "2353": {
-            "id": "2353",
-            "type": "E85 Joining",
+        "2306": {
+            "id": "2306",
+            "type": "E55 Type",
             "virtual": true,
-            "text": "(implicit) Unknown",
+            "text": "Audience",
+            "lowered_text": "audience",
             "begin": null,
             "end": null,
-            "page": 138,
-            "line": 66,
-            "incoming": [],
-            "outgoing": [
-                "2241",
-                "2275",
-                "2277",
-                "2282"
-            ]
-        },
-        "2298": {
-            "id": "2298",
-            "type": "E11 Modification",
-            "virtual": false,
-            "text": "erhöht",
-            "begin": 1698,
-            "end": 1704,
-            "page": 137,
-            "line": 41,
+            "page": -1,
+            "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2251"
-            ],
-            "outgoing": [
-                "2249",
-                "2250"
-            ]
-        },
-        "2355": {
-            "id": "2355",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Professor Dr. Beyrich",
-            "begin": 2862,
-            "end": 2883,
-            "page": 138,
-            "line": 67,
-            "incoming": [],
-            "outgoing": [
-                "2242"
-            ]
-        },
-        "2349": {
-            "id": "2349",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Weiss",
-            "begin": 2783,
-            "end": 2788,
-            "page": 138,
-            "line": 65,
-            "incoming": [
-                "2281",
-                "2282"
+                "2223"
             ],
             "outgoing": []
         },
-        "2297": {
-            "id": "2297",
+        "2309": {
+            "id": "2309",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "6. April 1891",
+            "lowered_text": "6. april 1891",
+            "begin": 1971,
+            "end": 1984,
+            "page": 138,
+            "line": 50,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2257"
+            ],
+            "outgoing": []
+        },
+        "2340": {
+            "id": "2340",
+            "type": "E86 Leaving",
+            "virtual": false,
+            "text": "entlassen",
+            "lowered_text": "entlassen",
+            "begin": 2720,
+            "end": 2729,
+            "page": 138,
+            "line": 64,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2235",
+                "2273",
+                "2279",
+                "2281"
+            ]
+        },
+        "2308": {
+            "id": "2308",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Besucherzahlen",
+            "lowered_text": "besucherzahlen",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2224",
+                "2225",
+                "2226",
+                "2227"
+            ],
+            "outgoing": []
+        },
+        "2310": {
+            "id": "2310",
             "type": "E54 Dimension",
             "virtual": false,
-            "text": "10000 M.",
-            "begin": 1689,
-            "end": 1697,
-            "page": 137,
-            "line": 41,
-            "incoming": [
-                "2250"
-            ],
-            "outgoing": []
-        },
-        "2346": {
-            "id": "2346",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "zweite Heizer",
-            "begin": 2769,
-            "end": 2782,
+            "text": "26",
+            "lowered_text": "26",
+            "begin": 1989,
+            "end": 1991,
             "page": 138,
-            "line": 65,
+            "line": 50,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2279",
-                "2280"
+                "2258"
             ],
             "outgoing": [
-                "2238",
-                "2239"
-            ]
-        },
-        "2331": {
-            "id": "2331",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Bureauhilfsarbeiterstelle",
-            "begin": 2602,
-            "end": 2627,
-            "page": 138,
-            "line": 62,
-            "incoming": [
-                "2270"
-            ],
-            "outgoing": [
-                "2231",
-                "2232"
+                "2225",
+                "2259"
             ]
         },
         "2342": {
@@ -440,10 +278,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Oberheizer",
+            "lowered_text": "oberheizer",
             "begin": 2732,
             "end": 2742,
             "page": 138,
             "line": 64,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
                 "2276",
                 "2277"
@@ -453,43 +294,189 @@
                 "2237"
             ]
         },
-        "2304": {
-            "id": "2304",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Opening Times",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
+        "2312": {
+            "id": "2312",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "22. August 1891",
+            "lowered_text": "22. august 1891",
+            "begin": 1995,
+            "end": 2010,
+            "page": 138,
+            "line": 50,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2222"
+                "2259"
             ],
             "outgoing": []
         },
-        "2306": {
-            "id": "2306",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Audience",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
+        "2281": {
+            "id": "2281",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Staatshaushaltsetat",
+            "lowered_text": "staatshaushaltsetat",
+            "begin": 1263,
+            "end": 1282,
+            "page": 137,
+            "line": 34,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2223"
+                "2243",
+                "2244"
+            ],
+            "outgoing": [
+                "2214",
+                "2251"
+            ]
+        },
+        "2345": {
+            "id": "2345",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Hartmann",
+            "lowered_text": "hartmann",
+            "begin": 2744,
+            "end": 2752,
+            "page": 138,
+            "line": 64,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2278"
             ],
             "outgoing": []
+        },
+        "2313": {
+            "id": "2313",
+            "type": "E55 Type",
+            "virtual": false,
+            "text": "Durchschnitt",
+            "lowered_text": "durchschnitt",
+            "begin": 2028,
+            "end": 2040,
+            "page": 138,
+            "line": 51,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2260"
+            ],
+            "outgoing": []
+        },
+        "2316": {
+            "id": "2316",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "35 060",
+            "lowered_text": "35 060",
+            "begin": 2110,
+            "end": 2116,
+            "page": 138,
+            "line": 52,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2262"
+            ],
+            "outgoing": [
+                "2227"
+            ]
+        },
+        "2285": {
+            "id": "2285",
+            "type": "E66 Formation",
+            "virtual": false,
+            "text": "Annahme",
+            "lowered_text": "annahme",
+            "begin": 1403,
+            "end": 1410,
+            "page": 137,
+            "line": 36,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2216",
+                "2244",
+                "2247",
+                "2248"
+            ]
+        },
+        "2314": {
+            "id": "2314",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "225",
+            "lowered_text": "225",
+            "begin": 2041,
+            "end": 2044,
+            "page": 138,
+            "line": 51,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2261"
+            ],
+            "outgoing": [
+                "2226",
+                "2260"
+            ]
+        },
+        "2346": {
+            "id": "2346",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "zweite Heizer",
+            "lowered_text": "zweite heizer",
+            "begin": 2769,
+            "end": 2782,
+            "page": 138,
+            "line": 65,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2279",
+                "2280"
+            ],
+            "outgoing": [
+                "2238",
+                "2239"
+            ]
+        },
+        "2283": {
+            "id": "2283",
+            "type": "E66 Formation",
+            "virtual": false,
+            "text": "Annahme",
+            "lowered_text": "annahme",
+            "begin": 1403,
+            "end": 1410,
+            "page": 137,
+            "line": 36,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2215",
+                "2243",
+                "2246"
+            ]
         },
         "2284": {
             "id": "2284",
             "type": "E55 Type",
             "virtual": true,
             "text": "Profession",
+            "lowered_text": "profession",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
                 "2215",
                 "2216",
@@ -506,39 +493,261 @@
             ],
             "outgoing": []
         },
-        "2340": {
-            "id": "2340",
-            "type": "E86 Leaving",
+        "2318": {
+            "id": "2318",
+            "type": "E54 Dimension",
             "virtual": false,
-            "text": "entlassen",
-            "begin": 2720,
-            "end": 2729,
+            "text": "11",
+            "lowered_text": "11",
+            "begin": 2179,
+            "end": 2181,
             "page": 138,
-            "line": 64,
-            "incoming": [],
-            "outgoing": [
-                "2235",
-                "2273",
-                "2279",
-                "2281"
-            ]
+            "line": 54,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2263"
+            ],
+            "outgoing": []
         },
-        "2305": {
-            "id": "2305",
+        "2349": {
+            "id": "2349",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Weiss",
+            "lowered_text": "weiss",
+            "begin": 2783,
+            "end": 2788,
+            "page": 138,
+            "line": 65,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2281",
+                "2282"
+            ],
+            "outgoing": []
+        },
+        "2287": {
+            "id": "2287",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "eine",
+            "lowered_text": "eine",
+            "begin": 1411,
+            "end": 1415,
+            "page": 137,
+            "line": 36,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2245"
+            ],
+            "outgoing": []
+        },
+        "2319": {
+            "id": "2319",
             "type": "E74 Group",
             "virtual": false,
-            "text": "Besucher",
-            "begin": 1936,
-            "end": 1944,
+            "text": "Klassen",
+            "lowered_text": "klassen",
+            "begin": 2182,
+            "end": 2189,
             "page": 138,
-            "line": 49,
+            "line": 54,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2264"
+            ],
+            "outgoing": [
+                "2263"
+            ]
+        },
+        "2288": {
+            "id": "2288",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kanzlei und BureauHilfsarbeiter",
+            "lowered_text": "kanzlei und bureauhilfsarbeiter",
+            "begin": 1417,
+            "end": 1451,
+            "page": 137,
+            "line": 36,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2246"
+            ],
+            "outgoing": [
+                "2217",
+                "2218",
+                "2245"
+            ]
+        },
+        "2350": {
+            "id": "2350",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Militäranwärter Cuba",
+            "lowered_text": "militäranwärter cuba",
+            "begin": 2808,
+            "end": 2829,
+            "page": 138,
+            "line": 65,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2283"
+            ],
+            "outgoing": []
+        },
+        "2320": {
+            "id": "2320",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "18",
+            "lowered_text": "18",
+            "begin": 2197,
+            "end": 2199,
+            "page": 138,
+            "line": 54,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2265"
+            ],
+            "outgoing": []
+        },
+        "2353": {
+            "id": "2353",
+            "type": "E85 Joining",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 138,
+            "line": 66,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [],
             "outgoing": [
-                "2223",
-                "2256",
-                "2258",
-                "2261",
-                "2262"
+                "2241",
+                "2275",
+                "2277",
+                "2282"
+            ]
+        },
+        "2291": {
+            "id": "2291",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Hilfsaufseher",
+            "lowered_text": "hilfsaufseher",
+            "begin": 1461,
+            "end": 1474,
+            "page": 137,
+            "line": 37,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2247"
+            ],
+            "outgoing": [
+                "2219",
+                "2220"
+            ]
+        },
+        "2322": {
+            "id": "2322",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "Vorjahr",
+            "lowered_text": "vorjahr",
+            "begin": 2211,
+            "end": 2218,
+            "page": 138,
+            "line": 54,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2267"
+            ],
+            "outgoing": []
+        },
+        "2351": {
+            "id": "2351",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "angenommen",
+            "lowered_text": "angenommen",
+            "begin": 2849,
+            "end": 2859,
+            "page": 138,
+            "line": 66,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2240",
+                "2274",
+                "2280",
+                "2283"
+            ]
+        },
+        "2321": {
+            "id": "2321",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Klassen",
+            "lowered_text": "klassen",
+            "begin": 2200,
+            "end": 2207,
+            "page": 138,
+            "line": 54,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2266"
+            ],
+            "outgoing": [
+                "2265",
+                "2267"
+            ]
+        },
+        "2323": {
+            "id": "2323",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Schausammlung",
+            "lowered_text": "schausammlung",
+            "begin": 2246,
+            "end": 2259,
+            "page": 138,
+            "line": 55,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2268"
+            ],
+            "outgoing": []
+        },
+        "2355": {
+            "id": "2355",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Professor Dr. Beyrich",
+            "lowered_text": "professor dr. beyrich",
+            "begin": 2862,
+            "end": 2883,
+            "page": 138,
+            "line": 67,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [],
+            "outgoing": [
+                "2242"
             ]
         },
         "2290": {
@@ -546,10 +755,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Intern",
+            "lowered_text": "intern",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
                 "2218",
                 "2220",
@@ -559,205 +771,53 @@
             ],
             "outgoing": []
         },
-        "2309": {
-            "id": "2309",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "6. April 1891",
-            "begin": 1971,
-            "end": 1984,
-            "page": 138,
-            "line": 50,
-            "incoming": [
-                "2257"
-            ],
-            "outgoing": []
-        },
-        "2303": {
-            "id": "2303",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "geöffnet",
-            "begin": 1904,
-            "end": 1912,
-            "page": 138,
-            "line": 48,
-            "incoming": [
-                "2255"
-            ],
-            "outgoing": [
-                "2222",
-                "2252",
-                "2253",
-                "2254"
-            ]
-        },
-        "2285": {
-            "id": "2285",
-            "type": "E66 Formation",
-            "virtual": false,
-            "text": "Annahme",
-            "begin": 1403,
-            "end": 1410,
-            "page": 137,
-            "line": 36,
-            "incoming": [],
-            "outgoing": [
-                "2216",
-                "2244",
-                "2247",
-                "2248"
-            ]
-        },
-        "2338": {
-            "id": "2338",
-            "type": "E86 Leaving",
-            "virtual": false,
-            "text": "entlassen",
-            "begin": 2720,
-            "end": 2729,
-            "page": 138,
-            "line": 64,
-            "incoming": [],
-            "outgoing": [
-                "2234",
-                "2272",
-                "2276",
-                "2278"
-            ]
-        },
-        "2308": {
-            "id": "2308",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Besucherzahlen",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [
-                "2224",
-                "2225",
-                "2226",
-                "2227"
-            ],
-            "outgoing": []
-        },
-        "2283": {
-            "id": "2283",
-            "type": "E66 Formation",
-            "virtual": false,
-            "text": "Annahme",
-            "begin": 1403,
-            "end": 1410,
-            "page": 137,
-            "line": 36,
-            "incoming": [],
-            "outgoing": [
-                "2215",
-                "2243",
-                "2246"
-            ]
-        },
-        "2282": {
-            "id": "2282",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Sponsor",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [
-                "2214",
-                "2221"
-            ],
-            "outgoing": []
-        },
-        "2295": {
-            "id": "2295",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "sächlichen Ausgabefonds",
-            "begin": 1536,
-            "end": 1560,
-            "page": 137,
-            "line": 38,
-            "incoming": [
-                "2249"
-            ],
-            "outgoing": [
-                "2221"
-            ]
-        },
-        "2328": {
-            "id": "2328",
-            "type": "E77 Persistent Item",
-            "virtual": false,
-            "text": "Gebäudeeinrichtungsinventarium",
-            "begin": 2365,
-            "end": 2396,
-            "page": 138,
-            "line": 57,
-            "incoming": [
-                "2269"
-            ],
-            "outgoing": [
-                "2230"
-            ]
-        },
-        "2350": {
-            "id": "2350",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Militäranwärter Cuba",
-            "begin": 2808,
-            "end": 2829,
-            "page": 138,
-            "line": 65,
-            "incoming": [
-                "2283"
-            ],
-            "outgoing": []
-        },
-        "2325": {
-            "id": "2325",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Visiting",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [
-                "2228"
-            ],
-            "outgoing": []
-        },
         "2326": {
             "id": "2326",
             "type": "E11 Modification",
             "virtual": false,
             "text": "Neuaufstellung",
+            "lowered_text": "neuaufstellung",
             "begin": 2346,
             "end": 2360,
             "page": 138,
             "line": 57,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [],
             "outgoing": [
                 "2229",
                 "2269"
             ]
         },
+        "2294": {
+            "id": "2294",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Schausammlung",
+            "lowered_text": "schausammlung",
+            "begin": 1484,
+            "end": 1498,
+            "page": 137,
+            "line": 37,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2248"
+            ],
+            "outgoing": []
+        },
         "2324": {
             "id": "2324",
             "type": "E7 Activity",
             "virtual": false,
             "text": "besichtigen",
+            "lowered_text": "besichtigen",
             "begin": 2284,
             "end": 2296,
             "page": 138,
             "line": 56,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [],
             "outgoing": [
                 "2228",
@@ -766,127 +826,235 @@
                 "2268"
             ]
         },
+        "2325": {
+            "id": "2325",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Visiting",
+            "lowered_text": "visiting",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2228"
+            ],
+            "outgoing": []
+        },
+        "2356": {
+            "id": "2356",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Reporter",
+            "lowered_text": "reporter",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": null,
+            "year": 0,
+            "incoming": [
+                "2242"
+            ],
+            "outgoing": []
+        },
+        "2328": {
+            "id": "2328",
+            "type": "E77 Persistent Item",
+            "virtual": false,
+            "text": "Gebäudeeinrichtungsinventarium",
+            "lowered_text": "gebäudeeinrichtungsinventarium",
+            "begin": 2365,
+            "end": 2396,
+            "page": 138,
+            "line": 57,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2269"
+            ],
+            "outgoing": [
+                "2230"
+            ]
+        },
+        "2327": {
+            "id": "2327",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Building",
+            "lowered_text": "building",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2229",
+                "2230"
+            ],
+            "outgoing": []
+        },
         "2330": {
             "id": "2330",
             "type": "E52 Time-Span",
             "virtual": false,
             "text": "29. Januar 1892",
+            "lowered_text": "29. januar 1892",
             "begin": 2544,
             "end": 2559,
             "page": 138,
             "line": 61,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [],
             "outgoing": []
         },
-        "2302": {
-            "id": "2302",
-            "type": "E74 Group",
+        "2295": {
+            "id": "2295",
+            "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "Publikum",
-            "begin": 1895,
-            "end": 1903,
-            "page": 138,
-            "line": 48,
+            "text": "sächlichen Ausgabefonds",
+            "lowered_text": "sächlichen ausgabefonds",
+            "begin": 1536,
+            "end": 1560,
+            "page": 137,
+            "line": 38,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2254"
+                "2249"
+            ],
+            "outgoing": [
+                "2221"
+            ]
+        },
+        "2331": {
+            "id": "2331",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Bureauhilfsarbeiterstelle",
+            "lowered_text": "bureauhilfsarbeiterstelle",
+            "begin": 2602,
+            "end": 2627,
+            "page": 138,
+            "line": 62,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2270"
+            ],
+            "outgoing": [
+                "2231",
+                "2232"
+            ]
+        },
+        "2298": {
+            "id": "2298",
+            "type": "E11 Modification",
+            "virtual": false,
+            "text": "erhöht",
+            "lowered_text": "erhöht",
+            "begin": 1698,
+            "end": 1704,
+            "page": 137,
+            "line": 41,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2251"
+            ],
+            "outgoing": [
+                "2249",
+                "2250"
+            ]
+        },
+        "2297": {
+            "id": "2297",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "10000 M.",
+            "lowered_text": "10000 m.",
+            "begin": 1689,
+            "end": 1697,
+            "page": 137,
+            "line": 41,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2250"
             ],
             "outgoing": []
         },
-        "2323": {
-            "id": "2323",
+        "2334": {
+            "id": "2334",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Militäranwärter Roesel",
+            "lowered_text": "militäranwärter roesel",
+            "begin": 2639,
+            "end": 2661,
+            "page": 138,
+            "line": 63,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
+            "incoming": [
+                "2271"
+            ],
+            "outgoing": []
+        },
+        "2299": {
+            "id": "2299",
             "type": "E78 Curated Holding",
             "virtual": false,
             "text": "Schausammlung",
-            "begin": 2246,
-            "end": 2259,
+            "lowered_text": "schausammlung",
+            "begin": 1750,
+            "end": 1763,
             "page": 138,
-            "line": 55,
-            "incoming": [
-                "2268"
-            ],
-            "outgoing": []
-        },
-        "2351": {
-            "id": "2351",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "angenommen",
-            "begin": 2849,
-            "end": 2859,
-            "page": 138,
-            "line": 66,
+            "line": 46,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [],
             "outgoing": [
-                "2240",
-                "2274",
-                "2280",
-                "2283"
+                "2255"
             ]
         },
-        "2337": {
-            "id": "2337",
-            "type": "E52 Time-Span",
+        "2301": {
+            "id": "2301",
+            "type": "E4 Period",
             "virtual": false,
-            "text": "1. Mai",
-            "begin": 2694,
-            "end": 2700,
+            "text": "Montags und Sonnabends, auch Sonntags",
+            "lowered_text": "montags und sonnabends, auch sonntags",
+            "begin": 1848,
+            "end": 1886,
             "page": 138,
-            "line": 64,
+            "line": 47,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2272",
-                "2273",
-                "2274",
-                "2275"
+                "2253"
             ],
             "outgoing": []
         },
-        "2322": {
-            "id": "2322",
+        "2300": {
+            "id": "2300",
             "type": "E52 Time-Span",
             "virtual": false,
-            "text": "Vorjahr",
-            "begin": 2211,
-            "end": 2218,
+            "text": "1. April 1891",
+            "lowered_text": "1. april 1891",
+            "begin": 1823,
+            "end": 1836,
             "page": 138,
-            "line": 54,
+            "line": 47,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1891,
             "incoming": [
-                "2267"
+                "2252"
             ],
             "outgoing": []
-        },
-        "2291": {
-            "id": "2291",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Hilfsaufseher",
-            "begin": 1461,
-            "end": 1474,
-            "page": 137,
-            "line": 37,
-            "incoming": [
-                "2247"
-            ],
-            "outgoing": [
-                "2219",
-                "2220"
-            ]
-        },
-        "2321": {
-            "id": "2321",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Klassen",
-            "begin": 2200,
-            "end": 2207,
-            "page": 138,
-            "line": 54,
-            "incoming": [
-                "2266"
-            ],
-            "outgoing": [
-                "2265",
-                "2267"
-            ]
         }
     },
     "Properties": {

@@ -5,126 +5,18 @@
     "Page_End": 54,
     "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
     "Entities": {
-        "46": {
-            "id": "46",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Koken",
-            "begin": 595,
-            "end": 600,
-            "page": 54,
-            "line": 14,
-            "incoming": [],
-            "outgoing": [
-                "53",
-                "54",
-                "55"
-            ]
-        },
-        "47": {
-            "id": "47",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "übertragen",
-            "begin": 601,
-            "end": 611,
-            "page": 54,
-            "line": 14,
-            "incoming": [
-                "55"
-            ],
-            "outgoing": [
-                "51",
-                "52"
-            ]
-        },
-        "48": {
-            "id": "48",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Assistent",
-            "begin": 618,
-            "end": 627,
-            "page": 54,
-            "line": 15,
-            "incoming": [
-                "56"
-            ],
-            "outgoing": [
-                "45"
-            ]
-        },
-        "50": {
-            "id": "50",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen Abtheilung",
-            "begin": 636,
-            "end": 659,
-            "page": 54,
-            "line": 15,
-            "incoming": [
-                "57"
-            ],
-            "outgoing": []
-        },
-        "51": {
-            "id": "51",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "begin": 660,
-            "end": 663,
-            "page": 54,
-            "line": 15,
-            "incoming": [
-                "58"
-            ],
-            "outgoing": [
-                "46"
-            ]
-        },
-        "53": {
-            "id": "53",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Reichenow",
-            "begin": 664,
-            "end": 674,
-            "page": 54,
-            "line": 15,
-            "incoming": [],
-            "outgoing": [
-                "56",
-                "58",
-                "60"
-            ]
-        },
-        "54": {
-            "id": "54",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Kustos",
-            "begin": 683,
-            "end": 689,
-            "page": 54,
-            "line": 16,
-            "incoming": [
-                "59"
-            ],
-            "outgoing": [
-                "47"
-            ]
-        },
         "56": {
             "id": "56",
             "type": "E85 Joining",
             "virtual": false,
             "text": "ernannt",
+            "lowered_text": "ernannt",
             "begin": 690,
             "end": 697,
             "page": 54,
             "line": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "60"
             ],
@@ -138,10 +30,13 @@
             "type": "E74 Group",
             "virtual": false,
             "text": "Zoologisches Institut",
+            "lowered_text": "zoologisches institut",
             "begin": 710,
             "end": 731,
             "page": 54,
             "line": 17,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "61"
             ],
@@ -152,10 +47,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "zweite Assistentenstelle",
+            "lowered_text": "zweite assistentenstelle",
             "begin": 779,
             "end": 804,
             "page": 54,
             "line": 18,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "62"
             ],
@@ -168,10 +66,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "PrivatDozenten",
+            "lowered_text": "privatdozenten",
             "begin": 813,
             "end": 828,
             "page": 54,
             "line": 19,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "63"
             ],
@@ -184,10 +85,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Dr. phil.",
+            "lowered_text": "dr. phil.",
             "begin": 829,
             "end": 838,
             "page": 54,
             "line": 19,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "64"
             ],
@@ -200,10 +104,13 @@
             "type": "E21 Person",
             "virtual": false,
             "text": "Fritz Magdeburg",
+            "lowered_text": "fritz magdeburg",
             "begin": 839,
             "end": 855,
             "page": 54,
             "line": 19,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [],
             "outgoing": [
                 "63",
@@ -216,10 +123,13 @@
             "type": "E85 Joining",
             "virtual": false,
             "text": "übertragen",
+            "lowered_text": "übertragen",
             "begin": 856,
             "end": 866,
             "page": 54,
             "line": 20,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "65"
             ],
@@ -233,10 +143,13 @@
             "type": "E74 Group",
             "virtual": false,
             "text": "geologischpaläontologischen Abtheilung",
+            "lowered_text": "geologischpaläontologischen abtheilung",
             "begin": 526,
             "end": 565,
             "page": 54,
             "line": 13,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "52"
             ],
@@ -247,10 +160,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Profession",
+            "lowered_text": "profession",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "42",
                 "45",
@@ -264,10 +180,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Assistentenstelle",
+            "lowered_text": "assistentenstelle",
             "begin": 499,
             "end": 517,
             "page": 54,
             "line": 12,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "51"
             ],
@@ -280,10 +199,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "PrivatDozenten",
+            "lowered_text": "privatdozenten",
             "begin": 575,
             "end": 590,
             "page": 54,
             "line": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "53"
             ],
@@ -296,10 +218,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Dr.",
+            "lowered_text": "dr.",
             "begin": 591,
             "end": 594,
             "page": 54,
             "line": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "54"
             ],
@@ -312,10 +237,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Academic Title",
+            "lowered_text": "academic title",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
             "incoming": [
                 "43",
                 "44",
@@ -324,6 +252,138 @@
                 "50"
             ],
             "outgoing": []
+        },
+        "46": {
+            "id": "46",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Koken",
+            "lowered_text": "koken",
+            "begin": 595,
+            "end": 600,
+            "page": 54,
+            "line": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [],
+            "outgoing": [
+                "53",
+                "54",
+                "55"
+            ]
+        },
+        "47": {
+            "id": "47",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "übertragen",
+            "lowered_text": "übertragen",
+            "begin": 601,
+            "end": 611,
+            "page": 54,
+            "line": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [
+                "55"
+            ],
+            "outgoing": [
+                "51",
+                "52"
+            ]
+        },
+        "48": {
+            "id": "48",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Assistent",
+            "lowered_text": "assistent",
+            "begin": 618,
+            "end": 627,
+            "page": 54,
+            "line": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [
+                "56"
+            ],
+            "outgoing": [
+                "45"
+            ]
+        },
+        "50": {
+            "id": "50",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "lowered_text": "zoologischen abtheilung",
+            "begin": 636,
+            "end": 659,
+            "page": 54,
+            "line": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [
+                "57"
+            ],
+            "outgoing": []
+        },
+        "51": {
+            "id": "51",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Dr.",
+            "lowered_text": "dr.",
+            "begin": 660,
+            "end": 663,
+            "page": 54,
+            "line": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [
+                "58"
+            ],
+            "outgoing": [
+                "46"
+            ]
+        },
+        "53": {
+            "id": "53",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Reichenow",
+            "lowered_text": "reichenow",
+            "begin": 664,
+            "end": 674,
+            "page": 54,
+            "line": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [],
+            "outgoing": [
+                "56",
+                "58",
+                "60"
+            ]
+        },
+        "54": {
+            "id": "54",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Kustos",
+            "lowered_text": "kustos",
+            "begin": 683,
+            "end": 689,
+            "page": 54,
+            "line": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [
+                "59"
+            ],
+            "outgoing": [
+                "47"
+            ]
         }
     },
     "Properties": {

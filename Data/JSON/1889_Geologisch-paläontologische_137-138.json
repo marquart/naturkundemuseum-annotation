@@ -5,15 +5,878 @@
     "Page_End": 138,
     "Text": "====PAGEBEGIN 137====\r\n\r\n133\r\n2. Geologisch-palaeontologische Sammlung nebst Institut.\r\nWährend der ersten Hälfte des verflossenen Etatsjahres\r\nwar die Thätigkeit der Beamten fast ausschliesslich damit in\r\nAnspruch genommen, aus den vorhandenen Beständen diejenigen\r\nStücke auszusuchen, welche für die Schausammlung geeignet\r\nschienen, dann diese Stücke zu ordnen und aufzustellen, sowie\r\ndie dabei beschäftigten Handwerker und Kalligraphen zu beauf­sichtigen und zu instruiren. Diese Arbeit ist soweit ausgeführt,\r\ndass der Schausammlungssaal der Thiere am Einweihungstage\r\n(2. December 1889) fertig gestellt war.\r\nDie Neuordnung der Hauptsammlung hat durch die eben\r\nerwähnte Thätigkeit nur geringe Fortschritte gemacht. Sie\r\nwurde allmählich, je nachdem die neuen Schrankreihen von den\r\nTischlern abgeliefert worden, aus den alten Schränken in diese\r\numgelegt und ist nunmehr völlig in den neuen Schränken unter­gebracht. Diese Umlegung geschah auf Grund sorgfältig er­wogener Dispositionen, so dass damit eine der wichtigsten Vor­arbeiten für eine Neuordnung als erledigt zu betrachten ist.\r\nNach der Einweihung sind bereits einzelne Theile aus der\r\nAbtheilung der wirbellosen Tiere neu geordnet worden, so die\r\nSpongien, die palaeozoischen und triassischen Gastropoden, tertiäre\r\nMollusken verschiedener Fundorte und jurassische Ammoniten.\r\nFerner ist ein Theil der Zugänge in die Hauptsammlung ein­geordnet worden.\r\nDie Bereicherung der Sammlung war im vergangenen Jahre\r\neine sehr bedeutende. Vor Allem ist hier zu nennen die\r\nKünow'sche Bernsteinsammlung, grössere Suiten von englischen\r\nJura- Petrefakten, ein Exemplar des ältesten Reptils ­Stereostenum tumidum — aus Brasilien. ferner eine Platte mit\r\n19 Exemplaren von Neusticosaurus pusillus aus der Lettenkohlen­gruppe von Ludwigsburg in Württemberg, und als Geschenk\r\ndes Kiesgrubenbesitzers Korner in Rixdorf ein ungewöhnlich\r\nvollständig erhaltenes Schädelfragment vom Riesenhirsch (Cervus\r\neuryceros).\r\nBehufs Ordnung der Hauptsammlung wurde allerlei Hand­werkzeug zur Anfertigung von Gestellen für grössere Petrefakten\r\nsowie für die Herrichtung von Gesteinsstufen und das Her­stellen von Gesteins- und Petrefaktenschliffen angeschafft.\r\n\r\n====PAGEBREAK TO 138====\r\n\r\n134\r\nDas geologisch-palaeontologische Institut wurde nach Mass­gabe der vorhandenen Mittel so eingerichtet, dass es am 1. Mai\r\neröffnet werden konnte. Für dasselbe besteht eine theils aus\r\nDubletten, theils aus Neu-Anschaffungen entstandene Bibliothek.\r\nFerner wurden Mikroskope und Standlupen zum Gebrauch bei\r\nVorlesungen und bei eigenen Untersuchungen beschafft.\r\nDie Hauptbibliothek ist Dank der zur Verfügung stehenden\r\nausserordentlichen Mittel sehr bereichert worden, namentlich\r\nauch an grossen geologischen, für die Bestimmung der Ver­steinerungen erforderlichen Werken. Sie ist nach Aussonderung\r\nder der mineralogisch-petrographischen Sammlung überwiesenen\r\nBücher völlig neu geordnet und aufgestellt, und es ist mit einer\r\nNeu-Katalogisirung begonnen.\r\nDer Besuch des Instituts konnte noch nicht bedeutend sein,\r\nda die Beamten, wie erwähnt, mit der Herstellung der Schau­sammlung fast ausschliesslich beschäftigt waren und somit die\r\nPraktikanten und Studenten von ihnen nur geringe Förderung\r\nerwarten durften. Es haben im Lauf des Jahres 8 Praktikanten\r\nselbstständige Untersuchungen gemacht und 12 Studenten die\r\nLehrsammlungen benutzt.\r\nProfessor Dr. Beyrich,\r\nDirektor der geologisch-palaeontologischen Sammlung.\r\n3. Mineralogiseh-petrographisches Institut.\r\nDas mit dem Wintersemester 1888/89 ins Leben und in\r\nWirksamkeit getretene mineralogisch-petrographische Institut\r\nhat zunächst die Aufgabe, den durch die nöthigen Vorlesungen\r\ndazu vorbereiteten Studirenden die Möglichkeit zu gewähren,\r\nsich in Mineralogie und Petrographie wissenschaftlich auszubilden.\r\nrespective in diesen Disciplinen eigene Arbeiten zu unternehmen.\r\nUm dieses zu bewirken, sind vorab eine mineralogische und\r\neine petrographische Repetirsammlung erforderlich. Dieselben\r\nwurden gebildet und im Wintersemester 1889/90 der Benutzung\r\nübergeben.\r\nWas die Arbeitseinrichtung anlangt, so wurden für Anfünger\r\n8 Arbeitsplätze geschaffen und für Vorgerücktere deren 4 für\r\nmineralogisch - krystallographische Arbeiten eingerichtet. Die\r\nHerstellung der chemisch-petrographischen Einrichtung für Vor­ä",
     "Entities": {
+        "87": {
+            "id": "87",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "jurassische Ammoniten",
+            "lowered_text": "jurassische ammoniten",
+            "begin": 1322,
+            "end": 1343,
+            "page": 137,
+            "line": 25,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "110"
+            ],
+            "outgoing": [
+                "69"
+            ]
+        },
+        "118": {
+            "id": "118",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Anfertigung von Gestellen für grössere Petrefakten",
+            "lowered_text": "anfertigung von gestellen für grössere petrefakten",
+            "begin": 2036,
+            "end": 2086,
+            "page": 137,
+            "line": 39,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "125"
+            ]
+        },
+        "119": {
+            "id": "119",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Herrichtung von Gesteinsstufen",
+            "lowered_text": "herrichtung von gesteinsstufen",
+            "begin": 2102,
+            "end": 2132,
+            "page": 137,
+            "line": 40,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "126"
+            ]
+        },
+        "120": {
+            "id": "120",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "Herstellen von Gesteins und Petrefaktenschliffen",
+            "lowered_text": "herstellen von gesteins und petrefaktenschliffen",
+            "begin": 2141,
+            "end": 2191,
+            "page": 137,
+            "line": 40,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "127"
+            ]
+        },
+        "89": {
+            "id": "89",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Künow'sche Bernsteinsammlung",
+            "lowered_text": "künow'sche bernsteinsammlung",
+            "begin": 1534,
+            "end": 1562,
+            "page": 137,
+            "line": 30,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "70",
+                "111"
+            ],
+            "outgoing": []
+        },
+        "121": {
+            "id": "121",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "angeschafft",
+            "lowered_text": "angeschafft",
+            "begin": 2192,
+            "end": 2203,
+            "page": 137,
+            "line": 41,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "79",
+                "124"
+            ]
+        },
+        "123": {
+            "id": "123",
+            "type": "E0 Unknown",
+            "virtual": false,
+            "text": "eologischpalaeontologische Institut",
+            "lowered_text": "eologischpalaeontologische institut",
+            "begin": 2246,
+            "end": 2282,
+            "page": 138,
+            "line": 46,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "128"
+            ],
+            "outgoing": []
+        },
+        "122": {
+            "id": "122",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Acquisition",
+            "lowered_text": "acquisition",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "79",
+                "80"
+            ],
+            "outgoing": []
+        },
+        "91": {
+            "id": "91",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Künow",
+            "lowered_text": "künow",
+            "begin": 1534,
+            "end": 1539,
+            "page": 137,
+            "line": 30,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "111"
+            ]
+        },
+        "90": {
+            "id": "90",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "lowered_text": "unknown",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "70"
+            ]
+        },
+        "124": {
+            "id": "124",
+            "type": "E52 Time-Span",
+            "virtual": false,
+            "text": "1. Mai",
+            "lowered_text": "1. mai",
+            "begin": 2355,
+            "end": 2361,
+            "page": 138,
+            "line": 47,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "129"
+            ],
+            "outgoing": []
+        },
+        "125": {
+            "id": "125",
+            "type": "E63 Beginning of Existence",
+            "virtual": false,
+            "text": "eröffnet",
+            "lowered_text": "eröffnet",
+            "begin": 2363,
+            "end": 2371,
+            "page": 138,
+            "line": 48,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "128",
+                "129"
+            ]
+        },
+        "92": {
+            "id": "92",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "englischen",
+            "lowered_text": "englischen",
+            "begin": 1584,
+            "end": 1594,
+            "page": 137,
+            "line": 30,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "112"
+            ],
+            "outgoing": []
+        },
+        "126": {
+            "id": "126",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Mikroskope",
+            "lowered_text": "mikroskope",
+            "begin": 2504,
+            "end": 2514,
+            "page": 138,
+            "line": 50,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "130"
+            ],
+            "outgoing": []
+        },
+        "93": {
+            "id": "93",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Jura Petrefakten",
+            "lowered_text": "jura petrefakten",
+            "begin": 1596,
+            "end": 1613,
+            "page": 137,
+            "line": 31,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "71"
+            ],
+            "outgoing": [
+                "112"
+            ]
+        },
+        "127": {
+            "id": "127",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Standlupen",
+            "lowered_text": "standlupen",
+            "begin": 2519,
+            "end": 2529,
+            "page": 138,
+            "line": 50,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "131"
+            ],
+            "outgoing": []
+        },
+        "95": {
+            "id": "95",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Reptil",
+            "lowered_text": "reptil",
+            "begin": 1641,
+            "end": 1647,
+            "page": 137,
+            "line": 31,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "72"
+            ]
+        },
+        "128": {
+            "id": "128",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "beschafft",
+            "lowered_text": "beschafft",
+            "begin": 2591,
+            "end": 2600,
+            "page": 138,
+            "line": 51,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "80",
+                "130",
+                "131"
+            ]
+        },
+        "94": {
+            "id": "94",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "lowered_text": "unknown",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "71"
+            ]
+        },
+        "130": {
+            "id": "130",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Hauptbibliothek",
+            "lowered_text": "hauptbibliothek",
+            "begin": 2607,
+            "end": 2622,
+            "page": 138,
+            "line": 52,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "132",
+                "133",
+                "134"
+            ],
+            "outgoing": [
+                "81"
+            ]
+        },
+        "67": {
+            "id": "67",
+            "type": "E39 Actor",
+            "virtual": false,
+            "text": "Beamten",
+            "lowered_text": "beamten",
+            "begin": 167,
+            "end": 174,
+            "page": 137,
+            "line": 6,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "88",
+                "89",
+                "90"
+            ],
+            "outgoing": []
+        },
+        "97": {
+            "id": "97",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Stereostenum tumidum",
+            "lowered_text": "stereostenum tumidum",
+            "begin": 1649,
+            "end": 1670,
+            "page": 137,
+            "line": 32,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "73"
+            ],
+            "outgoing": [
+                "113"
+            ]
+        },
+        "68": {
+            "id": "68",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "auszusuchen",
+            "lowered_text": "auszusuchen",
+            "begin": 274,
+            "end": 285,
+            "page": 137,
+            "line": 8,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "88",
+                "92",
+                "100"
+            ]
+        },
+        "132": {
+            "id": "132",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "bereichert",
+            "lowered_text": "bereichert",
+            "begin": 2692,
+            "end": 2702,
+            "page": 138,
+            "line": 53,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "134",
+                "135"
+            ]
+        },
+        "131": {
+            "id": "131",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Library",
+            "lowered_text": "library",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "81"
+            ],
+            "outgoing": []
+        },
+        "99": {
+            "id": "99",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Brasilien",
+            "lowered_text": "brasilien",
+            "begin": 1677,
+            "end": 1686,
+            "page": 137,
+            "line": 32,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "113"
+            ],
+            "outgoing": []
+        },
+        "98": {
+            "id": "98",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "lowered_text": "unknown",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "73"
+            ]
+        },
+        "133": {
+            "id": "133",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "grossen geologischen, für die Bestimmung der Versteinerungen erforderlichen Werken",
+            "lowered_text": "grossen geologischen, für die bestimmung der versteinerungen erforderlichen werken",
+            "begin": 2731,
+            "end": 2814,
+            "page": 138,
+            "line": 54,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "135"
+            ],
+            "outgoing": []
+        },
+        "134": {
+            "id": "134",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "neu geordnet",
+            "lowered_text": "neu geordnet",
+            "begin": 2919,
+            "end": 2931,
+            "page": 138,
+            "line": 57,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "132"
+            ]
+        },
+        "66": {
+            "id": "66",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Geologischpalaeontologische Sammlung",
+            "lowered_text": "geologischpalaeontologische sammlung",
+            "begin": 33,
+            "end": 70,
+            "page": 137,
+            "line": 4,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "91",
+                "102"
+            ]
+        },
+        "100": {
+            "id": "100",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Platte",
+            "lowered_text": "platte",
+            "begin": 1700,
+            "end": 1706,
+            "page": 137,
+            "line": 32,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "74"
+            ],
+            "outgoing": [
+                "115",
+                "117"
+            ]
+        },
+        "135": {
+            "id": "135",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "NeuKatalogisirung",
+            "lowered_text": "neukatalogisirung",
+            "begin": 2971,
+            "end": 2989,
+            "page": 138,
+            "line": 58,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "133"
+            ]
+        },
+        "102": {
+            "id": "102",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "19 Exemplare",
+            "lowered_text": "19 exemplare",
+            "begin": 1712,
+            "end": 1724,
+            "page": 137,
+            "line": 33,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "114"
+            ],
+            "outgoing": []
+        },
+        "136": {
+            "id": "136",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "8",
+            "lowered_text": "8",
+            "begin": 3289,
+            "end": 3290,
+            "page": 138,
+            "line": 63,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "136"
+            ],
+            "outgoing": []
+        },
+        "101": {
+            "id": "101",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "Unknown",
+            "lowered_text": "unknown",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "74"
+            ]
+        },
+        "137": {
+            "id": "137",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Praktikanten",
+            "lowered_text": "praktikanten",
+            "begin": 3291,
+            "end": 3303,
+            "page": 138,
+            "line": 63,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "82",
+                "136"
+            ]
+        },
+        "139": {
+            "id": "139",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "12",
+            "lowered_text": "12",
+            "begin": 3347,
+            "end": 3349,
+            "page": 138,
+            "line": 64,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "137"
+            ],
+            "outgoing": []
+        },
+        "69": {
+            "id": "69",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Schausammlung",
+            "lowered_text": "schausammlung",
+            "begin": 302,
+            "end": 315,
+            "page": 137,
+            "line": 8,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "91",
+                "92",
+                "93",
+                "94",
+                "95"
+            ],
+            "outgoing": []
+        },
+        "103": {
+            "id": "103",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Neusticosaurus pusillus",
+            "lowered_text": "neusticosaurus pusillus",
+            "begin": 1730,
+            "end": 1753,
+            "page": 137,
+            "line": 33,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "115",
+                "116"
+            ],
+            "outgoing": [
+                "75",
+                "114"
+            ]
+        },
+        "138": {
+            "id": "138",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Teaching",
+            "lowered_text": "teaching",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "82",
+                "83"
+            ],
+            "outgoing": []
+        },
+        "70": {
+            "id": "70",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "ordnen",
+            "lowered_text": "ordnen",
+            "begin": 357,
+            "end": 363,
+            "page": 137,
+            "line": 9,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "89",
+                "93",
+                "99"
+            ]
+        },
+        "105": {
+            "id": "105",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Lettenkohlengruppe",
+            "lowered_text": "lettenkohlengruppe",
+            "begin": 1762,
+            "end": 1781,
+            "page": 137,
+            "line": 33,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "116"
+            ]
+        },
+        "71": {
+            "id": "71",
+            "type": "E87 Curation Activity",
+            "virtual": false,
+            "text": "aufzustellen",
+            "lowered_text": "aufzustellen",
+            "begin": 368,
+            "end": 380,
+            "page": 137,
+            "line": 9,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "90",
+                "94",
+                "96",
+                "97",
+                "98"
+            ]
+        },
+        "140": {
+            "id": "140",
+            "type": "E74 Group",
+            "virtual": false,
+            "text": "Studenten",
+            "lowered_text": "studenten",
+            "begin": 3350,
+            "end": 3359,
+            "page": 138,
+            "line": 64,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [],
+            "outgoing": [
+                "83",
+                "137"
+            ]
+        },
+        "72": {
+            "id": "72",
+            "type": "E39 Actor",
+            "virtual": false,
+            "text": "Handwerker",
+            "lowered_text": "handwerker",
+            "begin": 413,
+            "end": 423,
+            "page": 137,
+            "line": 10,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "96"
+            ],
+            "outgoing": []
+        },
+        "142": {
+            "id": "142",
+            "type": "E41 Appellation",
+            "virtual": false,
+            "text": "Professor",
+            "lowered_text": "professor",
+            "begin": 3390,
+            "end": 3399,
+            "page": 138,
+            "line": 66,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "138"
+            ],
+            "outgoing": [
+                "84"
+            ]
+        },
+        "73": {
+            "id": "73",
+            "type": "E39 Actor",
+            "virtual": false,
+            "text": "Kalligraphen",
+            "lowered_text": "kalligraphen",
+            "begin": 428,
+            "end": 440,
+            "page": 137,
+            "line": 10,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "97"
+            ],
+            "outgoing": []
+        },
+        "106": {
+            "id": "106",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Ludwigsburg in Württemberg",
+            "lowered_text": "ludwigsburg in württemberg",
+            "begin": 1786,
+            "end": 1812,
+            "page": 137,
+            "line": 34,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
+            "incoming": [
+                "117"
+            ],
+            "outgoing": []
+        },
         "74": {
             "id": "74",
             "type": "E63 Beginning of Existence",
             "virtual": false,
             "text": "inweihungstage",
+            "lowered_text": "inweihungstage",
             "begin": 559,
             "end": 573,
             "page": 137,
             "line": 12,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "98",
                 "99",
@@ -29,10 +892,13 @@
             "type": "E8 Acquisition",
             "virtual": false,
             "text": "Geschenk",
+            "lowered_text": "geschenk",
             "begin": 1822,
             "end": 1830,
             "page": 137,
             "line": 34,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [],
             "outgoing": [
                 "76",
@@ -45,10 +911,13 @@
             "type": "E52 Time-Span",
             "virtual": false,
             "text": "2. December 1889",
+            "lowered_text": "2. december 1889",
             "begin": 576,
             "end": 592,
             "page": 137,
             "line": 13,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "101"
             ],
@@ -59,10 +928,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Kiesgrubenbesitzer",
+            "lowered_text": "kiesgrubenbesitzer",
             "begin": 1836,
             "end": 1854,
             "page": 137,
             "line": 35,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "118"
             ],
@@ -75,10 +947,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Dr.",
+            "lowered_text": "dr.",
             "begin": 3400,
             "end": 3403,
             "page": 138,
             "line": 66,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "139"
             ],
@@ -91,10 +966,13 @@
             "type": "E78 Curated Holding",
             "virtual": false,
             "text": "Hauptsammlung",
+            "lowered_text": "hauptsammlung",
             "begin": 635,
             "end": 648,
             "page": 137,
             "line": 14,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "102",
                 "103"
@@ -108,10 +986,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Donation",
+            "lowered_text": "donation",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "76"
             ],
@@ -122,10 +1003,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Academic Title",
+            "lowered_text": "academic title",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "84",
                 "85"
@@ -137,10 +1021,13 @@
             "type": "E87 Curation Activity",
             "virtual": false,
             "text": "völlig in den neuen Schränken untergebracht",
+            "lowered_text": "völlig in den neuen schränken untergebracht",
             "begin": 879,
             "end": 923,
             "page": 137,
             "line": 18,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "104"
             ],
@@ -153,10 +1040,13 @@
             "type": "E87 Curation Activity",
             "virtual": false,
             "text": "Neuordnung",
+            "lowered_text": "neuordnung",
             "begin": 1052,
             "end": 1062,
             "page": 137,
             "line": 21,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [],
             "outgoing": [
                 "104"
@@ -167,10 +1057,13 @@
             "type": "E21 Person",
             "virtual": false,
             "text": "Korner",
+            "lowered_text": "korner",
             "begin": 1856,
             "end": 1862,
             "page": 137,
             "line": 35,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "119"
             ],
@@ -184,10 +1077,13 @@
             "type": "E21 Person",
             "virtual": false,
             "text": "Beyrich",
+            "lowered_text": "beyrich",
             "begin": 3404,
             "end": 3411,
             "page": 138,
             "line": 66,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [],
             "outgoing": [
                 "86",
@@ -201,10 +1097,13 @@
             "type": "E78 Curated Holding",
             "virtual": false,
             "text": "Abtheilung der wirbellosen Tiere",
+            "lowered_text": "abtheilung der wirbellosen tiere",
             "begin": 1154,
             "end": 1186,
             "page": 137,
             "line": 23,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "105",
                 "106"
@@ -216,10 +1115,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Profession",
+            "lowered_text": "profession",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "77",
                 "87"
@@ -231,10 +1133,13 @@
             "type": "E87 Curation Activity",
             "virtual": false,
             "text": "neu geordnet",
+            "lowered_text": "neu geordnet",
             "begin": 1187,
             "end": 1199,
             "page": 137,
             "line": 23,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [],
             "outgoing": [
                 "106",
@@ -249,10 +1154,13 @@
             "type": "E28 Conceptual Object",
             "virtual": false,
             "text": "Spongien",
+            "lowered_text": "spongien",
             "begin": 1216,
             "end": 1224,
             "page": 137,
             "line": 24,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "107"
             ],
@@ -265,10 +1173,13 @@
             "type": "E53 Place",
             "virtual": false,
             "text": "Rixdorf",
+            "lowered_text": "rixdorf",
             "begin": 1866,
             "end": 1873,
             "page": 137,
             "line": 35,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "120"
             ],
@@ -279,10 +1190,13 @@
             "type": "E41 Appellation",
             "virtual": false,
             "text": "Direktor",
+            "lowered_text": "direktor",
             "begin": 3414,
             "end": 3422,
             "page": 138,
             "line": 67,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "140"
             ],
@@ -295,10 +1209,13 @@
             "type": "E28 Conceptual Object",
             "virtual": false,
             "text": "palaeozoischen und triassischen Gastropoden",
+            "lowered_text": "palaeozoischen und triassischen gastropoden",
             "begin": 1230,
             "end": 1273,
             "page": 137,
             "line": 24,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "108"
             ],
@@ -311,10 +1228,13 @@
             "type": "E20 Biological Object",
             "virtual": false,
             "text": "Schädelfragment",
+            "lowered_text": "schädelfragment",
             "begin": 1915,
             "end": 1930,
             "page": 137,
             "line": 36,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "121",
                 "122"
@@ -326,10 +1246,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Reporter",
+            "lowered_text": "reporter",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "86"
             ],
@@ -340,10 +1263,13 @@
             "type": "E55 Type",
             "virtual": true,
             "text": "Taxon",
+            "lowered_text": "taxon",
             "begin": null,
             "end": null,
             "page": -1,
             "line": -1,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "66",
                 "67",
@@ -360,10 +1286,13 @@
             "type": "E28 Conceptual Object",
             "virtual": false,
             "text": "Riesenhirsch (Cervus euryceros)",
+            "lowered_text": "riesenhirsch (cervus euryceros)",
             "begin": 1935,
             "end": 1967,
             "page": 137,
             "line": 36,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [],
             "outgoing": [
                 "78",
@@ -375,10 +1304,13 @@
             "type": "E54 Dimension",
             "virtual": false,
             "text": "allerlei",
+            "lowered_text": "allerlei",
             "begin": 2009,
             "end": 2017,
             "page": 137,
             "line": 38,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "123"
             ],
@@ -389,10 +1321,13 @@
             "type": "E28 Conceptual Object",
             "virtual": false,
             "text": "tertiäre Mollusken",
+            "lowered_text": "tertiäre mollusken",
             "begin": 1275,
             "end": 1294,
             "page": 137,
             "line": 24,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "109"
             ],
@@ -405,10 +1340,13 @@
             "type": "E19 Physical Object",
             "virtual": false,
             "text": "Handwerkzeug",
+            "lowered_text": "handwerkzeug",
             "begin": 2018,
             "end": 2031,
             "page": 137,
             "line": 38,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1889,
             "incoming": [
                 "124",
                 "125",
@@ -418,722 +1356,6 @@
             "outgoing": [
                 "123"
             ]
-        },
-        "87": {
-            "id": "87",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "jurassische Ammoniten",
-            "begin": 1322,
-            "end": 1343,
-            "page": 137,
-            "line": 25,
-            "incoming": [
-                "110"
-            ],
-            "outgoing": [
-                "69"
-            ]
-        },
-        "118": {
-            "id": "118",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Anfertigung von Gestellen für grössere Petrefakten",
-            "begin": 2036,
-            "end": 2086,
-            "page": 137,
-            "line": 39,
-            "incoming": [],
-            "outgoing": [
-                "125"
-            ]
-        },
-        "119": {
-            "id": "119",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Herrichtung von Gesteinsstufen",
-            "begin": 2102,
-            "end": 2132,
-            "page": 137,
-            "line": 40,
-            "incoming": [],
-            "outgoing": [
-                "126"
-            ]
-        },
-        "120": {
-            "id": "120",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "Herstellen von Gesteins und Petrefaktenschliffen",
-            "begin": 2141,
-            "end": 2191,
-            "page": 137,
-            "line": 40,
-            "incoming": [],
-            "outgoing": [
-                "127"
-            ]
-        },
-        "89": {
-            "id": "89",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Künow'sche Bernsteinsammlung",
-            "begin": 1534,
-            "end": 1562,
-            "page": 137,
-            "line": 30,
-            "incoming": [
-                "70",
-                "111"
-            ],
-            "outgoing": []
-        },
-        "121": {
-            "id": "121",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "angeschafft",
-            "begin": 2192,
-            "end": 2203,
-            "page": 137,
-            "line": 41,
-            "incoming": [],
-            "outgoing": [
-                "79",
-                "124"
-            ]
-        },
-        "123": {
-            "id": "123",
-            "type": "E0 Unknown",
-            "virtual": false,
-            "text": "eologischpalaeontologische Institut",
-            "begin": 2246,
-            "end": 2282,
-            "page": 138,
-            "line": 46,
-            "incoming": [
-                "128"
-            ],
-            "outgoing": []
-        },
-        "122": {
-            "id": "122",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Acquisition",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [
-                "79",
-                "80"
-            ],
-            "outgoing": []
-        },
-        "91": {
-            "id": "91",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Künow",
-            "begin": 1534,
-            "end": 1539,
-            "page": 137,
-            "line": 30,
-            "incoming": [],
-            "outgoing": [
-                "111"
-            ]
-        },
-        "90": {
-            "id": "90",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [],
-            "outgoing": [
-                "70"
-            ]
-        },
-        "124": {
-            "id": "124",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "1. Mai",
-            "begin": 2355,
-            "end": 2361,
-            "page": 138,
-            "line": 47,
-            "incoming": [
-                "129"
-            ],
-            "outgoing": []
-        },
-        "125": {
-            "id": "125",
-            "type": "E63 Beginning of Existence",
-            "virtual": false,
-            "text": "eröffnet",
-            "begin": 2363,
-            "end": 2371,
-            "page": 138,
-            "line": 48,
-            "incoming": [],
-            "outgoing": [
-                "128",
-                "129"
-            ]
-        },
-        "92": {
-            "id": "92",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "englischen",
-            "begin": 1584,
-            "end": 1594,
-            "page": 137,
-            "line": 30,
-            "incoming": [
-                "112"
-            ],
-            "outgoing": []
-        },
-        "126": {
-            "id": "126",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Mikroskope",
-            "begin": 2504,
-            "end": 2514,
-            "page": 138,
-            "line": 50,
-            "incoming": [
-                "130"
-            ],
-            "outgoing": []
-        },
-        "93": {
-            "id": "93",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Jura Petrefakten",
-            "begin": 1596,
-            "end": 1613,
-            "page": 137,
-            "line": 31,
-            "incoming": [
-                "71"
-            ],
-            "outgoing": [
-                "112"
-            ]
-        },
-        "127": {
-            "id": "127",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Standlupen",
-            "begin": 2519,
-            "end": 2529,
-            "page": 138,
-            "line": 50,
-            "incoming": [
-                "131"
-            ],
-            "outgoing": []
-        },
-        "95": {
-            "id": "95",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Reptil",
-            "begin": 1641,
-            "end": 1647,
-            "page": 137,
-            "line": 31,
-            "incoming": [],
-            "outgoing": [
-                "72"
-            ]
-        },
-        "128": {
-            "id": "128",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "beschafft",
-            "begin": 2591,
-            "end": 2600,
-            "page": 138,
-            "line": 51,
-            "incoming": [],
-            "outgoing": [
-                "80",
-                "130",
-                "131"
-            ]
-        },
-        "94": {
-            "id": "94",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [],
-            "outgoing": [
-                "71"
-            ]
-        },
-        "130": {
-            "id": "130",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Hauptbibliothek",
-            "begin": 2607,
-            "end": 2622,
-            "page": 138,
-            "line": 52,
-            "incoming": [
-                "132",
-                "133",
-                "134"
-            ],
-            "outgoing": [
-                "81"
-            ]
-        },
-        "67": {
-            "id": "67",
-            "type": "E39 Actor",
-            "virtual": false,
-            "text": "Beamten",
-            "begin": 167,
-            "end": 174,
-            "page": 137,
-            "line": 6,
-            "incoming": [
-                "88",
-                "89",
-                "90"
-            ],
-            "outgoing": []
-        },
-        "97": {
-            "id": "97",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Stereostenum tumidum",
-            "begin": 1649,
-            "end": 1670,
-            "page": 137,
-            "line": 32,
-            "incoming": [
-                "73"
-            ],
-            "outgoing": [
-                "113"
-            ]
-        },
-        "68": {
-            "id": "68",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "auszusuchen",
-            "begin": 274,
-            "end": 285,
-            "page": 137,
-            "line": 8,
-            "incoming": [],
-            "outgoing": [
-                "88",
-                "92",
-                "100"
-            ]
-        },
-        "132": {
-            "id": "132",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "bereichert",
-            "begin": 2692,
-            "end": 2702,
-            "page": 138,
-            "line": 53,
-            "incoming": [],
-            "outgoing": [
-                "134",
-                "135"
-            ]
-        },
-        "131": {
-            "id": "131",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Library",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [
-                "81"
-            ],
-            "outgoing": []
-        },
-        "99": {
-            "id": "99",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Brasilien",
-            "begin": 1677,
-            "end": 1686,
-            "page": 137,
-            "line": 32,
-            "incoming": [
-                "113"
-            ],
-            "outgoing": []
-        },
-        "98": {
-            "id": "98",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [],
-            "outgoing": [
-                "73"
-            ]
-        },
-        "133": {
-            "id": "133",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "grossen geologischen, für die Bestimmung der Versteinerungen erforderlichen Werken",
-            "begin": 2731,
-            "end": 2814,
-            "page": 138,
-            "line": 54,
-            "incoming": [
-                "135"
-            ],
-            "outgoing": []
-        },
-        "134": {
-            "id": "134",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "neu geordnet",
-            "begin": 2919,
-            "end": 2931,
-            "page": 138,
-            "line": 57,
-            "incoming": [],
-            "outgoing": [
-                "132"
-            ]
-        },
-        "66": {
-            "id": "66",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Geologischpalaeontologische Sammlung",
-            "begin": 33,
-            "end": 70,
-            "page": 137,
-            "line": 4,
-            "incoming": [],
-            "outgoing": [
-                "91",
-                "102"
-            ]
-        },
-        "100": {
-            "id": "100",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Platte",
-            "begin": 1700,
-            "end": 1706,
-            "page": 137,
-            "line": 32,
-            "incoming": [
-                "74"
-            ],
-            "outgoing": [
-                "115",
-                "117"
-            ]
-        },
-        "135": {
-            "id": "135",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "NeuKatalogisirung",
-            "begin": 2971,
-            "end": 2989,
-            "page": 138,
-            "line": 58,
-            "incoming": [],
-            "outgoing": [
-                "133"
-            ]
-        },
-        "102": {
-            "id": "102",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "19 Exemplare",
-            "begin": 1712,
-            "end": 1724,
-            "page": 137,
-            "line": 33,
-            "incoming": [
-                "114"
-            ],
-            "outgoing": []
-        },
-        "136": {
-            "id": "136",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "8",
-            "begin": 3289,
-            "end": 3290,
-            "page": 138,
-            "line": 63,
-            "incoming": [
-                "136"
-            ],
-            "outgoing": []
-        },
-        "101": {
-            "id": "101",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "Unknown",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [],
-            "outgoing": [
-                "74"
-            ]
-        },
-        "137": {
-            "id": "137",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Praktikanten",
-            "begin": 3291,
-            "end": 3303,
-            "page": 138,
-            "line": 63,
-            "incoming": [],
-            "outgoing": [
-                "82",
-                "136"
-            ]
-        },
-        "139": {
-            "id": "139",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "12",
-            "begin": 3347,
-            "end": 3349,
-            "page": 138,
-            "line": 64,
-            "incoming": [
-                "137"
-            ],
-            "outgoing": []
-        },
-        "69": {
-            "id": "69",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Schausammlung",
-            "begin": 302,
-            "end": 315,
-            "page": 137,
-            "line": 8,
-            "incoming": [
-                "91",
-                "92",
-                "93",
-                "94",
-                "95"
-            ],
-            "outgoing": []
-        },
-        "103": {
-            "id": "103",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Neusticosaurus pusillus",
-            "begin": 1730,
-            "end": 1753,
-            "page": 137,
-            "line": 33,
-            "incoming": [
-                "115",
-                "116"
-            ],
-            "outgoing": [
-                "75",
-                "114"
-            ]
-        },
-        "138": {
-            "id": "138",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Teaching",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "incoming": [
-                "82",
-                "83"
-            ],
-            "outgoing": []
-        },
-        "70": {
-            "id": "70",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "ordnen",
-            "begin": 357,
-            "end": 363,
-            "page": 137,
-            "line": 9,
-            "incoming": [],
-            "outgoing": [
-                "89",
-                "93",
-                "99"
-            ]
-        },
-        "105": {
-            "id": "105",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Lettenkohlengruppe",
-            "begin": 1762,
-            "end": 1781,
-            "page": 137,
-            "line": 33,
-            "incoming": [],
-            "outgoing": [
-                "116"
-            ]
-        },
-        "71": {
-            "id": "71",
-            "type": "E87 Curation Activity",
-            "virtual": false,
-            "text": "aufzustellen",
-            "begin": 368,
-            "end": 380,
-            "page": 137,
-            "line": 9,
-            "incoming": [],
-            "outgoing": [
-                "90",
-                "94",
-                "96",
-                "97",
-                "98"
-            ]
-        },
-        "140": {
-            "id": "140",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Studenten",
-            "begin": 3350,
-            "end": 3359,
-            "page": 138,
-            "line": 64,
-            "incoming": [],
-            "outgoing": [
-                "83",
-                "137"
-            ]
-        },
-        "72": {
-            "id": "72",
-            "type": "E39 Actor",
-            "virtual": false,
-            "text": "Handwerker",
-            "begin": 413,
-            "end": 423,
-            "page": 137,
-            "line": 10,
-            "incoming": [
-                "96"
-            ],
-            "outgoing": []
-        },
-        "142": {
-            "id": "142",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Professor",
-            "begin": 3390,
-            "end": 3399,
-            "page": 138,
-            "line": 66,
-            "incoming": [
-                "138"
-            ],
-            "outgoing": [
-                "84"
-            ]
-        },
-        "73": {
-            "id": "73",
-            "type": "E39 Actor",
-            "virtual": false,
-            "text": "Kalligraphen",
-            "begin": 428,
-            "end": 440,
-            "page": 137,
-            "line": 10,
-            "incoming": [
-                "97"
-            ],
-            "outgoing": []
-        },
-        "106": {
-            "id": "106",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Ludwigsburg in Württemberg",
-            "begin": 1786,
-            "end": 1812,
-            "page": 137,
-            "line": 34,
-            "incoming": [
-                "117"
-            ],
-            "outgoing": []
         }
     },
     "Properties": {

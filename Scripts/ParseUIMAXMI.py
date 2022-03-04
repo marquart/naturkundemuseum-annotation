@@ -1,6 +1,7 @@
 import os
 from collections import defaultdict, Counter
 from operator import attrgetter
+from itertools import chain
 import json, re
 import pickle
 from bs4 import BeautifulSoup
@@ -119,7 +120,7 @@ class Corrector(object):
 class SemanticEntity(object):
     virtuals = []
     next_id  = 0
-    def __init__(self, tag, corrector, anchors=None, virtual=False, year=None, institution=None):
+    def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None):
         ''''''
         self.id = self.next_id
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
@@ -396,16 +397,42 @@ def serialize(obj, stringify=True):
         "id": str(obj.id) if stringify else obj.id,
         "type": obj.type,
         "virtual": obj.virtual,
-        "text": obj.string.replace('\r', '').replace('\n', ' ') if stringify else obj.string,
+        "text": obj.string if stringify else obj.string,
+        "lowered_text": obj.string.lower(),
         "begin": obj.begin,
         "end": obj.end,
         "page": obj.page,
         "line": obj.line,
+        "institution": obj.institution,
+        "year": obj.year,
         "incoming": [str(prop.id) if stringify else prop.id for prop in obj.incoming],
         "outgoing": [str(prop.id) if stringify else prop.id for prop in obj.outgoing]
         }
     else:
         return obj
+
+def save_webdata(entities, properties, filepath="../website/src/data"):
+    export_items = {
+        "Entities": {serialized['id']:serialized for e in sorted(entities, key=attrgetter('year'), reverse=True) if (serialized := serialize(e))},
+        "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))}
+    }
+    #assert len(export_items["Entities"]) == len(entities) and len(export_items["Properties"]) == len(properties)
+    
+    with open(os.path.join(filepath, "webdata.json"), 'w', encoding="utf-8") as f:
+        json.dump(export_items, f, ensure_ascii=False, indent=2)
+        
+    entity_classes = Counter(e["type"] for e in export_items["Entities"].values())
+    property_classes = Counter(p["type"] for p in export_items["Properties"].values())
+    
+    export_classes = {
+        "Entities": [f"{t[0]} ({t[1]})" for t in entity_classes.most_common()],
+        "Properties": [f"{t[0]} ({t[1]})" for t in property_classes.most_common()]
+    }
+    
+    with open(os.path.join(filepath, "class_stats.json"), 'w', encoding="utf-8") as f:
+        json.dump(export_classes, f, ensure_ascii=False, indent=2)
+    
+    print(f"\nSaved all Entities, Properties and Class stats as JSON to '{filepath}'\n")
 
 def save_json(filepath, file, text, entities, properties):
     year, institution, page_begin, page_end = extract_ins_year(file)
@@ -471,6 +498,8 @@ def stats_directory(dirpath, save=False):
     if for_pickling:
         with open("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle", 'wb') as f:
             pickle.dump(for_pickling, f)
+    
+    save_webdata(chain.from_iterable(file["Entities"].values() for file in for_pickling), chain.from_iterable(file["Properties"].values() for file in for_pickling))
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
     for t, c in class_counter.most_common():
