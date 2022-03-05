@@ -7,16 +7,18 @@
         <h2>Digital Edition of the Annual Reports of the Museum 1887–1915 and 1928–1938</h2>
       </div>
     </div>
-    <!--<Column msg="Welcome to Your Vue.js App"/>-->
+
     <div class="content" id="navigation">
-      <div class="navmode">
-        <div class="selectmode" :style="infoNavStyle" @click="navigate(0)">Info</div>
-        <div class="selectmode" :style="searchNavStyle" @click="navigate(1)">Construct Query</div>
-      </div>
+
+      <div class="selectmode" :style="infoNavStyle" @click="navigate(0)">Info</div>
+      <div class="selectmode" :style="searchNavStyle" @click="navigate(1)">Construct Query</div>
+      <div class="selectmode" :style="vizNavStyle" @click="navigate(2)">Visualizations</div>
+
     </div>
 
-    <Info class="content" v-show="mode == 0" />
-    <Query class="content" v-show="mode == 1" />
+    <Info class="content" v-show="mode === 0" />
+    <Query class="content" v-show="mode === 1" />
+    <Visualizations class="content" v-show="mode === 2" />
   </div>
 </template>
 
@@ -24,17 +26,21 @@
 //import HelloWorld from './components/Column.vue'
 import Info from './components/Info.vue'
 import Query from './components/Query.vue'
+import Visualizations from './components/Visualizations.vue'
+
 
 export default {
   name: 'App',
   components: {
     Info,
-    Query
+    Query,
+    Visualizations
   },
   data() {
     return {
       infoNavStyle: {background: '#ffffff'},
       searchNavStyle: {background: '#EBEBEB'},
+      vizNavStyle: {background: '#EBEBEB'},
       mode: 0,
     }
   },
@@ -42,12 +48,18 @@ export default {
   methods: {
     navigate(mode) {
       this.mode = mode;
-      if (this.mode == 0) {
+      if (this.mode === 0) {
         this.infoNavStyle.background = '#ffffff';
         this.searchNavStyle.background = '#EBEBEB';
-      } else if (this.mode == 1) {
+        this.vizNavStyle.background = '#EBEBEB';
+      } else if (this.mode === 1) {
         this.infoNavStyle.background = '#EBEBEB';
         this.searchNavStyle.background = '#ffffff';
+        this.vizNavStyle.background = '#EBEBEB';
+      } else if (this.mode === 2) {
+        this.infoNavStyle.background = '#EBEBEB';
+        this.searchNavStyle.background = '#EBEBEB';
+        this.vizNavStyle.background = '#ffffff';
       }
 
     },
@@ -87,25 +99,23 @@ export default {
   }
 
   #navigation {
-    border-bottom: 2px solid #7da30b;
-  }
-
-  .navmode {
-    width: 100%;
+    border-bottom: 3px solid #7da30b;
     height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
 
   }
 
   .selectmode {
-    width: 50%;
     font-size: 1.2em;
     font-family: inherit;
-    display: inline-block;
     text-align: center;
     background: #ffffff;
     color: black;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+
   }
 
   .selectmode:hover {
