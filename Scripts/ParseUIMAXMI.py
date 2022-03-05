@@ -76,8 +76,8 @@ class Corrector(object):
         return txt.strip().translate(self.cleaner)
     
     def set_pagenumbers(self):
-        BEGIN_PATTERN = re.compile(r"====PAGEBEGIN (\d+?)====\r?\n")
-        BREAK_PATTERN = re.compile(r"====PAGEBREAK TO (\d+?)====\r?\n")
+        BEGIN_PATTERN = re.compile(r"====PAGEBEGIN (\d+?)====\r?\n\r?\n", flags=re.MULTILINE)
+        BREAK_PATTERN = re.compile(r"\r?\n\r?\n====PAGEBREAK TO (\d+?)====\r?\n\r?\n", flags=re.MULTILINE)
         begin = BEGIN_PATTERN.search(self.text)
         self.pagenumbers[begin.end()] = int(begin.group(1))
         for match in BREAK_PATTERN.finditer(self.text):
@@ -86,8 +86,12 @@ class Corrector(object):
         
     def set_linenumbers(self):
         LINEBREAK_PATTERN = re.compile('\n|­')
-        for i, match in enumerate(LINEBREAK_PATTERN.finditer(self.text), start=2):
-            self.linenumbers[match.start()] = i
+        pages = list(self.pagenumbers) + [len(self.text)]
+        
+        for pagestart, pageend in zip(pages, pages[1:]):
+            self.linenumbers[pagestart] = 1
+            for i, match in enumerate(LINEBREAK_PATTERN.finditer(self.text[pagestart:pageend]), start=2):
+                self.linenumbers[match.start()+pagestart] = i
         
     def get_pagenumber(self, index):
         cursor = index

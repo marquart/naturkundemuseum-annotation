@@ -5,26 +5,6 @@
     "Page_End": 54,
     "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
     "Entities": {
-        "56": {
-            "id": "56",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "ernannt",
-            "lowered_text": "ernannt",
-            "begin": 690,
-            "end": 697,
-            "page": 54,
-            "line": 16,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "incoming": [
-                "60"
-            ],
-            "outgoing": [
-                "57",
-                "59"
-            ]
-        },
         "57": {
             "id": "57",
             "type": "E74 Group",
@@ -34,7 +14,7 @@
             "begin": 710,
             "end": 731,
             "page": 54,
-            "line": 17,
+            "line": 15,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -51,7 +31,7 @@
             "begin": 779,
             "end": 804,
             "page": 54,
-            "line": 18,
+            "line": 16,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -70,7 +50,7 @@
             "begin": 813,
             "end": 828,
             "page": 54,
-            "line": 19,
+            "line": 17,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -89,7 +69,7 @@
             "begin": 829,
             "end": 838,
             "page": 54,
-            "line": 19,
+            "line": 17,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -108,7 +88,7 @@
             "begin": 839,
             "end": 855,
             "page": 54,
-            "line": 19,
+            "line": 17,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [],
@@ -127,7 +107,7 @@
             "begin": 856,
             "end": 866,
             "page": 54,
-            "line": 20,
+            "line": 18,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -147,7 +127,7 @@
             "begin": 526,
             "end": 565,
             "page": 54,
-            "line": 13,
+            "line": 11,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -184,7 +164,7 @@
             "begin": 499,
             "end": 517,
             "page": 54,
-            "line": 12,
+            "line": 10,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -203,7 +183,7 @@
             "begin": 575,
             "end": 590,
             "page": 54,
-            "line": 14,
+            "line": 12,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -222,7 +202,7 @@
             "begin": 591,
             "end": 594,
             "page": 54,
-            "line": 14,
+            "line": 12,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -262,7 +242,7 @@
             "begin": 595,
             "end": 600,
             "page": 54,
-            "line": 14,
+            "line": 12,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [],
@@ -281,7 +261,7 @@
             "begin": 601,
             "end": 611,
             "page": 54,
-            "line": 14,
+            "line": 12,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -301,7 +281,7 @@
             "begin": 618,
             "end": 627,
             "page": 54,
-            "line": 15,
+            "line": 13,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -320,7 +300,7 @@
             "begin": 636,
             "end": 659,
             "page": 54,
-            "line": 15,
+            "line": 13,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -337,7 +317,7 @@
             "begin": 660,
             "end": 663,
             "page": 54,
-            "line": 15,
+            "line": 13,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -356,7 +336,7 @@
             "begin": 664,
             "end": 674,
             "page": 54,
-            "line": 15,
+            "line": 13,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [],
@@ -375,7 +355,7 @@
             "begin": 683,
             "end": 689,
             "page": 54,
-            "line": 16,
+            "line": 14,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "incoming": [
@@ -383,6 +363,26 @@
             ],
             "outgoing": [
                 "47"
+            ]
+        },
+        "56": {
+            "id": "56",
+            "type": "E85 Joining",
+            "virtual": false,
+            "text": "ernannt",
+            "lowered_text": "ernannt",
+            "begin": 690,
+            "end": 697,
+            "page": 54,
+            "line": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "incoming": [
+                "60"
+            ],
+            "outgoing": [
+                "57",
+                "59"
             ]
         }
     },

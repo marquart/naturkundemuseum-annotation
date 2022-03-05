@@ -174,9 +174,10 @@ digraph Annotationen {
     bgcolor="transparent";
     rankdir="LR";
     ranksep="0.8 equally";
-    fontname="sans-serif"; 
-    node [shape=record fontname="sans-serif"];
-    edge [fontname="sans-serif"];
+    fontname="sans-serif";
+    fontsize="10";
+    node [shape=record fontname="sans-serif" fontsize="10"];
+    edge [fontname="sans-serif" fontsize="10"];
     splines=ortho;
     
     {
@@ -187,6 +188,7 @@ digraph Annotationen {
     subgraph cluster_net {
         label="GRAPHLABEL";
         fontname="sans-serif";
+        fontsize="10";
      
 NODES
 
