@@ -15,10 +15,11 @@
       <div class="selectmode" :style="vizNavStyle" @click="navigate(2)">Visualizations</div>
 
     </div>
-
-    <Info class="content" v-show="mode === 0" />
-    <Query class="content" v-show="mode === 1" />
-    <Visualizations class="content" v-show="mode === 2" />
+    <div class="content">
+      <Info  v-show="mode === 0" />
+      <Query v-show="mode === 1" @displayGraphOf="setDisplayGraphOf"/>
+      <Visualizations v-show="mode === 2" :entityId="displayGraphOfEntitity"/>
+    </div>
   </div>
 </template>
 
@@ -42,6 +43,7 @@ export default {
       searchNavStyle: {background: '#EBEBEB'},
       vizNavStyle: {background: '#EBEBEB'},
       mode: 0,
+      displayGraphOfEntitity: "-1"
     }
   },
 
@@ -62,6 +64,10 @@ export default {
         this.vizNavStyle.background = '#ffffff';
       }
 
+    },
+    setDisplayGraphOf(item_id) {
+      this.displayGraphOfEntitity = item_id;
+      this.navigate(2);
     },
 
   },

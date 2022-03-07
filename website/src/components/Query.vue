@@ -5,7 +5,7 @@
             <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
             <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
         </div>
-        <SearchResults v-show="showResults" :results="searchResults" @details="renderDetails"/>
+        <SearchResults v-show="showResults" :results="searchResults" @showOneEntity="showOneEntity" @displayGraphOf="emitDisplayGraphOf"/>
     </div>
 </template>
 
@@ -36,16 +36,21 @@ export default {
         }
     },
 
+    emits: ['displayGraphOf'],
+
     mounted() {
         this.loadData();
     },
 
     methods: {
-        renderDetails(item) {
+        showOneEntity(item) {
             this.searchResults = [item];
             this.pushHistory();
             this.showResults = true;
 
+        },
+        emitDisplayGraphOf(item_id) {
+            this.$emit('displayGraphOf', item_id);
         },
 
         renderQueryResults(queryResult) {

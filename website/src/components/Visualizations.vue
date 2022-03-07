@@ -1,15 +1,19 @@
 <template>
-
-    <img class="graph"
-        src="../assets/11492.svg"
-        alt="Neighborhood graph for Entity 5535"
-    />
-
+    <div>
+        <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
+        <img class="graph"
+            src="../assets/11492.svg"
+            alt="Neighborhood graph for Entity 5535"
+        />
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'Visualizations'
+  name: 'Visualizations',
+  props: {
+      entityId: String
+  },
 
 }
 </script>

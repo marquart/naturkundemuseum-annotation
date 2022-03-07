@@ -2,7 +2,8 @@
     <div>
         <p>Found {{results.length}} Entities</p>
         <EntityCard
-            @details="requestDetails"
+            @showOneEntity="showOneEntity"
+            @displayGraphOf="emitDisplayGraphOf"
             v-for="(result, i) in results"
             :key="i"
             :entity="result"
@@ -27,12 +28,15 @@ export default {
         }
     },
 
-    emits: ['details'],
+    emits: ['showOneEntity', 'displayGraphOf'],
 
     methods: {
-        requestDetails(item) {
-            this.$emit('details', item);
-        }
+        showOneEntity(item) {
+            this.$emit('showOneEntity', item);
+        },
+        emitDisplayGraphOf(item_id) {
+            this.$emit('displayGraphOf', item_id);
+        },
     },
 }
 </script>

@@ -2,6 +2,7 @@
     <div class="card">
         <h2 class="typeHeading">{{entity.text}}</h2>
         <h3 class="entityText">{{entity.type}}</h3>
+        <p class="itemLink" @click="emitDisplayGraphOf(entity.id)"><img class="symbol" src="../assets/zoom.svg" alt="Graph Symbol"/> Show Neighborhood Graph</p>
         <div class="numericTable">
             <div class="lcell">ID:</div>
             <div class="rcell">{{entity.id}}</div>
@@ -25,7 +26,7 @@
                 v-for="(prop, i) in entity.incomingProps"
                 :key="i">
                 <div class="propItem">{{prop.source.type}}:</div>
-                <div class="propItem itemLink" @click="requestDetails(prop.source)">{{prop.source.text}}</div>
+                <div class="propItem itemLink" @click="showOneEntity(prop.source)">{{prop.source.text}}</div>
                 <div class="propItem">🡺</div>
                 <div class="propItem">{{prop.type}}</div>
                 <div class="propItem">🡺</div>
@@ -40,7 +41,7 @@
                 <div class="propItem">{{prop.type}}</div>
                 <div class="propItem">🡺</div>
                 <div class="propItem">{{prop.target.type}}:</div>
-                <div class="propItem itemLink" @click="requestDetails(prop.target)">{{prop.target.text}}</div>
+                <div class="propItem itemLink" @click="showOneEntity(prop.target)">{{prop.target.text}}</div>
             </template>
         </div>
 
@@ -61,12 +62,16 @@ export default {
         }
     },
 
-    emits: ['details'],
+    emits: ['showOneEntity','displayGraphOf'],
 
     methods: {
-        requestDetails(item) {
-            this.$emit('details', item);
-        }
+        showOneEntity(item) {
+            this.$emit('showOneEntity', item);
+        },
+        emitDisplayGraphOf(item_id) {
+            this.$emit('displayGraphOf', item_id);
+        },
+
     },
 }
 </script>
@@ -139,6 +144,11 @@ export default {
     .itemLink:hover {
         cursor: pointer;
         background: #EBEBEB;
+    }
+
+    .symbol {
+        display: inline;
+        height: 0.9em;
     }
 
 </style>
