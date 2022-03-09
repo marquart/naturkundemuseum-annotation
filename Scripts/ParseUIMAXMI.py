@@ -418,7 +418,7 @@ def serialize(obj, stringify=True):
     else:
         return obj
 
-def save_webdata(entities, properties, filepath="../website/src/data"):
+def save_webdata(entities, properties, filepath="../Website/src/data"):
     export_items = {
         "Entities": {serialized['id']:serialized for e in sorted(entities, key=attrgetter('year'), reverse=True) if (serialized := serialize(e))},
         "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))}
@@ -430,10 +430,14 @@ def save_webdata(entities, properties, filepath="../website/src/data"):
         
     entity_classes = Counter(e["type"] for e in export_items["Entities"].values())
     property_classes = Counter(p["type"] for p in export_items["Properties"].values())
+    years = Counter(e["year"] for e in export_items["Entities"].values())
+    institutions = Counter(e["institution"] for e in export_items["Entities"].values())
     
     export_classes = {
         "Entities": [f"{t[0]} ({t[1]})" for t in entity_classes.most_common()],
-        "Properties": [f"{t[0]} ({t[1]})" for t in property_classes.most_common()]
+        "Properties": [f"{t[0]} ({t[1]})" for t in property_classes.most_common()],
+        "Years": [f"{t} ({years[t]})" for t in sorted(years)],
+        "Institutions": [f"{t[0]} ({t[1]})" for t in institutions.most_common()]
     }
     
     with open(os.path.join(filepath, "class_stats.json"), 'w', encoding="utf-8") as f:

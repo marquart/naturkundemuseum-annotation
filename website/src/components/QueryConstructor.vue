@@ -1,4 +1,5 @@
 <template>
+    <YearSearcher ref="report" :years="parsedYears" :collections="parsedCollections"/>
     <div id="mask">
         <EntitySearcher class="gridItem" ref="source" :classes="entityClasses" @query="query"/>
         <PropertySearcher class="gridItem" ref="prop" :classes="propertyClasses" @query="query"/>
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import YearSearcher from './YearSearcher.vue'
 import EntitySearcher from './EntitySearcher.vue'
 import PropertySearcher from './PropertySearcher.vue'
 import SemanticClassStats from '../data/class_stats.json'
@@ -18,7 +20,8 @@ export default {
     name: 'QueryConstructor',
     components: {
         EntitySearcher,
-        PropertySearcher
+        PropertySearcher,
+        YearSearcher
     },
 
     props: {
@@ -29,8 +32,12 @@ export default {
         return {
             entityClasses: SemanticClassStats.Entities,
             propertyClasses: SemanticClassStats.Properties,
+            parsedYears: SemanticClassStats.Years,
+            parsedCollections: SemanticClassStats.Institutions,
             searchResults: [],
 
+            sourceSearchYear: 0,
+            sourceSearchCollection: '',
             sourceSearchString: '',
             sourceSearchClass: '',
             propSearchClass: '',
@@ -47,21 +54,30 @@ export default {
             let sourceData = this.$refs.source.getData();
             //let propData = this.$refs.prop.getData();
             //let targetData = this.$refs.target.getData();
+            let reportData = this.$refs.report.getData();
 
-            this.sourceSearchString = sourceData.searchString;
+            this.sourceSearchYear = reportData.searchYear;
+            this.sourceSearchCollection = reportData.searchCollection;
+            this.sourceSearchString = sourceData.searchString.toLowerCase();
             this.sourceSearchClass = sourceData.searchClass;
         },
 
         query() {
             this.getDataFromComponents();
-            console.log(this.sourceSearchString);
-            console.log(this.sourceSearchClass);
             this.searchResults = Array.from(this.filterEntities());
-            console.log(this.searchResults);
             this.$emit('queryResults', this.searchResults);
         },
 
+        validEntity(entity) {
+            let tmpYear = 0;
+            if (this.sourceSearchYear>0) tmpYear = this.sourceSearchYear;
+            else tmpYear = entity.year;
 
+            return  entity.year === tmpYear
+                    && entity.institution.indexOf(this.sourceSearchCollection) != -1
+                    && entity.type.indexOf(this.sourceSearchClass) != -1
+                    && entity.lowered_text.indexOf(this.sourceSearchString) != -1;
+        },
 
         * filterEntities() {
             let maxSize = 40;
@@ -71,9 +87,8 @@ export default {
             let count = 0;
             /* BACKWARDS SEARCH:*/
             let i = this.entities.length-1;
-            let string = this.sourceSearchString.toLowerCase();
             while (count < maxSize && i >= 0) {
-                if (this.entities[i].lowered_text.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1) {
+                if (this.validEntity(this.entities[i])) { //(this.entities[i].lowered_text.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1)
                     yield this.entities[i];
                     count++;
                 }

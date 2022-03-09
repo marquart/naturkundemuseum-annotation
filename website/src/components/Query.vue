@@ -69,7 +69,7 @@ export default {
                 this.history.push(this.searchResults);
                 this.historyCursor = this.history.length-1;
             }
-            console.log(this.history.length);
+            //console.log(this.history.length);
         },
 
         navigateHistory(delta) {

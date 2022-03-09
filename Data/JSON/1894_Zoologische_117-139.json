@@ -3948,6 +3948,27 @@
                 "4704"
             ]
         },
+        "4839": {
+            "id": "4839",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "7230",
+            "lowered_text": "7230",
+            "begin": 22593,
+            "end": 22597,
+            "page": 132,
+            "line": 13,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "4926"
+            ],
+            "outgoing": [
+                "4353",
+                "4432"
+            ]
+        },
         "4545": {
             "id": "4545",
             "type": "E8 Acquisition",
@@ -3970,6 +3991,27 @@
                 "4711"
             ]
         },
+        "4842": {
+            "id": "4842",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1760",
+            "lowered_text": "1760",
+            "begin": 22611,
+            "end": 22615,
+            "page": 132,
+            "line": 13,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "4927"
+            ],
+            "outgoing": [
+                "4354",
+                "4410"
+            ]
+        },
         "4548": {
             "id": "4548",
             "type": "E21 Person",
@@ -3988,6 +4030,27 @@
             ],
             "outgoing": [
                 "4708"
+            ]
+        },
+        "4844": {
+            "id": "4844",
+            "type": "E60 Number",
+            "virtual": false,
+            "text": "1700",
+            "lowered_text": "1700",
+            "begin": 22617,
+            "end": 22621,
+            "page": 132,
+            "line": 13,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "4928"
+            ],
+            "outgoing": [
+                "4355",
+                "4433"
             ]
         },
         "4549": {
@@ -8510,69 +8573,6 @@
             "outgoing": [
                 "4352",
                 "4409"
-            ]
-        },
-        "4839": {
-            "id": "4839",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "7230",
-            "lowered_text": "7230",
-            "begin": 22593,
-            "end": 22597,
-            "page": 132,
-            "line": 13,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "4926"
-            ],
-            "outgoing": [
-                "4353",
-                "4432"
-            ]
-        },
-        "4842": {
-            "id": "4842",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1760",
-            "lowered_text": "1760",
-            "begin": 22611,
-            "end": 22615,
-            "page": 132,
-            "line": 13,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "4927"
-            ],
-            "outgoing": [
-                "4354",
-                "4410"
-            ]
-        },
-        "4844": {
-            "id": "4844",
-            "type": "E60 Number",
-            "virtual": false,
-            "text": "1700",
-            "lowered_text": "1700",
-            "begin": 22617,
-            "end": 22621,
-            "page": 132,
-            "line": 13,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "4928"
-            ],
-            "outgoing": [
-                "4355",
-                "4433"
             ]
         }
     },
