@@ -17,6 +17,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "8938",
                 "8939",
@@ -50,6 +51,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8999",
@@ -69,6 +71,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8935",
@@ -89,6 +92,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9000"
             ],
@@ -106,6 +110,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9001"
             ],
@@ -126,6 +131,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9002",
                 "9003"
@@ -144,8 +150,9 @@
             "end": null,
             "page": -1,
             "line": -1,
-            "institution": null,
-            "year": 0,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1905,
+            "mentions": 12,
             "incoming": [
                 "8920",
                 "8921",
@@ -175,6 +182,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9004"
             ],
@@ -192,6 +200,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 4,
             "incoming": [
                 "9005",
                 "9039",
@@ -213,6 +222,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8938",
@@ -232,6 +242,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9006"
             ],
@@ -252,6 +263,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9007"
             ],
@@ -269,6 +281,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8939",
@@ -288,6 +301,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9008"
             ],
@@ -305,6 +319,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9009"
             ],
@@ -324,6 +339,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9010"
             ],
@@ -343,6 +359,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9011"
             ],
@@ -360,6 +377,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9012"
             ],
@@ -379,6 +397,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8940",
@@ -414,6 +433,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9013"
             ],
@@ -431,6 +451,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9014"
             ],
@@ -448,6 +469,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9015"
             ],
@@ -465,6 +487,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9016"
             ],
@@ -482,6 +505,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9017"
             ],
@@ -499,6 +523,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9018"
             ],
@@ -516,6 +541,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9019"
             ],
@@ -533,6 +559,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9020"
             ],
@@ -550,6 +577,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9021"
             ],
@@ -567,6 +595,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9022",
                 "9035"
@@ -585,6 +614,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9023"
             ],
@@ -602,6 +632,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9024"
             ],
@@ -619,6 +650,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9025"
             ],
@@ -636,6 +668,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9026"
             ],
@@ -653,6 +686,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9027"
             ],
@@ -670,6 +704,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9028"
             ],
@@ -687,6 +722,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9029"
             ],
@@ -704,6 +740,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9030",
                 "9277"
@@ -722,6 +759,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9031"
             ],
@@ -741,6 +779,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8941",
@@ -764,6 +803,7 @@
             "line": 25,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9032"
             ],
@@ -781,6 +821,7 @@
             "line": 25,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9033"
             ],
@@ -798,6 +839,7 @@
             "line": 25,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9034"
             ],
@@ -815,6 +857,7 @@
             "line": 26,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 2,
             "incoming": [
                 "9036",
                 "9154",
@@ -834,6 +877,7 @@
             "line": 26,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8942",
@@ -862,6 +906,7 @@
             "line": 26,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 3,
             "incoming": [
                 "9037",
                 "9110",
@@ -882,6 +927,7 @@
             "line": 27,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9038"
             ],
@@ -901,6 +947,7 @@
             "line": 28,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9040",
                 "9135"
@@ -919,6 +966,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9041"
             ],
@@ -936,6 +984,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9042"
             ],
@@ -953,6 +1002,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9043"
             ],
@@ -970,6 +1020,7 @@
             "line": 30,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9044"
             ],
@@ -987,6 +1038,7 @@
             "line": 30,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9045"
             ],
@@ -1004,6 +1056,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9046"
             ],
@@ -1021,6 +1074,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9047"
             ],
@@ -1038,6 +1092,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9048"
             ],
@@ -1055,6 +1110,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8943",
@@ -1075,6 +1131,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9049"
             ],
@@ -1092,6 +1149,7 @@
             "line": 33,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9050"
             ],
@@ -1111,6 +1169,7 @@
             "line": 33,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9051"
             ],
@@ -1128,6 +1187,7 @@
             "line": 33,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9052"
             ],
@@ -1145,6 +1205,7 @@
             "line": 33,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8944",
@@ -1172,6 +1233,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 5,
             "incoming": [
                 "9053",
                 "9111",
@@ -1194,6 +1256,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9054"
             ],
@@ -1213,6 +1276,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9055"
             ],
@@ -1230,6 +1294,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9056",
                 "9141"
@@ -1248,6 +1313,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9057",
                 "9255"
@@ -1266,6 +1332,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9058"
             ],
@@ -1283,6 +1350,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9059"
             ],
@@ -1300,6 +1368,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9060"
             ],
@@ -1317,6 +1386,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9061"
             ],
@@ -1334,6 +1404,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9062"
             ],
@@ -1351,6 +1422,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9063"
             ],
@@ -1368,6 +1440,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8945",
@@ -1390,6 +1463,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9064"
             ],
@@ -1407,6 +1481,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9065"
             ],
@@ -1426,6 +1501,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9066"
             ],
@@ -1443,6 +1519,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9067"
             ],
@@ -1460,6 +1537,7 @@
             "line": 1,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9068"
             ],
@@ -1477,6 +1555,7 @@
             "line": 2,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9069"
             ],
@@ -1494,6 +1573,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9070"
             ],
@@ -1511,6 +1591,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9071"
             ],
@@ -1530,6 +1611,7 @@
             "line": 4,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8946",
@@ -1554,6 +1636,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9073"
             ],
@@ -1571,6 +1654,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9074",
                 "9090"
@@ -1589,6 +1673,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9075"
             ],
@@ -1606,6 +1691,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9076"
             ],
@@ -1623,6 +1709,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9077"
             ],
@@ -1640,6 +1727,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8947",
@@ -1665,6 +1753,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9078"
             ],
@@ -1682,6 +1771,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9079"
             ],
@@ -1701,6 +1791,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9080"
             ],
@@ -1718,6 +1809,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9081"
             ],
@@ -1735,6 +1827,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9082",
                 "9170"
@@ -1753,6 +1846,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9083"
             ],
@@ -1770,6 +1864,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9084"
             ],
@@ -1787,6 +1882,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9085"
             ],
@@ -1804,6 +1900,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9086"
             ],
@@ -1821,6 +1918,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8948",
@@ -1845,6 +1943,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9087"
             ],
@@ -1862,6 +1961,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9088"
             ],
@@ -1881,6 +1981,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9091",
                 "9267"
@@ -1899,6 +2000,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9092"
             ],
@@ -1916,6 +2018,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9093"
             ],
@@ -1933,6 +2036,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9094"
             ],
@@ -1950,6 +2054,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8949",
@@ -1970,6 +2075,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9095"
             ],
@@ -1987,6 +2093,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9096"
             ],
@@ -2006,6 +2113,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9097"
             ],
@@ -2023,6 +2131,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9098",
                 "9269"
@@ -2041,6 +2150,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8950",
@@ -2060,6 +2170,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9099"
             ],
@@ -2077,6 +2188,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9100"
             ],
@@ -2096,6 +2208,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9101"
             ],
@@ -2113,6 +2226,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9102"
             ],
@@ -2132,6 +2246,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8922",
@@ -2150,8 +2265,9 @@
             "end": null,
             "page": -1,
             "line": -1,
-            "institution": null,
-            "year": 0,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "8922",
                 "8933"
@@ -2170,6 +2286,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9104"
             ],
@@ -2189,6 +2306,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9103"
             ],
@@ -2208,6 +2326,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9105"
             ],
@@ -2227,6 +2346,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9106"
             ],
@@ -2246,6 +2366,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8952",
@@ -2264,6 +2385,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9107"
             ],
@@ -2281,6 +2403,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9108"
             ],
@@ -2317,6 +2440,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9109"
             ],
@@ -2334,6 +2458,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9112"
             ],
@@ -2351,6 +2476,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9113"
             ],
@@ -2368,6 +2494,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9114"
             ],
@@ -2385,6 +2512,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9115"
             ],
@@ -2402,6 +2530,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9116",
                 "9133"
@@ -2420,6 +2549,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9117"
             ],
@@ -2437,6 +2567,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9118"
             ],
@@ -2454,6 +2585,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9119",
                 "9244"
@@ -2472,6 +2604,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9120"
             ],
@@ -2489,6 +2622,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9121",
                 "9279"
@@ -2507,6 +2641,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9122"
             ],
@@ -2524,6 +2659,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9123"
             ],
@@ -2541,6 +2677,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9124",
                 "9130"
@@ -2559,6 +2696,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9125",
                 "9131"
@@ -2577,6 +2715,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "8935",
                 "8953",
@@ -2619,6 +2758,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9126"
             ],
@@ -2636,6 +2776,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9127"
             ],
@@ -2655,6 +2796,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8953",
@@ -2673,6 +2815,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8954",
@@ -2691,6 +2834,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9128"
             ],
@@ -2708,6 +2852,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9129"
             ],
@@ -2732,6 +2877,7 @@
             "line": 25,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9132"
             ],
@@ -2749,6 +2895,7 @@
             "line": 25,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9134"
             ],
@@ -2766,6 +2913,7 @@
             "line": 26,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8955",
@@ -2785,6 +2933,7 @@
             "line": 27,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9136"
             ],
@@ -2804,6 +2953,7 @@
             "line": 27,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8956",
@@ -2823,6 +2973,7 @@
             "line": 27,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9137"
             ],
@@ -2840,6 +2991,7 @@
             "line": 28,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9138"
             ],
@@ -2857,6 +3009,7 @@
             "line": 28,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9139"
             ],
@@ -2876,6 +3029,7 @@
             "line": 28,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8957",
@@ -2895,6 +3049,7 @@
             "line": 28,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9140",
                 "9182"
@@ -2913,6 +3068,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9142"
             ],
@@ -2930,6 +3086,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9143"
             ],
@@ -2950,6 +3107,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9145"
             ],
@@ -2967,6 +3125,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8958",
@@ -2986,6 +3145,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9146"
             ],
@@ -3005,6 +3165,7 @@
             "line": 29,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9147"
             ],
@@ -3022,6 +3183,7 @@
             "line": 30,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9148"
             ],
@@ -3039,6 +3201,7 @@
             "line": 30,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8959",
@@ -3058,6 +3221,7 @@
             "line": 30,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9149"
             ],
@@ -3075,6 +3239,7 @@
             "line": 30,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9150"
             ],
@@ -3094,6 +3259,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9151"
             ],
@@ -3111,6 +3277,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8960",
@@ -3130,6 +3297,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9152"
             ],
@@ -3149,6 +3317,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9153"
             ],
@@ -3166,6 +3335,7 @@
             "line": 31,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8961",
@@ -3185,6 +3355,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9155"
             ],
@@ -3204,6 +3375,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9156"
             ],
@@ -3221,6 +3393,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9157",
                 "9253"
@@ -3239,6 +3412,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8962",
@@ -3258,6 +3432,7 @@
             "line": 32,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9158"
             ],
@@ -3278,6 +3453,7 @@
             "line": 33,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9159"
             ],
@@ -3297,6 +3473,7 @@
             "line": 33,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9160"
             ],
@@ -3314,6 +3491,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8963",
@@ -3333,6 +3511,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9162"
             ],
@@ -3350,6 +3529,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9163"
             ],
@@ -3369,6 +3549,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9164"
             ],
@@ -3386,6 +3567,7 @@
             "line": 34,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8964",
@@ -3405,6 +3587,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9165"
             ],
@@ -3424,6 +3607,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9166"
             ],
@@ -3441,6 +3625,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9167"
             ],
@@ -3458,6 +3643,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8965",
@@ -3477,6 +3663,7 @@
             "line": 35,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9168"
             ],
@@ -3494,6 +3681,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9169"
             ],
@@ -3513,6 +3701,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8966",
@@ -3532,6 +3721,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9171"
             ],
@@ -3551,6 +3741,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9172"
             ],
@@ -3568,6 +3759,7 @@
             "line": 36,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9173"
             ],
@@ -3585,6 +3777,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9174"
             ],
@@ -3604,6 +3797,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8967",
@@ -3623,6 +3817,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9176"
             ],
@@ -3640,6 +3835,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8968",
@@ -3659,6 +3855,7 @@
             "line": 37,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9177"
             ],
@@ -3678,6 +3875,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9178"
             ],
@@ -3695,6 +3893,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9179"
             ],
@@ -3712,6 +3911,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8969",
@@ -3731,6 +3931,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9180"
             ],
@@ -3751,6 +3952,7 @@
             "line": 38,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9181"
             ],
@@ -3768,6 +3970,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9183"
             ],
@@ -3785,6 +3988,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9184"
             ],
@@ -3802,6 +4006,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9185"
             ],
@@ -3821,6 +4026,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9186"
             ],
@@ -3842,6 +4048,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8970",
@@ -3861,6 +4068,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9187",
                 "9268"
@@ -3879,6 +4087,7 @@
             "line": 39,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9188"
             ],
@@ -3896,6 +4105,7 @@
             "line": 40,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8971",
@@ -3915,6 +4125,7 @@
             "line": 40,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9189"
             ],
@@ -3932,6 +4143,7 @@
             "line": 40,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9190"
             ],
@@ -3951,6 +4163,7 @@
             "line": 40,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9191"
             ],
@@ -3972,6 +4185,7 @@
             "line": 40,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9192"
             ],
@@ -3989,6 +4203,7 @@
             "line": 40,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9193"
             ],
@@ -4006,6 +4221,7 @@
             "line": 2,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9194"
             ],
@@ -4025,6 +4241,7 @@
             "line": 2,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9195"
             ],
@@ -4042,6 +4259,7 @@
             "line": 2,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8972",
@@ -4062,6 +4280,7 @@
             "line": 2,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9196"
             ],
@@ -4079,6 +4298,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9197"
             ],
@@ -4096,6 +4316,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8973",
@@ -4115,6 +4336,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9198"
             ],
@@ -4134,6 +4356,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9200"
             ],
@@ -4151,6 +4374,7 @@
             "line": 3,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8974",
@@ -4170,6 +4394,7 @@
             "line": 4,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9201"
             ],
@@ -4189,6 +4414,7 @@
             "line": 4,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 1,
             "incoming": [
                 "9202",
                 "9264"
@@ -4207,6 +4433,7 @@
             "line": 4,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9203"
             ],
@@ -4224,6 +4451,7 @@
             "line": 4,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8975",
@@ -4243,6 +4471,7 @@
             "line": 4,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9204"
             ],
@@ -4263,6 +4492,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9205"
             ],
@@ -4282,6 +4512,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9206"
             ],
@@ -4299,6 +4530,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9207"
             ],
@@ -4316,6 +4548,7 @@
             "line": 5,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8976",
@@ -4335,6 +4568,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9208"
             ],
@@ -4354,6 +4588,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9209"
             ],
@@ -4373,6 +4608,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9210"
             ],
@@ -4390,6 +4626,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8977",
@@ -4409,6 +4646,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9211"
             ],
@@ -4428,6 +4666,7 @@
             "line": 6,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9212"
             ],
@@ -4447,6 +4686,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "8936",
                 "8978",
@@ -4483,6 +4723,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8978",
@@ -4502,6 +4743,7 @@
             "line": 7,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9213"
             ],
@@ -4519,6 +4761,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9214"
             ],
@@ -4536,6 +4779,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9215"
             ],
@@ -4556,6 +4800,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8979",
@@ -4575,6 +4820,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9216"
             ],
@@ -4592,6 +4838,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9217"
             ],
@@ -4609,6 +4856,7 @@
             "line": 8,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9218"
             ],
@@ -4628,6 +4876,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9219"
             ],
@@ -4645,6 +4894,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9220"
             ],
@@ -4662,6 +4912,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8980",
@@ -4681,6 +4932,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9222"
             ],
@@ -4700,6 +4952,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9221"
             ],
@@ -4720,6 +4973,7 @@
             "line": 9,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9223"
             ],
@@ -4737,6 +4991,7 @@
             "line": 10,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9224"
             ],
@@ -4754,6 +5009,7 @@
             "line": 10,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9225"
             ],
@@ -4771,6 +5027,7 @@
             "line": 10,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9226"
             ],
@@ -4791,6 +5048,7 @@
             "line": 10,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8981",
@@ -4810,6 +5068,7 @@
             "line": 10,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9227"
             ],
@@ -4827,6 +5086,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9228"
             ],
@@ -4844,6 +5104,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8982",
@@ -4863,6 +5124,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9229"
             ],
@@ -4882,6 +5144,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9230"
             ],
@@ -4899,6 +5162,7 @@
             "line": 11,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9231"
             ],
@@ -4916,6 +5180,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8983",
@@ -4935,6 +5200,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9232"
             ],
@@ -4952,6 +5218,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8984",
@@ -4971,6 +5238,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9234"
             ],
@@ -4990,6 +5258,7 @@
             "line": 12,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9235"
             ],
@@ -5007,6 +5276,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9236"
             ],
@@ -5024,6 +5294,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8985",
@@ -5043,6 +5314,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9237"
             ],
@@ -5062,6 +5334,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9238"
             ],
@@ -5081,6 +5354,7 @@
             "line": 13,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9239"
             ],
@@ -5098,6 +5372,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9240"
             ],
@@ -5117,6 +5392,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8986",
@@ -5136,6 +5412,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9241"
             ],
@@ -5153,6 +5430,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9243"
             ],
@@ -5170,6 +5448,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8987",
@@ -5189,6 +5468,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9242"
             ],
@@ -5208,6 +5488,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9245"
             ],
@@ -5225,6 +5506,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8988",
@@ -5244,6 +5526,7 @@
             "line": 14,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9246"
             ],
@@ -5261,6 +5544,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9247"
             ],
@@ -5278,6 +5562,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8989",
@@ -5297,6 +5582,7 @@
             "line": 15,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9248"
             ],
@@ -5316,6 +5602,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9250"
             ],
@@ -5333,6 +5620,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8990",
@@ -5352,6 +5640,7 @@
             "line": 16,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9251"
             ],
@@ -5371,6 +5660,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8991",
@@ -5396,6 +5686,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9254"
             ],
@@ -5413,6 +5704,7 @@
             "line": 17,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9256"
             ],
@@ -5430,6 +5722,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9257"
             ],
@@ -5447,6 +5740,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9258"
             ],
@@ -5464,6 +5758,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9260"
             ],
@@ -5481,6 +5776,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9259"
             ],
@@ -5500,6 +5796,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9262"
             ],
@@ -5517,6 +5814,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8992",
@@ -5536,6 +5834,7 @@
             "line": 18,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9263"
             ],
@@ -5555,6 +5854,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9265"
             ],
@@ -5572,6 +5872,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8993",
@@ -5592,6 +5893,7 @@
             "line": 19,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9266"
             ],
@@ -5611,6 +5913,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8994",
@@ -5630,6 +5933,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9270"
             ],
@@ -5649,6 +5953,7 @@
             "line": 20,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9271"
             ],
@@ -5666,6 +5971,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8933",
@@ -5686,6 +5992,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9272"
             ],
@@ -5703,6 +6010,7 @@
             "line": 21,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": []
         },
@@ -5718,6 +6026,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9273"
             ],
@@ -5735,6 +6044,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9275"
             ],
@@ -5754,6 +6064,7 @@
             "line": 22,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9274"
             ],
@@ -5774,6 +6085,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8996",
@@ -5792,6 +6104,7 @@
             "line": 23,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9276"
             ],
@@ -5816,6 +6129,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9278"
             ],
@@ -5833,6 +6147,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9280"
             ],
@@ -5850,6 +6165,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9281"
             ],
@@ -5867,6 +6183,7 @@
             "line": 24,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "9282"
             ],
@@ -5884,6 +6201,7 @@
             "line": 26,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [
                 "8937",
                 "8997"
@@ -5902,6 +6220,7 @@
             "line": 26,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1905,
+            "mentions": 0,
             "incoming": [],
             "outgoing": [
                 "8997"

@@ -9,7 +9,7 @@
             @keydown.enter="$emit('query')"
         />
 
-        <label for="selectfield">Search via an semantic class:</label>
+        <label for="selectfield">Search via semantic class:</label>
         <select class="selectfield"
             v-model="searchClass">
             <option selected value=""></option>
@@ -63,7 +63,8 @@ export default {
         width: 90%;
         font-size: 1.2em;
         font-family: inherit;
-        margin: 1em;
+        margin: 0.3em;
+        margin-top: 1em;
         color: inherit;
     }
     .selectfield {

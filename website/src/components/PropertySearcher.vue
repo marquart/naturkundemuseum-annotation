@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="propertyfield">
         <h3>Search semantic Properties</h3> <!--<span class="arrow">→</span>-->
-
-        <label for="selectfield">Search via an semantic class:</label>
+        <p class="arrow">🡺</p>
+        <label for="selectfield">Search via semantic class:</label>
         <select class="selectfield"
             v-model="searchClass">
             <option selected value=""></option>
@@ -48,8 +48,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .propertyfield {
+        display: flex;
+        height: auto;
+    }
     .arrow {
-        font-size: 350%;
+        font-size: 200%;
+        margin: 1ex;
     }
 
     .selectfield {
@@ -57,8 +62,10 @@ export default {
         width: 90%;
         font-size: 1.2em;
         font-family: inherit;
-        margin: 1em;
+        margin: 0.3em;
         color: inherit;
+        align-self: flex-end;
+
     }
     .selectfield:hover {
         cursor: pointer;

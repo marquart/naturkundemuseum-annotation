@@ -1,0 +1,50 @@
+digraph Acquisitions_Schema {
+    bgcolor="transparent";
+    rankdir="LR";
+    
+    fontname="Source Pro"; 
+    node [shape=box fontname="Source Serif Pro"];
+    edge [fontname="Source Serif Pro"];
+    splines=ortho;
+    
+    {
+        E19 [label=<E19 Physical Object/<BR/>E20 Biological Object> color="black"];
+        E21 [label=<E21 Person/<BR/>E74 Group> color="black"];
+        E8 [label=<E8 Acquisition/<BR/>E96 Purchase> color="red"];
+        E78 [label=<E78 Curated Holding<BR/>> color="limegreen"];
+        E53_1 [label=<E53 Place> color="black"];
+        E3 [label=<E3 Condition State> color="black"];
+        E53_2 [label=<E53 Place> color="black"];
+        E28 [label=<E28 Conceptual Object> color="black"];
+        E54 [label=<E54 Dimension> color="black"];
+        
+        P23 [label=<P23 transferred<BR/>title from> color="black" style="dashed" fontsize="10"];
+        P22 [label=<P22 transferred<BR/>title to> color="black" style="dashed" fontsize="10"];
+        P53_1 [label=<P53 has former or<BR/>current location> color="black" style="dashed" fontsize="10"];
+        P24 [label=<P24 transferred<BR/>title of> color="black" style="dashed" fontsize="10"];
+        P53_2 [label=<P53 has former or<BR/>current location> color="black" style="dashed" fontsize="10"];
+        P128 [label=<P130 shows features of/<BR/>P128 carries> color="black" style="dashed" fontsize="10"];
+        P43 [label=<P43 has dimension> color="black" style="dashed" fontsize="10"];
+        P44 [label=<P44 has condition> color="black" style="dashed" fontsize="10"];
+
+    }
+    
+    E8 -> P23 [arrowhead=none];
+    P23 -> E21;
+    E8 -> P24 [arrowhead=none];
+    P24 -> E19;
+    E8 -> P22 [arrowhead=none];
+    P22 -> E78;
+    E21 -> P53_1 [arrowhead=none];
+    P53_1 -> E53_1;
+    E19 -> P128 [arrowhead=none];
+    P128 -> E28;
+    E19 -> P53_2 [arrowhead=none];
+    P53_2 -> E53_2;
+    E19 -> P43 [arrowhead=none];
+    P43 -> E54;
+    E19 -> P44 [arrowhead=none];
+    P44 -> E3;
+
+}
+    

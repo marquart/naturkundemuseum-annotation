@@ -64,7 +64,7 @@ export default {
 
 
         * filterEntities() {
-            let maxSize = 20;
+            let maxSize = 40;
             if (maxSize > this.entities.length) {
                 maxSize = this.entities.length;
             }
@@ -110,6 +110,7 @@ export default {
     .gridItem {
         grid-area: 'item';
         display: block;
+        align-self: stretch;
         text-align: center;
         margin: 5px;
         background: #ffffff;

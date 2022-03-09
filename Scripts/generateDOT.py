@@ -236,7 +236,7 @@ if __name__ == "__main__":
     parser.add_argument('--entity', '-e', type=int, default=-1)
     
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
-    svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Visualizations/DOTs/"
+    svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Temp_Visualizations/DOTs/"
 
     args = parser.parse_args()
     if args.entity > -1: generateSVG(pickle_file, svg_filepath, entity_id=args.entity)

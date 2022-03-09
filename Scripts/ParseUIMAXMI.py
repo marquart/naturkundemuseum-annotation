@@ -132,6 +132,7 @@ class SemanticEntity(object):
         
         self.year = year
         self.institution = institution
+        self.mentions = 0 # count of how many entities are consolidated with this one
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
         else: self.type = tag["SemanticClass"].strip()
@@ -176,7 +177,7 @@ class SemanticEntity(object):
                 self.line    = corrector.get_linenumber(char_begin)
 
         if check_property_exists(tag, "HasType"):
-            target = SemanticEntity({'SemanticClass':'E55 Type','string':tag["HasType"].strip()}, corrector, virtual=True)
+            target = SemanticEntity({'SemanticClass':'E55 Type','string':tag["HasType"].strip()}, corrector, anchors=anchors, virtual=True, year=year, institution=institution)
             property = SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=self, target=target)
     
     def __str__(self):
@@ -301,28 +302,29 @@ def consolidate_properties(property, queen, incoming=True):
     return property
     
 
-def consolidate_entities(entities, entity_map):
+def consolidate_entities(entities, entity_map, verbose=False):
     only_one_entity_needed = ("E55 Type", "E78 Curated Holding", "E21 Person", "E53 Place", "E28 Conceptual Object")
     uniques = defaultdict(dict)
     
     matches = 0
     for entity in entities:
         if entity.type in only_one_entity_needed and "chausammlung" not in entity.string:
-            entity_string = entity.string.lower()
+            entity_string = entity.string.replace(' ','').lower()
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]
                 queen.incoming += [consolidate_properties(p, queen, incoming=True) for p in entity.incoming]
                 queen.outgoing += [consolidate_properties(p, queen, incoming=False) for p in entity.outgoing]
+                queen.mentions += 1
                 entity_map[entity.original_id] = queen
                 matches += 1
-                print(f"    Resolved {entity}({entity.id}) to {queen}({queen.id})")
+                if verbose: print(f"    Resolved {entity}({entity.id}) to {queen}({queen.id})")
             else:
                 uniques[entity.type][entity_string] = entity
     
     result = set(entity_map.values())
     assert len(entities)-matches == len(result)
     
-    print(f"{len(entities)} Entities resolved to {len(result)} Entities")
+    if verbose: print(f"{len(entities)} Entities resolved to {len(result)} Entities")
     return result, entity_map
 
 
@@ -339,7 +341,7 @@ def check_property_exists(obj, property):
         return obj.has_attr(property)
     return property in obj
 
-def parse(filepath, verbose=False, year=None, institution=None):
+def parse(filepath, verbose=True, year=None, institution=None, consolidate=True):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)
     '''
     
@@ -360,7 +362,7 @@ def parse(filepath, verbose=False, year=None, institution=None):
     
     set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
-    entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
+    if consolidate: entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
     
     properties = [SemanticProperty(tag, entity_map, year=year, institution=institution) for tag in xml.find_all("custom:SemanticRelations")]
     if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
@@ -401,7 +403,7 @@ def serialize(obj, stringify=True):
         "id": str(obj.id) if stringify else obj.id,
         "type": obj.type,
         "virtual": obj.virtual,
-        "text": obj.string if stringify else obj.string,
+        "text": obj.string,
         "lowered_text": obj.string.lower(),
         "begin": obj.begin,
         "end": obj.end,
@@ -409,6 +411,7 @@ def serialize(obj, stringify=True):
         "line": obj.line,
         "institution": obj.institution,
         "year": obj.year,
+        "mentions": obj.mentions,
         "incoming": [str(prop.id) if stringify else prop.id for prop in obj.incoming],
         "outgoing": [str(prop.id) if stringify else prop.id for prop in obj.outgoing]
         }
@@ -436,7 +439,7 @@ def save_webdata(entities, properties, filepath="../website/src/data"):
     with open(os.path.join(filepath, "class_stats.json"), 'w', encoding="utf-8") as f:
         json.dump(export_classes, f, ensure_ascii=False, indent=2)
     
-    print(f"\nSaved all Entities, Properties and Class stats as JSON to '{filepath}'\n")
+    print(f"Saved all Entities, Properties and Class stats as JSON to '{filepath}'\n")
 
 def save_json(filepath, file, text, entities, properties):
     year, institution, page_begin, page_end = extract_ins_year(file)
@@ -455,7 +458,7 @@ def save_json(filepath, file, text, entities, properties):
     with open(os.path.join(filepath, json_file), 'w', encoding="utf-8") as f:
         json.dump(export, f, ensure_ascii=False, indent=4)
     
-    print(f"\nSaved '{file}' as JSON to '{os.path.join(filepath, json_file)}'\n")
+    print(f"    Saved '{file}' as JSON to '{os.path.join(filepath, json_file)}'\n")
     
 def get_data_for_pickling(file, text, entities, properties):
     year, institution, page_begin, page_end = extract_ins_year(file)
@@ -472,7 +475,7 @@ def get_data_for_pickling(file, text, entities, properties):
     return export
 
 
-def stats_directory(dirpath, save=False):
+def stats_directory(dirpath, save=False, consolidate=True):
     class_counter = Counter()
     properties_counter = Counter()
     
@@ -482,28 +485,22 @@ def stats_directory(dirpath, save=False):
     for file in os.listdir(dirpath):
         if file.endswith(".xmi"):
             year, institution, _, __ = extract_ins_year(file)
-            text, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution)
+            text, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate)
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
             #print("\n".join([str(e) for e in properties]))
             
+            for_pickling.append(get_data_for_pickling(file, text, entities, properties))
             if save:
                 save_json(JSON_PATH, file, text, entities, properties)
-                for_pickling.append(get_data_for_pickling(file, text, entities, properties))
-            
-            '''
-            for e in entities:
-                if "Condition" in e.type:
-                    for i in e.incoming:
-                        print(f"Incoming: {str(i)}-->{str(i.source)}")
-                    for i in e.outgoing:
-                        print(f"outgoing: {str(i)}-->{str(i.target)}")'''
+                
     
-    if for_pickling:
+    if save and for_pickling:
         with open("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle", 'wb') as f:
             pickle.dump(for_pickling, f)
-    
-    save_webdata(chain.from_iterable(file["Entities"].values() for file in for_pickling), chain.from_iterable(file["Properties"].values() for file in for_pickling))
+            
+        print(f"Saved all Entities, Properties as Pickle to 'C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle'")
+        save_webdata(chain.from_iterable(file["Entities"].values() for file in for_pickling), chain.from_iterable(file["Properties"].values() for file in for_pickling))
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
     for t, c in class_counter.most_common():
@@ -513,17 +510,8 @@ def stats_directory(dirpath, save=False):
     for t, c in properties_counter.most_common():
         print(f"| {t:<90} | {c:<5} |")
     
+    return for_pickling
     
 if __name__ == "__main__":
     DIR_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
-    stats_directory(DIR_PATH, save=True)
-    
-    exit(3)
-
-    TEST_FILE = "C:/Users/Aron/Downloads/webanno5422277547538360861export/1889_Zoologische_140-144.xmi"#"C:/Users/Aron/Downloads/webanno17844155560286750721export/1889_Geologisch-paläontologische_137-138.xmi"#"C:/Users/Aron/Downloads/webanno3163352340135431318export/1887_Museum_67-67.xmi"
-    text, entities, properties = parse(TEST_FILE)
-    print(text, '\n')
-    
-    print("\n".join([str(e) for e in properties]))
-
-
+    stats_directory(DIR_PATH, save=True, consolidate=True)

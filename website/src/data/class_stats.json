@@ -1,12 +1,12 @@
 {
   "Entities": [
-    "E21 Person (2181)",
-    "E53 Place (1510)",
+    "E21 Person (2179)",
+    "E53 Place (1492)",
     "E8 Acquisition (1019)",
     "E19 Physical Object (1011)",
     "E20 Biological Object (536)",
-    "E78 Curated Holding (504)",
-    "E28 Conceptual Object (453)",
+    "E78 Curated Holding (503)",
+    "E28 Conceptual Object (452)",
     "E54 Dimension (382)",
     "E60 Number (291)",
     "E74 Group (188)",

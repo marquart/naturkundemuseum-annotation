@@ -1,10 +1,12 @@
 <template>
     <div>
         <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
-        <img class="graph"
-            src="../assets/11492.svg"
-            alt="Neighborhood graph for Entity 5535"
-        />
+        <a href="../assets/11492.svg" target="_blank">
+            <img class="graph"
+                src="../assets/11492.svg"
+                alt="Neighborhood graph for Entity 11492"
+            />
+        </a>
     </div>
 </template>
 
@@ -13,6 +15,12 @@ export default {
   name: 'Visualizations',
   props: {
       entityId: String
+  },
+
+  data() {
+      return {
+          svg_src: "../assets/11492.svg"
+      }
   },
 
 }

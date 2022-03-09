@@ -53,6 +53,8 @@ dkms.conf
 
 # VENV
 **/venv*
+__pycache__/
+
 
 # Tex
 *.aux
