@@ -1,6 +1,6 @@
 <template>
     <div>
-        <QueryConstructor :entities="entities" @queryResults="renderQueryResults"/>
+        <QueryConstructor :entities="entities" :stats="stats" @queryResults="renderQueryResults"/>
         <div id="navigationElements">
             <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
             <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
@@ -12,7 +12,7 @@
 <script>
 import QueryConstructor from './QueryConstructor.vue'
 import SearchResults from './SearchResults.vue'
-import SemanticData from '../data/webdata.json'
+
 
 export default {
     name: 'Query',
@@ -21,25 +21,23 @@ export default {
         SearchResults
     },
 
+    emits: ['displayGraphOf'],
+
+    props: {
+        properties: Array,
+        entities: Array,
+        stats: Object
+    },
+
     data() {
         return {
             showResults: false,
-
-            entitiesMap: null,
-            properties: [],
-            entities: [],
 
             searchResults: [],
             history: [],
             historyCursor: -1
 
         }
-    },
-
-    emits: ['displayGraphOf'],
-
-    mounted() {
-        this.loadData();
     },
 
     methods: {
@@ -82,32 +80,7 @@ export default {
             console.log(this.historyCursor);
         },
 
-        loadData() {
-            this.entitiesMap = SemanticData.Entities;
-            this.properties = Object.values(SemanticData.Properties);
-            this.properties.forEach(this.populateProperty);
 
-            this.entities = Object.values(this.entitiesMap)
-            console.log(this.entities.length);
-        },
-
-        populateProperty(element) {
-            element.source = this.entitiesMap[element.source];
-            element.target = this.entitiesMap[element.target];
-
-            if (Object.prototype.hasOwnProperty.call(element.source, "outgoingProps")) {
-                element.source.outgoingProps.push(element);
-            } else {
-                element.source.outgoingProps = [element];
-            }
-
-            if (Object.prototype.hasOwnProperty.call(element.target, "incomingProps")) {
-                element.target.incomingProps.push(element);
-            } else {
-                element.target.incomingProps = [element];
-            }
-
-        },
     }
 }
 </script>

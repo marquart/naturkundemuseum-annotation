@@ -35,6 +35,8 @@ class Corrector(object):
         self.text        = text
         self.pagenumbers = {}
         self.linenumbers = {}
+        self.lineidx_from_orig = {0:0,}
+        self.lines       = []
         self.cleaner     = str.maketrans("\n", " ", "\r‑-­")
         
     def __len__(self):
@@ -85,13 +87,24 @@ class Corrector(object):
 
         
     def set_linenumbers(self):
-        LINEBREAK_PATTERN = re.compile('\n|­')
+        LINEBREAK_PATTERN = re.compile('\r?\n|­')
         pages = list(self.pagenumbers) + [len(self.text)]
         
         for pagestart, pageend in zip(pages, pages[1:]):
             self.linenumbers[pagestart] = 1
             for i, match in enumerate(LINEBREAK_PATTERN.finditer(self.text[pagestart:pageend]), start=2):
                 self.linenumbers[match.start()+pagestart] = i
+
+        for i, match in enumerate(LINEBREAK_PATTERN.finditer(self.text), start=1):
+            self.lineidx_from_orig[match.start()] = i
+        
+        self.lines = []
+        cursor = 0
+        for match in re.compile('\r?\n|(­)').finditer(self.text):
+            if match.group(1): self.lines.append(f"{self.text[cursor:match.start()]}-")
+            else: self.lines.append(self.text[cursor:match.start()])
+            cursor = match.end()
+        self.lines.append(self.text[cursor:len(self.text)])
         
     def get_pagenumber(self, index):
         cursor = index
@@ -108,6 +121,14 @@ class Corrector(object):
                 if cursor in self.linenumbers: return self.linenumbers[cursor]
                 cursor -= 1
         return -1
+        
+    def get_lineidx(self, index):
+        cursor = index
+        if self.lineidx_from_orig:
+            while 0 <= cursor:
+                if cursor in self.lineidx_from_orig: return self.lineidx_from_orig[cursor]
+                cursor -= 1
+        return 0
         
     def offset(self, index):
         cursor = index
@@ -147,6 +168,7 @@ class SemanticEntity(object):
             self.string      = corrector.clean(tag["string"])
             self.page        = -1
             self.line        = -1
+            self.line_idx    = 0
             SemanticEntity.virtuals.append(self)
         else:
             self.original_id = int(tag["xmi:id"])
@@ -168,6 +190,7 @@ class SemanticEntity(object):
                 self.string  = "(implicit) Unknown"
                 self.page    = corrector.get_pagenumber(char_begin)
                 self.line    = corrector.get_linenumber(char_begin)
+                self.line_idx= corrector.get_lineidx(char_begin)
             else:
                 self.virtual = False
                 self.begin   = corrector.offset(char_begin)
@@ -175,6 +198,7 @@ class SemanticEntity(object):
                 self.string  = corrector.clean(corrector.text[self.begin:self.end]) # self.clean(corrector.text[self.begin:self.end])
                 self.page    = corrector.get_pagenumber(char_begin)
                 self.line    = corrector.get_linenumber(char_begin)
+                self.line_idx= corrector.get_lineidx(char_begin)
 
         if check_property_exists(tag, "HasType"):
             target = SemanticEntity({'SemanticClass':'E55 Type','string':tag["HasType"].strip()}, corrector, anchors=anchors, virtual=True, year=year, institution=institution)
@@ -370,7 +394,7 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True)
     
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
-    return text, entities, properties
+    return text, corrector.lines, entities, properties
 
 def extract_ins_year(filename):
     FILENAME_PATTERN = re.compile("^(\d\d\d\d)_(.*?)_(\d?\d?\d)-(\d?\d?\d)\.xmi$")
@@ -409,6 +433,8 @@ def serialize(obj, stringify=True):
         "end": obj.end,
         "page": obj.page,
         "line": obj.line,
+        "txt_id": f"{obj.institution[:3]}_{obj.year}",
+        "line_idx": obj.line_idx,
         "institution": obj.institution,
         "year": obj.year,
         "mentions": obj.mentions,
@@ -418,10 +444,11 @@ def serialize(obj, stringify=True):
     else:
         return obj
 
-def save_webdata(entities, properties, filepath="../Website/src/data"):
+def save_webdata(entities, properties, lines, filepath="../Website/src/data"):
     export_items = {
         "Entities": {serialized['id']:serialized for e in sorted(entities, key=attrgetter('year'), reverse=True) if (serialized := serialize(e))},
-        "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))}
+        "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))},
+        "Texts": lines
     }
     #assert len(export_items["Entities"]) == len(entities) and len(export_items["Properties"]) == len(properties)
     
@@ -464,7 +491,7 @@ def save_json(filepath, file, text, entities, properties):
     
     print(f"    Saved '{file}' as JSON to '{os.path.join(filepath, json_file)}'\n")
     
-def get_data_for_pickling(file, text, entities, properties):
+def get_data_for_pickling(file, lines, text, entities, properties):
     year, institution, page_begin, page_end = extract_ins_year(file)
     export = {
         "Institution": institution,
@@ -472,6 +499,7 @@ def get_data_for_pickling(file, text, entities, properties):
         "Page_Begin": page_begin,
         "Page_End": page_end,
         "Text": text,
+        "Lines": lines,
         "Entities": {e.id:e for e in entities},
         "Properties": {p.id:p for p in properties}
     }
@@ -489,12 +517,12 @@ def stats_directory(dirpath, save=False, consolidate=True):
     for file in os.listdir(dirpath):
         if file.endswith(".xmi"):
             year, institution, _, __ = extract_ins_year(file)
-            text, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate)
+            text, lines, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate)
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
             #print("\n".join([str(e) for e in properties]))
             
-            for_pickling.append(get_data_for_pickling(file, text, entities, properties))
+            for_pickling.append(get_data_for_pickling(file, lines, text, entities, properties))
             if save:
                 save_json(JSON_PATH, file, text, entities, properties)
                 
@@ -504,7 +532,7 @@ def stats_directory(dirpath, save=False, consolidate=True):
             pickle.dump(for_pickling, f)
             
         print(f"Saved all Entities, Properties as Pickle to 'C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle'")
-        save_webdata(chain.from_iterable(file["Entities"].values() for file in for_pickling), chain.from_iterable(file["Properties"].values() for file in for_pickling))
+        save_webdata(chain.from_iterable(file["Entities"].values() for file in for_pickling), chain.from_iterable(file["Properties"].values() for file in for_pickling), {f"{file['Institution'][:3]}_{file['Year']}": file["Lines"] for file in for_pickling})
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
     for t, c in class_counter.most_common():

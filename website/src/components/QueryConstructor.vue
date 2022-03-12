@@ -1,9 +1,9 @@
 <template>
-    <YearSearcher ref="report" :years="parsedYears" :collections="parsedCollections"/>
+    <YearSearcher ref="report" :years="stats.parsedYears" :collections="stats.parsedCollections"/>
     <div id="mask">
-        <EntitySearcher class="gridItem" ref="source" :classes="entityClasses" @query="query"/>
-        <PropertySearcher class="gridItem" ref="prop" :classes="propertyClasses" @query="query"/>
-        <EntitySearcher class="gridItem" ref="target" :classes="entityClasses" @query="query"/>
+        <EntitySearcher class="gridItem" ref="source" :classes="stats.entityClasses" @query="query"/>
+        <PropertySearcher class="gridItem" ref="prop" :classes="stats.propertyClasses" @query="query"/>
+        <EntitySearcher class="gridItem" ref="target" :classes="stats.entityClasses" @query="query"/>
     </div>
     <input type="submit" value="Search" id="button" @click="query"
     />
@@ -14,7 +14,7 @@
 import YearSearcher from './YearSearcher.vue'
 import EntitySearcher from './EntitySearcher.vue'
 import PropertySearcher from './PropertySearcher.vue'
-import SemanticClassStats from '../data/class_stats.json'
+
 
 export default {
     name: 'QueryConstructor',
@@ -25,15 +25,16 @@ export default {
     },
 
     props: {
-        entities: Array
+        entities: Array,
+        stats: Object
     },
 
     data() {
         return {
-            entityClasses: SemanticClassStats.Entities,
-            propertyClasses: SemanticClassStats.Properties,
-            parsedYears: SemanticClassStats.Years,
-            parsedCollections: SemanticClassStats.Institutions,
+            /*entityClasses: stats.entityClasses,
+            propertyClasses: stats.propertyClasses,
+            parsedYears: stats.parsedYears,
+            parsedCollections: stats.parsedCollections,*/
             searchResults: [],
 
             sourceSearchYear: 0,

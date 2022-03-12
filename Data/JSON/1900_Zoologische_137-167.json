@@ -15,6 +15,8 @@
             "end": 21300,
             "page": 153,
             "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 452,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -38,78 +40,45 @@
             ],
             "outgoing": []
         },
-        "7300": {
-            "id": "7300",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Deutschland",
-            "lowered_text": "deutschland",
-            "begin": 21312,
-            "end": 21323,
+        "7299": {
+            "id": "7299",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 153,
             "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 452,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7530"
+                "7529"
             ],
-            "outgoing": []
-        },
-        "7297": {
-            "id": "7297",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Abtheilungen",
-            "lowered_text": "abtheilungen",
-            "begin": 21274,
-            "end": 21286,
-            "page": 153,
-            "line": 23,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
             "outgoing": [
-                "7477",
-                "7478",
-                "7479",
-                "7527"
+                "7530"
             ]
         },
-        "7303": {
-            "id": "7303",
-            "type": "E21 Person",
+        "7555": {
+            "id": "7555",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Dr. Friedrich",
-            "lowered_text": "dr. friedrich",
-            "begin": 21358,
-            "end": 21371,
-            "page": 153,
-            "line": 25,
+            "text": "Senegambien",
+            "lowered_text": "senegambien",
+            "begin": 24619,
+            "end": 24630,
+            "page": 155,
+            "line": 3,
+            "txt_id": "Zoo_1900",
+            "line_idx": 518,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7532"
-            ],
-            "outgoing": []
-        },
-        "7306": {
-            "id": "7306",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Moliwitz",
-            "lowered_text": "moliwitz",
-            "begin": 21396,
-            "end": 21404,
-            "page": 153,
-            "line": 25,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7535"
+                "7729"
             ],
             "outgoing": []
         },
@@ -123,6 +92,8 @@
             "end": 21332,
             "page": 153,
             "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 452,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -141,39 +112,66 @@
                 "7539"
             ]
         },
-        "7302": {
-            "id": "7302",
-            "type": "E21 Person",
+        "7297": {
+            "id": "7297",
+            "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Dr. Collin",
-            "lowered_text": "dr. collin",
-            "begin": 21346,
-            "end": 21356,
+            "text": "Abtheilungen",
+            "lowered_text": "abtheilungen",
+            "begin": 21274,
+            "end": 21286,
             "page": 153,
-            "line": 25,
+            "line": 23,
+            "txt_id": "Zoo_1900",
+            "line_idx": 451,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7477",
+                "7478",
+                "7479",
+                "7527"
+            ]
+        },
+        "7553": {
+            "id": "7553",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Korsika",
+            "lowered_text": "korsika",
+            "begin": 24601,
+            "end": 24608,
+            "page": 155,
+            "line": 3,
+            "txt_id": "Zoo_1900",
+            "line_idx": 518,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7531"
+                "7727"
             ],
             "outgoing": []
         },
-        "7309": {
-            "id": "7309",
-            "type": "E21 Person",
+        "7552": {
+            "id": "7552",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Dr. Obst",
-            "lowered_text": "dr. obst",
-            "begin": 21429,
-            "end": 21437,
-            "page": 153,
-            "line": 26,
+            "text": "Mittelmeer",
+            "lowered_text": "mittelmeer",
+            "begin": 24578,
+            "end": 24588,
+            "page": 155,
+            "line": 2,
+            "txt_id": "Zoo_1900",
+            "line_idx": 517,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7538"
+                "7726"
             ],
             "outgoing": []
         },
@@ -187,6 +185,8 @@
             "end": 21385,
             "page": 153,
             "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 453,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -205,6 +205,8 @@
             "end": 24617,
             "page": 155,
             "line": 3,
+            "txt_id": "Zoo_1900",
+            "line_idx": 518,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -213,77 +215,64 @@
             ],
             "outgoing": []
         },
-        "7305": {
-            "id": "7305",
-            "type": "E21 Person",
+        "7550": {
+            "id": "7550",
+            "type": "E96 Purchase",
             "virtual": false,
-            "text": "Mertens",
-            "lowered_text": "mertens",
-            "begin": 21387,
-            "end": 21394,
-            "page": 153,
-            "line": 25,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7534"
-            ],
-            "outgoing": []
-        },
-        "7555": {
-            "id": "7555",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Senegambien",
-            "lowered_text": "senegambien",
-            "begin": 24619,
-            "end": 24630,
-            "page": 155,
-            "line": 3,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7729"
-            ],
-            "outgoing": []
-        },
-        "7312": {
-            "id": "7312",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "DeutschOstafrika",
-            "lowered_text": "deutschostafrika",
-            "begin": 21457,
-            "end": 21475,
-            "page": 153,
-            "line": 26,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 1,
-            "incoming": [
-                "7540",
-                "7617",
-                "7618"
-            ],
-            "outgoing": []
-        },
-        "7552": {
-            "id": "7552",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Mittelmeer",
-            "lowered_text": "mittelmeer",
-            "begin": 24578,
-            "end": 24588,
+            "text": "Gekauft",
+            "lowered_text": "gekauft",
+            "begin": 24542,
+            "end": 24549,
             "page": 155,
             "line": 2,
+            "txt_id": "Zoo_1900",
+            "line_idx": 517,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7526",
+                "7725"
+            ]
+        },
+        "7300": {
+            "id": "7300",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Deutschland",
+            "lowered_text": "deutschland",
+            "begin": 21312,
+            "end": 21323,
+            "page": 153,
+            "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 452,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7726"
+                "7530"
+            ],
+            "outgoing": []
+        },
+        "7549": {
+            "id": "7549",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Elisabeth Merker",
+            "lowered_text": "elisabeth merker",
+            "begin": 24485,
+            "end": 24502,
+            "page": 154,
+            "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 510,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7724"
             ],
             "outgoing": []
         },
@@ -297,6 +286,8 @@
             "end": 21412,
             "page": 153,
             "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 454,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -315,6 +306,8 @@
             "end": 24569,
             "page": 155,
             "line": 2,
+            "txt_id": "Zoo_1900",
+            "line_idx": 517,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -339,61 +332,89 @@
                 "7740"
             ]
         },
-        "7308": {
-            "id": "7308",
+        "7302": {
+            "id": "7302",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Prof. Nitsche",
-            "lowered_text": "prof. nitsche",
-            "begin": 21414,
-            "end": 21427,
+            "text": "Dr. Collin",
+            "lowered_text": "dr. collin",
+            "begin": 21346,
+            "end": 21356,
             "page": 153,
-            "line": 26,
+            "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 453,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7537"
+                "7531"
             ],
             "outgoing": []
         },
-        "7315": {
-            "id": "7315",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Glauning",
-            "lowered_text": "glauning",
-            "begin": 21502,
-            "end": 21510,
-            "page": 153,
-            "line": 27,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 2,
-            "incoming": [
-                "7514",
-                "7543",
-                "7718"
-            ],
-            "outgoing": []
-        },
-        "7549": {
-            "id": "7549",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Elisabeth Merker",
-            "lowered_text": "elisabeth merker",
-            "begin": 24485,
-            "end": 24502,
+        "7547": {
+            "id": "7547",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 154,
             "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 510,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7724"
+                "7722"
+            ],
+            "outgoing": [
+                "7723"
+            ]
+        },
+        "7303": {
+            "id": "7303",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Friedrich",
+            "lowered_text": "dr. friedrich",
+            "begin": 21358,
+            "end": 21371,
+            "page": 153,
+            "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 453,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7532"
             ],
             "outgoing": []
+        },
+        "7546": {
+            "id": "7546",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 154,
+            "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 510,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7525",
+                "7722",
+                "7724"
+            ]
         },
         "7310": {
             "id": "7310",
@@ -405,6 +426,8 @@
             "end": 21451,
             "page": 153,
             "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 454,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -423,11 +446,197 @@
             "end": 24475,
             "page": 154,
             "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 510,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
                 "7723"
+            ],
+            "outgoing": []
+        },
+        "7305": {
+            "id": "7305",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Mertens",
+            "lowered_text": "mertens",
+            "begin": 21387,
+            "end": 21394,
+            "page": 153,
+            "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 453,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7534"
+            ],
+            "outgoing": []
+        },
+        "7544": {
+            "id": "7544",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Weise",
+            "lowered_text": "weise",
+            "begin": 24442,
+            "end": 24447,
+            "page": 154,
+            "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 510,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7720"
+            ],
+            "outgoing": []
+        },
+        "7306": {
+            "id": "7306",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Moliwitz",
+            "lowered_text": "moliwitz",
+            "begin": 21396,
+            "end": 21404,
+            "page": 153,
+            "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 453,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7535"
+            ],
+            "outgoing": []
+        },
+        "7543": {
+            "id": "7543",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Götze",
+            "lowered_text": "götze",
+            "begin": 24435,
+            "end": 24440,
+            "page": 154,
+            "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 510,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7719"
+            ],
+            "outgoing": []
+        },
+        "7313": {
+            "id": "7313",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 153,
+            "line": 27,
+            "txt_id": "Zoo_1900",
+            "line_idx": 455,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7541"
+            ],
+            "outgoing": [
+                "7540"
+            ]
+        },
+        "7308": {
+            "id": "7308",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Prof. Nitsche",
+            "lowered_text": "prof. nitsche",
+            "begin": 21414,
+            "end": 21427,
+            "page": 153,
+            "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 454,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7537"
+            ],
+            "outgoing": []
+        },
+        "7309": {
+            "id": "7309",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Obst",
+            "lowered_text": "dr. obst",
+            "begin": 21429,
+            "end": 21437,
+            "page": 153,
+            "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 454,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7538"
+            ],
+            "outgoing": []
+        },
+        "7540": {
+            "id": "7540",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 154,
+            "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 509,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7716"
+            ],
+            "outgoing": [
+                "7715"
+            ]
+        },
+        "7316": {
+            "id": "7316",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Freiherr von Gordon",
+            "lowered_text": "freiherr von gordon",
+            "begin": 21512,
+            "end": 21531,
+            "page": 153,
+            "line": 27,
+            "txt_id": "Zoo_1900",
+            "line_idx": 455,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7544"
             ],
             "outgoing": []
         },
@@ -441,6 +650,8 @@
             "end": null,
             "page": 153,
             "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 454,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -465,44 +676,8 @@
                 "7556"
             ]
         },
-        "7553": {
-            "id": "7553",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Korsika",
-            "lowered_text": "korsika",
-            "begin": 24601,
-            "end": 24608,
-            "page": 155,
-            "line": 3,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7727"
-            ],
-            "outgoing": []
-        },
-        "7318": {
-            "id": "7318",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "F. Langheld",
-            "lowered_text": "f. langheld",
-            "begin": 21541,
-            "end": 21552,
-            "page": 153,
-            "line": 28,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7546"
-            ],
-            "outgoing": []
-        },
-        "7546": {
-            "id": "7546",
+        "7538": {
+            "id": "7538",
             "type": "E8 Acquisition",
             "virtual": true,
             "text": "(implicit) Unknown",
@@ -510,204 +685,64 @@
             "begin": null,
             "end": null,
             "page": 154,
-            "line": 38,
+            "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 509,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7525",
-                "7722",
-                "7724"
+                "7524",
+                "7716",
+                "7717",
+                "7718",
+                "7719",
+                "7720",
+                "7721"
             ]
         },
-        "7313": {
-            "id": "7313",
-            "type": "E19 Physical Object",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 153,
-            "line": 27,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7541"
-            ],
-            "outgoing": [
-                "7540"
-            ]
-        },
-        "7314": {
-            "id": "7314",
-            "type": "E21 Person",
+        "7312": {
+            "id": "7312",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Dr. Fülleborn",
-            "lowered_text": "dr. fülleborn",
-            "begin": 21487,
-            "end": 21500,
+            "text": "DeutschOstafrika",
+            "lowered_text": "deutschostafrika",
+            "begin": 21457,
+            "end": 21475,
             "page": 153,
-            "line": 27,
+            "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 454,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 1,
             "incoming": [
-                "7542",
-                "7717"
+                "7540",
+                "7617",
+                "7618"
             ],
             "outgoing": []
         },
-        "7550": {
-            "id": "7550",
-            "type": "E96 Purchase",
-            "virtual": false,
-            "text": "Gekauft",
-            "lowered_text": "gekauft",
-            "begin": 24542,
-            "end": 24549,
-            "page": 155,
-            "line": 2,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7526",
-                "7725"
-            ]
-        },
-        "7321": {
-            "id": "7321",
+        "7537": {
+            "id": "7537",
             "type": "E21 Person",
             "virtual": false,
-            "text": "v. Prittwitz",
-            "lowered_text": "v. prittwitz",
-            "begin": 21583,
-            "end": 21595,
-            "page": 153,
-            "line": 28,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7549"
-            ],
-            "outgoing": []
-        },
-        "7543": {
-            "id": "7543",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Götze",
-            "lowered_text": "götze",
-            "begin": 24435,
-            "end": 24440,
+            "text": "Peters",
+            "lowered_text": "peters",
+            "begin": 24368,
+            "end": 24374,
             "page": 154,
-            "line": 38,
+            "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 508,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7719"
+                "7714"
             ],
             "outgoing": []
-        },
-        "7316": {
-            "id": "7316",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Freiherr von Gordon",
-            "lowered_text": "freiherr von gordon",
-            "begin": 21512,
-            "end": 21531,
-            "page": 153,
-            "line": 27,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7544"
-            ],
-            "outgoing": []
-        },
-        "7317": {
-            "id": "7317",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Grimm",
-            "lowered_text": "grimm",
-            "begin": 21534,
-            "end": 21539,
-            "page": 153,
-            "line": 28,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7545"
-            ],
-            "outgoing": []
-        },
-        "7547": {
-            "id": "7547",
-            "type": "E19 Physical Object",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 154,
-            "line": 38,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7722"
-            ],
-            "outgoing": [
-                "7723"
-            ]
-        },
-        "7324": {
-            "id": "7324",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. Stirling",
-            "lowered_text": "dr. stirling",
-            "begin": 21626,
-            "end": 21638,
-            "page": 153,
-            "line": 29,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7552"
-            ],
-            "outgoing": []
-        },
-        "7540": {
-            "id": "7540",
-            "type": "E19 Physical Object",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 154,
-            "line": 37,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7716"
-            ],
-            "outgoing": [
-                "7715"
-            ]
         },
         "7319": {
             "id": "7319",
@@ -719,6 +754,8 @@
             "end": 21564,
             "page": 153,
             "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 456,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -737,6 +774,8 @@
             "end": 24393,
             "page": 154,
             "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 509,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -745,77 +784,70 @@
             ],
             "outgoing": []
         },
-        "7320": {
-            "id": "7320",
+        "7314": {
+            "id": "7314",
             "type": "E21 Person",
             "virtual": false,
-            "text": "von der Marwitz",
-            "lowered_text": "von der marwitz",
-            "begin": 21566,
-            "end": 21581,
+            "text": "Dr. Fülleborn",
+            "lowered_text": "dr. fülleborn",
+            "begin": 21487,
+            "end": 21500,
             "page": 153,
-            "line": 28,
+            "line": 27,
+            "txt_id": "Zoo_1900",
+            "line_idx": 455,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 0,
+            "mentions": 1,
             "incoming": [
-                "7548"
+                "7542",
+                "7717"
             ],
             "outgoing": []
         },
-        "7544": {
-            "id": "7544",
+        "7315": {
+            "id": "7315",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Weise",
-            "lowered_text": "weise",
-            "begin": 24442,
-            "end": 24447,
-            "page": 154,
-            "line": 38,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7720"
-            ],
-            "outgoing": []
-        },
-        "7327": {
-            "id": "7327",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Wiese",
-            "lowered_text": "wiese",
-            "begin": 21673,
-            "end": 21678,
+            "text": "Glauning",
+            "lowered_text": "glauning",
+            "begin": 21502,
+            "end": 21510,
             "page": 153,
-            "line": 30,
+            "line": 27,
+            "txt_id": "Zoo_1900",
+            "line_idx": 455,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 0,
+            "mentions": 2,
             "incoming": [
-                "7555"
+                "7514",
+                "7543",
+                "7718"
             ],
             "outgoing": []
         },
-        "7537": {
-            "id": "7537",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Peters",
-            "lowered_text": "peters",
-            "begin": 24368,
-            "end": 24374,
+        "7534": {
+            "id": "7534",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 154,
             "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 508,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
-            "incoming": [
+            "incoming": [],
+            "outgoing": [
+                "7523",
+                "7713",
                 "7714"
-            ],
-            "outgoing": []
+            ]
         },
         "7322": {
             "id": "7322",
@@ -827,6 +859,8 @@
             "end": 21611,
             "page": 153,
             "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 457,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -845,6 +879,8 @@
             "end": null,
             "page": 154,
             "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 508,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -855,63 +891,85 @@
                 "7712"
             ]
         },
-        "7323": {
-            "id": "7323",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. Schmidt",
-            "lowered_text": "dr. schmidt",
-            "begin": 21613,
-            "end": 21624,
-            "page": 153,
-            "line": 29,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7551"
-            ],
-            "outgoing": []
-        },
-        "7330": {
-            "id": "7330",
+        "7559": {
+            "id": "7559",
             "type": "E53 Place",
             "virtual": false,
-            "text": "DeutschSüdwestafrika",
-            "lowered_text": "deutschsüdwestafrika",
-            "begin": 21693,
-            "end": 21714,
-            "page": 153,
-            "line": 30,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 2,
-            "incoming": [
-                "7557",
-                "7646",
-                "7712"
-            ],
-            "outgoing": []
-        },
-        "7534": {
-            "id": "7534",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 154,
-            "line": 36,
+            "text": "Siam",
+            "lowered_text": "siam",
+            "begin": 24663,
+            "end": 24667,
+            "page": 155,
+            "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 519,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7523",
-                "7713",
-                "7714"
-            ]
+            "incoming": [
+                "7733"
+            ],
+            "outgoing": []
+        },
+        "7317": {
+            "id": "7317",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Grimm",
+            "lowered_text": "grimm",
+            "begin": 21534,
+            "end": 21539,
+            "page": 153,
+            "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 456,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7545"
+            ],
+            "outgoing": []
+        },
+        "7318": {
+            "id": "7318",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "F. Langheld",
+            "lowered_text": "f. langheld",
+            "begin": 21541,
+            "end": 21552,
+            "page": 153,
+            "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 456,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7546"
+            ],
+            "outgoing": []
+        },
+        "7531": {
+            "id": "7531",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Zenker",
+            "lowered_text": "zenker",
+            "begin": 24287,
+            "end": 24293,
+            "page": 154,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 507,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7709"
+            ],
+            "outgoing": []
         },
         "7325": {
             "id": "7325",
@@ -923,6 +981,8 @@
             "end": 21653,
             "page": 153,
             "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 457,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -941,6 +1001,8 @@
             "end": 24327,
             "page": 154,
             "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 507,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -949,83 +1011,87 @@
             ],
             "outgoing": []
         },
-        "7326": {
-            "id": "7326",
+        "7320": {
+            "id": "7320",
             "type": "E21 Person",
             "virtual": false,
-            "text": "v. Tippelskirch",
-            "lowered_text": "v. tippelskirch",
-            "begin": 21655,
-            "end": 21671,
+            "text": "von der Marwitz",
+            "lowered_text": "von der marwitz",
+            "begin": 21566,
+            "end": 21581,
             "page": 153,
-            "line": 29,
+            "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 456,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7554"
+                "7548"
             ],
             "outgoing": []
         },
-        "7538": {
-            "id": "7538",
-            "type": "E8 Acquisition",
+        "7529": {
+            "id": "7529",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Krahl",
+            "lowered_text": "krahl",
+            "begin": 24273,
+            "end": 24278,
+            "page": 154,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 507,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7707"
+            ],
+            "outgoing": []
+        },
+        "7321": {
+            "id": "7321",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "v. Prittwitz",
+            "lowered_text": "v. prittwitz",
+            "begin": 21583,
+            "end": 21595,
+            "page": 153,
+            "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 456,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7549"
+            ],
+            "outgoing": []
+        },
+        "7528": {
+            "id": "7528",
+            "type": "E19 Physical Object",
             "virtual": true,
             "text": "(implicit) Unknown",
             "lowered_text": "(implicit) unknown",
             "begin": null,
             "end": null,
             "page": 154,
-            "line": 37,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7524",
-                "7716",
-                "7717",
-                "7718",
-                "7719",
-                "7720",
-                "7721"
-            ]
-        },
-        "7333": {
-            "id": "7333",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Kuhn",
-            "lowered_text": "kuhn",
-            "begin": 21734,
-            "end": 21738,
-            "page": 153,
-            "line": 31,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7560"
-            ],
-            "outgoing": []
-        },
-        "7531": {
-            "id": "7531",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Zenker",
-            "lowered_text": "zenker",
-            "begin": 24287,
-            "end": 24293,
-            "page": 154,
             "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 507,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7709"
+                "7706"
             ],
-            "outgoing": []
+            "outgoing": [
+                "7705"
+            ]
         },
         "7328": {
             "id": "7328",
@@ -1037,6 +1103,8 @@
             "end": 21687,
             "page": 153,
             "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 458,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 1,
@@ -1056,6 +1124,8 @@
             "end": 24285,
             "page": 154,
             "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 507,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1064,70 +1134,71 @@
             ],
             "outgoing": []
         },
-        "7329": {
-            "id": "7329",
+        "7323": {
+            "id": "7323",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Schmidt",
+            "lowered_text": "dr. schmidt",
+            "begin": 21613,
+            "end": 21624,
+            "page": 153,
+            "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 457,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7551"
+            ],
+            "outgoing": []
+        },
+        "7526": {
+            "id": "7526",
             "type": "E8 Acquisition",
             "virtual": true,
             "text": "(implicit) Unknown",
             "lowered_text": "(implicit) unknown",
             "begin": null,
             "end": null,
-            "page": 153,
-            "line": 30,
+            "page": 154,
+            "line": 34,
+            "txt_id": "Zoo_1900",
+            "line_idx": 506,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7481",
-                "7558",
-                "7559",
-                "7560",
-                "7561"
+                "7522",
+                "7706",
+                "7707",
+                "7708",
+                "7709",
+                "7710",
+                "7711"
             ]
         },
-        "7336": {
-            "id": "7336",
-            "type": "E53 Place",
+        "7324": {
+            "id": "7324",
+            "type": "E21 Person",
             "virtual": false,
-            "text": "Kamerun",
-            "lowered_text": "kamerun",
-            "begin": 21754,
-            "end": 21761,
+            "text": "Dr. Stirling",
+            "lowered_text": "dr. stirling",
+            "begin": 21626,
+            "end": 21638,
             "page": 153,
-            "line": 31,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 5,
-            "incoming": [
-                "7562",
-                "7628",
-                "7645",
-                "7679",
-                "7705",
-                "7730"
-            ],
-            "outgoing": []
-        },
-        "7528": {
-            "id": "7528",
-            "type": "E19 Physical Object",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 154,
-            "line": 35,
+            "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 457,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7706"
+                "7552"
             ],
-            "outgoing": [
-                "7705"
-            ]
+            "outgoing": []
         },
         "7331": {
             "id": "7331",
@@ -1139,6 +1210,8 @@
             "end": null,
             "page": 153,
             "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 458,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1149,39 +1222,63 @@
                 "7557"
             ]
         },
-        "7332": {
-            "id": "7332",
+        "7326": {
+            "id": "7326",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Beetz",
-            "lowered_text": "beetz",
-            "begin": 21727,
-            "end": 21732,
+            "text": "v. Tippelskirch",
+            "lowered_text": "v. tippelskirch",
+            "begin": 21655,
+            "end": 21671,
             "page": 153,
-            "line": 31,
+            "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 457,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7559"
+                "7554"
             ],
             "outgoing": []
         },
-        "7339": {
-            "id": "7339",
+        "7523": {
+            "id": "7523",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Nolte",
-            "lowered_text": "nolte",
-            "begin": 21785,
-            "end": 21790,
-            "page": 153,
-            "line": 32,
+            "text": "Schroder",
+            "lowered_text": "schroder",
+            "begin": 24212,
+            "end": 24220,
+            "page": 154,
+            "line": 34,
+            "txt_id": "Zoo_1900",
+            "line_idx": 506,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7565"
+                "7702"
+            ],
+            "outgoing": []
+        },
+        "7327": {
+            "id": "7327",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Wiese",
+            "lowered_text": "wiese",
+            "begin": 21673,
+            "end": 21678,
+            "page": 153,
+            "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 458,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7555"
             ],
             "outgoing": []
         },
@@ -1195,6 +1292,8 @@
             "end": 21748,
             "page": 153,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1203,8 +1302,8 @@
             ],
             "outgoing": []
         },
-        "7335": {
-            "id": "7335",
+        "7329": {
+            "id": "7329",
             "type": "E8 Acquisition",
             "virtual": true,
             "text": "(implicit) Unknown",
@@ -1212,53 +1311,40 @@
             "begin": null,
             "end": null,
             "page": 153,
-            "line": 31,
+            "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 458,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7482",
-                "7563",
-                "7564",
-                "7565",
-                "7566"
+                "7481",
+                "7558",
+                "7559",
+                "7560",
+                "7561"
             ]
         },
-        "7529": {
-            "id": "7529",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Krahl",
-            "lowered_text": "krahl",
-            "begin": 24273,
-            "end": 24278,
-            "page": 154,
-            "line": 35,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7707"
-            ],
-            "outgoing": []
-        },
-        "7342": {
-            "id": "7342",
+        "7330": {
+            "id": "7330",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Togo",
-            "lowered_text": "togo",
-            "begin": 21809,
-            "end": 21813,
+            "text": "DeutschSüdwestafrika",
+            "lowered_text": "deutschsüdwestafrika",
+            "begin": 21693,
+            "end": 21714,
             "page": 153,
-            "line": 32,
+            "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 458,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 1,
+            "mentions": 2,
             "incoming": [
-                "7567",
-                "7698"
+                "7557",
+                "7646",
+                "7712"
             ],
             "outgoing": []
         },
@@ -1272,6 +1358,8 @@
             "end": null,
             "page": 153,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1292,6 +1380,8 @@
             "end": 24198,
             "page": 154,
             "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 505,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1300,63 +1390,70 @@
             ],
             "outgoing": []
         },
-        "7338": {
-            "id": "7338",
+        "7332": {
+            "id": "7332",
             "type": "E21 Person",
             "virtual": false,
-            "text": "v. Kamptz",
-            "lowered_text": "v. kamptz",
-            "begin": 21773,
-            "end": 21782,
+            "text": "Beetz",
+            "lowered_text": "beetz",
+            "begin": 21727,
+            "end": 21732,
             "page": 153,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7564"
+                "7559"
             ],
             "outgoing": []
         },
-        "7526": {
-            "id": "7526",
+        "7517": {
+            "id": "7517",
             "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
+            "virtual": false,
+            "text": "kamen",
+            "lowered_text": "kamen",
+            "begin": 24136,
+            "end": 24141,
             "page": 154,
-            "line": 34,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 504,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7522",
-                "7706",
-                "7707",
-                "7708",
-                "7709",
-                "7710",
-                "7711"
+                "7521",
+                "7697",
+                "7699",
+                "7700",
+                "7701",
+                "7702",
+                "7703",
+                "7704"
             ]
         },
-        "7345": {
-            "id": "7345",
+        "7333": {
+            "id": "7333",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Dr. Kersting",
-            "lowered_text": "dr. kersting",
-            "begin": 21832,
-            "end": 21844,
+            "text": "Kuhn",
+            "lowered_text": "kuhn",
+            "begin": 21734,
+            "end": 21738,
             "page": 153,
-            "line": 32,
+            "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7570"
+                "7560"
             ],
             "outgoing": []
         },
@@ -1370,6 +1467,8 @@
             "end": 21803,
             "page": 153,
             "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 1,
@@ -1389,6 +1488,8 @@
             "end": 24155,
             "page": 154,
             "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 505,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1399,8 +1500,8 @@
                 "7698"
             ]
         },
-        "7341": {
-            "id": "7341",
+        "7335": {
+            "id": "7335",
             "type": "E8 Acquisition",
             "virtual": true,
             "text": "(implicit) Unknown",
@@ -1408,115 +1509,66 @@
             "begin": null,
             "end": null,
             "page": 153,
-            "line": 32,
+            "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7483",
-                "7568",
-                "7569",
-                "7570",
-                "7571",
-                "7572",
-                "7573",
-                "7574",
-                "7575",
-                "7576"
+                "7482",
+                "7563",
+                "7564",
+                "7565",
+                "7566"
             ]
         },
-        "7523": {
-            "id": "7523",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Schroder",
-            "lowered_text": "schroder",
-            "begin": 24212,
-            "end": 24220,
-            "page": 154,
-            "line": 34,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7702"
-            ],
-            "outgoing": []
-        },
-        "7348": {
-            "id": "7348",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Schröder",
-            "lowered_text": "schröder",
-            "begin": 21865,
-            "end": 21873,
-            "page": 153,
-            "line": 33,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7573"
-            ],
-            "outgoing": []
-        },
-        "7343": {
-            "id": "7343",
-            "type": "E19 Physical Object",
+        "7515": {
+            "id": "7515",
+            "type": "E8 Acquisition",
             "virtual": true,
             "text": "(implicit) Unknown",
             "lowered_text": "(implicit) unknown",
             "begin": null,
             "end": null,
-            "page": 153,
+            "page": 154,
             "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 504,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
-            "incoming": [
-                "7568"
-            ],
+            "incoming": [],
             "outgoing": [
-                "7567"
+                "7476",
+                "7520",
+                "7694",
+                "7696"
             ]
         },
-        "7344": {
-            "id": "7344",
-            "type": "E21 Person",
+        "7336": {
+            "id": "7336",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Diehl",
-            "lowered_text": "diehl",
-            "begin": 21825,
-            "end": 21830,
+            "text": "Kamerun",
+            "lowered_text": "kamerun",
+            "begin": 21754,
+            "end": 21761,
             "page": 153,
-            "line": 32,
+            "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 1,
+            "mentions": 5,
             "incoming": [
-                "7569",
-                "7699"
-            ],
-            "outgoing": []
-        },
-        "7351": {
-            "id": "7351",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Graf Zech",
-            "lowered_text": "graf zech",
-            "begin": 21900,
-            "end": 21909,
-            "page": 153,
-            "line": 33,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 1,
-            "incoming": [
-                "7576",
-                "7704"
+                "7562",
+                "7628",
+                "7645",
+                "7679",
+                "7705",
+                "7730"
             ],
             "outgoing": []
         },
@@ -1530,11 +1582,75 @@
             "end": 24107,
             "page": 154,
             "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 504,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
                 "7696"
+            ],
+            "outgoing": []
+        },
+        "7343": {
+            "id": "7343",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 153,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7568"
+            ],
+            "outgoing": [
+                "7567"
+            ]
+        },
+        "7338": {
+            "id": "7338",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "v. Kamptz",
+            "lowered_text": "v. kamptz",
+            "begin": 21773,
+            "end": 21782,
+            "page": 153,
+            "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 459,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7564"
+            ],
+            "outgoing": []
+        },
+        "7339": {
+            "id": "7339",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Nolte",
+            "lowered_text": "nolte",
+            "begin": 21785,
+            "end": 21790,
+            "page": 153,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7565"
             ],
             "outgoing": []
         },
@@ -1548,6 +1664,8 @@
             "end": 21856,
             "page": 153,
             "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 461,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 1,
@@ -1567,6 +1685,8 @@
             "end": 24084,
             "page": 154,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1578,68 +1698,75 @@
                 "7695"
             ]
         },
-        "7347": {
-            "id": "7347",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Preil",
-            "lowered_text": "preil",
-            "begin": 21858,
-            "end": 21863,
-            "page": 153,
-            "line": 33,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7572"
-            ],
-            "outgoing": []
-        },
-        "7517": {
-            "id": "7517",
+        "7341": {
+            "id": "7341",
             "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "kamen",
-            "lowered_text": "kamen",
-            "begin": 24136,
-            "end": 24141,
-            "page": 154,
-            "line": 32,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7521",
-                "7697",
-                "7699",
-                "7700",
-                "7701",
-                "7702",
-                "7703",
-                "7704"
-            ]
-        },
-        "7354": {
-            "id": "7354",
-            "type": "E19 Physical Object",
             "virtual": true,
             "text": "(implicit) Unknown",
             "lowered_text": "(implicit) unknown",
             "begin": null,
             "end": null,
             "page": 153,
-            "line": 34,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7483",
+                "7568",
+                "7569",
+                "7570",
+                "7571",
+                "7572",
+                "7573",
+                "7574",
+                "7575",
+                "7576"
+            ]
+        },
+        "7510": {
+            "id": "7510",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "italienisch",
+            "lowered_text": "italienisch",
+            "begin": 24065,
+            "end": 24076,
+            "page": 154,
+            "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7578"
+                "7693"
             ],
-            "outgoing": [
-                "7577"
-            ]
+            "outgoing": []
+        },
+        "7342": {
+            "id": "7342",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Togo",
+            "lowered_text": "togo",
+            "begin": 21809,
+            "end": 21813,
+            "page": 153,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 1,
+            "incoming": [
+                "7567",
+                "7698"
+            ],
+            "outgoing": []
         },
         "7349": {
             "id": "7349",
@@ -1651,6 +1778,8 @@
             "end": 21888,
             "page": 153,
             "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 461,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1669,6 +1798,8 @@
             "end": 24084,
             "page": 154,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1679,62 +1810,67 @@
                 "7475"
             ]
         },
-        "7350": {
-            "id": "7350",
+        "7344": {
+            "id": "7344",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Thierry",
-            "lowered_text": "thierry",
-            "begin": 21891,
-            "end": 21898,
+            "text": "Diehl",
+            "lowered_text": "diehl",
+            "begin": 21825,
+            "end": 21830,
             "page": 153,
-            "line": 33,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 2,
+            "mentions": 1,
             "incoming": [
-                "7517",
-                "7575",
-                "7703"
+                "7569",
+                "7699"
             ],
             "outgoing": []
         },
-        "7515": {
-            "id": "7515",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 154,
-            "line": 32,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7476",
-                "7520",
-                "7694",
-                "7696"
-            ]
-        },
-        "7357": {
-            "id": "7357",
-            "type": "E21 Person",
+        "7507": {
+            "id": "7507",
+            "type": "E20 Biological Object",
             "virtual": false,
-            "text": "Frau Kolb",
-            "lowered_text": "frau kolb",
-            "begin": 21980,
-            "end": 21989,
-            "page": 153,
-            "line": 35,
+            "text": "arten",
+            "lowered_text": "arten",
+            "begin": 24037,
+            "end": 24042,
+            "page": 154,
+            "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7581"
+                "7690"
+            ],
+            "outgoing": [
+                "7688",
+                "7689"
+            ]
+        },
+        "7345": {
+            "id": "7345",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Kersting",
+            "lowered_text": "dr. kersting",
+            "begin": 21832,
+            "end": 21844,
+            "page": 153,
+            "line": 32,
+            "txt_id": "Zoo_1900",
+            "line_idx": 460,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7570"
             ],
             "outgoing": []
         },
@@ -1748,6 +1884,8 @@
             "end": null,
             "page": 153,
             "line": 34,
+            "txt_id": "Zoo_1900",
+            "line_idx": 462,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1770,6 +1908,8 @@
             "end": 24063,
             "page": 154,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1780,118 +1920,67 @@
                 "7692"
             ]
         },
-        "7353": {
-            "id": "7353",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "verschiedenen Ländern Afrikas",
-            "lowered_text": "verschiedenen ländern afrikas",
-            "begin": 21916,
-            "end": 21945,
-            "page": 153,
-            "line": 34,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7577"
-            ],
-            "outgoing": []
-        },
-        "7360": {
-            "id": "7360",
-            "type": "E19 Physical Object",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 153,
-            "line": 35,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7583"
-            ],
-            "outgoing": [
-                "7582"
-            ]
-        },
-        "7355": {
-            "id": "7355",
+        "7347": {
+            "id": "7347",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Becker",
-            "lowered_text": "becker",
-            "begin": 21957,
-            "end": 21963,
+            "text": "Preil",
+            "lowered_text": "preil",
+            "begin": 21858,
+            "end": 21863,
             "page": 153,
-            "line": 34,
+            "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 461,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7579"
+                "7572"
             ],
             "outgoing": []
         },
-        "7356": {
-            "id": "7356",
-            "type": "E21 Person",
+        "7505": {
+            "id": "7505",
+            "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "Dr. Gleim",
-            "lowered_text": "dr. gleim",
-            "begin": 21966,
-            "end": 21975,
-            "page": 153,
-            "line": 35,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7580"
-            ],
-            "outgoing": []
-        },
-        "7510": {
-            "id": "7510",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "italienisch",
-            "lowered_text": "italienisch",
-            "begin": 24065,
-            "end": 24076,
+            "text": "Hemidactylus",
+            "lowered_text": "hemidactylus",
+            "begin": 24025,
+            "end": 24037,
             "page": 154,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7693"
+                "7689"
             ],
-            "outgoing": []
+            "outgoing": [
+                "7474"
+            ]
         },
-        "7363": {
-            "id": "7363",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
+        "7348": {
+            "id": "7348",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Schröder",
+            "lowered_text": "schröder",
+            "begin": 21865,
+            "end": 21873,
             "page": 153,
-            "line": 36,
+            "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 461,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7486",
-                "7587",
-                "7588",
-                "7589"
-            ]
+            "incoming": [
+                "7573"
+            ],
+            "outgoing": []
         },
         "7504": {
             "id": "7504",
@@ -1903,6 +1992,8 @@
             "end": 24024,
             "page": 154,
             "line": 31,
+            "txt_id": "Zoo_1900",
+            "line_idx": 503,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -1911,99 +2002,66 @@
             ],
             "outgoing": []
         },
-        "7358": {
-            "id": "7358",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 153,
-            "line": 35,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7485",
-                "7583",
-                "7584",
-                "7585"
-            ]
-        },
-        "7359": {
-            "id": "7359",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Amerika",
-            "lowered_text": "amerika",
-            "begin": 21995,
-            "end": 22002,
-            "page": 153,
-            "line": 35,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7582"
-            ],
-            "outgoing": []
-        },
-        "7507": {
-            "id": "7507",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "arten",
-            "lowered_text": "arten",
-            "begin": 24037,
-            "end": 24042,
-            "page": 154,
-            "line": 31,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7690"
-            ],
-            "outgoing": [
-                "7688",
-                "7689"
-            ]
-        },
-        "7562": {
-            "id": "7562",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Südwestaustralien",
-            "lowered_text": "südwestaustralien",
-            "begin": 24690,
-            "end": 24707,
-            "page": 155,
-            "line": 4,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7736"
-            ],
-            "outgoing": []
-        },
-        "7366": {
-            "id": "7366",
+        "7355": {
+            "id": "7355",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Dr. Breitfuss",
-            "lowered_text": "dr. breitfuss",
-            "begin": 22058,
-            "end": 22071,
+            "text": "Becker",
+            "lowered_text": "becker",
+            "begin": 21957,
+            "end": 21963,
             "page": 153,
-            "line": 36,
+            "line": 34,
+            "txt_id": "Zoo_1900",
+            "line_idx": 462,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7588"
+                "7579"
+            ],
+            "outgoing": []
+        },
+        "7350": {
+            "id": "7350",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Thierry",
+            "lowered_text": "thierry",
+            "begin": 21891,
+            "end": 21898,
+            "page": 153,
+            "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 461,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 2,
+            "incoming": [
+                "7517",
+                "7575",
+                "7703"
+            ],
+            "outgoing": []
+        },
+        "7351": {
+            "id": "7351",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Graf Zech",
+            "lowered_text": "graf zech",
+            "begin": 21900,
+            "end": 21909,
+            "page": 153,
+            "line": 33,
+            "txt_id": "Zoo_1900",
+            "line_idx": 461,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 1,
+            "incoming": [
+                "7576",
+                "7704"
             ],
             "outgoing": []
         },
@@ -2017,6 +2075,8 @@
             "end": 24011,
             "page": 154,
             "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 502,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2028,6 +2088,131 @@
                 "7691"
             ]
         },
+        "7358": {
+            "id": "7358",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 153,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 463,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7485",
+                "7583",
+                "7584",
+                "7585"
+            ]
+        },
+        "7353": {
+            "id": "7353",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "verschiedenen Ländern Afrikas",
+            "lowered_text": "verschiedenen ländern afrikas",
+            "begin": 21916,
+            "end": 21945,
+            "page": 153,
+            "line": 34,
+            "txt_id": "Zoo_1900",
+            "line_idx": 462,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7577"
+            ],
+            "outgoing": []
+        },
+        "7500": {
+            "id": "7500",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Dr. Voeltzkow",
+            "lowered_text": "dr. voeltzkow",
+            "begin": 23973,
+            "end": 23986,
+            "page": 154,
+            "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 502,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7686"
+            ],
+            "outgoing": []
+        },
+        "7560": {
+            "id": "7560",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Oberbirma",
+            "lowered_text": "oberbirma",
+            "begin": 24669,
+            "end": 24678,
+            "page": 155,
+            "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 519,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7734"
+            ],
+            "outgoing": []
+        },
+        "7354": {
+            "id": "7354",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 153,
+            "line": 34,
+            "txt_id": "Zoo_1900",
+            "line_idx": 462,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7578"
+            ],
+            "outgoing": [
+                "7577"
+            ]
+        },
+        "7499": {
+            "id": "7499",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "J. Lehmann",
+            "lowered_text": "j. lehmann",
+            "begin": 23961,
+            "end": 23971,
+            "page": 154,
+            "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 502,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7685"
+            ],
+            "outgoing": []
+        },
         "7361": {
             "id": "7361",
             "type": "E21 Person",
@@ -2038,6 +2223,8 @@
             "end": 22018,
             "page": 153,
             "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 463,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2056,6 +2243,8 @@
             "end": 23997,
             "page": 154,
             "line": 30,
+            "txt_id": "Zoo_1900",
+            "line_idx": 502,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2064,79 +2253,90 @@
             ],
             "outgoing": []
         },
-        "7362": {
-            "id": "7362",
+        "7356": {
+            "id": "7356",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Prof. Nathorst",
-            "lowered_text": "prof. nathorst",
-            "begin": 22021,
-            "end": 22035,
+            "text": "Dr. Gleim",
+            "lowered_text": "dr. gleim",
+            "begin": 21966,
+            "end": 21975,
             "page": 153,
-            "line": 36,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 463,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7585"
+                "7580"
             ],
             "outgoing": []
         },
-        "7505": {
-            "id": "7505",
-            "type": "E28 Conceptual Object",
+        "7497": {
+            "id": "7497",
+            "type": "E21 Person",
             "virtual": false,
-            "text": "Hemidactylus",
-            "lowered_text": "hemidactylus",
-            "begin": 24025,
-            "end": 24037,
+            "text": "Joh. Berg",
+            "lowered_text": "joh. berg",
+            "begin": 23941,
+            "end": 23950,
             "page": 154,
-            "line": 31,
+            "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 501,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7689"
+                "7683"
             ],
+            "outgoing": []
+        },
+        "7357": {
+            "id": "7357",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Frau Kolb",
+            "lowered_text": "frau kolb",
+            "begin": 21980,
+            "end": 21989,
+            "page": 153,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 463,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7581"
+            ],
+            "outgoing": []
+        },
+        "7496": {
+            "id": "7496",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "schenkte",
+            "lowered_text": "schenkte",
+            "begin": 23920,
+            "end": 23928,
+            "page": 154,
+            "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 501,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
             "outgoing": [
-                "7474"
+                "7518",
+                "7683",
+                "7684",
+                "7685",
+                "7686",
+                "7687"
             ]
-        },
-        "7369": {
-            "id": "7369",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Europa",
-            "lowered_text": "europa",
-            "begin": 22092,
-            "end": 22098,
-            "page": 153,
-            "line": 37,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7590"
-            ],
-            "outgoing": []
-        },
-        "7499": {
-            "id": "7499",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "J. Lehmann",
-            "lowered_text": "j. lehmann",
-            "begin": 23961,
-            "end": 23971,
-            "page": 154,
-            "line": 30,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7685"
-            ],
-            "outgoing": []
         },
         "7364": {
             "id": "7364",
@@ -2148,6 +2348,8 @@
             "end": 22046,
             "page": 153,
             "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 464,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2166,6 +2368,8 @@
             "end": 23958,
             "page": 154,
             "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 501,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2174,8 +2378,28 @@
             ],
             "outgoing": []
         },
-        "7365": {
-            "id": "7365",
+        "7359": {
+            "id": "7359",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Amerika",
+            "lowered_text": "amerika",
+            "begin": 21995,
+            "end": 22002,
+            "page": 153,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 463,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7582"
+            ],
+            "outgoing": []
+        },
+        "7360": {
+            "id": "7360",
             "type": "E19 Physical Object",
             "virtual": true,
             "text": "(implicit) Unknown",
@@ -2183,57 +2407,38 @@
             "begin": null,
             "end": null,
             "page": 153,
-            "line": 36,
+            "line": 35,
+            "txt_id": "Zoo_1900",
+            "line_idx": 463,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7587"
+                "7583"
             ],
             "outgoing": [
-                "7586"
+                "7582"
             ]
         },
-        "7372": {
-            "id": "7372",
-            "type": "E21 Person",
+        "7493": {
+            "id": "7493",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "v. Wismann",
-            "lowered_text": "v. wismann",
-            "begin": 22118,
-            "end": 22128,
-            "page": 153,
-            "line": 37,
+            "text": "Südaustralien",
+            "lowered_text": "südaustralien",
+            "begin": 23872,
+            "end": 23885,
+            "page": 154,
+            "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 500,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7593"
+                "7681"
             ],
             "outgoing": []
-        },
-        "7496": {
-            "id": "7496",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "schenkte",
-            "lowered_text": "schenkte",
-            "begin": 23920,
-            "end": 23928,
-            "page": 154,
-            "line": 29,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7518",
-                "7683",
-                "7684",
-                "7685",
-                "7686",
-                "7687"
-            ]
         },
         "7367": {
             "id": "7367",
@@ -2245,6 +2450,8 @@
             "end": 22085,
             "page": 153,
             "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 464,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2263,6 +2470,8 @@
             "end": 23919,
             "page": 154,
             "line": 29,
+            "txt_id": "Zoo_1900",
+            "line_idx": 501,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2280,8 +2489,28 @@
             ],
             "outgoing": []
         },
-        "7368": {
-            "id": "7368",
+        "7362": {
+            "id": "7362",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Prof. Nathorst",
+            "lowered_text": "prof. nathorst",
+            "begin": 22021,
+            "end": 22035,
+            "page": 153,
+            "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 464,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7585"
+            ],
+            "outgoing": []
+        },
+        "7363": {
+            "id": "7363",
             "type": "E8 Acquisition",
             "virtual": true,
             "text": "(implicit) Unknown",
@@ -2289,69 +2518,37 @@
             "begin": null,
             "end": null,
             "page": 153,
-            "line": 37,
+            "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 464,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7487",
-                "7591",
-                "7592",
-                "7593"
+                "7486",
+                "7587",
+                "7588",
+                "7589"
             ]
         },
-        "7500": {
-            "id": "7500",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Dr. Voeltzkow",
-            "lowered_text": "dr. voeltzkow",
-            "begin": 23973,
-            "end": 23986,
-            "page": 154,
-            "line": 30,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7686"
-            ],
-            "outgoing": []
-        },
-        "7375": {
-            "id": "7375",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Se. Excellenz Baron von Korffidi",
-            "lowered_text": "se. excellenz baron von korffidi",
-            "begin": 22216,
-            "end": 22249,
-            "page": 153,
-            "line": 39,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7596"
-            ],
-            "outgoing": []
-        },
-        "7493": {
-            "id": "7493",
+        "7490": {
+            "id": "7490",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Südaustralien",
-            "lowered_text": "südaustralien",
-            "begin": 23872,
-            "end": 23885,
+            "text": "Japan",
+            "lowered_text": "japan",
+            "begin": 23822,
+            "end": 23827,
             "page": 154,
-            "line": 28,
+            "line": 27,
+            "txt_id": "Zoo_1900",
+            "line_idx": 499,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7681"
+                "7678"
             ],
             "outgoing": []
         },
@@ -2365,6 +2562,8 @@
             "end": 22116,
             "page": 153,
             "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 465,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2383,6 +2582,8 @@
             "end": 23866,
             "page": 154,
             "line": 28,
+            "txt_id": "Zoo_1900",
+            "line_idx": 500,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2391,8 +2592,8 @@
             ],
             "outgoing": []
         },
-        "7371": {
-            "id": "7371",
+        "7365": {
+            "id": "7365",
             "type": "E19 Physical Object",
             "virtual": true,
             "text": "(implicit) Unknown",
@@ -2400,75 +2601,66 @@
             "begin": null,
             "end": null,
             "page": 153,
-            "line": 37,
+            "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 464,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7592"
+                "7587"
             ],
             "outgoing": [
-                "7590"
+                "7586"
             ]
         },
-        "7497": {
-            "id": "7497",
+        "7366": {
+            "id": "7366",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Joh. Berg",
-            "lowered_text": "joh. berg",
-            "begin": 23941,
-            "end": 23950,
-            "page": 154,
-            "line": 29,
+            "text": "Dr. Breitfuss",
+            "lowered_text": "dr. breitfuss",
+            "begin": 22058,
+            "end": 22071,
+            "page": 153,
+            "line": 36,
+            "txt_id": "Zoo_1900",
+            "line_idx": 464,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7683"
+                "7588"
             ],
             "outgoing": []
         },
-        "7378": {
-            "id": "7378",
-            "type": "E20 Biological Object",
+        "7487": {
+            "id": "7487",
+            "type": "E19 Physical Object",
             "virtual": false,
-            "text": "Felle",
-            "lowered_text": "felle",
-            "begin": 22438,
-            "end": 22443,
+            "text": "Vogelsammlungen",
+            "lowered_text": "vogelsammlungen",
+            "begin": 23773,
+            "end": 23788,
             "page": 154,
-            "line": 4,
+            "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 498,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7599"
+                "7675"
             ],
             "outgoing": [
-                "7598",
-                "7602",
-                "7604",
-                "7606"
+                "7676",
+                "7677",
+                "7678",
+                "7679",
+                "7680",
+                "7681",
+                "7682"
             ]
-        },
-        "7490": {
-            "id": "7490",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Japan",
-            "lowered_text": "japan",
-            "begin": 23822,
-            "end": 23827,
-            "page": 154,
-            "line": 27,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7678"
-            ],
-            "outgoing": []
         },
         "7373": {
             "id": "7373",
@@ -2480,6 +2672,8 @@
             "end": 22175,
             "page": 153,
             "line": 38,
+            "txt_id": "Zoo_1900",
+            "line_idx": 466,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2500,6 +2694,8 @@
             "end": 23816,
             "page": 154,
             "line": 27,
+            "txt_id": "Zoo_1900",
+            "line_idx": 499,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2508,68 +2704,89 @@
             ],
             "outgoing": []
         },
-        "7374": {
-            "id": "7374",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Düren",
-            "lowered_text": "düren",
-            "begin": 22206,
-            "end": 22211,
+        "7368": {
+            "id": "7368",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 153,
-            "line": 39,
+            "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 465,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
-            "incoming": [
-                "7595"
-            ],
-            "outgoing": []
+            "incoming": [],
+            "outgoing": [
+                "7487",
+                "7591",
+                "7592",
+                "7593"
+            ]
         },
-        "7381": {
-            "id": "7381",
-            "type": "E3 Condition State",
+        "7485": {
+            "id": "7485",
+            "type": "E74 Group",
             "virtual": false,
-            "text": "hervorragend gut prüparirt",
-            "lowered_text": "hervorragend gut prüparirt",
-            "begin": 22498,
-            "end": 22524,
-            "page": 154,
-            "line": 5,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7603",
-                "7604"
-            ],
-            "outgoing": []
-        },
-        "7487": {
-            "id": "7487",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Vogelsammlungen",
-            "lowered_text": "vogelsammlungen",
-            "begin": 23773,
-            "end": 23788,
+            "text": "Tring",
+            "lowered_text": "tring",
+            "begin": 23733,
+            "end": 23738,
             "page": 154,
             "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 498,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7675"
+                "7674"
             ],
-            "outgoing": [
-                "7676",
-                "7677",
-                "7678",
-                "7679",
-                "7680",
-                "7681",
-                "7682"
-            ]
+            "outgoing": []
+        },
+        "7369": {
+            "id": "7369",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Europa",
+            "lowered_text": "europa",
+            "begin": 22092,
+            "end": 22098,
+            "page": 153,
+            "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 465,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7590"
+            ],
+            "outgoing": []
+        },
+        "7484": {
+            "id": "7484",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "London",
+            "lowered_text": "london",
+            "begin": 23721,
+            "end": 23727,
+            "page": 154,
+            "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 497,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 1,
+            "incoming": [
+                "7673",
+                "7692"
+            ],
+            "outgoing": []
         },
         "7376": {
             "id": "7376",
@@ -2581,6 +2798,8 @@
             "end": 22390,
             "page": 154,
             "line": 3,
+            "txt_id": "Zoo_1900",
+            "line_idx": 475,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2602,6 +2821,8 @@
             "end": 23756,
             "page": 154,
             "line": 26,
+            "txt_id": "Zoo_1900",
+            "line_idx": 498,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2611,41 +2832,88 @@
                 "7675"
             ]
         },
-        "7377": {
-            "id": "7377",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "arten und individuenreich",
-            "lowered_text": "arten und individuenreich",
-            "begin": 22396,
-            "end": 22423,
-            "page": 154,
-            "line": 3,
+        "7371": {
+            "id": "7371",
+            "type": "E19 Physical Object",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 153,
+            "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 465,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7597",
-                "7598"
+                "7592"
+            ],
+            "outgoing": [
+                "7590"
+            ]
+        },
+        "7482": {
+            "id": "7482",
+            "type": "E19 Physical Object",
+            "virtual": false,
+            "text": "Vögel",
+            "lowered_text": "vögel",
+            "begin": 23697,
+            "end": 23702,
+            "page": 154,
+            "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 497,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7671"
+            ],
+            "outgoing": [
+                "7669",
+                "7670"
+            ]
+        },
+        "7372": {
+            "id": "7372",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "v. Wismann",
+            "lowered_text": "v. wismann",
+            "begin": 22118,
+            "end": 22128,
+            "page": 153,
+            "line": 37,
+            "txt_id": "Zoo_1900",
+            "line_idx": 465,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7593"
             ],
             "outgoing": []
         },
-        "7484": {
-            "id": "7484",
-            "type": "E53 Place",
+        "7481": {
+            "id": "7481",
+            "type": "E3 Condition State",
             "virtual": false,
-            "text": "London",
-            "lowered_text": "london",
-            "begin": 23721,
-            "end": 23727,
+            "text": "selten",
+            "lowered_text": "selten",
+            "begin": 23689,
+            "end": 23695,
             "page": 154,
             "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 497,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 1,
+            "mentions": 0,
             "incoming": [
-                "7673",
-                "7692"
+                "7670"
             ],
             "outgoing": []
         },
@@ -2659,6 +2927,8 @@
             "end": 22456,
             "page": 154,
             "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 476,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2682,6 +2952,8 @@
             "end": 23727,
             "page": 154,
             "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 497,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2692,85 +2964,69 @@
                 "7673"
             ]
         },
-        "7380": {
-            "id": "7380",
+        "7374": {
+            "id": "7374",
             "type": "E53 Place",
             "virtual": false,
-            "text": "ostafrikanisch",
-            "lowered_text": "ostafrikanisch",
-            "begin": 22458,
-            "end": 22472,
+            "text": "Düren",
+            "lowered_text": "düren",
+            "begin": 22206,
+            "end": 22211,
+            "page": 153,
+            "line": 39,
+            "txt_id": "Zoo_1900",
+            "line_idx": 467,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7595"
+            ],
+            "outgoing": []
+        },
+        "7375": {
+            "id": "7375",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Se. Excellenz Baron von Korffidi",
+            "lowered_text": "se. excellenz baron von korffidi",
+            "begin": 22216,
+            "end": 22249,
+            "page": 153,
+            "line": 39,
+            "txt_id": "Zoo_1900",
+            "line_idx": 467,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7596"
+            ],
+            "outgoing": []
+        },
+        "7378": {
+            "id": "7378",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Felle",
+            "lowered_text": "felle",
+            "begin": 22438,
+            "end": 22443,
             "page": 154,
             "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 476,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7601",
-                "7602"
-            ],
-            "outgoing": []
-        },
-        "7386": {
-            "id": "7386",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Gehörn und Geweihsammlung",
-            "lowered_text": "gehörn und geweihsammlung",
-            "begin": 22628,
-            "end": 22654,
-            "page": 154,
-            "line": 7,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7608"
+                "7599"
             ],
             "outgoing": [
-                "7607",
-                "7609",
-                "7610",
-                "7611"
-            ]
-        },
-        "7481": {
-            "id": "7481",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "selten",
-            "lowered_text": "selten",
-            "begin": 23689,
-            "end": 23695,
-            "page": 154,
-            "line": 25,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7670"
-            ],
-            "outgoing": []
-        },
-        "7382": {
-            "id": "7382",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Antilopen",
-            "lowered_text": "antilopen",
-            "begin": 22570,
-            "end": 22579,
-            "page": 154,
-            "line": 6,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7605",
+                "7598",
+                "7602",
+                "7604",
                 "7606"
-            ],
-            "outgoing": [
-                "7466"
             ]
         },
         "7480": {
@@ -2783,6 +3039,8 @@
             "end": 23688,
             "page": 154,
             "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 497,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2791,85 +3049,46 @@
             ],
             "outgoing": []
         },
-        "7485": {
-            "id": "7485",
-            "type": "E74 Group",
+        "7377": {
+            "id": "7377",
+            "type": "E3 Condition State",
             "virtual": false,
-            "text": "Tring",
-            "lowered_text": "tring",
-            "begin": 23733,
-            "end": 23738,
+            "text": "arten und individuenreich",
+            "lowered_text": "arten und individuenreich",
+            "begin": 22396,
+            "end": 22423,
             "page": 154,
-            "line": 26,
+            "line": 3,
+            "txt_id": "Zoo_1900",
+            "line_idx": 475,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7674"
+                "7597",
+                "7598"
             ],
             "outgoing": []
         },
-        "7383": {
-            "id": "7383",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Taxon",
-            "lowered_text": "taxon",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
+        "7476": {
+            "id": "7476",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Stierling",
+            "lowered_text": "stierling",
+            "begin": 23638,
+            "end": 23647,
+            "page": 154,
+            "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 496,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 4,
+            "mentions": 0,
             "incoming": [
-                "7466",
-                "7469",
-                "7470",
-                "7474",
-                "7475"
+                "7516"
             ],
             "outgoing": []
-        },
-        "7389": {
-            "id": "7389",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Sammlung von Al. von Humboldt",
-            "lowered_text": "sammlung von al. von humboldt",
-            "begin": 22687,
-            "end": 22716,
-            "page": 154,
-            "line": 8,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7611"
-            ],
-            "outgoing": [
-                "7612"
-            ]
-        },
-        "7384": {
-            "id": "7384",
-            "type": "E8 Acquisition",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 154,
-            "line": 6,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7489",
-                "7596",
-                "7608"
-            ]
         },
         "7478": {
             "id": "7478",
@@ -2881,6 +3100,8 @@
             "end": 23674,
             "page": 154,
             "line": 25,
+            "txt_id": "Zoo_1900",
+            "line_idx": 497,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -2893,157 +3114,28 @@
                 "7674"
             ]
         },
-        "7387": {
-            "id": "7387",
-            "type": "E20 Biological Object",
+        "7382": {
+            "id": "7382",
+            "type": "E28 Conceptual Object",
             "virtual": false,
-            "text": "Gehörn",
-            "lowered_text": "gehörn",
-            "begin": 22628,
-            "end": 22635,
+            "text": "Antilopen",
+            "lowered_text": "antilopen",
+            "begin": 22570,
+            "end": 22579,
             "page": 154,
-            "line": 7,
+            "line": 6,
+            "txt_id": "Zoo_1900",
+            "line_idx": 478,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7609"
-            ],
-            "outgoing": []
-        },
-        "7482": {
-            "id": "7482",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Vögel",
-            "lowered_text": "vögel",
-            "begin": 23697,
-            "end": 23702,
-            "page": 154,
-            "line": 25,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7671"
+                "7605",
+                "7606"
             ],
             "outgoing": [
-                "7669",
-                "7670"
+                "7466"
             ]
-        },
-        "7476": {
-            "id": "7476",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Stierling",
-            "lowered_text": "stierling",
-            "begin": 23638,
-            "end": 23647,
-            "page": 154,
-            "line": 24,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7516"
-            ],
-            "outgoing": []
-        },
-        "7565": {
-            "id": "7565",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Cuba",
-            "lowered_text": "cuba",
-            "begin": 24724,
-            "end": 24728,
-            "page": 155,
-            "line": 5,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7739"
-            ],
-            "outgoing": []
-        },
-        "7392": {
-            "id": "7392",
-            "type": "E55 Type",
-            "virtual": true,
-            "text": "Trade",
-            "lowered_text": "trade",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 5,
-            "incoming": [
-                "7467",
-                "7468",
-                "7471",
-                "7472",
-                "7473",
-                "7476"
-            ],
-            "outgoing": []
-        },
-        "7475": {
-            "id": "7475",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Riegler",
-            "lowered_text": "riegler",
-            "begin": 23629,
-            "end": 23636,
-            "page": 154,
-            "line": 24,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7515"
-            ],
-            "outgoing": []
-        },
-        "7559": {
-            "id": "7559",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Siam",
-            "lowered_text": "siam",
-            "begin": 24663,
-            "end": 24667,
-            "page": 155,
-            "line": 4,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7733"
-            ],
-            "outgoing": []
-        },
-        "7385": {
-            "id": "7385",
-            "type": "E3 Condition State",
-            "virtual": false,
-            "text": "berühmt",
-            "lowered_text": "berühmt",
-            "begin": 22618,
-            "end": 22625,
-            "page": 154,
-            "line": 7,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7607"
-            ],
-            "outgoing": []
         },
         "7473": {
             "id": "7473",
@@ -3055,6 +3147,8 @@
             "end": 23617,
             "page": 154,
             "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 496,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3063,41 +3157,70 @@
             ],
             "outgoing": []
         },
-        "7472": {
-            "id": "7472",
+        "7393": {
+            "id": "7393",
+            "type": "E8 Acquisition",
+            "virtual": false,
+            "text": "erworben",
+            "lowered_text": "erworben",
+            "begin": 22747,
+            "end": 22755,
+            "page": 154,
+            "line": 9,
+            "txt_id": "Zoo_1900",
+            "line_idx": 481,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7468",
+                "7491",
+                "7621",
+                "7623"
+            ]
+        },
+        "7475": {
+            "id": "7475",
             "type": "E21 Person",
             "virtual": false,
-            "text": "Brandeis",
-            "lowered_text": "brandeis",
-            "begin": 23597,
-            "end": 23605,
+            "text": "Riegler",
+            "lowered_text": "riegler",
+            "begin": 23629,
+            "end": 23636,
             "page": 154,
-            "line": 23,
+            "line": 24,
+            "txt_id": "Zoo_1900",
+            "line_idx": 496,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7512"
+                "7515"
             ],
             "outgoing": []
         },
-        "7407": {
-            "id": "7407",
-            "type": "E54 Dimension",
+        "7471": {
+            "id": "7471",
+            "type": "E19 Physical Object",
             "virtual": false,
-            "text": "ein",
-            "lowered_text": "ein",
-            "begin": 22886,
-            "end": 22889,
+            "text": "Vögel",
+            "lowered_text": "vögel",
+            "begin": 23580,
+            "end": 23585,
             "page": 154,
-            "line": 11,
+            "line": 23,
+            "txt_id": "Zoo_1900",
+            "line_idx": 495,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7625"
+                "7668"
             ],
-            "outgoing": []
+            "outgoing": [
+                "7667"
+            ]
         },
         "7470": {
             "id": "7470",
@@ -3109,6 +3232,8 @@
             "end": 23579,
             "page": 154,
             "line": 23,
+            "txt_id": "Zoo_1900",
+            "line_idx": 495,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3124,57 +3249,63 @@
                 "7668"
             ]
         },
-        "7560": {
-            "id": "7560",
+        "7563": {
+            "id": "7563",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Oberbirma",
-            "lowered_text": "oberbirma",
-            "begin": 24669,
-            "end": 24678,
+            "text": "Kansas",
+            "lowered_text": "kansas",
+            "begin": 24709,
+            "end": 24715,
             "page": 155,
             "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 519,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7734"
+                "7737"
             ],
             "outgoing": []
         },
-        "7406": {
-            "id": "7406",
-            "type": "E53 Place",
+        "7472": {
+            "id": "7472",
+            "type": "E21 Person",
             "virtual": false,
-            "text": "Dundee",
-            "lowered_text": "dundee",
-            "begin": 22878,
-            "end": 22884,
-            "page": 154,
-            "line": 11,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7624"
-            ],
-            "outgoing": []
-        },
-        "7469": {
-            "id": "7469",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "deutschen Kolonien",
-            "lowered_text": "deutschen kolonien",
-            "begin": 23551,
-            "end": 23569,
+            "text": "Brandeis",
+            "lowered_text": "brandeis",
+            "begin": 23597,
+            "end": 23605,
             "page": 154,
             "line": 23,
+            "txt_id": "Zoo_1900",
+            "line_idx": 495,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7667"
+                "7512"
+            ],
+            "outgoing": []
+        },
+        "7468": {
+            "id": "7468",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Frl. Fränkel",
+            "lowered_text": "frl. fränkel",
+            "begin": 23528,
+            "end": 23540,
+            "page": 154,
+            "line": 22,
+            "txt_id": "Zoo_1900",
+            "line_idx": 494,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7511"
             ],
             "outgoing": []
         },
@@ -3188,6 +3319,8 @@
             "end": 23523,
             "page": 154,
             "line": 22,
+            "txt_id": "Zoo_1900",
+            "line_idx": 494,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3196,39 +3329,90 @@
             ],
             "outgoing": []
         },
-        "7400": {
-            "id": "7400",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Hauptmann Langheld",
-            "lowered_text": "hauptmann langheld",
-            "begin": 22805,
-            "end": 22823,
-            "page": 154,
-            "line": 10,
+        "7392": {
+            "id": "7392",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Trade",
+            "lowered_text": "trade",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "txt_id": "Zoo_1900",
+            "line_idx": 0,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 0,
+            "mentions": 5,
             "incoming": [
-                "7619"
+                "7467",
+                "7468",
+                "7471",
+                "7472",
+                "7473",
+                "7476"
             ],
             "outgoing": []
         },
-        "7466": {
-            "id": "7466",
-            "type": "E21 Person",
+        "7469": {
+            "id": "7469",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Niegisch",
-            "lowered_text": "niegisch",
-            "begin": 23504,
-            "end": 23512,
+            "text": "deutschen Kolonien",
+            "lowered_text": "deutschen kolonien",
+            "begin": 23551,
+            "end": 23569,
             "page": 154,
-            "line": 22,
+            "line": 23,
+            "txt_id": "Zoo_1900",
+            "line_idx": 495,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7509"
+                "7667"
+            ],
+            "outgoing": []
+        },
+        "7389": {
+            "id": "7389",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Sammlung von Al. von Humboldt",
+            "lowered_text": "sammlung von al. von humboldt",
+            "begin": 22687,
+            "end": 22716,
+            "page": 154,
+            "line": 8,
+            "txt_id": "Zoo_1900",
+            "line_idx": 480,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7611"
+            ],
+            "outgoing": [
+                "7612"
+            ]
+        },
+        "7465": {
+            "id": "7465",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "A.Newton",
+            "lowered_text": "a.newton",
+            "begin": 23494,
+            "end": 23502,
+            "page": 154,
+            "line": 22,
+            "txt_id": "Zoo_1900",
+            "line_idx": 494,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7508"
             ],
             "outgoing": []
         },
@@ -3242,6 +3426,8 @@
             "end": 24651,
             "page": 155,
             "line": 3,
+            "txt_id": "Zoo_1900",
+            "line_idx": 518,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3249,47 +3435,6 @@
                 "7731"
             ],
             "outgoing": []
-        },
-        "7398": {
-            "id": "7398",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "Fell",
-            "lowered_text": "fell",
-            "begin": 22773,
-            "end": 22777,
-            "page": 154,
-            "line": 9,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7616"
-            ],
-            "outgoing": [
-                "7615",
-                "7618"
-            ]
-        },
-        "7471": {
-            "id": "7471",
-            "type": "E19 Physical Object",
-            "virtual": false,
-            "text": "Vögel",
-            "lowered_text": "vögel",
-            "begin": 23580,
-            "end": 23585,
-            "page": 154,
-            "line": 23,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7668"
-            ],
-            "outgoing": [
-                "7667"
-            ]
         },
         "7397": {
             "id": "7397",
@@ -3301,6 +3446,8 @@
             "end": 22772,
             "page": 154,
             "line": 9,
+            "txt_id": "Zoo_1900",
+            "line_idx": 481,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3319,230 +3466,13 @@
             "end": 23492,
             "page": 154,
             "line": 22,
+            "txt_id": "Zoo_1900",
+            "line_idx": 494,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
                 "7507"
-            ],
-            "outgoing": []
-        },
-        "7401": {
-            "id": "7401",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "einige",
-            "lowered_text": "einige",
-            "begin": 22825,
-            "end": 22831,
-            "page": 154,
-            "line": 10,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7620"
-            ],
-            "outgoing": []
-        },
-        "7463": {
-            "id": "7463",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "v. Korff",
-            "lowered_text": "v. korff",
-            "begin": 23473,
-            "end": 23481,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7506"
-            ],
-            "outgoing": []
-        },
-        "7396": {
-            "id": "7396",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "Schädel",
-            "lowered_text": "schädel",
-            "begin": 22759,
-            "end": 22766,
-            "page": 154,
-            "line": 9,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7614"
-            ],
-            "outgoing": [
-                "7613",
-                "7617"
-            ]
-        },
-        "7468": {
-            "id": "7468",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Frl. Fränkel",
-            "lowered_text": "frl. fränkel",
-            "begin": 23528,
-            "end": 23540,
-            "page": 154,
-            "line": 22,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7511"
-            ],
-            "outgoing": []
-        },
-        "7388": {
-            "id": "7388",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "Geweih",
-            "lowered_text": "geweih",
-            "begin": 22640,
-            "end": 22646,
-            "page": 154,
-            "line": 7,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7610"
-            ],
-            "outgoing": []
-        },
-        "7461": {
-            "id": "7461",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Holderer",
-            "lowered_text": "holderer",
-            "begin": 23456,
-            "end": 23464,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7504"
-            ],
-            "outgoing": []
-        },
-        "7460": {
-            "id": "7460",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Gleim",
-            "lowered_text": "gleim",
-            "begin": 23449,
-            "end": 23454,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7503"
-            ],
-            "outgoing": []
-        },
-        "7465": {
-            "id": "7465",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "A.Newton",
-            "lowered_text": "a.newton",
-            "begin": 23494,
-            "end": 23502,
-            "page": 154,
-            "line": 22,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7508"
-            ],
-            "outgoing": []
-        },
-        "7395": {
-            "id": "7395",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "3",
-            "lowered_text": "3",
-            "begin": 22757,
-            "end": 22758,
-            "page": 154,
-            "line": 9,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7613"
-            ],
-            "outgoing": []
-        },
-        "7458": {
-            "id": "7458",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Chun",
-            "lowered_text": "chun",
-            "begin": 23432,
-            "end": 23436,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7501"
-            ],
-            "outgoing": []
-        },
-        "7563": {
-            "id": "7563",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Kansas",
-            "lowered_text": "kansas",
-            "begin": 24709,
-            "end": 24715,
-            "page": 155,
-            "line": 4,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7737"
-            ],
-            "outgoing": []
-        },
-        "7457": {
-            "id": "7457",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Bünger",
-            "lowered_text": "bünger",
-            "begin": 23424,
-            "end": 23430,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7500"
             ],
             "outgoing": []
         },
@@ -3556,6 +3486,8 @@
             "end": 24688,
             "page": 155,
             "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 519,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3564,25 +3496,70 @@
             ],
             "outgoing": []
         },
-        "7402": {
-            "id": "7402",
-            "type": "E20 Biological Object",
+        "7466": {
+            "id": "7466",
+            "type": "E21 Person",
             "virtual": false,
-            "text": "Schädel",
-            "lowered_text": "schädel",
-            "begin": 22832,
-            "end": 22839,
+            "text": "Niegisch",
+            "lowered_text": "niegisch",
+            "begin": 23504,
+            "end": 23512,
             "page": 154,
-            "line": 10,
+            "line": 22,
+            "txt_id": "Zoo_1900",
+            "line_idx": 494,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7621"
+                "7509"
             ],
+            "outgoing": []
+        },
+        "7383": {
+            "id": "7383",
+            "type": "E55 Type",
+            "virtual": true,
+            "text": "Taxon",
+            "lowered_text": "taxon",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "txt_id": "Zoo_1900",
+            "line_idx": 0,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 4,
+            "incoming": [
+                "7466",
+                "7469",
+                "7470",
+                "7474",
+                "7475"
+            ],
+            "outgoing": []
+        },
+        "7384": {
+            "id": "7384",
+            "type": "E8 Acquisition",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
+            "page": 154,
+            "line": 6,
+            "txt_id": "Zoo_1900",
+            "line_idx": 478,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
             "outgoing": [
-                "7620",
-                "7622"
+                "7489",
+                "7596",
+                "7608"
             ]
         },
         "7462": {
@@ -3595,6 +3572,8 @@
             "end": 23471,
             "page": 154,
             "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3603,26 +3582,235 @@
             ],
             "outgoing": []
         },
-        "7393": {
-            "id": "7393",
+        "7380": {
+            "id": "7380",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "ostafrikanisch",
+            "lowered_text": "ostafrikanisch",
+            "begin": 22458,
+            "end": 22472,
+            "page": 154,
+            "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 476,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7601",
+                "7602"
+            ],
+            "outgoing": []
+        },
+        "7461": {
+            "id": "7461",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Holderer",
+            "lowered_text": "holderer",
+            "begin": 23456,
+            "end": 23464,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7504"
+            ],
+            "outgoing": []
+        },
+        "7391": {
+            "id": "7391",
             "type": "E8 Acquisition",
             "virtual": false,
-            "text": "erworben",
-            "lowered_text": "erworben",
-            "begin": 22747,
-            "end": 22755,
+            "text": "Tausch",
+            "lowered_text": "tausch",
+            "begin": 22733,
+            "end": 22739,
             "page": 154,
             "line": 9,
+            "txt_id": "Zoo_1900",
+            "line_idx": 481,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "7468",
-                "7491",
-                "7621",
-                "7623"
+                "7467",
+                "7490",
+                "7614",
+                "7616",
+                "7619"
             ]
+        },
+        "7463": {
+            "id": "7463",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "v. Korff",
+            "lowered_text": "v. korff",
+            "begin": 23473,
+            "end": 23481,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7506"
+            ],
+            "outgoing": []
+        },
+        "7459": {
+            "id": "7459",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Friedrich",
+            "lowered_text": "friedrich",
+            "begin": 23438,
+            "end": 23447,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7502"
+            ],
+            "outgoing": []
+        },
+        "7386": {
+            "id": "7386",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Gehörn und Geweihsammlung",
+            "lowered_text": "gehörn und geweihsammlung",
+            "begin": 22628,
+            "end": 22654,
+            "page": 154,
+            "line": 7,
+            "txt_id": "Zoo_1900",
+            "line_idx": 479,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7608"
+            ],
+            "outgoing": [
+                "7607",
+                "7609",
+                "7610",
+                "7611"
+            ]
+        },
+        "7458": {
+            "id": "7458",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Chun",
+            "lowered_text": "chun",
+            "begin": 23432,
+            "end": 23436,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7501"
+            ],
+            "outgoing": []
+        },
+        "7388": {
+            "id": "7388",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Geweih",
+            "lowered_text": "geweih",
+            "begin": 22640,
+            "end": 22646,
+            "page": 154,
+            "line": 7,
+            "txt_id": "Zoo_1900",
+            "line_idx": 479,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7610"
+            ],
+            "outgoing": []
+        },
+        "7460": {
+            "id": "7460",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Gleim",
+            "lowered_text": "gleim",
+            "begin": 23449,
+            "end": 23454,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7503"
+            ],
+            "outgoing": []
+        },
+        "7390": {
+            "id": "7390",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Al. von Humboldt",
+            "lowered_text": "al. von humboldt",
+            "begin": 22700,
+            "end": 22716,
+            "page": 154,
+            "line": 8,
+            "txt_id": "Zoo_1900",
+            "line_idx": 480,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7612"
+            ],
+            "outgoing": []
+        },
+        "7456": {
+            "id": "7456",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Bartels",
+            "lowered_text": "bartels",
+            "begin": 23415,
+            "end": 23422,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7499"
+            ],
+            "outgoing": []
         },
         "7455": {
             "id": "7455",
@@ -3634,11 +3822,136 @@
             "end": 23412,
             "page": 154,
             "line": 20,
+            "txt_id": "Zoo_1900",
+            "line_idx": 492,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
                 "7666"
+            ],
+            "outgoing": []
+        },
+        "7385": {
+            "id": "7385",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "berühmt",
+            "lowered_text": "berühmt",
+            "begin": 22618,
+            "end": 22625,
+            "page": 154,
+            "line": 7,
+            "txt_id": "Zoo_1900",
+            "line_idx": 479,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7607"
+            ],
+            "outgoing": []
+        },
+        "7457": {
+            "id": "7457",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Bünger",
+            "lowered_text": "bünger",
+            "begin": 23424,
+            "end": 23430,
+            "page": 154,
+            "line": 21,
+            "txt_id": "Zoo_1900",
+            "line_idx": 493,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7500"
+            ],
+            "outgoing": []
+        },
+        "7387": {
+            "id": "7387",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Gehörn",
+            "lowered_text": "gehörn",
+            "begin": 22628,
+            "end": 22635,
+            "page": 154,
+            "line": 7,
+            "txt_id": "Zoo_1900",
+            "line_idx": 479,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7609"
+            ],
+            "outgoing": []
+        },
+        "7453": {
+            "id": "7453",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Skelette",
+            "lowered_text": "skelette",
+            "begin": 23369,
+            "end": 23377,
+            "page": 154,
+            "line": 20,
+            "txt_id": "Zoo_1900",
+            "line_idx": 492,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7665"
+            ],
+            "outgoing": [
+                "7664"
+            ]
+        },
+        "7381": {
+            "id": "7381",
+            "type": "E3 Condition State",
+            "virtual": false,
+            "text": "hervorragend gut prüparirt",
+            "lowered_text": "hervorragend gut prüparirt",
+            "begin": 22498,
+            "end": 22524,
+            "page": 154,
+            "line": 5,
+            "txt_id": "Zoo_1900",
+            "line_idx": 477,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7603",
+                "7604"
+            ],
+            "outgoing": []
+        },
+        "7452": {
+            "id": "7452",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "6",
+            "lowered_text": "6",
+            "begin": 23367,
+            "end": 23368,
+            "page": 154,
+            "line": 20,
+            "txt_id": "Zoo_1900",
+            "line_idx": 492,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7664"
             ],
             "outgoing": []
         },
@@ -3652,6 +3965,8 @@
             "end": 23388,
             "page": 154,
             "line": 20,
+            "txt_id": "Zoo_1900",
+            "line_idx": 492,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3674,117 +3989,23 @@
                 "7666"
             ]
         },
-        "7459": {
-            "id": "7459",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Friedrich",
-            "lowered_text": "friedrich",
-            "begin": 23438,
-            "end": 23447,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7502"
-            ],
-            "outgoing": []
-        },
-        "7391": {
-            "id": "7391",
-            "type": "E8 Acquisition",
-            "virtual": false,
-            "text": "Tausch",
-            "lowered_text": "tausch",
-            "begin": 22733,
-            "end": 22739,
-            "page": 154,
-            "line": 9,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7467",
-                "7490",
-                "7614",
-                "7616",
-                "7619"
-            ]
-        },
-        "7452": {
-            "id": "7452",
+        "7450": {
+            "id": "7450",
             "type": "E54 Dimension",
             "virtual": false,
-            "text": "6",
-            "lowered_text": "6",
-            "begin": 23367,
-            "end": 23368,
+            "text": "60",
+            "lowered_text": "60",
+            "begin": 23355,
+            "end": 23357,
             "page": 154,
             "line": 20,
+            "txt_id": "Zoo_1900",
+            "line_idx": 492,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7664"
-            ],
-            "outgoing": []
-        },
-        "7390": {
-            "id": "7390",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Al. von Humboldt",
-            "lowered_text": "al. von humboldt",
-            "begin": 22700,
-            "end": 22716,
-            "page": 154,
-            "line": 8,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7612"
-            ],
-            "outgoing": []
-        },
-        "7451": {
-            "id": "7451",
-            "type": "E20 Biological Object",
-            "virtual": false,
-            "text": "Eier",
-            "lowered_text": "eier",
-            "begin": 23358,
-            "end": 23362,
-            "page": 154,
-            "line": 20,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7663"
-            ],
-            "outgoing": [
                 "7662"
-            ]
-        },
-        "7456": {
-            "id": "7456",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Bartels",
-            "lowered_text": "bartels",
-            "begin": 23415,
-            "end": 23422,
-            "page": 154,
-            "line": 21,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7499"
             ],
             "outgoing": []
         },
@@ -3798,6 +4019,8 @@
             "end": 23352,
             "page": 154,
             "line": 19,
+            "txt_id": "Zoo_1900",
+            "line_idx": 491,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3808,159 +4031,45 @@
                 "7660"
             ]
         },
-        "7448": {
-            "id": "7448",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "1218",
-            "lowered_text": "1218",
-            "begin": 23342,
-            "end": 23346,
-            "page": 154,
-            "line": 19,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7660"
-            ],
-            "outgoing": []
-        },
-        "7453": {
-            "id": "7453",
+        "7451": {
+            "id": "7451",
             "type": "E20 Biological Object",
             "virtual": false,
-            "text": "Skelette",
-            "lowered_text": "skelette",
-            "begin": 23369,
-            "end": 23377,
+            "text": "Eier",
+            "lowered_text": "eier",
+            "begin": 23358,
+            "end": 23362,
             "page": 154,
             "line": 20,
+            "txt_id": "Zoo_1900",
+            "line_idx": 492,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7665"
+                "7663"
             ],
             "outgoing": [
-                "7664"
-            ]
-        },
-        "7403": {
-            "id": "7403",
-            "type": "E28 Conceptual Object",
-            "virtual": false,
-            "text": "Otaria",
-            "lowered_text": "otaria",
-            "begin": 22845,
-            "end": 22851,
-            "page": 154,
-            "line": 11,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7622"
-            ],
-            "outgoing": [
-                "7469"
-            ]
-        },
-        "7446": {
-            "id": "7446",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Vögel",
-            "lowered_text": "vögel",
-            "begin": 23315,
-            "end": 23320,
-            "page": 154,
-            "line": 19,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7477",
-                "7494",
-                "7495",
-                "7496",
-                "7497",
-                "7498"
-            ],
-            "outgoing": []
-        },
-        "7445": {
-            "id": "7445",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "KeyInseln",
-            "lowered_text": "keyinseln",
-            "begin": 23283,
-            "end": 23293,
-            "page": 154,
-            "line": 18,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 2,
-            "incoming": [
-                "7659",
-                "7682",
-                "7740"
-            ],
-            "outgoing": []
-        },
-        "7450": {
-            "id": "7450",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "60",
-            "lowered_text": "60",
-            "begin": 23355,
-            "end": 23357,
-            "page": 154,
-            "line": 20,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
                 "7662"
-            ],
-            "outgoing": []
+            ]
         },
-        "7443": {
-            "id": "7443",
+        "7562": {
+            "id": "7562",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Borneo",
-            "lowered_text": "borneo",
-            "begin": 23260,
-            "end": 23266,
-            "page": 154,
-            "line": 18,
+            "text": "Südwestaustralien",
+            "lowered_text": "südwestaustralien",
+            "begin": 24690,
+            "end": 24707,
+            "page": 155,
+            "line": 4,
+            "txt_id": "Zoo_1900",
+            "line_idx": 519,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7657"
-            ],
-            "outgoing": []
-        },
-        "7442": {
-            "id": "7442",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Sumatra",
-            "lowered_text": "sumatra",
-            "begin": 23251,
-            "end": 23258,
-            "page": 154,
-            "line": 18,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 1,
-            "incoming": [
-                "7656",
-                "7732"
+                "7736"
             ],
             "outgoing": []
         },
@@ -3974,6 +4083,8 @@
             "end": 23335,
             "page": 154,
             "line": 19,
+            "txt_id": "Zoo_1900",
+            "line_idx": 491,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -3985,40 +4096,48 @@
                 "7665"
             ]
         },
-        "7440": {
-            "id": "7440",
-            "type": "E53 Place",
+        "7446": {
+            "id": "7446",
+            "type": "E78 Curated Holding",
             "virtual": false,
-            "text": "Pamir",
-            "lowered_text": "pamir",
-            "begin": 23236,
-            "end": 23241,
+            "text": "Vögel",
+            "lowered_text": "vögel",
+            "begin": 23315,
+            "end": 23320,
             "page": 154,
-            "line": 17,
+            "line": 19,
+            "txt_id": "Zoo_1900",
+            "line_idx": 491,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7654"
+                "7477",
+                "7494",
+                "7495",
+                "7496",
+                "7497",
+                "7498"
             ],
             "outgoing": []
         },
-        "7439": {
-            "id": "7439",
-            "type": "E53 Place",
+        "7448": {
+            "id": "7448",
+            "type": "E54 Dimension",
             "virtual": false,
-            "text": "Peru",
-            "lowered_text": "peru",
-            "begin": 23230,
-            "end": 23234,
+            "text": "1218",
+            "lowered_text": "1218",
+            "begin": 23342,
+            "end": 23346,
             "page": 154,
-            "line": 17,
+            "line": 19,
+            "txt_id": "Zoo_1900",
+            "line_idx": 491,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 1,
+            "mentions": 0,
             "incoming": [
-                "7653",
-                "7738"
+                "7660"
             ],
             "outgoing": []
         },
@@ -4032,6 +4151,8 @@
             "end": 23278,
             "page": 154,
             "line": 18,
+            "txt_id": "Zoo_1900",
+            "line_idx": 490,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4040,39 +4161,45 @@
             ],
             "outgoing": []
         },
-        "7437": {
-            "id": "7437",
+        "7443": {
+            "id": "7443",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Kalifornien",
-            "lowered_text": "kalifornien",
-            "begin": 23206,
-            "end": 23217,
+            "text": "Borneo",
+            "lowered_text": "borneo",
+            "begin": 23260,
+            "end": 23266,
             "page": 154,
-            "line": 17,
+            "line": 18,
+            "txt_id": "Zoo_1900",
+            "line_idx": 490,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7651"
+                "7657"
             ],
             "outgoing": []
         },
-        "7436": {
-            "id": "7436",
+        "7445": {
+            "id": "7445",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Kanada",
-            "lowered_text": "kanada",
-            "begin": 23198,
-            "end": 23204,
+            "text": "KeyInseln",
+            "lowered_text": "keyinseln",
+            "begin": 23283,
+            "end": 23293,
             "page": 154,
-            "line": 17,
+            "line": 18,
+            "txt_id": "Zoo_1900",
+            "line_idx": 490,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 0,
+            "mentions": 2,
             "incoming": [
-                "7650"
+                "7659",
+                "7682",
+                "7740"
             ],
             "outgoing": []
         },
@@ -4086,6 +4213,8 @@
             "end": 23248,
             "page": 154,
             "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4094,39 +4223,44 @@
             ],
             "outgoing": []
         },
-        "7434": {
-            "id": "7434",
+        "7440": {
+            "id": "7440",
             "type": "E53 Place",
             "virtual": false,
-            "text": "BritischOstafrika",
-            "lowered_text": "britischostafrika",
-            "begin": 23166,
-            "end": 23184,
+            "text": "Pamir",
+            "lowered_text": "pamir",
+            "begin": 23236,
+            "end": 23241,
             "page": 154,
-            "line": 16,
+            "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7648"
+                "7654"
             ],
             "outgoing": []
         },
-        "7433": {
-            "id": "7433",
+        "7442": {
+            "id": "7442",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Transvaal",
-            "lowered_text": "transvaal",
-            "begin": 23155,
-            "end": 23164,
+            "text": "Sumatra",
+            "lowered_text": "sumatra",
+            "begin": 23251,
+            "end": 23258,
             "page": 154,
-            "line": 16,
+            "line": 18,
+            "txt_id": "Zoo_1900",
+            "line_idx": 490,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 0,
+            "mentions": 1,
             "incoming": [
-                "7647"
+                "7656",
+                "7732"
             ],
             "outgoing": []
         },
@@ -4140,6 +4274,8 @@
             "end": 23228,
             "page": 154,
             "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4148,21 +4284,44 @@
             ],
             "outgoing": []
         },
-        "7430": {
-            "id": "7430",
+        "7437": {
+            "id": "7437",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Senegal",
-            "lowered_text": "senegal",
-            "begin": 23113,
-            "end": 23120,
+            "text": "Kalifornien",
+            "lowered_text": "kalifornien",
+            "begin": 23206,
+            "end": 23217,
             "page": 154,
-            "line": 15,
+            "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7644"
+                "7651"
+            ],
+            "outgoing": []
+        },
+        "7439": {
+            "id": "7439",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Peru",
+            "lowered_text": "peru",
+            "begin": 23230,
+            "end": 23234,
+            "page": 154,
+            "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 1,
+            "incoming": [
+                "7653",
+                "7738"
             ],
             "outgoing": []
         },
@@ -4176,6 +4335,8 @@
             "end": 23196,
             "page": 154,
             "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4184,75 +4345,63 @@
             ],
             "outgoing": []
         },
-        "7428": {
-            "id": "7428",
+        "7434": {
+            "id": "7434",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Porto Santo",
-            "lowered_text": "porto santo",
-            "begin": 23093,
-            "end": 23104,
+            "text": "BritischOstafrika",
+            "lowered_text": "britischostafrika",
+            "begin": 23166,
+            "end": 23184,
             "page": 154,
-            "line": 15,
+            "line": 16,
+            "txt_id": "Zoo_1900",
+            "line_idx": 488,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7642"
+                "7648"
             ],
             "outgoing": []
         },
-        "7427": {
-            "id": "7427",
+        "7436": {
+            "id": "7436",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Transkaukasien",
-            "lowered_text": "transkaukasien",
-            "begin": 23077,
-            "end": 23091,
+            "text": "Kanada",
+            "lowered_text": "kanada",
+            "begin": 23198,
+            "end": 23204,
             "page": 154,
-            "line": 15,
+            "line": 17,
+            "txt_id": "Zoo_1900",
+            "line_idx": 489,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7641"
+                "7650"
             ],
             "outgoing": []
         },
-        "7425": {
-            "id": "7425",
+        "7433": {
+            "id": "7433",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Sardinien",
-            "lowered_text": "sardinien",
-            "begin": 23056,
-            "end": 23065,
+            "text": "Transvaal",
+            "lowered_text": "transvaal",
+            "begin": 23155,
+            "end": 23164,
             "page": 154,
-            "line": 15,
+            "line": 16,
+            "txt_id": "Zoo_1900",
+            "line_idx": 488,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7639"
-            ],
-            "outgoing": []
-        },
-        "7424": {
-            "id": "7424",
-            "type": "E53 Place",
-            "virtual": false,
-            "text": "Rumänien",
-            "lowered_text": "rumänien",
-            "begin": 23045,
-            "end": 23053,
-            "page": 154,
-            "line": 14,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7638"
+                "7647"
             ],
             "outgoing": []
         },
@@ -4266,6 +4415,8 @@
             "end": 23111,
             "page": 154,
             "line": 15,
+            "txt_id": "Zoo_1900",
+            "line_idx": 487,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4274,59 +4425,43 @@
             ],
             "outgoing": []
         },
-        "7405": {
-            "id": "7405",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "D’Arcy W. Thompson",
-            "lowered_text": "d’arcy w. thompson",
-            "begin": 22856,
-            "end": 22874,
-            "page": 154,
-            "line": 11,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [
-                "7623"
-            ],
-            "outgoing": [
-                "7624"
-            ]
-        },
-        "7422": {
-            "id": "7422",
+        "7428": {
+            "id": "7428",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Galizien",
-            "lowered_text": "galizien",
-            "begin": 23025,
-            "end": 23033,
+            "text": "Porto Santo",
+            "lowered_text": "porto santo",
+            "begin": 23093,
+            "end": 23104,
             "page": 154,
-            "line": 14,
+            "line": 15,
+            "txt_id": "Zoo_1900",
+            "line_idx": 487,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7636"
+                "7642"
             ],
             "outgoing": []
         },
-        "7421": {
-            "id": "7421",
+        "7430": {
+            "id": "7430",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Bayern",
-            "lowered_text": "bayern",
-            "begin": 23017,
-            "end": 23023,
+            "text": "Senegal",
+            "lowered_text": "senegal",
+            "begin": 23113,
+            "end": 23120,
             "page": 154,
-            "line": 14,
+            "line": 15,
+            "txt_id": "Zoo_1900",
+            "line_idx": 487,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7635"
+                "7644"
             ],
             "outgoing": []
         },
@@ -4340,6 +4475,8 @@
             "end": 23075,
             "page": 154,
             "line": 15,
+            "txt_id": "Zoo_1900",
+            "line_idx": 487,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4348,42 +4485,68 @@
             ],
             "outgoing": []
         },
-        "7419": {
-            "id": "7419",
+        "7425": {
+            "id": "7425",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Schlesien",
-            "lowered_text": "schlesien",
-            "begin": 22992,
-            "end": 23001,
+            "text": "Sardinien",
+            "lowered_text": "sardinien",
+            "begin": 23056,
+            "end": 23065,
             "page": 154,
-            "line": 14,
+            "line": 15,
+            "txt_id": "Zoo_1900",
+            "line_idx": 487,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7633"
+                "7639"
             ],
             "outgoing": []
         },
-        "7418": {
-            "id": "7418",
+        "7427": {
+            "id": "7427",
             "type": "E53 Place",
             "virtual": false,
-            "text": "Mark",
-            "lowered_text": "mark",
-            "begin": 22985,
-            "end": 22989,
+            "text": "Transkaukasien",
+            "lowered_text": "transkaukasien",
+            "begin": 23077,
+            "end": 23091,
             "page": 154,
-            "line": 13,
+            "line": 15,
+            "txt_id": "Zoo_1900",
+            "line_idx": 487,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
-            "mentions": 1,
+            "mentions": 0,
             "incoming": [
-                "7632",
-                "7676"
+                "7641"
             ],
             "outgoing": []
+        },
+        "7398": {
+            "id": "7398",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Fell",
+            "lowered_text": "fell",
+            "begin": 22773,
+            "end": 22777,
+            "page": 154,
+            "line": 9,
+            "txt_id": "Zoo_1900",
+            "line_idx": 481,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7616"
+            ],
+            "outgoing": [
+                "7615",
+                "7618"
+            ]
         },
         "7423": {
             "id": "7423",
@@ -4395,6 +4558,8 @@
             "end": 23043,
             "page": 154,
             "line": 14,
+            "txt_id": "Zoo_1900",
+            "line_idx": 486,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4403,58 +4568,63 @@
             ],
             "outgoing": []
         },
-        "7416": {
-            "id": "7416",
-            "type": "E54 Dimension",
+        "7422": {
+            "id": "7422",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "400",
-            "lowered_text": "400",
-            "begin": 22961,
-            "end": 22964,
+            "text": "Galizien",
+            "lowered_text": "galizien",
+            "begin": 23025,
+            "end": 23033,
             "page": 154,
-            "line": 13,
+            "line": 14,
+            "txt_id": "Zoo_1900",
+            "line_idx": 486,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7630"
+                "7636"
             ],
             "outgoing": []
         },
-        "7415": {
-            "id": "7415",
-            "type": "E96 Purchase",
+        "7424": {
+            "id": "7424",
+            "type": "E53 Place",
             "virtual": false,
-            "text": "Angekauft",
-            "lowered_text": "angekauft",
-            "begin": 22939,
-            "end": 22948,
+            "text": "Rumänien",
+            "lowered_text": "rumänien",
+            "begin": 23045,
+            "end": 23053,
             "page": 154,
-            "line": 13,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1900,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "7493",
-                "7631"
-            ]
-        },
-        "7567": {
-            "id": "7567",
-            "type": "E78 Curated Holding",
-            "virtual": false,
-            "text": "Fische",
-            "lowered_text": "fische",
-            "begin": 24756,
-            "end": 24762,
-            "page": 155,
-            "line": 6,
+            "line": 14,
+            "txt_id": "Zoo_1900",
+            "line_idx": 486,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7479"
+                "7638"
+            ],
+            "outgoing": []
+        },
+        "7395": {
+            "id": "7395",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "3",
+            "lowered_text": "3",
+            "begin": 22757,
+            "end": 22758,
+            "page": 154,
+            "line": 9,
+            "txt_id": "Zoo_1900",
+            "line_idx": 481,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7613"
             ],
             "outgoing": []
         },
@@ -4468,11 +4638,53 @@
             "end": 23015,
             "page": 154,
             "line": 14,
+            "txt_id": "Zoo_1900",
+            "line_idx": 486,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
                 "7634"
+            ],
+            "outgoing": []
+        },
+        "7419": {
+            "id": "7419",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Schlesien",
+            "lowered_text": "schlesien",
+            "begin": 22992,
+            "end": 23001,
+            "page": 154,
+            "line": 14,
+            "txt_id": "Zoo_1900",
+            "line_idx": 486,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7633"
+            ],
+            "outgoing": []
+        },
+        "7421": {
+            "id": "7421",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Bayern",
+            "lowered_text": "bayern",
+            "begin": 23017,
+            "end": 23023,
+            "page": 154,
+            "line": 14,
+            "txt_id": "Zoo_1900",
+            "line_idx": 486,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7635"
             ],
             "outgoing": []
         },
@@ -4486,6 +4698,8 @@
             "end": null,
             "page": 154,
             "line": 13,
+            "txt_id": "Zoo_1900",
+            "line_idx": 485,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4524,6 +4738,88 @@
                 "7659"
             ]
         },
+        "7416": {
+            "id": "7416",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "400",
+            "lowered_text": "400",
+            "begin": 22961,
+            "end": 22964,
+            "page": 154,
+            "line": 13,
+            "txt_id": "Zoo_1900",
+            "line_idx": 485,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7630"
+            ],
+            "outgoing": []
+        },
+        "7418": {
+            "id": "7418",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Mark",
+            "lowered_text": "mark",
+            "begin": 22985,
+            "end": 22989,
+            "page": 154,
+            "line": 13,
+            "txt_id": "Zoo_1900",
+            "line_idx": 485,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 1,
+            "incoming": [
+                "7632",
+                "7676"
+            ],
+            "outgoing": []
+        },
+        "7414": {
+            "id": "7414",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Hauptmann Nolte",
+            "lowered_text": "hauptmann nolte",
+            "begin": 22921,
+            "end": 22936,
+            "page": 154,
+            "line": 12,
+            "txt_id": "Zoo_1900",
+            "line_idx": 484,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7629"
+            ],
+            "outgoing": []
+        },
+        "7415": {
+            "id": "7415",
+            "type": "E96 Purchase",
+            "virtual": false,
+            "text": "Angekauft",
+            "lowered_text": "angekauft",
+            "begin": 22939,
+            "end": 22948,
+            "page": 154,
+            "line": 13,
+            "txt_id": "Zoo_1900",
+            "line_idx": 485,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "7493",
+                "7631"
+            ]
+        },
         "7411": {
             "id": "7411",
             "type": "E8 Acquisition",
@@ -4534,6 +4830,8 @@
             "end": null,
             "page": 154,
             "line": 12,
+            "txt_id": "Zoo_1900",
+            "line_idx": 484,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4545,6 +4843,46 @@
                 "7629"
             ]
         },
+        "7567": {
+            "id": "7567",
+            "type": "E78 Curated Holding",
+            "virtual": false,
+            "text": "Fische",
+            "lowered_text": "fische",
+            "begin": 24756,
+            "end": 24762,
+            "page": 155,
+            "line": 6,
+            "txt_id": "Zoo_1900",
+            "line_idx": 521,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7479"
+            ],
+            "outgoing": []
+        },
+        "7565": {
+            "id": "7565",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Cuba",
+            "lowered_text": "cuba",
+            "begin": 24724,
+            "end": 24728,
+            "page": 155,
+            "line": 5,
+            "txt_id": "Zoo_1900",
+            "line_idx": 520,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7739"
+            ],
+            "outgoing": []
+        },
         "7410": {
             "id": "7410",
             "type": "E20 Biological Object",
@@ -4555,6 +4893,8 @@
             "end": 22904,
             "page": 154,
             "line": 12,
+            "txt_id": "Zoo_1900",
+            "line_idx": 484,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4567,43 +4907,68 @@
                 "7628"
             ]
         },
-        "7414": {
-            "id": "7414",
-            "type": "E21 Person",
+        "7407": {
+            "id": "7407",
+            "type": "E54 Dimension",
             "virtual": false,
-            "text": "Hauptmann Nolte",
-            "lowered_text": "hauptmann nolte",
-            "begin": 22921,
-            "end": 22936,
+            "text": "ein",
+            "lowered_text": "ein",
+            "begin": 22886,
+            "end": 22889,
             "page": 154,
-            "line": 12,
+            "line": 11,
+            "txt_id": "Zoo_1900",
+            "line_idx": 483,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7629"
+                "7625"
             ],
             "outgoing": []
         },
-        "7299": {
-            "id": "7299",
-            "type": "E19 Physical Object",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
-            "page": 153,
-            "line": 24,
+        "7396": {
+            "id": "7396",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Schädel",
+            "lowered_text": "schädel",
+            "begin": 22759,
+            "end": 22766,
+            "page": 154,
+            "line": 9,
+            "txt_id": "Zoo_1900",
+            "line_idx": 481,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
             "incoming": [
-                "7529"
+                "7614"
             ],
             "outgoing": [
-                "7530"
+                "7613",
+                "7617"
             ]
+        },
+        "7406": {
+            "id": "7406",
+            "type": "E53 Place",
+            "virtual": false,
+            "text": "Dundee",
+            "lowered_text": "dundee",
+            "begin": 22878,
+            "end": 22884,
+            "page": 154,
+            "line": 11,
+            "txt_id": "Zoo_1900",
+            "line_idx": 483,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7624"
+            ],
+            "outgoing": []
         },
         "7408": {
             "id": "7408",
@@ -4615,6 +4980,8 @@
             "end": 22895,
             "page": 154,
             "line": 11,
+            "txt_id": "Zoo_1900",
+            "line_idx": 483,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1900,
             "mentions": 0,
@@ -4624,6 +4991,113 @@
             "outgoing": [
                 "7470"
             ]
+        },
+        "7405": {
+            "id": "7405",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "D’Arcy W. Thompson",
+            "lowered_text": "d’arcy w. thompson",
+            "begin": 22856,
+            "end": 22874,
+            "page": 154,
+            "line": 11,
+            "txt_id": "Zoo_1900",
+            "line_idx": 483,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7623"
+            ],
+            "outgoing": [
+                "7624"
+            ]
+        },
+        "7402": {
+            "id": "7402",
+            "type": "E20 Biological Object",
+            "virtual": false,
+            "text": "Schädel",
+            "lowered_text": "schädel",
+            "begin": 22832,
+            "end": 22839,
+            "page": 154,
+            "line": 10,
+            "txt_id": "Zoo_1900",
+            "line_idx": 482,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7621"
+            ],
+            "outgoing": [
+                "7620",
+                "7622"
+            ]
+        },
+        "7401": {
+            "id": "7401",
+            "type": "E54 Dimension",
+            "virtual": false,
+            "text": "einige",
+            "lowered_text": "einige",
+            "begin": 22825,
+            "end": 22831,
+            "page": 154,
+            "line": 10,
+            "txt_id": "Zoo_1900",
+            "line_idx": 482,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7620"
+            ],
+            "outgoing": []
+        },
+        "7403": {
+            "id": "7403",
+            "type": "E28 Conceptual Object",
+            "virtual": false,
+            "text": "Otaria",
+            "lowered_text": "otaria",
+            "begin": 22845,
+            "end": 22851,
+            "page": 154,
+            "line": 11,
+            "txt_id": "Zoo_1900",
+            "line_idx": 483,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7622"
+            ],
+            "outgoing": [
+                "7469"
+            ]
+        },
+        "7400": {
+            "id": "7400",
+            "type": "E21 Person",
+            "virtual": false,
+            "text": "Hauptmann Langheld",
+            "lowered_text": "hauptmann langheld",
+            "begin": 22805,
+            "end": 22823,
+            "page": 154,
+            "line": 10,
+            "txt_id": "Zoo_1900",
+            "line_idx": 482,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1900,
+            "mentions": 0,
+            "incoming": [
+                "7619"
+            ],
+            "outgoing": []
         }
     },
     "Properties": {

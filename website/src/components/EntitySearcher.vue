@@ -82,4 +82,8 @@ export default {
         cursor: pointer;
     }
 
+    label {
+        display: block;
+    }
+
 </style>
