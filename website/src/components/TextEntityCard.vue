@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <TextSnippet :texts="texts" :textidx="entity.txt_id" :lineidx="entity.line_idx"/>
+        <TextSnippet :texts="texts" :textidx="entity.txt_id" :lineidx="entity.line_idx" :pageline="entity.line"/>
         <div class="semanticData">
             <h2 class="typeHeading">{{entity.text}}</h2>
             <h3 class="entityText">{{entity.type}}</h3>

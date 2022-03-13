@@ -71,6 +71,7 @@ class Corrector(object):
         self.text = ''.join(new_text)
         self.set_pagenumbers()
         self.set_linenumbers()
+        self.delete_meaningless_lines()
         return self.text
     
     def clean(self, txt):
@@ -106,6 +107,23 @@ class Corrector(object):
             cursor = match.end()
         self.lines.append(self.text[cursor:len(self.text)])
         
+    def delete_meaningless_lines(self):
+        LINENUMBER_PATTERN = re.compile(r"\d")
+        VOCALS_PATTERN = re.compile(r"[aeiouäüö]", flags=re.IGNORECASE)
+        
+        for i, line in enumerate(self.lines):
+            if line.startswith("====P"):
+                if i-2 >= 0:
+                    last_line = self.lines[i-2]
+                    if len(last_line)<8 and (LINENUMBER_PATTERN.search(last_line) or VOCALS_PATTERN.search(last_line) is None):
+                        #print(f"    Delete last line {self.lines[i-2]}")
+                        self.lines[i-2] = ""
+                if i+2 < len(self.lines):
+                    next_line = self.lines[i+2]
+                    if len(next_line)<8 and (LINENUMBER_PATTERN.search(next_line) or VOCALS_PATTERN.search(next_line) is None):
+                        #print(f"    Delete next line {self.lines[i+2]}")
+                        self.lines[i+2] = ""
+    
     def get_pagenumber(self, index):
         cursor = index
         if self.pagenumbers:
@@ -314,8 +332,27 @@ def parse_postprocessing(tag_string, source, anchors, corrector):
         
     return virtual_from_source
 
-def postprocessing(entities, properties):
-    pass
+def postprocessing(entities, properties, corrector):
+    # Donation Type
+    donation = None
+    for e in entities:
+        if e.type.startswith("E8 "):
+            has_type = False
+            for p in e.outgoing:
+                if p.type.startswith("P2 "):
+                    has_type = True
+                    break
+            if not has_type:
+                if donation is None: donation = SemanticEntity({'SemanticClass':'E55 Type','string':'Donation'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=e, target=donation, year=e.year, institution=e.institution)
+    
+    
+    entities.update(SemanticEntity.virtuals)
+    properties += SemanticProperty.virtuals
+    
+    SemanticProperty.virtuals.clear()
+    SemanticEntity.virtuals.clear()
+    return entities, properties
 
 def consolidate_properties(property, queen, incoming=True):
     assert isinstance(property, SemanticProperty) and isinstance(queen, SemanticEntity)
@@ -389,11 +426,15 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True)
     if consolidate: entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
     
     properties = [SemanticProperty(tag, entity_map, year=year, institution=institution) for tag in xml.find_all("custom:SemanticRelations")]
+    
     if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
     properties += SemanticProperty.virtuals
     
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
+    
+    entities, properties = postprocessing(entities, properties, corrector)
+    assert len(set(e.id for e in entities)) == len(entities)
     return text, corrector.lines, entities, properties
 
 def extract_ins_year(filename):

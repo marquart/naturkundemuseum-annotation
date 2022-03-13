@@ -1,6 +1,8 @@
 <template>
     <div>
         <EntitySearcher class="searchField" ref="source" :classes="constrainedClasses" @query="query"/>
+        <input type="submit" value="Search" id="button" @click="query"/>
+
         <div id="navigationElements">
             <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
             <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
@@ -125,6 +127,8 @@ export default {
 <style scoped>
     .searchField {
         text-align: center;
+        width: 50%;
+        margin-left: 25%;
     }
 
     #navigationElements {
@@ -152,5 +156,24 @@ export default {
 
     .buttonLeft {
         float: left;
+    }
+
+    #button {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 1.2em;
+        margin: 1.2em;
+        font-family: inherit;
+        color: inherit;
+        cursor: pointer;
+        text-align: center;
+        width: 50%;
+        background: #ffffff;
+        margin-left: 25%;
+        border: 1px solid #2c3e50;
+    }
+    
+    #button:hover {
+        background: #EBEBEB;
     }
 </style>
