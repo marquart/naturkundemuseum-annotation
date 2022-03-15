@@ -11,7 +11,7 @@ from ParseUIMAXMI import SemanticEntity, SemanticProperty
 
 
 class Node(object):
-    def __init__(self, entity=None, _id=0, label="", style="solid"):
+    def __init__(self, entity=None, _id=0, label="", style="bold"):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
@@ -167,7 +167,17 @@ def load_pickle(filepath):
     with open(filepath, 'rb') as f:
         data = pickle.load(f)
     return data
+
+def get_color(node):
+    if node.entity:
+        LOOKUP = {'E41': '#8c613c', 'E55': '#956cb4', 'E74': '#4878d0', 'E63': '#dc7ec0', 'E21': '#4878d0', 'E52': '#dc7ec0', 'E85': '#d65f5f', 'E8': '#d65f5f', 'E78': '#797979', 'E87': '#d65f5f', 'E28': '#956cb4', 'E53': '#6acc64', 'E20': '#ee854a', 'E54': '#dc7ec0', 'E19': '#ee854a', 'E39': '#4878d0', 'E35': '#8c613c', 'E12': '#d65f5f', 'E77': '#797979', 'E9': '#d65f5f', 'E60': '#8c613c', 'E7': '#d65f5f', 'E96': '#d65f5f', 'E86': '#d65f5f', 'E57': '#ee854a', 'E3': '#dc7ec0', 'E66': '#d65f5f', 'E29': '#8c613c', 'E11': '#d65f5f', 'E73': '#8c613c', 'E79': '#d65f5f', 'E14': '#d65f5f'}
+        pattern = re.compile(r"^(E\d+?) ")
+        type = pattern.search(node.entity.type).group(1)
+        if type in LOOKUP: return LOOKUP[type]
+    return 'black'
     
+
+
 def generate_DOT(entity):
     template = """
 digraph Annotationen {
@@ -176,9 +186,10 @@ digraph Annotationen {
     ranksep="0.8 equally";
     fontname="sans-serif";
     fontsize="10";
-    node [shape=record fontname="sans-serif" fontsize="10"];
-    edge [fontname="sans-serif" fontsize="10"];
+    node [shape=record fontname="sans-serif" fontsize="10" penwidth=2];
+    edge [fontname="sans-serif" fontsize="10" penwidth=1];
     splines=ortho;
+    penwidth=8;
     
     {
     
@@ -189,6 +200,7 @@ digraph Annotationen {
         label="GRAPHLABEL";
         fontname="sans-serif";
         fontsize="10";
+        penwidth=1;
      
 NODES
 
@@ -204,7 +216,7 @@ NODES
     result = BFS(nodes[0], maxdepth=3)
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
-    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> color="{"black" if i>0 else "red"}" style="{node.style}"];' for i, node in enumerate(nodes)]))
+    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> color="{"red" if i<1 else get_color(node)}" style="{node.style}"];' for i, node in enumerate(nodes)]))
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))
