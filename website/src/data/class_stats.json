@@ -35,10 +35,10 @@
     "E4 Period (1)",
     "E31 Document (1)",
     "E0 Unknown (1)",
+    "E5 Event (1)",
     "E65 Creation (1)",
     "E99 Product Type (1)",
-    "E81 Transformation (1)",
-    "E5 Event (1)"
+    "E81 Transformation (1)"
   ],
   "Properties": [
     "P23 transferred title from (2422)",

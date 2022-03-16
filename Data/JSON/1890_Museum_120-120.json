@@ -5,181 +5,10 @@
     "Page_End": 120,
     "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
     "Entities": {
-        "1080": {
-            "id": "1080",
-            "type": "E55 Type",
-            "virtual": false,
-            "text": "Besucherzahl",
-            "lowered_text": "besucherzahl",
-            "begin": 1020,
-            "end": 1032,
-            "page": 120,
-            "line": 22,
-            "txt_id": "Mus_1890",
-            "line_idx": 23,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1056",
-                "1057"
-            ],
-            "outgoing": []
-        },
-        "1081": {
-            "id": "1081",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "28. März d. Js.",
-            "lowered_text": "28. märz d. js.",
-            "begin": 1040,
-            "end": 1055,
-            "page": 120,
-            "line": 22,
-            "txt_id": "Mus_1890",
-            "line_idx": 23,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1058"
-            ],
-            "outgoing": []
-        },
-        "1082": {
-            "id": "1082",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "690",
-            "lowered_text": "690",
-            "begin": 1060,
-            "end": 1063,
-            "page": 120,
-            "line": 22,
-            "txt_id": "Mus_1890",
-            "line_idx": 23,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1059"
-            ],
-            "outgoing": [
-                "1056",
-                "1058"
-            ]
-        },
-        "1083": {
-            "id": "1083",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "15. Dezember v. Js.",
-            "lowered_text": "15. dezember v. js.",
-            "begin": 1087,
-            "end": 1106,
-            "page": 120,
-            "line": 23,
-            "txt_id": "Mus_1890",
-            "line_idx": 24,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1060"
-            ],
-            "outgoing": []
-        },
-        "1084": {
-            "id": "1084",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "75",
-            "lowered_text": "75",
-            "begin": 1111,
-            "end": 1113,
-            "page": 120,
-            "line": 23,
-            "txt_id": "Mus_1890",
-            "line_idx": 24,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1061"
-            ],
-            "outgoing": [
-                "1057",
-                "1060"
-            ]
-        },
-        "1085": {
-            "id": "1085",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Personen",
-            "lowered_text": "personen",
-            "begin": 1114,
-            "end": 1122,
-            "page": 120,
-            "line": 23,
-            "txt_id": "Mus_1890",
-            "line_idx": 24,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "1037",
-                "1059",
-                "1061",
-                "1063"
-            ]
-        },
-        "1087": {
-            "id": "1087",
-            "type": "E55 Type",
-            "virtual": false,
-            "text": "Durchschnitt",
-            "lowered_text": "durchschnitt",
-            "begin": 1144,
-            "end": 1156,
-            "page": 120,
-            "line": 24,
-            "txt_id": "Mus_1890",
-            "line_idx": 25,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1062"
-            ],
-            "outgoing": []
-        },
-        "1088": {
-            "id": "1088",
-            "type": "E54 Dimension",
-            "virtual": false,
-            "text": "219",
-            "lowered_text": "219",
-            "begin": 1204,
-            "end": 1207,
-            "page": 120,
-            "line": 25,
-            "txt_id": "Mus_1890",
-            "line_idx": 26,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1063"
-            ],
-            "outgoing": [
-                "1062"
-            ]
-        },
         "1089": {
             "id": "1089",
             "type": "E52 Time-Span",
+            "short_type": "E52",
             "virtual": false,
             "text": "1. Juli v. Js.",
             "lowered_text": "1. juli v. js.",
@@ -200,6 +29,7 @@
         "1090": {
             "id": "1090",
             "type": "E54 Dimension",
+            "short_type": "E54",
             "virtual": false,
             "text": "drei",
             "lowered_text": "drei",
@@ -220,6 +50,7 @@
         "1062": {
             "id": "1062",
             "type": "E52 Time-Span",
+            "short_type": "E52",
             "virtual": false,
             "text": "Montags",
             "lowered_text": "montags",
@@ -240,6 +71,7 @@
         "1091": {
             "id": "1091",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Aufsichtsdiener",
             "lowered_text": "aufsichtsdiener",
@@ -263,6 +95,7 @@
         "1063": {
             "id": "1063",
             "type": "E52 Time-Span",
+            "short_type": "E52",
             "virtual": false,
             "text": "Sonnabends von 11 bis 3 Uhr",
             "lowered_text": "sonnabends von 11 bis 3 uhr",
@@ -283,6 +116,7 @@
         "1093": {
             "id": "1093",
             "type": "E54 Dimension",
+            "short_type": "E54",
             "virtual": false,
             "text": "acht",
             "lowered_text": "acht",
@@ -303,6 +137,7 @@
         "1092": {
             "id": "1092",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Profession",
             "lowered_text": "profession",
@@ -328,6 +163,7 @@
         "1094": {
             "id": "1094",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Hilfsaufseher",
             "lowered_text": "hilfsaufseher",
@@ -351,6 +187,7 @@
         "1061": {
             "id": "1061",
             "type": "E52 Time-Span",
+            "short_type": "E52",
             "virtual": false,
             "text": "1. Juli v. Js.",
             "lowered_text": "1. juli v. js.",
@@ -371,6 +208,7 @@
         "1096": {
             "id": "1096",
             "type": "E66 Formation",
+            "short_type": "E66",
             "virtual": false,
             "text": "angenommen",
             "lowered_text": "angenommen",
@@ -394,6 +232,7 @@
         "1098": {
             "id": "1098",
             "type": "E29 Design or Procedure",
+            "short_type": "E29",
             "virtual": false,
             "text": "Aufbewahrung der von den Besuchern abzugebenden Garderobegegenstände",
             "lowered_text": "aufbewahrung der von den besuchern abzugebenden garderobegegenstände",
@@ -416,6 +255,7 @@
         "1064": {
             "id": "1064",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "Publikum",
             "lowered_text": "publikum",
@@ -436,6 +276,7 @@
         "1066": {
             "id": "1066",
             "type": "E52 Time-Span",
+            "short_type": "E52",
             "virtual": false,
             "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
             "lowered_text": "mittwochs nachmittags von 1 bis 4 uhr",
@@ -456,6 +297,7 @@
         "1065": {
             "id": "1065",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Audience",
             "lowered_text": "audience",
@@ -480,6 +322,7 @@
         "1100": {
             "id": "1100",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Portier",
             "lowered_text": "portier",
@@ -501,6 +344,7 @@
         "1099": {
             "id": "1099",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Task",
             "lowered_text": "task",
@@ -522,6 +366,7 @@
         "1067": {
             "id": "1067",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "Schüler höherer Lehranstalten",
             "lowered_text": "schüler höherer lehranstalten",
@@ -542,6 +387,7 @@
         "1069": {
             "id": "1069",
             "type": "E3 Condition State",
+            "short_type": "E3",
             "virtual": false,
             "text": "geöffnet",
             "lowered_text": "geöffnet",
@@ -566,6 +412,7 @@
         "1102": {
             "id": "1102",
             "type": "E29 Design or Procedure",
+            "short_type": "E29",
             "virtual": false,
             "text": "Oberaufsicht",
             "lowered_text": "oberaufsicht",
@@ -588,6 +435,7 @@
         "1071": {
             "id": "1071",
             "type": "E52 Time-Span",
+            "short_type": "E52",
             "virtual": false,
             "text": "Wintersemester",
             "lowered_text": "wintersemester",
@@ -608,6 +456,7 @@
         "1104": {
             "id": "1104",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Kastellan",
             "lowered_text": "kastellan",
@@ -629,6 +478,7 @@
         "1070": {
             "id": "1070",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Opening Times",
             "lowered_text": "opening times",
@@ -649,6 +499,7 @@
         "1072": {
             "id": "1072",
             "type": "E7 Activity",
+            "short_type": "E7",
             "virtual": false,
             "text": "besuchten",
             "lowered_text": "besuchten",
@@ -672,6 +523,7 @@
         "1106": {
             "id": "1106",
             "type": "E21 Person",
+            "short_type": "E21",
             "virtual": false,
             "text": "Professor Dr. Beyrich",
             "lowered_text": "professor dr. beyrich",
@@ -693,6 +545,7 @@
         "1074": {
             "id": "1074",
             "type": "E54 Dimension",
+            "short_type": "E54",
             "virtual": false,
             "text": "11579",
             "lowered_text": "11579",
@@ -713,6 +566,7 @@
         "1073": {
             "id": "1073",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Visiting",
             "lowered_text": "visiting",
@@ -733,6 +587,7 @@
         "1108": {
             "id": "1108",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Verwaltungsdirektor",
             "lowered_text": "verwaltungsdirektor",
@@ -755,6 +610,7 @@
         "1075": {
             "id": "1075",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "Personen",
             "lowered_text": "personen",
@@ -778,6 +634,7 @@
         "1107": {
             "id": "1107",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Reporter",
             "lowered_text": "reporter",
@@ -798,6 +655,7 @@
         "1077": {
             "id": "1077",
             "type": "E54 Dimension",
+            "short_type": "E54",
             "virtual": false,
             "text": "13",
             "lowered_text": "13",
@@ -818,6 +676,7 @@
         "1078": {
             "id": "1078",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "Schulklassen",
             "lowered_text": "schulklassen",
@@ -837,252 +696,473 @@
                 "1036",
                 "1054"
             ]
+        },
+        "1080": {
+            "id": "1080",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": false,
+            "text": "Besucherzahl",
+            "lowered_text": "besucherzahl",
+            "begin": 1020,
+            "end": 1032,
+            "page": 120,
+            "line": 22,
+            "txt_id": "Mus_1890",
+            "line_idx": 23,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1056",
+                "1057"
+            ],
+            "outgoing": []
+        },
+        "1081": {
+            "id": "1081",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "28. März d. Js.",
+            "lowered_text": "28. märz d. js.",
+            "begin": 1040,
+            "end": 1055,
+            "page": 120,
+            "line": 22,
+            "txt_id": "Mus_1890",
+            "line_idx": 23,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1058"
+            ],
+            "outgoing": []
+        },
+        "1082": {
+            "id": "1082",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "690",
+            "lowered_text": "690",
+            "begin": 1060,
+            "end": 1063,
+            "page": 120,
+            "line": 22,
+            "txt_id": "Mus_1890",
+            "line_idx": 23,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1059"
+            ],
+            "outgoing": [
+                "1056",
+                "1058"
+            ]
+        },
+        "1083": {
+            "id": "1083",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "15. Dezember v. Js.",
+            "lowered_text": "15. dezember v. js.",
+            "begin": 1087,
+            "end": 1106,
+            "page": 120,
+            "line": 23,
+            "txt_id": "Mus_1890",
+            "line_idx": 24,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1060"
+            ],
+            "outgoing": []
+        },
+        "1084": {
+            "id": "1084",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "75",
+            "lowered_text": "75",
+            "begin": 1111,
+            "end": 1113,
+            "page": 120,
+            "line": 23,
+            "txt_id": "Mus_1890",
+            "line_idx": 24,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1061"
+            ],
+            "outgoing": [
+                "1057",
+                "1060"
+            ]
+        },
+        "1085": {
+            "id": "1085",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Personen",
+            "lowered_text": "personen",
+            "begin": 1114,
+            "end": 1122,
+            "page": 120,
+            "line": 23,
+            "txt_id": "Mus_1890",
+            "line_idx": 24,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "1037",
+                "1059",
+                "1061",
+                "1063"
+            ]
+        },
+        "1087": {
+            "id": "1087",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": false,
+            "text": "Durchschnitt",
+            "lowered_text": "durchschnitt",
+            "begin": 1144,
+            "end": 1156,
+            "page": 120,
+            "line": 24,
+            "txt_id": "Mus_1890",
+            "line_idx": 25,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1062"
+            ],
+            "outgoing": []
+        },
+        "1088": {
+            "id": "1088",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "219",
+            "lowered_text": "219",
+            "begin": 1204,
+            "end": 1207,
+            "page": 120,
+            "line": 25,
+            "txt_id": "Mus_1890",
+            "line_idx": 26,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1063"
+            ],
+            "outgoing": [
+                "1062"
+            ]
         }
     },
     "Properties": {
         "1047": {
             "id": "1047",
             "type": "P79 beginning is qualified by",
+            "short_type": "P79",
             "source": "1069",
             "target": "1061"
         },
         "1048": {
             "id": "1048",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1069",
             "target": "1062"
         },
         "1049": {
             "id": "1049",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1069",
             "target": "1063"
         },
         "1050": {
             "id": "1050",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1069",
             "target": "1066"
         },
         "1051": {
             "id": "1051",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1072",
             "target": "1071"
         },
         "1052": {
             "id": "1052",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1075",
             "target": "1074"
         },
         "1053": {
             "id": "1053",
             "type": "P14 carried out by",
+            "short_type": "P14",
             "source": "1072",
             "target": "1075"
         },
         "1054": {
             "id": "1054",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1078",
             "target": "1077"
         },
         "1055": {
             "id": "1055",
             "type": "P14 carried out by",
+            "short_type": "P14",
             "source": "1072",
             "target": "1078"
         },
         "1056": {
             "id": "1056",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1082",
             "target": "1080"
         },
         "1057": {
             "id": "1057",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1084",
             "target": "1080"
         },
         "1058": {
             "id": "1058",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1082",
             "target": "1081"
         },
         "1059": {
             "id": "1059",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1085",
             "target": "1082"
         },
         "1060": {
             "id": "1060",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1084",
             "target": "1083"
         },
         "1061": {
             "id": "1061",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1085",
             "target": "1084"
         },
         "1062": {
             "id": "1062",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1088",
             "target": "1087"
         },
         "1063": {
             "id": "1063",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1085",
             "target": "1088"
         },
         "1064": {
             "id": "1064",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "1096",
             "target": "1089"
         },
         "1065": {
             "id": "1065",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1091",
             "target": "1090"
         },
         "1066": {
             "id": "1066",
             "type": "P95 has formed",
+            "short_type": "P95",
             "source": "1096",
             "target": "1091"
         },
         "1067": {
             "id": "1067",
             "type": "P43 has dimension",
+            "short_type": "P43",
             "source": "1094",
             "target": "1093"
         },
         "1068": {
             "id": "1068",
             "type": "P95 has formed",
+            "short_type": "P95",
             "source": "1096",
             "target": "1094"
         },
         "1069": {
             "id": "1069",
             "type": "P14 carried out by",
+            "short_type": "P14",
             "source": "1100",
             "target": "1098"
         },
         "1070": {
             "id": "1070",
             "type": "P14 carried out by",
+            "short_type": "P14",
             "source": "1104",
             "target": "1102"
         },
         "1071": {
             "id": "1071",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "1106",
             "target": "1108"
         },
         "1031": {
             "id": "1031",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1064",
             "target": "1065"
         },
         "1032": {
             "id": "1032",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1067",
             "target": "1065"
         },
         "1033": {
             "id": "1033",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1069",
             "target": "1070"
         },
         "1034": {
             "id": "1034",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1072",
             "target": "1073"
         },
         "1035": {
             "id": "1035",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1075",
             "target": "1065"
         },
         "1036": {
             "id": "1036",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1078",
             "target": "1065"
         },
         "1037": {
             "id": "1037",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1085",
             "target": "1065"
         },
         "1038": {
             "id": "1038",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1091",
             "target": "1092"
         },
         "1039": {
             "id": "1039",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1094",
             "target": "1092"
         },
         "1040": {
             "id": "1040",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1096",
             "target": "1092"
         },
         "1041": {
             "id": "1041",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1098",
             "target": "1099"
         },
         "1042": {
             "id": "1042",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1100",
             "target": "1092"
         },
         "1043": {
             "id": "1043",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1102",
             "target": "1099"
         },
         "1044": {
             "id": "1044",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1104",
             "target": "1092"
         },
         "1045": {
             "id": "1045",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1106",
             "target": "1107"
         },
         "1046": {
             "id": "1046",
             "type": "P2 has type",
+            "short_type": "P2",
             "source": "1108",
             "target": "1092"
         }

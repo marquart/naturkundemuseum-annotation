@@ -5,140 +5,10 @@
     "Page_End": 54,
     "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
     "Entities": {
-        "46": {
-            "id": "46",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Koken",
-            "lowered_text": "koken",
-            "begin": 595,
-            "end": 600,
-            "page": 54,
-            "line": 12,
-            "txt_id": "Mus_1888",
-            "line_idx": 13,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "53",
-                "54",
-                "55"
-            ]
-        },
-        "47": {
-            "id": "47",
-            "type": "E85 Joining",
-            "virtual": false,
-            "text": "übertragen",
-            "lowered_text": "übertragen",
-            "begin": 601,
-            "end": 611,
-            "page": 54,
-            "line": 12,
-            "txt_id": "Mus_1888",
-            "line_idx": 13,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 0,
-            "incoming": [
-                "55"
-            ],
-            "outgoing": [
-                "51",
-                "52"
-            ]
-        },
-        "48": {
-            "id": "48",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Assistent",
-            "lowered_text": "assistent",
-            "begin": 618,
-            "end": 627,
-            "page": 54,
-            "line": 13,
-            "txt_id": "Mus_1888",
-            "line_idx": 14,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 0,
-            "incoming": [
-                "56"
-            ],
-            "outgoing": [
-                "45"
-            ]
-        },
-        "50": {
-            "id": "50",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen Abtheilung",
-            "lowered_text": "zoologischen abtheilung",
-            "begin": 636,
-            "end": 659,
-            "page": 54,
-            "line": 13,
-            "txt_id": "Mus_1888",
-            "line_idx": 14,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 0,
-            "incoming": [
-                "57"
-            ],
-            "outgoing": []
-        },
-        "51": {
-            "id": "51",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "lowered_text": "dr.",
-            "begin": 660,
-            "end": 663,
-            "page": 54,
-            "line": 13,
-            "txt_id": "Mus_1888",
-            "line_idx": 14,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 0,
-            "incoming": [
-                "58"
-            ],
-            "outgoing": [
-                "46"
-            ]
-        },
-        "53": {
-            "id": "53",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Reichenow",
-            "lowered_text": "reichenow",
-            "begin": 664,
-            "end": 674,
-            "page": 54,
-            "line": 13,
-            "txt_id": "Mus_1888",
-            "line_idx": 14,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "56",
-                "58",
-                "60"
-            ]
-        },
         "54": {
             "id": "54",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Kustos",
             "lowered_text": "kustos",
@@ -161,6 +31,7 @@
         "56": {
             "id": "56",
             "type": "E85 Joining",
+            "short_type": "E85",
             "virtual": false,
             "text": "ernannt",
             "lowered_text": "ernannt",
@@ -184,6 +55,7 @@
         "57": {
             "id": "57",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "Zoologisches Institut",
             "lowered_text": "zoologisches institut",
@@ -204,6 +76,7 @@
         "58": {
             "id": "58",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "zweite Assistentenstelle",
             "lowered_text": "zweite assistentenstelle",
@@ -226,6 +99,7 @@
         "60": {
             "id": "60",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "PrivatDozenten",
             "lowered_text": "privatdozenten",
@@ -248,6 +122,7 @@
         "62": {
             "id": "62",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Dr. phil.",
             "lowered_text": "dr. phil.",
@@ -270,6 +145,7 @@
         "64": {
             "id": "64",
             "type": "E21 Person",
+            "short_type": "E21",
             "virtual": false,
             "text": "Fritz Magdeburg",
             "lowered_text": "fritz magdeburg",
@@ -292,6 +168,7 @@
         "65": {
             "id": "65",
             "type": "E85 Joining",
+            "short_type": "E85",
             "virtual": false,
             "text": "übertragen",
             "lowered_text": "übertragen",
@@ -315,6 +192,7 @@
         "41": {
             "id": "41",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "geologischpaläontologischen Abtheilung",
             "lowered_text": "geologischpaläontologischen abtheilung",
@@ -335,6 +213,7 @@
         "40": {
             "id": "40",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Profession",
             "lowered_text": "profession",
@@ -358,6 +237,7 @@
         "39": {
             "id": "39",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Assistentenstelle",
             "lowered_text": "assistentenstelle",
@@ -380,6 +260,7 @@
         "42": {
             "id": "42",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "PrivatDozenten",
             "lowered_text": "privatdozenten",
@@ -402,6 +283,7 @@
         "44": {
             "id": "44",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Dr.",
             "lowered_text": "dr.",
@@ -424,6 +306,7 @@
         "43": {
             "id": "43",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Academic Title",
             "lowered_text": "academic title",
@@ -444,150 +327,311 @@
                 "50"
             ],
             "outgoing": []
+        },
+        "46": {
+            "id": "46",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Koken",
+            "lowered_text": "koken",
+            "begin": 595,
+            "end": 600,
+            "page": 54,
+            "line": 12,
+            "txt_id": "Mus_1888",
+            "line_idx": 13,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "53",
+                "54",
+                "55"
+            ]
+        },
+        "47": {
+            "id": "47",
+            "type": "E85 Joining",
+            "short_type": "E85",
+            "virtual": false,
+            "text": "übertragen",
+            "lowered_text": "übertragen",
+            "begin": 601,
+            "end": 611,
+            "page": 54,
+            "line": 12,
+            "txt_id": "Mus_1888",
+            "line_idx": 13,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 0,
+            "incoming": [
+                "55"
+            ],
+            "outgoing": [
+                "51",
+                "52"
+            ]
+        },
+        "48": {
+            "id": "48",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Assistent",
+            "lowered_text": "assistent",
+            "begin": 618,
+            "end": 627,
+            "page": 54,
+            "line": 13,
+            "txt_id": "Mus_1888",
+            "line_idx": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 0,
+            "incoming": [
+                "56"
+            ],
+            "outgoing": [
+                "45"
+            ]
+        },
+        "50": {
+            "id": "50",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "lowered_text": "zoologischen abtheilung",
+            "begin": 636,
+            "end": 659,
+            "page": 54,
+            "line": 13,
+            "txt_id": "Mus_1888",
+            "line_idx": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 0,
+            "incoming": [
+                "57"
+            ],
+            "outgoing": []
+        },
+        "51": {
+            "id": "51",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "lowered_text": "dr.",
+            "begin": 660,
+            "end": 663,
+            "page": 54,
+            "line": 13,
+            "txt_id": "Mus_1888",
+            "line_idx": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 0,
+            "incoming": [
+                "58"
+            ],
+            "outgoing": [
+                "46"
+            ]
+        },
+        "53": {
+            "id": "53",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Reichenow",
+            "lowered_text": "reichenow",
+            "begin": 664,
+            "end": 674,
+            "page": 54,
+            "line": 13,
+            "txt_id": "Mus_1888",
+            "line_idx": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "56",
+                "58",
+                "60"
+            ]
         }
     },
     "Properties": {
         "51": {
             "id": "51",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "47",
             "target": "39"
         },
         "52": {
             "id": "52",
             "type": "P144 joined with",
+            "short_type": "P144",
             "source": "47",
             "target": "41"
         },
         "53": {
             "id": "53",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "46",
             "target": "42"
         },
         "54": {
             "id": "54",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "46",
             "target": "44"
         },
         "55": {
             "id": "55",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "46",
             "target": "47"
         },
         "56": {
             "id": "56",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "53",
             "target": "48"
         },
         "57": {
             "id": "57",
             "type": "P144 joined with",
+            "short_type": "P144",
             "source": "56",
             "target": "50"
         },
         "58": {
             "id": "58",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "53",
             "target": "51"
         },
         "59": {
             "id": "59",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "56",
             "target": "54"
         },
         "60": {
             "id": "60",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "53",
             "target": "56"
         },
         "61": {
             "id": "61",
             "type": "P144 joined with",
+            "short_type": "P144",
             "source": "65",
             "target": "57"
         },
         "62": {
             "id": "62",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "65",
             "target": "58"
         },
         "63": {
             "id": "63",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "64",
             "target": "60"
         },
         "64": {
             "id": "64",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "64",
             "target": "62"
         },
         "65": {
             "id": "65",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "64",
             "target": "65"
         },
         "42": {
             "id": "42",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "39",
             "target": "40"
         },
         "43": {
             "id": "43",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "42",
             "target": "43"
         },
         "44": {
             "id": "44",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "44",
             "target": "43"
         },
         "45": {
             "id": "45",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "48",
             "target": "40"
         },
         "46": {
             "id": "46",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "51",
             "target": "43"
         },
         "47": {
             "id": "47",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "54",
             "target": "40"
         },
         "48": {
             "id": "48",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "58",
             "target": "40"
         },
         "49": {
             "id": "49",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "60",
             "target": "43"
         },
         "50": {
             "id": "50",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "62",
             "target": "43"
         }

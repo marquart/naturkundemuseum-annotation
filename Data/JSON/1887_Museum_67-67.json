@@ -5,9 +5,480 @@
     "Page_End": 67,
     "Text": "====PAGEBEGIN 67====\r\n\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 7. Mai 1887 hat das für die\r\nAufnahme der geologisch-paläontologischen, der mineralogisch­petrographischen und der zoologischen Sammlung der Universität\r\nbestimmte Museum die Bezeichnung „Museum für Natur­kunde“ erhalten.\r\nZu Direktoren der vorgedachten drei Abtheilungen sind die\r\nProfessoren Geheimer Bergrath Dr. Beyrich, Dr. Klein und\r\nDr. Moebius ernannt worden.\r\nDurch Ministerial-Reskript vom 25. Mai 1887 ist die Er­nennung des Geheimen Bergraths Professors Dr. Beyrich zum\r\nVerwaltungsdirektor des Museums erfolgt.\r\nDem ausserordentlichen Professor Dr. von Martens ist der\r\nTitel eines zweiten Direktors der zoologischen Abtheilung bei­gelegt worden.\r\n2. Seminar für Deutsches Recht.\r\nDurch Ministerial-Erlass vom 12. November 1887 ist die\r\nBegründung eines besonderen Seminars für Deutsches Recht an\r\nder Universität genehmigt worden.\r\nZum geschäftsführenden Direktor desselben ist der Geheime\r\nJustizrath Professor Dr. Beseler und zu Mitdirektoren sind die\r\nGeheimen Justizräthe Professoren Dr. Brunner und Dr. Gierke\r\nernannt worden. Mit Wahrnehmung der Funktionen eines Bi­bliothekars und Assistenten ist bis auf Weiteres der Privatdocent\r\nDr. Zeumer beauftragt worden.\r\n3. Geographisches Institut.\r\nDurch Ministerial-Erlass vom 4. April 1887 ist ein geogra­phisches Institut an der Universität begründet worden. Mit der\r\nDirektion desselben ist der Professor Dr. Freiherr von Richt­hofen beauftragt.\r\n4. Anatomisches Theater.\r\nDas anatomische Theater ist aus dem Gebäude der alten\r\nBörse am Lustgarten entfernt und in dem Anatomie-Gebäude,\r\n62\r\n",
     "Entities": {
+        "0": {
+            "id": "0",
+            "type": "E63 Beginning of Existence",
+            "short_type": "E63",
+            "virtual": false,
+            "text": "MinisterialErlass",
+            "lowered_text": "ministerialerlass",
+            "begin": 108,
+            "end": 126,
+            "page": 67,
+            "line": 3,
+            "txt_id": "Mus_1887",
+            "line_idx": 4,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "13",
+                "21"
+            ]
+        },
+        "5": {
+            "id": "5",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Museum für Naturkunde",
+            "lowered_text": "museum für naturkunde",
+            "begin": 319,
+            "end": 341,
+            "page": 67,
+            "line": 6,
+            "txt_id": "Mus_1887",
+            "line_idx": 7,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "21"
+            ],
+            "outgoing": [
+                "15",
+                "17",
+                "19"
+            ]
+        },
+        "35": {
+            "id": "35",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "von Martens",
+            "lowered_text": "von martens",
+            "begin": 693,
+            "end": 704,
+            "page": 67,
+            "line": 14,
+            "txt_id": "Mus_1887",
+            "line_idx": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "38",
+                "39",
+                "40",
+                "41"
+            ]
+        },
+        "1": {
+            "id": "1",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "7. Mai 1887",
+            "lowered_text": "7. mai 1887",
+            "begin": 131,
+            "end": 142,
+            "page": 67,
+            "line": 3,
+            "txt_id": "Mus_1887",
+            "line_idx": 4,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "13",
+                "14"
+            ],
+            "outgoing": []
+        },
+        "3": {
+            "id": "3",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "mineralogischpetrographischen",
+            "lowered_text": "mineralogischpetrographischen",
+            "begin": 207,
+            "end": 237,
+            "page": 67,
+            "line": 4,
+            "txt_id": "Mus_1887",
+            "line_idx": 5,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "17",
+                "18"
+            ],
+            "outgoing": []
+        },
+        "36": {
+            "id": "36",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "zweiten Direktor",
+            "lowered_text": "zweiten direktor",
+            "begin": 726,
+            "end": 742,
+            "page": 67,
+            "line": 15,
+            "txt_id": "Mus_1887",
+            "line_idx": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "40"
+            ],
+            "outgoing": [
+                "12",
+                "33"
+            ]
+        },
+        "4": {
+            "id": "4",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "zoologischen",
+            "lowered_text": "zoologischen",
+            "begin": 246,
+            "end": 258,
+            "page": 67,
+            "line": 5,
+            "txt_id": "Mus_1887",
+            "line_idx": 6,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "19",
+                "20"
+            ],
+            "outgoing": []
+        },
+        "38": {
+            "id": "38",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "lowered_text": "zoologischen abtheilung",
+            "begin": 748,
+            "end": 771,
+            "page": 67,
+            "line": 15,
+            "txt_id": "Mus_1887",
+            "line_idx": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "41"
+            ],
+            "outgoing": []
+        },
+        "8": {
+            "id": "8",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Professor",
+            "lowered_text": "professor",
+            "begin": 413,
+            "end": 422,
+            "page": 67,
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "25",
+                "26",
+                "27"
+            ],
+            "outgoing": [
+                "1"
+            ]
+        },
+        "6": {
+            "id": "6",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Direktor",
+            "lowered_text": "direktor",
+            "begin": 357,
+            "end": 365,
+            "page": 67,
+            "line": 8,
+            "txt_id": "Mus_1887",
+            "line_idx": 9,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "22",
+                "23",
+                "24"
+            ],
+            "outgoing": [
+                "0",
+                "14"
+            ]
+        },
+        "10": {
+            "id": "10",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Geheimer Bergrath",
+            "lowered_text": "geheimer bergrath",
+            "begin": 425,
+            "end": 442,
+            "page": 67,
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "28"
+            ],
+            "outgoing": [
+                "2"
+            ]
+        },
+        "12": {
+            "id": "12",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "lowered_text": "dr.",
+            "begin": 443,
+            "end": 446,
+            "page": 67,
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "29"
+            ],
+            "outgoing": [
+                "3"
+            ]
+        },
+        "14": {
+            "id": "14",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Beyrich",
+            "lowered_text": "beyrich",
+            "begin": 447,
+            "end": 454,
+            "page": 67,
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [],
+            "outgoing": [
+                "16",
+                "22",
+                "25",
+                "28",
+                "29",
+                "34",
+                "35",
+                "36",
+                "37"
+            ]
+        },
+        "15": {
+            "id": "15",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "lowered_text": "dr.",
+            "begin": 456,
+            "end": 459,
+            "page": 67,
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "30"
+            ],
+            "outgoing": [
+                "4"
+            ]
+        },
+        "17": {
+            "id": "17",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Klein",
+            "lowered_text": "klein",
+            "begin": 460,
+            "end": 465,
+            "page": 67,
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "18",
+                "23",
+                "26",
+                "30"
+            ]
+        },
+        "18": {
+            "id": "18",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "lowered_text": "dr.",
+            "begin": 471,
+            "end": 474,
+            "page": 67,
+            "line": 10,
+            "txt_id": "Mus_1887",
+            "line_idx": 11,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "31"
+            ],
+            "outgoing": [
+                "5"
+            ]
+        },
+        "20": {
+            "id": "20",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Moebius",
+            "lowered_text": "moebius",
+            "begin": 475,
+            "end": 482,
+            "page": 67,
+            "line": 10,
+            "txt_id": "Mus_1887",
+            "line_idx": 11,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "20",
+                "24",
+                "27",
+                "31"
+            ]
+        },
+        "21": {
+            "id": "21",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "25. Mai 1887",
+            "lowered_text": "25. mai 1887",
+            "begin": 531,
+            "end": 543,
+            "page": 67,
+            "line": 11,
+            "txt_id": "Mus_1887",
+            "line_idx": 12,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "32",
+                "33"
+            ],
+            "outgoing": []
+        },
+        "22": {
+            "id": "22",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Geheimen Bergrath",
+            "lowered_text": "geheimen bergrath",
+            "begin": 567,
+            "end": 584,
+            "page": 67,
+            "line": 12,
+            "txt_id": "Mus_1887",
+            "line_idx": 13,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "34"
+            ],
+            "outgoing": [
+                "6"
+            ]
+        },
+        "24": {
+            "id": "24",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Professor",
+            "lowered_text": "professor",
+            "begin": 586,
+            "end": 595,
+            "page": 67,
+            "line": 12,
+            "txt_id": "Mus_1887",
+            "line_idx": 13,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "35"
+            ],
+            "outgoing": [
+                "7"
+            ]
+        },
         "26": {
             "id": "26",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Dr.",
             "lowered_text": "dr.",
@@ -30,6 +501,7 @@
         "7": {
             "id": "7",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Profession",
             "lowered_text": "profession",
@@ -52,6 +524,7 @@
         "29": {
             "id": "29",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Verwaltungsdirektor",
             "lowered_text": "verwaltungsdirektor",
@@ -75,6 +548,7 @@
         "2": {
             "id": "2",
             "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
             "text": "geologischpaläontologischen",
             "lowered_text": "geologischpaläontologischen",
@@ -96,6 +570,7 @@
         "31": {
             "id": "31",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Professor",
             "lowered_text": "professor",
@@ -118,6 +593,7 @@
         "9": {
             "id": "9",
             "type": "E55 Type",
+            "short_type": "E55",
             "virtual": true,
             "text": "Academic Title",
             "lowered_text": "academic title",
@@ -147,6 +623,7 @@
         "33": {
             "id": "33",
             "type": "E41 Appellation",
+            "short_type": "E41",
             "virtual": false,
             "text": "Dr.",
             "lowered_text": "dr.",
@@ -165,708 +642,300 @@
             "outgoing": [
                 "11"
             ]
-        },
-        "0": {
-            "id": "0",
-            "type": "E63 Beginning of Existence",
-            "virtual": false,
-            "text": "MinisterialErlass",
-            "lowered_text": "ministerialerlass",
-            "begin": 108,
-            "end": 126,
-            "page": 67,
-            "line": 3,
-            "txt_id": "Mus_1887",
-            "line_idx": 4,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "13",
-                "21"
-            ]
-        },
-        "5": {
-            "id": "5",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "Museum für Naturkunde",
-            "lowered_text": "museum für naturkunde",
-            "begin": 319,
-            "end": 341,
-            "page": 67,
-            "line": 6,
-            "txt_id": "Mus_1887",
-            "line_idx": 7,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "21"
-            ],
-            "outgoing": [
-                "15",
-                "17",
-                "19"
-            ]
-        },
-        "35": {
-            "id": "35",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "von Martens",
-            "lowered_text": "von martens",
-            "begin": 693,
-            "end": 704,
-            "page": 67,
-            "line": 14,
-            "txt_id": "Mus_1887",
-            "line_idx": 15,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "38",
-                "39",
-                "40",
-                "41"
-            ]
-        },
-        "1": {
-            "id": "1",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "7. Mai 1887",
-            "lowered_text": "7. mai 1887",
-            "begin": 131,
-            "end": 142,
-            "page": 67,
-            "line": 3,
-            "txt_id": "Mus_1887",
-            "line_idx": 4,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "13",
-                "14"
-            ],
-            "outgoing": []
-        },
-        "3": {
-            "id": "3",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "mineralogischpetrographischen",
-            "lowered_text": "mineralogischpetrographischen",
-            "begin": 207,
-            "end": 237,
-            "page": 67,
-            "line": 4,
-            "txt_id": "Mus_1887",
-            "line_idx": 5,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "17",
-                "18"
-            ],
-            "outgoing": []
-        },
-        "36": {
-            "id": "36",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "zweiten Direktor",
-            "lowered_text": "zweiten direktor",
-            "begin": 726,
-            "end": 742,
-            "page": 67,
-            "line": 15,
-            "txt_id": "Mus_1887",
-            "line_idx": 16,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "40"
-            ],
-            "outgoing": [
-                "12",
-                "33"
-            ]
-        },
-        "4": {
-            "id": "4",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen",
-            "lowered_text": "zoologischen",
-            "begin": 246,
-            "end": 258,
-            "page": 67,
-            "line": 5,
-            "txt_id": "Mus_1887",
-            "line_idx": 6,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "19",
-                "20"
-            ],
-            "outgoing": []
-        },
-        "38": {
-            "id": "38",
-            "type": "E74 Group",
-            "virtual": false,
-            "text": "zoologischen Abtheilung",
-            "lowered_text": "zoologischen abtheilung",
-            "begin": 748,
-            "end": 771,
-            "page": 67,
-            "line": 15,
-            "txt_id": "Mus_1887",
-            "line_idx": 16,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "41"
-            ],
-            "outgoing": []
-        },
-        "8": {
-            "id": "8",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Professor",
-            "lowered_text": "professor",
-            "begin": 413,
-            "end": 422,
-            "page": 67,
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "25",
-                "26",
-                "27"
-            ],
-            "outgoing": [
-                "1"
-            ]
-        },
-        "6": {
-            "id": "6",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Direktor",
-            "lowered_text": "direktor",
-            "begin": 357,
-            "end": 365,
-            "page": 67,
-            "line": 8,
-            "txt_id": "Mus_1887",
-            "line_idx": 9,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "22",
-                "23",
-                "24"
-            ],
-            "outgoing": [
-                "0",
-                "14"
-            ]
-        },
-        "10": {
-            "id": "10",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Geheimer Bergrath",
-            "lowered_text": "geheimer bergrath",
-            "begin": 425,
-            "end": 442,
-            "page": 67,
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "28"
-            ],
-            "outgoing": [
-                "2"
-            ]
-        },
-        "12": {
-            "id": "12",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "lowered_text": "dr.",
-            "begin": 443,
-            "end": 446,
-            "page": 67,
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "29"
-            ],
-            "outgoing": [
-                "3"
-            ]
-        },
-        "14": {
-            "id": "14",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Beyrich",
-            "lowered_text": "beyrich",
-            "begin": 447,
-            "end": 454,
-            "page": 67,
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [],
-            "outgoing": [
-                "16",
-                "22",
-                "25",
-                "28",
-                "29",
-                "34",
-                "35",
-                "36",
-                "37"
-            ]
-        },
-        "15": {
-            "id": "15",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "lowered_text": "dr.",
-            "begin": 456,
-            "end": 459,
-            "page": 67,
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "30"
-            ],
-            "outgoing": [
-                "4"
-            ]
-        },
-        "17": {
-            "id": "17",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Klein",
-            "lowered_text": "klein",
-            "begin": 460,
-            "end": 465,
-            "page": 67,
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "18",
-                "23",
-                "26",
-                "30"
-            ]
-        },
-        "18": {
-            "id": "18",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Dr.",
-            "lowered_text": "dr.",
-            "begin": 471,
-            "end": 474,
-            "page": 67,
-            "line": 10,
-            "txt_id": "Mus_1887",
-            "line_idx": 11,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "31"
-            ],
-            "outgoing": [
-                "5"
-            ]
-        },
-        "20": {
-            "id": "20",
-            "type": "E21 Person",
-            "virtual": false,
-            "text": "Moebius",
-            "lowered_text": "moebius",
-            "begin": 475,
-            "end": 482,
-            "page": 67,
-            "line": 10,
-            "txt_id": "Mus_1887",
-            "line_idx": 11,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "20",
-                "24",
-                "27",
-                "31"
-            ]
-        },
-        "21": {
-            "id": "21",
-            "type": "E52 Time-Span",
-            "virtual": false,
-            "text": "25. Mai 1887",
-            "lowered_text": "25. mai 1887",
-            "begin": 531,
-            "end": 543,
-            "page": 67,
-            "line": 11,
-            "txt_id": "Mus_1887",
-            "line_idx": 12,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "32",
-                "33"
-            ],
-            "outgoing": []
-        },
-        "22": {
-            "id": "22",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Geheimen Bergrath",
-            "lowered_text": "geheimen bergrath",
-            "begin": 567,
-            "end": 584,
-            "page": 67,
-            "line": 12,
-            "txt_id": "Mus_1887",
-            "line_idx": 13,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "34"
-            ],
-            "outgoing": [
-                "6"
-            ]
-        },
-        "24": {
-            "id": "24",
-            "type": "E41 Appellation",
-            "virtual": false,
-            "text": "Professor",
-            "lowered_text": "professor",
-            "begin": 586,
-            "end": 595,
-            "page": 67,
-            "line": 12,
-            "txt_id": "Mus_1887",
-            "line_idx": 13,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "35"
-            ],
-            "outgoing": [
-                "7"
-            ]
         }
     },
     "Properties": {
         "13": {
             "id": "13",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "0",
             "target": "1"
         },
         "14": {
             "id": "14",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "6",
             "target": "1"
         },
         "15": {
             "id": "15",
             "type": "P107 has current or former member",
+            "short_type": "P107",
             "source": "5",
             "target": "2"
         },
         "16": {
             "id": "16",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "14",
             "target": "2"
         },
         "17": {
             "id": "17",
             "type": "P107 has current or former member",
+            "short_type": "P107",
             "source": "5",
             "target": "3"
         },
         "18": {
             "id": "18",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "17",
             "target": "3"
         },
         "19": {
             "id": "19",
             "type": "P107 has current or former member",
+            "short_type": "P107",
             "source": "5",
             "target": "4"
         },
         "20": {
             "id": "20",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "20",
             "target": "4"
         },
         "21": {
             "id": "21",
             "type": "P92 brought into existence",
+            "short_type": "P92",
             "source": "0",
             "target": "5"
         },
         "22": {
             "id": "22",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "6"
         },
         "23": {
             "id": "23",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "17",
             "target": "6"
         },
         "24": {
             "id": "24",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "20",
             "target": "6"
         },
         "25": {
             "id": "25",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "8"
         },
         "26": {
             "id": "26",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "17",
             "target": "8"
         },
         "27": {
             "id": "27",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "20",
             "target": "8"
         },
         "28": {
             "id": "28",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "10"
         },
         "29": {
             "id": "29",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "12"
         },
         "30": {
             "id": "30",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "17",
             "target": "15"
         },
         "31": {
             "id": "31",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "20",
             "target": "18"
         },
         "32": {
             "id": "32",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "29",
             "target": "21"
         },
         "33": {
             "id": "33",
             "type": "P4 has time-span",
+            "short_type": "P4",
             "source": "36",
             "target": "21"
         },
         "34": {
             "id": "34",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "22"
         },
         "35": {
             "id": "35",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "24"
         },
         "36": {
             "id": "36",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "26"
         },
         "37": {
             "id": "37",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "14",
             "target": "29"
         },
         "38": {
             "id": "38",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "35",
             "target": "31"
         },
         "39": {
             "id": "39",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "35",
             "target": "33"
         },
         "40": {
             "id": "40",
             "type": "P1 is identified by",
+            "short_type": "P1",
             "source": "35",
             "target": "36"
         },
         "41": {
             "id": "41",
             "type": "P143 joined",
+            "short_type": "P143",
             "source": "35",
             "target": "38"
         },
         "0": {
             "id": "0",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "6",
             "target": "7"
         },
         "1": {
             "id": "1",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "8",
             "target": "9"
         },
         "2": {
             "id": "2",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "10",
             "target": "9"
         },
         "3": {
             "id": "3",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "12",
             "target": "9"
         },
         "4": {
             "id": "4",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "15",
             "target": "9"
         },
         "5": {
             "id": "5",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "18",
             "target": "9"
         },
         "6": {
             "id": "6",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "22",
             "target": "9"
         },
         "7": {
             "id": "7",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "24",
             "target": "9"
         },
         "8": {
             "id": "8",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "26",
             "target": "9"
         },
         "9": {
             "id": "9",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "29",
             "target": "7"
         },
         "10": {
             "id": "10",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "31",
             "target": "9"
         },
         "11": {
             "id": "11",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "33",
             "target": "9"
         },
         "12": {
             "id": "12",
             "type": "P2 has Type",
+            "short_type": "P2",
             "source": "36",
             "target": "7"
         }

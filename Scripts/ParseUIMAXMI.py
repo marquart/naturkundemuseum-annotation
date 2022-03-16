@@ -163,6 +163,7 @@ class Corrector(object):
 class SemanticEntity(object):
     virtuals = []
     next_id  = 0
+    SHORT_TYPE_PATTERN = re.compile(r"^(E\d+?) ")
     def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None):
         ''''''
         self.id = self.next_id
@@ -175,6 +176,7 @@ class SemanticEntity(object):
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
         else: self.type = tag["SemanticClass"].strip()
+        self.short_type = self.SHORT_TYPE_PATTERN.search(self.type).group(1)
         self.incoming = []
         self.outgoing = []
         
@@ -237,6 +239,7 @@ class SemanticProperty(object):
     virtuals = []
     next_id  = 0
     PATTERN = re.compile("^(.*?) \(")
+    SHORT_TYPE_PATTERN = re.compile(r"^(P\d+?) ")
     def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None, year=None, institution=None):
         self.id = self.next_id
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
@@ -250,6 +253,7 @@ class SemanticProperty(object):
             match = SemanticProperty.PATTERN.search(tag["SemanticProperty"].strip())
             if match: self.type = match.group(1)
             else: self.type = tag["SemanticProperty"].strip()
+        self.short_type = self.SHORT_TYPE_PATTERN.search(self.type).group(1)
 
         
         if virtual:
@@ -424,6 +428,7 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True)
     set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
     if consolidate: entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
+    else: entities = set(entities)
     
     properties = [SemanticProperty(tag, entity_map, year=year, institution=institution) for tag in xml.find_all("custom:SemanticRelations")]
     
@@ -460,6 +465,7 @@ def serialize(obj, stringify=True):
         return {
         "id": str(obj.id) if stringify else obj.id,
         "type": obj.type,
+        "short_type": obj.short_type,
         "source": str(obj.source.id) if stringify else obj.source.id,
         "target": str(obj.target.id) if stringify else obj.target.id
         }
@@ -467,6 +473,7 @@ def serialize(obj, stringify=True):
         return {
         "id": str(obj.id) if stringify else obj.id,
         "type": obj.type,
+        "short_type": obj.short_type,
         "virtual": obj.virtual,
         "text": obj.string,
         "lowered_text": obj.string.lower(),
@@ -587,4 +594,4 @@ def stats_directory(dirpath, save=False, consolidate=True):
     
 if __name__ == "__main__":
     DIR_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
-    stats_directory(DIR_PATH, save=True, consolidate=True)
+    stats_directory(DIR_PATH, save=False, consolidate=False)
