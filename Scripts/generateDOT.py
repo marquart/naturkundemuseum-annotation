@@ -7,7 +7,7 @@ import pickle
 import argparse
 from subprocess import run
 
-from ParseUIMAXMI import SemanticEntity, SemanticProperty
+from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
 
 
 class Node(object):
@@ -15,7 +15,7 @@ class Node(object):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
-            self.label = f"{entity.type}<BR/>({entity.id})|{clean(entity.string)}"
+            self.label = f"{entity.type}<BR/>({entity.id})|{entity.string}"
             self.style = style
             
         else:
@@ -34,14 +34,10 @@ class Arrow(object):
             self.id = property.id
             self.source = source
             self.target = target
-            label = re.search("(^P\d?\d?\d) (.*)", property.type)
-            if not label: print(property.type)
-            if label:
-                self.label = label.group(1)
-                self.verbose_label = label.group(2)
-            else:
-                self.label = "P0"
-                self.verbose_label = "Unknown"
+
+            self.label = property.short_type
+            self.verbose_label = property.type.lstrip(self.label)
+
             self.index = int(self.label.strip("P "))
         else:
             self.id = _id
@@ -57,8 +53,8 @@ class Arrow(object):
 def add_virtual_node(node, arrows, virtual_nodes, neighbors=None):
     entity = node.entity
     if neighbors is None: neighbors = len(entity.incoming)+len(entity.outgoing)
-    excuse = Node(_id=-1*entity.id, label=f"...|{neighbors} Neighbors", style="dashed")
-    arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbors to draw"))
+    excuse = Node(_id=-1*entity.id, label=f"...|{neighbors} Neighbours", style="dashed")
+    arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbours to draw"))
     virtual_nodes.append(excuse)
 
 def BFS(node, maxdepth=3):
@@ -132,8 +128,8 @@ def traverse(node, visited, processed_properties, depth=3):
     if node.id in visited and visited[node.id]>0: return [],[]
     visited[node.id] = depth
     if (neighbors := len(node.entity.incoming)+len(node.entity.outgoing))>8 and depth<3:
-        excuse = Node(_id=-1*node.id, label=f"...|{neighbors} Neighbors")
-        relation = Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbors to draw")
+        excuse = Node(_id=-1*node.id, label=f"...|{neighbors} Neighbours")
+        relation = Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbours to draw")
         return [excuse], [relation]
     nodes = []
     arrows = []
@@ -160,47 +156,39 @@ def traverse(node, visited, processed_properties, depth=3):
     return nodes, arrows
 
 
-def clean(txt):
-    return txt.replace('\r\n', ' ').replace('\n', ' ').replace('‑', '').replace('-', '')
-
-def load_pickle(filepath):
-    with open(filepath, 'rb') as f:
-        data = pickle.load(f)
-    return data
-
 def get_color(node):
     if node.entity:
-        LOOKUP = {'E41': '#8c613c', 'E55': '#956cb4', 'E74': '#4878d0', 'E63': '#dc7ec0', 'E21': '#4878d0', 'E52': '#dc7ec0', 'E85': '#d65f5f', 'E8': '#d65f5f', 'E78': '#797979', 'E87': '#d65f5f', 'E28': '#956cb4', 'E53': '#6acc64', 'E20': '#ee854a', 'E54': '#dc7ec0', 'E19': '#ee854a', 'E39': '#4878d0', 'E35': '#8c613c', 'E12': '#d65f5f', 'E77': '#797979', 'E9': '#d65f5f', 'E60': '#8c613c', 'E7': '#d65f5f', 'E96': '#d65f5f', 'E86': '#d65f5f', 'E57': '#ee854a', 'E3': '#dc7ec0', 'E66': '#d65f5f', 'E29': '#8c613c', 'E11': '#d65f5f', 'E73': '#8c613c', 'E79': '#d65f5f', 'E14': '#d65f5f'}
-        pattern = re.compile(r"^(E\d+?) ")
-        type = pattern.search(node.entity.type).group(1)
-        if type in LOOKUP: return LOOKUP[type]
-    return 'black'
+        LOOKUP = {'E41': '#debb9b', 'E21': '#a1c9f4', 'E52': '#fab0e4', 'E55': '#d0bbff', 'E74': '#a1c9f4', 'E63': '#fab0e4', 'E85': '#ff9f9b', 'E19': '#ffb482', 'E28': '#d0bbff', 'E8': '#ff9f9b', 'E39': '#a1c9f4', 'E78': '#b9f2f0', 'E87': '#ff9f9b', 'E53': '#8de5a1', 'E54': '#fab0e4', 'E20': '#ffb482', 'E35': '#debb9b', 'E9': '#ff9f9b', 'E77': '#b9f2f0', 'E12': '#ff9f9b', 'E60': '#debb9b', 'E7': '#ff9f9b', 'E3': '#fab0e4', 'E57': '#ffb482', 'E86': '#ff9f9b', 'E96': '#ff9f9b', 'E66': '#ff9f9b', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#ff9f9b', 'E14': '#ff9f9b', 'E79': '#ff9f9b'}#{'E41': '#8c613c', 'E55': '#956cb4', 'E74': '#4878d0', 'E63': '#dc7ec0', 'E21': '#4878d0', 'E52': '#dc7ec0', 'E85': '#d65f5f', 'E8': '#d65f5f', 'E78': '#797979', 'E87': '#d65f5f', 'E28': '#956cb4', 'E53': '#6acc64', 'E20': '#ee854a', 'E54': '#dc7ec0', 'E19': '#ee854a', 'E39': '#4878d0', 'E35': '#8c613c', 'E12': '#d65f5f', 'E77': '#797979', 'E9': '#d65f5f', 'E60': '#8c613c', 'E7': '#d65f5f', 'E96': '#d65f5f', 'E86': '#d65f5f', 'E57': '#ee854a', 'E3': '#dc7ec0', 'E66': '#d65f5f', 'E29': '#8c613c', 'E11': '#d65f5f', 'E73': '#8c613c', 'E79': '#d65f5f', 'E14': '#d65f5f'}
+        if node.entity.short_type in LOOKUP: return LOOKUP[node.entity.short_type]
+    return 'lightgrey'
     
 
 
-def generate_DOT(entity):
+def generate_DOT(entity, depth=3):
     template = """
 digraph Annotationen {
     bgcolor="transparent";
     rankdir="LR";
     ranksep="0.8 equally";
     fontname="sans-serif";
-    fontsize="10";
-    node [shape=record fontname="sans-serif" fontsize="10" penwidth=2];
+    fontsize="11";
+    node [shape=record fontname="sans-serif" fontsize="11" penwidth=1];
     edge [fontname="sans-serif" fontsize="10" penwidth=1];
     splines=ortho;
     penwidth=8;
     
     {
     
-
-    LEGEND
-
+    subgraph legend {
+        LEGEND
+    }
     subgraph cluster_net {
         label="GRAPHLABEL";
         fontname="sans-serif";
-        fontsize="10";
+        fontsize="11";
         penwidth=1;
+        pencolor="transparent";
+        node [style="filled" color="white"]
      
 NODES
 
@@ -210,13 +198,13 @@ NODES
     ARROWS
 
 }
-    """.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year})")
+    """.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year}) with depth {depth+1}")
     nodes = [Node(entity, style="bold")]
     #result = traverse(nodes[0], {}, set(), depth=3)
-    result = BFS(nodes[0], maxdepth=3)
+    result = BFS(nodes[0], maxdepth=depth)
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
-    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> color="{"red" if i<1 else get_color(node)}" style="{node.style}"];' for i, node in enumerate(nodes)]))
+    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))
@@ -226,16 +214,17 @@ NODES
     
     return with_legend
     
-def generateSVG(pickle_path, output_path, entity_id=None):
-    data = {e.id:e for e in chain.from_iterable([doc["Entities"].values() for doc in load_pickle(pickle_path)])}
+def generateSVG(data, output_path, entity_id=None, depth=3):
+    if not isinstance(data, SemanticData): data = SemanticData(data)
+    entities = {e.id:e for e in data.entities}
     if not entity_id:
-        last_item = max(data)
+        last_item = max(entities)
         #entity = data[-2]["Entities"][4732]#sehr kurz[4347]#[4732]#[4322]#[4325]#[4566]
-        entity = data[last_item]
+        entity = entities[last_item]
     else:
-        entity = data[entity_id]
+        entity = entities[entity_id]
     svg_path = os.path.join(output_path, f"{entity.id}.svg")
-    dot = generate_DOT(entity)
+    dot = generate_DOT(entity, depth=depth)
     
     success = run(("dot", "-Tsvg", "-o", svg_path), input=dot, encoding='UTF-8')
     success.check_returncode()
@@ -246,26 +235,13 @@ def generateSVG(pickle_path, output_path, entity_id=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--entity', '-e', type=int, default=-1)
+    parser.add_argument('--depth', '-d', type=int, default=3)
     
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
     svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Temp_Visualizations/DOTs/"
+    
+    data = SemanticData(pickle_file)
 
     args = parser.parse_args()
-    if args.entity > -1: generateSVG(pickle_file, svg_filepath, entity_id=args.entity)
-    else: generateSVG(pickle_file, svg_filepath, entity_id=None)
-    #generateSVG(pickle_file, svg_filepath)
-    '''
-    pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
-    data = load_pickle(pickle_file)
-    
-    dot_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Visualizations/DOTs/4325.gv"
-    last_item = max(data[-1]["Entities"])
-    entity = data[-2]["Entities"][4732]#sehr kurz[4347]#[4732]#[4322]#[4325]#[4566]
-    #entity = data[-1]["Entities"][last_item]
-    dot = generate_DOT(entity)
-    print(dot)
-    with open(dot_filepath, 'w', encoding="utf-8") as f:
-        f.write(dot)
-    # to generate SVG use: dot -Tsvg -o output.svg .\4325.gv
-    '''
-    
+    if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=args.depth)
+    else: generateSVG(data, svg_filepath, entity_id=None, depth=args.depth)

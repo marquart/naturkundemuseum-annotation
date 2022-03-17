@@ -7,6 +7,19 @@ import pickle
 from bs4 import BeautifulSoup
 from bs4.element import Tag as BS4_TAG
 
+class SemanticData(object):
+    def __init__(self, filepath, load=True):
+        if load: self.data = self.load_pickle(filepath)
+        else: self.data = stats_directory(filepath, save=False, consolidate=False)
+        
+        self.entities = list(chain.from_iterable(file["Entities"].values() for file in self.data))
+        self.properties = list(chain.from_iterable(file["Properties"].values() for file in self.data))
+        
+    def load_pickle(self, filepath):
+        with open(filepath, 'rb') as f:
+            data = pickle.load(f)
+        return data
+
 class Anchors(object):
     def __init__(self):
         self.objs         = {} # string:Entity
@@ -203,7 +216,7 @@ class SemanticEntity(object):
             if not virtual_from_source and check_property_exists(tag, "Virtual"):
                 virtual_from_source = tag["Virtual"] == "true"
             
-            if virtual_from_source:
+            if virtual_from_source and self.short_type not in ("E78","E21","E53","E28","E74"):
                 self.virtual = True
                 self.begin   = None
                 self.end     = None
@@ -594,4 +607,4 @@ def stats_directory(dirpath, save=False, consolidate=True):
     
 if __name__ == "__main__":
     DIR_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
-    stats_directory(DIR_PATH, save=False, consolidate=False)
+    stats_directory(DIR_PATH, save=True, consolidate=True)

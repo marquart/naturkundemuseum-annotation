@@ -5,6 +5,29 @@
     "Page_End": 67,
     "Text": "====PAGEBEGIN 67====\r\n\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 7. Mai 1887 hat das für die\r\nAufnahme der geologisch-paläontologischen, der mineralogisch­petrographischen und der zoologischen Sammlung der Universität\r\nbestimmte Museum die Bezeichnung „Museum für Natur­kunde“ erhalten.\r\nZu Direktoren der vorgedachten drei Abtheilungen sind die\r\nProfessoren Geheimer Bergrath Dr. Beyrich, Dr. Klein und\r\nDr. Moebius ernannt worden.\r\nDurch Ministerial-Reskript vom 25. Mai 1887 ist die Er­nennung des Geheimen Bergraths Professors Dr. Beyrich zum\r\nVerwaltungsdirektor des Museums erfolgt.\r\nDem ausserordentlichen Professor Dr. von Martens ist der\r\nTitel eines zweiten Direktors der zoologischen Abtheilung bei­gelegt worden.\r\n2. Seminar für Deutsches Recht.\r\nDurch Ministerial-Erlass vom 12. November 1887 ist die\r\nBegründung eines besonderen Seminars für Deutsches Recht an\r\nder Universität genehmigt worden.\r\nZum geschäftsführenden Direktor desselben ist der Geheime\r\nJustizrath Professor Dr. Beseler und zu Mitdirektoren sind die\r\nGeheimen Justizräthe Professoren Dr. Brunner und Dr. Gierke\r\nernannt worden. Mit Wahrnehmung der Funktionen eines Bi­bliothekars und Assistenten ist bis auf Weiteres der Privatdocent\r\nDr. Zeumer beauftragt worden.\r\n3. Geographisches Institut.\r\nDurch Ministerial-Erlass vom 4. April 1887 ist ein geogra­phisches Institut an der Universität begründet worden. Mit der\r\nDirektion desselben ist der Professor Dr. Freiherr von Richt­hofen beauftragt.\r\n4. Anatomisches Theater.\r\nDas anatomische Theater ist aus dem Gebäude der alten\r\nBörse am Lustgarten entfernt und in dem Anatomie-Gebäude,\r\n62\r\n",
     "Entities": {
+        "33": {
+            "id": "33",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "lowered_text": "dr.",
+            "begin": 689,
+            "end": 692,
+            "page": 67,
+            "line": 14,
+            "txt_id": "Mus_1887",
+            "line_idx": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 0,
+            "incoming": [
+                "39"
+            ],
+            "outgoing": [
+                "11"
+            ]
+        },
         "0": {
             "id": "0",
             "type": "E63 Beginning of Existence",
@@ -619,29 +642,6 @@
                 "11"
             ],
             "outgoing": []
-        },
-        "33": {
-            "id": "33",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Dr.",
-            "lowered_text": "dr.",
-            "begin": 689,
-            "end": 692,
-            "page": 67,
-            "line": 14,
-            "txt_id": "Mus_1887",
-            "line_idx": 15,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 0,
-            "incoming": [
-                "39"
-            ],
-            "outgoing": [
-                "11"
-            ]
         }
     },
     "Properties": {

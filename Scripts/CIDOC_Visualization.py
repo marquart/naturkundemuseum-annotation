@@ -1,10 +1,7 @@
-import os
-import json
 from collections import Counter, defaultdict
 from subprocess import run
 
-from ParseUIMAXMI import SemanticEntity, SemanticProperty
-from CollectionStats import SemanticData
+from ParseUIMAXMI import SemanticData, SemanticEntity, SemanticProperty
 
 from matplotlib.colors import to_hex
 import seaborn as sns
@@ -47,7 +44,7 @@ digraph CIDOC {
     node [style="filled" shape=box fontname="sans-serif" penwidth=0];
     edge [penwidth=1];
     splines="ortho";
-    ratio=0.4;
+    
     
     {
     
@@ -105,6 +102,12 @@ if __name__ == "__main__":
         nodes[id] = label
         for parent in cl.findChildren('subClassOf'):
             edges.append((parent['id'], id))
+    
+    # Total Hierarchy
+    dot = generateDOT(nodes, edges, facecolors, txtcolors)
+    generateSVG(dot, f"../Documentation/Visualizations/CIDOC_Hierarchy.svg")
+    
+    # Split Components of Hierarchy
     for i,split in enumerate((("E2","E92","E52","E54"), ("E53","E77","E59"))):
         temp_nodes, temp_edges = make_split(nodes, edges, split)
         dot = generateDOT(temp_nodes, temp_edges, facecolors, txtcolors)

@@ -1,8 +1,7 @@
 import re
 from collections import defaultdict, Counter
 
-from ParseUIMAXMI import SemanticEntity, SemanticProperty
-from CollectionStats import SemanticData
+from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
 
 from matplotlib.colors import to_hex
 import seaborn as sns
@@ -22,21 +21,25 @@ if __name__ == "__main__":
     }
     REVERSE_LOOKUP = {vv:k for k,v in LOOKUP.items() for vv in v}
     
-    CLASS_PATTERN = re.compile(r"^(E\d+?) ")
     
     general_types = Counter()
     types = Counter()
     for e in data.entities:
-        class_ = CLASS_PATTERN.search(e.type).group(1)
+        class_ = e.short_type
         if class_ in REVERSE_LOOKUP:
             general_types[REVERSE_LOOKUP[class_]] += 1
             types[class_] += 1
+        
+        if e.virtual and class_ in ("E78","E21","E53","E28","E74"):
+            print(e.short_type, e.id, e.year, e.institution)
     
-    palette = sns.color_palette('muted', len(LOOKUP))
+    palette = sns.color_palette('pastel', 10)
+    palette[7] = palette[9]
     general_colors = {t[0]:to_hex(palette[i]) for i,t in enumerate(general_types.most_common())}
     colors = {t: general_colors[REVERSE_LOOKUP[t]] for t in types}
     
     print(colors)
+  
     
 
     
