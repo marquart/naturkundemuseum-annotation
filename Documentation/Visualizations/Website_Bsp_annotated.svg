@@ -5,9 +5,9 @@
 <!-- Title: Annotationen Pages: 1 -->
 
 <svg
-   width="921pt"
-   height="718pt"
-   viewBox="0.00 0.00 921.00 718.00"
+   width="882.72284pt"
+   height="548.20673pt"
+   viewBox="0 0 882.72284 548.20673"
    version="1.1"
    id="svg5891"
    sodipodi:docname="Website_Bsp_annotated.svg"
@@ -28,19 +28,23 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.86908078"
-     inkscape:cx="628.82532"
-     inkscape:cy="428.61378"
+     inkscape:zoom="0.61453291"
+     inkscape:cx="505.26179"
+     inkscape:cy="358.8091"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="graph0" />
+     inkscape:current-layer="graph0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
      id="graph0"
      class="graph"
-     transform="scale(1 1) rotate(0) translate(4 714)">
+     transform="translate(-26.163531,673.5)">
     <title
        id="title5391">Annotationen</title>
     <!-- legend1 -->
@@ -53,34 +57,34 @@
       <polygon
          fill="#fc3915"
          fill-opacity="0.666667"
-         stroke="black"
-         points="74.5,-550 74.5,-602 166.5,-602 166.5,-550 74.5,-550"
+         stroke="#000000"
+         points="166.5,-602 166.5,-550 74.5,-550 74.5,-602 "
          id="polygon5477" />
       <text
          text-anchor="start"
          x="82.5"
-         y="-589.2"
+         y="-589.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5479">E8 Acquisition</text>
       <text
          text-anchor="start"
          x="100.5"
-         y="-577.2"
+         y="-577.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5481">(1641)</text>
       <polyline
          fill="none"
-         stroke="black"
+         stroke="#000000"
          points="74.5,-570 166.5,-570 "
          id="polyline5483" />
       <text
          text-anchor="start"
          x="94.5"
-         y="-557.2"
+         y="-557.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5485">vermehrt</text>
     </g>
     <!-- N1490 -->
@@ -92,34 +96,34 @@
       <polygon
          fill="#b560d4"
          fill-opacity="0.666667"
-         stroke="white"
-         points="300,-420 300,-472 429,-472 429,-420 300,-420"
+         stroke="#ffffff"
+         points="429,-472 429,-420 300,-420 300,-472 "
          id="polygon5490" />
       <text
          text-anchor="start"
          x="308"
-         y="-459.2"
+         y="-459.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5492">E78 Curated Holding</text>
       <text
          text-anchor="start"
          x="344.5"
-         y="-447.2"
+         y="-447.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5494">(1490)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="300,-440 429,-440 "
          id="polyline5496" />
       <text
          text-anchor="start"
          x="331"
-         y="-427.2"
+         y="-427.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5498">Säugethiere</text>
     </g>
     <!-- N1641&#45;&gt;N1490 -->
@@ -130,20 +134,20 @@
          id="title5501">N1641-&gt;N1490</title>
       <path
          fill="none"
-         stroke="black"
-         d="M166.59,-562.75C224.11,-562.75 315,-562.75 315,-562.75 315,-562.75 315,-482.2 315,-482.2"
+         stroke="#000000"
+         d="m 166.59,-562.75 c 57.52,0 148.41,0 148.41,0 0,0 0,80.55 0,80.55"
          id="path5503" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="318.5,-482.2 315,-472.2 311.5,-482.2 318.5,-482.2"
+         fill="#000000"
+         stroke="#000000"
+         points="311.5,-482.2 318.5,-482.2 315,-472.2 "
          id="polygon5505" />
       <text
          text-anchor="middle"
-         x="271.57"
-         y="-554.75"
+         x="271.57001"
+         y="-553.25"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5507">P22</text>
     </g>
     <!-- N1636 -->
@@ -155,34 +159,34 @@
       <polygon
          fill="#5a50c4"
          fill-opacity="0.666667"
-         stroke="white"
-         points="299,-621 299,-673 430,-673 430,-621 299,-621"
+         stroke="#ffffff"
+         points="430,-673 430,-621 299,-621 299,-673 "
          id="polygon5512" />
       <text
          text-anchor="start"
          x="307"
-         y="-660.2"
+         y="-660.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5514">E20 Biological Object</text>
       <text
          text-anchor="start"
          x="344.5"
-         y="-648.2"
+         y="-648.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5516">(1636)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="299,-641 430,-641 "
          id="polyline5518" />
       <text
          text-anchor="start"
          x="328.5"
-         y="-628.2"
+         y="-628.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5520">Fledermäuse</text>
     </g>
     <!-- N1641&#45;&gt;N1636 -->
@@ -193,26 +197,26 @@
          id="title5523">N1641-&gt;N1636</title>
       <path
          fill="none"
-         stroke="black"
-         d="M166.58,-589.25C221.23,-589.25 305,-589.25 305,-589.25 305,-589.25 305,-610.83 305,-610.83"
+         stroke="#000000"
+         d="m 166.58,-589.25 c 54.65,0 138.42,0 138.42,0 0,0 0,-21.58 0,-21.58"
          id="path5525" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="301.5,-610.83 305,-620.83 308.5,-610.83 301.5,-610.83"
+         fill="#000000"
+         stroke="#000000"
+         points="308.5,-610.83 301.5,-610.83 305,-620.83 "
          id="polygon5527" />
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="305,-620.83 308.5,-610.83 301.5,-610.83 "
+         points="301.5,-610.83 305,-620.83 308.5,-610.83 "
          id="polygon5527-1"
          transform="translate(36.53682,72.50461)" />
       <text
          text-anchor="middle"
          x="237.08"
-         y="-581.25"
+         y="-591.75"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5529">P24</text>
     </g>
     <!-- N1929 -->
@@ -224,34 +228,34 @@
       <polygon
          fill="#06b67e"
          fill-opacity="0.666667"
-         stroke="white"
-         points="330.5,-550 330.5,-602 398.5,-602 398.5,-550 330.5,-550"
+         stroke="#ffffff"
+         points="398.5,-602 398.5,-550 330.5,-550 330.5,-602 "
          id="polygon5534" />
       <text
          text-anchor="start"
          x="338.5"
-         y="-589.2"
+         y="-589.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5536">E55 Type</text>
       <text
          text-anchor="start"
          x="344.5"
-         y="-577.2"
+         y="-577.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5538">(1929)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="330.5,-570 398.5,-570 "
          id="polyline5540" />
       <text
          text-anchor="start"
          x="340"
-         y="-557.2"
+         y="-557.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5542">Donation</text>
     </g>
     <!-- N1641&#45;&gt;N1929 -->
@@ -262,24 +266,24 @@
          id="title5545">N1641-&gt;N1929</title>
       <path
          fill="none"
-         stroke="black"
-         d="M166.68,-576C166.68,-576 320.31,-576 320.31,-576"
+         stroke="#000000"
+         d="m 166.68,-576 c 0,0 153.63,0 153.63,0"
          id="path5547" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="320.31,-579.5 330.31,-576 320.31,-572.5 320.31,-579.5"
+         fill="#000000"
+         stroke="#000000"
+         points="320.31,-572.5 320.31,-579.5 330.31,-576 "
          id="polygon5549" />
       <text
          text-anchor="middle"
-         x="236.99"
-         y="-568"
+         x="236.99001"
+         y="-566.5"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5551">P2</text>
       <text
          text-anchor="middle"
-         x="33.080608"
+         x="34.580608"
          y="-395.56833"
          font-family="sans-serif"
          font-size="10px"
@@ -294,34 +298,34 @@
       <polygon
          fill="#b560d4"
          fill-opacity="0.666667"
-         stroke="white"
-         points="544,-420 544,-472 673,-472 673,-420 544,-420"
+         stroke="#ffffff"
+         points="673,-472 673,-420 544,-420 544,-472 "
          id="polygon5556" />
       <text
          text-anchor="start"
          x="552"
-         y="-459.2"
+         y="-459.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5558">E78 Curated Holding</text>
       <text
          text-anchor="start"
          x="588.5"
-         y="-447.2"
+         y="-447.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5560">(1649)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="544,-440 673,-440 "
          id="polyline5562" />
       <text
          text-anchor="start"
          x="562.5"
-         y="-427.2"
+         y="-427.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5564">Schausammlung</text>
     </g>
     <!-- N1490&#45;&gt;N1649 -->
@@ -332,20 +336,20 @@
          id="title5567">N1490-&gt;N1649</title>
       <path
          fill="none"
-         stroke="black"
-         d="M429.25,-446C429.25,-446 533.87,-446 533.87,-446"
+         stroke="#000000"
+         d="m 429.25,-446 c 0,0 104.62,0 104.62,0"
          id="path5569" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="533.87,-449.5 543.87,-446 533.87,-442.5 533.87,-449.5"
+         fill="#000000"
+         stroke="#000000"
+         points="533.87,-442.5 533.87,-449.5 543.87,-446 "
          id="polygon5571" />
       <text
          text-anchor="middle"
          x="472.06"
-         y="-438"
+         y="-436.5"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5573">P46</text>
     </g>
     <!-- N1813 -->
@@ -359,34 +363,34 @@
       <polygon
          fill="#fc7715"
          fill-opacity="0.666667"
-         stroke="white"
-         points="573,-621 573,-673 644,-673 644,-621 573,-621"
+         stroke="#ffffff"
+         points="644,-673 644,-621 573,-621 573,-673 "
          id="polygon5600" />
       <text
          text-anchor="start"
          x="581"
-         y="-660.2"
+         y="-660.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5602">E53 Place</text>
       <text
          text-anchor="start"
          x="588.5"
-         y="-648.2"
+         y="-648.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5604">(1633)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="573,-641 644,-641 "
          id="polyline5606" />
       <text
          text-anchor="start"
          x="590"
-         y="-628.2"
+         y="-628.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5608">indisch</text>
     </g>
     <!-- N1636&#45;&gt;N1633 -->
@@ -397,20 +401,20 @@
          id="title5611">N1636-&gt;N1633</title>
       <path
          fill="none"
-         stroke="black"
-         d="M430.21,-647C430.21,-647 562.88,-647 562.88,-647"
+         stroke="#000000"
+         d="m 430.21,-647 c 0,0 132.67,0 132.67,0"
          id="path5613" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="562.88,-650.5 572.88,-647 562.88,-643.5 562.88,-650.5"
+         fill="#000000"
+         stroke="#000000"
+         points="562.88,-643.5 562.88,-650.5 572.88,-647 "
          id="polygon5615" />
       <text
          text-anchor="middle"
-         x="487.04"
-         y="-639"
+         x="487.04001"
+         y="-637.5"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5617">P53</text>
     </g>
     <!-- N1299 -->
@@ -422,34 +426,34 @@
       <polygon
          fill="#06b67e"
          fill-opacity="0.666667"
-         stroke="white"
-         points="537.5,-550 537.5,-602 679.5,-602 679.5,-550 537.5,-550"
+         stroke="#ffffff"
+         points="679.5,-602 679.5,-550 537.5,-550 537.5,-602 "
          id="polygon5622" />
       <text
          text-anchor="start"
          x="545.5"
-         y="-589.2"
+         y="-589.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5624">E28 Conceptual Object</text>
       <text
          text-anchor="start"
          x="588.5"
-         y="-577.2"
+         y="-577.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5626">(1299)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="537.5,-570 679.5,-570 "
          id="polyline5628" />
       <text
          text-anchor="start"
          x="572.5"
-         y="-557.2"
+         y="-557.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5630">Fledermäuse</text>
     </g>
     <!-- N1636&#45;&gt;N1299 -->
@@ -460,20 +464,20 @@
          id="title5633">N1636-&gt;N1299</title>
       <path
          fill="none"
-         stroke="black"
-         d="M423,-621C423,-603.96 423,-584.83 423,-584.83 423,-584.83 527.31,-584.83 527.31,-584.83"
+         stroke="#000000"
+         d="m 423,-621 c 0,17.04 0,36.17 0,36.17 0,0 104.31,0 104.31,0"
          id="path5635" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="527.31,-588.33 537.31,-584.83 527.31,-581.33 527.31,-588.33"
+         fill="#000000"
+         stroke="#000000"
+         points="527.31,-581.33 527.31,-588.33 537.31,-584.83 "
          id="polygon5637" />
       <text
          text-anchor="middle"
-         x="444.57"
-         y="-576.83"
+         x="444.57001"
+         y="-575.33002"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5639">P128</text>
     </g>
     <!-- N_1929 -->
@@ -483,28 +487,28 @@
       <title
          id="title5642">N_1929</title>
       <polygon
-         fill="lightgrey"
-         stroke="white"
-         points="560,-491 560,-531 657,-531 657,-491 560,-491"
+         fill="#d3d3d3"
+         stroke="#ffffff"
+         points="657,-531 657,-491 560,-491 560,-531 "
          id="polygon5644" />
       <text
          text-anchor="start"
          x="602.5"
-         y="-518.2"
+         y="-518.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5646">...</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="560,-511 657,-511 "
          id="polyline5648" />
       <text
          text-anchor="start"
          x="568"
-         y="-498.2"
+         y="-498.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5650">28 Neighbours</text>
     </g>
     <!-- N1929&#45;&gt;N_1929 -->
@@ -515,20 +519,20 @@
          id="title5653">N1929-&gt;N_1929</title>
       <path
          fill="none"
-         stroke="black"
-         d="M398.56,-567.17C408.14,-567.17 416,-567.17 416,-567.17 416,-567.17 416,-511 416,-511 416,-511 549.92,-511 549.92,-511"
+         stroke="#000000"
+         d="m 398.56,-567.17 c 9.58,0 17.44,0 17.44,0 0,0 0,56.17 0,56.17 0,0 133.92,0 133.92,0"
          id="path5655" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="549.92,-514.5 559.92,-511 549.92,-507.5 549.92,-514.5"
+         fill="#000000"
+         stroke="#000000"
+         points="549.92,-507.5 549.92,-514.5 559.92,-511 "
          id="polygon5657" />
       <text
          text-anchor="middle"
          x="441.16"
          y="-503"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5659">...</text>
     </g>
     <!-- N_1649 -->
@@ -538,28 +542,28 @@
       <title
          id="title5662">N_1649</title>
       <polygon
-         fill="lightgrey"
-         stroke="white"
-         points="808,-426 808,-466 897,-466 897,-426 808,-426"
+         fill="#d3d3d3"
+         stroke="#ffffff"
+         points="897,-466 897,-426 808,-426 808,-466 "
          id="polygon5664" />
       <text
          text-anchor="start"
          x="846.5"
-         y="-453.2"
+         y="-453.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5666">...</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="808,-446 897,-446 "
          id="polyline5668" />
       <text
          text-anchor="start"
          x="816"
-         y="-433.2"
+         y="-433.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5670">2 Neighbours</text>
     </g>
     <!-- N1649&#45;&gt;N_1649 -->
@@ -570,25 +574,25 @@
          id="title5673">N1649-&gt;N_1649</title>
       <path
          fill="none"
-         stroke="black"
-         d="M673.25,-446C673.25,-446 797.91,-446 797.91,-446"
+         stroke="#000000"
+         d="m 673.25,-446 c 0,0 124.66,0 124.66,0"
          id="path5675" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="797.91,-449.5 807.91,-446 797.91,-442.5 797.91,-449.5"
+         fill="#000000"
+         stroke="#000000"
+         points="797.91,-442.5 797.91,-449.5 807.91,-446 "
          id="polygon5677" />
       <text
          text-anchor="middle"
-         x="730.58"
+         x="730.58002"
          y="-438"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5679">...</text>
       <text
          text-anchor="middle"
          x="899.76147"
-         y="-507.99045"
+         y="-506.49045"
          font-family="sans-serif"
          font-size="10px"
          id="text5679-3">...</text>
@@ -604,34 +608,34 @@
       <polygon
          fill="#b560d4"
          fill-opacity="0.666667"
-         stroke="white"
-         points="56,-478 56,-530 185,-530 185,-478 56,-478"
+         stroke="#ffffff"
+         points="185,-530 185,-478 56,-478 56,-530 "
          id="polygon5704" />
       <text
          text-anchor="start"
          x="64"
-         y="-517.2"
+         y="-517.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5706">E78 Curated Holding</text>
       <text
          text-anchor="start"
          x="100.5"
-         y="-505.2"
+         y="-505.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5708">(1488)</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="56,-498 185,-498 "
          id="polyline5710" />
       <text
          text-anchor="start"
          x="75"
-         y="-485.2"
+         y="-485.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5712">Hauptsammlung</text>
     </g>
     <!-- N1488&#45;&gt;N1490 -->
@@ -642,20 +646,22 @@
          id="title5715">N1488-&gt;N1490</title>
       <path
          fill="none"
-         stroke="black"
-         d="M185.19,-484C240.08,-484 310,-484 310,-484 310,-484 310,-482.39 310,-482.39"
-         id="path5717" />
+         stroke="#000000"
+         d="m 185.19,-484 h 58.57623 v 17.67548 l 52.10246,0.008"
+         id="path5717"
+         sodipodi:nodetypes="cccc" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="313.5,-482.39 310,-472.39 306.5,-482.39 313.5,-482.39"
-         id="polygon5719" />
+         fill="#000000"
+         stroke="#000000"
+         points="306.5,-482.39 313.5,-482.39 310,-472.39 "
+         id="polygon5719"
+         transform="rotate(-90,307.47109,-463.7876)" />
       <text
          text-anchor="middle"
-         x="238.9"
-         y="-476"
+         x="232.36568"
+         y="-473.73019"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5721">P46</text>
     </g>
     <!-- N_1488 -->
@@ -665,28 +671,28 @@
       <title
          id="title5724">N_1488</title>
       <polygon
-         fill="lightgrey"
-         stroke="white"
-         points="320,-491 320,-531 409,-531 409,-491 320,-491"
+         fill="#d3d3d3"
+         stroke="#ffffff"
+         points="409,-531 409,-491 320,-491 320,-531 "
          id="polygon5726" />
       <text
          text-anchor="start"
          x="358.5"
-         y="-518.2"
+         y="-518.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5728">...</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="320,-511 409,-511 "
          id="polyline5730" />
       <text
          text-anchor="start"
          x="328"
-         y="-498.2"
+         y="-498.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5732">7 Neighbours</text>
     </g>
     <!-- N1488&#45;&gt;N_1488 -->
@@ -697,20 +703,20 @@
          id="title5735">N1488-&gt;N_1488</title>
       <path
          fill="none"
-         stroke="black"
-         d="M185.25,-510.5C185.25,-510.5 309.91,-510.5 309.91,-510.5"
+         stroke="#000000"
+         d="m 185.25,-510.5 c 0,0 124.66,0 124.66,0"
          id="path5737" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="309.91,-514 319.91,-510.5 309.91,-507 309.91,-514"
+         fill="#000000"
+         stroke="#000000"
+         points="309.91,-507 309.91,-514 319.91,-510.5 "
          id="polygon5739" />
       <text
          text-anchor="middle"
          x="242.58"
          y="-502.5"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5741">...</text>
     </g>
     <!-- N1497 -->
@@ -732,28 +738,28 @@
       <title
          id="title5870">N_1299</title>
       <polygon
-         fill="lightgrey"
-         stroke="white"
-         points="808,-556 808,-596 897,-596 897,-556 808,-556"
+         fill="#d3d3d3"
+         stroke="#ffffff"
+         points="897,-596 897,-556 808,-556 808,-596 "
          id="polygon5872" />
       <text
          text-anchor="start"
          x="846.5"
-         y="-583.2"
+         y="-583.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5874">...</text>
       <polyline
          fill="none"
-         stroke="white"
+         stroke="#ffffff"
          points="808,-576 897,-576 "
          id="polyline5876" />
       <text
          text-anchor="start"
          x="816"
-         y="-563.2"
+         y="-563.20001"
          font-family="sans-serif"
-         font-size="11.00"
+         font-size="11px"
          id="text5878">4 Neighbours</text>
     </g>
     <!-- N1299&#45;&gt;N_1299 -->
@@ -764,20 +770,20 @@
          id="title5881">N1299-&gt;N_1299</title>
       <path
          fill="none"
-         stroke="black"
-         d="M679.73,-576C679.73,-576 797.7,-576 797.7,-576"
+         stroke="#000000"
+         d="m 679.73,-576 c 0,0 117.97,0 117.97,0"
          id="path5883" />
       <polygon
-         fill="black"
-         stroke="black"
-         points="797.7,-579.5 807.7,-576 797.7,-572.5 797.7,-579.5"
+         fill="#000000"
+         stroke="#000000"
+         points="797.7,-572.5 797.7,-579.5 807.7,-576 "
          id="polygon5885" />
       <text
          text-anchor="middle"
-         x="733.72"
+         x="733.71997"
          y="-568"
          font-family="sans-serif"
-         font-size="10.00"
+         font-size="10px"
          id="text5887">...</text>
     </g>
     <g
@@ -796,7 +802,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-246 10.5,-268 50.5,-268 50.5,-246 "
+           points="50.5,-268 50.5,-246 10.5,-246 10.5,-268 "
            id="polygon7705" />
         <text
            text-anchor="start"
@@ -808,7 +814,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-246 52.5,-268 231.5,-268 231.5,-246 "
+           points="231.5,-268 231.5,-246 52.5,-246 52.5,-268 "
            id="polygon7709" />
         <text
            text-anchor="start"
@@ -820,7 +826,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-222 10.5,-244 50.5,-244 50.5,-222 "
+           points="50.5,-244 50.5,-222 10.5,-222 10.5,-244 "
            id="polygon7713" />
         <text
            text-anchor="start"
@@ -832,7 +838,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-222 52.5,-244 231.5,-244 231.5,-222 "
+           points="231.5,-244 231.5,-222 52.5,-222 52.5,-244 "
            id="polygon7717" />
         <text
            text-anchor="start"
@@ -844,7 +850,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-198 10.5,-220 50.5,-220 50.5,-198 "
+           points="50.5,-220 50.5,-198 10.5,-198 10.5,-220 "
            id="polygon7721" />
         <text
            text-anchor="start"
@@ -856,7 +862,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-198 52.5,-220 231.5,-220 231.5,-198 "
+           points="231.5,-220 231.5,-198 52.5,-198 52.5,-220 "
            id="polygon7725" />
         <text
            text-anchor="start"
@@ -868,7 +874,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-174 10.5,-196 50.5,-196 50.5,-174 "
+           points="50.5,-196 50.5,-174 10.5,-174 10.5,-196 "
            id="polygon7729" />
         <text
            text-anchor="start"
@@ -880,7 +886,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-174 52.5,-196 231.5,-196 231.5,-174 "
+           points="231.5,-196 231.5,-174 52.5,-174 52.5,-196 "
            id="polygon7733" />
         <text
            text-anchor="start"
@@ -892,7 +898,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-150 10.5,-172 50.5,-172 50.5,-150 "
+           points="50.5,-172 50.5,-150 10.5,-150 10.5,-172 "
            id="polygon7737" />
         <text
            text-anchor="start"
@@ -904,7 +910,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-150 52.5,-172 231.5,-172 231.5,-150 "
+           points="231.5,-172 231.5,-150 52.5,-150 52.5,-172 "
            id="polygon7741" />
         <text
            text-anchor="start"
@@ -916,7 +922,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-126 10.5,-148 50.5,-148 50.5,-126 "
+           points="50.5,-148 50.5,-126 10.5,-126 10.5,-148 "
            id="polygon7745" />
         <text
            text-anchor="start"
@@ -928,7 +934,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-126 52.5,-148 231.5,-148 231.5,-126 "
+           points="231.5,-148 231.5,-126 52.5,-126 52.5,-148 "
            id="polygon7749" />
         <text
            text-anchor="start"
@@ -940,7 +946,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-102 10.5,-124 50.5,-124 50.5,-102 "
+           points="50.5,-124 50.5,-102 10.5,-102 10.5,-124 "
            id="polygon7753" />
         <text
            text-anchor="start"
@@ -952,7 +958,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-102 52.5,-124 231.5,-124 231.5,-102 "
+           points="231.5,-124 231.5,-102 52.5,-102 52.5,-124 "
            id="polygon7757" />
         <text
            text-anchor="start"
@@ -964,7 +970,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-78 10.5,-100 50.5,-100 50.5,-78 "
+           points="50.5,-100 50.5,-78 10.5,-78 10.5,-100 "
            id="polygon7761" />
         <text
            text-anchor="start"
@@ -976,7 +982,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-78 52.5,-100 231.5,-100 231.5,-78 "
+           points="231.5,-100 231.5,-78 52.5,-78 52.5,-100 "
            id="polygon7765" />
         <text
            text-anchor="start"
@@ -988,7 +994,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-54 10.5,-76 50.5,-76 50.5,-54 "
+           points="50.5,-76 50.5,-54 10.5,-54 10.5,-76 "
            id="polygon7769" />
         <text
            text-anchor="start"
@@ -1000,7 +1006,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-54 52.5,-76 231.5,-76 231.5,-54 "
+           points="231.5,-76 231.5,-54 52.5,-54 52.5,-76 "
            id="polygon7773" />
         <text
            text-anchor="start"
@@ -1012,7 +1018,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-30 10.5,-52 50.5,-52 50.5,-30 "
+           points="50.5,-52 50.5,-30 10.5,-30 10.5,-52 "
            id="polygon7777" />
         <text
            text-anchor="start"
@@ -1024,7 +1030,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-30 52.5,-52 231.5,-52 231.5,-30 "
+           points="231.5,-52 231.5,-30 52.5,-30 52.5,-52 "
            id="polygon7781" />
         <text
            text-anchor="start"
@@ -1036,7 +1042,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="10.5,-6 10.5,-28 50.5,-28 50.5,-6 "
+           points="50.5,-28 50.5,-6 10.5,-6 10.5,-28 "
            id="polygon7785" />
         <text
            text-anchor="start"
@@ -1048,7 +1054,7 @@
         <polygon
            fill="none"
            stroke="#000000"
-           points="52.5,-6 52.5,-28 231.5,-28 231.5,-6 "
+           points="231.5,-28 231.5,-6 52.5,-6 52.5,-28 "
            id="polygon7789" />
         <text
            text-anchor="start"
@@ -1069,7 +1075,7 @@
            fill="#fc3915"
            fill-opacity="0.666667"
            stroke="#000000"
-           points="74.5,-558 166.5,-558 166.5,-506 74.5,-506 "
+           points="166.5,-506 74.5,-506 74.5,-558 166.5,-558 "
            id="polygon7796" />
         <text
            text-anchor="start"
@@ -1109,7 +1115,7 @@
            fill="#3b95c4"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="321.5,-617 407.5,-617 407.5,-565 321.5,-565 "
+           points="407.5,-565 321.5,-565 321.5,-617 407.5,-617 "
            id="polygon7809" />
         <text
            text-anchor="start"
@@ -1153,12 +1159,12 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="330,-554.68 323,-554.68 326.5,-564.68 "
+           points="326.5,-564.68 330,-554.68 323,-554.68 "
            id="polygon7824" />
         <text
            text-anchor="middle"
            x="238.21001"
-           y="-544.5"
+           y="-543"
            font-family="sans-serif"
            font-size="10px"
            id="text7826">P23</text>
@@ -1174,7 +1180,7 @@
            fill="#5a50c4"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="299,-475 430,-475 430,-423 299,-423 "
+           points="430,-423 299,-423 299,-475 430,-475 "
            id="polygon7831" />
         <text
            text-anchor="start"
@@ -1218,12 +1224,12 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="307,-485.07 314,-485.07 310.5,-475.07 "
+           points="310.5,-475.07 307,-485.07 314,-485.07 "
            id="polygon7846" />
         <text
            text-anchor="middle"
            x="249.71001"
-           y="-518"
+           y="-516.5"
            font-family="sans-serif"
            font-size="10px"
            id="text7848">P24</text>
@@ -1243,7 +1249,7 @@
            fill="#fc7715"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="573,-617 644,-617 644,-565 573,-565 "
+           points="644,-565 573,-565 573,-617 644,-617 "
            id="polygon7897" />
         <text
            text-anchor="start"
@@ -1287,18 +1293,17 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="563,-587.5 563,-594.5 573,-591 "
+           points="573,-591 563,-587.5 563,-594.5 "
            id="polygon7912" />
         <g
            id="g9723">
           <text
              text-anchor="middle"
-             x="475.17984"
-             y="-393.79086"
+             x="473.37695"
+             y="-621.49762"
              font-family="sans-serif"
              font-size="10px"
-             id="text5507-4"
-             transform="translate(-1.80289,-229.20673)">P22</text>
+             id="text5507-4">P22</text>
           <path
              style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              d="m 124.86793,-329.10115 -0.0681,-72.9313 h 426.95975 v -9.92428"
@@ -1308,20 +1313,20 @@
           <polygon
              fill="#000000"
              stroke="#000000"
-             points="573,-591 563,-587.5 563,-594.5 "
+             points="563,-594.5 573,-591 563,-587.5 "
              id="polygon7912-0"
              transform="rotate(-90,532.99601,-607.88544)" />
           <polygon
              fill="#000000"
              stroke="#000000"
-             points="563,-587.5 563,-594.5 573,-591 "
+             points="573,-591 563,-587.5 563,-594.5 "
              id="polygon7912-0-1"
              transform="rotate(-90,633.79733,-844.80062)" />
         </g>
         <text
            text-anchor="middle"
            x="475.78"
-           y="-583"
+           y="-581.5"
            font-family="sans-serif"
            font-size="10px"
            id="text7914">P53</text>
@@ -1337,7 +1342,7 @@
            fill="#50c4c2"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="559,-407 658,-407 658,-355 559,-355 "
+           points="658,-355 559,-355 559,-407 658,-407 "
            id="polygon7919" />
         <text
            text-anchor="start"
@@ -1381,11 +1386,11 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="548.78,-376 548.78,-383 558.78,-379.5 "
+           points="558.78,-379.5 548.78,-376 548.78,-383 "
            id="polygon7934" />
         <text
            text-anchor="middle"
-           x="475"
+           x="473.5"
            y="-397.89001"
            font-family="sans-serif"
            font-size="10px"
@@ -1402,7 +1407,7 @@
            fill="#06b67e"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="537.5,-478 679.5,-478 679.5,-426 537.5,-426 "
+           points="679.5,-426 537.5,-426 537.5,-478 679.5,-478 "
            id="polygon7941" />
         <text
            text-anchor="start"
@@ -1446,12 +1451,12 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="527.1,-455.33 527.1,-462.33 537.1,-458.83 "
+           points="537.1,-458.83 527.1,-455.33 527.1,-462.33 "
            id="polygon7956" />
         <text
            text-anchor="middle"
            x="466.16"
-           y="-450.82999"
+           y="-449.32999"
            font-family="sans-serif"
            font-size="10px"
            id="text7958">P128</text>
@@ -1469,7 +1474,7 @@
            fill="#fc3915"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="38.5,-487 202.5,-487 202.5,-435 38.5,-435 "
+           points="202.5,-435 38.5,-435 38.5,-487 202.5,-487 "
            id="polygon7983" />
         <text
            text-anchor="start"
@@ -1513,12 +1518,12 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="288.75,-451.5 288.75,-458.5 298.75,-455 "
+           points="298.75,-455 288.75,-451.5 288.75,-458.5 "
            id="polygon7998" />
         <text
            text-anchor="middle"
            x="236.25999"
-           y="-447"
+           y="-445.5"
            font-family="sans-serif"
            font-size="10px"
            id="text8000">P34</text>
@@ -1534,7 +1539,7 @@
            fill="#fc3915"
            fill-opacity="0.666667"
            stroke="#ffffff"
-           points="67,-416 174,-416 174,-364 67,-364 "
+           points="174,-364 67,-364 67,-416 174,-416 "
            id="polygon8005" />
         <text
            text-anchor="start"
@@ -1578,12 +1583,12 @@
         <polygon
            fill="#000000"
            stroke="#000000"
-           points="288.79,-425 288.79,-432 298.79,-428.5 "
+           points="298.79,-428.5 288.79,-425 288.79,-432 "
            id="polygon8020" />
         <text
            text-anchor="middle"
            x="189.05"
-           y="-420.5"
+           y="-419"
            font-family="sans-serif"
            font-size="10px"
            id="text8022">P31</text>
@@ -1600,7 +1605,7 @@
         <polygon
            fill="#d3d3d3"
            stroke="#ffffff"
-           points="409,-333 409,-293 320,-293 320,-333 "
+           points="320,-293 320,-333 409,-333 409,-293 "
            id="polygon8049" />
         <text
            text-anchor="start"
@@ -1643,7 +1648,7 @@
       <polygon
          fill="#000000"
          stroke="#000000"
-         points="797.91,-442.5 797.91,-449.5 807.91,-446 "
+         points="807.91,-446 797.91,-442.5 797.91,-449.5 "
          id="polygon5677-5" />
       <text
          text-anchor="middle"
