@@ -19,6 +19,15 @@ if __name__ == "__main__":
         "E78": ("E78","E77"), # Holding/Human-Made
         "E18": ("E18","E20","E19","E57"), #Physical Thing
     }
+    colors_from_website = {
+    'E39': '#3b95c4',
+    'E78': '#b560d4',
+    'E28': '#06b67e',
+    'E53': '#fc7715',
+    'E18': '#5a50c4',
+    'E2': '#50c4c2',
+    'E7': '#fc3915'
+    }
     REVERSE_LOOKUP = {vv:k for k,v in LOOKUP.items() for vv in v}
     
     
@@ -36,6 +45,9 @@ if __name__ == "__main__":
     palette = sns.color_palette('pastel', 10)
     palette[7] = palette[9]
     general_colors = {t[0]:to_hex(palette[i]) for i,t in enumerate(general_types.most_common())}
+    
+    for c in colors_from_website: general_colors[c] = colors_from_website[c] +'aa'
+    
     colors = {t: general_colors[REVERSE_LOOKUP[t]] for t in types}
     
     print(colors)
