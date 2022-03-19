@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="198.8905mm"
+   height="275.56955mm"
+   viewBox="0 0 198.8905 275.56955"
+   version="1.1"
+   id="svg1137"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1134">
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path3812" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path3697" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3679" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3670" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(10.809834,2.8222231)">
+    <g
+       id="node9"
+       class="node"
+       transform="matrix(0.35277777,0,0,0.35277777,-112.09126,290.62161)">
+      <title
+         id="title7939">N1647</title>
+      <g
+         id="g1261"
+         transform="translate(-1.7609803,334.69071)"
+         style="stroke-width:1.00063;stroke-miterlimit:4;stroke-dasharray:none">
+        <polygon
+           fill="#06b67e"
+           fill-opacity="0.666667"
+           stroke="#ffffff"
+           points="679.5,-426 537.5,-426 537.5,-478 679.5,-478 "
+           id="polygon7941"
+           style="stroke-width:1.00063;stroke-miterlimit:4;stroke-dasharray:none" />
+        <text
+           text-anchor="start"
+           x="545.5"
+           y="-465.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7943"
+           style="stroke-width:1.00063;stroke-miterlimit:4;stroke-dasharray:none">E28 Conceptual Object</text>
+        <text
+           text-anchor="start"
+           x="588.5"
+           y="-453.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7945"
+           style="stroke-width:1.00063;stroke-miterlimit:4;stroke-dasharray:none">(1647)</text>
+        <polyline
+           fill="none"
+           stroke="#ffffff"
+           points="537.5,-446 679.5,-446 "
+           id="polyline7947"
+           style="stroke-width:1.00063;stroke-miterlimit:4;stroke-dasharray:none" />
+        <text
+           text-anchor="start"
+           x="575"
+           y="-433.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7949"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;stroke-width:1.00063;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+             id="tspan1253"
+             x="575"
+             y="-433.20001">Orang-Utang</tspan></text>
+      </g>
+      <g
+         id="g1261-7"
+         transform="translate(4.3846934,-42.994093)" />
+      <g
+         id="g3536"
+         transform="translate(-2.260983,186.6907)">
+        <polygon
+           fill="#06b67e"
+           fill-opacity="0.666667"
+           stroke="#ffffff"
+           points="679.5,-426 537.5,-426 537.5,-478 679.5,-478 "
+           id="polygon7941-3"
+           style="fill:#bbc1bf;fill-opacity:1" />
+        <text
+           text-anchor="start"
+           x="545.5"
+           y="-465.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7943-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+             id="tspan2025"
+             x="545.5"
+             y="-465.20001">E71 Human-Made Thing</tspan></text>
+      </g>
+      <g
+         id="g3551"
+         transform="translate(-73.540098,133.02096)">
+        <polygon
+           fill="#06b67e"
+           fill-opacity="0.666667"
+           stroke="#ffffff"
+           points="679.5,-478 679.5,-426 537.5,-426 537.5,-478 "
+           id="polygon7941-3-18"
+           transform="translate(71.279115,-88.830258)"
+           style="fill:#bbc1bf;fill-opacity:1" />
+        <text
+           text-anchor="start"
+           x="652.77911"
+           y="-554.03027"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7943-9-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+             id="tspan2179"
+             x="652.77911"
+             y="-554.03027">E70 Thing</tspan></text>
+      </g>
+      <polygon
+         fill="#06b67e"
+         fill-opacity="0.666667"
+         stroke="#ffffff"
+         points="679.5,-478 679.5,-426 537.5,-426 537.5,-478 "
+         id="polygon7941-3-18-7"
+         transform="translate(-2.26098,-97.8093)"
+         style="fill:#bbc1bf;fill-opacity:1" />
+      <text
+         text-anchor="start"
+         x="555.23901"
+         y="-563.00928"
+         font-family="sans-serif"
+         font-size="11px"
+         id="text7943-9-9-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+           id="tspan2249"
+           x="555.23901"
+           y="-563.00928">E77 Persistent Item</tspan></text>
+      <g
+         id="g3541"
+         transform="translate(190.58517,-374.08412)">
+        <polygon
+           fill="#06b67e"
+           fill-opacity="0.666667"
+           stroke="#ffffff"
+           points="537.5,-478 679.5,-478 679.5,-426 537.5,-426 "
+           id="polygon7941-3-18-7-1"
+           transform="translate(-192.34615,20.774811)"
+           style="fill:#bbc1bf;fill-opacity:1" />
+        <text
+           text-anchor="start"
+           x="377.15387"
+           y="-444.42517"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7943-9-9-7-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+             id="tspan2319"
+             x="377.15387"
+             y="-444.42517">E1 CRM Entity</tspan></text>
+      </g>
+      <path
+         style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#bbc1bf;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000"
+         d="M 602.73902,-778.80931 V -583.8093"
+         id="path3668" />
+      <path
+         style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#bbc1bf;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000"
+         d="m 602.73902,-523.8093 v 82.5"
+         id="path4094" />
+      <path
+         style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#bbc1bf;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000"
+         d="m 602.73902,-381.3093 v 82.5"
+         id="path4096" />
+      <path
+         style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#bbc1bf;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000"
+         d="m 602.73902,-238.80929 v 90"
+         id="path4098" />
+      <g
+         id="g2372"
+         transform="translate(7.5000047,7.5000211)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="616.46875"
+           y="-756.32123"
+           id="text7900-1-1"><tspan
+             id="tspan982"
+             x="616.46875"
+             y="-756.32123">P1 is identified by: E41 Appellation</tspan><tspan
+             id="tspan984"
+             x="616.46875"
+             y="-742.57123">P2 has type: E55 Type</tspan><tspan
+             id="tspan986"
+             x="616.46875"
+             y="-728.82123">P3 has note: E62 String</tspan><tspan
+             id="tspan988"
+             x="616.46875"
+             y="-715.07123">P48 has preferred identified: E42 Identifier</tspan><tspan
+             id="tspan990"
+             x="616.46875"
+             y="-701.32123">P137 exemplifies: E55 Type</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect1352"
+           width="232.5"
+           height="75"
+           x="610.23901"
+           y="-771.30933"
+           ry="0.15252376" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect1456"
+         width="300"
+         height="52.5"
+         x="287.73901"
+         y="-508.8093"
+         ry="0.15252376" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect1786"
+         width="195"
+         height="37.5"
+         x="392.73901"
+         y="-366.3093"
+         ry="0.15252376" />
+      <g
+         id="g2392"
+         transform="translate(7.5000047,7.5000005)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="617.10388"
+           y="-358.88791"
+           id="text7900-1"><tspan
+             id="tspan1056"
+             x="617.10388"
+             y="-358.88791">P43 has dimension: E54 Dimension</tspan><tspan
+             id="tspan1058"
+             x="617.10388"
+             y="-345.13791">P101 had as general use: E55 Type</tspan><tspan
+             id="tspan1060"
+             x="617.10388"
+             y="-331.38791">P130 shows features of: E70 Thing</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect1890"
+           width="195"
+           height="52.5"
+           x="610.23901"
+           y="-373.8093"
+           ry="0.15252376" />
+      </g>
+      <g
+         id="g2403"
+         transform="translate(7.5000047)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="617.81763"
+           y="-208.12584"
+           id="text7900"><tspan
+             id="tspan1100"
+             x="617.81763"
+             y="-208.12584">P102 has title: E35 Title</tspan><tspan
+             id="tspan1102"
+             x="617.81763"
+             y="-194.37584">P103 was intended for: E55 Type</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect2096"
+           width="180"
+           height="37.5"
+           x="610.23901"
+           y="-223.8093"
+           ry="0.15252376" />
+      </g>
+      <g
+         id="g2397"
+         transform="translate(4.0105601e-6,15.000003)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="398.41095"
+           y="-223.8093"
+           id="text16776"><tspan
+             id="tspan1080"
+             x="398.41095"
+             y="-223.8093">E7 Activity: P19 was intended use of</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect2098"
+           width="195"
+           height="22.5"
+           x="392.73901"
+           y="-238.8093"
+           ry="0.15252376" />
+      </g>
+      <g
+         id="g2408"
+         transform="translate(4.0105601e-6,14.999998)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="429.62064"
+           y="-74.064835"
+           id="text16776-1"><tspan
+             id="tspan1122"
+             x="429.62064"
+             y="-74.064835">E65 Creation: P94 has created</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1.2841;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect2202"
+           width="165"
+           height="22.5"
+           x="422.73901"
+           y="-88.809288"
+           ry="0.15252376" />
+      </g>
+      <g
+         id="g2312"
+         transform="translate(1.8716266e-6,15.000021)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="336.2016"
+           y="-664.8623"
+           id="text16776-0-5-5"
+           transform="translate(-26.777531,-98.513)"><tspan
+             id="tspan940"
+             x="336.2016"
+             y="-664.8623">E7 Activity: P15 was influenced by</tspan><tspan
+             id="tspan942"
+             x="336.2016"
+             y="-651.1123">E7 Activity: P17 was motivated by</tspan><tspan
+             id="tspan944"
+             x="336.2016"
+             y="-637.3623">E17 Type Assignment: P41 classified</tspan><tspan
+             id="tspan946"
+             x="336.2016"
+             y="-623.6123">E24 Physical Human-Made Thing: P62 depicts</tspan><tspan
+             id="tspan948"
+             x="336.2016"
+             y="-609.8623">E89 Propositional Object: P67 refers to</tspan><tspan
+             id="tspan950"
+             x="336.2016"
+             y="-596.1123">E31 Document: P70 documents</tspan><tspan
+             id="tspan952"
+             x="336.2016"
+             y="-582.3623">E32 Authority Document: P71 lists</tspan><tspan
+             id="tspan954"
+             x="336.2016"
+             y="-568.6123">E89 Propositional Object: P129 is about</tspan><tspan
+             id="tspan956"
+             x="336.2016"
+             y="-554.8623">E83 Type Creation: P136 was based on</tspan><tspan
+             id="tspan958"
+             x="336.2016"
+             y="-541.1123">E36 Visual Item: P138 represents</tspan><tspan
+             id="tspan960"
+             x="336.2016"
+             y="-527.3623">E13 Attribute Assignment: P140 assigned attribute to</tspan><tspan
+             id="tspan962"
+             x="336.2016"
+             y="-513.6123">E13 Attribute Assignment: P141 assigned</tspan></text>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1.28409;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect1248"
+           width="285"
+           height="172.5"
+           x="329.51654"
+           y="-680.29633"
+           ry="0.15252376"
+           transform="translate(-26.777531,-98.513)" />
+      </g>
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 445.23901,-763.80931 v -45 h 82.50001"
+         id="path2539" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 677.73902,-808.80931 h 60 v 37.5"
+         id="path2541" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 445.23901,-508.8093 v -45 h 82.50001"
+         id="path2543" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 482.73901,-366.3093 v -45 h 45.00001"
+         id="path2545" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 677.73902,-411.3093 h 45 v 37.5"
+         id="path2547" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 677.73902,-268.8093 h 37.5 v 37.50001"
+         id="path2549" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 482.73901,-223.80929 v -45.00001 h 45.00001"
+         id="path2551" />
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.28409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.28409, 1.28409;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+         d="m 497.73901,-73.80929 v -45 h 30.00001"
+         id="path2553" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+         x="293.73901"
+         y="-492.82391"
+         id="text4606"><tspan
+           id="tspan4630"
+           x="293.73901"
+           y="-492.82391">E5 Event: P12 occurred in the presence of</tspan><tspan
+           id="tspan4632"
+           x="293.73901"
+           y="-479.07391">E63 Beginning of Existence: P92 brought into existence</tspan><tspan
+           id="tspan4634"
+           x="293.73901"
+           y="-465.32391">E64 End of Existence: P93 took out of existence</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+         x="398.73901"
+         y="-351.3093"
+         id="text8892"><tspan
+           id="tspan8916"
+           x="398.73901"
+           y="-351.3093">E7 Activity: P16 used specific object</tspan><tspan
+           id="tspan8918"
+           x="398.73901"
+           y="-337.5593">E70 Thing: P130 shows features of</tspan></text>
+    </g>
+  </g>
+</svg>

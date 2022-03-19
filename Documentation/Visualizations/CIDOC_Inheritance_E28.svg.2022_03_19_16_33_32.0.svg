@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1137"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="CIDOC_Inheritance_E28.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1139"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.4805976"
+     inkscape:cx="294.81338"
+     inkscape:cy="245.17127"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1261-2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3553" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1134">
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path3812" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path3697" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3679" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3670" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="node9"
+       class="node"
+       transform="matrix(0.35277777,0,0,0.35277777,-112.09126,290.62161)">
+      <title
+         id="title7939">N1647</title>
+      <g
+         id="g1261"
+         transform="translate(-1.7609803,334.69071)">
+        <polygon
+           fill="#06b67e"
+           fill-opacity="0.666667"
+           stroke="#ffffff"
+           points="537.5,-478 679.5,-478 679.5,-426 537.5,-426 "
+           id="polygon7941" />
+        <text
+           text-anchor="start"
+           x="545.5"
+           y="-465.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7943">E28 Conceptual Object</text>
+        <text
+           text-anchor="start"
+           x="588.5"
+           y="-453.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7945">(1647)</text>
+        <polyline
+           fill="none"
+           stroke="#ffffff"
+           points="537.5,-446 679.5,-446 "
+           id="polyline7947" />
+        <text
+           text-anchor="start"
+           x="575"
+           y="-433.20001"
+           font-family="sans-serif"
+           font-size="11px"
+           id="text7949"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+             sodipodi:role="line"
+             id="tspan1253"
+             x="575"
+             y="-433.20001">Orang-Utang</tspan></text>
+      </g>
+      <g
+         id="g1261-7"
+         transform="translate(4.3846934,-42.994093)" />
+      <g
+         id="g1261-2"
+         transform="translate(-26.777533,-98.512997)">
+        <g
+           id="g3536"
+           transform="translate(24.51655,285.2037)">
+          <polygon
+             fill="#06b67e"
+             fill-opacity="0.666667"
+             stroke="#ffffff"
+             points="679.5,-426 537.5,-426 537.5,-478 679.5,-478 "
+             id="polygon7941-3"
+             style="fill:#bbc1bf;fill-opacity:1" />
+          <text
+             text-anchor="start"
+             x="545.5"
+             y="-465.20001"
+             font-family="sans-serif"
+             font-size="11px"
+             id="text7943-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+               sodipodi:role="line"
+               id="tspan2025"
+               x="545.5"
+               y="-465.20001">E71 Human-Made Thing</tspan></text>
+        </g>
+        <g
+           id="g3551"
+           transform="translate(-46.762565,231.53396)">
+          <polygon
+             fill="#06b67e"
+             fill-opacity="0.666667"
+             stroke="#ffffff"
+             points="679.5,-478 679.5,-426 537.5,-426 537.5,-478 "
+             id="polygon7941-3-18"
+             transform="translate(71.279115,-88.830258)"
+             style="fill:#bbc1bf;fill-opacity:1" />
+          <text
+             text-anchor="start"
+             x="652.77911"
+             y="-554.03027"
+             font-family="sans-serif"
+             font-size="11px"
+             id="text7943-9-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+               sodipodi:role="line"
+               id="tspan2179"
+               x="652.77911"
+               y="-554.03027">E70 Thing</tspan></text>
+        </g>
+        <g
+           id="g3546"
+           transform="translate(135.19619,88.459396)">
+          <polygon
+             fill="#06b67e"
+             fill-opacity="0.666667"
+             stroke="#ffffff"
+             points="537.5,-426 537.5,-478 679.5,-478 679.5,-426 "
+             id="polygon7941-3-18-7"
+             transform="translate(-110.67964,-87.755699)"
+             style="fill:#bbc1bf;fill-opacity:1" />
+          <text
+             text-anchor="start"
+             x="446.82037"
+             y="-552.95569"
+             font-family="sans-serif"
+             font-size="11px"
+             id="text7943-9-9-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+               sodipodi:role="line"
+               id="tspan2249"
+               x="446.82037"
+               y="-552.95569">E77 Persistent Item</tspan></text>
+        </g>
+        <g
+           id="g3541"
+           transform="translate(217.3627,-275.57112)">
+          <polygon
+             fill="#06b67e"
+             fill-opacity="0.666667"
+             stroke="#ffffff"
+             points="537.5,-478 679.5,-478 679.5,-426 537.5,-426 "
+             id="polygon7941-3-18-7-1"
+             transform="translate(-192.34615,20.774811)"
+             style="fill:#bbc1bf;fill-opacity:1" />
+          <text
+             text-anchor="start"
+             x="377.15387"
+             y="-444.42517"
+             font-family="sans-serif"
+             font-size="11px"
+             id="text7943-9-9-7-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+               sodipodi:role="line"
+               id="tspan2319"
+               x="377.15387"
+               y="-444.42517">E1 CRM Entity</tspan></text>
+        </g>
+        <path
+           style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00063;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutL);stop-color:#000000;stop-opacity:1"
+           d="m 629.51655,-680.29631 0,195.00001"
+           id="path3668"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1;marker-end:url(#TriangleOutL)"
+           d="m 629.51655,-425.2963 v 82.5"
+           id="path4094" />
+        <path
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1;marker-end:url(#TriangleOutL)"
+           d="m 629.51655,-282.7963 v 82.5"
+           id="path4096" />
+        <path
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1;marker-end:url(#TriangleOutL)"
+           d="m 629.51655,-140.29629 v 89.999998"
+           id="path4098" />
+        <text
+           xml:space="preserve"
+           style="font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-numeric:ordinal;stroke-width:0.75;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal"
+           x="637.01654"
+           y="-125.2963"
+           id="text7900"><tspan
+             sodipodi:role="line"
+             id="tspan10698">🠊 P102 has title: E35 Title</tspan><tspan
+             sodipodi:role="line"
+             id="tspan10700">🠊 P103 was intended for: E55 Type</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="425.18848"
+           y="-125.2963"
+           id="text16776"><tspan
+             sodipodi:role="line"
+             id="tspan18031">E7 Activity: P19 was intended use of 🠊</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="454.87851"
+           y="21.9154"
+           id="text16776-1"><tspan
+             sodipodi:role="line"
+             id="tspan18348"
+             x="454.87851"
+             y="21.9154">E65 Creation: P94 has created 🠊</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="428.01611"
+           y="-267.38803"
+           id="text16776-0"><tspan
+             sodipodi:role="line"
+             id="tspan18051"
+             x="428.01611"
+             y="-267.38803">E7 Activity. P16 used specific object 🠊</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18053"
+             x="428.01611"
+             y="-253.5377"> E70 Thing. P130 shows features of 🠊</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="325.69257"
+           y="-410.49286"
+           id="text16776-0-5"><tspan
+             sodipodi:role="line"
+             id="tspan18073"
+             x="325.69257"
+             y="-410.49286">E5 Event. P12 occurred in the presence of 🠊</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18075"
+             x="325.69257"
+             y="-396.64252">E63 Beginning of Existence. P92 brought into existence 🠊</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18077"
+             x="325.69257"
+             y="-382.79221">E64 End of Existence. P93 took out of existence 🠊</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="350.91125"
+           y="-664.84265"
+           id="text16776-0-5-5"><tspan
+             sodipodi:role="line"
+             id="tspan18857">E7 Activity: P15 was influenced by</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18859">E7 Activity: P17 was motivated by</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18861">E17 Type Assignment: P41 classified</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18863">E24 Physical Human-Made Thing: P62 depicts</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18865">E89 Propositional Object: P67 refers to</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18867">E31 Document: P70 documents</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18869">E32 Authority Document: P71 lists</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18871">E89 Propositional Object: P129 is about</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18873">E83 Type Creation: P136 was based on</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18875">E36 Visual Item: P138 represents</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18877">E13 Attribute Assignment: P140 assigned attribute to</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18879">E13 Attribute Assignment: P141 assigned</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="638.30933"
+           y="-267.46664"
+           id="text7900-1"><tspan
+             sodipodi:role="line"
+             id="tspan18297"
+             x="638.30933"
+             y="-267.46664">🠊 P43 has dimension: E54 Dimension</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18299"
+             x="638.30933"
+             y="-253.61632">🠊 P101 had as general use: E55 Type</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18301"
+             x="638.30933"
+             y="-239.76599">🠊 P130 shows features of: E70 Thing</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;stroke-width:0.75"
+           x="639.19385"
+           y="-665.91309"
+           id="text7900-1-1"><tspan
+             sodipodi:role="line"
+             id="tspan18269"
+             x="639.19385"
+             y="-665.91309">🠊 P1 is identified by: E41 Appellation</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18271"
+             x="639.19385"
+             y="-652.06274">🠊 P2 has type: E55 Type</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18273"
+             x="639.19385"
+             y="-638.2124">🠊 P3 has note: E62 String</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18275"
+             x="639.19385"
+             y="-624.36212">🠊 P48 has preferred identified: E42 Identifier</tspan><tspan
+             sodipodi:role="line"
+             id="tspan18277"
+             x="639.19385"
+             y="-610.51178">🠊 P137 exemplifies: E55 Type</tspan></text>
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00062994;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect18735"
+           width="300"
+           height="172.5"
+           x="344.51654"
+           y="-680.29633"
+           ry="0.15252376" />
+      </g>
+    </g>
+  </g>
+</svg>
