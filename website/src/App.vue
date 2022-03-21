@@ -12,14 +12,14 @@
 
             <div class="selectmode" :style="[mode === 0 ? focusStyle : unFocusStyle]"   @click="navigate(0)">Info</div>
             <div class="selectmode" :style="[mode === 1 ? focusStyle : unFocusStyle]"   @click="navigate(1)">Query full texts</div>
-            <div class="selectmode" :style="[mode === 2 ? focusStyle : unFocusStyle]"   @click="navigate(2)">Query semantic Web</div>
+            <!--<div class="selectmode" :style="[mode === 2 ? focusStyle : unFocusStyle]"   @click="navigate(2)">Query semantic Web</div>-->
             <div class="selectmode" :style="[mode === 3 ? focusStyle : unFocusStyle]"   @click="navigate(3)">Visualizations</div>
 
         </div>
         <div class="content">
             <Info  v-show="mode === 0" />
             <QueryText v-show="mode === 1" :properties="properties" :entities="entities" :texts="texts" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>
-            <Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>
+            <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity"/>
         </div>
     </div>
@@ -29,7 +29,7 @@
 //import HelloWorld from './components/Column.vue'
 import Info from './components/Info.vue'
 import QueryText from './components/QueryText.vue'
-import Query from './components/Query.vue'
+//import Query from './components/Query.vue'
 import Visualizations from './components/Visualizations.vue'
 
 import SemanticData from './data/webdata.json'
@@ -41,7 +41,7 @@ export default {
     components: {
         Info,
         QueryText,
-        Query,
+        //Query,
         Visualizations
     },
     data() {
@@ -144,7 +144,7 @@ export default {
         border-bottom: 3px solid #7da30b;
         height: auto;
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
         align-content: center;
 
     }

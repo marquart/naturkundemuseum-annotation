@@ -103,7 +103,8 @@ export default {
 
 
         populateData() {
-            this.constrainedClasses = this.stats.entityClasses.filter(e => e.indexOf("E53") != -1 || e.indexOf("E21") != -1);
+            //this.constrainedClasses = this.stats.entityClasses.filter(e => e.indexOf("E53") != -1 || e.indexOf("E21") != -1);
+            this.constrainedClasses = this.stats.entityClasses;
         },
 
         emitDisplayGraphOf(item_id) {

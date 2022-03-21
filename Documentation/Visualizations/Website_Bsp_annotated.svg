@@ -11,7 +11,7 @@
    version="1.1"
    id="svg5891"
    sodipodi:docname="Website_Bsp_annotated.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,15 +28,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.61453291"
-     inkscape:cx="505.26179"
-     inkscape:cy="358.8091"
+     inkscape:zoom="2.4581316"
+     inkscape:cx="980.21602"
+     inkscape:cy="615.50813"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="graph0"
+     inkscape:current-layer="node1-6"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -1050,7 +1050,10 @@
            y="-14.2"
            font-family="sans-serif"
            font-size="11px"
-           id="text7787">P128</text>
+           id="text7787"
+           style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+             sodipodi:role="line"
+             id="tspan1176">P130</tspan></text>
         <polygon
            fill="none"
            stroke="#000000"
@@ -1062,7 +1065,10 @@
            y="-14.2"
            font-family="sans-serif"
            font-size="11px"
-           id="text7791">carries</text>
+           id="text7791"
+           style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start"><tspan
+             sodipodi:role="line"
+             id="tspan1196">shows features of</tspan></text>
       </g>
       <!-- N1644 -->
       <g
@@ -1437,30 +1443,27 @@
            id="text7949">OrangUtang</text>
       </g>
       <!-- N1648&#45;&gt;N1647 -->
-      <g
-         id="edge12-7"
-         class="edge"
-         transform="translate(-219.19711,-32.793269)">
-        <title
-           id="title7952">N1648-&gt;N1647</title>
-        <path
-           fill="none"
-           stroke="#000000"
-           d="m 430.21,-458.83 c 0,0 96.89,0 96.89,0"
-           id="path7954" />
-        <polygon
-           fill="#000000"
-           stroke="#000000"
-           points="537.1,-458.83 527.1,-455.33 527.1,-462.33 "
-           id="polygon7956" />
-        <text
-           text-anchor="middle"
-           x="466.16"
-           y="-449.32999"
-           font-family="sans-serif"
-           font-size="10px"
-           id="text7958">P128</text>
-      </g>
+      <path
+         fill="none"
+         stroke="#000000"
+         d="m 211.01289,-491.62327 c 0,0 96.89,0 96.89,0"
+         id="path7954" />
+      <polygon
+         fill="#000000"
+         stroke="#000000"
+         points="527.1,-462.33 537.1,-458.83 527.1,-455.33 "
+         id="polygon7956"
+         transform="translate(-219.19711,-32.793269)" />
+      <text
+         text-anchor="middle"
+         x="246.96289"
+         y="-482.12326"
+         font-family="sans-serif"
+         font-size="10px"
+         id="text7958"
+         style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"><tspan
+           sodipodi:role="line"
+           id="tspan1156">P130</tspan></text>
       <!-- N_1929 -->
       <!-- N1929&#45;&gt;N_1929 -->
       <!-- N1646 -->

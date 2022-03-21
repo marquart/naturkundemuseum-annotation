@@ -1,10 +1,10 @@
 <template>
     <div>
         <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
-        <a href="../assets/11492.svg" target="_blank">
+        <a href="../assets/11536.svg" target="_blank">
             <img class="graph"
-                src="../assets/11492.svg"
-                alt="Neighborhood graph for Entity 11492"
+                src="../assets/11536.svg"
+                alt="Neighborhood graph for Entity 11536"
             />
         </a>
     </div>
@@ -19,7 +19,7 @@ export default {
 
   data() {
       return {
-          svg_src: "../assets/11492.svg"
+          svg_src: "../assets/11536.svg"
       }
   },
 
