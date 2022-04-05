@@ -97,6 +97,7 @@ export default {
     }
     .semanticData {
         text-align: center;
+        
     }
 
     .lcell {
@@ -124,8 +125,10 @@ export default {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 1.5em;
-        border: 0.8ex solid #7da30b77;
-        border-radius: 5px;
+        /*border: 0.8ex solid #7da30b77;*/
+        border: 1px solid #ffffff;
+        border-radius: 2px;
+        box-shadow: 6px 6px #CBCBCB;
     }
 
 

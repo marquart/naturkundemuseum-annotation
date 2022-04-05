@@ -4,18 +4,18 @@
             <template
                 v-for="(str, i) in linesBefore"
                 :key="i" >
-                <p class="linenumber">{{pageline-snippetSize+i}}</p>
-                <p>{{str}}</p>
+                <p class="textLine linenumber">{{pageline-snippetSize+i}}</p>
+                <p class="textLine">{{str}}</p>
             </template>
 
-            <p class="linenumber">{{pageline}}</p>
-            <p class="highlightLine">{{line}}</p>
+            <p class="textLine linenumber">{{pageline}}</p>
+            <p class="textLine highlightLine">{{line}}</p>
 
             <template
                 v-for="(str, i) in linesAfter"
                 :key="i" >
-                <p class="linenumber">{{pageline+i+1}}</p>
-                <p>{{str}}</p>
+                <p class="textLine linenumber">{{pageline+i+1}}</p>
+                <p class="textLine">{{str}}</p>
             </template>
         </div>
     </div>
@@ -35,7 +35,7 @@ export default {
             linesBefore: [],
             line: "",
             linesAfter: [],
-            snippetSize: 10,
+            snippetSize: 5,
 
         }
     },
@@ -44,7 +44,7 @@ export default {
         let text = this.texts[this.textidx];
 
         let beforeIdx = this.lineidx - this.snippetSize;
-        let afterIdx  = this.lineidx + this.snippetSize;
+        let afterIdx  = this.lineidx + this.snippetSize+1;
         if (beforeIdx < 0) beforeIdx = 0;
         if (afterIdx >= text.length) afterIdx = text.length-1;
             
@@ -61,7 +61,7 @@ export default {
         text-align: justify;
         padding-left: 5%;
         padding-right: 5%;
-        background: #EBEBEB;
+        /*background: #EBEBEB;*/
     }
 
     .highlightLine {
@@ -76,5 +76,10 @@ export default {
 
     .linenumber {
         font-size: small;
+    }
+
+    .textLine {
+        margin-top: 1ex;
+        margin-bottom: 1ex;
     }
 </style>
