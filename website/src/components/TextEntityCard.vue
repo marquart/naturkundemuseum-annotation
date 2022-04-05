@@ -121,14 +121,14 @@ export default {
     .card {
         display: grid;
         grid-template-columns: auto auto;
-        background: #ffffff;
+        background: #F6F6F6;
         width: 90%;
         margin-left: 5%;
         margin-bottom: 1.5em;
-        /*border: 0.8ex solid #7da30b77;*/
+        /*border: 0.8ex solid #7da30b77;
         border: 1px solid #ffffff;
         border-radius: 2px;
-        box-shadow: 6px 6px #CBCBCB;
+        box-shadow: 6px 6px #CBCBCB;*/
     }
 
 

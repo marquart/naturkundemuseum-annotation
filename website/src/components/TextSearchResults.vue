@@ -1,14 +1,21 @@
 <template>
     <div>
         <p>Found {{results.length &lt; 20 ? results.length : '>'+results.length}} Entities</p>
-        <TextEntityCard
-            @showOneEntity="showOneEntity"
-            @displayGraphOf="emitDisplayGraphOf"
-            v-for="result in results"
-            :key="result.id"
-            :entity="result"
-            :texts="texts"
-        />
+        <div 
+            class="groupResult"
+            v-for="(list,i) in groupedResults"
+            :key="i"
+        >
+            <h3>{{list[0].institution}} {{list[0].year}} ({{list.length}} mentions)</h3>
+            <TextEntityCard
+                @showOneEntity="showOneEntity"
+                @displayGraphOf="emitDisplayGraphOf"
+                v-for="result in list"
+                :key="result.id"
+                :entity="result"
+                :texts="texts"
+            />
+        </div>
     </div>
 </template>
 
@@ -26,7 +33,8 @@ export default {
     },
     data() {
         return {
-            
+            groupedResults: [],
+            groupOrdering: []
         }
     },
 
@@ -39,6 +47,27 @@ export default {
         emitDisplayGraphOf(item_id) {
             this.$emit('displayGraphOf', item_id);
         },
+        groupResults() {
+            this.groupedResults = [];
+            this.groupOrdering = [];
+            this.results.forEach(element => {
+                let group = element.txt_id;
+                let groupIdx = this.groupOrdering.indexOf(group);
+
+                if (groupIdx > -1) {
+                    this.groupedResults[groupIdx].push(element);
+                } else {
+                    this.groupedResults.push([element,]);
+                    this.groupOrdering.push(group);
+                }
+            });
+        },
+    },
+
+    watch: {
+        results() {
+            this.groupResults();
+        }
     },
 }
 </script>
@@ -47,6 +76,15 @@ export default {
 <style scoped>
     p {
         text-align: center;
+    }
+
+    .groupResult {
+        margin: 1em;
+        padding: 1em;
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 2px;
+        box-shadow: 6px 6px #CBCBCB;
     }
 
 </style>
