@@ -26,28 +26,72 @@
             ],
             "outgoing": []
         },
-        "11533": {
-            "id": "11533",
-            "type": "E74 Group",
-            "short_type": "E74",
+        "11531": {
+            "id": "11531",
+            "type": "E60 Number",
+            "short_type": "E60",
             "virtual": false,
-            "text": "Gesellschaft Naturforschender Freunde zu Berlin",
-            "lowered_text": "gesellschaft naturforschender freunde zu berlin",
-            "begin": 3225,
-            "end": 3272,
+            "text": "54 399",
+            "lowered_text": "54 399",
+            "begin": 3172,
+            "end": 3178,
             "page": 107,
-            "line": 18,
+            "line": 17,
             "txt_id": "Zoo_1928",
-            "line_idx": 60,
+            "line_idx": 59,
             "institution": "Zoologisches Institut und zoologische Sammlung",
             "year": 1928,
             "mentions": 0,
             "incoming": [
-                "12605"
+                "12604"
             ],
             "outgoing": [
-                "12606"
+                "12600"
             ]
+        },
+        "11527": {
+            "id": "11527",
+            "type": "E78 Curated Holding",
+            "short_type": "E78",
+            "virtual": false,
+            "text": "Bibliothek",
+            "lowered_text": "bibliothek",
+            "begin": 3103,
+            "end": 3113,
+            "page": 107,
+            "line": 16,
+            "txt_id": "Zoo_1928",
+            "line_idx": 58,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1928,
+            "mentions": 0,
+            "incoming": [
+                "12601"
+            ],
+            "outgoing": [
+                "12604"
+            ]
+        },
+        "11535": {
+            "id": "11535",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Reichszentrale für naturwissenschaftliche Berichterstattung",
+            "lowered_text": "reichszentrale für naturwissenschaftliche berichterstattung",
+            "begin": 3279,
+            "end": 3338,
+            "page": 107,
+            "line": 19,
+            "txt_id": "Zoo_1928",
+            "line_idx": 61,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1928,
+            "mentions": 0,
+            "incoming": [
+                "12607"
+            ],
+            "outgoing": []
         },
         "11537": {
             "id": "11537",
@@ -67,6 +111,69 @@
             "mentions": 0,
             "incoming": [
                 "12609"
+            ],
+            "outgoing": []
+        },
+        "11529": {
+            "id": "11529",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "1064",
+            "lowered_text": "1064",
+            "begin": 3138,
+            "end": 3142,
+            "page": 107,
+            "line": 16,
+            "txt_id": "Zoo_1928",
+            "line_idx": 58,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1928,
+            "mentions": 0,
+            "incoming": [
+                "12602"
+            ],
+            "outgoing": []
+        },
+        "11536": {
+            "id": "11536",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Professor Dr. Apstein",
+            "lowered_text": "professor dr. apstein",
+            "begin": 3369,
+            "end": 3390,
+            "page": 107,
+            "line": 20,
+            "txt_id": "Zoo_1928",
+            "line_idx": 62,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1928,
+            "mentions": 0,
+            "incoming": [
+                "12608"
+            ],
+            "outgoing": []
+        },
+        "11534": {
+            "id": "11534",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Berlin",
+            "lowered_text": "berlin",
+            "begin": 3266,
+            "end": 3272,
+            "page": 107,
+            "line": 18,
+            "txt_id": "Zoo_1928",
+            "line_idx": 60,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1928,
+            "mentions": 0,
+            "incoming": [
+                "12606"
             ],
             "outgoing": []
         },
@@ -96,35 +203,14 @@
                 "12609"
             ]
         },
-        "11535": {
-            "id": "11535",
+        "11533": {
+            "id": "11533",
             "type": "E74 Group",
             "short_type": "E74",
             "virtual": false,
-            "text": "Reichszentrale für naturwissenschaftliche Berichterstattung",
-            "lowered_text": "reichszentrale für naturwissenschaftliche berichterstattung",
-            "begin": 3279,
-            "end": 3338,
-            "page": 107,
-            "line": 19,
-            "txt_id": "Zoo_1928",
-            "line_idx": 61,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1928,
-            "mentions": 0,
-            "incoming": [
-                "12607"
-            ],
-            "outgoing": []
-        },
-        "11534": {
-            "id": "11534",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Berlin",
-            "lowered_text": "berlin",
-            "begin": 3266,
+            "text": "Gesellschaft Naturforschender Freunde zu Berlin",
+            "lowered_text": "gesellschaft naturforschender freunde zu berlin",
+            "begin": 3225,
             "end": 3272,
             "page": 107,
             "line": 18,
@@ -134,74 +220,11 @@
             "year": 1928,
             "mentions": 0,
             "incoming": [
-                "12606"
-            ],
-            "outgoing": []
-        },
-        "11536": {
-            "id": "11536",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Professor Dr. Apstein",
-            "lowered_text": "professor dr. apstein",
-            "begin": 3369,
-            "end": 3390,
-            "page": 107,
-            "line": 20,
-            "txt_id": "Zoo_1928",
-            "line_idx": 62,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1928,
-            "mentions": 0,
-            "incoming": [
-                "12608"
-            ],
-            "outgoing": []
-        },
-        "11527": {
-            "id": "11527",
-            "type": "E78 Curated Holding",
-            "short_type": "E78",
-            "virtual": false,
-            "text": "Bibliothek",
-            "lowered_text": "bibliothek",
-            "begin": 3103,
-            "end": 3113,
-            "page": 107,
-            "line": 16,
-            "txt_id": "Zoo_1928",
-            "line_idx": 58,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1928,
-            "mentions": 0,
-            "incoming": [
-                "12601"
+                "12605"
             ],
             "outgoing": [
-                "12604"
+                "12606"
             ]
-        },
-        "11529": {
-            "id": "11529",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "1064",
-            "lowered_text": "1064",
-            "begin": 3138,
-            "end": 3142,
-            "page": 107,
-            "line": 16,
-            "txt_id": "Zoo_1928",
-            "line_idx": 58,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1928,
-            "mentions": 0,
-            "incoming": [
-                "12602"
-            ],
-            "outgoing": []
         },
         "11530": {
             "id": "11530",
@@ -224,29 +247,6 @@
             ],
             "outgoing": [
                 "12602"
-            ]
-        },
-        "11531": {
-            "id": "11531",
-            "type": "E60 Number",
-            "short_type": "E60",
-            "virtual": false,
-            "text": "54 399",
-            "lowered_text": "54 399",
-            "begin": 3172,
-            "end": 3178,
-            "page": 107,
-            "line": 17,
-            "txt_id": "Zoo_1928",
-            "line_idx": 59,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1928,
-            "mentions": 0,
-            "incoming": [
-                "12604"
-            ],
-            "outgoing": [
-                "12600"
             ]
         }
     },

@@ -1,0 +1,229 @@
+1887, Museum für Naturkunde - Allgemeine Verwaltung:
+
+1888, Museum für Naturkunde - Allgemeine Verwaltung:
+
+1889, Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung:
+
+1889, Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung:
+
+1889, Museum für Naturkunde - Allgemeine Verwaltung:
+
+1889, Zoologisches Institut und zoologische Sammlung:
+    anchor1  : E78 Curated Holding: 'Schausammlung' (368, Zoologisches Institut und zoologische Sammlung 1889)
+    anchor2  : E78 Curated Holding: 'Mollusken und Echinodermen' (590, Zoologisches Institut und zoologische Sammlung 1889)
+    anchor3  : E52 Time-Span: '1. April 1890' (705, Zoologisches Institut und zoologische Sammlung 1889)
+
+1890, Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung:
+    anchor1  : E63 Beginning of Existence: 'Eröffnung' (789, Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung 1890)
+    anchor2  : E78 Curated Holding: 'Hauptsammlung' (820, Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung 1890)
+    anchor3  : E74 Group: 'Studenten' (881, Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung 1890)
+
+1890, Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung:
+
+1890, Museum für Naturkunde - Allgemeine Verwaltung:
+
+1890, Zoologisches Institut und zoologische Sammlung:
+    anchor1  : E96 Purchase: 'Ankauf' (1155, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor2  : E52 Time-Span: 'Sommersemester' (1175, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor3  : E52 Time-Span: 'Wintersemester' (1194, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor2-1: E21 Person: 'Dr. C. Heider' (1216, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor4  : E78 Curated Holding: 'Schausammlung' (1294, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor7  : E78 Curated Holding: 'Echinodermen' (1453, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor6  : E9 Move: 'aufgestellt' (1462, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor8  : E78 Curated Holding: 'Hauptsammlung' (1488, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor9  : E78 Curated Holding: 'Fische' (1535, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor10 : E78 Curated Holding: 'Hauptsammlung der Fische' (1539, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor11 : E78 Curated Holding: 'Insektensa' (1547, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor12 : E78 Curated Holding: 'zoologischen Sammlung' (1621, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor13 : E78 Curated Holding: 'Insektensammlung' (1692, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor14 : E78 Curated Holding: 'Molluskensammlung' (1770, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor15 : E52 Time-Span: '1. April 1891' (1810, Zoologisches Institut und zoologische Sammlung 1890)
+    anchor16 : E55 Type: 'Schlussnummer' (1811, Zoologisches Institut und zoologische Sammlung 1890)
+
+1891, Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung:
+
+1891, Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung:
+
+1891, Museum für Naturkunde - Allgemeine Verwaltung:
+
+1891, Zoologisches Institut und zoologische Sammlung:
+    anchor1  : E74 Group: 'zoologische Institut' (2375, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor2  : E78 Curated Holding: 'Zoologische Sammlung' (2570, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor3  : E78 Curated Holding: 'Schausammlung' (2656, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor4  : E8 Acquisition: 'kam' (2740, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor5  : E78 Curated Holding: 'Hauptsammlung' (2830, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor7  : E78 Curated Holding: 'Säugethiere' (2831, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor8  : E78 Curated Holding: 'zoologischen Sammlung' (2974, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor9  : E52 Time-Span: 'März 1892' (3179, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor10 : E21 Person: 'F. Karsch' (3344, Zoologisches Institut und zoologische Sammlung 1891)
+    anchor11 : E21 Person: 'W. Weltner' (3384, Zoologisches Institut und zoologische Sammlung 1891)
+
+1892, Zoologisches Institut und zoologische Sammlung:
+    anchor2  : E52 Time-Span: 'SommerHalbjahr' (3504, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor3  : E52 Time-Span: 'WinterHalbjahr' (3523, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor9  : E78 Curated Holding: 'zoologischen Sammlung' (3562, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor10 : E78 Curated Holding: 'Molluskensammlung' (3703, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor11 : E52 Time-Span: 'Ende März 1898' (3752, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor12 : E52 Time-Span: 'März 1892' (3753, Zoologisches Institut und zoologische Sammlung 1892)
+
+1893, Zoologisches Institut und zoologische Sammlung:
+    anchor9  : E78 Curated Holding: 'zoologischen Sammlung' (3870, Zoologisches Institut und zoologische Sammlung 1893)
+    anchor11 : E52 Time-Span: 'Ende März 1894' (4181, Zoologisches Institut und zoologische Sammlung 1893)
+    anchor12 : E52 Time-Span: 'März 1893' (4182, Zoologisches Institut und zoologische Sammlung 1893)
+
+1894, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'zoologischen Sammlung' (4314, Zoologisches Institut und zoologische Sammlung 1894)
+    anchor12 : E78 Curated Holding: 'Konchyliensammlung' (4637, Zoologisches Institut und zoologische Sammlung 1894)
+    anchor13 : E52 Time-Span: 'Ende März 1895' (4791, Zoologisches Institut und zoologische Sammlung 1894)
+    anchor14 : E52 Time-Span: 'März 1894' (4792, Zoologisches Institut und zoologische Sammlung 1894)
+
+1895, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'zoologischen Sammlung' (4915, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (4916, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor12 : E78 Curated Holding: 'Vögel' (5007, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor13 : E78 Curated Holding: 'Reptilien und Amphibien' (5059, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor14 : E78 Curated Holding: 'Fische' (5071, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor15 : E78 Curated Holding: 'Insekten' (5132, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor16 : E8 Acquisition: 'Geschenk' (5358, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor17 : E78 Curated Holding: 'Mollusken' (5426, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor18 : E78 Curated Holding: 'Echinodermen' (5628, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor19 : E52 Time-Span: 'Ende März' (5719, Zoologisches Institut und zoologische Sammlung 1895)
+    anchor20 : E52 Time-Span: '1894/95' (5720, Zoologisches Institut und zoologische Sammlung 1895)
+
+1896, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abtheilungen' (5844, Zoologisches Institut und zoologische Sammlung 1896)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (5845, Zoologisches Institut und zoologische Sammlung 1896)
+    anchor13 : E78 Curated Holding: 'Vögel' (5998, Zoologisches Institut und zoologische Sammlung 1896)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (6101, Zoologisches Institut und zoologische Sammlung 1896)
+
+1897, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abtheilungen' (6173, Zoologisches Institut und zoologische Sammlung 1897)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (6174, Zoologisches Institut und zoologische Sammlung 1897)
+    anchor12 : E78 Curated Holding: 'Vögel' (6355, Zoologisches Institut und zoologische Sammlung 1897)
+    anchor13 : E8 Acquisition: 'Geschenke' (6404, Zoologisches Institut und zoologische Sammlung 1897)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (6440, Zoologisches Institut und zoologische Sammlung 1897)
+    anchor15 : E78 Curated Holding: 'Fische' (6545, Zoologisches Institut und zoologische Sammlung 1897)
+
+1898, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abtheilungen' (6547, Zoologisches Institut und zoologische Sammlung 1898)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (6548, Zoologisches Institut und zoologische Sammlung 1898)
+    anchor12 : E78 Curated Holding: 'Vögel' (6740, Zoologisches Institut und zoologische Sammlung 1898)
+    anchor13 : E78 Curated Holding: 'Reptilien und Amphibien' (6834, Zoologisches Institut und zoologische Sammlung 1898)
+    anchor14 : E78 Curated Holding: 'Fische' (6924, Zoologisches Institut und zoologische Sammlung 1898)
+
+1899, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Sammlung' (6926, Zoologisches Institut und zoologische Sammlung 1899)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (6927, Zoologisches Institut und zoologische Sammlung 1899)
+    anchor12 : E78 Curated Holding: 'Vogelsammlung' (7139, Zoologisches Institut und zoologische Sammlung 1899)
+    anchor13 : E78 Curated Holding: 'Kriechthiere' (7230, Zoologisches Institut und zoologische Sammlung 1899)
+    anchor14 : E78 Curated Holding: 'Fische' (7323, Zoologisches Institut und zoologische Sammlung 1899)
+
+1900, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abtheilungen' (7325, Zoologisches Institut und zoologische Sammlung 1900)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (7326, Zoologisches Institut und zoologische Sammlung 1900)
+    anchor12 : E78 Curated Holding: 'Vögel' (7474, Zoologisches Institut und zoologische Sammlung 1900)
+    anchor13 : E8 Acquisition: 'Geschenke' (7482, Zoologisches Institut und zoologische Sammlung 1900)
+    anchor14 : E8 Acquisition: 'lieferten' (7498, Zoologisches Institut und zoologische Sammlung 1900)
+    anchor15 : E78 Curated Holding: 'Kriechthiere' (7523, Zoologisches Institut und zoologische Sammlung 1900)
+    anchor16 : E78 Curated Holding: 'Fische' (7595, Zoologisches Institut und zoologische Sammlung 1900)
+
+1901, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abtheilungen' (7605, Zoologisches Institut und zoologische Sammlung 1901)
+    anchor11 : E78 Curated Holding: 'Säugethiere' (7606, Zoologisches Institut und zoologische Sammlung 1901)
+    anchor12 : E78 Curated Holding: 'Vögel' (7775, Zoologisches Institut und zoologische Sammlung 1901)
+    anchor13 : E8 Acquisition: 'Geschenke' (7791, Zoologisches Institut und zoologische Sammlung 1901)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (7842, Zoologisches Institut und zoologische Sammlung 1901)
+    anchor15 : E78 Curated Holding: 'Fische' (7908, Zoologisches Institut und zoologische Sammlung 1901)
+
+1902, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (7910, Zoologisches Institut und zoologische Sammlung 1902)
+    anchor11 : E78 Curated Holding: 'Säugetiere' (7911, Zoologisches Institut und zoologische Sammlung 1902)
+    anchor12 : E78 Curated Holding: 'Vogelsammlung' (8029, Zoologisches Institut und zoologische Sammlung 1902)
+    anchor13 : E8 Acquisition: 'Geschenke' (8034, Zoologisches Institut und zoologische Sammlung 1902)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (8086, Zoologisches Institut und zoologische Sammlung 1902)
+    anchor15 : E78 Curated Holding: 'Fische' (8165, Zoologisches Institut und zoologische Sammlung 1902)
+
+1903, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (8167, Zoologisches Institut und zoologische Sammlung 1903)
+    anchor11 : E78 Curated Holding: 'Säugetiere' (8168, Zoologisches Institut und zoologische Sammlung 1903)
+    anchor12 : E78 Curated Holding: 'Vogelsammlung' (8295, Zoologisches Institut und zoologische Sammlung 1903)
+    anchor13 : E78 Curated Holding: 'Reptilien und Amphibien' (8367, Zoologisches Institut und zoologische Sammlung 1903)
+    anchor14 : E78 Curated Holding: 'Fische' (8445, Zoologisches Institut und zoologische Sammlung 1903)
+
+1904, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (8447, Zoologisches Institut und zoologische Sammlung 1904)
+    anchor11 : E78 Curated Holding: 'Säugetiere' (8448, Zoologisches Institut und zoologische Sammlung 1904)
+    anchor12 : E78 Curated Holding: 'Vogelsammlung' (8559, Zoologisches Institut und zoologische Sammlung 1904)
+    anchor13 : E78 Curated Holding: 'Reptilien und Amphibien' (8644, Zoologisches Institut und zoologische Sammlung 1904)
+    anchor14 : E78 Curated Holding: 'Fische' (8782, Zoologisches Institut und zoologische Sammlung 1904)
+
+1905, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (8785, Zoologisches Institut und zoologische Sammlung 1905)
+    anchor11 : E78 Curated Holding: 'Säugetiersammlung' (8786, Zoologisches Institut und zoologische Sammlung 1905)
+    anchor12 : E78 Curated Holding: 'Vogelsammlung' (8933, Zoologisches Institut und zoologische Sammlung 1905)
+    anchor13 : E78 Curated Holding: 'Reptilien und Amphibien' (9052, Zoologisches Institut und zoologische Sammlung 1905)
+    anchor14 : E78 Curated Holding: 'Fische' (9147, Zoologisches Institut und zoologische Sammlung 1905)
+
+1906, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (9150, Zoologisches Institut und zoologische Sammlung 1906)
+    anchor11 : E78 Curated Holding: 'Säugetiere' (9178, Zoologisches Institut und zoologische Sammlung 1906)
+    anchor12 : E78 Curated Holding: 'Vogelsammlung' (9432, Zoologisches Institut und zoologische Sammlung 1906)
+    anchor13 : E8 Acquisition: 'Geschenke' (9442, Zoologisches Institut und zoologische Sammlung 1906)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (9507, Zoologisches Institut und zoologische Sammlung 1906)
+    anchor15 : E78 Curated Holding: 'Ichthyologische Objekte' (9620, Zoologisches Institut und zoologische Sammlung 1906)
+
+1907, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (9623, Zoologisches Institut und zoologische Sammlung 1907)
+    anchor11 : E78 Curated Holding: 'Säugetiere' (9651, Zoologisches Institut und zoologische Sammlung 1907)
+    anchor12 : E78 Curated Holding: 'Vögel' (9913, Zoologisches Institut und zoologische Sammlung 1907)
+    anchor13 : E8 Acquisition: 'Geschenke' (10006, Zoologisches Institut und zoologische Sammlung 1907)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (10067, Zoologisches Institut und zoologische Sammlung 1907)
+    anchor15 : E78 Curated Holding: 'Fische' (10203, Zoologisches Institut und zoologische Sammlung 1907)
+
+1908, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (10206, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor9  : E78 Curated Holding: 'großen Sammlungen' (10208, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor11 : E78 Curated Holding: 'Säugetiere' (10269, Zoologisches Institut und zoologische Sammlung 1908)
+
+1909, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (10416, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor11 : E78 Curated Holding: 'Mammalia' (10417, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor11-1: E8 Acquisition: '(implicit) Unknown' (10518, Zoologisches Institut und zoologische Sammlung 1909)
+
+1910, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (10631, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor11 : E78 Curated Holding: 'Mammalia' (10632, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor12 : E8 Acquisition: 'Geschenk' (10689, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor13 : E8 Acquisition: '(implicit) Unknown' (10733, Zoologisches Institut und zoologische Sammlung 1910)
+
+1911, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilung' (10852, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor11 : E78 Curated Holding: 'Mammalia' (10853, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor12 : E8 Acquisition: 'Geschenk' (10924, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor13 : E8 Acquisition: 'Geschenk' (10984, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor14 : E8 Acquisition: 'Geschenk' (11011, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor15 : E8 Acquisition: 'erhielt' (11070, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor16 : E8 Acquisition: 'Geschenk' (11092, Zoologisches Institut und zoologische Sammlung 1911)
+
+1912, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Abteilungen' (11152, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor11 : E78 Curated Holding: 'Mammalia' (11153, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor12 : E8 Acquisition: 'Geschenk' (11188, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor13 : E8 Acquisition: 'zugewendet' (11235, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor14 : E8 Acquisition: 'überwies' (11265, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor15 : E8 Acquisition: 'erhielt' (11310, Zoologisches Institut und zoologische Sammlung 1912)
+
+1913, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Sammlungen' (11385, Zoologisches Institut und zoologische Sammlung 1913)
+
+1914, Zoologisches Institut und zoologische Sammlung:
+    anchor10 : E78 Curated Holding: 'Hauptsammlung' (11464, Zoologisches Institut und zoologische Sammlung 1914)
+
+1915, Zoologisches Institut und zoologische Sammlung:
+
+1928, Zoologisches Institut und zoologische Sammlung:
+
+1929, Zoologisches Institut und zoologische Sammlung:
+
+1938, Zoologisches Institut und zoologische Sammlung:
+

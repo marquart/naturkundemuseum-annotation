@@ -475,6 +475,27 @@
                 "978"
             ]
         },
+        "1009": {
+            "id": "1009",
+            "type": "E28 Conceptual Object",
+            "short_type": "E28",
+            "virtual": false,
+            "text": "Meteoriten",
+            "lowered_text": "meteoriten",
+            "begin": 6635,
+            "end": 6645,
+            "page": 125,
+            "line": 10,
+            "txt_id": "Min_1890",
+            "line_idx": 137,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "978"
+            ],
+            "outgoing": []
+        },
         "893": {
             "id": "893",
             "type": "E41 Appellation",
@@ -499,26 +520,28 @@
                 "872"
             ]
         },
-        "1009": {
-            "id": "1009",
-            "type": "E28 Conceptual Object",
-            "short_type": "E28",
+        "1010": {
+            "id": "1010",
+            "type": "E8 Acquisition",
+            "short_type": "E8",
             "virtual": false,
-            "text": "Meteoriten",
-            "lowered_text": "meteoriten",
-            "begin": 6635,
-            "end": 6645,
+            "text": "Geschenk",
+            "lowered_text": "geschenk",
+            "begin": 6861,
+            "end": 6869,
             "page": 125,
-            "line": 10,
+            "line": 14,
             "txt_id": "Min_1890",
-            "line_idx": 137,
+            "line_idx": 141,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [
-                "978"
-            ],
-            "outgoing": []
+            "incoming": [],
+            "outgoing": [
+                "979",
+                "980",
+                "1022"
+            ]
         },
         "896": {
             "id": "896",
@@ -541,29 +564,6 @@
             ],
             "outgoing": [
                 "914"
-            ]
-        },
-        "1010": {
-            "id": "1010",
-            "type": "E8 Acquisition",
-            "short_type": "E8",
-            "virtual": false,
-            "text": "Geschenk",
-            "lowered_text": "geschenk",
-            "begin": 6861,
-            "end": 6869,
-            "page": 125,
-            "line": 14,
-            "txt_id": "Min_1890",
-            "line_idx": 141,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "979",
-                "980",
-                "1022"
             ]
         },
         "1011": {
@@ -766,27 +766,6 @@
             ],
             "outgoing": []
         },
-        "892": {
-            "id": "892",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Institut",
-            "lowered_text": "institut",
-            "begin": 1819,
-            "end": 1827,
-            "page": 122,
-            "line": 35,
-            "txt_id": "Min_1890",
-            "line_idx": 36,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "913"
-            ],
-            "outgoing": []
-        },
         "1020": {
             "id": "1020",
             "type": "E21 Person",
@@ -805,6 +784,27 @@
             "mentions": 0,
             "incoming": [
                 "990"
+            ],
+            "outgoing": []
+        },
+        "892": {
+            "id": "892",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Institut",
+            "lowered_text": "institut",
+            "begin": 1819,
+            "end": 1827,
+            "page": 122,
+            "line": 35,
+            "txt_id": "Min_1890",
+            "line_idx": 36,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "913"
             ],
             "outgoing": []
         },
@@ -881,6 +881,27 @@
             ],
             "outgoing": []
         },
+        "1024": {
+            "id": "1024",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Gegend von Chemnitz",
+            "lowered_text": "gegend von chemnitz",
+            "begin": 7129,
+            "end": 7148,
+            "page": 125,
+            "line": 18,
+            "txt_id": "Min_1890",
+            "line_idx": 145,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "993"
+            ],
+            "outgoing": []
+        },
         "894": {
             "id": "894",
             "type": "E55 Type",
@@ -905,27 +926,6 @@
             ],
             "outgoing": []
         },
-        "1024": {
-            "id": "1024",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Gegend von Chemnitz",
-            "lowered_text": "gegend von chemnitz",
-            "begin": 7129,
-            "end": 7148,
-            "page": 125,
-            "line": 18,
-            "txt_id": "Min_1890",
-            "line_idx": 145,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "993"
-            ],
-            "outgoing": []
-        },
         "1025": {
             "id": "1025",
             "type": "E53 Place",
@@ -944,6 +944,27 @@
             "mentions": 0,
             "incoming": [
                 "994"
+            ],
+            "outgoing": []
+        },
+        "1026": {
+            "id": "1026",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Euganeen",
+            "lowered_text": "euganeen",
+            "begin": 7167,
+            "end": 7175,
+            "page": 125,
+            "line": 19,
+            "txt_id": "Min_1890",
+            "line_idx": 146,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "995"
             ],
             "outgoing": []
         },
@@ -970,27 +991,6 @@
             ],
             "outgoing": []
         },
-        "1026": {
-            "id": "1026",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Euganeen",
-            "lowered_text": "euganeen",
-            "begin": 7167,
-            "end": 7175,
-            "page": 125,
-            "line": 19,
-            "txt_id": "Min_1890",
-            "line_idx": 146,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "995"
-            ],
-            "outgoing": []
-        },
         "1027": {
             "id": "1027",
             "type": "E74 Group",
@@ -1010,29 +1010,6 @@
             "incoming": [],
             "outgoing": [
                 "998"
-            ]
-        },
-        "897": {
-            "id": "897",
-            "type": "E29 Design or Procedure",
-            "short_type": "E29",
-            "virtual": false,
-            "text": "beaufsichtigt",
-            "lowered_text": "beaufsichtigt",
-            "begin": 1871,
-            "end": 1885,
-            "page": 122,
-            "line": 35,
-            "txt_id": "Min_1890",
-            "line_idx": 36,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "873",
-                "913",
-                "915"
             ]
         },
         "1028": {
@@ -1057,27 +1034,27 @@
             ],
             "outgoing": []
         },
-        "899": {
-            "id": "899",
-            "type": "E7 Activity",
-            "short_type": "E7",
+        "897": {
+            "id": "897",
+            "type": "E29 Design or Procedure",
+            "short_type": "E29",
             "virtual": false,
-            "text": "Arbeitsplätze",
-            "lowered_text": "arbeitsplätze",
-            "begin": 2030,
-            "end": 2043,
+            "text": "beaufsichtigt",
+            "lowered_text": "beaufsichtigt",
+            "begin": 1871,
+            "end": 1885,
             "page": 122,
-            "line": 38,
+            "line": 35,
             "txt_id": "Min_1890",
-            "line_idx": 39,
+            "line_idx": 36,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
             "incoming": [],
             "outgoing": [
-                "874",
-                "917",
-                "919"
+                "873",
+                "913",
+                "915"
             ]
         },
         "1029": {
@@ -1104,26 +1081,28 @@
                 "1024"
             ]
         },
-        "898": {
-            "id": "898",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Task",
-            "lowered_text": "task",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
+        "899": {
+            "id": "899",
+            "type": "E7 Activity",
+            "short_type": "E7",
+            "virtual": false,
+            "text": "Arbeitsplätze",
+            "lowered_text": "arbeitsplätze",
+            "begin": 2030,
+            "end": 2043,
+            "page": 122,
+            "line": 38,
             "txt_id": "Min_1890",
-            "line_idx": 0,
+            "line_idx": 39,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [
-                "873"
-            ],
-            "outgoing": []
+            "incoming": [],
+            "outgoing": [
+                "874",
+                "917",
+                "919"
+            ]
         },
         "1030": {
             "id": "1030",
@@ -1149,6 +1128,27 @@
                 "1001"
             ]
         },
+        "898": {
+            "id": "898",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Task",
+            "lowered_text": "task",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "txt_id": "Min_1890",
+            "line_idx": 0,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "873"
+            ],
+            "outgoing": []
+        },
         "1031": {
             "id": "1031",
             "type": "E19 Physical Object",
@@ -1171,27 +1171,6 @@
             "outgoing": [
                 "997"
             ]
-        },
-        "901": {
-            "id": "901",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "acht",
-            "lowered_text": "acht",
-            "begin": 2055,
-            "end": 2059,
-            "page": 122,
-            "line": 38,
-            "txt_id": "Min_1890",
-            "line_idx": 39,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "916"
-            ],
-            "outgoing": []
         },
         "1032": {
             "id": "1032",
@@ -1216,27 +1195,24 @@
                 "996"
             ]
         },
-        "900": {
-            "id": "900",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Extern Usage",
-            "lowered_text": "extern usage",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
+        "901": {
+            "id": "901",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "acht",
+            "lowered_text": "acht",
+            "begin": 2055,
+            "end": 2059,
+            "page": 122,
+            "line": 38,
             "txt_id": "Min_1890",
-            "line_idx": 0,
+            "line_idx": 39,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
-            "mentions": 3,
+            "mentions": 0,
             "incoming": [
-                "874",
-                "875",
-                "880",
-                "881"
+                "916"
             ],
             "outgoing": []
         },
@@ -1258,6 +1234,30 @@
             "mentions": 0,
             "incoming": [
                 "1002"
+            ],
+            "outgoing": []
+        },
+        "900": {
+            "id": "900",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Extern Usage",
+            "lowered_text": "extern usage",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "txt_id": "Min_1890",
+            "line_idx": 0,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 3,
+            "incoming": [
+                "874",
+                "875",
+                "880",
+                "881"
             ],
             "outgoing": []
         },
@@ -1284,29 +1284,6 @@
                 "1025"
             ]
         },
-        "902": {
-            "id": "902",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Anfänger",
-            "lowered_text": "anfänger",
-            "begin": 2106,
-            "end": 2114,
-            "page": 123,
-            "line": 2,
-            "txt_id": "Min_1890",
-            "line_idx": 45,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "917"
-            ],
-            "outgoing": [
-                "916"
-            ]
-        },
         "1035": {
             "id": "1035",
             "type": "E19 Physical Object",
@@ -1330,6 +1307,50 @@
                 "1004"
             ]
         },
+        "902": {
+            "id": "902",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Anfänger",
+            "lowered_text": "anfänger",
+            "begin": 2106,
+            "end": 2114,
+            "page": 123,
+            "line": 2,
+            "txt_id": "Min_1890",
+            "line_idx": 45,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "917"
+            ],
+            "outgoing": [
+                "916"
+            ]
+        },
+        "1036": {
+            "id": "1036",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Odenwald",
+            "lowered_text": "odenwald",
+            "begin": 7367,
+            "end": 7375,
+            "page": 125,
+            "line": 22,
+            "txt_id": "Min_1890",
+            "line_idx": 149,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1004"
+            ],
+            "outgoing": []
+        },
         "903": {
             "id": "903",
             "type": "E54 Dimension",
@@ -1351,15 +1372,15 @@
             ],
             "outgoing": []
         },
-        "1036": {
-            "id": "1036",
-            "type": "E53 Place",
-            "short_type": "E53",
+        "1037": {
+            "id": "1037",
+            "type": "E21 Person",
+            "short_type": "E21",
             "virtual": false,
-            "text": "Odenwald",
-            "lowered_text": "odenwald",
-            "begin": 7367,
-            "end": 7375,
+            "text": "Dr. Hans Meyer",
+            "lowered_text": "dr. hans meyer",
+            "begin": 7384,
+            "end": 7398,
             "page": 125,
             "line": 22,
             "txt_id": "Min_1890",
@@ -1368,7 +1389,7 @@
             "year": 1890,
             "mentions": 0,
             "incoming": [
-                "1004"
+                "1005"
             ],
             "outgoing": []
         },
@@ -1395,26 +1416,28 @@
                 "918"
             ]
         },
-        "1037": {
-            "id": "1037",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Dr. Hans Meyer",
-            "lowered_text": "dr. hans meyer",
-            "begin": 7384,
-            "end": 7398,
+        "1038": {
+            "id": "1038",
+            "type": "E8 Acquisition",
+            "short_type": "E8",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 125,
-            "line": 22,
+            "line": 23,
             "txt_id": "Min_1890",
-            "line_idx": 149,
+            "line_idx": 150,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [
-                "1005"
-            ],
-            "outgoing": []
+            "incoming": [],
+            "outgoing": [
+                "1005",
+                "1006",
+                "1026"
+            ]
         },
         "905": {
             "id": "905",
@@ -1439,10 +1462,10 @@
                 "921"
             ]
         },
-        "1038": {
-            "id": "1038",
-            "type": "E8 Acquisition",
-            "short_type": "E8",
+        "1039": {
+            "id": "1039",
+            "type": "E19 Physical Object",
+            "short_type": "E19",
             "virtual": true,
             "text": "(implicit) Unknown",
             "lowered_text": "(implicit) unknown",
@@ -1455,11 +1478,11 @@
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [],
+            "incoming": [
+                "1006"
+            ],
             "outgoing": [
-                "1005",
-                "1006",
-                "1026"
+                "1007"
             ]
         },
         "907": {
@@ -1486,15 +1509,15 @@
                 "927"
             ]
         },
-        "1039": {
-            "id": "1039",
-            "type": "E19 Physical Object",
-            "short_type": "E19",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
+        "1040": {
+            "id": "1040",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Kilimandscharo",
+            "lowered_text": "kilimandscharo",
+            "begin": 7417,
+            "end": 7431,
             "page": 125,
             "line": 23,
             "txt_id": "Min_1890",
@@ -1503,11 +1526,9 @@
             "year": 1890,
             "mentions": 0,
             "incoming": [
-                "1006"
-            ],
-            "outgoing": [
                 "1007"
-            ]
+            ],
+            "outgoing": []
         },
         "1060": {
             "id": "1060",
@@ -1538,27 +1559,6 @@
             ],
             "outgoing": []
         },
-        "1040": {
-            "id": "1040",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Kilimandscharo",
-            "lowered_text": "kilimandscharo",
-            "begin": 7417,
-            "end": 7431,
-            "page": 125,
-            "line": 23,
-            "txt_id": "Min_1890",
-            "line_idx": 150,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1007"
-            ],
-            "outgoing": []
-        },
         "1041": {
             "id": "1041",
             "type": "E21 Person",
@@ -1579,6 +1579,30 @@
                 "1008"
             ],
             "outgoing": []
+        },
+        "1042": {
+            "id": "1042",
+            "type": "E19 Physical Object",
+            "short_type": "E19",
+            "virtual": false,
+            "text": "Gesteine",
+            "lowered_text": "gesteine",
+            "begin": 7455,
+            "end": 7463,
+            "page": 125,
+            "line": 23,
+            "txt_id": "Min_1890",
+            "line_idx": 150,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1009"
+            ],
+            "outgoing": [
+                "1010",
+                "1011"
+            ]
         },
         "908": {
             "id": "908",
@@ -1605,28 +1629,27 @@
                 "925"
             ]
         },
-        "1042": {
-            "id": "1042",
-            "type": "E19 Physical Object",
-            "short_type": "E19",
-            "virtual": false,
-            "text": "Gesteine",
-            "lowered_text": "gesteine",
-            "begin": 7455,
-            "end": 7463,
+        "1043": {
+            "id": "1043",
+            "type": "E8 Acquisition",
+            "short_type": "E8",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 125,
-            "line": 23,
+            "line": 24,
             "txt_id": "Min_1890",
-            "line_idx": 150,
+            "line_idx": 151,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [
-                "1009"
-            ],
+            "incoming": [],
             "outgoing": [
-                "1010",
-                "1011"
+                "1008",
+                "1009",
+                "1027"
             ]
         },
         "909": {
@@ -1651,15 +1674,15 @@
             ],
             "outgoing": []
         },
-        "1043": {
-            "id": "1043",
-            "type": "E8 Acquisition",
-            "short_type": "E8",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
+        "1044": {
+            "id": "1044",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Reinhardswald",
+            "lowered_text": "reinhardswald",
+            "begin": 7469,
+            "end": 7482,
             "page": 125,
             "line": 24,
             "txt_id": "Min_1890",
@@ -1667,12 +1690,10 @@
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "1008",
-                "1009",
-                "1027"
-            ]
+            "incoming": [
+                "1010"
+            ],
+            "outgoing": []
         },
         "910": {
             "id": "910",
@@ -1695,48 +1716,6 @@
             ],
             "outgoing": []
         },
-        "1044": {
-            "id": "1044",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Reinhardswald",
-            "lowered_text": "reinhardswald",
-            "begin": 7469,
-            "end": 7482,
-            "page": 125,
-            "line": 24,
-            "txt_id": "Min_1890",
-            "line_idx": 151,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1010"
-            ],
-            "outgoing": []
-        },
-        "911": {
-            "id": "911",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Argentina",
-            "lowered_text": "argentina",
-            "begin": 2469,
-            "end": 2479,
-            "page": 123,
-            "line": 8,
-            "txt_id": "Min_1890",
-            "line_idx": 51,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "925"
-            ],
-            "outgoing": []
-        },
         "1045": {
             "id": "1045",
             "type": "E53 Place",
@@ -1755,6 +1734,48 @@
             "mentions": 0,
             "incoming": [
                 "1011"
+            ],
+            "outgoing": []
+        },
+        "911": {
+            "id": "911",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Argentina",
+            "lowered_text": "argentina",
+            "begin": 2469,
+            "end": 2479,
+            "page": 123,
+            "line": 8,
+            "txt_id": "Min_1890",
+            "line_idx": 52,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "925"
+            ],
+            "outgoing": []
+        },
+        "1046": {
+            "id": "1046",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Romberg",
+            "lowered_text": "romberg",
+            "begin": 7514,
+            "end": 7521,
+            "page": 125,
+            "line": 24,
+            "txt_id": "Min_1890",
+            "line_idx": 151,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1012"
             ],
             "outgoing": []
         },
@@ -1781,15 +1802,15 @@
                 "1028"
             ]
         },
-        "1046": {
-            "id": "1046",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Romberg",
-            "lowered_text": "romberg",
-            "begin": 7514,
-            "end": 7521,
+        "1047": {
+            "id": "1047",
+            "type": "E8 Acquisition",
+            "short_type": "E8",
+            "virtual": true,
+            "text": "(implicit) Unknown",
+            "lowered_text": "(implicit) unknown",
+            "begin": null,
+            "end": null,
             "page": 125,
             "line": 24,
             "txt_id": "Min_1890",
@@ -1797,10 +1818,12 @@
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [
-                "1012"
-            ],
-            "outgoing": []
+            "incoming": [],
+            "outgoing": [
+                "1012",
+                "1013",
+                "1029"
+            ]
         },
         "913": {
             "id": "913",
@@ -1826,27 +1849,27 @@
                 "929"
             ]
         },
-        "1047": {
-            "id": "1047",
-            "type": "E8 Acquisition",
-            "short_type": "E8",
-            "virtual": true,
-            "text": "(implicit) Unknown",
-            "lowered_text": "(implicit) unknown",
-            "begin": null,
-            "end": null,
+        "1048": {
+            "id": "1048",
+            "type": "E19 Physical Object",
+            "short_type": "E19",
+            "virtual": false,
+            "text": "Suite",
+            "lowered_text": "suite",
+            "begin": 7534,
+            "end": 7539,
             "page": 125,
-            "line": 24,
+            "line": 25,
             "txt_id": "Min_1890",
-            "line_idx": 151,
+            "line_idx": 152,
             "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
             "year": 1890,
             "mentions": 0,
-            "incoming": [],
+            "incoming": [
+                "1013"
+            ],
             "outgoing": [
-                "1012",
-                "1013",
-                "1029"
+                "1015"
             ]
         },
         "915": {
@@ -1873,15 +1896,15 @@
                 "930"
             ]
         },
-        "1048": {
-            "id": "1048",
-            "type": "E19 Physical Object",
-            "short_type": "E19",
+        "1049": {
+            "id": "1049",
+            "type": "E53 Place",
+            "short_type": "E53",
             "virtual": false,
-            "text": "Suite",
-            "lowered_text": "suite",
-            "begin": 7534,
-            "end": 7539,
+            "text": "Tirol",
+            "lowered_text": "tirol",
+            "begin": 7540,
+            "end": 7545,
             "page": 125,
             "line": 25,
             "txt_id": "Min_1890",
@@ -1890,11 +1913,9 @@
             "year": 1890,
             "mentions": 0,
             "incoming": [
-                "1013"
+                "1014"
             ],
-            "outgoing": [
-                "1015"
-            ]
+            "outgoing": []
         },
         "914": {
             "id": "914",
@@ -1923,27 +1944,6 @@
                 "899",
                 "902",
                 "904"
-            ],
-            "outgoing": []
-        },
-        "1049": {
-            "id": "1049",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Tirol",
-            "lowered_text": "tirol",
-            "begin": 7540,
-            "end": 7545,
-            "page": 125,
-            "line": 25,
-            "txt_id": "Min_1890",
-            "line_idx": 152,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1014"
             ],
             "outgoing": []
         },
@@ -2040,6 +2040,27 @@
                 "1021"
             ]
         },
+        "1054": {
+            "id": "1054",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Peru",
+            "lowered_text": "peru",
+            "begin": 7660,
+            "end": 7664,
+            "page": 125,
+            "line": 27,
+            "txt_id": "Min_1890",
+            "line_idx": 154,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1019"
+            ],
+            "outgoing": []
+        },
         "919": {
             "id": "919",
             "type": "E35 Title",
@@ -2065,15 +2086,15 @@
                 "879"
             ]
         },
-        "1054": {
-            "id": "1054",
+        "1055": {
+            "id": "1055",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
-            "text": "Peru",
-            "lowered_text": "peru",
-            "begin": 7660,
-            "end": 7664,
+            "text": "Bolivia",
+            "lowered_text": "bolivia",
+            "begin": 7666,
+            "end": 7673,
             "page": 125,
             "line": 27,
             "txt_id": "Min_1890",
@@ -2082,7 +2103,7 @@
             "year": 1890,
             "mentions": 0,
             "incoming": [
-                "1019"
+                "1020"
             ],
             "outgoing": []
         },
@@ -2124,27 +2145,6 @@
             ],
             "outgoing": []
         },
-        "1055": {
-            "id": "1055",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Bolivia",
-            "lowered_text": "bolivia",
-            "begin": 7666,
-            "end": 7673,
-            "page": 125,
-            "line": 27,
-            "txt_id": "Min_1890",
-            "line_idx": 154,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1020"
-            ],
-            "outgoing": []
-        },
         "1056": {
             "id": "1056",
             "type": "E53 Place",
@@ -2165,29 +2165,6 @@
                 "1021"
             ],
             "outgoing": []
-        },
-        "921": {
-            "id": "921",
-            "type": "E7 Activity",
-            "short_type": "E7",
-            "virtual": false,
-            "text": "Untersuchungen",
-            "lowered_text": "untersuchungen",
-            "begin": 2995,
-            "end": 3009,
-            "page": 123,
-            "line": 18,
-            "txt_id": "Min_1890",
-            "line_idx": 61,
-            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "880",
-                "931",
-                "932"
-            ]
         },
         "1057": {
             "id": "1057",
@@ -2210,6 +2187,29 @@
                 "1017",
                 "1018",
                 "1030"
+            ]
+        },
+        "921": {
+            "id": "921",
+            "type": "E7 Activity",
+            "short_type": "E7",
+            "virtual": false,
+            "text": "Untersuchungen",
+            "lowered_text": "untersuchungen",
+            "begin": 2995,
+            "end": 3009,
+            "page": 123,
+            "line": 18,
+            "txt_id": "Min_1890",
+            "line_idx": 61,
+            "institution": "Mineralogisch-petrographisches Institut und mineralogisch-petrographische Sammlung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "880",
+                "931",
+                "932"
             ]
         },
         "923": {

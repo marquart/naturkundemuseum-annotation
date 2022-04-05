@@ -7,10 +7,11 @@ import pickle
 from bs4 import BeautifulSoup
 from bs4.element import Tag as BS4_TAG
 
+
 class SemanticData(object):
     def __init__(self, filepath, load=True):
         if load: self.data = self.load_pickle(filepath)
-        else: self.data = stats_directory(filepath, save=False, consolidate=False)
+        else: self.data = process_directory(filepath, save=False, consolidate=False)
         
         self.entities = list(chain.from_iterable(file["Entities"].values() for file in self.data))
         self.properties = list(chain.from_iterable(file["Properties"].values() for file in self.data))
@@ -20,10 +21,11 @@ class SemanticData(object):
             data = pickle.load(f)
         return data
 
+
 class Anchors(object):
     def __init__(self):
-        self.objs         = {} # string:Entity
-        self.properties   = defaultdict(list) #string:[(property, target)]
+        self.objs         = {} # anchor_string:Entity
+        self.properties   = defaultdict(list) #anchor_string:[(property_string, target_entity)]     
 
 
 class OCRCorrection(object):
@@ -39,7 +41,7 @@ class OCRCorrection(object):
         else:
             self.corrected_string = tag["CorrectedString"]
             self.original_string  = text[self.begin:self.end]
-    
+
 
 class Corrector(object):
     def __init__(self, tags, text):
@@ -59,6 +61,7 @@ class Corrector(object):
         if not self.corrections:
             self.set_pagenumbers()
             self.set_linenumbers()
+            self.delete_meaningless_lines()
             return self.text
         new_text = []
         cursor   = 0
@@ -154,7 +157,7 @@ class Corrector(object):
         return -1
         
     def get_lineidx(self, index):
-        cursor = index
+        cursor = index+1
         if self.lineidx_from_orig:
             while 0 <= cursor:
                 if cursor in self.lineidx_from_orig: return self.lineidx_from_orig[cursor]
@@ -169,8 +172,7 @@ class Corrector(object):
                     assert self.offsets[cursor] + index < len(self.text)
                     return self.offsets[cursor] + index
                 cursor -= 1
-        return index
-            
+        return index       
 
 
 class SemanticEntity(object):
@@ -245,7 +247,6 @@ class SemanticEntity(object):
     
     def verbose(self):
         return f"{self.type}: '{self.string}' ({self.id}, {self.institution} {self.year})"
-    
 
 
 class SemanticProperty(object):
@@ -304,8 +305,6 @@ class SemanticProperty(object):
     def __str__(self):
         if self.source: return f"{str(self.source):<90} → {self.type:<30} → {str(self.target):<50}"
         return f"{str(self.source_id):<90} → {str(self.type):<30} → {str(self.target_id):<50}"
-    
-
         
 
 def parse_postprocessing(tag_string, source, anchors, corrector):
@@ -349,6 +348,7 @@ def parse_postprocessing(tag_string, source, anchors, corrector):
         
     return virtual_from_source
 
+
 def postprocessing(entities, properties, corrector):
     # Donation Type
     donation = None
@@ -370,6 +370,7 @@ def postprocessing(entities, properties, corrector):
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
     return entities, properties
+
 
 def consolidate_properties(property, queen, incoming=True):
     assert isinstance(property, SemanticProperty) and isinstance(queen, SemanticEntity)
@@ -414,12 +415,22 @@ def set_anchors(anchors):
             else:
                 property = SemanticProperty({"SemanticProperty":double[0]}, virtual=True, source=double[1], target=anchor)
 
+
 def check_property_exists(obj, property):
     if isinstance(obj, BS4_TAG):
         return obj.has_attr(property)
     return property in obj
 
-def parse(filepath, verbose=True, year=None, institution=None, consolidate=True):
+
+def save_anchors_to_file(anchors, filepath, year, institution):
+    with open(filepath, 'a', encoding="UTF-8") as f:
+        f.write(f"{year}, {institution}:\n")
+        for anchor_str, anchor_entity in anchors.objs.items():
+            f.write(f"    {anchor_str:<9}: {anchor_entity.verbose()}\n")
+        f.write('\n')
+
+
+def parse(filepath, verbose=True, year=None, institution=None, consolidate=True, save_anchors=None):
     '''returns (Corrected Text: string, Semantic Entities: list, Semantic Properties: list with Pointers to objects in Entities list)
     '''
     
@@ -448,6 +459,8 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True)
     if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
     properties += SemanticProperty.virtuals
     
+    if isinstance(save_anchors, str): save_anchors_to_file(anchors, save_anchors, year, institution)
+
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
     
@@ -455,7 +468,8 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True)
     assert len(set(e.id for e in entities)) == len(entities)
     return text, corrector.lines, entities, properties
 
-def extract_ins_year(filename):
+
+def extract_metadata(filename):
     FILENAME_PATTERN = re.compile("^(\d\d\d\d)_(.*?)_(\d?\d?\d)-(\d?\d?\d)\.xmi$")
     verbose_institutions = {
         "Museum": "Museum für Naturkunde - Allgemeine Verwaltung",
@@ -472,7 +486,8 @@ def extract_ins_year(filename):
     page_end = int(match.group(4))
     
     return year, institution, page_begin, page_end
-    
+
+
 def serialize(obj, stringify=True):
     if isinstance(obj, SemanticProperty):
         return {
@@ -505,6 +520,7 @@ def serialize(obj, stringify=True):
     else:
         return obj
 
+
 def save_webdata(entities, properties, lines, filepath="../Website/src/data"):
     export_items = {
         "Entities": {serialized['id']:serialized for e in sorted(entities, key=attrgetter('year'), reverse=True) if (serialized := serialize(e))},
@@ -533,8 +549,9 @@ def save_webdata(entities, properties, lines, filepath="../Website/src/data"):
     
     print(f"Saved all Entities, Properties and Class stats as JSON to '{filepath}'\n")
 
+
 def save_json(filepath, file, text, entities, properties):
-    year, institution, page_begin, page_end = extract_ins_year(file)
+    year, institution, page_begin, page_end = extract_metadata(file)
     export = {
         "Institution": institution,
         "Year": year,
@@ -551,9 +568,10 @@ def save_json(filepath, file, text, entities, properties):
         json.dump(export, f, ensure_ascii=False, indent=4)
     
     print(f"    Saved '{file}' as JSON to '{os.path.join(filepath, json_file)}'\n")
-    
+
+
 def get_data_for_pickling(file, lines, text, entities, properties):
-    year, institution, page_begin, page_end = extract_ins_year(file)
+    year, institution, page_begin, page_end = extract_metadata(file)
     export = {
         "Institution": institution,
         "Year": year,
@@ -568,17 +586,23 @@ def get_data_for_pickling(file, lines, text, entities, properties):
     return export
 
 
-def stats_directory(dirpath, save=False, consolidate=True):
+def process_directory(dirpath, save=False, consolidate=True):
     class_counter = Counter()
     properties_counter = Counter()
     
     for_pickling = []
     
-    JSON_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/JSON/"
+    # Reset Anchors
+    with open("../Data/INCEpTION/Used_Anchors.txt", 'w', encoding='UTF-8') as f:
+        f.write('')
+    
+    JSON_PATH = "../Data/JSON/"
     for file in os.listdir(dirpath):
         if file.endswith(".xmi"):
-            year, institution, _, __ = extract_ins_year(file)
-            text, lines, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate)
+            year, institution, _, __ = extract_metadata(file)
+            
+            text, lines, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate, save_anchors="../Data/INCEpTION/Used_Anchors.txt")
+            
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
             #print("\n".join([str(e) for e in properties]))
@@ -589,7 +613,7 @@ def stats_directory(dirpath, save=False, consolidate=True):
                 
     
     if save and for_pickling:
-        with open("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle", 'wb') as f:
+        with open("../Data/ParsedSemanticAnnotations.pickle", 'wb') as f:
             pickle.dump(for_pickling, f)
             
         print(f"Saved all Entities, Properties as Pickle to 'C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle'")
@@ -604,7 +628,8 @@ def stats_directory(dirpath, save=False, consolidate=True):
         print(f"| {t:<90} | {c:<5} |")
     
     return for_pickling
-    
+
+
 if __name__ == "__main__":
-    DIR_PATH = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/INCEpTION/UIMA_CAS_XMI"
-    stats_directory(DIR_PATH, save=True, consolidate=True)
+    DIR_PATH = "../Data/INCEpTION/UIMA_CAS_XMI"
+    process_directory(DIR_PATH, save=True, consolidate=True)

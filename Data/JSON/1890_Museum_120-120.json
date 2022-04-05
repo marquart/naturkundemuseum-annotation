@@ -49,6 +49,27 @@
             ],
             "outgoing": []
         },
+        "1062": {
+            "id": "1062",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "Montags",
+            "lowered_text": "montags",
+            "begin": 680,
+            "end": 687,
+            "page": 120,
+            "line": 15,
+            "txt_id": "Mus_1890",
+            "line_idx": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1048"
+            ],
+            "outgoing": []
+        },
         "1090": {
             "id": "1090",
             "type": "E54 Dimension",
@@ -70,24 +91,24 @@
             ],
             "outgoing": []
         },
-        "1062": {
-            "id": "1062",
+        "1063": {
+            "id": "1063",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
-            "text": "Montags",
-            "lowered_text": "montags",
-            "begin": 680,
-            "end": 687,
+            "text": "Sonnabends von 11 bis 3 Uhr",
+            "lowered_text": "sonnabends von 11 bis 3 uhr",
+            "begin": 694,
+            "end": 721,
             "page": 120,
-            "line": 15,
+            "line": 16,
             "txt_id": "Mus_1890",
-            "line_idx": 16,
+            "line_idx": 17,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1890,
             "mentions": 0,
             "incoming": [
-                "1048"
+                "1049"
             ],
             "outgoing": []
         },
@@ -114,27 +135,6 @@
                 "1038",
                 "1065"
             ]
-        },
-        "1063": {
-            "id": "1063",
-            "type": "E52 Time-Span",
-            "short_type": "E52",
-            "virtual": false,
-            "text": "Sonnabends von 11 bis 3 Uhr",
-            "lowered_text": "sonnabends von 11 bis 3 uhr",
-            "begin": 694,
-            "end": 721,
-            "page": 120,
-            "line": 16,
-            "txt_id": "Mus_1890",
-            "line_idx": 17,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1049"
-            ],
-            "outgoing": []
         },
         "1093": {
             "id": "1093",
@@ -183,6 +183,27 @@
             ],
             "outgoing": []
         },
+        "1061": {
+            "id": "1061",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "1. Juli v. Js.",
+            "lowered_text": "1. juli v. js.",
+            "begin": 654,
+            "end": 668,
+            "page": 120,
+            "line": 15,
+            "txt_id": "Mus_1890",
+            "line_idx": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1047"
+            ],
+            "outgoing": []
+        },
         "1094": {
             "id": "1094",
             "type": "E41 Appellation",
@@ -206,27 +227,6 @@
                 "1039",
                 "1067"
             ]
-        },
-        "1061": {
-            "id": "1061",
-            "type": "E52 Time-Span",
-            "short_type": "E52",
-            "virtual": false,
-            "text": "1. Juli v. Js.",
-            "lowered_text": "1. juli v. js.",
-            "begin": 654,
-            "end": 668,
-            "page": 120,
-            "line": 15,
-            "txt_id": "Mus_1890",
-            "line_idx": 16,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1047"
-            ],
-            "outgoing": []
         },
         "1096": {
             "id": "1096",
@@ -252,6 +252,27 @@
                 "1068"
             ]
         },
+        "1064": {
+            "id": "1064",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Publikum",
+            "lowered_text": "publikum",
+            "begin": 730,
+            "end": 738,
+            "page": 120,
+            "line": 16,
+            "txt_id": "Mus_1890",
+            "line_idx": 17,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "1031"
+            ]
+        },
         "1098": {
             "id": "1098",
             "type": "E29 Design or Procedure",
@@ -273,27 +294,6 @@
             ],
             "outgoing": [
                 "1041"
-            ]
-        },
-        "1064": {
-            "id": "1064",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Publikum",
-            "lowered_text": "publikum",
-            "begin": 730,
-            "end": 738,
-            "page": 120,
-            "line": 16,
-            "txt_id": "Mus_1890",
-            "line_idx": 17,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "1031"
             ]
         },
         "1066": {
@@ -364,6 +364,27 @@
                 "1069"
             ]
         },
+        "1067": {
+            "id": "1067",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Schüler höherer Lehranstalten",
+            "lowered_text": "schüler höherer lehranstalten",
+            "begin": 790,
+            "end": 820,
+            "page": 120,
+            "line": 17,
+            "txt_id": "Mus_1890",
+            "line_idx": 18,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "1032"
+            ]
+        },
         "1099": {
             "id": "1099",
             "type": "E55 Type",
@@ -385,27 +406,6 @@
                 "1043"
             ],
             "outgoing": []
-        },
-        "1067": {
-            "id": "1067",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Schüler höherer Lehranstalten",
-            "lowered_text": "schüler höherer lehranstalten",
-            "begin": 790,
-            "end": 820,
-            "page": 120,
-            "line": 17,
-            "txt_id": "Mus_1890",
-            "line_idx": 18,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "1032"
-            ]
         },
         "1069": {
             "id": "1069",
@@ -476,6 +476,27 @@
             ],
             "outgoing": []
         },
+        "1070": {
+            "id": "1070",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Opening Times",
+            "lowered_text": "opening times",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1033"
+            ],
+            "outgoing": []
+        },
         "1104": {
             "id": "1104",
             "type": "E41 Appellation",
@@ -497,27 +518,6 @@
                 "1044",
                 "1070"
             ]
-        },
-        "1070": {
-            "id": "1070",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Opening Times",
-            "lowered_text": "opening times",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
-            "txt_id": "Mus_1890",
-            "line_idx": 0,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1033"
-            ],
-            "outgoing": []
         },
         "1072": {
             "id": "1072",
@@ -543,6 +543,27 @@
                 "1055"
             ]
         },
+        "1074": {
+            "id": "1074",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "11579",
+            "lowered_text": "11579",
+            "begin": 932,
+            "end": 937,
+            "page": 120,
+            "line": 20,
+            "txt_id": "Mus_1890",
+            "line_idx": 21,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1052"
+            ],
+            "outgoing": []
+        },
         "1106": {
             "id": "1106",
             "type": "E21 Person",
@@ -565,27 +586,6 @@
                 "1071"
             ]
         },
-        "1074": {
-            "id": "1074",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "11579",
-            "lowered_text": "11579",
-            "begin": 932,
-            "end": 937,
-            "page": 120,
-            "line": 20,
-            "txt_id": "Mus_1890",
-            "line_idx": 21,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1052"
-            ],
-            "outgoing": []
-        },
         "1073": {
             "id": "1073",
             "type": "E55 Type",
@@ -606,29 +606,6 @@
                 "1034"
             ],
             "outgoing": []
-        },
-        "1108": {
-            "id": "1108",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Verwaltungsdirektor",
-            "lowered_text": "verwaltungsdirektor",
-            "begin": 1946,
-            "end": 1965,
-            "page": 120,
-            "line": 39,
-            "txt_id": "Mus_1890",
-            "line_idx": 40,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 0,
-            "incoming": [
-                "1071"
-            ],
-            "outgoing": [
-                "1046"
-            ]
         },
         "1075": {
             "id": "1075",
@@ -654,26 +631,28 @@
                 "1052"
             ]
         },
-        "1107": {
-            "id": "1107",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Reporter",
-            "lowered_text": "reporter",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "line": -1,
+        "1108": {
+            "id": "1108",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Verwaltungsdirektor",
+            "lowered_text": "verwaltungsdirektor",
+            "begin": 1946,
+            "end": 1965,
+            "page": 120,
+            "line": 39,
             "txt_id": "Mus_1890",
-            "line_idx": 0,
+            "line_idx": 40,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1890,
             "mentions": 0,
             "incoming": [
-                "1045"
+                "1071"
             ],
-            "outgoing": []
+            "outgoing": [
+                "1046"
+            ]
         },
         "1077": {
             "id": "1077",
@@ -693,6 +672,27 @@
             "mentions": 0,
             "incoming": [
                 "1054"
+            ],
+            "outgoing": []
+        },
+        "1107": {
+            "id": "1107",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Reporter",
+            "lowered_text": "reporter",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 0,
+            "incoming": [
+                "1045"
             ],
             "outgoing": []
         },
