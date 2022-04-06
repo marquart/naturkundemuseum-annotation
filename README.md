@@ -146,11 +146,11 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 | 1905 |        |                              |                            |      (y)     |
 | 1906 |        |                              |                            |      (y)     |
 | 1907 |        |                              |                            |      (y)     |
-| 1908 |        |                              |                            |      (x)     |
-| 1909 |        |                              |                            |      (x)     |
-| 1910 |        |                              |                            |      (x)     |
-| 1911 |        |                              |                            |      (x)     |
-| 1912 |        |                              |                            |      (x)     |
+| 1908 |        |                              |                            |      (y)     |
+| 1909 |        |                              |                            |      (y)     |
+| 1910 |        |                              |                            |      (y)     |
+| 1911 |        |                              |                            |      (y)     |
+| 1912 |        |                              |                            |      (y)     |
 | 1913 |        |                              |                            |      (X)     | ausf. in Mitteilungen des Zool. Museums
 | 1914 |        |                              |                            |      (X)     | ausf. in Mitteilungen des Zool. Museums
 | 1915 |        |                              |                            |      (X)     | ausf. in Mitteilungen des Zool. Museums

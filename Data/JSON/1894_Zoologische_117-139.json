@@ -5402,30 +5402,6 @@
             ],
             "outgoing": []
         },
-        "4896": {
-            "id": "4896",
-            "type": "E60 Number",
-            "short_type": "E60",
-            "virtual": false,
-            "text": "46 951",
-            "lowered_text": "46 951",
-            "begin": 22796,
-            "end": 22802,
-            "page": 132,
-            "line": 17,
-            "txt_id": "Zoo_1894",
-            "line_idx": 487,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "5121"
-            ],
-            "outgoing": [
-                "4548",
-                "4620"
-            ]
-        },
         "4612": {
             "id": "4612",
             "type": "E8 Acquisition",
@@ -5475,30 +5451,6 @@
                 "4932"
             ]
         },
-        "4899": {
-            "id": "4899",
-            "type": "E60 Number",
-            "short_type": "E60",
-            "virtual": false,
-            "text": "3701",
-            "lowered_text": "3701",
-            "begin": 22818,
-            "end": 22822,
-            "page": 132,
-            "line": 17,
-            "txt_id": "Zoo_1894",
-            "line_idx": 487,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "5122"
-            ],
-            "outgoing": [
-                "4549",
-                "4598"
-            ]
-        },
         "4616": {
             "id": "4616",
             "type": "E53 Place",
@@ -5541,30 +5493,6 @@
                 "5034"
             ],
             "outgoing": []
-        },
-        "4901": {
-            "id": "4901",
-            "type": "E60 Number",
-            "short_type": "E60",
-            "virtual": false,
-            "text": "3598",
-            "lowered_text": "3598",
-            "begin": 22824,
-            "end": 22828,
-            "page": 132,
-            "line": 17,
-            "txt_id": "Zoo_1894",
-            "line_idx": 487,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "5123"
-            ],
-            "outgoing": [
-                "4550",
-                "4621"
-            ]
         },
         "4619": {
             "id": "4619",
@@ -5612,28 +5540,6 @@
                 "5152"
             ]
         },
-        "4903": {
-            "id": "4903",
-            "type": "E78 Curated Holding",
-            "short_type": "E78",
-            "virtual": false,
-            "text": "Colenteraten",
-            "lowered_text": "colenteraten",
-            "begin": 22831,
-            "end": 22843,
-            "page": 132,
-            "line": 17,
-            "txt_id": "Zoo_1894",
-            "line_idx": 487,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [],
-            "outgoing": [
-                "5124",
-                "5125"
-            ]
-        },
         "4622": {
             "id": "4622",
             "type": "E19 Physical Object",
@@ -5655,30 +5561,6 @@
             ],
             "outgoing": [
                 "4938"
-            ]
-        },
-        "4904": {
-            "id": "4904",
-            "type": "E60 Number",
-            "short_type": "E60",
-            "virtual": false,
-            "text": "3471",
-            "lowered_text": "3471",
-            "begin": 22844,
-            "end": 22848,
-            "page": 132,
-            "line": 17,
-            "txt_id": "Zoo_1894",
-            "line_idx": 487,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "5124"
-            ],
-            "outgoing": [
-                "4551",
-                "4599"
             ]
         },
         "4624": {
@@ -5725,30 +5607,6 @@
             ],
             "outgoing": [
                 "4943"
-            ]
-        },
-        "4906": {
-            "id": "4906",
-            "type": "E60 Number",
-            "short_type": "E60",
-            "virtual": false,
-            "text": "3413",
-            "lowered_text": "3413",
-            "begin": 22851,
-            "end": 22855,
-            "page": 132,
-            "line": 18,
-            "txt_id": "Zoo_1894",
-            "line_idx": 488,
-            "institution": "Zoologisches Institut und zoologische Sammlung",
-            "year": 1894,
-            "mentions": 0,
-            "incoming": [
-                "5125"
-            ],
-            "outgoing": [
-                "4552",
-                "4622"
             ]
         },
         "4626": {
@@ -9945,6 +9803,148 @@
             "outgoing": [
                 "4547",
                 "4597"
+            ]
+        },
+        "4896": {
+            "id": "4896",
+            "type": "E60 Number",
+            "short_type": "E60",
+            "virtual": false,
+            "text": "46 951",
+            "lowered_text": "46 951",
+            "begin": 22796,
+            "end": 22802,
+            "page": 132,
+            "line": 17,
+            "txt_id": "Zoo_1894",
+            "line_idx": 487,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "5121"
+            ],
+            "outgoing": [
+                "4548",
+                "4620"
+            ]
+        },
+        "4899": {
+            "id": "4899",
+            "type": "E60 Number",
+            "short_type": "E60",
+            "virtual": false,
+            "text": "3701",
+            "lowered_text": "3701",
+            "begin": 22818,
+            "end": 22822,
+            "page": 132,
+            "line": 17,
+            "txt_id": "Zoo_1894",
+            "line_idx": 487,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "5122"
+            ],
+            "outgoing": [
+                "4549",
+                "4598"
+            ]
+        },
+        "4901": {
+            "id": "4901",
+            "type": "E60 Number",
+            "short_type": "E60",
+            "virtual": false,
+            "text": "3598",
+            "lowered_text": "3598",
+            "begin": 22824,
+            "end": 22828,
+            "page": 132,
+            "line": 17,
+            "txt_id": "Zoo_1894",
+            "line_idx": 487,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "5123"
+            ],
+            "outgoing": [
+                "4550",
+                "4621"
+            ]
+        },
+        "4903": {
+            "id": "4903",
+            "type": "E78 Curated Holding",
+            "short_type": "E78",
+            "virtual": false,
+            "text": "Colenteraten",
+            "lowered_text": "colenteraten",
+            "begin": 22831,
+            "end": 22843,
+            "page": 132,
+            "line": 17,
+            "txt_id": "Zoo_1894",
+            "line_idx": 487,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [],
+            "outgoing": [
+                "5124",
+                "5125"
+            ]
+        },
+        "4904": {
+            "id": "4904",
+            "type": "E60 Number",
+            "short_type": "E60",
+            "virtual": false,
+            "text": "3471",
+            "lowered_text": "3471",
+            "begin": 22844,
+            "end": 22848,
+            "page": 132,
+            "line": 17,
+            "txt_id": "Zoo_1894",
+            "line_idx": 487,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "5124"
+            ],
+            "outgoing": [
+                "4551",
+                "4599"
+            ]
+        },
+        "4906": {
+            "id": "4906",
+            "type": "E60 Number",
+            "short_type": "E60",
+            "virtual": false,
+            "text": "3413",
+            "lowered_text": "3413",
+            "begin": 22851,
+            "end": 22855,
+            "page": 132,
+            "line": 18,
+            "txt_id": "Zoo_1894",
+            "line_idx": 488,
+            "institution": "Zoologisches Institut und zoologische Sammlung",
+            "year": 1894,
+            "mentions": 0,
+            "incoming": [
+                "5125"
+            ],
+            "outgoing": [
+                "4552",
+                "4622"
             ]
         }
     },

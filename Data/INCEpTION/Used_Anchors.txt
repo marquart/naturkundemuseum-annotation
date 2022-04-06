@@ -184,40 +184,61 @@
     anchor10 : E78 Curated Holding: 'Abteilungen' (10206, Zoologisches Institut und zoologische Sammlung 1908)
     anchor9  : E78 Curated Holding: 'großen Sammlungen' (10208, Zoologisches Institut und zoologische Sammlung 1908)
     anchor11 : E78 Curated Holding: 'Säugetiere' (10269, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor12 : E78 Curated Holding: 'V ö gel' (10415, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor13 : E8 Acquisition: 'Geschenke' (10486, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor14 : E78 Curated Holding: 'Reptilien und Amphibien' (10545, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor15 : E8 Acquisition: '(implicit) Unknown' (10561, Zoologisches Institut und zoologische Sammlung 1908)
+    anchor16 : E78 Curated Holding: 'Fische' (10609, Zoologisches Institut und zoologische Sammlung 1908)
 
 1909, Zoologisches Institut und zoologische Sammlung:
-    anchor10 : E78 Curated Holding: 'Abteilungen' (10416, Zoologisches Institut und zoologische Sammlung 1909)
-    anchor11 : E78 Curated Holding: 'Mammalia' (10417, Zoologisches Institut und zoologische Sammlung 1909)
-    anchor11-1: E8 Acquisition: '(implicit) Unknown' (10518, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor10 : E78 Curated Holding: 'Abteilungen' (10612, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor11 : E78 Curated Holding: 'Mammalia' (10613, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor11-1: E8 Acquisition: '(implicit) Unknown' (10714, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor12 : E78 Curated Holding: 'Aves' (10826, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor13 : E78 Curated Holding: 'Reptilien und Amphibien' (10933, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor14 : E8 Acquisition: '(implicit) Unknown' (10955, Zoologisches Institut und zoologische Sammlung 1909)
+    anchor15 : E78 Curated Holding: 'Fische' (11032, Zoologisches Institut und zoologische Sammlung 1909)
 
 1910, Zoologisches Institut und zoologische Sammlung:
-    anchor10 : E78 Curated Holding: 'Abteilungen' (10631, Zoologisches Institut und zoologische Sammlung 1910)
-    anchor11 : E78 Curated Holding: 'Mammalia' (10632, Zoologisches Institut und zoologische Sammlung 1910)
-    anchor12 : E8 Acquisition: 'Geschenk' (10689, Zoologisches Institut und zoologische Sammlung 1910)
-    anchor13 : E8 Acquisition: '(implicit) Unknown' (10733, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor10 : E78 Curated Holding: 'Abteilungen' (11035, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor11 : E78 Curated Holding: 'Mammalia' (11036, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor12 : E8 Acquisition: 'Geschenk' (11093, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor13 : E8 Acquisition: '(implicit) Unknown' (11137, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor14 : E78 Curated Holding: 'Aves' (11255, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor15 : E78 Curated Holding: 'Reptilia und Amphibia' (11322, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor16 : E8 Acquisition: '(implicit) Unknown' (11342, Zoologisches Institut und zoologische Sammlung 1910)
+    anchor17 : E78 Curated Holding: 'Pisces' (11414, Zoologisches Institut und zoologische Sammlung 1910)
 
 1911, Zoologisches Institut und zoologische Sammlung:
-    anchor10 : E78 Curated Holding: 'Abteilung' (10852, Zoologisches Institut und zoologische Sammlung 1911)
-    anchor11 : E78 Curated Holding: 'Mammalia' (10853, Zoologisches Institut und zoologische Sammlung 1911)
-    anchor12 : E8 Acquisition: 'Geschenk' (10924, Zoologisches Institut und zoologische Sammlung 1911)
-    anchor13 : E8 Acquisition: 'Geschenk' (10984, Zoologisches Institut und zoologische Sammlung 1911)
-    anchor14 : E8 Acquisition: 'Geschenk' (11011, Zoologisches Institut und zoologische Sammlung 1911)
-    anchor15 : E8 Acquisition: 'erhielt' (11070, Zoologisches Institut und zoologische Sammlung 1911)
-    anchor16 : E8 Acquisition: 'Geschenk' (11092, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor10 : E78 Curated Holding: 'Abteilung' (11417, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor11 : E78 Curated Holding: 'Mammalia' (11418, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor12 : E8 Acquisition: 'Geschenk' (11489, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor13 : E8 Acquisition: 'Geschenk' (11549, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor14 : E8 Acquisition: 'Geschenk' (11576, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor15 : E8 Acquisition: 'erhielt' (11635, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor16 : E8 Acquisition: 'Geschenk' (11657, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor17 : E78 Curated Holding: 'Aves' (11716, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor18 : E78 Curated Holding: 'Reptilia und Amphibia' (11766, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor19 : E8 Acquisition: '(implicit) Unknown' (11790, Zoologisches Institut und zoologische Sammlung 1911)
+    anchor20 : E78 Curated Holding: 'Pisces' (11835, Zoologisches Institut und zoologische Sammlung 1911)
 
 1912, Zoologisches Institut und zoologische Sammlung:
-    anchor10 : E78 Curated Holding: 'Abteilungen' (11152, Zoologisches Institut und zoologische Sammlung 1912)
-    anchor11 : E78 Curated Holding: 'Mammalia' (11153, Zoologisches Institut und zoologische Sammlung 1912)
-    anchor12 : E8 Acquisition: 'Geschenk' (11188, Zoologisches Institut und zoologische Sammlung 1912)
-    anchor13 : E8 Acquisition: 'zugewendet' (11235, Zoologisches Institut und zoologische Sammlung 1912)
-    anchor14 : E8 Acquisition: 'überwies' (11265, Zoologisches Institut und zoologische Sammlung 1912)
-    anchor15 : E8 Acquisition: 'erhielt' (11310, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor10 : E78 Curated Holding: 'Abteilungen' (11838, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor11 : E78 Curated Holding: 'Mammalia' (11839, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor12 : E8 Acquisition: 'Geschenk' (11874, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor13 : E8 Acquisition: 'zugewendet' (11921, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor14 : E8 Acquisition: 'überwies' (11951, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor15 : E8 Acquisition: 'erhielt' (11996, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor16 : E78 Curated Holding: 'Aves' (12070, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor17 : E78 Curated Holding: 'Reptilia und Amphibia' (12123, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor18 : E8 Acquisition: '(implicit) Unknown' (12153, Zoologisches Institut und zoologische Sammlung 1912)
+    anchor19 : E78 Curated Holding: 'Pisces' (12202, Zoologisches Institut und zoologische Sammlung 1912)
 
 1913, Zoologisches Institut und zoologische Sammlung:
-    anchor10 : E78 Curated Holding: 'Sammlungen' (11385, Zoologisches Institut und zoologische Sammlung 1913)
+    anchor10 : E78 Curated Holding: 'Sammlungen' (12205, Zoologisches Institut und zoologische Sammlung 1913)
 
 1914, Zoologisches Institut und zoologische Sammlung:
-    anchor10 : E78 Curated Holding: 'Hauptsammlung' (11464, Zoologisches Institut und zoologische Sammlung 1914)
+    anchor10 : E78 Curated Holding: 'Hauptsammlung' (12284, Zoologisches Institut und zoologische Sammlung 1914)
 
 1915, Zoologisches Institut und zoologische Sammlung:
 
