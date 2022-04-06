@@ -188,7 +188,7 @@ digraph Annotationen {
         fontsize="11";
         penwidth=1;
         pencolor="transparent";
-        node [style="filled" color="white"]
+        node [style="filled" color="white" class="entities"]
      
 NODES
 
@@ -237,8 +237,8 @@ if __name__ == "__main__":
     parser.add_argument('--entity', '-e', type=int, default=-1)
     parser.add_argument('--depth', '-d', type=int, default=3)
     
-    pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
-    svg_filepath = "C:/Users/Aron/Documents/Naturkundemuseum/Temp_Visualizations/DOTs/"
+    pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
+    svg_filepath = "../../Temp_Visualizations/DOTs/"
     
     data = SemanticData(pickle_file)
 
