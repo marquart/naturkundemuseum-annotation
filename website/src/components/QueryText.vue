@@ -1,5 +1,6 @@
 <template>
     <div>
+        <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class. Please note: the Results list is limited to {{maxSize}} entities in this prototype.</p>
         <EntitySearcher class="searchField" ref="source" :classes="constrainedClasses" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
 
@@ -38,7 +39,8 @@ export default {
             searchResults: [],
 
             history: [],
-            historyCursor: -1
+            historyCursor: -1,
+            maxSize: 40
 
         }
     },
@@ -64,14 +66,13 @@ export default {
         },
 
         * filterEntities() {
-            let maxSize = 20;
-            if (maxSize > this.entities.length) {
-                maxSize = this.entities.length;
+            if (this.maxSize > this.entities.length) {
+                this.maxSize = this.entities.length;
             }
             let count = 0;
             /* BACKWARDS SEARCH:*/
             let i = this.entities.length-1;
-            while (count < maxSize && i >= 0) {
+            while (count < this.maxSize && i >= 0) {
                 if (this.validEntity(this.entities[i])) { //(this.entities[i].lowered_text.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1)
                     yield this.entities[i];
                     count++;

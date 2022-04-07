@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Found {{results.length &lt; 20 ? results.length : '>'+results.length}} Entities</p>
+        <p>Found {{results.length &lt; 40 ? results.length : '>'+results.length}} Entities</p>
         <div 
             class="groupResult"
             v-for="(list,i) in groupedResults"

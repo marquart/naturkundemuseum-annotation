@@ -21,28 +21,6 @@
         <li>model the annotations in a graph database in order to also integrate data from external sources as easily as possible as well as to offer other sources the possibility to embed the information of the annual reports into their own knowledge graphs,</li>
         <li>develop an online platform from which the information from the graph database can be easily accessed</li>
     </ul>
-
-    <p>Das Museum für Naturkunde publizierte seit 1887 Jahresberichte. Da das Haus eine Einrichtung der Friedrich-Wilhelms-Universität – der heutigen Humboldt-Universität – war, erschienen diese Berichte als Teil der Universitäts-Chronik. Die Jahresberichte sind eine einzigartige Quelle, die einen Einblick in die Entwicklung des Museums und der Sammlung zwischen 1887 und 1915 sowie zwischen 1928 und 1938 ermöglicht. Insbesondere lassen sich Informationen zur Organisationsstruktur des Museums, zu personellen Veränderungen, Veröffentlichungen und Lehrveranstaltungen, Raumnutzung, Museumsinfrastruktur, Ordnungen, Nutzung und Zuwachs der einzelnen Museumssammlungen sowie ihrer wissenschaftlichen Auswertung und Bearbeitung finden. Daneben sind zahlreiche Sammler*innennamen sowie Herkunftsorte und Informationen des Zu- und Abgangs von Objekten enthalten. Da die Chronik vor allem die Jahrzehnte der deutschen Kolonialexpansion abdeckt, ist diese Quelle ein zentrales Instrument, u.a. für Fragen</p>
-
-    <ul>
-        <li>zur Entwicklung der Institution in wissenschaftlicher, infrastruktureller, personeller Hinsicht</li>
-        <li>zum Ausbau der Sammlungen vom Beginn der deutschen Kolonialexpansion bis zum Nationalsozialismus</li>
-        <li>der Ermittlung des Anteils kolonialer Objekte am Gesamtbestand der eingehenden Sammlungen</li>
-        <li>der Identifikation der wichtigsten Herkunftsregionen und Hauptakteur*innen in diesem Zeitraum</li>
-        <li>der globalen und lokalen Vernetzung des Museums</li>
-        <li>der Rekonstruktion der Sammler*innen- und Institutionennetzwerke</li>
-        <li>der Geschichte der Schausammlung sowie der präparatorischen Arbeit an den Objekten</li>
-
-    </ul>
-    <p>Das Projekt erschließt die Quelle und stellt sie auf einer Webseite zur Verfügung. Es dient interdisziplinären Interessen von Kurator*innen, Sammlungsmanager*innen, Digitalisierungsverantwortlichen, Forscher*innen, Bürgerwissenschaftler*innen, Guides etc. und stellt diese Quelle für weitergehende Forschungen zur Verfügung.</p>
-
-    <p>Methodische Ziele des Projekts:</p>
-
-    <ul>
-        <li>semantische Annotation der Texte anhand dem vom International Council of Museums entwickelten <a href="https://cidoc-crm.org">CIDOC Conceptual Reference Model (CRM)</a>,</li>
-        <li>Modellierung der Annotationen in einer Graphdatenbank, um möglichst einfach sowohl Daten aus externen Quellen zu integrieren als auch anderen Quellen die Möglichkeit zu bieten, die Informationen der Jahresberichte in ihren eigenen Wissensgraph einzubetten,</li>
-        <li>Entwicklung einer Webplattform mit der die Informationen aus der Graphdatenbank abgefragt werden können.</li>
-    </ul>
   </div>
 </template>
 
