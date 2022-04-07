@@ -1,6 +1,8 @@
 # Naturkundemuseum-Annotation
 Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [INCEpTION](https://inception-project.github.io).
 
+Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python sowie JSON) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Expoerte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
+
 ## Annotation-Layers
 1. **OCR**: OCR-Fehler-Korrektur in einem Kommentar-Feld
 2. **SemanticEntities**: Semantische Entitäten
