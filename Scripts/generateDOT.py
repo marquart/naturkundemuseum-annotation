@@ -161,10 +161,38 @@ def get_color(node):
         LOOKUP = {'E41': '#debb9b', 'E63': '#50c4c2aa', 'E74': '#3b95c4aa', 'E21': '#3b95c4aa', 'E52': '#50c4c2aa', 'E55': '#06b67eaa', 'E85': '#fc3915aa', 'E28': '#06b67eaa', 'E19': '#5a50c4aa', 'E87': '#fc3915aa', 'E78': '#b560d4aa', 'E8': '#fc3915aa', 'E53': '#fc7715aa', 'E39': '#3b95c4aa', 'E54': '#50c4c2aa', 'E20': '#5a50c4aa', 'E35': '#debb9b', 'E77': '#b560d4aa', 'E9': '#fc3915aa', 'E12': '#fc3915aa', 'E60': '#debb9b', 'E7': '#fc3915aa', 'E96': '#fc3915aa', 'E86': '#fc3915aa', 'E57': '#5a50c4aa', 'E3': '#50c4c2aa', 'E66': '#fc3915aa', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#fc3915aa', 'E14': '#fc3915aa', 'E79': '#fc3915aa'} #{'E41': '#debb9b', 'E21': '#a1c9f4', 'E52': '#fab0e4', 'E55': '#d0bbff', 'E74': '#a1c9f4', 'E63': '#fab0e4', 'E85': '#ff9f9b', 'E19': '#ffb482', 'E28': '#d0bbff', 'E8': '#ff9f9b', 'E39': '#a1c9f4', 'E78': '#b9f2f0', 'E87': '#ff9f9b', 'E53': '#8de5a1', 'E54': '#fab0e4', 'E20': '#ffb482', 'E35': '#debb9b', 'E9': '#ff9f9b', 'E77': '#b9f2f0', 'E12': '#ff9f9b', 'E60': '#debb9b', 'E7': '#ff9f9b', 'E3': '#fab0e4', 'E57': '#ffb482', 'E86': '#ff9f9b', 'E96': '#ff9f9b', 'E66': '#ff9f9b', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#ff9f9b', 'E14': '#ff9f9b', 'E79': '#ff9f9b'}#{'E41': '#8c613c', 'E55': '#956cb4', 'E74': '#4878d0', 'E63': '#dc7ec0', 'E21': '#4878d0', 'E52': '#dc7ec0', 'E85': '#d65f5f', 'E8': '#d65f5f', 'E78': '#797979', 'E87': '#d65f5f', 'E28': '#956cb4', 'E53': '#6acc64', 'E20': '#ee854a', 'E54': '#dc7ec0', 'E19': '#ee854a', 'E39': '#4878d0', 'E35': '#8c613c', 'E12': '#d65f5f', 'E77': '#797979', 'E9': '#d65f5f', 'E60': '#8c613c', 'E7': '#d65f5f', 'E96': '#d65f5f', 'E86': '#d65f5f', 'E57': '#ee854a', 'E3': '#dc7ec0', 'E66': '#d65f5f', 'E29': '#8c613c', 'E11': '#d65f5f', 'E73': '#8c613c', 'E79': '#d65f5f', 'E14': '#d65f5f'}
         if node.entity.short_type in LOOKUP: return LOOKUP[node.entity.short_type]
     return 'lightgrey'
-    
 
 
-def generate_DOT(entity, depth=3):
+def count_nodes(nodes):
+    return len([node for node in nodes if node.style != 'dashed'])
+
+
+def build_tree(entity, depth=3):
+    nodes = [Node(entity, style="bold")]
+    result = BFS(nodes[0], maxdepth=depth)
+    nodes += result[0]
+    arrows = sorted(result[1], key=attrgetter("index"))
+    return count_nodes(nodes), nodes, arrows
+
+
+def calculate_optimal_tree(entity, optimal_nodes=13):
+    trees, no_nodes = {}, {} #depth:tree, depth:number of nodes
+    for i in range(0,5):
+        no, nodes, arrows = build_tree(entity, depth=i)
+        if no == optimal_nodes:
+            print(f"Optimal Tree for {str(entity)} with depth {i} ({no} nodes)")
+            return generate_DOT(entity, depth=i, tree=(nodes,arrows))
+        else:
+            trees[i] = (nodes, arrows)
+            no_nodes[i] = no
+            
+    optimal_depth = min(no_nodes, key=lambda x: abs(optimal_nodes-no_nodes[x]))
+    nodes, arrows = trees[optimal_depth][0] , trees[optimal_depth][1]
+    print(f"    Optimal Tree for {str(entity)} with depth {optimal_depth} ({no_nodes[optimal_depth]} nodes) Alternatives {str(no_nodes)}")
+    return generate_DOT(entity, depth=optimal_depth, tree=(nodes,arrows))
+
+
+def generate_DOT(entity, depth=3, tree=None):
     template = """
 digraph Annotationen {
     bgcolor="transparent";
@@ -199,11 +227,10 @@ NODES
 
 }
     """.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year}) with depth {depth+1}")
-    nodes = [Node(entity, style="bold")]
-    #result = traverse(nodes[0], {}, set(), depth=3)
-    result = BFS(nodes[0], maxdepth=depth)
-    nodes += result[0]
-    arrows = sorted(result[1], key=attrgetter("index"))
+    
+    if tree is None: _, nodes, arrows = build_tree(entity, depth=depth)
+    else: nodes, arrows = tree[0], tree[1]
+    
     with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
@@ -223,8 +250,11 @@ def generateSVG(data, output_path, entity_id=None, depth=3):
         entity = entities[last_item]
     else:
         entity = entities[entity_id]
+        
     svg_path = os.path.join(output_path, f"{entity.id}.svg")
-    dot = generate_DOT(entity, depth=depth)
+    
+    if type(depth) is int: dot = generate_DOT(entity, depth=depth)
+    else: dot = calculate_optimal_tree(entity)
     
     success = run(("dot", "-Tsvg", "-o", svg_path), input=dot, encoding='UTF-8')
     success.check_returncode()
@@ -235,7 +265,7 @@ def generateSVG(data, output_path, entity_id=None, depth=3):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--entity', '-e', type=int, default=-1)
-    parser.add_argument('--depth', '-d', type=int, default=3)
+    parser.add_argument('--depth', '-d', type=int, default=-1)
     
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     svg_filepath = "../../Temp_Visualizations/DOTs/"
@@ -243,5 +273,8 @@ if __name__ == "__main__":
     data = SemanticData(pickle_file)
 
     args = parser.parse_args()
-    if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=args.depth)
-    else: generateSVG(data, svg_filepath, entity_id=None, depth=args.depth)
+    if args.depth > -1: depth = args.depth
+    else: depth = None
+    
+    if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=depth)
+    else: generateSVG(data, svg_filepath, entity_id=None, depth=depth)
