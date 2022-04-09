@@ -35,7 +35,7 @@ export default {
             linesBefore: [],
             line: "",
             linesAfter: [],
-            snippetSize: 5,
+            snippetSize: 6,
 
         }
     },

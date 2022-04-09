@@ -26,7 +26,6 @@
 </template>
 
 <script>
-//import HelloWorld from './components/Column.vue'
 import Info from './components/Info.vue'
 import QueryText from './components/QueryText.vue'
 //import Query from './components/Query.vue'

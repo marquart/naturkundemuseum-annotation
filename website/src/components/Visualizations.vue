@@ -1,17 +1,18 @@
 <template>
     <div>
         <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
+        <p>{{info}}</p>
         <inline-svg 
-            :src="require('../assets/11732.svg')"
-            :transformSource="makeNodesClickable"
-
+            v-if="!showerror"
+            :src="svg_src"
+            @loaded="svgLoaded()"
+            @unloaded="svgUnloaded()"
+            @error="svgLoadError()"
         ></inline-svg>
 
         <!--
-                        transformSource="transformSvg"
-            @loaded="svgLoaded($event)"
-            @unloaded="svgUnloaded()"
-            @error="svgLoadError($event)"
+            :transformSource="makeNodesClickable"
+
         <a href="../assets/11536.svg" target="_blank">
             <img class="graph"
                 src="../assets/11536.svg"
@@ -24,6 +25,7 @@
 
 <script>
 import InlineSvg from 'vue-inline-svg';
+//import InlineSvg from './InlineSVG.vue'
 
 export default {
   name: 'Visualizations',
@@ -36,8 +38,18 @@ export default {
   },
 
   data() {
-    return {
-        svg_src: "../assets/11536.svg"
+    if (process.env.NODE_ENV == "production") {
+        return {
+            svg_src: "https://aron-marquart.de/mfn-chronik/graphs/1642.svg",
+            showerror: false,
+            info: ""
+        }
+    } else {
+        return {
+            svg_src: require("../assets/11732.svg"),
+            showerror: false,
+            info: ""
+        }
     }
   },
 
@@ -56,6 +68,15 @@ export default {
     },
     requestSVG(event) {
         console.log(event.target);
+    },
+    svgLoaded() {
+        this.info = "SVG Loaded"; 
+    },
+    svgUnloaded() {
+        this.info = "SVG UNLoaded";
+    },
+    svgLoadError() {
+        this.showerror = true;
     }
   },
 
