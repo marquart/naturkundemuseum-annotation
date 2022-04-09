@@ -7,6 +7,8 @@ import pickle
 import argparse
 from subprocess import run
 
+from timeit import default_timer as timer
+
 from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
 
 
@@ -268,13 +270,21 @@ if __name__ == "__main__":
     parser.add_argument('--depth', '-d', type=int, default=-1)
     
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
-    svg_filepath = "../../Temp_Visualizations/DOTs/"
+    svg_filepath = "../../Temp_Visualizations/DOTs/TestRun"
     
     data = SemanticData(pickle_file)
 
     args = parser.parse_args()
+    start = timer()
+    for i,e in enumerate(data.entities):
+        generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
+        if i>99: break
+    end = timer()
+    print(f"\nNeeded {(end-start)/60} Minutes")
+    '''
     if args.depth > -1: depth = args.depth
     else: depth = None
     
     if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=depth)
     else: generateSVG(data, svg_filepath, entity_id=None, depth=depth)
+    '''
