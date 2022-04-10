@@ -197,27 +197,28 @@ def calculate_optimal_tree(entity, optimal_nodes=13):
 def generate_DOT(entity, depth=3, tree=None):
     template = """
 digraph Annotationen {
-    bgcolor="transparent";
+    label="GRAPHLABEL";
+    bgcolor="none";
     rankdir="LR";
     ranksep="0.8 equally";
-    fontname="sans-serif";
+    fontname="Titillium Web";
     fontsize="11";
-    node [shape=record fontname="sans-serif" fontsize="11" penwidth=1];
-    edge [fontname="sans-serif" fontsize="10" penwidth=1];
+    node [shape=record fontname="Titillium Web" fontsize="11" penwidth=1];
+    edge [fontname="Titillium Web" fontsize="10" penwidth=1];
     splines=ortho;
     penwidth=8;
-    
+
     {
     
     subgraph legend {
         LEGEND
     }
-    subgraph cluster_net {
-        label="GRAPHLABEL";
-        fontname="sans-serif";
+    subgraph net {
+        
+        fontname="Titillium Web";
         fontsize="11";
         penwidth=1;
-        pencolor="transparent";
+        pencolor="none";
         node [style="filled" color="white" class="entities"]
      
 NODES
@@ -266,6 +267,7 @@ def generateSVG(data, output_path, entity_id=None, depth=3):
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('--all', '-a', default=False, action='store_true')
     parser.add_argument('--entity', '-e', type=int, default=-1)
     parser.add_argument('--depth', '-d', type=int, default=-1)
     
@@ -275,16 +277,17 @@ if __name__ == "__main__":
     data = SemanticData(pickle_file)
 
     args = parser.parse_args()
-    start = timer()
-    for i,e in enumerate(data.entities):
-        generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
-        if i>99: break
-    end = timer()
-    print(f"\nNeeded {(end-start)/60} Minutes")
-    '''
-    if args.depth > -1: depth = args.depth
-    else: depth = None
     
-    if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=depth)
-    else: generateSVG(data, svg_filepath, entity_id=None, depth=depth)
-    '''
+    if args.all:
+        start = timer()
+        for i,e in enumerate(reversed(data.entities)):
+            generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
+            if i>99: break
+        end = timer()
+        print(f"\nNeeded {(end-start)/60} Minutes")
+    else:
+        if args.depth > -1: depth = args.depth
+        else: depth = None
+        
+        if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=depth)
+        else: generateSVG(data, svg_filepath, entity_id=None, depth=depth)

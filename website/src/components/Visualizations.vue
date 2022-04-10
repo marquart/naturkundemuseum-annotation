@@ -40,17 +40,25 @@ export default {
   data() {
     if (process.env.NODE_ENV == "production") {
         return {
-            svg_src: "https://aron-marquart.de/mfn-chronik/graphs/1642.svg",
+            svg_src: "https://aron-marquart.de/mfn-chronik/graphs/12647.svg",
             showerror: false,
             info: ""
         }
     } else {
         return {
-            svg_src: require("../assets/11732.svg"),
+            svg_src: require("../assets/12647.svg"),
             showerror: false,
             info: ""
         }
     }
+  },
+
+  watch: {
+        entityId() {
+            if (process.env.NODE_ENV == "production") {
+                if (this.entityId.length > 0) this.svg_src = "https://aron-marquart.de/mfn-chronik/graphs/" + this.entityId + ".svg";
+            }
+        }
   },
 
   methods: {
@@ -73,7 +81,7 @@ export default {
         this.info = "SVG Loaded"; 
     },
     svgUnloaded() {
-        this.info = "SVG UNLoaded";
+        this.info = "SVG UnLoaded";
     },
     svgLoadError() {
         this.showerror = true;

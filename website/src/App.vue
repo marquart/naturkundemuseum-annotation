@@ -48,7 +48,7 @@ export default {
             focusStyle: {background: '#ffffff'},
             unFocusStyle: {background: '#EBEBEB'},
             mode: 0,
-            displayGraphOfEntitity: "-1",
+            displayGraphOfEntitity: "",
 
             entitiesMap: {},
             properties : [],
