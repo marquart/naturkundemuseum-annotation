@@ -187,7 +187,7 @@ class SemanticEntity(object):
         
         self.year = year
         self.institution = institution
-        self.mentions = 0 # count of how many entities are consolidated with this one
+        self.mentions = 1 # count of how many entities are consolidated with this one
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
         else: self.type = tag["SemanticClass"].strip()
@@ -299,6 +299,7 @@ class SemanticProperty(object):
                 self.source.outgoing.append(self)
                 self.target.incoming.append(self)
             else:
+                assert False
                 self.source = None
                 self.target = None
     
@@ -350,6 +351,38 @@ def parse_postprocessing(tag_string, source, anchors, corrector):
 
 
 def postprocessing(entities, properties, corrector):
+    # Person and Place as part of Acquisition
+    # Model: Person has P22 transferred title to (via Postprocessing Field in Inception) and has P53 location
+    for e in entities:
+        if e.short_type == "E21" or e.short_type == "E74": # Person or Group
+            p53, p22 = [], None
+            for p in e.outgoing:
+                if p.short_type == "P53": p53.append(p) # Person has Place
+                elif p.short_type == "P22": p22 = p # Person transferred to Collection
+                
+            if p53 and p22 is not None:
+                
+                if p22.type.endswith('E96'):
+                    acquisition = SemanticEntity({'SemanticClass':'E96 Purchase','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                    p22.type = p22.type.rstrip('E96')
+                elif p22.type.endswith('TRADE'):
+                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                    trade = SemanticEntity({'SemanticClass':'E55 Type','string':'Trade'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                    SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=acquisition, target=trade, year=e.year, institution=e.institution)
+                    p22.type = p22.type.rstrip('TRADE')
+                else:
+                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                object = SemanticEntity({'SemanticClass':'E21 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                
+                SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
+                SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=object, year=e.year, institution=e.institution)
+                
+                for p in p53: p.source = object
+                p22.source = acquisition
+                
+                #print(f"\n\nADDED ACQUISITION FOR {e.verbose()}\n\n\n")
+                
+    
     # Donation Type
     donation = None
     for e in entities:
@@ -363,8 +396,8 @@ def postprocessing(entities, properties, corrector):
                 if donation is None: donation = SemanticEntity({'SemanticClass':'E55 Type','string':'Donation'}, corrector, virtual=True, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=e, target=donation, year=e.year, institution=e.institution)
     
-    
-    entities.update(SemanticEntity.virtuals)
+
+    entities += SemanticEntity.virtuals
     properties += SemanticProperty.virtuals
     
     SemanticProperty.virtuals.clear()
@@ -372,7 +405,7 @@ def postprocessing(entities, properties, corrector):
     return entities, properties
 
 
-def consolidate_properties(property, queen, incoming=True):
+def consolidate_property(property, queen, incoming=True):
     assert isinstance(property, SemanticProperty) and isinstance(queen, SemanticEntity)
     if incoming:
         property.target = queen
@@ -381,30 +414,36 @@ def consolidate_properties(property, queen, incoming=True):
     return property
     
 
-def consolidate_entities(entities, entity_map, verbose=False):
+def consolidate_entities(entities, verbose=False):
     only_one_entity_needed = ("E55 Type", "E78 Curated Holding", "E21 Person", "E53 Place", "E28 Conceptual Object")
     uniques = defaultdict(dict)
     
+    entity_map = {e.id:e for e in entities}
+    assert len(entity_map) == len(entities)
     matches = 0
     for entity in entities:
         if entity.type in only_one_entity_needed and "chausammlung" not in entity.string:
             entity_string = entity.string.replace(' ','').lower()
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]
-                queen.incoming += [consolidate_properties(p, queen, incoming=True) for p in entity.incoming]
-                queen.outgoing += [consolidate_properties(p, queen, incoming=False) for p in entity.outgoing]
+                queen.incoming += [consolidate_property(p, queen, incoming=True) for p in entity.incoming]
+                queen.outgoing += [consolidate_property(p, queen, incoming=False) for p in entity.outgoing]
                 queen.mentions += 1
-                entity_map[entity.original_id] = queen
+                entity_map[entity.id] = queen
                 matches += 1
                 if verbose: print(f"    Resolved {entity}({entity.id}) to {queen}({queen.id})")
             else:
                 uniques[entity.type][entity_string] = entity
     
     result = set(entity_map.values())
-    assert len(entities)-matches == len(result)
+    #assert len(entities)-matches == len(result)
+    if len(entities)-matches != len(result):
+        print(f"{len(entities)}-{matches} != {len(result)}")
+        print('\n'.join(e.verbose() for e in set(entities).difference(result)))
+        exit()
     
     if verbose: print(f"{len(entities)} Entities resolved to {len(result)} Entities")
-    return result, entity_map
+    return result
 
 
 def set_anchors(anchors):
@@ -451,9 +490,7 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     
     set_anchors(anchors)
     entity_map = {e.original_id:e for e in entities}
-    if consolidate: entities, entity_map = consolidate_entities(entities, entity_map) # Types and Holdings
-    else: entities = set(entities)
-    
+
     properties = [SemanticProperty(tag, entity_map, year=year, institution=institution) for tag in xml.find_all("custom:SemanticRelations")]
     
     if verbose: print(f"    Parsed {len(properties)} original and {len(SemanticProperty.virtuals)} virtual Properties\n")
@@ -465,6 +502,10 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     SemanticEntity.virtuals.clear()
     
     entities, properties = postprocessing(entities, properties, corrector)
+    
+    if consolidate: entities = consolidate_entities(entities) # Types and Holdings
+    else: entities = set(entities)
+    
     assert len(set(e.id for e in entities)) == len(entities)
     return text, corrector.lines, entities, properties
 
