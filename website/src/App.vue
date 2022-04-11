@@ -26,13 +26,13 @@
 </template>
 
 <script>
-import Info from './components/Info.vue'
-import QueryText from './components/QueryText.vue'
+import Info from './components/Info.vue';
+import QueryText from './components/QueryText.vue';
 //import Query from './components/Query.vue'
-import Visualizations from './components/Visualizations.vue'
+import Visualizations from './components/Visualizations.vue';
 
-import SemanticData from './data/webdata.json'
-import SemanticClassStats from './data/class_stats.json'
+import SemanticData from './data/webdata.json';
+import SemanticClassStats from './data/class_stats.json';
 
 
 export default {

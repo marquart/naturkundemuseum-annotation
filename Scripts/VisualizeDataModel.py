@@ -109,18 +109,18 @@ digraph Annotationen {
     bgcolor="transparent";
     rankdir="LR";
 
-    fontname="sans-serif";
+    fontname="Titillium Web";
     fontsize="11";
-    node [shape=record fontname="sans-serif" fontsize="11" penwidth=1];
+    node [shape=record fontname="Titillium Web" fontsize="11" penwidth=1];
     edge [fontname="sans-serif" fontsize="10" penwidth=1];
     splines="ortho";
     penwidth=8;
     
     {
     
-    subgraph cluster_net {
+    subgraph net {
         label="GRAPHLABEL";
-        fontname="sans-serif";
+        fontname="Titillium Web";
         fontsize="11";
         penwidth=1;
         pencolor="transparent";

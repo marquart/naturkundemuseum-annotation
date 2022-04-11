@@ -11,6 +11,8 @@ from timeit import default_timer as timer
 
 from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
 
+# for Temp Website
+import random, json
 
 class Node(object):
     def __init__(self, entity=None, _id=0, label="", style="bold"):
@@ -279,12 +281,18 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.all:
+        temp_export = []
         start = timer()
         for i,e in enumerate(reversed(data.entities)):
-            generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
-            if i>99: break
+            if not i%20:
+                generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
+                temp_export.append(f"https://aron-marquart.de/mfn-chronik/graphs/{e.id}.svg")
+                if len(temp_export)>99: break
         end = timer()
+        random.shuffle(temp_export)
         print(f"\nNeeded {(end-start)/60} Minutes")
+        with open("../Website/src/data/Temp_SVG_Lookup.json", 'w', encoding="UTF-8") as f:
+            json.dump(temp_export, f)
     else:
         if args.depth > -1: depth = args.depth
         else: depth = None

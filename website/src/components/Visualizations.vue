@@ -25,6 +25,7 @@
 
 <script>
 import InlineSvg from 'vue-inline-svg';
+import TempSVGLocations from '../data/Temp_SVG_Lookup.json';
 //import InlineSvg from './InlineSVG.vue'
 
 export default {
@@ -40,9 +41,11 @@ export default {
   data() {
     if (process.env.NODE_ENV == "production") {
         return {
-            svg_src: "https://aron-marquart.de/mfn-chronik/graphs/12647.svg",
+            svg_src: "https://aron-marquart.de/mfn-chronik/graphs/10420.svg",
             showerror: false,
-            info: ""
+            info: "",
+            temp_cursor: 0,
+            temp_svg_locations: TempSVGLocations
         }
     } else {
         return {
@@ -56,7 +59,10 @@ export default {
   watch: {
         entityId() {
             if (process.env.NODE_ENV == "production") {
-                if (this.entityId.length > 0) this.svg_src = "https://aron-marquart.de/mfn-chronik/graphs/" + this.entityId + ".svg";
+                //if (this.entityId.length > 0) this.svg_src = "https://aron-marquart.de/mfn-chronik/graphs/" + this.entityId + ".svg";
+                this.temp_cursor += 1;
+                if (this.temp_cursor > this.temp_svg_locations.length-1) this.temp_cursor = 0;
+                this.svg_src = this.temp_svg_locations[this.temp_cursor];
             }
         }
   },
@@ -81,10 +87,11 @@ export default {
         this.info = "SVG Loaded"; 
     },
     svgUnloaded() {
-        this.info = "SVG UnLoaded";
+        this.info = "SVG Unloaded";
     },
     svgLoadError() {
         this.showerror = true;
+        this.info = "Unable to load SVG";
     }
   },
 
