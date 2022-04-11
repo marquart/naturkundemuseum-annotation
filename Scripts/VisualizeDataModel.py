@@ -124,7 +124,7 @@ digraph Annotationen {
         fontsize="11";
         penwidth=1;
         pencolor="transparent";
-        node [style="filled" color="white" class="entities"]
+        node [style="filled" color="white" class="semanticentity"]
      
 NODES
 PROPERTIES

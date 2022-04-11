@@ -21,15 +21,18 @@ class Node(object):
             self.id = entity.id
             self.label = f"{entity.type}<BR/>({entity.id})|{entity.string}"
             self.style = style
+            self.class_ = "semanticentity"
             
         else:
             self.entity = None
             self.id = _id
             self.label = label
             self.style = style
+            self.class_ = "neighborentity"
         
     def __str__(self):
-        return f"N{self.id}".replace('-','_')
+        if self.id < 0: return f"V{self.id}".replace('-','_')
+        return f"N{self.id}"
         
 class Arrow(object):
     def __init__(self, property, source, target, _id=0, verbose_label=""):
@@ -221,7 +224,7 @@ digraph Annotationen {
         fontsize="11";
         penwidth=1;
         pencolor="none";
-        node [style="filled" color="white" class="entities"]
+        node [style="filled" color="white"]
      
 NODES
 
@@ -236,7 +239,7 @@ NODES
     if tree is None: _, nodes, arrows = build_tree(entity, depth=depth)
     else: nodes, arrows = tree[0], tree[1]
     
-    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
+    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))
