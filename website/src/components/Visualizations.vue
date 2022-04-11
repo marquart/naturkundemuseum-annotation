@@ -3,30 +3,19 @@
         <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
         <p>{{info}}</p>
         <inline-svg 
-            v-if="!showerror"
+            id="graphviz"
+            v-show="!showerror"
             :src="svg_src"
             @loaded="svgLoaded()"
             @unloaded="svgUnloaded()"
             @error="svgLoadError()"
         ></inline-svg>
-
-        <!--
-            :transformSource="makeNodesClickable"
-
-        <a href="../assets/11536.svg" target="_blank">
-            <img class="graph"
-                src="../assets/11536.svg"
-                alt="Neighborhood graph for Entity 11536"
-            />
-        </a>
-        -->
     </div>
 </template>
 
 <script>
 import InlineSvg from 'vue-inline-svg';
 import TempSVGLocations from '../data/Temp_SVG_Lookup.json';
-//import InlineSvg from './InlineSVG.vue'
 
 export default {
   name: 'Visualizations',
@@ -41,11 +30,18 @@ export default {
   data() {
     if (process.env.NODE_ENV == "production") {
         return {
+            backend: "https://aron-marquart.de/mfn-chronik/graphs/",
             svg_src: "https://aron-marquart.de/mfn-chronik/graphs/10420.svg",
             showerror: false,
             info: "",
+            listeners: [],
+            cursorId: '',
+
+            // only temporary:
+            temp_fetching: true,
             temp_cursor: 0,
-            temp_svg_locations: TempSVGLocations
+            temp_svg_locations: TempSVGLocations,
+
         }
     } else {
         return {
@@ -58,33 +54,44 @@ export default {
 
   watch: {
         entityId() {
-            if (process.env.NODE_ENV == "production") {
-                //if (this.entityId.length > 0) this.svg_src = "https://aron-marquart.de/mfn-chronik/graphs/" + this.entityId + ".svg";
-                this.temp_cursor += 1;
-                if (this.temp_cursor > this.temp_svg_locations.length-1) this.temp_cursor = 0;
-                this.svg_src = this.temp_svg_locations[this.temp_cursor];
-            }
+            this.requestSVG(this.entityId);
         }
   },
 
   methods: {
-    makeNodesClickable(svg) {
-        let entities = svg.getElementsByClassName('entities');
-        console.log(entities);
-
-        for (let element of entities) {
-            element.setAttribute('pointer-events','bounding-box');
-            element.setAttribute('click',this.requestSVG);
+    requestSVG(entityID) {
+        if (process.env.NODE_ENV == "production") {
+            if (entityID.length > 0 && entityID !== this.cursorId) {
+                this.removeListeners();
+                this.cursorId = entityID;
+                if (this.temp_fetching) this.svg_src = this.next_temp_svg();
+                else this.svg_src = this.buildSVGUrl(entityID);
+            }
         }
-
-
-        return svg;
     },
-    requestSVG(event) {
-        console.log(event.target);
+    requestSVGinternal(event) {
+        event.stopPropagation();
+        let targetID = event.currentTarget.id;
+        if (targetID.startsWith('N')) this.requestSVG(targetID.slice(1));
+    },
+    buildSVGUrl(entityId) {
+        return this.backend + entityId + ".svg"
+    },
+    makeNodesClickable() {
+        let svg = document.getElementById('graphviz')
+        this.listeners = [...svg.getElementsByClassName('semanticentity')];
+        this.listeners.forEach((e) => {
+            e.addEventListener("click", this.requestSVGinternal, false);
+        });
+    },
+    removeListeners(){
+        this.listeners.forEach((e) => {
+            e.removeEventListener('click', this.requestSVGinternal, false);
+        });
     },
     svgLoaded() {
-        this.info = "SVG Loaded"; 
+        this.makeNodesClickable();
+        this.info = "SVG Loaded";
     },
     svgUnloaded() {
         this.info = "SVG Unloaded";
@@ -92,6 +99,12 @@ export default {
     svgLoadError() {
         this.showerror = true;
         this.info = "Unable to load SVG";
+    },
+    next_temp_svg() {
+        this.temp_cursor += 1;
+        if (this.temp_cursor > this.temp_svg_locations.length-1) this.temp_cursor = 0;
+        return this.temp_svg_locations[this.temp_cursor];
+
     }
   },
 
@@ -99,16 +112,17 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
     .graph {
         
     }
 
-    g.entities {
-        pointer-events: all;
+    g.semanticentity {
+        visibility: visible;
+        pointer-events: visible;
     }
 
-    g.entities:hover {
+    g.semanticentity:hover {
         cursor: pointer;
     }
 </style>

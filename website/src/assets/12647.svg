@@ -47,7 +47,7 @@
 <text text-anchor="start" x="52.5" y="-34.2" font-family="Titillium Web" font-size="11.00"> shows features of</text>
 </g>
 <!-- N12647 -->
-<g id="node2" class="node entities">
+<g id="N12647" class="node semanticentity">
 <title>N12647</title>
 <polygon fill="#50c4c2" fill-opacity="0.666667" stroke="black" points="553.5,-549 553.5,-601 641.5,-601 641.5,-549 553.5,-549"/>
 <text text-anchor="start" x="561.5" y="-588.2" font-family="Titillium Web" font-size="11.00">E54 Dimension</text>
@@ -56,7 +56,7 @@
 <text text-anchor="start" x="582" y="-556.2" font-family="Titillium Web" font-size="11.00">36000</text>
 </g>
 <!-- N12648 -->
-<g id="node3" class="node entities">
+<g id="N12648" class="node semanticentity">
 <title>N12648</title>
 <polygon fill="#5a50c4" fill-opacity="0.666667" stroke="white" points="297,-407 297,-459 406,-459 406,-407 297,-407"/>
 <text text-anchor="start" x="305" y="-446.2" font-family="Titillium Web" font-size="11.00">E19 Physical Object</text>
@@ -72,7 +72,7 @@
 <text text-anchor="middle" x="371.93" y="-567" font-family="Titillium Web" font-size="10.00">P43</text>
 </g>
 <!-- N12645 -->
-<g id="node4" class="node entities">
+<g id="N12645" class="node semanticentity">
 <title>N12645</title>
 <polygon fill="#06b67e" fill-opacity="0.666667" stroke="white" points="536,-478 536,-530 659,-530 659,-478 536,-478"/>
 <text text-anchor="start" x="544" y="-517.2" font-family="Titillium Web" font-size="11.00">E28 Conceptual Object</text>
@@ -88,7 +88,7 @@
 <text text-anchor="middle" x="414.65" y="-496" font-family="Titillium Web" font-size="10.00">P130</text>
 </g>
 <!-- N12650 -->
-<g id="node5" class="node entities">
+<g id="N12650" class="node semanticentity">
 <title>N12650</title>
 <polygon fill="#06b67e" fill-opacity="0.666667" stroke="white" points="536,-407 536,-459 659,-459 659,-407 536,-407"/>
 <text text-anchor="start" x="544" y="-446.2" font-family="Titillium Web" font-size="11.00">E28 Conceptual Object</text>
@@ -104,7 +104,7 @@
 <text text-anchor="middle" x="454.9" y="-425" font-family="Titillium Web" font-size="10.00">P130</text>
 </g>
 <!-- N12651 -->
-<g id="node6" class="node entities">
+<g id="N12651" class="node semanticentity">
 <title>N12651</title>
 <polygon fill="#fc7715" fill-opacity="0.666667" stroke="white" points="556,-336 556,-388 639,-388 639,-336 556,-336"/>
 <text text-anchor="start" x="574" y="-375.2" font-family="Titillium Web" font-size="11.00">E53 Place</text>
@@ -120,7 +120,7 @@
 <text text-anchor="middle" x="417.65" y="-354" font-family="Titillium Web" font-size="10.00">P53</text>
 </g>
 <!-- N12633 -->
-<g id="node8" class="node entities">
+<g id="N12633" class="node semanticentity">
 <title>N12633</title>
 <polygon fill="#06b67e" fill-opacity="0.666667" stroke="white" points="813.5,-478 813.5,-530 873.5,-530 873.5,-478 813.5,-478"/>
 <text text-anchor="start" x="821.5" y="-517.2" font-family="Titillium Web" font-size="11.00">E55 Type</text>
@@ -136,7 +136,7 @@
 <text text-anchor="middle" x="725.37" y="-496" font-family="Titillium Web" font-size="10.00">P2</text>
 </g>
 <!-- N12649 -->
-<g id="node9" class="node entities">
+<g id="N12649" class="node semanticentity">
 <title>N12649</title>
 <polygon fill="#50c4c2" fill-opacity="0.666667" stroke="white" points="799.5,-407 799.5,-459 887.5,-459 887.5,-407 799.5,-407"/>
 <text text-anchor="start" x="807.5" y="-446.2" font-family="Titillium Web" font-size="11.00">E54 Dimension</text>
@@ -152,7 +152,7 @@
 <text text-anchor="middle" x="715.72" y="-425" font-family="Titillium Web" font-size="10.00">P43</text>
 </g>
 <!-- N12644 -->
-<g id="node7" class="node entities">
+<g id="N12644" class="node semanticentity">
 <title>N12644</title>
 <polygon fill="#fc3915" fill-opacity="0.666667" stroke="white" points="64,-241 64,-293 147,-293 147,-241 64,-241"/>
 <text text-anchor="start" x="72" y="-280.2" font-family="Titillium Web" font-size="11.00">E8 Acquisition</text>
@@ -168,7 +168,7 @@
 <text text-anchor="middle" x="117.85" y="-425" font-family="Titillium Web" font-size="10.00">P24</text>
 </g>
 <!-- N12616 -->
-<g id="node10" class="node entities">
+<g id="N12616" class="node semanticentity">
 <title>N12616</title>
 <polygon fill="#b560d4" fill-opacity="0.666667" stroke="white" points="295,-277 295,-329 408,-329 408,-277 295,-277"/>
 <text text-anchor="start" x="303" y="-316.2" font-family="Titillium Web" font-size="11.00">E78 Curated Holding</text>
@@ -184,7 +184,7 @@
 <text text-anchor="middle" x="207.5" y="-277" font-family="Titillium Web" font-size="10.00">P22</text>
 </g>
 <!-- N12628 -->
-<g id="node11" class="node entities">
+<g id="N12628" class="node semanticentity">
 <title>N12628</title>
 <polygon fill="#3b95c4" fill-opacity="0.666667" stroke="white" points="269,-206 269,-258 434,-258 434,-206 269,-206"/>
 <text text-anchor="start" x="324" y="-245.2" font-family="Titillium Web" font-size="11.00">E21 Person</text>
@@ -200,7 +200,7 @@
 <text text-anchor="middle" x="194.58" y="-244.5" font-family="Titillium Web" font-size="10.00">P23</text>
 </g>
 <!-- N12652 -->
-<g id="node12" class="node entities">
+<g id="N12652" class="node semanticentity">
 <title>N12652</title>
 <polygon fill="#06b67e" fill-opacity="0.666667" stroke="white" points="321.5,-135 321.5,-187 381.5,-187 381.5,-135 321.5,-135"/>
 <text text-anchor="start" x="329.5" y="-174.2" font-family="Titillium Web" font-size="11.00">E55 Type</text>
@@ -215,62 +215,62 @@
 <polygon fill="black" stroke="black" points="311.46,-164.5 321.46,-161 311.46,-157.5 311.46,-164.5"/>
 <text text-anchor="middle" x="234.5" y="-206.97" font-family="Titillium Web" font-size="10.00">P2</text>
 </g>
-<!-- N_12633 -->
-<g id="node13" class="node entities">
-<title>N_12633</title>
+<!-- V_12633 -->
+<g id="V_12633" class="node semanticentity">
+<title>V_12633</title>
 <polygon fill="lightgrey" stroke="white" points="1049.5,-484 1049.5,-524 1129.5,-524 1129.5,-484 1049.5,-484"/>
 <text text-anchor="start" x="1086" y="-511.2" font-family="Titillium Web" font-size="11.00">...</text>
 <polyline fill="none" stroke="white" points="1049.5,-504 1129.5,-504 "/>
 <text text-anchor="start" x="1057.5" y="-491.2" font-family="Titillium Web" font-size="11.00">4 Neighbours</text>
 </g>
-<!-- N12633&#45;&gt;N_12633 -->
+<!-- N12633&#45;&gt;V_12633 -->
 <g id="edge1" class="edge">
-<title>N12633&#45;&gt;N_12633</title>
+<title>N12633&#45;&gt;V_12633</title>
 <path fill="none" stroke="black" d="M873.66,-504C873.66,-504 1039.29,-504 1039.29,-504"/>
 <polygon fill="black" stroke="black" points="1039.29,-507.5 1049.29,-504 1039.29,-500.5 1039.29,-507.5"/>
 <text text-anchor="middle" x="952.98" y="-496" font-family="Titillium Web" font-size="10.00">...</text>
 </g>
-<!-- N_12616 -->
-<g id="node14" class="node entities">
-<title>N_12616</title>
+<!-- V_12616 -->
+<g id="V_12616" class="node semanticentity">
+<title>V_12616</title>
 <polygon fill="lightgrey" stroke="white" points="557.5,-277 557.5,-317 637.5,-317 637.5,-277 557.5,-277"/>
 <text text-anchor="start" x="594" y="-304.2" font-family="Titillium Web" font-size="11.00">...</text>
 <polyline fill="none" stroke="white" points="557.5,-297 637.5,-297 "/>
 <text text-anchor="start" x="565.5" y="-284.2" font-family="Titillium Web" font-size="11.00">3 Neighbours</text>
 </g>
-<!-- N12616&#45;&gt;N_12616 -->
+<!-- N12616&#45;&gt;V_12616 -->
 <g id="edge2" class="edge">
-<title>N12616&#45;&gt;N_12616</title>
+<title>N12616&#45;&gt;V_12616</title>
 <path fill="none" stroke="black" d="M408.25,-297C408.25,-297 547.15,-297 547.15,-297"/>
 <polygon fill="black" stroke="black" points="547.15,-300.5 557.15,-297 547.15,-293.5 547.15,-300.5"/>
 <text text-anchor="middle" x="474.2" y="-289" font-family="Titillium Web" font-size="10.00">...</text>
 </g>
-<!-- N_12628 -->
-<g id="node15" class="node entities">
-<title>N_12628</title>
+<!-- V_12628 -->
+<g id="V_12628" class="node semanticentity">
+<title>V_12628</title>
 <polygon fill="lightgrey" stroke="white" points="557.5,-212 557.5,-252 637.5,-252 637.5,-212 557.5,-212"/>
 <text text-anchor="start" x="594" y="-239.2" font-family="Titillium Web" font-size="11.00">...</text>
 <polyline fill="none" stroke="white" points="557.5,-232 637.5,-232 "/>
 <text text-anchor="start" x="565.5" y="-219.2" font-family="Titillium Web" font-size="11.00">6 Neighbours</text>
 </g>
-<!-- N12628&#45;&gt;N_12628 -->
+<!-- N12628&#45;&gt;V_12628 -->
 <g id="edge3" class="edge">
-<title>N12628&#45;&gt;N_12628</title>
+<title>N12628&#45;&gt;V_12628</title>
 <path fill="none" stroke="black" d="M434.1,-232C434.1,-232 547.19,-232 547.19,-232"/>
 <polygon fill="black" stroke="black" points="547.19,-235.5 557.19,-232 547.19,-228.5 547.19,-235.5"/>
 <text text-anchor="middle" x="487.14" y="-224" font-family="Titillium Web" font-size="10.00">...</text>
 </g>
-<!-- N_12652 -->
-<g id="node16" class="node entities">
-<title>N_12652</title>
+<!-- V_12652 -->
+<g id="V_12652" class="node semanticentity">
+<title>V_12652</title>
 <polygon fill="lightgrey" stroke="white" points="557.5,-141 557.5,-181 637.5,-181 637.5,-141 557.5,-141"/>
 <text text-anchor="start" x="594" y="-168.2" font-family="Titillium Web" font-size="11.00">...</text>
 <polyline fill="none" stroke="white" points="557.5,-161 637.5,-161 "/>
 <text text-anchor="start" x="565.5" y="-148.2" font-family="Titillium Web" font-size="11.00">5 Neighbours</text>
 </g>
-<!-- N12652&#45;&gt;N_12652 -->
+<!-- N12652&#45;&gt;V_12652 -->
 <g id="edge4" class="edge">
-<title>N12652&#45;&gt;N_12652</title>
+<title>N12652&#45;&gt;V_12652</title>
 <path fill="none" stroke="black" d="M381.66,-161C381.66,-161 547.29,-161 547.29,-161"/>
 <polygon fill="black" stroke="black" points="547.29,-164.5 557.29,-161 547.29,-157.5 547.29,-164.5"/>
 <text text-anchor="middle" x="460.98" y="-153" font-family="Titillium Web" font-size="10.00">...</text>

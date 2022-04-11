@@ -165,4 +165,11 @@ export default {
         height: 0.9em;
     }
 
+    @media screen and (max-width: 700px) {
+        .card {
+            grid-template-columns: auto;
+        }
+    
+    }
+
 </style>

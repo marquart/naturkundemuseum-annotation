@@ -201,4 +201,16 @@ export default {
         float:left;
         margin-right: 10px;*/
     }
+
+    @media screen and (max-width: 700px) {
+        #heading  {
+            grid: 
+                'logo'
+                'headingText';
+        }
+
+        #navigation {
+            grid-template-columns: auto;
+        }
+    }
 </style>
