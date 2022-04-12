@@ -202,6 +202,7 @@ def calculate_optimal_tree(entity, optimal_nodes=13):
 def generate_DOT(entity, depth=3, tree=None):
     template = """
 digraph Annotationen {
+    labelloc="t";
     label="GRAPHLABEL";
     bgcolor="none";
     rankdir="LR";
@@ -218,11 +219,7 @@ digraph Annotationen {
     subgraph legend {
         LEGEND
     }
-    subgraph net {
-        
-        fontname="Titillium Web";
-        fontsize="11";
-        penwidth=1;
+    subgraph neighborhood {
         pencolor="none";
         node [style="filled" color="white"]
      

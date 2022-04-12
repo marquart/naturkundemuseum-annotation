@@ -45,14 +45,16 @@ class OCRCorrection(object):
 
 class Corrector(object):
     def __init__(self, tags, text):
-        self.corrections = sorted([OCRCorrection(tag, text) for tag in tags], key=attrgetter('begin'))
-        self.offsets     = {}
-        self.text        = text
-        self.pagenumbers = {}
-        self.linenumbers = {}
+        self.corrections       = sorted([OCRCorrection(tag, text) for tag in tags], key=attrgetter('begin'))
+        self.offsets           = {}
+        self.text              = text
+        self.pagenumbers       = {}
+        self.linenumbers       = {}
         self.lineidx_from_orig = {0:0,}
-        self.lines       = []
-        self.cleaner     = str.maketrans("\n", " ", "\r‑-­")
+        self.lines             = []
+        self.strict_cleaner    = str.maketrans("", "", " \n\r‑-­")
+        self.cleaner_for_incorrect_linebreaks = str.maketrans("­", "-", "\n\r")
+        self.cleaner           = str.maketrans("", "", "\n\r­")
         
     def __len__(self):
         return len(self.corrections)
@@ -90,9 +92,15 @@ class Corrector(object):
         self.delete_meaningless_lines()
         return self.text
     
+    def strict_clean(self, txt):
+        return txt.translate(self.strict_cleaner)
+    
     def clean(self, txt):
-        #return txt.replace('\r\n', ' ').replace('\n', ' ').replace('‑', '').replace('-', '').replace('­', '')
-        return txt.strip().translate(self.cleaner)
+        txt = txt.strip()
+        if (soft_hyphen := txt.find('­')) > -1:
+            if soft_hyphen < len(txt)-1 and txt[soft_hyphen+1].isupper():
+                return txt.translate(self.cleaner_for_incorrect_linebreaks)
+        return txt.translate(self.cleaner)
     
     def set_pagenumbers(self):
         BEGIN_PATTERN = re.compile(r"====PAGEBEGIN (\d+?)====\r?\n\r?\n", flags=re.MULTILINE)
@@ -179,8 +187,8 @@ class SemanticEntity(object):
     virtuals = []
     next_id  = 0
     SHORT_TYPE_PATTERN = re.compile(r"^(E\d+?) ")
-    def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None):
-        ''''''
+    def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None):
+        '''virtual_origin: source from which virtual entity gets added in Postprocessing for page and line numbers'''
         self.id = self.next_id
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
         SemanticEntity.next_id += 1
@@ -196,15 +204,22 @@ class SemanticEntity(object):
         self.outgoing = []
         
         if virtual:
-            self.original_id = f"V{self.id}"
-            self.virtual     = True
-            self.begin       = None
-            self.end         = None
-            self.string      = corrector.clean(tag["string"])
-            self.page        = -1
-            self.line        = -1
-            self.line_idx    = 0
+            self.original_id   = f"V{self.id}"
+            self.virtual       = True
+            self.begin         = None
+            self.end           = None
+            self.string        = corrector.clean(tag["string"])
+            self.search_string = corrector.strict_clean(self.string)
             SemanticEntity.virtuals.append(self)
+            if virtual_origin and isinstance(virtual_origin, SemanticEntity):
+                self.page          = virtual_origin.page
+                self.line          = virtual_origin.line
+                self.line_idx      = virtual_origin.line_idx
+            else:
+                self.page          = -1
+                self.line          = -1
+                self.line_idx      = 0
+            
         else:
             self.original_id = int(tag["xmi:id"])
             virtual_from_source = False
@@ -219,18 +234,20 @@ class SemanticEntity(object):
                 virtual_from_source = tag["Virtual"] == "true"
             
             if virtual_from_source and self.short_type not in ("E78","E21","E53","E28","E74"):
-                self.virtual = True
-                self.begin   = None
-                self.end     = None
-                self.string  = "(implicit) Unknown"
-                self.page    = corrector.get_pagenumber(char_begin)
-                self.line    = corrector.get_linenumber(char_begin)
-                self.line_idx= corrector.get_lineidx(char_begin)
+                self.virtual       = True
+                self.begin         = None
+                self.end           = None
+                self.string        = "(implicit) Unknown"
+                self.search_string = corrector.strict_clean(self.string)
+                self.page          = corrector.get_pagenumber(char_begin)
+                self.line          = corrector.get_linenumber(char_begin)
+                self.line_idx      = corrector.get_lineidx(char_begin)
             else:
                 self.virtual = False
                 self.begin   = corrector.offset(char_begin)
                 self.end     = corrector.offset(char_end)
-                self.string  = corrector.clean(corrector.text[self.begin:self.end]) # self.clean(corrector.text[self.begin:self.end])
+                self.string  = corrector.clean(corrector.text[self.begin:self.end])
+                self.search_string = corrector.strict_clean(self.string)
                 self.page    = corrector.get_pagenumber(char_begin)
                 self.line    = corrector.get_linenumber(char_begin)
                 self.line_idx= corrector.get_lineidx(char_begin)
@@ -363,16 +380,16 @@ def postprocessing(entities, properties, corrector):
             if p53 and p22 is not None:
                 
                 if p22.type.endswith('E96'):
-                    acquisition = SemanticEntity({'SemanticClass':'E96 Purchase','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                    acquisition = SemanticEntity({'SemanticClass':'E96 Purchase','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                     p22.type = p22.type.rstrip('E96')
                 elif p22.type.endswith('TRADE'):
-                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                     trade = SemanticEntity({'SemanticClass':'E55 Type','string':'Trade'}, corrector, virtual=True, year=e.year, institution=e.institution)
                     SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=acquisition, target=trade, year=e.year, institution=e.institution)
                     p22.type = p22.type.rstrip('TRADE')
                 else:
-                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
-                object = SemanticEntity({'SemanticClass':'E21 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                object = SemanticEntity({'SemanticClass':'E21 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                 
                 SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=object, year=e.year, institution=e.institution)
@@ -423,7 +440,7 @@ def consolidate_entities(entities, verbose=False):
     matches = 0
     for entity in entities:
         if entity.type in only_one_entity_needed and "chausammlung" not in entity.string:
-            entity_string = entity.string.replace(' ','').lower()
+            entity_string = entity.search_string
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]
                 queen.incoming += [consolidate_property(p, queen, incoming=True) for p in entity.incoming]
@@ -545,7 +562,7 @@ def serialize(obj, stringify=True):
         "short_type": obj.short_type,
         "virtual": obj.virtual,
         "text": obj.string,
-        "lowered_text": obj.string.lower(),
+        "search_string": obj.search_string,
         "begin": obj.begin,
         "end": obj.end,
         "page": obj.page,
