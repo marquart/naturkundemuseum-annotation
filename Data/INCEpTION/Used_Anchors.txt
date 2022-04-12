@@ -59,8 +59,8 @@
     anchor11 : E21 Person: 'W. Weltner' (3384, Zoologisches Institut und zoologische Sammlung 1891)
 
 1892, Zoologisches Institut und zoologische Sammlung:
-    anchor2  : E52 Time-Span: 'SommerHalbjahr' (3504, Zoologisches Institut und zoologische Sammlung 1892)
-    anchor3  : E52 Time-Span: 'WinterHalbjahr' (3523, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor2  : E52 Time-Span: 'Sommer-Halbjahr' (3504, Zoologisches Institut und zoologische Sammlung 1892)
+    anchor3  : E52 Time-Span: 'Winter-Halbjahr' (3523, Zoologisches Institut und zoologische Sammlung 1892)
     anchor9  : E78 Curated Holding: 'zoologischen Sammlung' (3562, Zoologisches Institut und zoologische Sammlung 1892)
     anchor10 : E78 Curated Holding: 'Molluskensammlung' (3703, Zoologisches Institut und zoologische Sammlung 1892)
     anchor11 : E52 Time-Span: 'Ende März 1898' (3752, Zoologisches Institut und zoologische Sammlung 1892)

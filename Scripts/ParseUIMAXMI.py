@@ -54,7 +54,8 @@ class Corrector(object):
         self.lines             = []
         self.strict_cleaner    = str.maketrans("", "", " \n\r‑-­")
         self.cleaner_for_incorrect_linebreaks = str.maketrans("­", "-", "\n\r")
-        self.cleaner           = str.maketrans("", "", "\n\r­")
+        self.cleaner_for_correct_linebreaks = str.maketrans("", "", "\n\r­")
+        self.cleaner           = str.maketrans("\n", " ", "\r­")
         
     def __len__(self):
         return len(self.corrections)
@@ -100,6 +101,8 @@ class Corrector(object):
         if (soft_hyphen := txt.find('­')) > -1:
             if soft_hyphen < len(txt)-1 and txt[soft_hyphen+1].isupper():
                 return txt.translate(self.cleaner_for_incorrect_linebreaks)
+            else:
+                return txt.translate(self.cleaner_for_correct_linebreaks)
         return txt.translate(self.cleaner)
     
     def set_pagenumbers(self):
@@ -209,7 +212,7 @@ class SemanticEntity(object):
             self.begin         = None
             self.end           = None
             self.string        = corrector.clean(tag["string"])
-            self.search_string = corrector.strict_clean(self.string)
+            self.search_string = corrector.strict_clean(self.string).lower()
             SemanticEntity.virtuals.append(self)
             if virtual_origin and isinstance(virtual_origin, SemanticEntity):
                 self.page          = virtual_origin.page
@@ -238,7 +241,7 @@ class SemanticEntity(object):
                 self.begin         = None
                 self.end           = None
                 self.string        = "(implicit) Unknown"
-                self.search_string = corrector.strict_clean(self.string)
+                self.search_string = corrector.strict_clean(self.string).lower()
                 self.page          = corrector.get_pagenumber(char_begin)
                 self.line          = corrector.get_linenumber(char_begin)
                 self.line_idx      = corrector.get_lineidx(char_begin)
@@ -247,7 +250,7 @@ class SemanticEntity(object):
                 self.begin   = corrector.offset(char_begin)
                 self.end     = corrector.offset(char_end)
                 self.string  = corrector.clean(corrector.text[self.begin:self.end])
-                self.search_string = corrector.strict_clean(self.string)
+                self.search_string = corrector.strict_clean(self.string).lower()
                 self.page    = corrector.get_pagenumber(char_begin)
                 self.line    = corrector.get_linenumber(char_begin)
                 self.line_idx= corrector.get_lineidx(char_begin)

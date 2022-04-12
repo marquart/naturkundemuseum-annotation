@@ -5,6 +5,7 @@ from itertools import chain
 import re
 import pickle
 import argparse
+import html
 from subprocess import run
 
 from timeit import default_timer as timer
@@ -19,7 +20,7 @@ class Node(object):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
-            self.label = f"{entity.type}<BR/>({entity.id})|{entity.string}"
+            self.label = f"{entity.type}<BR/>({entity.id})|{html.escape(entity.string)}"
             self.style = style
             self.class_ = "semanticentity"
             
@@ -241,9 +242,12 @@ NODES
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))
     legend = sorted({a.label:a for a in arrows}.values(), key=attrgetter("index"))
-    legend = "".join(f'<TR><TD ALIGN="left">{a.label}</TD><TD ALIGN="left">{a.verbose_label}</TD></TR>' for a in legend)
-    with_legend = with_arrows.replace("LEGEND", f'    legend1 [shape=none label=<<TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4">{legend}</TABLE>>];')
-    
+    if legend:
+        legend = "".join(f'<TR><TD ALIGN="left">{a.label}</TD><TD ALIGN="left">{a.verbose_label}</TD></TR>' for a in legend)
+        with_legend = with_arrows.replace("LEGEND", f'    legend1 [shape=none label=<<TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4">{legend}</TABLE>>];')
+    else:
+        # Not connected to any other Entity :(
+        with_legend = with_arrows.replace("LEGEND", "")
     return with_legend
     
 def generateSVG(data, output_path, entity_id=None, depth=3):
@@ -281,18 +285,18 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.all:
-        temp_export = []
+        #temp_export = []
         start = timer()
         for i,e in enumerate(reversed(data.entities)):
-            if not i%20:
-                generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
-                temp_export.append(f"https://aron-marquart.de/mfn-chronik/graphs/{e.id}.svg")
-                if len(temp_export)>99: break
+            #if not i%20:
+            generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
+                #temp_export.append(f"https://aron-marquart.de/mfn-chronik/graphs/{e.id}.svg")
+                #if len(temp_export)>99: break
         end = timer()
-        random.shuffle(temp_export)
+        #random.shuffle(temp_export)
         print(f"\nNeeded {(end-start)/60} Minutes")
-        with open("../Website/src/data/Temp_SVG_Lookup.json", 'w', encoding="UTF-8") as f:
-            json.dump(temp_export, f)
+        #with open("../Website/src/data/Temp_SVG_Lookup.json", 'w', encoding="UTF-8") as f:
+            #json.dump(temp_export, f)
     else:
         if args.depth > -1: depth = args.depth
         else: depth = None
