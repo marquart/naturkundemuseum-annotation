@@ -27,7 +27,8 @@ export default {
         properties: Array,
         entities: Array,
         texts: Object,
-        stats: Object
+        stats: Object,
+        showSingleEntity: Object
     },
 
     data() {
@@ -37,6 +38,7 @@ export default {
             searchString: '',
             searchClass: '',
             searchResults: [],
+            lastSingleEntity: null,
 
             history: [],
             historyCursor: -1,
@@ -45,14 +47,24 @@ export default {
         }
     },
 
+    watch: {
+        showSingleEntity() {
+            if (this.showSingleEntity != null) {
+                this.lastSingleEntity = this.showSingleEntity;
+                this.showOneEntity(this.lastSingleEntity);
+            }
+        }
+    },
+
     methods: {
         getDataFromComponents() {
             let sourceData = this.$refs.source.getData();
-            this.searchString = sourceData.searchString.toLowerCase();
+            this.searchString = sourceData.searchString.replace(/[ -]/g, '').toLowerCase();
             this.searchClass = sourceData.searchClass;
         },
 
         query() {
+            this.lastSingleEntity = null;
             this.getDataFromComponents();
             this.searchResults = Array.from(this.filterEntities());
             this.pushHistory();
@@ -62,7 +74,7 @@ export default {
 
         validEntity(entity) {
             return  entity.type.indexOf(this.searchClass) != -1
-                    && entity.lowered_text.indexOf(this.searchString) != -1;
+                    && entity.search_string.indexOf(this.searchString) != -1;
         },
 
         * filterEntities() {
@@ -73,7 +85,7 @@ export default {
             /* BACKWARDS SEARCH:*/
             let i = this.entities.length-1;
             while (count < this.maxSize && i >= 0) {
-                if (this.validEntity(this.entities[i])) { //(this.entities[i].lowered_text.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1)
+                if (this.validEntity(this.entities[i])) { //(this.entities[i].search_string.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1)
                     yield this.entities[i];
                     count++;
                 }
@@ -117,6 +129,7 @@ export default {
             this.pushHistory();
             this.showResults = true;
         },
+
     },
 
     mounted() {

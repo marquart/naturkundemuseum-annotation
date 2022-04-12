@@ -18,9 +18,9 @@
         </div>
         <div class="content">
             <Info  v-show="mode === 0" />
-            <QueryText v-show="mode === 1" :properties="properties" :entities="entities" :texts="texts" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>
+            <QueryText v-show="mode === 1" :properties="properties" :entities="entities" :texts="texts" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
-            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity"/>
+            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" @displayTextOf="setDisplayTextOf"/>
         </div>
     </div>
 </template>
@@ -49,6 +49,7 @@ export default {
             unFocusStyle: {background: '#EBEBEB'},
             mode: 0,
             displayGraphOfEntitity: "",
+            displayTextOfEntitity: null,
 
             entitiesMap: {},
             properties : [],
@@ -72,6 +73,11 @@ export default {
         setDisplayGraphOf(item_id) {
             this.displayGraphOfEntitity = item_id;
             this.navigate(3);
+        },
+
+        setDisplayTextOf(item_id) {
+            this.displayTextOfEntitity = this.entitiesMap[item_id];
+            this.navigate(1);
         },
 
         loadData() {

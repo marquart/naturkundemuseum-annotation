@@ -2,6 +2,7 @@
     <div>
         <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
         <p>{{info}}</p>
+        <div v-show="cursorId.length>0" class="navigationButton buttonLeft" @click="emitDisplayTextOf">🡸 Show Entity in Text</div>
         <inline-svg 
             id="graphviz"
             v-show="!showerror"
@@ -15,7 +16,6 @@
 
 <script>
 import InlineSvg from 'vue-inline-svg';
-import TempSVGLocations from '../data/Temp_SVG_Lookup.json';
 
 export default {
   name: 'Visualizations',
@@ -35,19 +35,16 @@ export default {
             showerror: false,
             info: "",
             listeners: [],
-            cursorId: '',
-
-            // only temporary:
-            temp_fetching: true,
-            temp_cursor: 0,
-            temp_svg_locations: TempSVGLocations,
+            cursorId: '10420',
 
         }
     } else {
         return {
             svg_src: require("../assets/12647.svg"),
             showerror: false,
-            info: ""
+            info: "",
+            cursorId: '12647',
+
         }
     }
   },
@@ -64,8 +61,7 @@ export default {
             if (entityID.length > 0 && entityID !== this.cursorId) {
                 this.removeListeners();
                 this.cursorId = entityID;
-                if (this.temp_fetching) this.svg_src = this.next_temp_svg();
-                else this.svg_src = this.buildSVGUrl(entityID);
+                this.svg_src = this.buildSVGUrl(entityID);
             }
         }
     },
@@ -100,11 +96,8 @@ export default {
         this.showerror = true;
         this.info = "Unable to load SVG";
     },
-    next_temp_svg() {
-        this.temp_cursor += 1;
-        if (this.temp_cursor > this.temp_svg_locations.length-1) this.temp_cursor = 0;
-        return this.temp_svg_locations[this.temp_cursor];
-
+    emitDisplayTextOf() {
+        this.$emit("displayTextOf", this.cursorId);
     }
   },
 
@@ -119,10 +112,28 @@ export default {
 
     g.semanticentity {
         visibility: visible;
-        pointer-events: visible;
+        pointer-events: visibleFill;
     }
 
     g.semanticentity:hover {
         cursor: pointer;
+    }
+
+    g.semanticentity:hover polygon {
+        stroke: black;
+        stroke-width: 3px;
+    }
+
+    .navigationButton {
+        background: #FFFFFF;
+        padding: 1ex;
+        border: 1px solid #2c3e50;
+        display: inline-block;
+
+    }
+
+    .navigationButton:hover {
+        cursor: pointer;
+        background: #EBEBEB;
     }
 </style>
