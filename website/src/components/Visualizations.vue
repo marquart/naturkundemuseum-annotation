@@ -1,8 +1,11 @@
 <template>
     <div>
-        <p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>
-        <p>{{info}}</p>
-        <div v-show="cursorId.length>0" class="navigationButton buttonLeft" @click="emitDisplayTextOf">🡸 Show Entity in Text</div>
+        <!--<p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>-->
+        <p>Through the interface below you can navigate the graph structure of our semantic web. Clicking the box of an entity displays the immediate neighborhood of that entity in the graph. You can jump to the location of the selected entity in the text by clicking the button "Show Entity in Text".</p>
+        <p v-if="showerror" class="statusreport error">{{info}}</p>
+
+        <div v-show="cursorId.length>0" class="navigationButton" @click="emitDisplayTextOf">🡸 Show Entity in Text</div>
+
         <inline-svg 
             id="graphviz"
             v-show="!showerror"
@@ -11,6 +14,7 @@
             @unloaded="svgUnloaded()"
             @error="svgLoadError()"
         ></inline-svg>
+        <p class="statusreport">{{info}}</p>
     </div>
 </template>
 
@@ -40,10 +44,10 @@ export default {
         }
     } else {
         return {
-            svg_src: require("../assets/12647.svg"),
+            svg_src: require("../assets/9774.svg"),
             showerror: false,
             info: "",
-            cursorId: '12647',
+            cursorId: '9774',
 
         }
     }
@@ -87,6 +91,7 @@ export default {
     },
     svgLoaded() {
         this.makeNodesClickable();
+        this.showerror = false;
         this.info = "SVG Loaded";
     },
     svgUnloaded() {
@@ -94,7 +99,7 @@ export default {
     },
     svgLoadError() {
         this.showerror = true;
-        this.info = "Unable to load SVG";
+        this.info = "ERROR: Unable to load SVG";
     },
     emitDisplayTextOf() {
         this.$emit("displayTextOf", this.cursorId);
@@ -105,21 +110,21 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
     .graph {
         
     }
 
-    g.semanticentity {
+    #graphviz:deep(.semanticentity) {
         visibility: visible;
         pointer-events: visibleFill;
     }
 
-    g.semanticentity:hover {
+    #graphviz:deep(.semanticentity:hover) {
         cursor: pointer;
     }
 
-    g.semanticentity:hover polygon {
+    #graphviz:deep(.semanticentity:hover polygon) {
         stroke: black;
         stroke-width: 3px;
     }
@@ -129,11 +134,20 @@ export default {
         padding: 1ex;
         border: 1px solid #2c3e50;
         display: inline-block;
+        float: left;
 
     }
 
     .navigationButton:hover {
         cursor: pointer;
         background: #EBEBEB;
+    }
+
+    .statusreport {
+        font-style: italic;
+    }
+
+    .error {
+        color: red;
     }
 </style>

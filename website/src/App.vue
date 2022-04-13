@@ -17,8 +17,8 @@
 
         </div>
         <div class="content">
-            <Info  v-show="mode === 0" />
-            <QueryText v-show="mode === 1" :properties="properties" :entities="entities" :texts="texts" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
+            <Info  v-show="mode === 0" :loadError="loadError" :errorMsg="errorMsg"/>
+            <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" @displayTextOf="setDisplayTextOf"/>
         </div>
@@ -30,10 +30,13 @@ import Info from './components/Info.vue';
 import QueryText from './components/QueryText.vue';
 //import Query from './components/Query.vue'
 import Visualizations from './components/Visualizations.vue';
-
-import SemanticData from './data/webdata.json';
 import SemanticClassStats from './data/class_stats.json';
 
+if (process.env.NODE_ENV != "production") {
+    //import SemanticData from './data/webdata.json';
+    //import SemanticClassStats from './data/class_stats.json';
+    var SemanticData = require('./data/webdata.json');
+}
 
 export default {
     name: 'App',
@@ -50,18 +53,25 @@ export default {
             mode: 0,
             displayGraphOfEntitity: "",
             displayTextOfEntitity: null,
-
             entitiesMap: {},
-            properties : [],
-            entities: [],
-            texts: {},
 
+            queryData: {
+                properties : [],
+                entities: [],
+                texts: {}
+            },
             stats: {
-                entityClasses: SemanticClassStats.Entities,
-                propertyClasses: SemanticClassStats.Properties,
-                parsedYears: SemanticClassStats.Years,
-                parsedCollections: SemanticClassStats.Institutions
-            }
+                entityClasses:     [],
+                propertyClasses:   [],
+                parsedYears:       [],
+                parsedCollections: []
+            },
+
+            backend: "https://aron-marquart.de/mfn-chronik/data/",
+            loadError: false,
+            errorMsg: "",
+
+
         }
     },
 
@@ -80,14 +90,46 @@ export default {
             this.navigate(1);
         },
 
-        loadData() {
-            this.entitiesMap = SemanticData.Entities;
-            this.properties = Object.values(SemanticData.Properties);
-            this.properties.forEach(this.populateProperty);
+        fetchData() {
+            return fetch(this.backend + 'webdata.json', {
+                headers: {'Content-type': 'application/json'},
+                })
+                .then(response => {
+                    if (response.status === 200) {
+                        return response.json();
+                    } else {
+                        throw new Error(response.status);
+                    }
+                })
+                .catch(error => {
+                    this.errorMsg += error;
+                    this.loadError = true;
+                    console.log(error);
+                });
+        },
 
-            this.entities = Object.values(this.entitiesMap);
-            this.texts = SemanticData.Texts;
-            console.log(this.entities.length);
+        loadData(SemanticData) {
+            this.entitiesMap = SemanticData.Entities;
+            let properties = Object.values(SemanticData.Properties);
+            properties.forEach(this.populateProperty);
+
+            let entities = Object.values(this.entitiesMap);
+            let texts = SemanticData.Texts;
+            console.log(entities.length);
+
+            this.stats = {
+                entityClasses: SemanticClassStats.Entities,
+                propertyClasses:  SemanticClassStats.Properties,
+                parsedYears:  SemanticClassStats.Years,
+                parsedCollections:  SemanticClassStats.Institutions
+            };
+
+            this.queryData = {
+                entities: entities,
+                properties: properties,
+                texts: texts
+
+            };
         },
 
         populateProperty(element) {
@@ -110,7 +152,16 @@ export default {
 
     },
     mounted() {
-        this.loadData();
+        if (process.env.NODE_ENV == "production") {
+            this.fetchData()
+                .then(result => {
+                    if (!this.loadError) {
+                        this.loadData(result);
+                    }
+                });
+        } else {
+            this.loadData(SemanticData, SemanticClassStats);
+        }
     },
 }
 </script>

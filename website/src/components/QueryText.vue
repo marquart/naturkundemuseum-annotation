@@ -1,14 +1,14 @@
 <template>
     <div>
-        <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class. Please note: the Results list is limited to {{maxSize}} entities in this prototype.</p>
-        <EntitySearcher class="searchField" ref="source" :classes="constrainedClasses" @query="query"/>
+        <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class. Please note: the results list is limited to {{maxSize}} entities in this prototype.</p>
+        <EntitySearcher class="searchField" ref="source" :classes="stats.entityClasses" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
 
         <div id="navigationElements">
             <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
             <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
         </div>
-        <TextSearchResults v-show="showResults" :results="searchResults" :texts="texts" @displayGraphOf="emitDisplayGraphOf" @showOneEntity="showOneEntity"/>
+        <TextSearchResults v-show="showResults" :results="searchResults" :texts="queryData.texts" @displayGraphOf="emitDisplayGraphOf" @showOneEntity="showOneEntity"/>
     </div>
 </template>
 
@@ -24,10 +24,18 @@ export default {
 
     },
     props: {
-        properties: Array,
-        entities: Array,
-        texts: Object,
-        stats: Object,
+
+        queryData : {
+            properties: Array,
+            entities:   Array,
+            texts:      Object,
+        },
+        stats: {
+            entityClasses:     Array,
+            propertyClasses:   Array,
+            parsedYears:       Array,
+            parsedCollections: Array
+        },
         showSingleEntity: Object
     },
 
@@ -78,15 +86,15 @@ export default {
         },
 
         * filterEntities() {
-            if (this.maxSize > this.entities.length) {
-                this.maxSize = this.entities.length;
+            if (this.maxSize > this.queryData.entities.length) {
+                this.maxSize = this.queryData.entities.length;
             }
             let count = 0;
             /* BACKWARDS SEARCH:*/
-            let i = this.entities.length-1;
+            let i = this.queryData.entities.length-1;
             while (count < this.maxSize && i >= 0) {
-                if (this.validEntity(this.entities[i])) { //(this.entities[i].search_string.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1)
-                    yield this.entities[i];
+                if (this.validEntity(this.queryData.entities[i])) { //(this.entities[i].search_string.indexOf(string) != -1 && this.entities[i].type.indexOf(this.sourceSearchClass) != -1)
+                    yield this.queryData.entities[i];
                     count++;
                 }
                 i--;
@@ -99,7 +107,7 @@ export default {
                     let delta = this.history.length-this.historyCursor-1;
                     this.history.splice(this.historyCursor+1, delta);
                 }
-                if (this.history.length > 10) this.history.shift();
+                if (this.history.length > 15) this.history.shift();
                 this.history.push(this.searchResults);
                 this.historyCursor = this.history.length-1;
             }
@@ -114,12 +122,6 @@ export default {
             }
         },
 
-
-        populateData() {
-            //this.constrainedClasses = this.stats.entityClasses.filter(e => e.indexOf("E53") != -1 || e.indexOf("E21") != -1);
-            this.constrainedClasses = this.stats.entityClasses;
-        },
-
         emitDisplayGraphOf(item_id) {
             this.$emit('displayGraphOf', item_id);
         },
@@ -130,11 +132,7 @@ export default {
             this.showResults = true;
         },
 
-    },
-
-    mounted() {
-        this.populateData();
-    },
+    }
 }
 </script>
 
