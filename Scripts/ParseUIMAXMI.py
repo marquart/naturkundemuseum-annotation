@@ -392,7 +392,7 @@ def postprocessing(entities, properties, corrector):
                     p22.type = p22.type.rstrip('TRADE')
                 else:
                     acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
-                object = SemanticEntity({'SemanticClass':'E21 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                object = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                 
                 SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=object, year=e.year, institution=e.institution)
@@ -435,14 +435,14 @@ def consolidate_property(property, queen, incoming=True):
     
 
 def consolidate_entities(entities, verbose=False):
-    only_one_entity_needed = ("E55 Type", "E78 Curated Holding", "E21 Person", "E53 Place", "E28 Conceptual Object")
+    only_one_entity_needed = ("E55", "E78", "E21", "E53", "E28", "E74")
     uniques = defaultdict(dict)
     
     entity_map = {e.id:e for e in entities}
     assert len(entity_map) == len(entities)
     matches = 0
     for entity in entities:
-        if entity.type in only_one_entity_needed and "chausammlung" not in entity.string:
+        if entity.short_type in only_one_entity_needed and "chausammlung" not in entity.string:
             entity_string = entity.search_string
             if entity_string in uniques[entity.type]:
                 queen = uniques[entity.type][entity_string]
