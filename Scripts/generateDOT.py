@@ -10,7 +10,7 @@ from subprocess import run
 
 from timeit import default_timer as timer
 
-from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
+from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 
 # for Temp Website
 import random, json

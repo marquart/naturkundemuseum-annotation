@@ -1,5 +1,6 @@
 from collections import defaultdict
-from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData, Corrector
+from SemanticModels import SemanticEntity, SemanticProperty, SemanticData, Corrector
+#from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData, Corrector
 
 def generalize_global_collection(e):
     # unfinished
@@ -117,9 +118,9 @@ def generalize_global_person(e):
 
 
 def add_identifiers(entities, Appellation):
-    for e in entities:
-        SemanticProperty({"SemanticProperty":"	P1 is identified by"}, virtual=True, source=e, target=Appellation, institution="Global")
-
+    assert isinstance(Appellation, SemanticEntity)
+    return [SemanticProperty({"SemanticProperty":"P1 is identified by"}, virtual=True, source=e, target=Appellation, institution="Metadata") for e in entities]
+    
 
 def needs_global_connector(entities):
     ins, year = entities[0].institution, entities[0].year
@@ -129,6 +130,7 @@ def needs_global_connector(entities):
 
 
 def identify_global_consolidations(entities, corrector):
+    assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
     consolidation_possible = ("E55", "E78", "E21", "E53", "E28", "E74")
     
     global_entities = defaultdict(list)
@@ -149,22 +151,31 @@ def identify_global_consolidations(entities, corrector):
     
     types = {}
     result = {}
+    new_entities = []
+    new_properties = []
     for name, entities in global_entities.items():
         if len(entities)>1 and needs_global_connector(entities):
-            year = ', '.join(sorted(set(str(e.year) for e in entities)))
-            Appellation = SemanticEntity({"SemanticClass":"E41 Appellation", "string":entities[0].string}, corrector, virtual=True, year=year, institution="Global") #(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None)
+            #year = ', '.join(sorted(set(str(e.year) for e in entities)))
             
-            add_identifiers(entities, Appellation)
+            anchor = entities[0]
+            Appellation = SemanticEntity({"SemanticClass":"E41 Appellation", "string":anchor.string}, corrector, virtual=True, year=0, institution="Metadata", virtual_origin=anchor) #(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None)
             
-            general_type = entities[0].short_type
+            connectors = add_identifiers(entities, Appellation)
+            
+            general_type = anchor.short_type
             if general_type not in types:
-                types[general_type] = SemanticEntity({"SemanticClass":"E55 Type", "string":f"Synonym for {entities[0].type}"}, corrector, virtual=True, year=None, institution="Global")
-            SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=Appellation, target=types[general_type], institution="Global") # (self, tag, entity_map=None, virtual=False, source=None, target=None, year=None, institution=None)
+                types[general_type] = SemanticEntity({"SemanticClass":"E55 Type", "string":f"Synonym for {anchor.type}"}, corrector, virtual=True, year=0, institution="Metadata", virtual_origin=anchor)
+            type_property = SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=Appellation, target=types[general_type], year=0, institution="Metadata") # (self, tag, entity_map=None, virtual=False, source=None, target=None, year=None, institution=None)
             result[name] = len(entities)
+            
+            new_entities.append(Appellation)
+            new_properties += [type_property] + [p for p in connectors]
     
-    for name, count in result.items():
-        print(name, count)
-    print(len(result), sum(result.values()))
+    new_entities += list(types.values())
+    SemanticEntity.virtuals.clear()
+    SemanticProperty.virtuals.clear()
+    print(f"Connected {sum(result.values())} entities through {len(result)} global Entities\n")
+    return new_entities , new_properties
 
 
 
