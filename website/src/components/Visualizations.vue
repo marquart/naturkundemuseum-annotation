@@ -24,7 +24,8 @@ import InlineSvg from 'vue-inline-svg';
 export default {
   name: 'Visualizations',
   props: {
-      entityId: String
+      entityId: String,
+      baseBackend: String
   },
 
   components : {
@@ -32,25 +33,15 @@ export default {
   },
 
   data() {
-    if (process.env.NODE_ENV == "production") {
         return {
-            backend: "https://aron-marquart.de/mfn-chronik/graphs/",
-            svg_src: "https://aron-marquart.de/mfn-chronik/graphs/10420.svg",
+            backend: "",
+            svg_src: "",
             showerror: false,
             info: "",
             listeners: [],
-            cursorId: '10420',
-
+            cursorId: "",
         }
-    } else {
-        return {
-            svg_src: require("../assets/9774.svg"),
-            showerror: false,
-            info: "",
-            cursorId: '9774',
 
-        }
-    }
   },
 
   watch: {
@@ -105,6 +96,21 @@ export default {
         this.$emit("displayTextOf", this.cursorId);
     }
   },
+
+  mounted()  {
+    if (process.env.NODE_ENV == "production") {
+        this.backend = this.baseBackend + "graphs/";
+        this.svg_src = this.backend + "10420.svg";
+        this.cursorId = '10420';
+    } else {
+        this.backend = this.baseBackend;
+        this.svg_src = this.backend + "9774.svg";
+        this.cursorId = '9774';
+
+
+    }
+  },
+
 
 }
 </script>

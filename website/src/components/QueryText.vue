@@ -66,7 +66,7 @@ export default {
 
     methods: {
         getDataFromComponents() {
-            let sourceData = this.$refs.source.getData();
+            const sourceData = this.$refs.source.getData();
             this.searchString = sourceData.searchString.replace(/[ -]/g, '').toLowerCase();
             this.searchClass = sourceData.searchClass;
         },

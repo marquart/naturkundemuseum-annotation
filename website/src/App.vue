@@ -20,7 +20,7 @@
             <Info  v-show="mode === 0" :loadError="loadError" :errorMsg="errorMsg"/>
             <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
-            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" @displayTextOf="setDisplayTextOf"/>
+            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" :baseBackend="backend" @displayTextOf="setDisplayTextOf"/>
         </div>
     </div>
 </template>
@@ -28,25 +28,20 @@
 <script>
 import Info from './components/Info.vue';
 import QueryText from './components/QueryText.vue';
-//import Query from './components/Query.vue'
 import Visualizations from './components/Visualizations.vue';
-import SemanticClassStats from './data/class_stats.json';
 
-if (process.env.NODE_ENV != "production") {
-    //import SemanticData from './data/webdata.json';
-    //import SemanticClassStats from './data/class_stats.json';
-    var SemanticData = require('./data/webdata.json');
-}
 
 export default {
     name: 'App',
     components: {
         Info,
         QueryText,
-        //Query,
         Visualizations
     },
     data() {
+        let backend = "";
+        if (process.env.NODE_ENV == "production") backend = "https://aron-marquart.de/mfn-chronik/data/";
+        else backend =  "./";
         return {
             focusStyle: {background: '#ffffff'},
             unFocusStyle: {background: '#EBEBEB'},
@@ -66,12 +61,10 @@ export default {
                 parsedYears:       [],
                 parsedCollections: []
             },
-
-            backend: "https://aron-marquart.de/mfn-chronik/data/",
+            
+            backend: backend,
             loadError: false,
             errorMsg: "",
-
-
         }
     },
 
@@ -91,30 +84,35 @@ export default {
         },
 
         fetchData() {
-            return fetch(this.backend + 'webdata.json', {
-                headers: {'Content-type': 'application/json'},
-                })
-                .then(response => {
-                    if (response.status === 200) {
-                        return response.json();
-                    } else {
-                        throw new Error(response.status);
-                    }
-                })
-                .catch(error => {
-                    this.errorMsg += error;
+            Promise.all([
+                fetch(this.backend + 'webdata.json', {
+                headers: {'Content-type': 'application/json', 'charset': 'utf-8'},
+                }).then(res => res.ok && res.json() || Promise.reject(res)),
+                fetch(this.backend + 'class_stats.json', {
+                headers: {'Content-type': 'application/json', 'charset': 'utf-8'},
+                }).then(res => res.ok && res.json() || Promise.reject(res))
+            ]).then(data => {
+                // handle data array here
+                if (data.length != 2 || data[0] == undefined || data[1] == undefined) {
+                    this.errorMsg = "Couldn't fetch data from backend!";
                     this.loadError = true;
-                    console.log(error);
-                });
+                } else {
+                    this.loadError = false;
+                    this.loadData(data);
+                }
+            });
+
         },
 
-        loadData(SemanticData) {
+        loadData(data) {
+            const SemanticData = data[0], SemanticClassStats = data[1];
+
             this.entitiesMap = SemanticData.Entities;
-            let properties = Object.values(SemanticData.Properties);
+            const properties = Object.values(SemanticData.Properties);
             properties.forEach(this.populateProperty);
 
-            let entities = Object.values(this.entitiesMap);
-            let texts = SemanticData.Texts;
+            const entities = Object.values(this.entitiesMap);
+            const texts = SemanticData.Texts;
             console.log(entities.length);
 
             this.stats = {
@@ -152,16 +150,7 @@ export default {
 
     },
     mounted() {
-        if (process.env.NODE_ENV == "production") {
-            this.fetchData()
-                .then(result => {
-                    if (!this.loadError) {
-                        this.loadData(result);
-                    }
-                });
-        } else {
-            this.loadData(SemanticData, SemanticClassStats);
-        }
+        this.fetchData();
     },
 }
 </script>
