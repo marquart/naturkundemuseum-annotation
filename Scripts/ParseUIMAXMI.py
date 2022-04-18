@@ -226,7 +226,7 @@ def serialize(obj, stringify=True):
         return obj
 
 
-def save_webdata(entities, properties, lines, filepath="../Website/src/data"):
+def save_webdata(entities, properties, lines, filepath="../Website/public/"):
     export_items = {
         "Entities": {serialized['id']:serialized for e in sorted(entities, key=attrgetter('year'), reverse=True) if (serialized := serialize(e))},
         "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))},
@@ -321,7 +321,8 @@ def process_directory(dirpath, save=False, consolidate=True):
             
             prev_entities, prev_properties = len(container.entities), len(container.properties)
             container.entities += entities
-            #container.properties += properties
+            container.properties += properties
+            
             container.texts.append({'Year':year, 'Institution':institution,'Page_Begin':page_begin, 'Page_End':page_end, 'Text':text, 'Lines':lines, 'Text_ID': f"{institution[:3]}_{year}"})
             assert len(container.entities) == prev_entities+len(entities) #and len(container.properties) == prev_properties+len(properties)
             
@@ -334,7 +335,7 @@ def process_directory(dirpath, save=False, consolidate=True):
 
         container.entities += global_entities
         container.properties += global_properties
-        container.texts.append({'Year':0, 'Institution':'Metadata','Page_Begin':0, 'Page_End':0, 'Text':"", 'Lines':[], 'Text_ID': "Met_0"})
+        container.texts.append({'Year':0, 'Institution':'Metadata','Page_Begin':0, 'Page_End':0, 'Text':"", 'Lines':["Artificially generated global metadata",], 'Text_ID': "Met_0"})
         class_counter.update([e.type for e in global_entities])
         properties_counter.update([p.type for p in global_properties])
         

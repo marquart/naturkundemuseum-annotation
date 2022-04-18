@@ -201,6 +201,7 @@ def calculate_optimal_tree(entity, optimal_nodes=13):
 
 
 def generate_DOT(entity, depth=3, tree=None):
+    #    
     template = """
 digraph Annotationen {
     labelloc="t";
@@ -232,7 +233,9 @@ NODES
     ARROWS
 
 }
-    """.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year}) with depth {depth+1}")
+    """
+    if entity.year > 0: template = template.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year}) with depth {depth+1}")
+    else: template = template.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} with depth {depth+1}")
     
     if tree is None: _, nodes, arrows = build_tree(entity, depth=depth)
     else: nodes, arrows = tree[0], tree[1]
@@ -281,13 +284,13 @@ if __name__ == "__main__":
     svg_filepath = "../../Temp_Visualizations/DOTs/TestRun"
     
     data = SemanticData(pickle_file)
-
+    print(len(data.properties))
     args = parser.parse_args()
     
     if args.all:
         #temp_export = []
         start = timer()
-        for i,e in enumerate(reversed(data.entities)):
+        for i,e in enumerate(data.entities): #reversed(
             #if not i%20:
             generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
                 #temp_export.append(f"https://aron-marquart.de/mfn-chronik/graphs/{e.id}.svg")

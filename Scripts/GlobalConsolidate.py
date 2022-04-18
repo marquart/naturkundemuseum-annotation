@@ -157,14 +157,14 @@ def identify_global_consolidations(entities, corrector):
         if len(entities)>1 and needs_global_connector(entities):
             #year = ', '.join(sorted(set(str(e.year) for e in entities)))
             
-            anchor = entities[0]
-            Appellation = SemanticEntity({"SemanticClass":"E41 Appellation", "string":anchor.string}, corrector, virtual=True, year=0, institution="Metadata", virtual_origin=anchor) #(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None)
+            anchor = min(entities, key=lambda e: len(e.string))
+            Appellation = SemanticEntity({"SemanticClass":"E41 Appellation", "string":anchor.string}, corrector, virtual=True, year=0, institution="Metadata", virtual_origin=None) #(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None)
             
             connectors = add_identifiers(entities, Appellation)
             
             general_type = anchor.short_type
             if general_type not in types:
-                types[general_type] = SemanticEntity({"SemanticClass":"E55 Type", "string":f"Synonym for {anchor.type}"}, corrector, virtual=True, year=0, institution="Metadata", virtual_origin=anchor)
+                types[general_type] = SemanticEntity({"SemanticClass":"E55 Type", "string":f"Synonym for {anchor.type}"}, corrector, virtual=True, year=0, institution="Metadata", virtual_origin=None)
             type_property = SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=Appellation, target=types[general_type], year=0, institution="Metadata") # (self, tag, entity_map=None, virtual=False, source=None, target=None, year=None, institution=None)
             result[name] = len(entities)
             
