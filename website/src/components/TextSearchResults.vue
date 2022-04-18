@@ -1,12 +1,12 @@
 <template>
     <div>
-        <p>Found {{results.length &lt; 40 ? results.length : '>'+results.length}} Entities</p>
+        <p>Found {{results.length &lt; 40 ? results.length : '>'+results.length}} {{results.length === 1 ? 'Entity': 'Entities'}}</p>
         <div 
             class="groupResult"
             v-for="(list,i) in groupedResults"
             :key="i"
         >
-            <h3>{{list[0].institution}} {{list[0].year}} ({{list.length}} mentions)</h3>
+            <h3>{{list[0].institution}} {{list[0].year &gt; 0 ? list[0].year : ''}} ({{list.length}} mentions)</h3>
             <TextEntityCard
                 @showOneEntity="showOneEntity"
                 @displayGraphOf="emitDisplayGraphOf"

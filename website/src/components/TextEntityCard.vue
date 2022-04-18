@@ -2,24 +2,25 @@
     <div class="card">
         <TextSnippet :texts="texts" :textidx="entity.txt_id" :lineidx="entity.line_idx" :pageline="entity.line"/>
         <div class="semanticData">
-            <h2 class="typeHeading">{{entity.text}}</h2>
-            <h3 class="entityText">{{entity.type}}</h3>
+            <h2>Semantic Entity</h2>
+            <h3 class="typeHeading">{{entity.text}}</h3>
+            <h4 class="entityText cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${entity.short_type}`" target="_blank">{{entity.type}}</a></h4>
             <p class="itemLink" @click="emitDisplayGraphOf(entity.id)"><img class="symbol" src="../assets/zoom.svg" alt="Graph Symbol"/> Show Neighborhood Graph</p>
             <div class="numericTable">
-                <div class="lcell">ID:</div>
-                <div class="rcell">{{entity.id}}</div>
+                <div class="ncell">ID:</div>
+                <div class="ncell">{{entity.id}}</div>
 
-                <div class="lcell">Page:</div>
-                <div class="rcell">{{entity.page}}</div>
+                <div class="ncell">Page:</div>
+                <div class="ncell">{{entity.page &gt; -1 ? entity.page : '—'}}</div>
 
-                <div class="lcell">Line:</div>
-                <div class="rcell">{{entity.line}}</div>
+                <div class="ncell">Line:</div>
+                <div class="ncell">{{entity.line &gt; -1 ? entity.line : '—'}}</div>
 
-                <div class="lcell">Year:</div>
-                <div class="rcell">{{entity.year}}</div>
+                <div class="ncell">Year:</div>
+                <div class="ncell">{{entity.year &gt; 0 ? entity.year : '—'}}</div>
 
-                <div class="lcell">Institution:</div>
-                <div class="rcell">{{entity.institution}}</div>
+                <div class="ncell">Institution:</div>
+                <div class="ncell">{{entity.institution}}</div>
             </div>
 
             <h4>Predecessors (incoming Relations)</h4>
@@ -27,10 +28,10 @@
                 <template
                     v-for="(prop, i) in entity.incomingProps"
                     :key="i">
-                    <div class="propItem">{{prop.source.type}}:</div>
+                    <!--<div class="propItem">{{prop.source.type}}:</div>-->
                     <div class="propItem itemLink" @click="showOneEntity(prop.source)">{{prop.source.text}}</div>
                     <div class="propItem">🡺</div>
-                    <div class="propItem">{{prop.type}}</div>
+                    <div class="propItem cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${prop.short_type}`" target="_blank">{{prop.type}}</a></div>
                     <div class="propItem">🡺</div>
                 </template>
             </div>
@@ -40,9 +41,9 @@
                     v-for="(prop, i) in entity.outgoingProps"
                     :key="i">
                     <div class="propItem">🡺</div>
-                    <div class="propItem">{{prop.type}}</div>
+                    <div class="propItem cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${prop.short_type}`" target="_blank">{{prop.type}}</a></div>
                     <div class="propItem">🡺</div>
-                    <div class="propItem">{{prop.target.type}}:</div>
+                    <!--<div class="propItem">{{prop.target.type}}:</div>-->
                     <div class="propItem itemLink" @click="showOneEntity(prop.target)">{{prop.target.text}}</div>
                 </template>
             </div>
@@ -97,20 +98,9 @@ export default {
     }
     .semanticData {
         text-align: center;
-        
     }
 
-    .lcell {
-        /*grid-area: 'lcell';*/
-        display: block;
-        text-align: left;
-        margin: 3px;
-        border: 1px solid #f0f0f0;
-        padding: 3px;
-    }
-
-    .rcell {
-        /*grid-area: 'rcell';*/
+    .ncell {
         display: block;
         text-align: left;
         margin: 3px;
@@ -122,8 +112,8 @@ export default {
         display: grid;
         grid-template-columns: auto auto;
         background: #F6F6F6;
-        width: 90%;
-        margin-left: 5%;
+        width: 96%;
+        margin-left: 2%;
         margin-bottom: 1.5em;
         /*border: 0.8ex solid #7da30b77;
         border: 1px solid #ffffff;
@@ -144,7 +134,7 @@ export default {
 
     .propTable {
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 
     .propItem {
@@ -153,11 +143,21 @@ export default {
 
     .itemLink {
         text-decoration: underline;
+        background: #EBEBEB;
     }
 
     .itemLink:hover {
         cursor: pointer;
-        background: #EBEBEB;
+        border: 1px solid black;
+    }
+
+    .cidocLink {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .cidocLink:hover {
+        cursor: pointer;
     }
 
     .symbol {

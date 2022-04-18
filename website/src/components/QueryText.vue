@@ -189,4 +189,11 @@ export default {
     #button:hover {
         background: #EBEBEB;
     }
+
+    @media screen and (max-width: 700px) {
+        .searchField {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
 </style>

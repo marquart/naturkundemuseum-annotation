@@ -1,5 +1,6 @@
 <template>
     <div class="text">
+        <h2>Text Snippet</h2>
         <div class="textTable">
             <template
                 v-for="(str, i) in linesBefore"
@@ -8,7 +9,7 @@
                 <p class="textLine">{{str}}</p>
             </template>
 
-            <p class="textLine linenumber">{{pageline}}</p>
+            <p v-show="contentPresent" class="textLine linenumber">{{pageline}}</p>
             <p class="textLine highlightLine">{{line}}</p>
 
             <template
@@ -36,21 +37,27 @@ export default {
             line: "",
             linesAfter: [],
             snippetSize: 6,
-
+            contentPresent: true,
         }
     },
 
     mounted() {
-        let text = this.texts[this.textidx];
+        if (this.pageline < 0) {
+            this.line = "Artificially generated metadata";
+            this.contentPresent = false;
+        } else {
+            const text = this.texts[this.textidx];
 
-        let beforeIdx = this.lineidx - this.snippetSize;
-        let afterIdx  = this.lineidx + this.snippetSize+1;
-        if (beforeIdx < 0) beforeIdx = 0;
-        if (afterIdx >= text.length) afterIdx = text.length-1;
-            
-        this.linesBefore = text.slice(beforeIdx, this.lineidx);
-        this.line        = text[this.lineidx];
-        this.linesAfter  = text.slice(this.lineidx+1, afterIdx);
+            let beforeIdx = this.lineidx - this.snippetSize;
+            let afterIdx  = this.lineidx + this.snippetSize+1;
+            if (beforeIdx < 0) beforeIdx = 0;
+            if (afterIdx >= text.length) afterIdx = text.length-1;
+                
+            this.linesBefore = text.slice(beforeIdx, this.lineidx);
+            this.line        = text[this.lineidx];
+            this.linesAfter  = text.slice(this.lineidx+1, afterIdx);
+            this.contentPresent = true;
+        }
     },
 }
 </script>

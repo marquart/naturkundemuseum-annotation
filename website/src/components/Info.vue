@@ -1,7 +1,5 @@
 <template>
     <div class="text">
-        <p v-if="loadError" class="error">Unable to load Data<br>{{errorMsg}}</p>
-
         <p>The Museum für Naturkunde Berlin published annual reports since 1887. These appeared as part of the Chronicle of the Friedrich-Wilhelms-University (today the  Humboldt-Universität zu Berlin), as the museum was one of the institutes of the university in that time. The annual reports constitute today a unique source that provides insight into the development of the museum and its collections in the periods between 1887-1915 and 1928-1938. Particularly, the various institutes and departments reported on the organisational structure of the museum, personnel changes, publications and lectures, use of space, development of the museum infrastructure, spatial arrangements, utilisation and growth of the individual museum collections as well as their scientific evaluation and curation. Of critical importance for provenance research, the reports often include names of collectors and donors, as well as places of origin, and information on the inflow and outflow of objects. Since the reports mainly cover the decades of German colonial expansion, this source is a key resource to address the following research questions on the topics of, among others:</p>
 
         <ul>
@@ -28,8 +26,6 @@
 export default {
     name: 'Info',
     props: {
-        loadError: Boolean,
-        errorMsg: String
     },
 }
 </script>
@@ -42,7 +38,12 @@ export default {
         margin-left: 20%;
         margin-right: 20%;
     }
-    .error {
-        color: red;
+
+    @media screen and (max-width: 700px) {
+        .text {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     }
 </style>

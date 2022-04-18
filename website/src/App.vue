@@ -7,7 +7,7 @@
                 <h2>Digital Edition of the Annual Reports of the Museum 1887–1915 and 1928–1938</h2>
             </div>
         </div>
-
+        <div v-show="loadError" class="content errormsg"><strong>ERROR: {{errorMsg}}</strong></div>
         <div class="content" id="navigation">
 
             <div class="selectmode" :style="[mode === 0 ? focusStyle : unFocusStyle]"   @click="navigate(0)">Info</div>
@@ -17,7 +17,7 @@
 
         </div>
         <div class="content">
-            <Info  v-show="mode === 0" :loadError="loadError" :errorMsg="errorMsg"/>
+            <Info  v-show="mode === 0"/>
             <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" :baseBackend="backend" @displayTextOf="setDisplayTextOf"/>
@@ -40,7 +40,7 @@ export default {
     },
     data() {
         let backend = "";
-        if (process.env.NODE_ENV == "production") backend = "https://aron-marquart.de/mfn-chronik/data/";
+        if (process.env.NODE_ENV == "production") backend = "https://aron-marquart.de/mfn-chronik/assets/";
         else backend =  "./";
         return {
             focusStyle: {background: '#ffffff'},
@@ -93,7 +93,7 @@ export default {
                 }).then(res => res.ok && res.json() || Promise.reject(res))
             ]).then(data => {
                 // handle data array here
-                if (data.length != 2 || data[0] == undefined || data[1] == undefined) {
+                if (data == undefined || data.length != 2 || data[0] == undefined || data[1] == undefined) {
                     this.errorMsg = "Couldn't fetch data from backend!";
                     this.loadError = true;
                 } else {
@@ -108,7 +108,7 @@ export default {
             const SemanticData = data[0], SemanticClassStats = data[1];
 
             this.entitiesMap = SemanticData.Entities;
-            const properties = Object.values(SemanticData.Properties);
+            let properties = Object.values(SemanticData.Properties);
             properties.forEach(this.populateProperty);
 
             const entities = Object.values(this.entitiesMap);
@@ -126,7 +126,6 @@ export default {
                 entities: entities,
                 properties: properties,
                 texts: texts
-
             };
         },
 
@@ -246,6 +245,16 @@ export default {
         display: inline;
         float:left;
         margin-right: 10px;*/
+    }
+
+    .errormsg {
+        font-size: 1.2em;
+        font-family: inherit;
+        text-align: center;
+        background: red;
+        color: white;
+        border: 3px solid white;
+        margin-bottom: 1ex;
     }
 
     @media screen and (max-width: 700px) {

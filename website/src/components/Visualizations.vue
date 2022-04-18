@@ -2,7 +2,7 @@
     <div>
         <!--<p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>-->
         <p>Through the interface below you can navigate the graph structure of our semantic web. Clicking the box of an entity displays the immediate neighborhood of that entity in the graph. You can jump to the location of the selected entity in the text by clicking the button "Show Entity in Text".</p>
-        <p v-if="showerror" class="statusreport error">{{info}}</p>
+        <div v-show="showerror" class="errormsg"><strong>{{info}}</strong></div>
 
         <div v-show="cursorId.length>0" class="navigationButton" @click="emitDisplayTextOf">🡸 Show Entity in Text</div>
 
@@ -90,7 +90,7 @@ export default {
     },
     svgLoadError() {
         this.showerror = true;
-        this.info = "ERROR: Unable to load SVG";
+        this.info = "ERROR: Unable to load SVG!";
     },
     emitDisplayTextOf() {
         this.$emit("displayTextOf", this.cursorId);
@@ -100,14 +100,13 @@ export default {
   mounted()  {
     if (process.env.NODE_ENV == "production") {
         this.backend = this.baseBackend + "graphs/";
-        this.svg_src = this.backend + "10420.svg";
         this.cursorId = '10420';
+        this.svg_src = this.backend + "10420.svg";
     } else {
         this.backend = this.baseBackend;
-        this.svg_src = this.backend + "9774.svg";
         this.cursorId = '9774';
-
-
+        this.svg_src = this.backend + "9774.svg";
+        //console.log(this.svg_src);
     }
   },
 
@@ -151,9 +150,5 @@ export default {
 
     .statusreport {
         font-style: italic;
-    }
-
-    .error {
-        color: red;
     }
 </style>

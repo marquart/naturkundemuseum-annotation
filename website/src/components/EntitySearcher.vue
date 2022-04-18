@@ -1,16 +1,16 @@
 <template>
     <div>
         <h3>Search semantic Entities</h3>
-        <label for="searchfield">Search via an annotated word:</label>
-        <input class="searchfield"
+        <label for="searchfield">Search an annotated word:</label>
+        <input id="searchfield"
             placeholder="Please enter search term "
             v-model="searchString"
             type="text"
             @keydown.enter="$emit('query')"
         />
 
-        <label for="selectfield">Search via semantic class:</label>
-        <select class="selectfield"
+        <label for="selectfield">Filter semantic class:</label>
+        <select id="selectfield"
             v-model="searchClass">
             <option selected value=""></option>
             <option class="selectoption"
@@ -58,16 +58,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .searchfield {
-        box-sizing: border-box;
-        width: 90%;
-        font-size: 1.2em;
-        font-family: inherit;
-        margin: 0.3em;
-        margin-top: 1em;
-        color: inherit;
-    }
-    .selectfield {
+
+    #searchfield {
         box-sizing: border-box;
         width: 90%;
         font-size: 1.2em;
@@ -75,10 +67,20 @@ export default {
         margin: 0.3em;
         color: inherit;
     }
-    .selectfield:hover {
+
+    #selectfield {
+        box-sizing: border-box;
+        width: 90%;
+        font-size: 1.2em;
+        font-family: inherit;
+        margin: 0.3em;
+        color: inherit;
+    }
+
+    #selectfield:hover {
         cursor: pointer;
     }
-    .selectoption:hover {
+    #selectoption:hover {
         cursor: pointer;
     }
 
