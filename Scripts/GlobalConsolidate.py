@@ -174,7 +174,7 @@ def identify_global_consolidations(entities, corrector):
     new_entities += list(types.values())
     SemanticEntity.virtuals.clear()
     SemanticProperty.virtuals.clear()
-    print(f"Connected {sum(result.values())} entities through {len(result)} global Entities\n")
+    print(f"==========\nGLOBAL CONSOLIDATE: Connected {sum(result.values())} entities through {len(result)} global Entities\n==========")
     return new_entities , new_properties
 
 

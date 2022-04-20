@@ -17,6 +17,8 @@ from GlobalConsolidate import identify_global_consolidations
 def postprocessing(entities, properties, corrector):
     # Person and Place as part of Acquisition
     # Model: Person has P22 transferred title to (via Postprocessing Field in Inception) and has P53 location
+    assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
+    
     for e in entities:
         if e.short_type == "E21" or e.short_type == "E74": # Person or Group
             p53, p22 = [], None
@@ -36,12 +38,18 @@ def postprocessing(entities, properties, corrector):
                     p22.type = p22.type.rstrip('TRADE')
                 else:
                     acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
-                object = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                 
                 SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
-                SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=object, year=e.year, institution=e.institution)
+                SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=artefact, year=e.year, institution=e.institution)
                 
-                for p in p53: p.source = object
+                for p in p53:
+                    e.outgoing.remove(p)
+                    artefact.outgoing.append(p)
+                    p.source = artefact
+                
+                e.outgoing.remove(p22)
+                acquisition.outgoing.append(p22)
                 p22.source = acquisition
                 
                 #print(f"\n\nADDED ACQUISITION FOR {e.verbose()}\n\n\n")
@@ -173,6 +181,25 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     assert len(set(e.id for e in entities)) == len(entities)
     return text, corrector.lines, entities, properties
 
+
+def check_properties_connected_with_entitites(container):
+    prop_lookup = set(container.properties)
+    assert len(prop_lookup) == len(container.properties)
+    
+    for p in container.properties:
+        assert p in p.source.outgoing
+        assert p in p.target.incoming
+    print("==========\nSANITY CHECK: Properties are properly connected")
+
+    for e in container.entities:
+        for p in e.outgoing:
+            assert p.source is e
+            assert p in prop_lookup
+        for p in e.incoming:
+            assert p.target is e
+            assert p in prop_lookup
+    print("SANITY CHECK: Entities are properly connected\n==========")
+
 ##### SAVING #####
 def extract_metadata(filename):
     FILENAME_PATTERN = re.compile("^(\d\d\d\d)_(.*?)_(\d?\d?\d)-(\d?\d?\d)\.xmi$")
@@ -252,7 +279,7 @@ def save_webdata(entities, properties, lines, filepath="../Website/public/"):
     with open(os.path.join(filepath, "class_stats.json"), 'w', encoding="utf-8") as f:
         json.dump(export_classes, f, ensure_ascii=False, indent=2)
     
-    print(f"Saved all Entities, Properties and Class stats as JSON to '{filepath}'\n")
+    print(f"==========\nWEB-EXPORT: Saved all Entities, Properties and Class stats as JSON to '{filepath}'\n==========")
 
 
 def save_json(filepath, file, text, entities, properties):
@@ -324,12 +351,15 @@ def process_directory(dirpath, save=False, consolidate=True):
             container.properties += properties
             
             container.texts.append({'Year':year, 'Institution':institution,'Page_Begin':page_begin, 'Page_End':page_end, 'Text':text, 'Lines':lines, 'Text_ID': f"{institution[:3]}_{year}"})
-            assert len(container.entities) == prev_entities+len(entities) #and len(container.properties) == prev_properties+len(properties)
+            assert len(container.entities) == prev_entities+len(entities) and len(container.properties) == prev_properties+len(properties)
             
             #for_pickling.append(get_data_for_pickling(file, lines, text, entities, properties))
             if save:
                 save_json(JSON_PATH, file, text, entities, properties)
-                
+    
+    print(f"\n\n==========\nBefore global consolidation: parsed Entites in '{dirpath}': {len(class_counter)} Types with {sum(class_counter.values())} instances")
+    print(f"Before global consolidation: parsed Properties in '{dirpath}':{len(properties_counter)} Types with {sum(properties_counter.values())} instances\n==========")
+    
     if consolidate:
         global_entities, global_properties = identify_global_consolidations(container.entities, Corrector((), ""))
 
@@ -339,6 +369,7 @@ def process_directory(dirpath, save=False, consolidate=True):
         class_counter.update([e.type for e in global_entities])
         properties_counter.update([p.type for p in global_properties])
         
+    check_properties_connected_with_entitites(container)
     
     if save and len(container.entities)>0:
         save_webdata(container.entities, container.properties, {t['Text_ID']:t['Lines'] for t in container.texts})
@@ -351,7 +382,7 @@ def process_directory(dirpath, save=False, consolidate=True):
             with open("../Data/ParsedSemanticAnnotations.pickle", 'wb') as f:
                 pickle.dump(container, f)
                 
-        print(f"Saved all Entities, Properties as Pickle to '../Data/ParsedSemanticAnnotations.pickle'")
+        print(f"==========\nPICKLE-EXPORT:Saved all Entities, Properties as Pickle to '../Data/ParsedSemanticAnnotations.pickle'\n==========")
 
     
     print(f"\n\nParsed Entites in '{dirpath}':\n\n{len(class_counter)} Types with {sum(class_counter.values())} instances")
