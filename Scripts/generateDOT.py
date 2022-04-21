@@ -281,10 +281,9 @@ if __name__ == "__main__":
     parser.add_argument('--depth', '-d', type=int, default=-1)
     
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
-    svg_filepath = "../../Temp_Visualizations/DOTs/TestRun"
+    svg_filepath = "../../Temp_Visualizations/DOTs/graphs"
     
     data = SemanticData(pickle_file)
-    print(len(data.properties))
     args = parser.parse_args()
     
     if args.all:

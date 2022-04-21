@@ -221,7 +221,11 @@ class SemanticEntity(object):
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
         else: self.type = tag["SemanticClass"].strip()
+        
         self.short_type = self.SHORT_TYPE_PATTERN.search(self.type).group(1)
+        
+        self.cite = ""
+        
         self.incoming = []
         self.outgoing = []
         

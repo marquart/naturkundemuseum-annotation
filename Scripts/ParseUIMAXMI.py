@@ -58,16 +58,22 @@ def postprocessing(entities, properties, corrector):
     # Donation Type
     donation = None
     for e in entities:
-        if e.type.startswith("E8 "):
+        if e.short_type == "E8":
             has_type = False
             for p in e.outgoing:
-                if p.type.startswith("P2 "):
+                if p.short_type == "P2":
                     has_type = True
                     break
             if not has_type:
                 if donation is None: donation = SemanticEntity({'SemanticClass':'E55 Type','string':'Donation'}, corrector, virtual=True, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=e, target=donation, year=e.year, institution=e.institution)
     
+    # P128 carries --> 	P130 shows features of 
+    for p in properties:
+        if p.short_type == "P128" and p.target.short_type == "E28":
+            p.short_type = "P130"
+            p.type = "P130 shows features of"
+            
 
     entities += SemanticEntity.virtuals
     properties += SemanticProperty.virtuals
@@ -242,6 +248,7 @@ def serialize(obj, stringify=True):
         "page": obj.page,
         "original_page": obj.original_page,
         "url": obj.url,
+        "citation": obj.cite,
         "line": obj.line,
         "txt_id": obj.txt_id,
         "line_idx": obj.line_idx,

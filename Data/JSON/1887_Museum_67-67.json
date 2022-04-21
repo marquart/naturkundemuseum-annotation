@@ -5,108 +5,6 @@
     "Page_End": 67,
     "Text": "====PAGEBEGIN 67====\r\n\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 7. Mai 1887 hat das für die\r\nAufnahme der geologisch-paläontologischen, der mineralogisch­petrographischen und der zoologischen Sammlung der Universität\r\nbestimmte Museum die Bezeichnung „Museum für Natur­kunde“ erhalten.\r\nZu Direktoren der vorgedachten drei Abtheilungen sind die\r\nProfessoren Geheimer Bergrath Dr. Beyrich, Dr. Klein und\r\nDr. Moebius ernannt worden.\r\nDurch Ministerial-Reskript vom 25. Mai 1887 ist die Er­nennung des Geheimen Bergraths Professors Dr. Beyrich zum\r\nVerwaltungsdirektor des Museums erfolgt.\r\nDem ausserordentlichen Professor Dr. von Martens ist der\r\nTitel eines zweiten Direktors der zoologischen Abtheilung bei­gelegt worden.\r\n2. Seminar für Deutsches Recht.\r\nDurch Ministerial-Erlass vom 12. November 1887 ist die\r\nBegründung eines besonderen Seminars für Deutsches Recht an\r\nder Universität genehmigt worden.\r\nZum geschäftsführenden Direktor desselben ist der Geheime\r\nJustizrath Professor Dr. Beseler und zu Mitdirektoren sind die\r\nGeheimen Justizräthe Professoren Dr. Brunner und Dr. Gierke\r\nernannt worden. Mit Wahrnehmung der Funktionen eines Bi­bliothekars und Assistenten ist bis auf Weiteres der Privatdocent\r\nDr. Zeumer beauftragt worden.\r\n3. Geographisches Institut.\r\nDurch Ministerial-Erlass vom 4. April 1887 ist ein geogra­phisches Institut an der Universität begründet worden. Mit der\r\nDirektion desselben ist der Professor Dr. Freiherr von Richt­hofen beauftragt.\r\n4. Anatomisches Theater.\r\nDas anatomische Theater ist aus dem Gebäude der alten\r\nBörse am Lustgarten entfernt und in dem Anatomie-Gebäude,\r\n62\r\n",
     "Entities": {
-        "15": {
-            "id": "15",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Dr.",
-            "search_string": "dr.",
-            "begin": 456,
-            "end": 459,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [
-                "30"
-            ],
-            "outgoing": [
-                "4"
-            ]
-        },
-        "17": {
-            "id": "17",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Klein",
-            "search_string": "klein",
-            "begin": 460,
-            "end": 465,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 9,
-            "txt_id": "Mus_1887",
-            "line_idx": 10,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [],
-            "outgoing": [
-                "18",
-                "23",
-                "26",
-                "30"
-            ]
-        },
-        "18": {
-            "id": "18",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Dr.",
-            "search_string": "dr.",
-            "begin": 471,
-            "end": 474,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 10,
-            "txt_id": "Mus_1887",
-            "line_idx": 11,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [
-                "31"
-            ],
-            "outgoing": [
-                "5"
-            ]
-        },
-        "20": {
-            "id": "20",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Moebius",
-            "search_string": "moebius",
-            "begin": 475,
-            "end": 482,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 10,
-            "txt_id": "Mus_1887",
-            "line_idx": 11,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [],
-            "outgoing": [
-                "20",
-                "24",
-                "27",
-                "31"
-            ]
-        },
         "21": {
             "id": "21",
             "type": "E52 Time-Span",
@@ -119,6 +17,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 11,
             "txt_id": "Mus_1887",
             "line_idx": 12,
@@ -143,6 +42,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 12,
             "txt_id": "Mus_1887",
             "line_idx": 13,
@@ -168,6 +68,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 12,
             "txt_id": "Mus_1887",
             "line_idx": 13,
@@ -193,6 +94,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 12,
             "txt_id": "Mus_1887",
             "line_idx": 13,
@@ -218,6 +120,7 @@
             "page": -1,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": -1,
             "txt_id": "Mus_1887",
             "line_idx": 0,
@@ -228,6 +131,31 @@
                 "0",
                 "9",
                 "12"
+            ],
+            "outgoing": []
+        },
+        "2": {
+            "id": "2",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "geologisch-paläontologischen",
+            "search_string": "geologischpaläontologischen",
+            "begin": 173,
+            "end": 201,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 4,
+            "txt_id": "Mus_1887",
+            "line_idx": 5,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [
+                "15",
+                "16"
             ],
             "outgoing": []
         },
@@ -243,6 +171,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 13,
             "txt_id": "Mus_1887",
             "line_idx": 14,
@@ -257,30 +186,6 @@
                 "32"
             ]
         },
-        "2": {
-            "id": "2",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "geologisch-paläontologischen",
-            "search_string": "geologischpaläontologischen",
-            "begin": 173,
-            "end": 201,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 4,
-            "txt_id": "Mus_1887",
-            "line_idx": 5,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [
-                "15",
-                "16"
-            ],
-            "outgoing": []
-        },
         "31": {
             "id": "31",
             "type": "E41 Appellation",
@@ -293,6 +198,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 14,
             "txt_id": "Mus_1887",
             "line_idx": 15,
@@ -318,6 +224,7 @@
             "page": -1,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": -1,
             "txt_id": "Mus_1887",
             "line_idx": 0,
@@ -350,6 +257,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 14,
             "txt_id": "Mus_1887",
             "line_idx": 15,
@@ -375,6 +283,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 3,
             "txt_id": "Mus_1887",
             "line_idx": 4,
@@ -399,6 +308,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 6,
             "txt_id": "Mus_1887",
             "line_idx": 7,
@@ -414,6 +324,31 @@
                 "19"
             ]
         },
+        "1": {
+            "id": "1",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "7. Mai 1887",
+            "search_string": "7.mai1887",
+            "begin": 131,
+            "end": 142,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 3,
+            "txt_id": "Mus_1887",
+            "line_idx": 4,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [
+                "13",
+                "14"
+            ],
+            "outgoing": []
+        },
         "35": {
             "id": "35",
             "type": "E21 Person",
@@ -426,6 +361,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 14,
             "txt_id": "Mus_1887",
             "line_idx": 15,
@@ -440,30 +376,6 @@
                 "41"
             ]
         },
-        "1": {
-            "id": "1",
-            "type": "E52 Time-Span",
-            "short_type": "E52",
-            "virtual": false,
-            "text": "7. Mai 1887",
-            "search_string": "7.mai1887",
-            "begin": 131,
-            "end": 142,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 3,
-            "txt_id": "Mus_1887",
-            "line_idx": 4,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [
-                "13",
-                "14"
-            ],
-            "outgoing": []
-        },
         "3": {
             "id": "3",
             "type": "E74 Group",
@@ -476,6 +388,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 4,
             "txt_id": "Mus_1887",
             "line_idx": 5,
@@ -485,6 +398,31 @@
             "incoming": [
                 "17",
                 "18"
+            ],
+            "outgoing": []
+        },
+        "4": {
+            "id": "4",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "zoologischen",
+            "search_string": "zoologischen",
+            "begin": 246,
+            "end": 258,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 5,
+            "txt_id": "Mus_1887",
+            "line_idx": 6,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [
+                "19",
+                "20"
             ],
             "outgoing": []
         },
@@ -500,6 +438,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 15,
             "txt_id": "Mus_1887",
             "line_idx": 16,
@@ -514,53 +453,6 @@
                 "33"
             ]
         },
-        "4": {
-            "id": "4",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "zoologischen",
-            "search_string": "zoologischen",
-            "begin": 246,
-            "end": 258,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 5,
-            "txt_id": "Mus_1887",
-            "line_idx": 6,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [
-                "19",
-                "20"
-            ],
-            "outgoing": []
-        },
-        "38": {
-            "id": "38",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "zoologischen Abtheilung",
-            "search_string": "zoologischenabtheilung",
-            "begin": 748,
-            "end": 771,
-            "page": 67,
-            "original_page": 0,
-            "url": "",
-            "line": 15,
-            "txt_id": "Mus_1887",
-            "line_idx": 16,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1887,
-            "mentions": 1,
-            "incoming": [
-                "41"
-            ],
-            "outgoing": []
-        },
         "8": {
             "id": "8",
             "type": "E41 Appellation",
@@ -573,6 +465,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 9,
             "txt_id": "Mus_1887",
             "line_idx": 10,
@@ -588,6 +481,30 @@
                 "1"
             ]
         },
+        "38": {
+            "id": "38",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "zoologischen Abtheilung",
+            "search_string": "zoologischenabtheilung",
+            "begin": 748,
+            "end": 771,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 15,
+            "txt_id": "Mus_1887",
+            "line_idx": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [
+                "41"
+            ],
+            "outgoing": []
+        },
         "6": {
             "id": "6",
             "type": "E41 Appellation",
@@ -600,6 +517,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 8,
             "txt_id": "Mus_1887",
             "line_idx": 9,
@@ -628,6 +546,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 9,
             "txt_id": "Mus_1887",
             "line_idx": 10,
@@ -653,6 +572,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 9,
             "txt_id": "Mus_1887",
             "line_idx": 10,
@@ -678,6 +598,7 @@
             "page": 67,
             "original_page": 0,
             "url": "",
+            "citation": "",
             "line": 9,
             "txt_id": "Mus_1887",
             "line_idx": 10,
@@ -695,6 +616,112 @@
                 "35",
                 "36",
                 "37"
+            ]
+        },
+        "15": {
+            "id": "15",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "search_string": "dr.",
+            "begin": 456,
+            "end": 459,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [
+                "30"
+            ],
+            "outgoing": [
+                "4"
+            ]
+        },
+        "17": {
+            "id": "17",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Klein",
+            "search_string": "klein",
+            "begin": 460,
+            "end": 465,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 9,
+            "txt_id": "Mus_1887",
+            "line_idx": 10,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [],
+            "outgoing": [
+                "18",
+                "23",
+                "26",
+                "30"
+            ]
+        },
+        "18": {
+            "id": "18",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "search_string": "dr.",
+            "begin": 471,
+            "end": 474,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 10,
+            "txt_id": "Mus_1887",
+            "line_idx": 11,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [
+                "31"
+            ],
+            "outgoing": [
+                "5"
+            ]
+        },
+        "20": {
+            "id": "20",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Moebius",
+            "search_string": "moebius",
+            "begin": 475,
+            "end": 482,
+            "page": 67,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 10,
+            "txt_id": "Mus_1887",
+            "line_idx": 11,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1887,
+            "mentions": 1,
+            "incoming": [],
+            "outgoing": [
+                "20",
+                "24",
+                "27",
+                "31"
             ]
         }
     },
