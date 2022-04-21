@@ -5,9 +5,11 @@
             class="groupResult"
             v-for="(list,i) in groupedResults"
             :key="i"
+            
         >
-            <h3>{{list[0].institution}} {{list[0].year &gt; 0 ? list[0].year : ''}} ({{list.length}} mentions)</h3>
+            <h3 @click="toggleResults(i)">{{groupState[i] ? '🡻': '🡺'}}  {{list[0].institution}} {{list[0].year &gt; 0 ? list[0].year : ''}} ({{list.length}} {{list.length === 1 ? 'mention': 'mentions'}})</h3>
             <TextEntityCard
+                v-show="groupState[i] === true"
                 @showOneEntity="showOneEntity"
                 @displayGraphOf="emitDisplayGraphOf"
                 v-for="result in list"
@@ -34,7 +36,8 @@ export default {
     data() {
         return {
             groupedResults: [],
-            groupOrdering: []
+            groupOrdering: [],
+            groupState: [], // Results of the group at groupIDX are displayed (because user has opened it)
         }
     },
 
@@ -50,6 +53,7 @@ export default {
         groupResults() {
             this.groupedResults = [];
             this.groupOrdering = [];
+            this.groupState = [];
             this.results.forEach(element => {
                 let group = element.txt_id;
                 let groupIdx = this.groupOrdering.indexOf(group);
@@ -59,8 +63,15 @@ export default {
                 } else {
                     this.groupedResults.push([element,]);
                     this.groupOrdering.push(group);
+                    this.groupState.push(false);
                 }
             });
+        },
+        toggleResults(idx) {
+            if (0 <= idx && idx < this.groupState.length) {
+                if (this.groupState[idx]) this.groupState[idx] = false;
+                else this.groupState[idx] = true;
+            }
         },
     },
 
@@ -85,6 +96,10 @@ export default {
         border: 1px solid #ffffff;
         border-radius: 2px;
         box-shadow: 6px 6px #CBCBCB;
+    }
+
+    h3:hover {
+        cursor: pointer;
     }
 
 </style>

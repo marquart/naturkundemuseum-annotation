@@ -7,11 +7,14 @@
             <h4 class="entityText cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${entity.short_type}`" target="_blank">{{entity.type}}</a></h4>
             <p class="itemLink" @click="emitDisplayGraphOf(entity.id)"><img class="symbol" src="../assets/zoom.svg" alt="Graph Symbol"/> Show Neighborhood Graph</p>
             <div class="numericTable">
-                <div class="ncell">ID:</div>
-                <div class="ncell">{{entity.id}}</div>
+                <!--<div class="ncell">Source:</div>-->
+                <div class="ncell">{{entity.citation ? entity.citation : '—'}}</div>
 
+                <!--<div class="ncell"></div>-->
+                <div class="ncell"><a :href="entity.url" target="_blank">{{entity.url}}</a></div>
+                <!--
                 <div class="ncell">Page:</div>
-                <div class="ncell">{{entity.page &gt; -1 ? entity.page : '—'}}</div>
+                <div class="ncell">{{entity.original_page &gt; 0 ? entity.original_page : '—'}}</div>
 
                 <div class="ncell">Line:</div>
                 <div class="ncell">{{entity.line &gt; -1 ? entity.line : '—'}}</div>
@@ -21,6 +24,7 @@
 
                 <div class="ncell">Institution:</div>
                 <div class="ncell">{{entity.institution}}</div>
+                -->
             </div>
 
             <h4>Predecessors (incoming Relations)</h4>
@@ -92,9 +96,10 @@ export default {
             'lcell rcell'
             'lcell rcell'
             'lcell rcell';*/
-        grid-template-columns: 1fr 6fr;
-        width: 60%;
-        margin-left: 20%;
+        /*grid-template-columns: 1fr 6fr; /*two columns*/
+        grid-template-columns: auto; /*one column*/
+        width: 80%;
+        margin-left: 10%;
     }
     .semanticData {
         text-align: center;

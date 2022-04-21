@@ -115,7 +115,7 @@ export default {
 
         navigateHistory(delta) {
             this.historyCursor = this.historyCursor + delta;
-            if (0 <= this.historyCursor < this.history.length) {
+            if (0 <= this.historyCursor && this.historyCursor < this.history.length) {
                 this.searchResults = this.history[this.historyCursor];
             } else {
                 this.historyCursor =  this.historyCursor - delta;
