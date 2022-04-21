@@ -5,236 +5,6 @@
     "Page_End": 54,
     "Text": "====PAGEBEGIN 54====\r\n\r\n50\r\nVIL. Wissenschaftliche Anstalten der Universität.\r\n1. Museum für Naturkunde.\r\nDurch Ministerial-Erlass vom 2. Mai 1888 ist genehmigt\r\nworden, dass bei der Dreigliederung des Museums für Natur­kunde an Stelle der bisherigen Bezeichnung „Abtheilung“ die\r\nBezeichnung „Sammlung“ tritt, und dass bei den drei Samm­lungen die betreffenden Institute, wie dies bisher schon bei der\r\nZoologie der Fall war, besonders genannt werden.\r\nDie durch den Staatshaushaltsetat bewilligte Assistenten­stelle bei der geologisch-paläontologischen Abtheilung ist dem\r\nPrivat-Dozenten Dr. Koken übertragen.\r\nDer Assistent bei der zoologischen Abtheilung Dr. Rei­chenow ist zum Kustos ernannt worden.\r\n2. Zoologisches Institut.\r\nDie durch den Staatshaushaltsetat bewilligte zweite Assi­stentenstelle ist dem Privat-Dozenten Dr. phil. Fritz Magde­burg übertragen worden.\r\n3. Physikalisches Institut.\r\nDer bisherige Direktor Geheimer Regierungsrath Professor\r\nDr. v. Helmholtz ist zum Prüsidenten der Physikalisch-techni­schen Reichs-Anstalt ernannt worden. An seiner Stelle ist dem\r\nvon Strassburg hierher berufenen Professor Dr. August Kundt\r\ndie Direktion des physikalischen Instituts übertragen.\r\n4. Seminar für Orientalische Sprachen.\r\nDem Lehrer des Chinesischen Professor Arendt und dem\r\nLehrer des Arabischen Professor Dr. Hartmann sind die von\r\nihnen widerruflich bekleideten Lehrstellen dauernd übertragen\r\nworden.\r\nAls Lektor des Türkischen — mit der Verpflichtung, den\r\ngesammten türkischen Unterricht im Seminar zu ertheilen — ist\r\nJ. J. Mannisadjian angestellt.",
     "Entities": {
-        "51": {
-            "id": "51",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Dr.",
-            "search_string": "dr.",
-            "begin": 660,
-            "end": 663,
-            "page": 54,
-            "line": 13,
-            "txt_id": "Mus_1888",
-            "line_idx": 14,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "58"
-            ],
-            "outgoing": [
-                "46"
-            ]
-        },
-        "53": {
-            "id": "53",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Reichenow",
-            "search_string": "reichenow",
-            "begin": 664,
-            "end": 674,
-            "page": 54,
-            "line": 13,
-            "txt_id": "Mus_1888",
-            "line_idx": 14,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [],
-            "outgoing": [
-                "56",
-                "58",
-                "60"
-            ]
-        },
-        "54": {
-            "id": "54",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Kustos",
-            "search_string": "kustos",
-            "begin": 683,
-            "end": 689,
-            "page": 54,
-            "line": 14,
-            "txt_id": "Mus_1888",
-            "line_idx": 15,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "59"
-            ],
-            "outgoing": [
-                "47"
-            ]
-        },
-        "56": {
-            "id": "56",
-            "type": "E85 Joining",
-            "short_type": "E85",
-            "virtual": false,
-            "text": "ernannt",
-            "search_string": "ernannt",
-            "begin": 690,
-            "end": 697,
-            "page": 54,
-            "line": 14,
-            "txt_id": "Mus_1888",
-            "line_idx": 15,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "60"
-            ],
-            "outgoing": [
-                "57",
-                "59"
-            ]
-        },
-        "57": {
-            "id": "57",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Zoologisches Institut",
-            "search_string": "zoologischesinstitut",
-            "begin": 710,
-            "end": 731,
-            "page": 54,
-            "line": 15,
-            "txt_id": "Mus_1888",
-            "line_idx": 16,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "61"
-            ],
-            "outgoing": []
-        },
-        "58": {
-            "id": "58",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "zweite Assistentenstelle",
-            "search_string": "zweiteassistentenstelle",
-            "begin": 779,
-            "end": 804,
-            "page": 54,
-            "line": 16,
-            "txt_id": "Mus_1888",
-            "line_idx": 17,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "62"
-            ],
-            "outgoing": [
-                "48"
-            ]
-        },
-        "60": {
-            "id": "60",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Privat-Dozenten",
-            "search_string": "privatdozenten",
-            "begin": 813,
-            "end": 828,
-            "page": 54,
-            "line": 17,
-            "txt_id": "Mus_1888",
-            "line_idx": 18,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "63"
-            ],
-            "outgoing": [
-                "49"
-            ]
-        },
-        "62": {
-            "id": "62",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Dr. phil.",
-            "search_string": "dr.phil.",
-            "begin": 829,
-            "end": 838,
-            "page": 54,
-            "line": 17,
-            "txt_id": "Mus_1888",
-            "line_idx": 18,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "64"
-            ],
-            "outgoing": [
-                "50"
-            ]
-        },
-        "64": {
-            "id": "64",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Fritz Magdeburg",
-            "search_string": "fritzmagdeburg",
-            "begin": 839,
-            "end": 855,
-            "page": 54,
-            "line": 17,
-            "txt_id": "Mus_1888",
-            "line_idx": 18,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [],
-            "outgoing": [
-                "63",
-                "64",
-                "65"
-            ]
-        },
-        "65": {
-            "id": "65",
-            "type": "E85 Joining",
-            "short_type": "E85",
-            "virtual": false,
-            "text": "übertragen",
-            "search_string": "übertragen",
-            "begin": 856,
-            "end": 866,
-            "page": 54,
-            "line": 18,
-            "txt_id": "Mus_1888",
-            "line_idx": 19,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "65"
-            ],
-            "outgoing": [
-                "61",
-                "62"
-            ]
-        },
         "41": {
             "id": "41",
             "type": "E74 Group",
@@ -245,6 +15,8 @@
             "begin": 526,
             "end": 565,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 11,
             "txt_id": "Mus_1888",
             "line_idx": 12,
@@ -266,6 +38,8 @@
             "begin": null,
             "end": null,
             "page": -1,
+            "original_page": 0,
+            "url": "",
             "line": -1,
             "txt_id": "Mus_1888",
             "line_idx": 0,
@@ -290,6 +64,8 @@
             "begin": 499,
             "end": 517,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 10,
             "txt_id": "Mus_1888",
             "line_idx": 11,
@@ -313,6 +89,8 @@
             "begin": 575,
             "end": 590,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 12,
             "txt_id": "Mus_1888",
             "line_idx": 13,
@@ -336,6 +114,8 @@
             "begin": 591,
             "end": 594,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 12,
             "txt_id": "Mus_1888",
             "line_idx": 13,
@@ -359,6 +139,8 @@
             "begin": null,
             "end": null,
             "page": -1,
+            "original_page": 0,
+            "url": "",
             "line": -1,
             "txt_id": "Mus_1888",
             "line_idx": 0,
@@ -384,6 +166,8 @@
             "begin": 595,
             "end": 600,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 12,
             "txt_id": "Mus_1888",
             "line_idx": 13,
@@ -407,6 +191,8 @@
             "begin": 601,
             "end": 611,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 12,
             "txt_id": "Mus_1888",
             "line_idx": 13,
@@ -431,6 +217,8 @@
             "begin": 618,
             "end": 627,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 13,
             "txt_id": "Mus_1888",
             "line_idx": 14,
@@ -454,6 +242,8 @@
             "begin": 636,
             "end": 659,
             "page": 54,
+            "original_page": 0,
+            "url": "",
             "line": 13,
             "txt_id": "Mus_1888",
             "line_idx": 14,
@@ -464,6 +254,256 @@
                 "57"
             ],
             "outgoing": []
+        },
+        "51": {
+            "id": "51",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr.",
+            "search_string": "dr.",
+            "begin": 660,
+            "end": 663,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 13,
+            "txt_id": "Mus_1888",
+            "line_idx": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "58"
+            ],
+            "outgoing": [
+                "46"
+            ]
+        },
+        "53": {
+            "id": "53",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Reichenow",
+            "search_string": "reichenow",
+            "begin": 664,
+            "end": 674,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 13,
+            "txt_id": "Mus_1888",
+            "line_idx": 14,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [],
+            "outgoing": [
+                "56",
+                "58",
+                "60"
+            ]
+        },
+        "54": {
+            "id": "54",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Kustos",
+            "search_string": "kustos",
+            "begin": 683,
+            "end": 689,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 14,
+            "txt_id": "Mus_1888",
+            "line_idx": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "59"
+            ],
+            "outgoing": [
+                "47"
+            ]
+        },
+        "56": {
+            "id": "56",
+            "type": "E85 Joining",
+            "short_type": "E85",
+            "virtual": false,
+            "text": "ernannt",
+            "search_string": "ernannt",
+            "begin": 690,
+            "end": 697,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 14,
+            "txt_id": "Mus_1888",
+            "line_idx": 15,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "60"
+            ],
+            "outgoing": [
+                "57",
+                "59"
+            ]
+        },
+        "57": {
+            "id": "57",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Zoologisches Institut",
+            "search_string": "zoologischesinstitut",
+            "begin": 710,
+            "end": 731,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 15,
+            "txt_id": "Mus_1888",
+            "line_idx": 16,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "61"
+            ],
+            "outgoing": []
+        },
+        "58": {
+            "id": "58",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "zweite Assistentenstelle",
+            "search_string": "zweiteassistentenstelle",
+            "begin": 779,
+            "end": 804,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 16,
+            "txt_id": "Mus_1888",
+            "line_idx": 17,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "62"
+            ],
+            "outgoing": [
+                "48"
+            ]
+        },
+        "60": {
+            "id": "60",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Privat-Dozenten",
+            "search_string": "privatdozenten",
+            "begin": 813,
+            "end": 828,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 17,
+            "txt_id": "Mus_1888",
+            "line_idx": 18,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "63"
+            ],
+            "outgoing": [
+                "49"
+            ]
+        },
+        "62": {
+            "id": "62",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Dr. phil.",
+            "search_string": "dr.phil.",
+            "begin": 829,
+            "end": 838,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 17,
+            "txt_id": "Mus_1888",
+            "line_idx": 18,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "64"
+            ],
+            "outgoing": [
+                "50"
+            ]
+        },
+        "64": {
+            "id": "64",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Fritz Magdeburg",
+            "search_string": "fritzmagdeburg",
+            "begin": 839,
+            "end": 855,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 17,
+            "txt_id": "Mus_1888",
+            "line_idx": 18,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [],
+            "outgoing": [
+                "63",
+                "64",
+                "65"
+            ]
+        },
+        "65": {
+            "id": "65",
+            "type": "E85 Joining",
+            "short_type": "E85",
+            "virtual": false,
+            "text": "übertragen",
+            "search_string": "übertragen",
+            "begin": 856,
+            "end": 866,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "line": 18,
+            "txt_id": "Mus_1888",
+            "line_idx": 19,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "incoming": [
+                "65"
+            ],
+            "outgoing": [
+                "61",
+                "62"
+            ]
         }
     },
     "Properties": {

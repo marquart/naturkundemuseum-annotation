@@ -212,7 +212,12 @@ class SemanticEntity(object):
         
         self.year = year
         self.institution = institution
+        self.txt_id = f"{self.institution[:3]}_{self.year}"
         self.mentions = 1 # count of how many entities are consolidated with this one
+        
+        # gets filled in get_URL_for_entity
+        self.original_page = 0 # not scanned page but pagination in document
+        self.url = "" # url to digi-hub
         
         if not check_property_exists(tag, "SemanticClass"): self.type = "E0 Unknown"
         else: self.type = tag["SemanticClass"].strip()

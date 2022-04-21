@@ -1,0 +1,2756 @@
+{
+  "URLS": {
+    "Mus_1887": {
+      "67": "https://www.digi-hub.de/viewer/!image/1603729527162/67/-/"
+    },
+    "Mus_1888": {
+      "54": "https://www.digi-hub.de/viewer/!image/1603900106139/54/-/"
+    },
+    "Geo_1889": {
+      "137": "https://www.digi-hub.de/viewer/!image/1603900356647/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603900356647/138/-/"
+    },
+    "Min_1889": {
+      "138": "https://www.digi-hub.de/viewer/!image/1603900356647/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603900356647/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603900356647/140/-/"
+    },
+    "Mus_1889": {
+      "134": "https://www.digi-hub.de/viewer/!image/1603900356647/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603900356647/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603900356647/136/-/"
+    },
+    "Zoo_1889": {
+      "140": "https://www.digi-hub.de/viewer/!image/1603900356647/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603900356647/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603900356647/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603900356647/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603900356647/144/-/"
+    },
+    "Geo_1890": {
+      "121": "https://www.digi-hub.de/viewer/!image/1603900689937/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603900689937/122/-/"
+    },
+    "Min_1890": {
+      "122": "https://www.digi-hub.de/viewer/!image/1603900689937/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603900689937/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603900689937/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603900689937/125/-/"
+    },
+    "Mus_1890": {
+      "120": "https://www.digi-hub.de/viewer/!image/1603900689937/120/-/"
+    },
+    "Zoo_1890": {
+      "117": "https://www.digi-hub.de/viewer/!image/1603900689937/117/-/",
+      "118": "https://www.digi-hub.de/viewer/!image/1603900689937/118/-/",
+      "119": "https://www.digi-hub.de/viewer/!image/1603900689937/119/-/",
+      "120": "https://www.digi-hub.de/viewer/!image/1603900689937/120/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603900689937/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603900689937/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603900689937/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603900689937/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603900689937/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603900689937/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603900689937/131/-/"
+    },
+    "Geo_1891": {
+      "138": "https://www.digi-hub.de/viewer/!image/1603900959047/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603900959047/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603900959047/140/-/"
+    },
+    "Min_1891": {
+      "140": "https://www.digi-hub.de/viewer/!image/1603900959047/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603900959047/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603900959047/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603900959047/143/-/"
+    },
+    "Mus_1891": {
+      "137": "https://www.digi-hub.de/viewer/!image/1603900959047/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603900959047/138/-/"
+    },
+    "Zoo_1891": {
+      "135": "https://www.digi-hub.de/viewer/!image/1603900959047/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603900959047/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603900959047/137/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603900959047/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603900959047/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603900959047/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603900959047/146/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603900959047/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603900959047/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603900959047/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603900959047/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603900959047/151/-/"
+    },
+    "Geo_1892": {
+      "125": "https://www.digi-hub.de/viewer/!image/1603901245168/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603901245168/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603901245168/127/-/"
+    },
+    "Min_1892": {
+      "127": "https://www.digi-hub.de/viewer/!image/1603901245168/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603901245168/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603901245168/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603901245168/130/-/"
+    },
+    "Mus_1892": {
+      "124": "https://www.digi-hub.de/viewer/!image/1603901245168/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603901245168/125/-/"
+    },
+    "Zoo_1892": {
+      "121": "https://www.digi-hub.de/viewer/!image/1603901245168/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603901245168/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603901245168/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603901245168/124/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603901245168/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603901245168/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603901245168/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603901245168/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603901245168/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603901245168/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603901245168/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603901245168/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603901245168/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603901245168/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603901245168/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603901245168/141/-/"
+    },
+    "Geo_1893": {
+      "127": "https://www.digi-hub.de/viewer/!image/1603901312110/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603901312110/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603901312110/129/-/"
+    },
+    "Min_1893": {
+      "129": "https://www.digi-hub.de/viewer/!image/1603901312110/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603901312110/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603901312110/131/-/"
+    },
+    "Mus_1893": {
+      "127": "https://www.digi-hub.de/viewer/!image/1603901312110/127/-/"
+    },
+    "Zoo_1893": {
+      "123": "https://www.digi-hub.de/viewer/!image/1603901312110/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603901312110/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603901312110/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603901312110/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603901312110/127/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603901312110/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603901312110/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603901312110/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603901312110/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603901312110/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603901312110/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603901312110/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603901312110/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603901312110/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603901312110/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603901312110/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603901312110/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603901312110/143/-/"
+    },
+    "Geo_1894": {
+      "120": "https://www.digi-hub.de/viewer/!image/1603901381451/120/-/",
+      "121": "https://www.digi-hub.de/viewer/!image/1603901381451/121/-/"
+    },
+    "Min_1894": {
+      "121": "https://www.digi-hub.de/viewer/!image/1603901381451/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603901381451/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603901381451/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603901381451/124/-/"
+    },
+    "Mus_1894": {
+      "119": "https://www.digi-hub.de/viewer/!image/1603901381451/119/-/",
+      "120": "https://www.digi-hub.de/viewer/!image/1603901381451/120/-/"
+    },
+    "Zoo_1894": {
+      "117": "https://www.digi-hub.de/viewer/!image/1603901381451/117/-/",
+      "118": "https://www.digi-hub.de/viewer/!image/1603901381451/118/-/",
+      "119": "https://www.digi-hub.de/viewer/!image/1603901381451/119/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603901381451/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603901381451/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603901381451/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603901381451/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603901381451/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603901381451/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603901381451/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603901381451/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603901381451/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603901381451/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603901381451/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603901381451/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603901381451/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603901381451/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603901381451/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603901381451/139/-/"
+    },
+    "Geo_1895": {
+      "124": "https://www.digi-hub.de/viewer/!image/1603901457849/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603901457849/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603901457849/126/-/"
+    },
+    "Min_1895": {
+      "126": "https://www.digi-hub.de/viewer/!image/1603901457849/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603901457849/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603901457849/128/-/"
+    },
+    "Mus_1895": {
+      "123": "https://www.digi-hub.de/viewer/!image/1603901457849/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603901457849/124/-/"
+    },
+    "Zoo_1895": {
+      "121": "https://www.digi-hub.de/viewer/!image/1603901457849/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603901457849/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603901457849/123/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603901457849/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603901457849/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603901457849/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603901457849/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603901457849/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603901457849/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603901457849/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603901457849/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603901457849/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603901457849/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603901457849/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603901457849/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603901457849/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603901457849/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603901457849/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603901457849/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603901457849/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603901457849/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603901457849/146/-/"
+    },
+    "Geo_1896": {
+      "127": "https://www.digi-hub.de/viewer/!image/1603976666980/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603976666980/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603976666980/129/-/"
+    },
+    "Min_1896": {
+      "129": "https://www.digi-hub.de/viewer/!image/1603976666980/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603976666980/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603976666980/131/-/"
+    },
+    "Mus_1896": {
+      "126": "https://www.digi-hub.de/viewer/!image/1603976666980/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603976666980/127/-/"
+    },
+    "Zoo_1896": {
+      "122": "https://www.digi-hub.de/viewer/!image/1603976666980/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603976666980/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603976666980/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603976666980/125/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603976666980/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603976666980/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603976666980/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603976666980/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603976666980/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603976666980/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603976666980/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603976666980/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603976666980/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603976666980/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603976666980/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603976666980/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603976666980/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603976666980/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603976666980/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603976666980/146/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603976666980/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603976666980/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603976666980/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603976666980/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603976666980/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603976666980/152/-/",
+      "153": "https://www.digi-hub.de/viewer/!image/1603976666980/153/-/",
+      "154": "https://www.digi-hub.de/viewer/!image/1603976666980/154/-/",
+      "155": "https://www.digi-hub.de/viewer/!image/1603976666980/155/-/",
+      "156": "https://www.digi-hub.de/viewer/!image/1603976666980/156/-/",
+      "157": "https://www.digi-hub.de/viewer/!image/1603976666980/157/-/"
+    },
+    "Geo_1897": {
+      "162": "https://www.digi-hub.de/viewer/!image/1603976861781/162/-/",
+      "163": "https://www.digi-hub.de/viewer/!image/1603976861781/163/-/",
+      "164": "https://www.digi-hub.de/viewer/!image/1603976861781/164/-/"
+    },
+    "Min_1897": {
+      "164": "https://www.digi-hub.de/viewer/!image/1603976861781/164/-/",
+      "165": "https://www.digi-hub.de/viewer/!image/1603976861781/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603976861781/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603976861781/167/-/"
+    },
+    "Mus_1897": {
+      "136": "https://www.digi-hub.de/viewer/!image/1603976861781/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603976861781/137/-/"
+    },
+    "Zoo_1897": {
+      "133": "https://www.digi-hub.de/viewer/!image/1603976861781/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603976861781/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603976861781/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603976861781/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603976861781/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603976861781/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603976861781/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603976861781/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603976861781/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603976861781/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603976861781/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603976861781/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603976861781/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603976861781/146/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603976861781/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603976861781/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603976861781/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603976861781/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603976861781/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603976861781/152/-/",
+      "153": "https://www.digi-hub.de/viewer/!image/1603976861781/153/-/",
+      "154": "https://www.digi-hub.de/viewer/!image/1603976861781/154/-/",
+      "155": "https://www.digi-hub.de/viewer/!image/1603976861781/155/-/",
+      "156": "https://www.digi-hub.de/viewer/!image/1603976861781/156/-/",
+      "157": "https://www.digi-hub.de/viewer/!image/1603976861781/157/-/",
+      "158": "https://www.digi-hub.de/viewer/!image/1603976861781/158/-/",
+      "159": "https://www.digi-hub.de/viewer/!image/1603976861781/159/-/",
+      "160": "https://www.digi-hub.de/viewer/!image/1603976861781/160/-/",
+      "161": "https://www.digi-hub.de/viewer/!image/1603976861781/161/-/",
+      "162": "https://www.digi-hub.de/viewer/!image/1603976861781/162/-/"
+    },
+    "Geo_1898": {
+      "149": "https://www.digi-hub.de/viewer/!image/1603976999506/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603976999506/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603976999506/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603976999506/152/-/"
+    },
+    "Min_1898": {
+      "147": "https://www.digi-hub.de/viewer/!image/1603976999506/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603976999506/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603976999506/149/-/"
+    },
+    "Mus_1898": {
+      "124": "https://www.digi-hub.de/viewer/!image/1603976999506/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603976999506/125/-/"
+    },
+    "Zoo_1898": {
+      "120": "https://www.digi-hub.de/viewer/!image/1603976999506/120/-/",
+      "121": "https://www.digi-hub.de/viewer/!image/1603976999506/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603976999506/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603976999506/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603976999506/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603976999506/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603976999506/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603976999506/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603976999506/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603976999506/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603976999506/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603976999506/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603976999506/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603976999506/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603976999506/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603976999506/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603976999506/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603976999506/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603976999506/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603976999506/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603976999506/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603976999506/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603976999506/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603976999506/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603976999506/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603976999506/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603976999506/146/-/"
+    },
+    "Geo_1899": {
+      "149": "https://www.digi-hub.de/viewer/!image/1603977064912/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603977064912/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603977064912/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603977064912/152/-/",
+      "153": "https://www.digi-hub.de/viewer/!image/1603977064912/153/-/"
+    },
+    "Min_1899": {
+      "146": "https://www.digi-hub.de/viewer/!image/1603977064912/146/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603977064912/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603977064912/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603977064912/149/-/"
+    },
+    "Mus_1899": {
+      "125": "https://www.digi-hub.de/viewer/!image/1603977064912/125/-/"
+    },
+    "Zoo_1899": {
+      "121": "https://www.digi-hub.de/viewer/!image/1603977064912/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603977064912/122/-/",
+      "123": "https://www.digi-hub.de/viewer/!image/1603977064912/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603977064912/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603977064912/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603977064912/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603977064912/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603977064912/128/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603977064912/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603977064912/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603977064912/131/-/",
+      "132": "https://www.digi-hub.de/viewer/!image/1603977064912/132/-/",
+      "133": "https://www.digi-hub.de/viewer/!image/1603977064912/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603977064912/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603977064912/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603977064912/136/-/",
+      "137": "https://www.digi-hub.de/viewer/!image/1603977064912/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603977064912/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603977064912/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603977064912/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603977064912/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603977064912/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603977064912/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603977064912/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603977064912/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603977064912/146/-/"
+    },
+    "Geo_1900": {
+      "143": "https://www.digi-hub.de/viewer/!image/1603977167879/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603977167879/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603977167879/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603977167879/146/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603977167879/147/-/"
+    },
+    "Min_1900": {
+      "140": "https://www.digi-hub.de/viewer/!image/1603977167879/140/-/",
+      "141": "https://www.digi-hub.de/viewer/!image/1603977167879/141/-/",
+      "142": "https://www.digi-hub.de/viewer/!image/1603977167879/142/-/",
+      "143": "https://www.digi-hub.de/viewer/!image/1603977167879/143/-/"
+    },
+    "Mus_1900": {
+      "167": "https://www.digi-hub.de/viewer/!image/1603977167879/167/-/",
+      "168": "https://www.digi-hub.de/viewer/!image/1603977167879/168/-/"
+    },
+    "Zoo_1900": {
+      "137": "https://www.digi-hub.de/viewer/!image/1603977167879/137/-/",
+      "138": "https://www.digi-hub.de/viewer/!image/1603977167879/138/-/",
+      "139": "https://www.digi-hub.de/viewer/!image/1603977167879/139/-/",
+      "140": "https://www.digi-hub.de/viewer/!image/1603977167879/140/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603977167879/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603977167879/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603977167879/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603977167879/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603977167879/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603977167879/152/-/",
+      "153": "https://www.digi-hub.de/viewer/!image/1603977167879/153/-/",
+      "154": "https://www.digi-hub.de/viewer/!image/1603977167879/154/-/",
+      "155": "https://www.digi-hub.de/viewer/!image/1603977167879/155/-/",
+      "156": "https://www.digi-hub.de/viewer/!image/1603977167879/156/-/",
+      "157": "https://www.digi-hub.de/viewer/!image/1603977167879/157/-/",
+      "158": "https://www.digi-hub.de/viewer/!image/1603977167879/158/-/",
+      "159": "https://www.digi-hub.de/viewer/!image/1603977167879/159/-/",
+      "160": "https://www.digi-hub.de/viewer/!image/1603977167879/160/-/",
+      "161": "https://www.digi-hub.de/viewer/!image/1603977167879/161/-/",
+      "162": "https://www.digi-hub.de/viewer/!image/1603977167879/162/-/",
+      "163": "https://www.digi-hub.de/viewer/!image/1603977167879/163/-/",
+      "164": "https://www.digi-hub.de/viewer/!image/1603977167879/164/-/",
+      "165": "https://www.digi-hub.de/viewer/!image/1603977167879/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603977167879/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603977167879/167/-/"
+    },
+    "Geo_1901": {
+      "150": "https://www.digi-hub.de/viewer/!image/1603977216111/150/-/",
+      "151": "https://www.digi-hub.de/viewer/!image/1603977216111/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603977216111/152/-/",
+      "153": "https://www.digi-hub.de/viewer/!image/1603977216111/153/-/",
+      "154": "https://www.digi-hub.de/viewer/!image/1603977216111/154/-/",
+      "155": "https://www.digi-hub.de/viewer/!image/1603977216111/155/-/",
+      "156": "https://www.digi-hub.de/viewer/!image/1603977216111/156/-/",
+      "157": "https://www.digi-hub.de/viewer/!image/1603977216111/157/-/"
+    },
+    "Min_1901": {
+      "146": "https://www.digi-hub.de/viewer/!image/1603977216111/146/-/",
+      "147": "https://www.digi-hub.de/viewer/!image/1603977216111/147/-/",
+      "148": "https://www.digi-hub.de/viewer/!image/1603977216111/148/-/",
+      "149": "https://www.digi-hub.de/viewer/!image/1603977216111/149/-/",
+      "150": "https://www.digi-hub.de/viewer/!image/1603977216111/150/-/"
+    },
+    "Mus_1901": {
+      "182": "https://www.digi-hub.de/viewer/!image/1603977216111/182/-/"
+    },
+    "Zoo_1901": {
+      "143": "https://www.digi-hub.de/viewer/!image/1603977216111/143/-/",
+      "144": "https://www.digi-hub.de/viewer/!image/1603977216111/144/-/",
+      "145": "https://www.digi-hub.de/viewer/!image/1603977216111/145/-/",
+      "146": "https://www.digi-hub.de/viewer/!image/1603977216111/146/-/",
+      "157": "https://www.digi-hub.de/viewer/!image/1603977216111/157/-/",
+      "158": "https://www.digi-hub.de/viewer/!image/1603977216111/158/-/",
+      "159": "https://www.digi-hub.de/viewer/!image/1603977216111/159/-/",
+      "160": "https://www.digi-hub.de/viewer/!image/1603977216111/160/-/",
+      "161": "https://www.digi-hub.de/viewer/!image/1603977216111/161/-/",
+      "162": "https://www.digi-hub.de/viewer/!image/1603977216111/162/-/",
+      "163": "https://www.digi-hub.de/viewer/!image/1603977216111/163/-/",
+      "164": "https://www.digi-hub.de/viewer/!image/1603977216111/164/-/",
+      "165": "https://www.digi-hub.de/viewer/!image/1603977216111/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603977216111/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603977216111/167/-/",
+      "168": "https://www.digi-hub.de/viewer/!image/1603977216111/168/-/",
+      "169": "https://www.digi-hub.de/viewer/!image/1603977216111/169/-/",
+      "170": "https://www.digi-hub.de/viewer/!image/1603977216111/170/-/",
+      "171": "https://www.digi-hub.de/viewer/!image/1603977216111/171/-/",
+      "172": "https://www.digi-hub.de/viewer/!image/1603977216111/172/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603977216111/173/-/",
+      "174": "https://www.digi-hub.de/viewer/!image/1603977216111/174/-/",
+      "175": "https://www.digi-hub.de/viewer/!image/1603977216111/175/-/",
+      "176": "https://www.digi-hub.de/viewer/!image/1603977216111/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603977216111/177/-/",
+      "178": "https://www.digi-hub.de/viewer/!image/1603977216111/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603977216111/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603977216111/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603977216111/181/-/"
+    },
+    "Geo_1902": {
+      "165": "https://www.digi-hub.de/viewer/!image/1603977277935/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603977277935/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603977277935/167/-/",
+      "168": "https://www.digi-hub.de/viewer/!image/1603977277935/168/-/",
+      "169": "https://www.digi-hub.de/viewer/!image/1603977277935/169/-/",
+      "170": "https://www.digi-hub.de/viewer/!image/1603977277935/170/-/",
+      "171": "https://www.digi-hub.de/viewer/!image/1603977277935/171/-/",
+      "172": "https://www.digi-hub.de/viewer/!image/1603977277935/172/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603977277935/173/-/"
+    },
+    "Min_1902": {
+      "161": "https://www.digi-hub.de/viewer/!image/1603977277935/161/-/",
+      "162": "https://www.digi-hub.de/viewer/!image/1603977277935/162/-/",
+      "163": "https://www.digi-hub.de/viewer/!image/1603977277935/163/-/",
+      "164": "https://www.digi-hub.de/viewer/!image/1603977277935/164/-/",
+      "165": "https://www.digi-hub.de/viewer/!image/1603977277935/165/-/"
+    },
+    "Mus_1902": {
+      "200": "https://www.digi-hub.de/viewer/!image/1603977277935/200/-/"
+    },
+    "Zoo_1902": {
+      "159": "https://www.digi-hub.de/viewer/!image/1603977277935/159/-/",
+      "160": "https://www.digi-hub.de/viewer/!image/1603977277935/160/-/",
+      "161": "https://www.digi-hub.de/viewer/!image/1603977277935/161/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603977277935/173/-/",
+      "174": "https://www.digi-hub.de/viewer/!image/1603977277935/174/-/",
+      "175": "https://www.digi-hub.de/viewer/!image/1603977277935/175/-/",
+      "176": "https://www.digi-hub.de/viewer/!image/1603977277935/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603977277935/177/-/",
+      "178": "https://www.digi-hub.de/viewer/!image/1603977277935/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603977277935/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603977277935/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603977277935/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603977277935/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603977277935/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603977277935/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603977277935/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603977277935/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603977277935/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603977277935/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603977277935/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603977277935/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603977277935/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603977277935/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603977277935/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603977277935/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603977277935/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603977277935/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603977277935/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603977277935/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603977277935/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603977277935/200/-/"
+    },
+    "Geo_1903": {
+      "171": "https://www.digi-hub.de/viewer/!image/1603977346967/171/-/",
+      "172": "https://www.digi-hub.de/viewer/!image/1603977346967/172/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603977346967/173/-/",
+      "174": "https://www.digi-hub.de/viewer/!image/1603977346967/174/-/",
+      "175": "https://www.digi-hub.de/viewer/!image/1603977346967/175/-/",
+      "176": "https://www.digi-hub.de/viewer/!image/1603977346967/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603977346967/177/-/"
+    },
+    "Min_1903": {
+      "168": "https://www.digi-hub.de/viewer/!image/1603977346967/168/-/",
+      "169": "https://www.digi-hub.de/viewer/!image/1603977346967/169/-/",
+      "170": "https://www.digi-hub.de/viewer/!image/1603977346967/170/-/",
+      "171": "https://www.digi-hub.de/viewer/!image/1603977346967/171/-/"
+    },
+    "Mus_1903": {
+      "204": "https://www.digi-hub.de/viewer/!image/1603977346967/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603977346967/205/-/"
+    },
+    "Zoo_1903": {
+      "165": "https://www.digi-hub.de/viewer/!image/1603977346967/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603977346967/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603977346967/167/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603977346967/177/-/",
+      "178": "https://www.digi-hub.de/viewer/!image/1603977346967/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603977346967/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603977346967/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603977346967/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603977346967/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603977346967/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603977346967/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603977346967/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603977346967/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603977346967/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603977346967/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603977346967/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603977346967/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603977346967/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603977346967/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603977346967/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603977346967/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603977346967/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603977346967/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603977346967/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603977346967/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603977346967/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603977346967/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603977346967/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603977346967/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603977346967/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603977346967/204/-/"
+    },
+    "Geo_1904": {
+      "172": "https://www.digi-hub.de/viewer/!image/1603977726548/172/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603977726548/173/-/",
+      "174": "https://www.digi-hub.de/viewer/!image/1603977726548/174/-/",
+      "175": "https://www.digi-hub.de/viewer/!image/1603977726548/175/-/",
+      "176": "https://www.digi-hub.de/viewer/!image/1603977726548/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603977726548/177/-/"
+    },
+    "Min_1904": {
+      "168": "https://www.digi-hub.de/viewer/!image/1603977726548/168/-/",
+      "169": "https://www.digi-hub.de/viewer/!image/1603977726548/169/-/",
+      "170": "https://www.digi-hub.de/viewer/!image/1603977726548/170/-/",
+      "171": "https://www.digi-hub.de/viewer/!image/1603977726548/171/-/"
+    },
+    "Mus_1904": {
+      "201": "https://www.digi-hub.de/viewer/!image/1603977726548/201/-/"
+    },
+    "Zoo_1904": {
+      "165": "https://www.digi-hub.de/viewer/!image/1603977726548/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603977726548/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603977726548/167/-/",
+      "168": "https://www.digi-hub.de/viewer/!image/1603977726548/168/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603977726548/177/-/",
+      "178": "https://www.digi-hub.de/viewer/!image/1603977726548/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603977726548/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603977726548/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603977726548/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603977726548/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603977726548/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603977726548/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603977726548/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603977726548/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603977726548/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603977726548/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603977726548/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603977726548/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603977726548/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603977726548/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603977726548/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603977726548/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603977726548/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603977726548/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603977726548/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603977726548/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603977726548/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603977726548/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603977726548/201/-/"
+    },
+    "Geo_1905": {
+      "182": "https://www.digi-hub.de/viewer/!image/1603978131871/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603978131871/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603978131871/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603978131871/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603978131871/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603978131871/187/-/"
+    },
+    "Min_1905": {
+      "179": "https://www.digi-hub.de/viewer/!image/1603978131871/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603978131871/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603978131871/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603978131871/182/-/"
+    },
+    "Mus_1905": {
+      "212": "https://www.digi-hub.de/viewer/!image/1603978131871/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978131871/213/-/"
+    },
+    "Zoo_1905": {
+      "176": "https://www.digi-hub.de/viewer/!image/1603978131871/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603978131871/177/-/",
+      "178": "https://www.digi-hub.de/viewer/!image/1603978131871/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603978131871/179/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603978131871/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603978131871/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603978131871/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603978131871/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603978131871/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603978131871/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603978131871/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603978131871/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603978131871/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603978131871/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603978131871/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603978131871/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603978131871/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603978131871/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603978131871/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603978131871/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603978131871/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603978131871/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603978131871/205/-/",
+      "206": "https://www.digi-hub.de/viewer/!image/1603978131871/206/-/",
+      "207": "https://www.digi-hub.de/viewer/!image/1603978131871/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978131871/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978131871/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978131871/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978131871/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978131871/212/-/"
+    },
+    "Geo_1906": {
+      "178": "https://www.digi-hub.de/viewer/!image/1603978174052/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603978174052/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603978174052/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603978174052/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603978174052/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603978174052/183/-/"
+    },
+    "Min_1906": {
+      "176": "https://www.digi-hub.de/viewer/!image/1603978174052/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603978174052/177/-/"
+    },
+    "Mus_1906": {
+      "215": "https://www.digi-hub.de/viewer/!image/1603978174052/215/-/",
+      "216": "https://www.digi-hub.de/viewer/!image/1603978174052/216/-/"
+    },
+    "Zoo_1906": {
+      "172": "https://www.digi-hub.de/viewer/!image/1603978174052/172/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603978174052/173/-/",
+      "174": "https://www.digi-hub.de/viewer/!image/1603978174052/174/-/",
+      "175": "https://www.digi-hub.de/viewer/!image/1603978174052/175/-/",
+      "176": "https://www.digi-hub.de/viewer/!image/1603978174052/176/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603978174052/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603978174052/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603978174052/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603978174052/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603978174052/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603978174052/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603978174052/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603978174052/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603978174052/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603978174052/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603978174052/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603978174052/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603978174052/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603978174052/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603978174052/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603978174052/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603978174052/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603978174052/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603978174052/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603978174052/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603978174052/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603978174052/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603978174052/205/-/",
+      "206": "https://www.digi-hub.de/viewer/!image/1603978174052/206/-/",
+      "207": "https://www.digi-hub.de/viewer/!image/1603978174052/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978174052/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978174052/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978174052/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978174052/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978174052/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978174052/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978174052/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978174052/215/-/"
+    },
+    "Geo_1907": {
+      "176": "https://www.digi-hub.de/viewer/!image/1603978231168/176/-/",
+      "177": "https://www.digi-hub.de/viewer/!image/1603978231168/177/-/",
+      "178": "https://www.digi-hub.de/viewer/!image/1603978231168/178/-/",
+      "179": "https://www.digi-hub.de/viewer/!image/1603978231168/179/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603978231168/180/-/"
+    },
+    "Min_1907": {
+      "171": "https://www.digi-hub.de/viewer/!image/1603978231168/171/-/",
+      "172": "https://www.digi-hub.de/viewer/!image/1603978231168/172/-/",
+      "173": "https://www.digi-hub.de/viewer/!image/1603978231168/173/-/",
+      "174": "https://www.digi-hub.de/viewer/!image/1603978231168/174/-/",
+      "175": "https://www.digi-hub.de/viewer/!image/1603978231168/175/-/"
+    },
+    "Mus_1907": {
+      "218": "https://www.digi-hub.de/viewer/!image/1603978231168/218/-/"
+    },
+    "Zoo_1907": {
+      "168": "https://www.digi-hub.de/viewer/!image/1603978231168/168/-/",
+      "169": "https://www.digi-hub.de/viewer/!image/1603978231168/169/-/",
+      "170": "https://www.digi-hub.de/viewer/!image/1603978231168/170/-/",
+      "171": "https://www.digi-hub.de/viewer/!image/1603978231168/171/-/",
+      "180": "https://www.digi-hub.de/viewer/!image/1603978231168/180/-/",
+      "181": "https://www.digi-hub.de/viewer/!image/1603978231168/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603978231168/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603978231168/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603978231168/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603978231168/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603978231168/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603978231168/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603978231168/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603978231168/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603978231168/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603978231168/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603978231168/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603978231168/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603978231168/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603978231168/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603978231168/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603978231168/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603978231168/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603978231168/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603978231168/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603978231168/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603978231168/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603978231168/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603978231168/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603978231168/205/-/",
+      "206": "https://www.digi-hub.de/viewer/!image/1603978231168/206/-/",
+      "207": "https://www.digi-hub.de/viewer/!image/1603978231168/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978231168/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978231168/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978231168/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978231168/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978231168/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978231168/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978231168/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978231168/215/-/",
+      "216": "https://www.digi-hub.de/viewer/!image/1603978231168/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603978231168/217/-/"
+    },
+    "Geo_1908": {
+      "190": "https://www.digi-hub.de/viewer/!image/1603978297551/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603978297551/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603978297551/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603978297551/193/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603978297551/194/-/"
+    },
+    "Min_1908": {
+      "184": "https://www.digi-hub.de/viewer/!image/1603978297551/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603978297551/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603978297551/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603978297551/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603978297551/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603978297551/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603978297551/190/-/"
+    },
+    "Mus_1908": {
+      "226": "https://www.digi-hub.de/viewer/!image/1603978297551/226/-/",
+      "227": "https://www.digi-hub.de/viewer/!image/1603978297551/227/-/"
+    },
+    "Zoo_1908": {
+      "181": "https://www.digi-hub.de/viewer/!image/1603978297551/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603978297551/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603978297551/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603978297551/184/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603978297551/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603978297551/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603978297551/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603978297551/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603978297551/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603978297551/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603978297551/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603978297551/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603978297551/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603978297551/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603978297551/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603978297551/205/-/",
+      "206": "https://www.digi-hub.de/viewer/!image/1603978297551/206/-/",
+      "207": "https://www.digi-hub.de/viewer/!image/1603978297551/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978297551/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978297551/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978297551/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978297551/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978297551/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978297551/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978297551/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978297551/215/-/",
+      "216": "https://www.digi-hub.de/viewer/!image/1603978297551/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603978297551/217/-/",
+      "218": "https://www.digi-hub.de/viewer/!image/1603978297551/218/-/",
+      "219": "https://www.digi-hub.de/viewer/!image/1603978297551/219/-/",
+      "220": "https://www.digi-hub.de/viewer/!image/1603978297551/220/-/",
+      "221": "https://www.digi-hub.de/viewer/!image/1603978297551/221/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603978297551/222/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603978297551/223/-/",
+      "224": "https://www.digi-hub.de/viewer/!image/1603978297551/224/-/",
+      "225": "https://www.digi-hub.de/viewer/!image/1603978297551/225/-/",
+      "226": "https://www.digi-hub.de/viewer/!image/1603978297551/226/-/"
+    },
+    "Geo_1909": {
+      "188": "https://www.digi-hub.de/viewer/!image/1603978351370/188/-/",
+      "189": "https://www.digi-hub.de/viewer/!image/1603978351370/189/-/",
+      "190": "https://www.digi-hub.de/viewer/!image/1603978351370/190/-/",
+      "191": "https://www.digi-hub.de/viewer/!image/1603978351370/191/-/",
+      "192": "https://www.digi-hub.de/viewer/!image/1603978351370/192/-/",
+      "193": "https://www.digi-hub.de/viewer/!image/1603978351370/193/-/"
+    },
+    "Min_1909": {
+      "184": "https://www.digi-hub.de/viewer/!image/1603978351370/184/-/",
+      "185": "https://www.digi-hub.de/viewer/!image/1603978351370/185/-/",
+      "186": "https://www.digi-hub.de/viewer/!image/1603978351370/186/-/",
+      "187": "https://www.digi-hub.de/viewer/!image/1603978351370/187/-/",
+      "188": "https://www.digi-hub.de/viewer/!image/1603978351370/188/-/"
+    },
+    "Mus_1909": {
+      "232": "https://www.digi-hub.de/viewer/!image/1603978351370/232/-/",
+      "233": "https://www.digi-hub.de/viewer/!image/1603978351370/233/-/"
+    },
+    "Zoo_1909": {
+      "181": "https://www.digi-hub.de/viewer/!image/1603978351370/181/-/",
+      "182": "https://www.digi-hub.de/viewer/!image/1603978351370/182/-/",
+      "183": "https://www.digi-hub.de/viewer/!image/1603978351370/183/-/",
+      "184": "https://www.digi-hub.de/viewer/!image/1603978351370/184/-/",
+      "194": "https://www.digi-hub.de/viewer/!image/1603978351370/194/-/",
+      "195": "https://www.digi-hub.de/viewer/!image/1603978351370/195/-/",
+      "196": "https://www.digi-hub.de/viewer/!image/1603978351370/196/-/",
+      "197": "https://www.digi-hub.de/viewer/!image/1603978351370/197/-/",
+      "198": "https://www.digi-hub.de/viewer/!image/1603978351370/198/-/",
+      "199": "https://www.digi-hub.de/viewer/!image/1603978351370/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603978351370/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603978351370/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603978351370/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603978351370/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603978351370/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603978351370/205/-/",
+      "206": "https://www.digi-hub.de/viewer/!image/1603978351370/206/-/",
+      "207": "https://www.digi-hub.de/viewer/!image/1603978351370/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978351370/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978351370/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978351370/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978351370/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978351370/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978351370/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978351370/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978351370/215/-/",
+      "216": "https://www.digi-hub.de/viewer/!image/1603978351370/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603978351370/217/-/",
+      "218": "https://www.digi-hub.de/viewer/!image/1603978351370/218/-/",
+      "219": "https://www.digi-hub.de/viewer/!image/1603978351370/219/-/",
+      "220": "https://www.digi-hub.de/viewer/!image/1603978351370/220/-/",
+      "221": "https://www.digi-hub.de/viewer/!image/1603978351370/221/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603978351370/222/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603978351370/223/-/",
+      "224": "https://www.digi-hub.de/viewer/!image/1603978351370/224/-/",
+      "225": "https://www.digi-hub.de/viewer/!image/1603978351370/225/-/",
+      "226": "https://www.digi-hub.de/viewer/!image/1603978351370/226/-/",
+      "227": "https://www.digi-hub.de/viewer/!image/1603978351370/227/-/",
+      "228": "https://www.digi-hub.de/viewer/!image/1603978351370/228/-/",
+      "229": "https://www.digi-hub.de/viewer/!image/1603978351370/229/-/",
+      "230": "https://www.digi-hub.de/viewer/!image/1603978351370/230/-/",
+      "231": "https://www.digi-hub.de/viewer/!image/1603978351370/231/-/",
+      "232": "https://www.digi-hub.de/viewer/!image/1603978351370/232/-/"
+    },
+    "Geo_1910": {
+      "215": "https://www.digi-hub.de/viewer/!image/1603978404417/215/-/",
+      "216": "https://www.digi-hub.de/viewer/!image/1603978404417/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603978404417/217/-/",
+      "218": "https://www.digi-hub.de/viewer/!image/1603978404417/218/-/",
+      "219": "https://www.digi-hub.de/viewer/!image/1603978404417/219/-/",
+      "220": "https://www.digi-hub.de/viewer/!image/1603978404417/220/-/",
+      "221": "https://www.digi-hub.de/viewer/!image/1603978404417/221/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603978404417/222/-/"
+    },
+    "Min_1910": {
+      "211": "https://www.digi-hub.de/viewer/!image/1603978404417/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978404417/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978404417/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978404417/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978404417/215/-/"
+    },
+    "Mus_1910": {
+      "262": "https://www.digi-hub.de/viewer/!image/1603978404417/262/-/",
+      "263": "https://www.digi-hub.de/viewer/!image/1603978404417/263/-/"
+    },
+    "Zoo_1910": {
+      "207": "https://www.digi-hub.de/viewer/!image/1603978404417/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978404417/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978404417/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978404417/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978404417/211/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603978404417/222/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603978404417/223/-/",
+      "224": "https://www.digi-hub.de/viewer/!image/1603978404417/224/-/",
+      "225": "https://www.digi-hub.de/viewer/!image/1603978404417/225/-/",
+      "226": "https://www.digi-hub.de/viewer/!image/1603978404417/226/-/",
+      "227": "https://www.digi-hub.de/viewer/!image/1603978404417/227/-/",
+      "228": "https://www.digi-hub.de/viewer/!image/1603978404417/228/-/",
+      "229": "https://www.digi-hub.de/viewer/!image/1603978404417/229/-/",
+      "230": "https://www.digi-hub.de/viewer/!image/1603978404417/230/-/",
+      "231": "https://www.digi-hub.de/viewer/!image/1603978404417/231/-/",
+      "232": "https://www.digi-hub.de/viewer/!image/1603978404417/232/-/",
+      "233": "https://www.digi-hub.de/viewer/!image/1603978404417/233/-/",
+      "234": "https://www.digi-hub.de/viewer/!image/1603978404417/234/-/",
+      "235": "https://www.digi-hub.de/viewer/!image/1603978404417/235/-/",
+      "236": "https://www.digi-hub.de/viewer/!image/1603978404417/236/-/",
+      "237": "https://www.digi-hub.de/viewer/!image/1603978404417/237/-/",
+      "238": "https://www.digi-hub.de/viewer/!image/1603978404417/238/-/",
+      "239": "https://www.digi-hub.de/viewer/!image/1603978404417/239/-/",
+      "240": "https://www.digi-hub.de/viewer/!image/1603978404417/240/-/",
+      "241": "https://www.digi-hub.de/viewer/!image/1603978404417/241/-/",
+      "242": "https://www.digi-hub.de/viewer/!image/1603978404417/242/-/",
+      "243": "https://www.digi-hub.de/viewer/!image/1603978404417/243/-/",
+      "244": "https://www.digi-hub.de/viewer/!image/1603978404417/244/-/",
+      "245": "https://www.digi-hub.de/viewer/!image/1603978404417/245/-/",
+      "246": "https://www.digi-hub.de/viewer/!image/1603978404417/246/-/",
+      "247": "https://www.digi-hub.de/viewer/!image/1603978404417/247/-/",
+      "248": "https://www.digi-hub.de/viewer/!image/1603978404417/248/-/",
+      "249": "https://www.digi-hub.de/viewer/!image/1603978404417/249/-/",
+      "250": "https://www.digi-hub.de/viewer/!image/1603978404417/250/-/",
+      "251": "https://www.digi-hub.de/viewer/!image/1603978404417/251/-/",
+      "252": "https://www.digi-hub.de/viewer/!image/1603978404417/252/-/",
+      "253": "https://www.digi-hub.de/viewer/!image/1603978404417/253/-/",
+      "254": "https://www.digi-hub.de/viewer/!image/1603978404417/254/-/",
+      "255": "https://www.digi-hub.de/viewer/!image/1603978404417/255/-/",
+      "256": "https://www.digi-hub.de/viewer/!image/1603978404417/256/-/",
+      "257": "https://www.digi-hub.de/viewer/!image/1603978404417/257/-/",
+      "258": "https://www.digi-hub.de/viewer/!image/1603978404417/258/-/",
+      "259": "https://www.digi-hub.de/viewer/!image/1603978404417/259/-/",
+      "260": "https://www.digi-hub.de/viewer/!image/1603978404417/260/-/",
+      "261": "https://www.digi-hub.de/viewer/!image/1603978404417/261/-/",
+      "262": "https://www.digi-hub.de/viewer/!image/1603978404417/262/-/"
+    },
+    "Geo_1911": {
+      "208": "https://www.digi-hub.de/viewer/!image/1603978492926/208/-/",
+      "209": "https://www.digi-hub.de/viewer/!image/1603978492926/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603978492926/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603978492926/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603978492926/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978492926/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978492926/214/-/"
+    },
+    "Min_1911": {
+      "203": "https://www.digi-hub.de/viewer/!image/1603978492926/203/-/",
+      "204": "https://www.digi-hub.de/viewer/!image/1603978492926/204/-/",
+      "205": "https://www.digi-hub.de/viewer/!image/1603978492926/205/-/",
+      "206": "https://www.digi-hub.de/viewer/!image/1603978492926/206/-/",
+      "207": "https://www.digi-hub.de/viewer/!image/1603978492926/207/-/",
+      "208": "https://www.digi-hub.de/viewer/!image/1603978492926/208/-/"
+    },
+    "Mus_1911": {
+      "256": "https://www.digi-hub.de/viewer/!image/1603978492926/256/-/"
+    },
+    "Zoo_1911": {
+      "199": "https://www.digi-hub.de/viewer/!image/1603978492926/199/-/",
+      "200": "https://www.digi-hub.de/viewer/!image/1603978492926/200/-/",
+      "201": "https://www.digi-hub.de/viewer/!image/1603978492926/201/-/",
+      "202": "https://www.digi-hub.de/viewer/!image/1603978492926/202/-/",
+      "203": "https://www.digi-hub.de/viewer/!image/1603978492926/203/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978492926/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978492926/215/-/",
+      "216": "https://www.digi-hub.de/viewer/!image/1603978492926/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603978492926/217/-/",
+      "218": "https://www.digi-hub.de/viewer/!image/1603978492926/218/-/",
+      "219": "https://www.digi-hub.de/viewer/!image/1603978492926/219/-/",
+      "220": "https://www.digi-hub.de/viewer/!image/1603978492926/220/-/",
+      "221": "https://www.digi-hub.de/viewer/!image/1603978492926/221/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603978492926/222/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603978492926/223/-/",
+      "224": "https://www.digi-hub.de/viewer/!image/1603978492926/224/-/",
+      "225": "https://www.digi-hub.de/viewer/!image/1603978492926/225/-/",
+      "226": "https://www.digi-hub.de/viewer/!image/1603978492926/226/-/",
+      "227": "https://www.digi-hub.de/viewer/!image/1603978492926/227/-/",
+      "228": "https://www.digi-hub.de/viewer/!image/1603978492926/228/-/",
+      "229": "https://www.digi-hub.de/viewer/!image/1603978492926/229/-/",
+      "230": "https://www.digi-hub.de/viewer/!image/1603978492926/230/-/",
+      "231": "https://www.digi-hub.de/viewer/!image/1603978492926/231/-/",
+      "232": "https://www.digi-hub.de/viewer/!image/1603978492926/232/-/",
+      "233": "https://www.digi-hub.de/viewer/!image/1603978492926/233/-/",
+      "234": "https://www.digi-hub.de/viewer/!image/1603978492926/234/-/",
+      "235": "https://www.digi-hub.de/viewer/!image/1603978492926/235/-/",
+      "236": "https://www.digi-hub.de/viewer/!image/1603978492926/236/-/",
+      "237": "https://www.digi-hub.de/viewer/!image/1603978492926/237/-/",
+      "238": "https://www.digi-hub.de/viewer/!image/1603978492926/238/-/",
+      "239": "https://www.digi-hub.de/viewer/!image/1603978492926/239/-/",
+      "240": "https://www.digi-hub.de/viewer/!image/1603978492926/240/-/",
+      "241": "https://www.digi-hub.de/viewer/!image/1603978492926/241/-/",
+      "242": "https://www.digi-hub.de/viewer/!image/1603978492926/242/-/",
+      "243": "https://www.digi-hub.de/viewer/!image/1603978492926/243/-/",
+      "244": "https://www.digi-hub.de/viewer/!image/1603978492926/244/-/",
+      "245": "https://www.digi-hub.de/viewer/!image/1603978492926/245/-/",
+      "246": "https://www.digi-hub.de/viewer/!image/1603978492926/246/-/",
+      "247": "https://www.digi-hub.de/viewer/!image/1603978492926/247/-/",
+      "248": "https://www.digi-hub.de/viewer/!image/1603978492926/248/-/",
+      "249": "https://www.digi-hub.de/viewer/!image/1603978492926/249/-/",
+      "250": "https://www.digi-hub.de/viewer/!image/1603978492926/250/-/",
+      "251": "https://www.digi-hub.de/viewer/!image/1603978492926/251/-/",
+      "252": "https://www.digi-hub.de/viewer/!image/1603978492926/252/-/",
+      "253": "https://www.digi-hub.de/viewer/!image/1603978492926/253/-/",
+      "254": "https://www.digi-hub.de/viewer/!image/1603978492926/254/-/",
+      "255": "https://www.digi-hub.de/viewer/!image/1603978492926/255/-/"
+    },
+    "Geo_1912": {
+      "220": "https://www.digi-hub.de/viewer/!image/1603978533494/220/-/",
+      "221": "https://www.digi-hub.de/viewer/!image/1603978533494/221/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603978533494/222/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603978533494/223/-/",
+      "224": "https://www.digi-hub.de/viewer/!image/1603978533494/224/-/",
+      "225": "https://www.digi-hub.de/viewer/!image/1603978533494/225/-/",
+      "226": "https://www.digi-hub.de/viewer/!image/1603978533494/226/-/"
+    },
+    "Min_1912": {
+      "216": "https://www.digi-hub.de/viewer/!image/1603978533494/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603978533494/217/-/",
+      "218": "https://www.digi-hub.de/viewer/!image/1603978533494/218/-/",
+      "219": "https://www.digi-hub.de/viewer/!image/1603978533494/219/-/",
+      "220": "https://www.digi-hub.de/viewer/!image/1603978533494/220/-/"
+    },
+    "Mus_1912": {
+      "266": "https://www.digi-hub.de/viewer/!image/1603978533494/266/-/",
+      "267": "https://www.digi-hub.de/viewer/!image/1603978533494/267/-/"
+    },
+    "Zoo_1912": {
+      "212": "https://www.digi-hub.de/viewer/!image/1603978533494/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603978533494/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603978533494/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603978533494/215/-/",
+      "227": "https://www.digi-hub.de/viewer/!image/1603978533494/227/-/",
+      "228": "https://www.digi-hub.de/viewer/!image/1603978533494/228/-/",
+      "229": "https://www.digi-hub.de/viewer/!image/1603978533494/229/-/",
+      "230": "https://www.digi-hub.de/viewer/!image/1603978533494/230/-/",
+      "231": "https://www.digi-hub.de/viewer/!image/1603978533494/231/-/",
+      "232": "https://www.digi-hub.de/viewer/!image/1603978533494/232/-/",
+      "233": "https://www.digi-hub.de/viewer/!image/1603978533494/233/-/",
+      "234": "https://www.digi-hub.de/viewer/!image/1603978533494/234/-/",
+      "235": "https://www.digi-hub.de/viewer/!image/1603978533494/235/-/",
+      "236": "https://www.digi-hub.de/viewer/!image/1603978533494/236/-/",
+      "237": "https://www.digi-hub.de/viewer/!image/1603978533494/237/-/",
+      "238": "https://www.digi-hub.de/viewer/!image/1603978533494/238/-/",
+      "239": "https://www.digi-hub.de/viewer/!image/1603978533494/239/-/",
+      "240": "https://www.digi-hub.de/viewer/!image/1603978533494/240/-/",
+      "241": "https://www.digi-hub.de/viewer/!image/1603978533494/241/-/",
+      "242": "https://www.digi-hub.de/viewer/!image/1603978533494/242/-/",
+      "243": "https://www.digi-hub.de/viewer/!image/1603978533494/243/-/",
+      "244": "https://www.digi-hub.de/viewer/!image/1603978533494/244/-/",
+      "245": "https://www.digi-hub.de/viewer/!image/1603978533494/245/-/",
+      "246": "https://www.digi-hub.de/viewer/!image/1603978533494/246/-/",
+      "247": "https://www.digi-hub.de/viewer/!image/1603978533494/247/-/",
+      "248": "https://www.digi-hub.de/viewer/!image/1603978533494/248/-/",
+      "249": "https://www.digi-hub.de/viewer/!image/1603978533494/249/-/",
+      "250": "https://www.digi-hub.de/viewer/!image/1603978533494/250/-/",
+      "251": "https://www.digi-hub.de/viewer/!image/1603978533494/251/-/",
+      "252": "https://www.digi-hub.de/viewer/!image/1603978533494/252/-/",
+      "253": "https://www.digi-hub.de/viewer/!image/1603978533494/253/-/",
+      "254": "https://www.digi-hub.de/viewer/!image/1603978533494/254/-/",
+      "255": "https://www.digi-hub.de/viewer/!image/1603978533494/255/-/",
+      "256": "https://www.digi-hub.de/viewer/!image/1603978533494/256/-/",
+      "257": "https://www.digi-hub.de/viewer/!image/1603978533494/257/-/",
+      "258": "https://www.digi-hub.de/viewer/!image/1603978533494/258/-/",
+      "259": "https://www.digi-hub.de/viewer/!image/1603978533494/259/-/",
+      "260": "https://www.digi-hub.de/viewer/!image/1603978533494/260/-/",
+      "261": "https://www.digi-hub.de/viewer/!image/1603978533494/261/-/",
+      "262": "https://www.digi-hub.de/viewer/!image/1603978533494/262/-/",
+      "263": "https://www.digi-hub.de/viewer/!image/1603978533494/263/-/",
+      "264": "https://www.digi-hub.de/viewer/!image/1603978533494/264/-/",
+      "265": "https://www.digi-hub.de/viewer/!image/1603978533494/265/-/",
+      "266": "https://www.digi-hub.de/viewer/!image/1603978533494/266/-/"
+    },
+    "Geo_1913": {
+      "133": "https://www.digi-hub.de/viewer/!image/1603978592495/133/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603978592495/134/-/"
+    },
+    "Min_1913": {
+      "132": "https://www.digi-hub.de/viewer/!image/1603978592495/132/-/"
+    },
+    "Mus_1913": {
+      "136": "https://www.digi-hub.de/viewer/!image/1603978592495/136/-/"
+    },
+    "Zoo_1913": {
+      "130": "https://www.digi-hub.de/viewer/!image/1603978592495/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603978592495/131/-/",
+      "134": "https://www.digi-hub.de/viewer/!image/1603978592495/134/-/",
+      "135": "https://www.digi-hub.de/viewer/!image/1603978592495/135/-/",
+      "136": "https://www.digi-hub.de/viewer/!image/1603978592495/136/-/"
+    },
+    "Geo_1914": {
+      "127": "https://www.digi-hub.de/viewer/!image/1603978673555/127/-/",
+      "128": "https://www.digi-hub.de/viewer/!image/1603978673555/128/-/"
+    },
+    "Min_1914": {
+      "126": "https://www.digi-hub.de/viewer/!image/1603978673555/126/-/",
+      "127": "https://www.digi-hub.de/viewer/!image/1603978673555/127/-/"
+    },
+    "Mus_1914": {
+      "130": "https://www.digi-hub.de/viewer/!image/1603978673555/130/-/",
+      "131": "https://www.digi-hub.de/viewer/!image/1603978673555/131/-/"
+    },
+    "Zoo_1914": {
+      "125": "https://www.digi-hub.de/viewer/!image/1603978673555/125/-/",
+      "126": "https://www.digi-hub.de/viewer/!image/1603978673555/126/-/",
+      "129": "https://www.digi-hub.de/viewer/!image/1603978673555/129/-/",
+      "130": "https://www.digi-hub.de/viewer/!image/1603978673555/130/-/"
+    },
+    "Geo_1915": {
+      "111": "https://www.digi-hub.de/viewer/!image/1603978740580/111/-/",
+      "112": "https://www.digi-hub.de/viewer/!image/1603978740580/112/-/"
+    },
+    "Min_1915": {
+      "110": "https://www.digi-hub.de/viewer/!image/1603978740580/110/-/",
+      "111": "https://www.digi-hub.de/viewer/!image/1603978740580/111/-/"
+    },
+    "Mus_1915": {
+      "114": "https://www.digi-hub.de/viewer/!image/1603978740580/114/-/"
+    },
+    "Zoo_1915": {
+      "109": "https://www.digi-hub.de/viewer/!image/1603978740580/109/-/",
+      "110": "https://www.digi-hub.de/viewer/!image/1603978740580/110/-/",
+      "113": "https://www.digi-hub.de/viewer/!image/1603978740580/113/-/",
+      "114": "https://www.digi-hub.de/viewer/!image/1603978740580/114/-/"
+    },
+    "Geo_1928": {
+      "105": "https://www.digi-hub.de/viewer/!image/1603979603757/105/-/",
+      "106": "https://www.digi-hub.de/viewer/!image/1603979603757/106/-/"
+    },
+    "Min_1928": {
+      "104": "https://www.digi-hub.de/viewer/!image/1603979603757/104/-/",
+      "105": "https://www.digi-hub.de/viewer/!image/1603979603757/105/-/"
+    },
+    "Zoo_1928": {
+      "106": "https://www.digi-hub.de/viewer/!image/1603979603757/106/-/",
+      "107": "https://www.digi-hub.de/viewer/!image/1603979603757/107/-/",
+      "108": "https://www.digi-hub.de/viewer/!image/1603979603757/108/-/"
+    },
+    "Geo_1929": {
+      "101": "https://www.digi-hub.de/viewer/!image/1603979675925/101/-/",
+      "102": "https://www.digi-hub.de/viewer/!image/1603979675925/102/-/"
+    },
+    "Min_1929": {
+      "100": "https://www.digi-hub.de/viewer/!image/1603979675925/100/-/",
+      "101": "https://www.digi-hub.de/viewer/!image/1603979675925/101/-/"
+    },
+    "Zoo_1929": {
+      "102": "https://www.digi-hub.de/viewer/!image/1603979675925/102/-/",
+      "103": "https://www.digi-hub.de/viewer/!image/1603979675925/103/-/",
+      "104": "https://www.digi-hub.de/viewer/!image/1603979675925/104/-/"
+    },
+    "Geo_1930": {
+      "117": "https://www.digi-hub.de/viewer/!image/1603979744396/117/-/",
+      "118": "https://www.digi-hub.de/viewer/!image/1603979744396/118/-/"
+    },
+    "Min_1930": {
+      "116": "https://www.digi-hub.de/viewer/!image/1603979744396/116/-/",
+      "117": "https://www.digi-hub.de/viewer/!image/1603979744396/117/-/"
+    },
+    "Mus_1930": {
+      "115": "https://www.digi-hub.de/viewer/!image/1603979744396/115/-/",
+      "116": "https://www.digi-hub.de/viewer/!image/1603979744396/116/-/"
+    },
+    "Zoo_1930": {
+      "118": "https://www.digi-hub.de/viewer/!image/1603979744396/118/-/",
+      "119": "https://www.digi-hub.de/viewer/!image/1603979744396/119/-/",
+      "120": "https://www.digi-hub.de/viewer/!image/1603979744396/120/-/"
+    },
+    "Geo_1931": {
+      "119": "https://www.digi-hub.de/viewer/!image/1603979798476/119/-/",
+      "120": "https://www.digi-hub.de/viewer/!image/1603979798476/120/-/"
+    },
+    "Min_1931": {
+      "118": "https://www.digi-hub.de/viewer/!image/1603979798476/118/-/",
+      "119": "https://www.digi-hub.de/viewer/!image/1603979798476/119/-/"
+    },
+    "Mus_1931": {
+      "117": "https://www.digi-hub.de/viewer/!image/1603979798476/117/-/"
+    },
+    "Zoo_1931": {
+      "120": "https://www.digi-hub.de/viewer/!image/1603979798476/120/-/",
+      "121": "https://www.digi-hub.de/viewer/!image/1603979798476/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603979798476/122/-/"
+    },
+    "Geo_1932": {
+      "121": "https://www.digi-hub.de/viewer/!image/1603979919614/121/-/",
+      "122": "https://www.digi-hub.de/viewer/!image/1603979919614/122/-/"
+    },
+    "Min_1932": {
+      "120": "https://www.digi-hub.de/viewer/!image/1603979919614/120/-/",
+      "121": "https://www.digi-hub.de/viewer/!image/1603979919614/121/-/"
+    },
+    "Mus_1932": {
+      "120": "https://www.digi-hub.de/viewer/!image/1603979919614/120/-/"
+    },
+    "Zoo_1932": {
+      "123": "https://www.digi-hub.de/viewer/!image/1603979919614/123/-/",
+      "124": "https://www.digi-hub.de/viewer/!image/1603979919614/124/-/",
+      "125": "https://www.digi-hub.de/viewer/!image/1603979919614/125/-/"
+    },
+    "Geo_1933": {
+      "214": "https://www.digi-hub.de/viewer/!image/1603980084563/214/-/",
+      "215": "https://www.digi-hub.de/viewer/!image/1603980084563/215/-/"
+    },
+    "Min_1933": {
+      "211": "https://www.digi-hub.de/viewer/!image/1603980084563/211/-/",
+      "212": "https://www.digi-hub.de/viewer/!image/1603980084563/212/-/"
+    },
+    "Mus_1933": {
+      "209": "https://www.digi-hub.de/viewer/!image/1603980084563/209/-/",
+      "210": "https://www.digi-hub.de/viewer/!image/1603980084563/210/-/"
+    },
+    "Zoo_1933": {
+      "219": "https://www.digi-hub.de/viewer/!image/1603980084563/219/-/",
+      "220": "https://www.digi-hub.de/viewer/!image/1603980084563/220/-/",
+      "222": "https://www.digi-hub.de/viewer/!image/1603980084563/222/-/"
+    },
+    "Geo_1934": {
+      "216": "https://www.digi-hub.de/viewer/!image/1603980084563/216/-/",
+      "217": "https://www.digi-hub.de/viewer/!image/1603980084563/217/-/"
+    },
+    "Min_1934": {
+      "212": "https://www.digi-hub.de/viewer/!image/1603980084563/212/-/",
+      "213": "https://www.digi-hub.de/viewer/!image/1603980084563/213/-/"
+    },
+    "Mus_1934": {
+      "210": "https://www.digi-hub.de/viewer/!image/1603980084563/210/-/"
+    },
+    "Zoo_1934": {
+      "220": "https://www.digi-hub.de/viewer/!image/1603980084563/220/-/",
+      "221": "https://www.digi-hub.de/viewer/!image/1603980084563/221/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603980084563/223/-/"
+    },
+    "Geo_1935": {
+      "217": "https://www.digi-hub.de/viewer/!image/1603980084563/217/-/",
+      "218": "https://www.digi-hub.de/viewer/!image/1603980084563/218/-/"
+    },
+    "Min_1935": {
+      "213": "https://www.digi-hub.de/viewer/!image/1603980084563/213/-/",
+      "214": "https://www.digi-hub.de/viewer/!image/1603980084563/214/-/"
+    },
+    "Mus_1935": {
+      "210": "https://www.digi-hub.de/viewer/!image/1603980084563/210/-/",
+      "211": "https://www.digi-hub.de/viewer/!image/1603980084563/211/-/"
+    },
+    "Zoo_1935": {
+      "221": "https://www.digi-hub.de/viewer/!image/1603980084563/221/-/",
+      "223": "https://www.digi-hub.de/viewer/!image/1603980084563/223/-/",
+      "224": "https://www.digi-hub.de/viewer/!image/1603980084563/224/-/"
+    },
+    "Geo_1936": {
+      "112": "https://www.digi-hub.de/viewer/!image/1603980133303/112/-/",
+      "113": "https://www.digi-hub.de/viewer/!image/1603980133303/113/-/"
+    },
+    "Min_1936": {
+      "111": "https://www.digi-hub.de/viewer/!image/1603980133303/111/-/",
+      "112": "https://www.digi-hub.de/viewer/!image/1603980133303/112/-/"
+    },
+    "Mus_1936": {
+      "111": "https://www.digi-hub.de/viewer/!image/1603980133303/111/-/"
+    },
+    "Zoo_1936": {
+      "113": "https://www.digi-hub.de/viewer/!image/1603980133303/113/-/",
+      "114": "https://www.digi-hub.de/viewer/!image/1603980133303/114/-/",
+      "115": "https://www.digi-hub.de/viewer/!image/1603980133303/115/-/"
+    },
+    "Geo_1937": {
+      "152": "https://www.digi-hub.de/viewer/!image/1603980193626/152/-/",
+      "153": "https://www.digi-hub.de/viewer/!image/1603980193626/153/-/"
+    },
+    "Min_1937": {
+      "151": "https://www.digi-hub.de/viewer/!image/1603980193626/151/-/",
+      "152": "https://www.digi-hub.de/viewer/!image/1603980193626/152/-/"
+    },
+    "Mus_1937": {
+      "151": "https://www.digi-hub.de/viewer/!image/1603980193626/151/-/"
+    },
+    "Zoo_1937": {
+      "154": "https://www.digi-hub.de/viewer/!image/1603980193626/154/-/",
+      "155": "https://www.digi-hub.de/viewer/!image/1603980193626/155/-/",
+      "156": "https://www.digi-hub.de/viewer/!image/1603980193626/156/-/"
+    },
+    "Geo_1938": {
+      "162": "https://www.digi-hub.de/viewer/!image/1603980265057/162/-/",
+      "163": "https://www.digi-hub.de/viewer/!image/1603980265057/163/-/"
+    },
+    "Min_1938": {
+      "161": "https://www.digi-hub.de/viewer/!image/1603980265057/161/-/",
+      "162": "https://www.digi-hub.de/viewer/!image/1603980265057/162/-/"
+    },
+    "Mus_1938": {
+      "160": "https://www.digi-hub.de/viewer/!image/1603980265057/160/-/",
+      "161": "https://www.digi-hub.de/viewer/!image/1603980265057/161/-/"
+    },
+    "Zoo_1938": {
+      "163": "https://www.digi-hub.de/viewer/!image/1603980265057/163/-/",
+      "164": "https://www.digi-hub.de/viewer/!image/1603980265057/164/-/",
+      "165": "https://www.digi-hub.de/viewer/!image/1603980265057/165/-/",
+      "166": "https://www.digi-hub.de/viewer/!image/1603980265057/166/-/",
+      "167": "https://www.digi-hub.de/viewer/!image/1603980265057/167/-/",
+      "168": "https://www.digi-hub.de/viewer/!image/1603980265057/168/-/"
+    }
+  },
+  "ORIGINAL_PAGES": {
+    "Mus_1887": {
+      "67": 63
+    },
+    "Mus_1888": {
+      "54": 50
+    },
+    "Geo_1889": {
+      "137": 133,
+      "138": 134
+    },
+    "Min_1889": {
+      "138": 134,
+      "139": 135,
+      "140": 136
+    },
+    "Mus_1889": {
+      "134": 130,
+      "135": 131,
+      "136": 132
+    },
+    "Zoo_1889": {
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139,
+      "144": 140
+    },
+    "Geo_1890": {
+      "121": 117,
+      "122": 118
+    },
+    "Min_1890": {
+      "122": 118,
+      "123": 119,
+      "124": 120,
+      "125": 121
+    },
+    "Mus_1890": {
+      "120": 116
+    },
+    "Zoo_1890": {
+      "117": 113,
+      "118": 114,
+      "119": 115,
+      "120": 116,
+      "125": 121,
+      "126": 122,
+      "127": 123,
+      "128": 124,
+      "129": 125,
+      "130": 126,
+      "131": 127
+    },
+    "Geo_1891": {
+      "138": 134,
+      "139": 135,
+      "140": 136
+    },
+    "Min_1891": {
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139
+    },
+    "Mus_1891": {
+      "137": 133,
+      "138": 134
+    },
+    "Zoo_1891": {
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142,
+      "147": 143,
+      "148": 144,
+      "149": 145,
+      "150": 146,
+      "151": 147
+    },
+    "Geo_1892": {
+      "125": 121,
+      "126": 122,
+      "127": 123
+    },
+    "Min_1892": {
+      "127": 123,
+      "128": 124,
+      "129": 125,
+      "130": 126
+    },
+    "Mus_1892": {
+      "124": 120,
+      "125": 121
+    },
+    "Zoo_1892": {
+      "121": 117,
+      "122": 118,
+      "123": 119,
+      "124": 120,
+      "130": 126,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137
+    },
+    "Geo_1893": {
+      "127": 123,
+      "128": 124,
+      "129": 125
+    },
+    "Min_1893": {
+      "129": 125,
+      "130": 126,
+      "131": 127
+    },
+    "Mus_1893": {
+      "127": 123
+    },
+    "Zoo_1893": {
+      "123": 119,
+      "124": 120,
+      "125": 121,
+      "126": 122,
+      "127": 123,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139
+    },
+    "Geo_1894": {
+      "120": 116,
+      "121": 117
+    },
+    "Min_1894": {
+      "121": 117,
+      "122": 118,
+      "123": 119,
+      "124": 120
+    },
+    "Mus_1894": {
+      "119": 115,
+      "120": 116
+    },
+    "Zoo_1894": {
+      "117": 113,
+      "118": 114,
+      "119": 115,
+      "124": 120,
+      "125": 121,
+      "126": 122,
+      "127": 123,
+      "128": 124,
+      "129": 125,
+      "130": 126,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135
+    },
+    "Geo_1895": {
+      "124": 120,
+      "125": 121,
+      "126": 122
+    },
+    "Min_1895": {
+      "126": 122,
+      "127": 123,
+      "128": 124
+    },
+    "Mus_1895": {
+      "123": 119,
+      "124": 120
+    },
+    "Zoo_1895": {
+      "121": 117,
+      "122": 118,
+      "123": 119,
+      "128": 124,
+      "129": 125,
+      "130": 126,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142
+    },
+    "Geo_1896": {
+      "127": 123,
+      "128": 124,
+      "129": 125
+    },
+    "Min_1896": {
+      "129": 125,
+      "130": 126,
+      "131": 127
+    },
+    "Mus_1896": {
+      "126": 122,
+      "127": 123
+    },
+    "Zoo_1896": {
+      "122": 118,
+      "123": 119,
+      "124": 120,
+      "125": 121,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142,
+      "147": 143,
+      "148": 144,
+      "149": 145,
+      "150": 146,
+      "151": 147,
+      "152": 148,
+      "153": 149,
+      "154": 150,
+      "155": 151,
+      "156": 152,
+      "157": 153
+    },
+    "Geo_1897": {
+      "162": 158,
+      "163": 159,
+      "164": 160
+    },
+    "Min_1897": {
+      "164": 160,
+      "165": 161,
+      "166": 162,
+      "167": 163
+    },
+    "Mus_1897": {
+      "136": 132,
+      "137": 133
+    },
+    "Zoo_1897": {
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142,
+      "147": 143,
+      "148": 144,
+      "149": 145,
+      "150": 146,
+      "151": 147,
+      "152": 148,
+      "153": 149,
+      "154": 150,
+      "155": 151,
+      "156": 152,
+      "157": 153,
+      "158": 154,
+      "159": 155,
+      "160": 156,
+      "161": 157,
+      "162": 158
+    },
+    "Geo_1898": {
+      "149": 145,
+      "150": 146,
+      "151": 147,
+      "152": 148
+    },
+    "Min_1898": {
+      "147": 143,
+      "148": 144,
+      "149": 145
+    },
+    "Mus_1898": {
+      "124": 120,
+      "125": 121
+    },
+    "Zoo_1898": {
+      "120": 116,
+      "121": 117,
+      "122": 118,
+      "123": 119,
+      "124": 120,
+      "125": 121,
+      "126": 122,
+      "127": 123,
+      "128": 124,
+      "129": 125,
+      "130": 126,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142
+    },
+    "Geo_1899": {
+      "149": 145,
+      "150": 146,
+      "151": 147,
+      "152": 148,
+      "153": 149
+    },
+    "Min_1899": {
+      "146": 142,
+      "147": 143,
+      "148": 144,
+      "149": 145
+    },
+    "Mus_1899": {
+      "125": 121
+    },
+    "Zoo_1899": {
+      "121": 117,
+      "122": 118,
+      "123": 119,
+      "124": 120,
+      "125": 121,
+      "126": 122,
+      "127": 123,
+      "128": 124,
+      "129": 125,
+      "130": 126,
+      "131": 127,
+      "132": 128,
+      "133": 129,
+      "134": 130,
+      "135": 131,
+      "136": 132,
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142
+    },
+    "Geo_1900": {
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142,
+      "147": 143
+    },
+    "Min_1900": {
+      "140": 136,
+      "141": 137,
+      "142": 138,
+      "143": 139
+    },
+    "Mus_1900": {
+      "167": 163,
+      "168": 164
+    },
+    "Zoo_1900": {
+      "137": 133,
+      "138": 134,
+      "139": 135,
+      "140": 136,
+      "147": 143,
+      "148": 144,
+      "149": 145,
+      "150": 146,
+      "151": 147,
+      "152": 148,
+      "153": 149,
+      "154": 150,
+      "155": 151,
+      "156": 152,
+      "157": 153,
+      "158": 154,
+      "159": 155,
+      "160": 156,
+      "161": 157,
+      "162": 158,
+      "163": 159,
+      "164": 160,
+      "165": 161,
+      "166": 162,
+      "167": 163
+    },
+    "Geo_1901": {
+      "150": 146,
+      "151": 147,
+      "152": 148,
+      "153": 149,
+      "154": 150,
+      "155": 151,
+      "156": 152,
+      "157": 153
+    },
+    "Min_1901": {
+      "146": 142,
+      "147": 143,
+      "148": 144,
+      "149": 145,
+      "150": 146
+    },
+    "Mus_1901": {
+      "182": 178
+    },
+    "Zoo_1901": {
+      "143": 139,
+      "144": 140,
+      "145": 141,
+      "146": 142,
+      "157": 153,
+      "158": 154,
+      "159": 155,
+      "160": 156,
+      "161": 157,
+      "162": 158,
+      "163": 159,
+      "164": 160,
+      "165": 161,
+      "166": 162,
+      "167": 163,
+      "168": 164,
+      "169": 165,
+      "170": 166,
+      "171": 167,
+      "172": 168,
+      "173": 169,
+      "174": 170,
+      "175": 171,
+      "176": 172,
+      "177": 173,
+      "178": 174,
+      "179": 175,
+      "180": 176,
+      "181": 177
+    },
+    "Geo_1902": {
+      "165": 161,
+      "166": 162,
+      "167": 163,
+      "168": 164,
+      "169": 165,
+      "170": 166,
+      "171": 167,
+      "172": 168,
+      "173": 169
+    },
+    "Min_1902": {
+      "161": 157,
+      "162": 158,
+      "163": 159,
+      "164": 160,
+      "165": 161
+    },
+    "Mus_1902": {
+      "200": 196
+    },
+    "Zoo_1902": {
+      "159": 155,
+      "160": 156,
+      "161": 157,
+      "173": 169,
+      "174": 170,
+      "175": 171,
+      "176": 172,
+      "177": 173,
+      "178": 174,
+      "179": 175,
+      "180": 176,
+      "181": 177,
+      "182": 178,
+      "183": 179,
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183,
+      "188": 184,
+      "189": 185,
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196
+    },
+    "Geo_1903": {
+      "171": 167,
+      "172": 168,
+      "173": 169,
+      "174": 170,
+      "175": 171,
+      "176": 172,
+      "177": 173
+    },
+    "Min_1903": {
+      "168": 164,
+      "169": 165,
+      "170": 166,
+      "171": 167
+    },
+    "Mus_1903": {
+      "204": 200,
+      "205": 201
+    },
+    "Zoo_1903": {
+      "165": 161,
+      "166": 162,
+      "167": 163,
+      "177": 173,
+      "178": 174,
+      "179": 175,
+      "180": 176,
+      "181": 177,
+      "182": 178,
+      "183": 179,
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183,
+      "188": 184,
+      "189": 185,
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "204": 200
+    },
+    "Geo_1904": {
+      "172": 164,
+      "173": 165,
+      "174": 166,
+      "175": 167,
+      "176": 168,
+      "177": 169
+    },
+    "Min_1904": {
+      "168": 160,
+      "169": 161,
+      "170": 162,
+      "171": 163
+    },
+    "Mus_1904": {
+      "201": 193
+    },
+    "Zoo_1904": {
+      "165": 157,
+      "166": 158,
+      "167": 159,
+      "168": 160,
+      "177": 169,
+      "178": 170,
+      "179": 171,
+      "180": 172,
+      "181": 173,
+      "182": 174,
+      "183": 175,
+      "184": 176,
+      "185": 177,
+      "186": 178,
+      "187": 179,
+      "188": 180,
+      "189": 181,
+      "190": 182,
+      "191": 183,
+      "192": 184,
+      "193": 185,
+      "194": 186,
+      "195": 187,
+      "196": 188,
+      "197": 189,
+      "198": 190,
+      "199": 191,
+      "200": 192,
+      "201": 193
+    },
+    "Geo_1905": {
+      "182": 178,
+      "183": 179,
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183
+    },
+    "Min_1905": {
+      "179": 175,
+      "180": 176,
+      "181": 177,
+      "182": 178
+    },
+    "Mus_1905": {
+      "212": 208,
+      "213": 209
+    },
+    "Zoo_1905": {
+      "176": 172,
+      "177": 173,
+      "178": 174,
+      "179": 175,
+      "187": 183,
+      "188": 184,
+      "189": 185,
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "204": 200,
+      "205": 201,
+      "206": 202,
+      "207": 203,
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "212": 208
+    },
+    "Geo_1906": {
+      "178": 174,
+      "179": 175,
+      "180": 176,
+      "181": 177,
+      "182": 178,
+      "183": 179
+    },
+    "Min_1906": {
+      "176": 172,
+      "177": 173
+    },
+    "Mus_1906": {
+      "215": 211,
+      "216": 212
+    },
+    "Zoo_1906": {
+      "172": 168,
+      "173": 169,
+      "174": 170,
+      "175": 171,
+      "176": 172,
+      "183": 179,
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183,
+      "188": 184,
+      "189": 185,
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "204": 200,
+      "205": 201,
+      "206": 202,
+      "207": 203,
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "212": 208,
+      "213": 209,
+      "214": 210,
+      "215": 211
+    },
+    "Geo_1907": {
+      "176": 172,
+      "177": 173,
+      "178": 174,
+      "179": 175,
+      "180": 176
+    },
+    "Min_1907": {
+      "171": 167,
+      "172": 168,
+      "173": 169,
+      "174": 170,
+      "175": 171
+    },
+    "Mus_1907": {
+      "218": 214
+    },
+    "Zoo_1907": {
+      "168": 164,
+      "169": 165,
+      "170": 166,
+      "171": 167,
+      "180": 176,
+      "181": 177,
+      "182": 178,
+      "183": 179,
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183,
+      "188": 184,
+      "189": 185,
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "204": 200,
+      "205": 201,
+      "206": 202,
+      "207": 203,
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "212": 208,
+      "213": 209,
+      "214": 210,
+      "215": 211,
+      "216": 212,
+      "217": 213
+    },
+    "Geo_1908": {
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189,
+      "194": 190
+    },
+    "Min_1908": {
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183,
+      "188": 184,
+      "189": 185,
+      "190": 186
+    },
+    "Mus_1908": {
+      "226": 222,
+      "227": 223
+    },
+    "Zoo_1908": {
+      "181": 177,
+      "182": 178,
+      "183": 179,
+      "184": 180,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "204": 200,
+      "205": 201,
+      "206": 202,
+      "207": 203,
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "212": 208,
+      "213": 209,
+      "214": 210,
+      "215": 211,
+      "216": 212,
+      "217": 213,
+      "218": 214,
+      "219": 215,
+      "220": 216,
+      "221": 217,
+      "222": 218,
+      "223": 219,
+      "224": 220,
+      "225": 221,
+      "226": 222
+    },
+    "Geo_1909": {
+      "188": 184,
+      "189": 185,
+      "190": 186,
+      "191": 187,
+      "192": 188,
+      "193": 189
+    },
+    "Min_1909": {
+      "184": 180,
+      "185": 181,
+      "186": 182,
+      "187": 183,
+      "188": 184
+    },
+    "Mus_1909": {
+      "232": 228,
+      "233": 229
+    },
+    "Zoo_1909": {
+      "181": 177,
+      "182": 178,
+      "183": 179,
+      "184": 180,
+      "194": 190,
+      "195": 191,
+      "196": 192,
+      "197": 193,
+      "198": 194,
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "204": 200,
+      "205": 201,
+      "206": 202,
+      "207": 203,
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "212": 208,
+      "213": 209,
+      "214": 210,
+      "215": 211,
+      "216": 212,
+      "217": 213,
+      "218": 214,
+      "219": 215,
+      "220": 216,
+      "221": 217,
+      "222": 218,
+      "223": 219,
+      "224": 220,
+      "225": 221,
+      "226": 222,
+      "227": 223,
+      "228": 224,
+      "229": 225,
+      "230": 226,
+      "231": 227,
+      "232": 228
+    },
+    "Geo_1910": {
+      "215": 211,
+      "216": 212,
+      "217": 213,
+      "218": 214,
+      "219": 215,
+      "220": 216,
+      "221": 217,
+      "222": 218
+    },
+    "Min_1910": {
+      "211": 207,
+      "212": 208,
+      "213": 209,
+      "214": 210,
+      "215": 211
+    },
+    "Mus_1910": {
+      "262": 258,
+      "263": 259
+    },
+    "Zoo_1910": {
+      "207": 203,
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "222": 218,
+      "223": 219,
+      "224": 220,
+      "225": 221,
+      "226": 222,
+      "227": 223,
+      "228": 224,
+      "229": 225,
+      "230": 226,
+      "231": 227,
+      "232": 228,
+      "233": 229,
+      "234": 230,
+      "235": 231,
+      "236": 232,
+      "237": 233,
+      "238": 234,
+      "239": 235,
+      "240": 236,
+      "241": 237,
+      "242": 238,
+      "243": 239,
+      "244": 240,
+      "245": 241,
+      "246": 242,
+      "247": 243,
+      "248": 244,
+      "249": 245,
+      "250": 246,
+      "251": 247,
+      "252": 248,
+      "253": 249,
+      "254": 250,
+      "255": 251,
+      "256": 252,
+      "257": 253,
+      "258": 254,
+      "259": 255,
+      "260": 256,
+      "261": 257,
+      "262": 258
+    },
+    "Geo_1911": {
+      "208": 204,
+      "209": 205,
+      "210": 206,
+      "211": 207,
+      "212": 208,
+      "213": 209,
+      "214": 210
+    },
+    "Min_1911": {
+      "203": 199,
+      "204": 200,
+      "205": 201,
+      "206": 202,
+      "207": 203,
+      "208": 204
+    },
+    "Mus_1911": {
+      "256": 252
+    },
+    "Zoo_1911": {
+      "199": 195,
+      "200": 196,
+      "201": 197,
+      "202": 198,
+      "203": 199,
+      "214": 210,
+      "215": 211,
+      "216": 212,
+      "217": 213,
+      "218": 214,
+      "219": 215,
+      "220": 216,
+      "221": 217,
+      "222": 218,
+      "223": 219,
+      "224": 220,
+      "225": 221,
+      "226": 222,
+      "227": 223,
+      "228": 224,
+      "229": 225,
+      "230": 226,
+      "231": 227,
+      "232": 228,
+      "233": 229,
+      "234": 230,
+      "235": 231,
+      "236": 232,
+      "237": 233,
+      "238": 234,
+      "239": 235,
+      "240": 236,
+      "241": 237,
+      "242": 238,
+      "243": 239,
+      "244": 240,
+      "245": 241,
+      "246": 242,
+      "247": 243,
+      "248": 244,
+      "249": 245,
+      "250": 246,
+      "251": 247,
+      "252": 248,
+      "253": 249,
+      "254": 250,
+      "255": 251
+    },
+    "Geo_1912": {
+      "220": 216,
+      "221": 217,
+      "222": 218,
+      "223": 219,
+      "224": 220,
+      "225": 221,
+      "226": 222
+    },
+    "Min_1912": {
+      "216": 212,
+      "217": 213,
+      "218": 214,
+      "219": 215,
+      "220": 216
+    },
+    "Mus_1912": {
+      "266": 262,
+      "267": 263
+    },
+    "Zoo_1912": {
+      "212": 208,
+      "213": 209,
+      "214": 210,
+      "215": 211,
+      "227": 223,
+      "228": 224,
+      "229": 225,
+      "230": 226,
+      "231": 227,
+      "232": 228,
+      "233": 229,
+      "234": 230,
+      "235": 231,
+      "236": 232,
+      "237": 233,
+      "238": 234,
+      "239": 235,
+      "240": 236,
+      "241": 237,
+      "242": 238,
+      "243": 239,
+      "244": 240,
+      "245": 241,
+      "246": 242,
+      "247": 243,
+      "248": 244,
+      "249": 245,
+      "250": 246,
+      "251": 247,
+      "252": 248,
+      "253": 249,
+      "254": 250,
+      "255": 251,
+      "256": 252,
+      "257": 253,
+      "258": 254,
+      "259": 255,
+      "260": 256,
+      "261": 257,
+      "262": 258,
+      "263": 259,
+      "264": 260,
+      "265": 261,
+      "266": 262
+    },
+    "Geo_1913": {
+      "133": 129,
+      "134": 130
+    },
+    "Min_1913": {
+      "132": 128
+    },
+    "Mus_1913": {
+      "136": 132
+    },
+    "Zoo_1913": {
+      "130": 126,
+      "131": 127,
+      "134": 130,
+      "135": 131,
+      "136": 132
+    },
+    "Geo_1914": {
+      "127": 123,
+      "128": 124
+    },
+    "Min_1914": {
+      "126": 122,
+      "127": 123
+    },
+    "Mus_1914": {
+      "130": 126,
+      "131": 127
+    },
+    "Zoo_1914": {
+      "125": 121,
+      "126": 122,
+      "129": 125,
+      "130": 126
+    },
+    "Geo_1915": {
+      "111": 105,
+      "112": 106
+    },
+    "Min_1915": {
+      "110": 104,
+      "111": 105
+    },
+    "Mus_1915": {
+      "114": 108
+    },
+    "Zoo_1915": {
+      "109": 103,
+      "110": 104,
+      "113": 107,
+      "114": 108
+    },
+    "Geo_1928": {
+      "105": 101,
+      "106": 102
+    },
+    "Min_1928": {
+      "104": 100,
+      "105": 101
+    },
+    "Zoo_1928": {
+      "106": 102,
+      "107": 103,
+      "108": 104
+    },
+    "Geo_1929": {
+      "101": 97,
+      "102": 98
+    },
+    "Min_1929": {
+      "100": 96,
+      "101": 97
+    },
+    "Zoo_1929": {
+      "102": 98,
+      "103": 99,
+      "104": 100
+    },
+    "Geo_1930": {
+      "117": 113,
+      "118": 114
+    },
+    "Min_1930": {
+      "116": 112,
+      "117": 113
+    },
+    "Mus_1930": {
+      "115": 111,
+      "116": 112
+    },
+    "Zoo_1930": {
+      "118": 114,
+      "119": 115,
+      "120": 116
+    },
+    "Geo_1931": {
+      "119": 115,
+      "120": 116
+    },
+    "Min_1931": {
+      "118": 114,
+      "119": 115
+    },
+    "Mus_1931": {
+      "117": 113
+    },
+    "Zoo_1931": {
+      "120": 116,
+      "121": 117,
+      "122": 118
+    },
+    "Geo_1932": {
+      "121": 117,
+      "122": 118
+    },
+    "Min_1932": {
+      "120": 116,
+      "121": 117
+    },
+    "Mus_1932": {
+      "120": 116
+    },
+    "Zoo_1932": {
+      "123": 119,
+      "124": 120,
+      "125": 121
+    },
+    "Geo_1933": {
+      "214": 210,
+      "215": 211
+    },
+    "Min_1933": {
+      "211": 207,
+      "212": 208
+    },
+    "Mus_1933": {
+      "209": 205,
+      "210": 206
+    },
+    "Zoo_1933": {
+      "219": 215,
+      "220": 216,
+      "222": 218
+    },
+    "Geo_1934": {
+      "216": 212,
+      "217": 213
+    },
+    "Min_1934": {
+      "212": 208,
+      "213": 209
+    },
+    "Mus_1934": {
+      "210": 206
+    },
+    "Zoo_1934": {
+      "220": 216,
+      "221": 217,
+      "223": 219
+    },
+    "Geo_1935": {
+      "217": 213,
+      "218": 214
+    },
+    "Min_1935": {
+      "213": 209,
+      "214": 210
+    },
+    "Mus_1935": {
+      "210": 206,
+      "211": 207
+    },
+    "Zoo_1935": {
+      "221": 217,
+      "223": 219,
+      "224": 220
+    },
+    "Geo_1936": {
+      "112": 108,
+      "113": 109
+    },
+    "Min_1936": {
+      "111": 107,
+      "112": 108
+    },
+    "Mus_1936": {
+      "111": 107
+    },
+    "Zoo_1936": {
+      "113": 109,
+      "114": 110,
+      "115": 111
+    },
+    "Geo_1937": {
+      "152": 148,
+      "153": 149
+    },
+    "Min_1937": {
+      "151": 147,
+      "152": 148
+    },
+    "Mus_1937": {
+      "151": 147
+    },
+    "Zoo_1937": {
+      "154": 150,
+      "155": 151,
+      "156": 152
+    },
+    "Geo_1938": {
+      "162": 158,
+      "163": 159
+    },
+    "Min_1938": {
+      "161": 157,
+      "162": 158
+    },
+    "Mus_1938": {
+      "160": 156,
+      "161": 157
+    },
+    "Zoo_1938": {
+      "163": 159,
+      "164": 160,
+      "165": 161,
+      "166": 162,
+      "167": 163,
+      "168": 164
+    }
+  }
+}

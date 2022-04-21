@@ -10,7 +10,7 @@ from bs4.element import Tag as BS4_TAG
 
 from SemanticModels import SemanticData, Anchors, OCRCorrection, Corrector, SemanticEntity, SemanticProperty 
 from GlobalConsolidate import identify_global_consolidations
-
+from EntityURLResolver import get_URL_for_entity
 
 
 
@@ -240,8 +240,10 @@ def serialize(obj, stringify=True):
         "begin": obj.begin,
         "end": obj.end,
         "page": obj.page,
+        "original_page": obj.original_page,
+        "url": obj.url,
         "line": obj.line,
-        "txt_id": f"{obj.institution[:3]}_{obj.year}",
+        "txt_id": obj.txt_id,
         "line_idx": obj.line_idx,
         "institution": obj.institution,
         "year": obj.year,
@@ -259,7 +261,7 @@ def save_webdata(entities, properties, lines, filepath="../Website/public/"):
         "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))},
         "Texts": lines
     }
-    #assert len(export_items["Entities"]) == len(entities) and len(export_items["Properties"]) == len(properties)
+    assert len(export_items["Entities"]) == len(entities) and len(export_items["Properties"]) == len(properties)
     
     with open(os.path.join(filepath, "webdata.json"), 'w', encoding="utf-8") as f:
         json.dump(export_items, f, ensure_ascii=False, indent=2)
@@ -369,6 +371,9 @@ def process_directory(dirpath, save=False, consolidate=True):
         class_counter.update([e.type for e in global_entities])
         properties_counter.update([p.type for p in global_properties])
         
+    # URLS and original Pages:
+    container.entities = get_URL_for_entity(container.entities, filepath="../Data/URLS.json")
+
     check_properties_connected_with_entitites(container)
     
     if save and len(container.entities)>0:

@@ -22,14 +22,14 @@ class Node(object):
             self.id = entity.id
             self.label = f"{entity.type}<BR/>({entity.id})|{html.escape(entity.string)}"
             self.style = style
-            self.class_ = "semanticentity"
+            self.class_ = "entityNode"
             
         else:
             self.entity = None
             self.id = _id
             self.label = label
             self.style = style
-            self.class_ = "neighborentity"
+            self.class_ = "entityNode"
         
     def __str__(self):
         if self.id < 0: return f"V{self.id}".replace('-','_')
