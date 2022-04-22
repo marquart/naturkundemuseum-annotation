@@ -4,14 +4,14 @@
         <div class="semanticData">
             <h2>Semantic Entity</h2>
             <h3 class="typeHeading">{{entity.text}}</h3>
-            <h4 class="entityText cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${entity.short_type}`" target="_blank">{{entity.type}}</a></h4>
-            <p class="itemLink" @click="emitDisplayGraphOf(entity.id)"><img class="symbol" src="../assets/zoom.svg" alt="Graph Symbol"/> Show Neighborhood Graph</p>
+            <h4 class="entityText cidocLink tooltip"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${entity.short_type}`" target="_blank"><p class="tooltiptext">{{cidocHoverText}}</p>{{entity.type}}</a></h4>
+            <div class="itemLink tooltip" @click="emitDisplayGraphOf(entity.id)"><p class="tooltiptext">{{graphHoverText}}</p><img class="symbol" src="../assets/zoom.svg" alt="Graph Symbol"/> Show Neighborhood Graph</div>
             <div class="numericTable">
                 <!--<div class="ncell">Source:</div>-->
                 <div class="ncell">{{entity.citation ? entity.citation : '—'}}</div>
 
                 <!--<div class="ncell"></div>-->
-                <div class="ncell"><a :href="entity.url" target="_blank">{{entity.url}}</a></div>
+                <div v-show="entity.citation.length>0" class="ncell tooltip"><a :href="entity.url" target="_blank"><p class="tooltiptext">{{imageHoverText}}</p>{{entity.url}}</a></div>
                 <!--
                 <div class="ncell">Page:</div>
                 <div class="ncell">{{entity.original_page &gt; 0 ? entity.original_page : '—'}}</div>
@@ -28,27 +28,29 @@
             </div>
 
             <h4>Predecessors (incoming Relations)</h4>
-            <div class="propTable">
+            <div v-show="entity.incomingProps != undefined && entity.incomingProps.length > 0" class="propTable">
+                <!--<div class="propItem tableHeading">Neighbor entity</div><div class="propItem"></div><div class="propItem tableHeading">CIDOC CRM Property</div><div class="propItem"></div>-->
                 <template
                     v-for="(prop, i) in entity.incomingProps"
                     :key="i">
                     <!--<div class="propItem">{{prop.source.type}}:</div>-->
-                    <div class="propItem itemLink" @click="showOneEntity(prop.source)">{{prop.source.text}}</div>
+                    <div class="propItem itemLink tooltip" @click="showOneEntity(prop.source)"><p class="tooltiptext">{{neighborHoverText}}</p>{{prop.source.text}}</div>
                     <div class="propItem">🡺</div>
-                    <div class="propItem cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${prop.short_type}`" target="_blank">{{prop.type}}</a></div>
+                    <div class="propItem cidocLink tooltip"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${prop.short_type}`" target="_blank"><p class="tooltiptext">{{cidocHoverText}}</p>{{prop.type}}</a></div>
                     <div class="propItem">🡺</div>
                 </template>
             </div>
             <h4>Successors (outgoing Relations)</h4>
-            <div class="propTable">
+            <div v-show="entity.outgoingProps != undefined && entity.outgoingProps.length > 0" class="propTable">
+                <!--<div class="propItem"></div><div class="propItem tableHeading">CIDOC CRM Property</div><div class="propItem"></div><div class="propItem tableHeading">Neighbor entity</div>-->
                 <template
                     v-for="(prop, i) in entity.outgoingProps"
                     :key="i">
                     <div class="propItem">🡺</div>
-                    <div class="propItem cidocLink"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${prop.short_type}`" target="_blank">{{prop.type}}</a></div>
+                    <div class="propItem cidocLink tooltip"><a :href="`https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html#${prop.short_type}`" target="_blank"><p class="tooltiptext">{{cidocHoverText}}</p>{{prop.type}}</a></div>
                     <div class="propItem">🡺</div>
                     <!--<div class="propItem">{{prop.target.type}}:</div>-->
-                    <div class="propItem itemLink" @click="showOneEntity(prop.target)">{{prop.target.text}}</div>
+                    <div class="propItem itemLink tooltip" @click="showOneEntity(prop.target)"><p class="tooltiptext">{{neighborHoverText}}</p>{{prop.target.text}}</div>
                 </template>
             </div>
         </div>
@@ -71,6 +73,10 @@ export default {
     },
     data() {
         return {
+            cidocHoverText: "Read definition in CIDOC documentation",
+            graphHoverText: "Display the entity embedded in a visualization of our knowledge graph",
+            neighborHoverText: "Jump to this entity",
+            imageHoverText: "Go to digitized image of this page",
         }
     },
 
@@ -146,14 +152,20 @@ export default {
         border: 1px solid #f0f0f0;
     }
 
+    .tableHeading {
+        font-weight: 600;
+        padding-bottom: 3px;
+    }
+
     .itemLink {
         text-decoration: underline;
         background: #EBEBEB;
+        border: 1px solid #00000000;
     }
 
     .itemLink:hover {
         cursor: pointer;
-        border: 1px solid black;
+        border: 1px solid #000000;
     }
 
     .cidocLink {
@@ -168,6 +180,26 @@ export default {
     .symbol {
         display: inline;
         height: 0.9em;
+    }
+
+    .tooltiptext {
+        visibility: hidden;
+        background-color: white;
+        color: #000;
+        text-align: center;
+        padding: 3px;
+        border-radius: 6px;
+        font-weight: 100;
+        display: block;
+        margin-top: 2em;
+        
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
     }
 
     @media screen and (max-width: 700px) {

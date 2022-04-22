@@ -66,6 +66,7 @@ export default {
                     this.groupState.push(false);
                 }
             });
+            if (this.groupState.length === 1) this.groupState[0] = true; //entities in only one document found
         },
         toggleResults(idx) {
             if (0 <= idx && idx < this.groupState.length) {

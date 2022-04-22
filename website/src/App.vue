@@ -20,7 +20,7 @@
             <Info  v-show="mode === 0"/>
             <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
-            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" :baseBackend="backend" @displayTextOf="setDisplayTextOf"/>
+            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" :baseBackend="backend" :lengthEntities="queryData.entities.length" @displayTextOf="setDisplayTextOf"/>
         </div>
     </div>
 </template>

@@ -1,15 +1,18 @@
 <template>
     <div>
         <!--<p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>-->
-        <p>Through the interface below you can navigate the graph structure of our semantic web. Clicking the box of an entity displays the immediate neighborhood of that entity in the graph. You can jump to the location of the selected entity in the text by clicking the button "Show Entity in Text".</p>
+        <p>Through the interface below you can navigate the graph structure of our semantic web. Clicking the box of an entity displays the immediate neighborhood of that entity in the graph. You can jump to the location of the selected entity in the text by clicking the button "<img class="symbol" src="../assets/book.svg" alt="Book Symbol"/> Show Entity in Text". If you want to start exploring the graph from a random node, click on the "<img class="symbol" src="../assets/dice-solid.svg" alt="Dice Symbol"/> Start with random Entity" button.</p>
         <div v-show="showerror" class="errormsg"><strong>{{info}}</strong></div>
 
-        <div id="navigationElements">
-            <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
-            <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
+        <div class="navigationElements">
+            <div v-show="cursorId.length>0" class="navigationButton functionalButton" @click="emitDisplayTextOf"><img class="symbol" src="../assets/book.svg" alt="Book Symbol"/> Show Entity in Text</div>
+            <div v-show="lengthEntities>0" class="navigationButton functionalButton" @click="requestSVG(getRandomEntityID(), true)"><img class="symbol" src="../assets/dice-solid.svg" alt="Dice Symbol"/> Start with random Entity</div>
         </div>
 
-        <div v-show="cursorId.length>0" class="navigationButton" @click="emitDisplayTextOf">Show Entity in Text</div>
+        <div class="navigationElements">
+            <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div> <!---->
+            <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div><!---->
+        </div>
 
         <inline-svg 
             id="graphviz"
@@ -31,7 +34,8 @@ export default {
   name: 'Visualizations',
   props: {
       entityId: String,
-      baseBackend: String
+      baseBackend: String,
+      lengthEntities: Number, // for random starting point to explore
   },
 
   components : {
@@ -63,7 +67,7 @@ export default {
     // REQUESTS
     requestSVG(entityID, historyPush) {
         if (process.env.NODE_ENV == "production") {
-            if (entityID.length > 0 && entityID !== this.cursorId) {
+            if (entityID != undefined && entityID.length > 0 && entityID !== this.cursorId) {
                 this.removeListeners();
                 this.cursorId = entityID;
                 if (historyPush) this.pushHistory();
@@ -134,12 +138,21 @@ export default {
         this.info = "ERROR: Unable to load SVG!";
     },
 
+    // random int
+    getRandomEntityID() {
+        if (0 < this.lengthEntities) {
+            return Math.floor(Math.random() * (this.lengthEntities - 1) + 1).toString(); //The maximum is exclusive and the minimum is inclusive
+        } else {
+            return '10420';
+        }
+    },
+
   },
 
   mounted()  {
     if (process.env.NODE_ENV == "production") {
         this.backend = this.baseBackend + "graphs/";
-        this.requestSVG('10420', true);
+        this.requestSVG(this.getRandomEntityID(), true);
     } else {
         this.backend = this.baseBackend;
         this.cursorId = '9774';
@@ -154,10 +167,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .graph {
-        
-    }
-
     #graphviz:deep(.entityNode) {
         visibility: visible;
         pointer-events: visibleFill;
@@ -172,10 +181,16 @@ export default {
         stroke-width: 3px;
     }
 
-    #navigationElements {
+    .navigationElements {
         display: block;
         width: 90%;
         margin-left: 5%;
+        text-align: center;
+    }
+    
+    .functionalButton {
+        margin: 1ex;
+        align: center;
     }
 
     .buttonRight {
@@ -191,8 +206,7 @@ export default {
         padding: 1ex;
         border: 1px solid #2c3e50;
         display: inline-block;
-        float: left;
-
+        /*float: left;*/
     }
 
     .navigationButton:hover {
@@ -202,5 +216,10 @@ export default {
 
     .statusreport {
         font-style: italic;
+    }
+
+    .symbol {
+        display: inline;
+        height: 0.9em;
     }
 </style>
