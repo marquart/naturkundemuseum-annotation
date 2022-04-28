@@ -4,6 +4,11 @@
         <EntitySearcher class="searchField" ref="source" :classes="stats.entityClasses" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
 
+        <div v-show="loading" class="loadingMsg">
+            <img class="loadingSymb" src="../assets/otter-solid.svg" alt="Loading Symbol"/>
+            <p>Searching...</p>
+        </div>
+
         <div id="navigationElements">
             <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
             <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
@@ -42,6 +47,7 @@ export default {
     data() {
         return {
             showResults: false,
+            loading: false,
             constrainedClasses: [],
             searchString: '',
             searchClass: '',
@@ -72,10 +78,12 @@ export default {
         },
 
         query() {
+            this.loading = true;
             this.lastSingleEntity = null;
             this.getDataFromComponents();
             this.searchResults = Array.from(this.filterEntities());
             this.pushHistory();
+            this.loading = false;
             this.showResults= true;
             
         },
@@ -188,6 +196,29 @@ export default {
     
     #button:hover {
         background: #EBEBEB;
+    }
+
+    .loadingMsg {
+        text-align: center;
+    }
+
+    .loadingSymb {
+        display: inline-block;
+        width: 8em;
+        height: 8em;
+
+        animation-name:             loading;
+        animation-duration:         3s;
+        animation-iteration-count:  infinite;
+    }
+
+    @keyframes loading {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
     }
 
     @media screen and (max-width: 700px) {

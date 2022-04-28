@@ -109,6 +109,7 @@ export default {
     }
     .semanticData {
         text-align: center;
+        margin-left: 1ex;
     }
 
     .ncell {
@@ -122,11 +123,12 @@ export default {
     .card {
         display: grid;
         grid-template-columns: auto auto;
-        background: #F6F6F6;
         width: 96%;
         margin-left: 2%;
         margin-bottom: 1.5em;
-        /*border: 0.8ex solid #7da30b77;
+        /*
+        background: #F6F6F6;
+        border: 0.8ex solid #7da30b77;
         border: 1px solid #ffffff;
         border-radius: 2px;
         box-shadow: 6px 6px #CBCBCB;*/
@@ -189,6 +191,7 @@ export default {
         text-align: center;
         padding: 3px;
         border-radius: 6px;
+        border: 1px solid black;
         font-weight: 100;
         display: block;
         margin-top: 2em;

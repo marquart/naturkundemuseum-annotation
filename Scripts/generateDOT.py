@@ -16,12 +16,13 @@ from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 import random, json
 
 class Node(object):
-    def __init__(self, entity=None, _id=0, label="", style="bold"):
+    def __init__(self, entity=None, _id=0, label="", style="bold", fontsize=11):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
             self.label = f"{entity.type}<BR/>({entity.id})|{html.escape(entity.string)}"
             self.style = style
+            self.fontsize = fontsize
             self.class_ = "entityNode"
             
         else:
@@ -29,6 +30,7 @@ class Node(object):
             self.id = _id
             self.label = label
             self.style = style
+            self.fontsize = fontsize
             self.class_ = "entityNode"
         
     def __str__(self):
@@ -175,7 +177,7 @@ def count_nodes(nodes):
 
 
 def build_tree(entity, depth=3):
-    nodes = [Node(entity, style="bold")]
+    nodes = [Node(entity, style="bold", fontsize=13)]
     result = BFS(nodes[0], maxdepth=depth)
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
@@ -239,7 +241,7 @@ NODES
     if tree is None: _, nodes, arrows = build_tree(entity, depth=depth)
     else: nodes, arrows = tree[0], tree[1]
     
-    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
+    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}" fontsize="{node.fontsize}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))

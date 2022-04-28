@@ -10,10 +10,10 @@
         <div v-show="loadError" class="content errormsg"><strong>ERROR: {{errorMsg}}</strong></div>
         <div class="content" id="navigation">
 
-            <div class="selectmode" :style="[mode === 0 ? focusStyle : unFocusStyle]"   @click="navigate(0)">Info</div>
-            <div class="selectmode" :style="[mode === 1 ? focusStyle : unFocusStyle]"   @click="navigate(1)">Search</div>
+            <div class="selectmode" :style="[mode === 0 ? focusStyle : unFocusStyle]"   @click="navigate(0)">INFO</div>
+            <div class="selectmode" :style="[mode === 1 ? focusStyle : unFocusStyle]"   @click="navigate(1)">SEARCH</div>
             <!--<div class="selectmode" :style="[mode === 2 ? focusStyle : unFocusStyle]"   @click="navigate(2)">Query semantic Web</div>-->
-            <div class="selectmode" :style="[mode === 3 ? focusStyle : unFocusStyle]"   @click="navigate(3)">Explore</div>
+            <div class="selectmode" :style="[mode === 3 ? focusStyle : unFocusStyle]"   @click="navigate(3)">EXPLORE</div>
 
         </div>
         <div class="content">
@@ -43,8 +43,8 @@ export default {
         if (process.env.NODE_ENV == "production") backend = "https://aron-marquart.de/mfn-chronik/assets/";
         else backend =  "./";
         return {
-            focusStyle: {background: '#ffffff'},
-            unFocusStyle: {background: '#EBEBEB'},
+            focusStyle: {background: '#ffffff', color: "#7da30b"},
+            unFocusStyle: {background: '#EBEBEB', },
             mode: 0,
             displayGraphOfEntitity: "",
             displayTextOfEntitity: null,
@@ -199,13 +199,17 @@ export default {
         text-align: center;
         background: #ffffff;
         color: black;
+        font-weight: bold;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
+        border-bottom: 5px solid #00000000;
 
     }
 
     .selectmode:hover {
         cursor: pointer;
+        border-bottom: 5px solid #7da30b;
+        color: #7da30b;
       }
 
     img {
