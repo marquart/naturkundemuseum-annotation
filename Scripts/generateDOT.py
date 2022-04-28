@@ -94,7 +94,6 @@ def BFS(node, maxdepth=3):
                     arrows.append(Arrow(property, node, real_nodes[neighbour]))
                     processed_properties.add(property)
                 continue
-            
             neighbour_node = Node(neighbour)
             real_nodes[neighbour] = neighbour_node
             arrows.append(Arrow(property, node, neighbour_node))
