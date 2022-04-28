@@ -140,8 +140,8 @@ export default {
 <style scoped>
     .searchField {
         text-align: center;
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     #navigationElements {
@@ -180,9 +180,9 @@ export default {
         color: inherit;
         cursor: pointer;
         text-align: center;
-        width: 50%;
+        width: 30%;
         background: #ffffff;
-        margin-left: 25%;
+        margin-left: 35%;
         border: 1px solid #2c3e50;
     }
     
