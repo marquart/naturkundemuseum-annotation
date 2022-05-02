@@ -210,10 +210,10 @@ digraph Annotationen {
     bgcolor="none";
     rankdir="LR";
     ranksep="0.8 equally";
-    fontname="Titillium Web";
+    fontname="Roboto";
     fontsize="11";
-    node [shape=record fontname="Titillium Web" fontsize="11" penwidth=1];
-    edge [fontname="Titillium Web" fontsize="10" penwidth=1];
+    node [shape=record fontname="Roboto" fontsize="11" penwidth=1];
+    edge [fontname="Roboto" fontsize="10" penwidth=1];
     splines=ortho;
     penwidth=8;
 

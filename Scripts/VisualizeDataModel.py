@@ -109,9 +109,9 @@ digraph Annotationen {
     bgcolor="transparent";
     rankdir="LR";
 
-    fontname="Titillium Web";
+    fontname="Roboto";
     fontsize="11";
-    node [shape=record fontname="Titillium Web" fontsize="11" penwidth=1];
+    node [shape=record fontname="Roboto" fontsize="11" penwidth=1];
     edge [fontname="sans-serif" fontsize="10" penwidth=1];
     splines="ortho";
     penwidth=8;
@@ -120,7 +120,7 @@ digraph Annotationen {
     
     subgraph net {
         label="GRAPHLABEL";
-        fontname="Titillium Web";
+        fontname="Roboto";
         fontsize="11";
         penwidth=1;
         pencolor="transparent";
@@ -145,26 +145,26 @@ PROPERTIES
     with_nodes = template.replace("NODES", '\n'.join(f'        {node_id_lookup[t]} [label=<{t}> fillcolor="{bad_get_color(t)}" color="{"black" if i<1 else "white"}" shape="ellipse"];' for i, t in enumerate(entity_nodes)))
     
     cmap = sns.color_palette("Blues", n_colors=11)
-    with_properties = with_nodes.replace("PROPERTIES", '\n'.join(f'        {prop_id_lookup[t]} [label=<{t[0]}|{ffloat(properties[t], count)}> fillcolor="{to_hex(cmap[int(properties[t]/count*10)])}" color="{"black" if i<1 else "white"}"];' for i, t in enumerate(properties)))
+    with_properties = with_nodes.replace("PROPERTIES", '\n'.join(f'        {prop_id_lookup[t]} [label=<{t[0]}|{ffloat(properties[t], count)}> fillcolor="{to_hex(cmap[int(properties[t]/count*10)])}" color="{"black" if i<1 else "white"}" fontcolor="{"black" if properties[t]/count<0.7 else "white"}"];' for i, t in enumerate(properties)))
     
     with_arrows = with_properties.replace("ARROWS", '\n    '.join(f"{node_id_lookup[p[1]]} -> {prop_id_lookup[p]}\n {prop_id_lookup[p]} -> {node_id_lookup[p[2]]}" for p in properties))
    
     return with_arrows
     
 
-def build_subgraph(semantic_data, entity_short_type, savepath):
+def build_subgraph(semantic_data, entity_short_type, savepath, filter_threshold=0.01):
     count = 0
     neighbor_entities = Counter()
     properties = Counter()
     
     for entity in semantic_data.entities:
         if entity.short_type == entity_short_type:
-            neighbors, neighbor_properties = BFS(entity)
+            neighbors, neighbor_properties = BFS(entity, maxdepth=1)
             for p in neighbor_properties: properties[p] += 1
             for e in neighbors: neighbor_entities[e] += 1
             count += 1
     
-    filtered_properties = {p:c for p,c in properties.most_common() if c/count>0.01}
+    filtered_properties = {p:c for p,c in properties.most_common() if c/count>filter_threshold}
     used_entity_type = set(pp for p in filtered_properties for pp in p[1:])
     
     dot = generate_DOT(entity_short_type, count, {e:c for e,c in neighbor_entities.items() if e in used_entity_type}, filtered_properties)
@@ -173,10 +173,11 @@ def build_subgraph(semantic_data, entity_short_type, savepath):
     success.check_returncode()
     
     print(f"Created '{savepath}'")
-    
+
+
 if __name__ == "__main__":
     svg_path = "../../Temp_Visualizations/DataModel_E8.svg"
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     
     data = SemanticData(pickle_file)
-    build_subgraph(data, "E8", svg_path)
+    build_subgraph(data, "E8", svg_path, filter_threshold=0.05)
