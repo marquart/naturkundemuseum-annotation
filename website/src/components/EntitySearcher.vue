@@ -28,6 +28,21 @@
             />
         </div>
 
+        <div class="searchbox minibox">
+        <label class="floatLeft" for="selectfield">Set max search depth:</label>
+        <select id="selectfieldDepth"
+            v-model="maxSize">
+            <option selected value=20>20</option>
+            <option class="selectoption"
+                v-for="i in [40,60,80,100,120,140,160,180,200]"
+                :key="i"
+                :value="i"
+            >
+                {{i}}
+            </option>
+        </select>
+        </div>
+
 
     </div>
 </template>
@@ -48,7 +63,8 @@ export default {
     data() {
         return {
             searchString: '',
-            searchClass:  ''
+            searchClass:  '',
+            maxSize: 20
         }
     },
 
@@ -56,7 +72,8 @@ export default {
         getData() {
             return {
                 'searchString': this.searchString,
-                'searchClass': this.searchClass
+                'searchClass': this.searchClass,
+                'maxSize': this.maxSize,
             }
         },
 
@@ -71,11 +88,15 @@ export default {
     }
 
     .largebox {
-        width: 70%;
+        width: 65%;
     }
 
     .smallbox {
-        width: 30%;
+        width: 20%;
+    }
+
+    .minibox {
+        width: 10%;
     }
 
     #searchfield {
@@ -109,6 +130,7 @@ export default {
         width: 100%;
         box-sizing: border-box;
 
+
         
         padding: 2px;
         border-radius: 0;
@@ -124,10 +146,31 @@ export default {
         margin: 0.3em;*/
     }
 
+    #selectfieldDepth {
+        font-family: inherit;
+        color: inherit;
+        display: block;
+        font-size: large;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 10%;
+        
+        padding: 2px;
+        border-radius: 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 1px solid #333333;
+        color: #7da30b;
+    }
+
     #selectfield:hover {
         cursor: pointer;
     }
     #selectoption:hover {
+        cursor: pointer;
+    }
+    #selectfieldDepth:hover {
         cursor: pointer;
     }
 
@@ -154,6 +197,11 @@ export default {
 
         .smallbox {
             width: 100%;
+        }
+
+        .minibox {
+            width: 100%;
+            margin-left: 0%;
         }
     }
 </style>

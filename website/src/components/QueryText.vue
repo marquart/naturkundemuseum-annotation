@@ -75,6 +75,7 @@ export default {
             const sourceData = this.$refs.source.getData();
             this.searchString = sourceData.searchString.replace(/[ -]/g, '').toLowerCase();
             this.searchClass = sourceData.searchClass;
+            this.maxSize = sourceData.maxSize;
         },
 
         query() {
@@ -148,8 +149,8 @@ export default {
 <style scoped>
     .searchField {
         text-align: center;
-        width: 60%;
-        margin-left: 20%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     #navigationElements {

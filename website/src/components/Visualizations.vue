@@ -6,7 +6,7 @@
 
         <div class="navigationElements">
             <div v-show="cursorId.length>0" class="navigationButton functionalButton" @click="emitDisplayTextOf"><img class="symbol" src="../assets/book.svg" alt="Book Symbol"/> Show Entity in Text</div>
-            <div v-show="lengthEntities>0" class="navigationButton functionalButton" @click="requestSVG(getRandomEntityID(), true)"><img class="symbol" src="../assets/dice-solid.svg" alt="Dice Symbol"/> Start with random Entity</div>
+            <div class="navigationButton functionalButton" @click="getRandomEntityID"><img class="symbol" src="../assets/dice-solid.svg" alt="Dice Symbol"/> Start with random Entity</div>
         </div>
 
         <div class="navigationElements">
@@ -34,8 +34,7 @@ export default {
   name: 'Visualizations',
   props: {
       entityId: String,
-      baseBackend: String,
-      lengthEntities: Number, // for random starting point to explore
+      baseBackend: String
   },
 
   components : {
@@ -140,11 +139,7 @@ export default {
 
     // random int
     getRandomEntityID() {
-        if (0 < this.lengthEntities) {
-            return Math.floor(Math.random() * (this.lengthEntities - 1) + 1).toString(); //The maximum is exclusive and the minimum is inclusive
-        } else {
-            return '9774';
-        }
+        this.$emit("randomEntity");
     },
 
   },

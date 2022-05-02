@@ -18,9 +18,9 @@
         </div>
         <div class="content">
             <Info  v-show="mode === 0"/>
-            <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntitity" @displayGraphOf="setDisplayGraphOf"/>
+            <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
-            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntitity" :baseBackend="backend" :lengthEntities="queryData.entities.length" @displayTextOf="setDisplayTextOf"/>
+            <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntity" :baseBackend="backend" @displayTextOf="setDisplayTextOf" @randomEntity="setRandomEntityID"/>
         </div>
     </div>
 </template>
@@ -46,8 +46,8 @@ export default {
             focusStyle: {background: '#ffffff', color: "#7da30b"},
             unFocusStyle: {background: '#EBEBEB', },
             mode: 0,
-            displayGraphOfEntitity: "",
-            displayTextOfEntitity: null,
+            displayGraphOfEntity: "",
+            displayTextOfEntity: null,
             entitiesMap: {},
 
             queryData: {
@@ -74,12 +74,28 @@ export default {
         },
 
         setDisplayGraphOf(item_id) {
-            this.displayGraphOfEntitity = item_id;
+            this.displayGraphOfEntity = item_id;
             this.navigate(3);
         },
 
+        setRandomEntityID() {
+            const len = this.queryData.entities.length;
+            let foundValidEntity = false;
+            let generatedEntityID = "";
+            for (let i = 0; i<20; ++i) {
+                generatedEntityID = Math.floor(Math.random() * (len - 1) + 1).toString(); //The maximum is exclusive and the minimum is inclusive
+                if (Object.prototype.hasOwnProperty.call(this.entitiesMap, generatedEntityID)) {
+                    foundValidEntity = true;
+                    break;
+                }
+            }
+            if (foundValidEntity) { 
+                this.displayGraphOfEntity = generatedEntityID;
+            }
+        },
+
         setDisplayTextOf(item_id) {
-            this.displayTextOfEntitity = this.entitiesMap[item_id];
+            this.displayTextOfEntity = this.entitiesMap[item_id];
             this.navigate(1);
         },
 
@@ -155,8 +171,9 @@ export default {
 </script>
 
 <style>
-    /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
-    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+    /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');*/
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     body {
         /*background: linear-gradient(to bottom, #ffffff,  #f0f0f0);*/
@@ -168,7 +185,7 @@ export default {
     }
 
     #app {
-        font-family: "Titillium Web", "Open Sans", "Trade Gothic Next LT", Helvetica, Arial, sans-serif;
+        font-family: "Roboto", "Titillium Web", "Open Sans", "Trade Gothic Next LT", Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: #2c3e50;
