@@ -24,6 +24,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "53"
             ],
@@ -50,6 +51,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "54"
             ],
@@ -76,6 +78,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 5,
+            "color": "#06b67eaa",
             "incoming": [
                 "43",
                 "44",
@@ -104,6 +107,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#3b95c4aa",
             "incoming": [],
             "outgoing": [
                 "53",
@@ -130,6 +134,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#fc3915aa",
             "incoming": [
                 "55"
             ],
@@ -157,6 +162,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "56"
             ],
@@ -183,6 +189,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#3b95c4aa",
             "incoming": [
                 "57"
             ],
@@ -207,6 +214,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "58"
             ],
@@ -233,6 +241,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#3b95c4aa",
             "incoming": [],
             "outgoing": [
                 "56",
@@ -259,6 +268,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "59"
             ],
@@ -285,6 +295,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#fc3915aa",
             "incoming": [
                 "60"
             ],
@@ -312,6 +323,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#3b95c4aa",
             "incoming": [
                 "61"
             ],
@@ -336,6 +348,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "62"
             ],
@@ -362,6 +375,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "63"
             ],
@@ -388,6 +402,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "64"
             ],
@@ -414,6 +429,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#3b95c4aa",
             "incoming": [],
             "outgoing": [
                 "63",
@@ -440,6 +456,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#fc3915aa",
             "incoming": [
                 "65"
             ],
@@ -447,30 +464,6 @@
                 "61",
                 "62"
             ]
-        },
-        "41": {
-            "id": "41",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "geologisch-paläontologischen Abtheilung",
-            "search_string": "geologischpaläontologischenabtheilung",
-            "begin": 526,
-            "end": 565,
-            "page": 54,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 11,
-            "txt_id": "Mus_1888",
-            "line_idx": 12,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1888,
-            "mentions": 1,
-            "incoming": [
-                "52"
-            ],
-            "outgoing": []
         },
         "40": {
             "id": "40",
@@ -491,6 +484,7 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 4,
+            "color": "#06b67eaa",
             "incoming": [
                 "42",
                 "45",
@@ -518,12 +512,38 @@
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1888,
             "mentions": 1,
+            "color": "#debb9b",
             "incoming": [
                 "51"
             ],
             "outgoing": [
                 "42"
             ]
+        },
+        "41": {
+            "id": "41",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "geologisch-paläontologischen Abtheilung",
+            "search_string": "geologischpaläontologischenabtheilung",
+            "begin": 526,
+            "end": 565,
+            "page": 54,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 11,
+            "txt_id": "Mus_1888",
+            "line_idx": 12,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1888,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [
+                "52"
+            ],
+            "outgoing": []
         }
     },
     "Properties": {

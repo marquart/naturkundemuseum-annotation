@@ -204,6 +204,7 @@ class SemanticEntity(object):
     virtuals = []
     next_id  = 0
     SHORT_TYPE_PATTERN = re.compile(r"^(E\d+?) ")
+    COLORS = {'E41': '#debb9b', 'E63': '#50c4c2aa', 'E74': '#3b95c4aa', 'E21': '#3b95c4aa', 'E52': '#50c4c2aa', 'E55': '#06b67eaa', 'E85': '#fc3915aa', 'E28': '#06b67eaa', 'E19': '#5a50c4aa', 'E87': '#fc3915aa', 'E78': '#b560d4aa', 'E8': '#fc3915aa', 'E53': '#fc7715aa', 'E39': '#3b95c4aa', 'E54': '#50c4c2aa', 'E20': '#5a50c4aa', 'E35': '#debb9b', 'E77': '#b560d4aa', 'E9': '#fc3915aa', 'E12': '#fc3915aa', 'E60': '#debb9b', 'E7': '#fc3915aa', 'E96': '#fc3915aa', 'E86': '#fc3915aa', 'E57': '#5a50c4aa', 'E3': '#50c4c2aa', 'E66': '#fc3915aa', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#fc3915aa', 'E14': '#fc3915aa', 'E79': '#fc3915aa'}
     def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None):
         '''virtual_origin: source from which virtual entity gets added in Postprocessing for page and line numbers'''
         self.id = self.next_id
@@ -223,6 +224,9 @@ class SemanticEntity(object):
         else: self.type = tag["SemanticClass"].strip()
         
         self.short_type = self.SHORT_TYPE_PATTERN.search(self.type).group(1)
+        self.long_type = self.type.lstrip(self.short_type).lstrip(' ')
+        
+        self.color = self.get_color()
         
         self.cite = ""
         
@@ -263,7 +267,7 @@ class SemanticEntity(object):
                 self.virtual       = True
                 self.begin         = None
                 self.end           = None
-                self.string        = "(implicit) Unknown"
+                self.string        = f"(implicit) {self.long_type}"
                 self.search_string = corrector.strict_clean(self.string).lower()
                 self.page          = corrector.get_pagenumber(char_begin)
                 self.line          = corrector.get_linenumber(char_begin)
@@ -287,6 +291,10 @@ class SemanticEntity(object):
         
     def __len__(self):
         return len(self.incoming)+len(self.outgoing)
+        
+    def get_color(self):
+        if self.short_type in SemanticEntity.COLORS: return SemanticEntity.COLORS[self.short_type]
+        else: return "#d3d3d3"
     
     def verbose(self):
         return f"{self.type}: '{self.string}' ({self.id}, {self.institution} {self.year})"
@@ -311,7 +319,7 @@ class SemanticProperty(object):
             if match: self.type = match.group(1)
             else: self.type = tag["SemanticProperty"].strip()
         self.short_type = self.SHORT_TYPE_PATTERN.search(self.type).group(1)
-
+        self.long_type = self.type.lstrip(self.short_type).lstrip(' ')
         
         if virtual:
             assert isinstance(source, SemanticEntity) and isinstance(target, SemanticEntity)
@@ -379,6 +387,8 @@ def parse_postprocessing(tag_string, source, anchors, corrector):
                 anchors.properties[double[1].lower()].append((double[0],source))
             else:
                 # source ist selbst ein Anchor
+                if lowered_info in anchors.objs:
+                    print(lowered_info, source.original_id, source.short_type, anchors.objs)
                 assert lowered_info not in anchors.objs
                 anchors.objs[lowered_info] = source
             continue

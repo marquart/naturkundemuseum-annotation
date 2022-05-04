@@ -20,7 +20,7 @@ def postprocessing(entities, properties, corrector):
     assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
     
     for e in entities:
-        if e.short_type == "E21" or e.short_type == "E74": # Person or Group
+        if e.short_type == "E21" or e.short_type == "E74" or e.short_type == "E39": # Person or Group or Actor
             p53, p22 = [], None
             for p in e.outgoing:
                 if p.short_type == "P53": p53.append(p) # Person has Place
@@ -29,16 +29,16 @@ def postprocessing(entities, properties, corrector):
             if p53 and p22 is not None:
                 
                 if p22.type.endswith('E96'):
-                    acquisition = SemanticEntity({'SemanticClass':'E96 Purchase','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                    acquisition = SemanticEntity({'SemanticClass':'E96 Purchase','string':'(implicit) Purchase'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                     p22.type = p22.type.rstrip('E96')
                 elif p22.type.endswith('TRADE'):
-                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Trade'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                     trade = SemanticEntity({'SemanticClass':'E55 Type','string':'Trade'}, corrector, virtual=True, year=e.year, institution=e.institution)
                     SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=acquisition, target=trade, year=e.year, institution=e.institution)
                     p22.type = p22.type.rstrip('TRADE')
                 else:
-                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
-                artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Unknown'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                    acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Acquisition'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Object'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                 
                 SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=artefact, year=e.year, institution=e.institution)
@@ -255,6 +255,7 @@ def serialize(obj, stringify=True):
         "institution": obj.institution,
         "year": obj.year,
         "mentions": obj.mentions,
+        "color": obj.color,
         "incoming": [str(prop.id) if stringify else prop.id for prop in obj.incoming],
         "outgoing": [str(prop.id) if stringify else prop.id for prop in obj.outgoing]
         }

@@ -16,7 +16,7 @@ from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 import random, json
 
 class Node(object):
-    def __init__(self, entity=None, _id=0, label="", style="bold", fontsize=11):
+    def __init__(self, entity=None, _id=0, label="", style="filled", fontsize=11, virtual=False):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
@@ -24,6 +24,8 @@ class Node(object):
             self.style = style
             self.fontsize = fontsize
             self.class_ = "entityNode"
+            self.neighbor = virtual
+            self.color = entity.color
             
         else:
             self.entity = None
@@ -32,6 +34,8 @@ class Node(object):
             self.style = style
             self.fontsize = fontsize
             self.class_ = "entityNode"
+            self.neighbor = virtual
+            self.color = "#d3d3d3"
         
     def __str__(self):
         if self.id < 0: return f"V{self.id}".replace('-','_')
@@ -63,7 +67,7 @@ class Arrow(object):
 def add_virtual_node(node, arrows, virtual_nodes, neighbors=None):
     entity = node.entity
     if neighbors is None: neighbors = len(entity.incoming)+len(entity.outgoing)
-    excuse = Node(_id=-1*entity.id, label=f"...|{neighbors} Neighbours", style="dashed")
+    excuse = Node(_id=-1*entity.id, label=f"...|{neighbors} Neighbours", virtual=True)
     arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbours to draw"))
     virtual_nodes.append(excuse)
 
@@ -173,11 +177,11 @@ def get_color(node):
 
 
 def count_nodes(nodes):
-    return len([node for node in nodes if node.style != 'dashed'])
+    return len([node for node in nodes if not node.neighbor])
 
 
 def build_tree(entity, depth=3):
-    nodes = [Node(entity, style="bold", fontsize=13)]
+    nodes = [Node(entity, style="rounded,filled", fontsize=11)]
     result = BFS(nodes[0], maxdepth=depth)
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
@@ -241,7 +245,7 @@ NODES
     if tree is None: _, nodes, arrows = build_tree(entity, depth=depth)
     else: nodes, arrows = tree[0], tree[1]
     
-    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{get_color(node)}" color="{"black" if i<1 else "white"}" fontsize="{node.fontsize}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
+    with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{node.color}" color="{"black" if i<1 else "white"}" fontsize="{node.fontsize}" style="{node.style}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))
