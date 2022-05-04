@@ -29,7 +29,7 @@
         </div>
 
         <div class="searchbox minibox">
-        <label class="floatLeft" for="selectfield">Set max search depth:</label>
+        <label class="floatLeft" for="selectfield">Set max results:*</label>
         <select id="selectfieldDepth"
             v-model="maxSize">
             <option selected value=20>20</option>
@@ -42,6 +42,7 @@
             </option>
         </select>
         </div>
+        <p>* High values will negatively affect the performance on your end.</p>
 
 
     </div>

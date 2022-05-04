@@ -79,19 +79,8 @@ export default {
         },
 
         setRandomEntityID() {
-            const len = this.queryData.entities.length;
-            let foundValidEntity = false;
-            let generatedEntityID = "";
-            for (let i = 0; i<20; ++i) {
-                generatedEntityID = Math.floor(Math.random() * (len - 1) + 1).toString(); //The maximum is exclusive and the minimum is inclusive
-                if (Object.prototype.hasOwnProperty.call(this.entitiesMap, generatedEntityID)) {
-                    foundValidEntity = true;
-                    break;
-                }
-            }
-            if (foundValidEntity) { 
-                this.displayGraphOfEntity = generatedEntityID;
-            }
+            const idx =  Math.floor(Math.random() * this.queryData.entities.length);//The maximum is exclusive and the minimum is inclusive
+            this.setDisplayGraphOf(this.queryData.entities[idx].id);
         },
 
         setDisplayTextOf(item_id) {
