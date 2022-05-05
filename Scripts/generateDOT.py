@@ -1,7 +1,6 @@
 import os
 from operator import attrgetter
 from collections import deque
-from itertools import chain
 import re
 import pickle
 import argparse

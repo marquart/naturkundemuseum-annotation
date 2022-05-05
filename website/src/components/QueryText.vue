@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class. Please note: the results list is limited to {{maxSize}} entities in this prototype.</p>
+        <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class via the search options.</p>
         <EntitySearcher class="searchField" ref="source" :classes="stats.entityClasses" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
 

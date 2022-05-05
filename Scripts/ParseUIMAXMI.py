@@ -20,14 +20,13 @@ def postprocessing(entities, properties, corrector):
     assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
     
     for e in entities:
-        if e.short_type == "E21" or e.short_type == "E74" or e.short_type == "E39": # Person or Group or Actor
+        if e.short_type in ("E21","E74","E39"): # Person or Group or Actor
             p53, p22 = [], None
             for p in e.outgoing:
                 if p.short_type == "P53": p53.append(p) # Person has Place
                 elif p.short_type == "P22": p22 = p # Person transferred to Collection
                 
-            if p53 and p22 is not None:
-                
+            if p22 is not None:
                 if p22.type.endswith('E96'):
                     acquisition = SemanticEntity({'SemanticClass':'E96 Purchase','string':'(implicit) Purchase'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                     p22.type = p22.type.rstrip('E96')
@@ -38,15 +37,17 @@ def postprocessing(entities, properties, corrector):
                     p22.type = p22.type.rstrip('TRADE')
                 else:
                     acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Acquisition'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
-                artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Object'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
-                
+
                 SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
-                SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=artefact, year=e.year, institution=e.institution)
                 
-                for p in p53:
-                    e.outgoing.remove(p)
-                    artefact.outgoing.append(p)
-                    p.source = artefact
+                if p53:
+                    artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Object'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
+                    SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=artefact, year=e.year, institution=e.institution)
+                
+                    for p in p53:
+                        e.outgoing.remove(p)
+                        artefact.outgoing.append(p)
+                        p.source = artefact
                 
                 e.outgoing.remove(p22)
                 acquisition.outgoing.append(p22)
@@ -280,7 +281,7 @@ def save_webdata(entities, properties, lines, filepath="../Website/public/"):
     institutions = Counter(e["institution"] for e in export_items["Entities"].values())
     
     export_classes = {
-        "Entities": [f"{t[0]} ({t[1]})" for t in entity_classes.most_common()],
+        "Entities": [f"{t[0]} ({t[1]} entities)" for t in entity_classes.most_common()],
         "Properties": [f"{t[0]} ({t[1]})" for t in property_classes.most_common()],
         "Years": [f"{t} ({years[t]})" for t in sorted(years)],
         "Institutions": [f"{t[0]} ({t[1]})" for t in institutions.most_common()]

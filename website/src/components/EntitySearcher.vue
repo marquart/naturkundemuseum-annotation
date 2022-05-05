@@ -2,20 +2,7 @@
     <div>
         <h3>Search semantic Entities</h3>
         <!---->
-        <div class="searchbox smallbox">
-        <label class="floatLeft" for="selectfield">Filter semantic class:</label>
-        <select id="selectfield"
-            v-model="searchClass">
-            <option selected value=""></option>
-            <option class="selectoption"
-                v-for="(classString, i) in classes"
-                :key="i"
-                :value="classString.slice(0,4)"
-            >
-                {{classString}}
-            </option>
-        </select>
-        </div>
+
         <!---->
 
         <div class="searchbox largebox">
@@ -28,22 +15,43 @@
             />
         </div>
 
-        <div class="searchbox minibox">
-        <label class="floatLeft" for="selectfield">Set max results:*</label>
-        <select id="selectfieldDepth"
-            v-model="maxSize">
-            <option selected value=20>20</option>
-            <option class="selectoption"
-                v-for="i in [40,60,80,100,120,140,160,180,200]"
-                :key="i"
-                :value="i"
-            >
-                {{i}}
-            </option>
-        </select>
-        </div>
-        <p>* High values will negatively affect the performance on your end.</p>
+        <div class="whiteBlock">
+            <p class="bttn" @click="toggleAdvancedSearch">{{advancedSearchOpen ? '🡻': '🡺'}} Search options</p>
 
+            <div v-show="advancedSearchOpen" id="advancedSearch">
+                <div class="searchbox smallbox">
+                <label class="floatLeft" for="selectfield">Filter semantic class:</label>
+                <select id="selectfield"
+                    v-model="searchClass">
+                    <option selected value=""></option>
+                    <option class="selectoption"
+                        v-for="(classString, i) in classes"
+                        :key="i"
+                        :value="classString.slice(0,4)"
+                    >
+                        {{classString}}
+                    </option>
+                </select>
+                </div>
+
+
+                <div class="searchbox minibox">
+                <label class="floatLeft" for="selectfield">Set max results:*</label>
+                <select id="selectfieldDepth"
+                    v-model="maxSize">
+                    <option selected value=20>20</option>
+                    <option class="selectoption"
+                        v-for="i in [40,60,80,100,120,140,160,180,200]"
+                        :key="i"
+                        :value="i"
+                    >
+                        {{i}}
+                    </option>
+                </select>
+                </div>
+                <p>* High values will negatively affect the performance on your end.</p>
+            </div>
+        </div>
 
     </div>
 </template>
@@ -63,6 +71,7 @@ export default {
 
     data() {
         return {
+            advancedSearchOpen: false,
             searchString: '',
             searchClass:  '',
             maxSize: 20
@@ -78,6 +87,10 @@ export default {
             }
         },
 
+        toggleAdvancedSearch() {
+            this.advancedSearchOpen = !this.advancedSearchOpen;
+        },
+
     },
 }
 </script>
@@ -89,15 +102,31 @@ export default {
     }
 
     .largebox {
-        width: 65%;
+        width: 70%;
     }
 
     .smallbox {
-        width: 20%;
+        width: 60%;
     }
 
     .minibox {
-        width: 10%;
+        width: 20%;
+    }
+
+    #advancedSearch {
+        width: 100%;
+    }
+
+    .bttn {
+        text-align: left;
+        color: #7da30b;
+        border: 1px solid #FFF0;
+        padding: 1ex;
+    }
+
+    .bttn:hover {
+        cursor: pointer;
+        border: 1px solid #7da30b;
     }
 
     #searchfield {
@@ -185,6 +214,12 @@ export default {
 
     .floatLeft {
         float: left;
+    }
+
+    .whiteBlock {
+        
+        width: 70%;
+        margin-left: 15%;
     }
 
     @media screen and (max-width: 1000px) {

@@ -7,7 +7,7 @@
             :key="i"
             
         >
-            <h3 @click="toggleResults(i)">{{groupState[i] ? '🡻': '🡺'}}  {{list[0].institution}} {{list[0].year &gt; 0 ? list[0].year : ''}} ({{list.length}} {{list.length === 1 ? 'mention': 'mentions'}})</h3>
+            <h3 @click="toggleResults(i)">{{groupState[i] ? '🡻': '🡺'}}  {{list[0].institution}} {{list[0].year &gt; 0 ? list[0].year : ''}} ({{list.length}} {{list.length === 1 ? 'entity': 'entities'}}, {{sumMentions(list)}} mentions)</h3>
             <TextEntityCard
                 v-show="groupState[i] === true"
                 @showOneEntity="showOneEntity"
@@ -74,6 +74,9 @@ export default {
                 else this.groupState[idx] = true;
             }
         },
+        sumMentions(list) {
+            return list.reduce((accu, it) => accu + it.mentions, 0);
+        }
     },
 
     watch: {
