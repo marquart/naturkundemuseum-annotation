@@ -293,11 +293,10 @@ if __name__ == "__main__":
     if args.all:
         #temp_export = []
         start = timer()
-        for i,e in enumerate(data.entities): #reversed(
-            #if not i%20:
+        for i,e in enumerate(data.entities):
             generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
-                #temp_export.append(f"https://aron-marquart.de/mfn-chronik/graphs/{e.id}.svg")
-                #if len(temp_export)>99: break
+            if i > 30: break
+
         end = timer()
         #random.shuffle(temp_export)
         print(f"\nNeeded {(end-start)/60} Minutes")

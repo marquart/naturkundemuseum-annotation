@@ -273,7 +273,7 @@ def save_webdata(entities, properties, lines, filepath="../Website/public/"):
     assert len(export_items["Entities"]) == len(entities) and len(export_items["Properties"]) == len(properties)
     
     with open(os.path.join(filepath, "webdata.json"), 'w', encoding="utf-8") as f:
-        json.dump(export_items, f, ensure_ascii=False, indent=2)
+        json.dump(export_items, f, ensure_ascii=False, indent=None)
         
     entity_classes = Counter(e["type"] for e in export_items["Entities"].values())
     property_classes = Counter(p["type"] for p in export_items["Properties"].values())
@@ -288,7 +288,7 @@ def save_webdata(entities, properties, lines, filepath="../Website/public/"):
     }
     
     with open(os.path.join(filepath, "class_stats.json"), 'w', encoding="utf-8") as f:
-        json.dump(export_classes, f, ensure_ascii=False, indent=2)
+        json.dump(export_classes, f, ensure_ascii=False, indent=None)
     
     print(f"==========\nWEB-EXPORT: Saved all Entities, Properties and Class stats as JSON to '{filepath}'\n==========")
 
