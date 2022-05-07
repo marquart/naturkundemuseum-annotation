@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="searcher">
         <h3>Search semantic Entities</h3>
         <!---->
 
@@ -15,7 +15,7 @@
             />
         </div>
 
-        <div class="whiteBlock">
+        <div v-if="classes" class="whiteBlock">
             <p class="bttn" @click="toggleAdvancedSearch">{{advancedSearchOpen ? '🡻': '🡺'}} Search options</p>
 
             <div v-show="advancedSearchOpen" id="advancedSearch">
@@ -97,6 +97,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .searcher {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
     .searchbox {
         display: inline-block;
     }
@@ -225,6 +231,11 @@ export default {
     @media screen and (max-width: 1000px) {
         .searchbox  {
             display: block;
+        }
+
+        .searcher {
+            width: 100%;
+            margin: 0%;
         }
 
         .largebox {

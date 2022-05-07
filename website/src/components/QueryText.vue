@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class via the search options.</p>
-        <EntitySearcher class="searchField" ref="source" :classes="stats.entityClasses" @query="query"/>
+        <EntitySearcher ref="source" :classes="stats.entityClasses" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
 
         <div v-show="loading" class="loadingMsg">
@@ -147,11 +147,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .searchField {
-        text-align: center;
-        width: 80%;
-        margin-left: 10%;
-    }
 
     #navigationElements {
         display: block;

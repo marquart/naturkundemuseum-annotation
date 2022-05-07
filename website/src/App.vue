@@ -14,6 +14,7 @@
             <div class="selectmode" :style="[mode === 1 ? focusStyle : unFocusStyle]"   @click="navigate(1)">SEARCH</div>
             <!--<div class="selectmode" :style="[mode === 2 ? focusStyle : unFocusStyle]"   @click="navigate(2)">Query semantic Web</div>-->
             <div class="selectmode" :style="[mode === 3 ? focusStyle : unFocusStyle]"   @click="navigate(3)">EXPLORE</div>
+            <div class="selectmode" :style="[mode === 4 ? focusStyle : unFocusStyle]"   @click="navigate(4)">ANALYZE</div>
 
         </div>
         <div class="content">
@@ -21,6 +22,7 @@
             <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntity" :baseBackend="backend" @displayTextOf="setDisplayTextOf" @randomEntity="setRandomEntityID"/>
+            <Analysis v-show="mode === 4" :entitiesMap="entitiesMap" :backend="backend" @displayTextOf="setDisplayTextOf"/>
         </div>
     </div>
 </template>
@@ -29,14 +31,15 @@
 import Info from './components/Info.vue';
 import QueryText from './components/QueryText.vue';
 import Visualizations from './components/Visualizations.vue';
-
+import Analysis from './components/Analysis.vue';
 
 export default {
     name: 'App',
     components: {
         Info,
         QueryText,
-        Visualizations
+        Visualizations,
+        Analysis
     },
     data() {
         let backend = "";
@@ -153,7 +156,7 @@ export default {
         },
 
     },
-    mounted() {
+    created() {
         this.fetchData();
     },
 }
@@ -194,7 +197,7 @@ export default {
         border-bottom: 3px solid #7da30b;
         height: auto;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         align-content: center;
 
     }
