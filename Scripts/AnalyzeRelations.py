@@ -6,6 +6,7 @@ import pickle
 import argparse
 import json
 
+from matplotlib.colors import LinearSegmentedColormap, to_hex
 
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 
@@ -109,7 +110,13 @@ def save_table(table, savepath="../Website/public/"):
         reduced_row = []
         for year in sorted(rows):
             locations = Counter(rows[year])
-            reduced_row.append((year, [(str(place.id), count) for place, count in locations.most_common()]))
+            
+            ranks = sorted(set(locations.values()))
+            cmap = LinearSegmentedColormap.from_list(f"cmap{year}", ("#c7df7f", "#7da30b"), N=len(ranks))
+            colors = {no:to_hex(cmap(i)) for i,no in enumerate(ranks, start=0)}
+            
+            reduced_row.append((year, [(str(place.id), count, colors[count]) for place, count in locations.most_common()]))
+            
         json_table[app.id] = reduced_row
     with open(os.path.join(savepath, "location_relations.json"), 'w', encoding="utf-8") as f:
         json.dump(json_table, f, ensure_ascii=False, indent=None)

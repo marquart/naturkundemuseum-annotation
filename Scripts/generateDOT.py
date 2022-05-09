@@ -193,7 +193,7 @@ def calculate_optimal_tree(entity, optimal_nodes=13):
         no, nodes, arrows = build_tree(entity, depth=i)
         if no == optimal_nodes:
             print(f"Optimal Tree for {str(entity)} with depth {i} ({no} nodes)")
-            return generate_DOT(entity, depth=i, tree=(nodes,arrows))
+            return generate_DOT(entity, depth=i, tree=(nodes,arrows)), i
         else:
             trees[i] = (nodes, arrows)
             no_nodes[i] = no
@@ -201,7 +201,7 @@ def calculate_optimal_tree(entity, optimal_nodes=13):
     optimal_depth = min(no_nodes, key=lambda x: abs(optimal_nodes-no_nodes[x]))
     nodes, arrows = trees[optimal_depth][0] , trees[optimal_depth][1]
     print(f"    Optimal Tree for {str(entity)} with depth {optimal_depth} ({no_nodes[optimal_depth]} nodes) Alternatives {str(no_nodes)}")
-    return generate_DOT(entity, depth=optimal_depth, tree=(nodes,arrows))
+    return generate_DOT(entity, depth=optimal_depth, tree=(nodes,arrows)), optimal_depth
 
 
 def generate_DOT(entity, depth=3, tree=None):
@@ -270,10 +270,13 @@ def generateSVG(data, output_path, entity_id=None, depth=3):
     svg_path = os.path.join(output_path, f"{entity.id}.svg")
     
     if type(depth) is int: dot = generate_DOT(entity, depth=depth)
-    else: dot = calculate_optimal_tree(entity)
+    else: dot, depth = calculate_optimal_tree(entity)
     
     success = run(("dot", "-Tsvg", "-o", svg_path), input=dot, encoding='UTF-8')
-    success.check_returncode()
+    while success.returncode != 0 and depth > 0:
+        print(f"    Error for {str(entity)} in depth {depth}, trying with smaller depth")
+        depth -= 1
+        success = run(("dot", "-Tsvg", "-o", svg_path), input=generate_DOT(entity, depth=depth), encoding='UTF-8')
     
     print(f"Created '{svg_path}'")
     
@@ -295,7 +298,7 @@ if __name__ == "__main__":
         start = timer()
         for i,e in enumerate(data.entities):
             generateSVG(data, svg_filepath, entity_id=e.id, depth=None)
-            if i > 30: break
+            #if i > 30: break
 
         end = timer()
         #random.shuffle(temp_export)

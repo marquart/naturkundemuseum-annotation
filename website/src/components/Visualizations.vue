@@ -147,7 +147,7 @@ export default {
   mounted()  {
     if (process.env.NODE_ENV == "production") {
         this.backend = this.baseBackend + "graphs/";
-        this.requestSVG(this.getRandomEntityID(), true);
+        this.getRandomEntityID();
     } else {
         this.backend = this.baseBackend;
         this.cursorId = '9774';

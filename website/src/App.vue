@@ -82,8 +82,12 @@ export default {
         },
 
         setRandomEntityID() {
-            const idx =  Math.floor(Math.random() * this.queryData.entities.length);//The maximum is exclusive and the minimum is inclusive
-            this.setDisplayGraphOf(this.queryData.entities[idx].id);
+            if (this.queryData.entities.length>0) {
+                const idx =  Math.floor(Math.random() * (this.queryData.entities.length - 4000));//The maximum is exclusive and the minimum is inclusive
+                this.setDisplayGraphOf(this.queryData.entities[idx].id);
+            } else {
+                this.setDisplayGraphOf("1644");
+            }
         },
 
         setDisplayTextOf(item_id) {

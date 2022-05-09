@@ -12,6 +12,7 @@
                     v-for="(lst,ii) in yearData[1]"
                     :key="ii"
                     class="entityClick place"
+                    :style="{background: lst[2]}"
                     @click="emitDisplayTextOf(lst[0])"
                 >
                     {{entitiesMap[lst[0]].text}} ({{lst[1]}}x)
@@ -77,6 +78,7 @@ export default {
 
     .yearGrid {
         display: grid;
+        gap: 3px;
         grid-template-columns: auto auto;
         align-items: center;
         justify-content: start;
@@ -103,7 +105,8 @@ export default {
     }
 
     .place {
-        border: 3px solid #7da30b;/*#fc7715aa;*/
+        border: 3px solid #c7df7f;/*#fc7715aa;*/
+        color: #000;
     }
 
     .person {
