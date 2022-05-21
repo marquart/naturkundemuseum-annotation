@@ -1,6 +1,7 @@
 import os
 from collections import deque, Counter
 from subprocess import run
+import argparse
 
 from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
 
@@ -142,10 +143,10 @@ PROPERTIES
     
 
     
-    with_nodes = template.replace("NODES", '\n'.join(f'        {node_id_lookup[t]} [label=<{t}> fillcolor="{bad_get_color(t)}" color="{"black" if i<1 else "white"}" shape="ellipse"];' for i, t in enumerate(entity_nodes)))
+    with_nodes = template.replace("NODES", '\n'.join(f'        {node_id_lookup[t]} [label=<{t}> fillcolor="{bad_get_color(t)}" color="{"black" if i<1 else "white"}"];' for i, t in enumerate(entity_nodes)))
     
     cmap = sns.color_palette("Blues", n_colors=11)
-    with_properties = with_nodes.replace("PROPERTIES", '\n'.join(f'        {prop_id_lookup[t]} [label=<{t[0]}|{ffloat(properties[t], count)}> fillcolor="{to_hex(cmap[int(properties[t]/count*10)])}" color="{"black" if i<1 else "white"}" fontcolor="{"black" if properties[t]/count<0.7 else "white"}"];' for i, t in enumerate(properties)))
+    with_properties = with_nodes.replace("PROPERTIES", '\n'.join(f'        {prop_id_lookup[t]} [label=<{t[0]}|{ffloat(properties[t], count)}> fillcolor="{to_hex(cmap[int(properties[t]/count*10)])}" color="{"black" if i<1 else "white"}" fontcolor="{"black" if properties[t]/count<0.7 else "white"}" style="filled,rounded"];' for i, t in enumerate(properties)))
     
     with_arrows = with_properties.replace("ARROWS", '\n    '.join(f"{node_id_lookup[p[1]]} -> {prop_id_lookup[p]}\n {prop_id_lookup[p]} -> {node_id_lookup[p[2]]}" for p in properties))
    
@@ -167,17 +168,26 @@ def build_subgraph(semantic_data, entity_short_type, savepath, filter_threshold=
     filtered_properties = {p:c for p,c in properties.most_common() if c/count>filter_threshold}
     used_entity_type = set(pp for p in filtered_properties for pp in p[1:])
     
-    dot = generate_DOT(entity_short_type, count, {e:c for e,c in neighbor_entities.items() if e in used_entity_type}, filtered_properties)
+    if len(used_entity_type) > 0:
+        dot = generate_DOT(entity_short_type, count, {e:c for e,c in neighbor_entities.items() if e in used_entity_type}, filtered_properties)
+        
+        success = run(("dot", "-Tsvg", "-o", savepath), input=dot, encoding='UTF-8')
+        success.check_returncode()
     
-    success = run(("dot", "-Tsvg", "-o", savepath), input=dot, encoding='UTF-8')
-    success.check_returncode()
-    
-    print(f"Created '{savepath}'")
+        print(f"Created '{savepath}'")
+        
+    else:
+        print(f"Couldn't find entities with type '{entity_short_type}'")
 
 
 if __name__ == "__main__":
-    svg_path = "../../Temp_Visualizations/DataModel_E8.svg"
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--type', '-t', type=str, default="E8")
+    
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     
     data = SemanticData(pickle_file)
-    build_subgraph(data, "E8", svg_path, filter_threshold=0.05)
+    
+    args = parser.parse_args()
+    svg_path = f"../Documentation/Visualizations/DataModel_{args.type}.svg"
+    build_subgraph(data, args.type, svg_path, filter_threshold=0.05)

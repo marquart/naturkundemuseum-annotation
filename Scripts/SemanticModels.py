@@ -3,6 +3,7 @@ from collections import defaultdict, Counter
 from operator import attrgetter
 import re
 import pickle
+import itertools
 
 from bs4 import BeautifulSoup
 from bs4.element import Tag as BS4_TAG
@@ -202,14 +203,13 @@ class Corrector(object):
 
 class SemanticEntity(object):
     virtuals = []
-    next_id  = 0
+    IDs = itertools.count()
     SHORT_TYPE_PATTERN = re.compile(r"^(E\d+?) ")
     COLORS = {'E41': '#debb9b', 'E63': '#50c4c2aa', 'E74': '#3b95c4aa', 'E21': '#3b95c4aa', 'E52': '#50c4c2aa', 'E55': '#06b67eaa', 'E85': '#fc3915aa', 'E28': '#06b67eaa', 'E19': '#5a50c4aa', 'E87': '#fc3915aa', 'E78': '#b560d4aa', 'E8': '#fc3915aa', 'E53': '#fc7715aa', 'E39': '#3b95c4aa', 'E54': '#50c4c2aa', 'E20': '#5a50c4aa', 'E35': '#debb9b', 'E77': '#b560d4aa', 'E9': '#fc3915aa', 'E12': '#fc3915aa', 'E60': '#debb9b', 'E7': '#fc3915aa', 'E96': '#fc3915aa', 'E86': '#fc3915aa', 'E57': '#5a50c4aa', 'E3': '#50c4c2aa', 'E66': '#fc3915aa', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#fc3915aa', 'E14': '#fc3915aa', 'E79': '#fc3915aa'}
     def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None):
         '''virtual_origin: source from which virtual entity gets added in Postprocessing for page and line numbers'''
-        self.id = self.next_id
+        self.id = next(SemanticEntity.IDs)
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
-        SemanticEntity.next_id += 1
         
         self.year = year
         self.institution = institution
@@ -302,13 +302,13 @@ class SemanticEntity(object):
 
 class SemanticProperty(object):
     virtuals = []
-    next_id  = 0
+    IDs = itertools.count()
     PATTERN = re.compile("^(.*?) \(")
     SHORT_TYPE_PATTERN = re.compile(r"^(P\d+?) ")
     def __init__(self, tag, entity_map=None, virtual=False, source=None, target=None, year=0, institution=None):
-        self.id = self.next_id
+        self.id = next(SemanticProperty.IDs)
         self.processed = False # Variable which can be used in recursion algorithms, USE WITH CAUTION
-        SemanticProperty.next_id += 1
+        
         
         self.year = year
         self.institution = institution
