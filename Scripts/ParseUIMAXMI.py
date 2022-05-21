@@ -2,7 +2,6 @@ import os
 import sys
 from collections import defaultdict, Counter
 from operator import attrgetter
-from itertools import chain
 import json, re
 import pickle
 from bs4 import BeautifulSoup
