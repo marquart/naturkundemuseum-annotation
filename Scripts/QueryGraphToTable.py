@@ -1,6 +1,7 @@
 import os
 from operator import attrgetter
 from collections import defaultdict
+import json
 from openpyxl import Workbook
 
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
@@ -11,7 +12,7 @@ def has_type(e, string):
     return False
 
 def append_header(ws, label):
-    ws.append((label,"No. of Mentions", "Alternative Names"))
+    ws.append((f"Lexical unit for {label}","No. of Mentions", "Surface forms"))
     ws['A1'].style = "Headline 2"
     ws['B1'].style = "Headline 2"
     ws['C1'].style = "Headline 2"
@@ -27,6 +28,7 @@ def strlen(e):
 
 def optimal_person_name(entities):
     return min(entities, key=strlen).string
+    
 
 if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
@@ -34,25 +36,31 @@ if __name__ == "__main__":
     
     data = SemanticData(pickle_file)
     
+    with open("../Data/Lexical_Locations.json", 'r', encoding="UTF-8") as f:
+        lemmatized_place_names = json.load(f)
+    
     for t, label in (("E53","Locations"),("E21","Persons")):
         # Query Types
         cum_table  = defaultdict(list) # search_string : [...entities]
         year_table = defaultdict(dict) # year: search_string : [...entities]
         for e in data.entities:
             if e.short_type == t and not has_type(e, "Building"):
-                cum_table[e.search_string].append(e)
+                if e.search_string in lemmatized_place_names: search_string = lemmatized_place_names[e.search_string][1]
+                else: search_string = e.search_string
+            
+                cum_table[search_string].append(e)
                 year = e.year
-                if e.search_string in year_table[year]:
-                    year_table[year][e.search_string].append(e)
+                if search_string in year_table[year]:
+                    year_table[year][search_string].append(e)
                 else:
-                    year_table[year][e.search_string] = [e]
+                    year_table[year][search_string] = [e]
     
         # Build Excel Table
         wb = Workbook()
         
         # Cumulative
         ws = wb.active
-        ws.title = "Cumulative"
+        ws.title = "In total"
         append_header(ws, label)
         
         dimA = 1
@@ -61,11 +69,14 @@ if __name__ == "__main__":
         
         for entities in sorted(cum_table.values(), key=read_mentions, reverse=True):
             if t == "E21": name = optimal_person_name(entities)
-            else: name = entities[-1].string
+            else:
+                search_string = entities[-1].search_string
+                if search_string in lemmatized_place_names: name = lemmatized_place_names[search_string][1]
+                else: name = search_string #entities[-1].string
             
             if len(name) > dimA: dimA = len(name)
             
-            alternatives = '; '.join(set(e.string for e in entities if e.string != name))
+            alternatives = '; '.join(set(e.string for e in entities )) #if e.string != name
             if len(alternatives) > 0:
                 if len(alternatives) > dimC: dimC = len(alternatives)
             else:
@@ -87,9 +98,12 @@ if __name__ == "__main__":
             
             for entities in sorted(entities_lst, key=read_mentions, reverse=True):
                 if t == "E21": name = optimal_person_name(entities)
-                else: name = entities[-1].string
+                else:                 
+                    search_string = entities[-1].search_string
+                    if search_string in lemmatized_place_names: name = lemmatized_place_names[search_string][1]
+                    else: name = search_string #entities[-1].string
                 
-                alternatives = '; '.join(set(e.string for e in entities if e.string != name))
+                alternatives = '; '.join(set(e.string for e in entities )) #if e.string != name
                 if len(alternatives) > 0:
                     if len(alternatives) > dimC: dimC = len(alternatives)
                 else:
