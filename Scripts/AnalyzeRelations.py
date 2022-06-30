@@ -11,10 +11,45 @@ from matplotlib.colors import LinearSegmentedColormap, to_hex
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 
 
+def general_name(e):
+    for p in e.outgoing:
+        if p.target.short_type == "E41": # Appelation
+            return p.target.string
+    return e.string
+
+
+def is_actor_in_acquisition(e):
+    if e.short_type in ("E21","E74","E39"): #Person,Group,Actor
+        for p in e.incoming:
+            if p.short_type in ("P23","P22"): return True
+    return False
+
+
+def is_museums_collection(e):
+    if e.short_type == "E78":
+        for p in e.incoming:
+            if p.short_type == "P22": return True
+    return False
+
+
+def identify_actors_for_collections(collection):
+    collectors = []
+    for p in collection.incoming:
+        if p.short_type == "P22": #Donation, Purchase
+            for pp in p.source.outgoing: # Acquisition
+                if pp.short_type == "P23":
+                    collectors.append(pp.target)
+        elif p.short_type == "P23": #Trade
+            for pp in p.source.outgoing: # Acquisition
+                if pp.short_type == "P22":
+                    collectors.append(pp.target)
+    return collectors
+
+
 def identify_locations_for_collections(collection):
     locations = []
     for p in collection.incoming:
-        if p.short_type == "P22":
+        if p.short_type in ("P22","P23"):
             acquisitions_locations = []
             count = 0
             for pp in p.source.outgoing: # Acquisition
@@ -30,7 +65,7 @@ def identify_locations_for_collections(collection):
                     count += 1
             if count: locations += acquisitions_locations*count
             else: locations += acquisitions_locations
-    return locations   
+    return locations
 
 
 def identify_locations_for_persons(actor):
@@ -55,14 +90,12 @@ def identify_locations_for_persons(actor):
 def build_actor_location_table(entities, table={}):
     '''Structure: {Person:{..year:{...place:count}}}
     '''
-    TYPE_PATTERN = re.compile(r"^Synonym for E21|E74|E39 ") #("E21","E74","E39"): # Person or Group or Actor
+    #TYPE_PATTERN = re.compile(r"^Synonym for E21|E74|E39 ") #("E21","E74","E39"): # Person or Group or Actor
     actors = defaultdict(list) # Appelation: [...persons] or person: [person]
     for e in entities:
-        if e.short_type == "E55" and TYPE_PATTERN.search(e.string) is not None:
-            for p in e.incoming:
-                for pp in p.source.incoming: # Appelation
-                    actors[p.source].append(pp.source)
-                    
+        if is_actor_in_acquisition(e):
+            actors[general_name(e)].append(e)
+
     print(f"Found {len(actors)} generalized actors with {sum(len(l) for l in actors.values())} entities")
     for app, persons in actors.items():
         result = defaultdict(list) # year:locations
@@ -71,22 +104,22 @@ def build_actor_location_table(entities, table={}):
             if locations:
                 result[person.year] += locations
         if result:
+            assert app not in table
             table[app] = result
     
     print(f"Found locations for {len(table)} actors")
     return table
 
+
 def build_holding_location_table(entities, table={}):
     '''Structure: {Person:{..year:{...place:count}}}
     '''
     #TYPE_PATTERN = re.compile(r"^Synonym for E[21|74|39]") #("E21","E74","E39"): # Person or Group or Actor
-    holdings = defaultdict(list) # Appelation: [...persons] or person: [person]
+    holdings = defaultdict(list) # holding_string: [...persons] or person: [person]
     for e in entities:
-        if e.short_type == "E55" and e.string.startswith("Synonym for E78"):
-            for p in e.incoming:
-                for pp in p.source.incoming: # Appelation
-                    holdings[p.source].append(pp.source)
-                    
+        if is_museums_collection(e):
+            holdings[general_name(e)].append(e)
+        
     print(f"Found {len(holdings)} generalized holdings with {sum(len(l) for l in holdings.values())} entities")
     
     #collissions = []
@@ -103,6 +136,20 @@ def build_holding_location_table(entities, table={}):
     print(f"Found locations for {len(table)} holdings")
     #print([(str(x), x.id) for x in collissions])
     return table
+
+
+def build_holding_actors_table(entities, table={}):
+    holding_actors = defaultdict(dict) # collection_string: {..years: [..person_objs]}
+    for e in entities:
+        if is_museums_collection(e):
+            collectors = identify_actors_for_collections(e)
+            name = general_name(e)
+            if e.year in holding_actors[name]:
+                holding_actors[name][e.year] += collectors
+            else:
+                holding_actors[name][e.year] = collectors
+    return holding_actors
+
 
 def save_table(table, savepath="../Website/public/"):
     json_table = defaultdict(dict)
@@ -125,11 +172,13 @@ def save_table(table, savepath="../Website/public/"):
 
 if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
-    save_filepath = "../../Temp_Visualizations/DOTs/graphs"
     
     data = SemanticData(pickle_file)
-    table = build_actor_location_table(data.entities)
-    table = build_holding_location_table(data.entities, table=table)
+    person_locations_table = build_actor_location_table(data.entities) #person_string: {..years: ..[..location_objs]}
+    collection_locations_table = build_holding_location_table(data.entities) #collection_string: {..years: ..[..location_objs]}
+    person_collection_table = build_holding_actors_table(data.entities)
+    
+     
     save_table(table)
-        
-
+    
+    #

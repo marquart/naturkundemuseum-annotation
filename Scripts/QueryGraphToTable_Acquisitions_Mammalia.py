@@ -19,6 +19,7 @@ def find_places(entities, placeName):
             while cursor is not None:
                 if placeName in cursor.search_string:
                     results.add(e)
+                    print(f"    Included Location: {str(e)}")
                     break
                 next_cursor = None
                 for p in cursor.outgoing:
@@ -37,6 +38,7 @@ def find_holding(entities, collectionName):
             while cursor is not None:
                 if collectionName in cursor.search_string:
                     results.add(e)
+                    print(f"    Included Collection: {str(e)}")
                     break
                 next_cursor = None
                 for p in cursor.incoming:
@@ -119,7 +121,7 @@ def build_acquisition_types_table(entities, save_filepath, filter_collections=('
     
     filtered_locations = find_places(data.entities, filter_locations[0])
     for filter in filter_locations[1:]:
-        filtered_locations.update(find_holding(data.entities, filter))
+        filtered_locations.update(find_places(data.entities, filter))
     #print('\n'.join(e.string for e in kamerun))
     
     personName_entities = defaultdict(list)
@@ -230,4 +232,5 @@ if __name__ == "__main__":
     save_filepath = "../Documentation/Visualizations/Chronik_Collectors_Kamerun.xlsx"
     build_acquisition_types_table(data.entities, save_filepath, filter_collections=("",), filter_locations=('amerun',))
 
-
+    save_filepath = "../Documentation/Visualizations/Chronik_Collectors_Australien.xlsx"
+    build_acquisition_types_table(data.entities, save_filepath, filter_collections=("",), filter_locations=('strali',))
