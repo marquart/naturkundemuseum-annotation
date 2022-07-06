@@ -21,7 +21,16 @@ def validAcquisition(e, type):
         elif p.short_type == "P2" and not correct_type:
             correct_type = p.target.string == type
     return museum_acquisition and correct_type
-    
+
+
+def classifyProperty(prop, neighbor):
+    if prop.short_type == "P43": return "Dimension"
+    elif prop.short_type == "P130":  return "Taxon"
+    elif neighbor.short_type == "E3":  return "Condition State/ Condition Assessement"
+    elif neighbor.short_type == "E14":  return "Condition State/ Condition Assessement"
+    elif neighbor.short_type == "E11":  return "Modification"
+    elif prop.short_type == "P53":  return "Location"
+    return None
 
 def processDonations(entities, acqType):
     classes = ("Recipient","Giver","Object(s)","Dimension","Taxon","Condition State/ Condition Assessement","Modification","Location")
@@ -39,6 +48,9 @@ def processDonations(entities, acqType):
                 elif p.short_type == "P24":
                     foundElements.add("Object(s)")
                     objs.append(p.target)
+                elif p.target.short_type in ("E14","E3"): foundElements.add("Condition State/ Condition Assessement")
+            for p in e.incoming:
+                if p.source.short_type in ("E14","E3"): foundElements.add("Condition State/ Condition Assessement")
                     
             processed = set()
             while objs:
@@ -47,20 +59,10 @@ def processDonations(entities, acqType):
                 
                 for p in obj.outgoing:
                     if p.short_type == "P46": objs.append(p.target)
-                    elif p.short_type == "P43": foundElements.add("Dimension")
-                    elif p.short_type == "P130": foundElements.add("Taxon")
-                    elif p.target.short_type == "E3": foundElements.add("Condition State/ Condition Assessement")
-                    elif p.target.short_type == "E14": foundElements.add("Condition State/ Condition Assessement")
-                    elif p.target.short_type == "E11": foundElements.add("Modification")
-                    elif p.short_type == "P53": foundElements.add("Location")
+                    elif (category := classifyProperty(p, p.target)): foundElements.add(category)
                 for p in obj.incoming:
                     if p.short_type == "P46": objs.append(p.source)
-                    elif p.short_type == "P43": foundElements.add("Dimension")
-                    elif p.short_type == "P130": foundElements.add("Taxon")
-                    elif p.source.short_type == "E3": foundElements.add("Condition State/ Condition Assessement")
-                    elif p.source.short_type == "E14": foundElements.add("Condition State/ Condition Assessement")
-                    elif p.source.short_type == "E11": foundElements.add("Modification")
-                    elif p.short_type == "P53": foundElements.add("Location")
+                    elif (category := classifyProperty(p, p.source)): foundElements.add(category)
                 processed.add(obj)
             result.update(foundElements)
     acquisitions_count = len(acquisitions)
