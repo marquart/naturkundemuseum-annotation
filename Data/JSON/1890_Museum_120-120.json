@@ -5,6 +5,59 @@
     "Page_End": 120,
     "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
     "Entities": {
+        "1081": {
+            "id": "1081",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "28. März d. Js.",
+            "search_string": "28.märzd.js.",
+            "begin": 1040,
+            "end": 1055,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 22,
+            "txt_id": "Mus_1890",
+            "line_idx": 23,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "1058"
+            ],
+            "outgoing": []
+        },
+        "1082": {
+            "id": "1082",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "690",
+            "search_string": "690",
+            "begin": 1060,
+            "end": 1063,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 22,
+            "txt_id": "Mus_1890",
+            "line_idx": 23,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "1059"
+            ],
+            "outgoing": [
+                "1056",
+                "1058"
+            ]
+        },
         "1083": {
             "id": "1083",
             "type": "E52 Time-Span",
@@ -955,59 +1008,6 @@
                 "1057"
             ],
             "outgoing": []
-        },
-        "1081": {
-            "id": "1081",
-            "type": "E52 Time-Span",
-            "short_type": "E52",
-            "virtual": false,
-            "text": "28. März d. Js.",
-            "search_string": "28.märzd.js.",
-            "begin": 1040,
-            "end": 1055,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 22,
-            "txt_id": "Mus_1890",
-            "line_idx": 23,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "1058"
-            ],
-            "outgoing": []
-        },
-        "1082": {
-            "id": "1082",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "690",
-            "search_string": "690",
-            "begin": 1060,
-            "end": 1063,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 22,
-            "txt_id": "Mus_1890",
-            "line_idx": 23,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "1059"
-            ],
-            "outgoing": [
-                "1056",
-                "1058"
-            ]
         }
     },
     "Properties": {
