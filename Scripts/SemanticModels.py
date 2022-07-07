@@ -298,6 +298,7 @@ class SemanticEntity(object):
     
     def verbose(self):
         return f"{self.type}: '{self.string}' ({self.id}, {self.institution} {self.year})"
+        
 
 
 class SemanticProperty(object):

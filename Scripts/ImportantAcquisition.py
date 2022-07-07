@@ -58,7 +58,7 @@ def calculateWeight(e):
         "E3" :("P1","P2","P22"), #Condition State/
         "E14":("P1","P2","P22"), #Condition Assessment
         "E11":("P1","P2","P22"), #Modification
-        "E54":("P1","P2","P22"), #Dimension
+        "E54":("P1","P2","P22","P43"), #Dimension
         "E60":("P1","P2","P22"), #Number
     }
     

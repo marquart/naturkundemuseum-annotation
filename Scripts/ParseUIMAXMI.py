@@ -124,6 +124,80 @@ def consolidate_entities(entities, verbose=False):
     return result
 
 
+def split_large_acquisitions(entities, properties, corrector):
+    def copy_entity(acq, corrector):
+        c = SemanticEntity({'SemanticClass':acq.type,'string':acq.string}, corrector, virtual=True, year=acq.year, institution=acq.institution, virtual_origin=acq)
+        c.virtual = acq.virtual
+        c.begin   = acq.begin
+        c.end     = acq.end
+        return c
+        
+    def copy_properties(old, new, exclude=()):
+        for pp in old.outgoing:
+            if pp.short_type not in exclude:
+                SemanticProperty({"SemanticProperty":pp.type}, virtual=True, source=new, target=pp.target, year=old.year, institution=old.institution)
+        for pp in old.incoming:
+            if pp.short_type not in exclude:
+                SemanticProperty({"SemanticProperty":pp.type}, virtual=True, source=pp.source, target=new, year=old.year, institution=old.institution)
+        
+    assert not SemanticProperty.virtuals and not SemanticEntity.virtuals
+    for e in entities:
+        if e.short_type in ("E8","E96"):
+            connected_givers, connected_objs = [], []
+            for p in e.outgoing:
+                if p.short_type == "P23": connected_givers.append(p)
+                elif p.short_type == "P24": connected_objs.append(p)
+            
+            # Too many givers:
+            if len(connected_givers) > 3 and len(connected_objs) < 2:
+                if connected_objs: obj = connected_objs[0].target
+                else: obj = None
+                
+                for p in connected_givers[1:]:
+                    person = p.target
+                    acquisition = copy_entity(e, corrector)
+                    
+                    if obj:
+                        new_obj = copy_entity(obj, corrector)
+                        copy_properties(obj, new_obj, exclude=("P24",))
+                        SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=new_obj, year=e.year, institution=e.institution)
+                        copy_properties(e, acquisition, exclude=("P23","P24"))
+                    else:
+                        copy_properties(e, acquisition, exclude=("P23",))
+                    
+                    acquisition.outgoing.append(p)
+                    p.source = acquisition
+                    e.outgoing.remove(p)
+                    #print(f"    Generated {acquisition.id}:{str(acquisition)} from {e.id}:{str(e)}")
+
+                    
+            elif len(connected_givers) == 0 and len(connected_objs) == 1:
+                connected_places = []
+                for p in connected_objs[0].target.outgoing:
+                    if p.short_type == "P53": connected_places.append(p)
+                # Too many places
+                if len(connected_places) > 4:
+                    obj = connected_objs[0].target
+                    for p in connected_places[1:]:
+                        place = p.target
+                        
+                        new_obj = copy_entity(obj, corrector)
+                        acquisition = copy_entity(e, corrector)
+                        copy_properties(e, acquisition, exclude=("P24",))
+                        copy_properties(obj, new_obj, exclude=("P53","P24"))      
+                        SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=new_obj, year=e.year, institution=e.institution)
+                        
+                        new_obj.outgoing.append(p)
+                        p.source = new_obj
+                        obj.outgoing.remove(p)
+                        #print(f"    Generated {new_obj.id}:{str(new_obj)} from {obj.id}:{str(obj)}")
+    entities += SemanticEntity.virtuals
+    properties += SemanticProperty.virtuals
+    SemanticProperty.virtuals.clear()
+    SemanticEntity.virtuals.clear()
+    return entities, properties
+
+
 def set_anchors(anchors):
     for anchor_str, anchor in anchors.objs.items():
         for double in anchors.properties[anchor_str]:
@@ -178,6 +252,8 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
 
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
+    
+    entities, properties = split_large_acquisitions(entities, properties, corrector)
     
     entities, properties = postprocessing(entities, properties, corrector)
     
