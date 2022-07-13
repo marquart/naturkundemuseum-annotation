@@ -91,6 +91,14 @@ def calculateWeight(e):
                 stack.append(p.target)
     return weight
 
+def calculateWeights(entities):
+    weights = {}
+    for e in entities:
+        if validAcquisition(e):
+            w = calculateWeight(e)
+            if w>9: w = 10
+            weights[e.id] = w
+    return weights
 
 if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
@@ -100,11 +108,12 @@ if __name__ == "__main__":
     for e in data.entities:
         if validAcquisition(e):
             w = calculateWeight(e)
+            if w>9: w = 10
             weights[w] += 1
             if w>50: print(e.verbose())
     print(f"Calculated weights for {sum(weights.values())} acquisitions:")
     for w in sorted(weights.keys()):
-        print(f"    {w:<5} weight | {weights[w]:<5} acquisitions")
+        print(f"    {w:<5} weight | {weights[w]:<5} acquisitions | {round(weights[w]/sum(weights.values())*100, 1)}%")
 
     
     

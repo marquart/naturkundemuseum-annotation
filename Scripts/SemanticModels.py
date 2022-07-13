@@ -376,10 +376,8 @@ def parse_postprocessing(tag_string, source, anchors, corrector):
             virtual_from_source = True
             continue
         
-        
-        if lowered_info.startswith('!'): inverse = True
-        else: inverse = False
-        
+        inverse = lowered_info.startswith('!')
+
         if "anchor" in lowered_info:
             if ':' in lowered_info:
                 double = info.split(':')
@@ -396,15 +394,12 @@ def parse_postprocessing(tag_string, source, anchors, corrector):
                 
         else:
             triple = info.lstrip('!').split(':')
-            if len(triple) != 3:
-                print(triple)
             assert len(triple) == 3
-        
+            
+        target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, corrector, virtual=True, year=source.year, institution=source.institution)
         if inverse:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':f"{triple[2]}"}, corrector, virtual=True, year=source.year, institution=source.institution)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=target, target=source, year=source.year, institution=source.institution)
         else:
-            target = SemanticEntity({'SemanticClass':triple[1],'string':triple[2]}, corrector, virtual=True, year=source.year, institution=source.institution)
             property = SemanticProperty({"SemanticProperty":triple[0]}, virtual=True, source=source, target=target, year=source.year, institution=source.institution)
         
     return virtual_from_source

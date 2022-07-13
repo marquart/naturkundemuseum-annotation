@@ -20,10 +20,11 @@ def postprocessing(entities, properties, corrector):
     
     for e in entities:
         if e.short_type in ("E21","E74","E39"): # Person or Group or Actor
-            p53, p22 = [], None
+            p53, p22, p24 = [], None, []
             for p in e.outgoing:
                 if p.short_type == "P53": p53.append(p) # Person has Place
                 elif p.short_type == "P22": p22 = p # Person transferred to Collection
+                elif p.short_type == "P24": p24.append(p)
                 
             if p22 is not None:
                 if p22.type.endswith('E96'):
@@ -38,6 +39,12 @@ def postprocessing(entities, properties, corrector):
                     acquisition = SemanticEntity({'SemanticClass':'E8 Acquisition','string':'(implicit) Acquisition'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
 
                 SemanticProperty({"SemanticProperty":"P23 transferred title from"}, virtual=True, source=acquisition, target=e, year=e.year, institution=e.institution)
+                
+                if p24:
+                    for p in p24:
+                        e.outgoing.remove(p)
+                        acquisition.outgoing.append(p)
+                        p.source = acquisition    
                 
                 if p53:
                     artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Object'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
@@ -68,11 +75,25 @@ def postprocessing(entities, properties, corrector):
                 if donation is None: donation = SemanticEntity({'SemanticClass':'E55 Type','string':'Donation'}, corrector, virtual=True, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=e, target=donation, year=e.year, institution=e.institution)
     
-    # P128 carries --> 	P130 shows features of 
+    # P128 carries --> 	P130 shows features of
+    taxon = None
     for p in properties:
         if p.short_type == "P128" and p.target.short_type == "E28":
             p.short_type = "P130"
             p.type = "P130 shows features of"
+            
+            # add Taxon to E28 (Conceptual Object)
+        if p.short_type == "P130" and p.target.short_type == "E28":
+            concept = p.target
+            has_type = False
+            for pp in concept.outgoing:
+                if pp.short_type == "P2":
+                    has_type = True
+                    break
+            if not has_type:
+                if taxon is None: taxon = SemanticEntity({'SemanticClass':'E55 Type','string':'Taxon'}, corrector, virtual=True, year=concept.year, institution=concept.institution)
+                SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=concept, target=taxon, year=concept.year, institution=concept.institution)
+                
             
 
     entities += SemanticEntity.virtuals
