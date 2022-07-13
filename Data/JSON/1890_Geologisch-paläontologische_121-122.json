@@ -5,8 +5,242 @@
     "Page_End": 122,
     "Text": "====PAGEBEGIN 121====\r\n\r\n117\r\n2. Geologisch - palaentologische Sammlung und geologisch - palaentologisches\r\nInstitut.\r\n1. Schausammlung. Im Schausaal der fossilen Thiere\r\nbeschränkte sich die Thätigkeit auf eine Revision der Bestim­mungen und Etiquetten, auf Einfügung einzelner Stücke in das\r\nfrüher Aufgestellte und auf Austausch schlechter erhaltener\r\nStücke gegen bessere. Der Schausaal der fossilen Pflanzen war\r\nbei der Einweihung des Museums noch nicht geöffnet worden,\r\nweil für denselben grösstentheils noch die innere Einrichtung\r\nfehlte und die Beamten mit der Fertigstellung des Schausaales\r\nder fossilen Thiere vollauf beschäftigt gewesen waren. Im Laufe\r\ndes verflossenen Etatsjahres ist nun auch der Pflanzensaal voll­ständig zur Eröffnung bereit gestellt, und zwar derart, dass in\r\n4 grossen Flachvitrinen eine botanisch-systematische, in den\r\nHochvitrinen an den Wänden eine geologische Anordnung der\r\nObjekte getroffen ist. Ausserdem enthält der Saal noch einzelne\r\ngrosse Platten mit tertiären Palmen und auf den Postamenten\r\nzwischen den Flachvitrinen verkieselte Hölzer verschiedener\r\nFormationen. An den Fenstern sind Rahmen mit Holzdünn­schliffen und Bernsteininclusen in Canadabalsam angebracht. Da\r\nauch die Etiquettirung fast vollständig durchgeführt ist, konnte\r\nim März 1891 die Eröffnung für das Publikum erfolgen. Die\r\nschwierige und bedeutende Arbeit der Aufstellung der fossilen\r\nPflanzen ist das ausschliessliche Verdienst des bisherigen Assi­stenten, Herrn Dr. E. Koken, welcher nunmehr als Professor\r\nordinarius nach Königsberg i/Pr. berufen worden ist. — An\r\nseine Stelle tritt Dr. Futterer, bisher Assistent am geologischen\r\nInstitut der Universität Freiburg i/Br.\r\n2. Hauptsammlung. Die Arbeiten für die Ordnung der\r\nHauptsammlung sind auf verschiedenen Gebieten fortgeschritten,\r\nund zwar bei den tertiären Mollusken, den Spongien, deren\r\nOrdnung beendigt ist, und bei den jurassischen Gastropoden.\r\nAusserdem wurden einige Serien von einzelnen Localitäten\r\nbestimmt und in die Hauptsammlung vertheilt, z. B. solche\r\nverschiedener deutscher und ausländischer Kreidegebiete. — Auch\r\nim verflossenen Etatsjahr war die Bereicherung der Sammlung\r\neine erfreulich bedeutende. Unter den namhafteren Erwerbungen\r\nsind zu nennen: Umfangreiche Sammlungen aus den Silurabla­gerungen der Insel Gotland und Dalarnes, zusammengebracht\r\n\r\n====PAGEBREAK TO 122====\r\n\r\n1\r\nvom Custos Dr. W. Dames, und aus dem baltischen Silur,\r\ngesammelt von Dr. E. Koken, fossile Säugethierreste von St.\r\nGérand le Puy (Dept. Allier), Crinoiden aus dem Neocom von\r\nStramberg, eine Sammlung von  paläozoischen, mesozoischen\r\nund quartären Petrefacten aus Peru und Bolivien, gesammelt\r\nvon Herrn Dr. Hettner, und Petrefacten der Kreideformation\r\nvon Umtamfuma in Natal, gesammelt von Herrn Conrad Beyrich.\r\n Aus den Beständen der Hauptsammlung wurden mancherlei\r\nObjekte zum Studium und zum Vergleich auswärtigen Gelehrten\r\nzugänglich gemacht, so tertiäre Gastropoden Herrn Professor\r\nvon Könen in Göttingen, cretaceische Echiniden Herrn Pro­fessor Schlüter in Bonn, liassische Ammoniten Herrn Dr.\r\nDenckmann in Berlin u. s. f.\r\n3. Geologisch-paläontologisches Institut. Das In­stitut wurde von 5 Praktikanten zu eigenen Untersuchungen\r\nund Abfassung von Abhandlungen benutzt; einer von ihnen hat\r\neine Inauguraldissertation über die Crustaceen der nordwest­deutschen Juraformation vollendet.  Ungefähr 12 Studenten\r\nhaben die Lehrsammlungen zu Repetitionszwecken benützt. ­Es ist noch hinzuzufügen, dass die Bibliothek vollständig geordnet\r\nund aufgestellt und der Katalog derselben vollendet\r\nist. Es fehlt noch der der Kartensammlung, mit dessen Her­stellung begonnen wurde.\r\nProfessor Dr. Beyrich,\r\nDirektor.\r\n3. Mineralogisch-petrographisches Institut.\r\nWas die Thätigkeit im mineralogisch-petrographischen In­stitut anlangt, so wurden an den Unterrichts- und Repetir­sammlungen desselben die zur wissenschaftlichen Verwerthung\r\nerforderlichen, näheren Bestimmungen der einzelnen Stücke in\r\nausgedehntem Maasse weiter fortgesetzt. Fernerhin ward durch\r\ndie Thätigkeit des Präparators und der Diener eine erhebliche\r\nVermehrung der Mineral- und Gesteinspräparate erzielt.\r\nIm Institut, das von dem Assistenten, Herrn Dr. Rinne, beauf­sichügt wurde, entfaltete sich eine rege Thätigkeit bezüglich der\r\nAnleitung der Anfünger und der Arbeiten der Vorgerückteren,\r\nso dass die vorhandenen Arbeitsplütze, von denen acht für die\r\n.18",
     "Entities": {
-        "856": {
-            "id": "856",
+        "873": {
+            "id": "873",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Berlin",
+            "search_string": "berlin",
+            "begin": 3117,
+            "end": 3123,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 14,
+            "txt_id": "Geo_1890",
+            "line_idx": 58,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc7715aa",
+            "incoming": [
+                "867"
+            ],
+            "outgoing": []
+        },
+        "871": {
+            "id": "871",
+            "type": "E78 Curated Holding",
+            "short_type": "E78",
+            "virtual": false,
+            "text": "liassische Ammoniten",
+            "search_string": "liassischeammoniten",
+            "begin": 3072,
+            "end": 3092,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 13,
+            "txt_id": "Geo_1890",
+            "line_idx": 57,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#b560d4aa",
+            "incoming": [
+                "864",
+                "865"
+            ],
+            "outgoing": []
+        },
+        "872": {
+            "id": "872",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Dr. Denckmann",
+            "search_string": "dr.denckmann",
+            "begin": 3099,
+            "end": 3113,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 13,
+            "txt_id": "Geo_1890",
+            "line_idx": 57,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [
+                "866"
+            ],
+            "outgoing": [
+                "867"
+            ]
+        },
+        "870": {
+            "id": "870",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Bonn",
+            "search_string": "bonn",
+            "begin": 3066,
+            "end": 3070,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 13,
+            "txt_id": "Geo_1890",
+            "line_idx": 57,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc7715aa",
+            "incoming": [
+                "863"
+            ],
+            "outgoing": []
+        },
+        "868": {
+            "id": "868",
+            "type": "E78 Curated Holding",
+            "short_type": "E78",
+            "virtual": false,
+            "text": "cretaceische Echiniden",
+            "search_string": "cretaceischeechiniden",
+            "begin": 3014,
+            "end": 3036,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 12,
+            "txt_id": "Geo_1890",
+            "line_idx": 56,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#b560d4aa",
+            "incoming": [
+                "860",
+                "861"
+            ],
+            "outgoing": []
+        },
+        "869": {
+            "id": "869",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Professor Schlüter",
+            "search_string": "professorschlüter",
+            "begin": 3043,
+            "end": 3062,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 12,
+            "txt_id": "Geo_1890",
+            "line_idx": 56,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [
+                "862"
+            ],
+            "outgoing": [
+                "863"
+            ]
+        },
+        "867": {
+            "id": "867",
+            "type": "E53 Place",
+            "short_type": "E53",
+            "virtual": false,
+            "text": "Göttingen",
+            "search_string": "göttingen",
+            "begin": 3003,
+            "end": 3012,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 12,
+            "txt_id": "Geo_1890",
+            "line_idx": 56,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc7715aa",
+            "incoming": [
+                "859"
+            ],
+            "outgoing": []
+        },
+        "866": {
+            "id": "866",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Professor von Könen",
+            "search_string": "professorvonkönen",
+            "begin": 2979,
+            "end": 2999,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 11,
+            "txt_id": "Geo_1890",
+            "line_idx": 55,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [
+                "858"
+            ],
+            "outgoing": [
+                "859"
+            ]
+        },
+        "865": {
+            "id": "865",
+            "type": "E78 Curated Holding",
+            "short_type": "E78",
+            "virtual": false,
+            "text": "tertiäre Gastropoden",
+            "search_string": "tertiäregastropoden",
+            "begin": 2952,
+            "end": 2972,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 11,
+            "txt_id": "Geo_1890",
+            "line_idx": 55,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#b560d4aa",
+            "incoming": [
+                "856",
+                "857"
+            ],
+            "outgoing": []
+        },
+        "863": {
+            "id": "863",
             "type": "E7 Activity",
             "short_type": "E7",
             "virtual": false,
@@ -27,13 +261,13 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "783",
-                "855",
-                "856"
+                "793",
+                "865",
+                "866"
             ]
         },
-        "853": {
-            "id": "853",
+        "860": {
+            "id": "860",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": true,
@@ -53,16 +287,16 @@
             "mentions": 5,
             "color": "#06b67eaa",
             "incoming": [
-                "781",
-                "782",
-                "783",
-                "784",
-                "789"
+                "791",
+                "792",
+                "793",
+                "794",
+                "799"
             ],
             "outgoing": []
         },
-        "852": {
-            "id": "852",
+        "859": {
+            "id": "859",
             "type": "E7 Activity",
             "short_type": "E7",
             "virtual": false,
@@ -83,13 +317,13 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "781",
-                "847",
-                "848"
+                "791",
+                "857",
+                "858"
             ]
         },
-        "854": {
-            "id": "854",
+        "861": {
+            "id": "861",
             "type": "E7 Activity",
             "short_type": "E7",
             "virtual": false,
@@ -110,13 +344,13 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "782",
-                "851",
-                "852"
+                "792",
+                "861",
+                "862"
             ]
         },
-        "849": {
-            "id": "849",
+        "856": {
+            "id": "856",
             "type": "E8 Acquisition",
             "short_type": "E8",
             "virtual": false,
@@ -137,13 +371,13 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "843",
-                "845",
-                "870"
+                "853",
+                "855",
+                "880"
             ]
         },
-        "850": {
-            "id": "850",
+        "857": {
+            "id": "857",
             "type": "E21 Person",
             "short_type": "E21",
             "virtual": false,
@@ -163,12 +397,12 @@
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "845"
+                "855"
             ],
             "outgoing": []
         },
-        "848": {
-            "id": "848",
+        "855": {
+            "id": "855",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -188,12 +422,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "844"
+                "854"
             ],
             "outgoing": []
         },
-        "846": {
-            "id": "846",
+        "853": {
+            "id": "853",
             "type": "E21 Person",
             "short_type": "E21",
             "virtual": false,
@@ -213,12 +447,12 @@
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "842"
+                "852"
             ],
             "outgoing": []
         },
-        "847": {
-            "id": "847",
+        "854": {
+            "id": "854",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -238,14 +472,14 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "843"
+                "853"
             ],
             "outgoing": [
-                "844"
+                "854"
             ]
         },
-        "845": {
-            "id": "845",
+        "852": {
+            "id": "852",
             "type": "E8 Acquisition",
             "short_type": "E8",
             "virtual": false,
@@ -266,13 +500,13 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "839",
-                "842",
-                "869"
+                "849",
+                "852",
+                "879"
             ]
         },
-        "843": {
-            "id": "843",
+        "850": {
+            "id": "850",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -292,12 +526,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "840"
+                "850"
             ],
             "outgoing": []
         },
-        "844": {
-            "id": "844",
+        "851": {
+            "id": "851",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -317,12 +551,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "841"
+                "851"
             ],
             "outgoing": []
         },
-        "842": {
-            "id": "842",
+        "849": {
+            "id": "849",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -342,15 +576,15 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "839"
+                "849"
             ],
             "outgoing": [
-                "840",
-                "841"
+                "850",
+                "851"
             ]
         },
-        "840": {
-            "id": "840",
+        "847": {
+            "id": "847",
             "type": "E96 Purchase",
             "short_type": "E96",
             "virtual": true,
@@ -371,11 +605,11 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "837"
+                "847"
             ]
         },
-        "841": {
-            "id": "841",
+        "848": {
+            "id": "848",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -395,12 +629,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "838"
+                "848"
             ],
             "outgoing": []
         },
-        "839": {
-            "id": "839",
+        "846": {
+            "id": "846",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -420,14 +654,14 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "837"
+                "847"
             ],
             "outgoing": [
-                "838"
+                "848"
             ]
         },
-        "837": {
-            "id": "837",
+        "844": {
+            "id": "844",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": true,
@@ -447,14 +681,14 @@
             "mentions": 3,
             "color": "#06b67eaa",
             "incoming": [
-                "780",
-                "787",
-                "788"
+                "790",
+                "797",
+                "798"
             ],
             "outgoing": []
         },
-        "838": {
-            "id": "838",
+        "845": {
+            "id": "845",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -474,12 +708,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "836"
+                "846"
             ],
             "outgoing": []
         },
-        "835": {
-            "id": "835",
+        "842": {
+            "id": "842",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -499,15 +733,15 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "834"
+                "844"
             ],
             "outgoing": [
-                "835",
-                "836"
+                "845",
+                "846"
             ]
         },
-        "836": {
-            "id": "836",
+        "843": {
+            "id": "843",
             "type": "E28 Conceptual Object",
             "short_type": "E28",
             "virtual": false,
@@ -527,14 +761,14 @@
             "mentions": 1,
             "color": "#06b67eaa",
             "incoming": [
-                "835"
+                "845"
             ],
             "outgoing": [
-                "780"
+                "790"
             ]
         },
-        "834": {
-            "id": "834",
+        "841": {
+            "id": "841",
             "type": "E96 Purchase",
             "short_type": "E96",
             "virtual": true,
@@ -555,11 +789,11 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "834"
+                "844"
             ]
         },
-        "832": {
-            "id": "832",
+        "839": {
+            "id": "839",
             "type": "E96 Purchase",
             "short_type": "E96",
             "virtual": true,
@@ -580,12 +814,12 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "832",
-                "833"
+                "842",
+                "843"
             ]
         },
-        "831": {
-            "id": "831",
+        "838": {
+            "id": "838",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -605,14 +839,14 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "832"
+                "842"
             ],
             "outgoing": [
-                "831"
+                "841"
             ]
         },
-        "829": {
-            "id": "829",
+        "836": {
+            "id": "836",
             "type": "E21 Person",
             "short_type": "E21",
             "virtual": false,
@@ -632,12 +866,12 @@
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "830"
+                "840"
             ],
             "outgoing": []
         },
-        "830": {
-            "id": "830",
+        "837": {
+            "id": "837",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -657,12 +891,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "831"
+                "841"
             ],
             "outgoing": []
         },
-        "828": {
-            "id": "828",
+        "835": {
+            "id": "835",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -682,12 +916,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "829"
+                "839"
             ],
             "outgoing": []
         },
-        "826": {
-            "id": "826",
+        "833": {
+            "id": "833",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -707,15 +941,15 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "827"
+                "837"
             ],
             "outgoing": [
-                "828",
-                "829"
+                "838",
+                "839"
             ]
         },
-        "827": {
-            "id": "827",
+        "834": {
+            "id": "834",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -735,12 +969,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "828"
+                "838"
             ],
             "outgoing": []
         },
-        "825": {
-            "id": "825",
+        "832": {
+            "id": "832",
             "type": "E96 Purchase",
             "short_type": "E96",
             "virtual": false,
@@ -761,12 +995,12 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "827",
-                "830"
+                "837",
+                "840"
             ]
         },
-        "823": {
-            "id": "823",
+        "830": {
+            "id": "830",
             "type": "E87 Curation Activity",
             "short_type": "E87",
             "virtual": false,
@@ -787,11 +1021,11 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "826"
+                "836"
             ]
         },
-        "824": {
-            "id": "824",
+        "831": {
+            "id": "831",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
@@ -811,12 +1045,12 @@
             "mentions": 1,
             "color": "#b560d4aa",
             "incoming": [
-                "794"
+                "804"
             ],
             "outgoing": []
         },
-        "822": {
-            "id": "822",
+        "829": {
+            "id": "829",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
@@ -836,13 +1070,13 @@
             "mentions": 1,
             "color": "#b560d4aa",
             "incoming": [
-                "793",
-                "826"
+                "803",
+                "836"
             ],
             "outgoing": []
         },
-        "820": {
-            "id": "820",
+        "827": {
+            "id": "827",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
@@ -863,16 +1097,16 @@
             "color": "#b560d4aa",
             "incoming": [],
             "outgoing": [
-                "793",
-                "794",
-                "825",
-                "846",
-                "850",
-                "854"
+                "803",
+                "804",
+                "835",
+                "856",
+                "860",
+                "864"
             ]
         },
-        "821": {
-            "id": "821",
+        "828": {
+            "id": "828",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
@@ -892,12 +1126,12 @@
             "mentions": 1,
             "color": "#b560d4aa",
             "incoming": [
-                "825"
+                "835"
             ],
             "outgoing": []
         },
-        "819": {
-            "id": "819",
+        "826": {
+            "id": "826",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -917,12 +1151,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "824"
+                "834"
             ],
             "outgoing": []
         },
-        "818": {
-            "id": "818",
+        "825": {
+            "id": "825",
             "type": "E74 Group",
             "short_type": "E74",
             "virtual": false,
@@ -942,14 +1176,14 @@
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "823"
+                "833"
             ],
             "outgoing": [
-                "824"
+                "834"
             ]
         },
-        "815": {
-            "id": "815",
+        "822": {
+            "id": "822",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -969,12 +1203,12 @@
             "mentions": 1,
             "color": "#50c4c2aa",
             "incoming": [
-                "821"
+                "831"
             ],
             "outgoing": []
         },
-        "816": {
-            "id": "816",
+        "823": {
+            "id": "823",
             "type": "E41 Appellation",
             "short_type": "E41",
             "virtual": false,
@@ -994,15 +1228,15 @@
             "mentions": 1,
             "color": "#debb9b",
             "incoming": [
-                "822"
+                "832"
             ],
             "outgoing": [
-                "779",
-                "821"
+                "789",
+                "831"
             ]
         },
-        "814": {
-            "id": "814",
+        "821": {
+            "id": "821",
             "type": "E21 Person",
             "short_type": "E21",
             "virtual": false,
@@ -1022,14 +1256,14 @@
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "820"
+                "830"
             ],
             "outgoing": [
-                "822"
+                "832"
             ]
         },
-        "812": {
-            "id": "812",
+        "819": {
+            "id": "819",
             "type": "E85 Joining",
             "short_type": "E85",
             "virtual": false,
@@ -1050,39 +1284,14 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "778",
-                "815",
-                "820",
-                "823"
+                "788",
+                "825",
+                "830",
+                "833"
             ]
         },
-        "860": {
-            "id": "860",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Göttingen",
-            "search_string": "göttingen",
-            "begin": 3003,
-            "end": 3012,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 12,
-            "txt_id": "Geo_1890",
-            "line_idx": 56,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#fc7715aa",
-            "incoming": [
-                "849"
-            ],
-            "outgoing": []
-        },
-        "810": {
-            "id": "810",
+        "817": {
+            "id": "817",
             "type": "E86 Leaving",
             "short_type": "E86",
             "virtual": false,
@@ -1103,14 +1312,14 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "777",
-                "814",
-                "817",
-                "819"
+                "787",
+                "824",
+                "827",
+                "829"
             ]
         },
-        "808": {
-            "id": "808",
+        "815": {
+            "id": "815",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -1130,12 +1339,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "818"
+                "828"
             ],
             "outgoing": []
         },
-        "809": {
-            "id": "809",
+        "816": {
+            "id": "816",
             "type": "E74 Group",
             "short_type": "E74",
             "virtual": false,
@@ -1155,42 +1364,14 @@
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "819"
+                "829"
             ],
             "outgoing": [
-                "818"
+                "828"
             ]
         },
-        "873": {
-            "id": "873",
-            "type": "E31 Document",
-            "short_type": "E31",
-            "virtual": false,
-            "text": "Inauguraldissertation",
-            "search_string": "inauguraldissertation",
-            "begin": 3308,
-            "end": 3329,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 18,
-            "txt_id": "Geo_1890",
-            "line_idx": 62,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#d3d3d3",
-            "incoming": [
-                "861"
-            ],
-            "outgoing": [
-                "786",
-                "862"
-            ]
-        },
-        "807": {
-            "id": "807",
+        "814": {
+            "id": "814",
             "type": "E21 Person",
             "short_type": "E21",
             "virtual": false,
@@ -1210,15 +1391,15 @@
             "mentions": 2,
             "color": "#3b95c4aa",
             "incoming": [
-                "817",
-                "833"
+                "827",
+                "843"
             ],
             "outgoing": [
-                "816"
+                "826"
             ]
         },
-        "806": {
-            "id": "806",
+        "813": {
+            "id": "813",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": true,
@@ -1238,16 +1419,16 @@
             "mentions": 5,
             "color": "#06b67eaa",
             "incoming": [
-                "776",
-                "777",
-                "778",
-                "779",
-                "791"
+                "786",
+                "787",
+                "788",
+                "789",
+                "801"
             ],
             "outgoing": []
         },
-        "805": {
-            "id": "805",
+        "812": {
+            "id": "812",
             "type": "E41 Appellation",
             "short_type": "E41",
             "virtual": false,
@@ -1267,14 +1448,14 @@
             "mentions": 1,
             "color": "#debb9b",
             "incoming": [
-                "816"
+                "826"
             ],
             "outgoing": [
-                "776"
+                "786"
             ]
         },
-        "803": {
-            "id": "803",
+        "810": {
+            "id": "810",
             "type": "E57 Material",
             "short_type": "E57",
             "virtual": false,
@@ -1294,39 +1475,40 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "813"
+                "823"
             ],
             "outgoing": []
         },
-        "862": {
-            "id": "862",
-            "type": "E21 Person",
-            "short_type": "E21",
+        "880": {
+            "id": "880",
+            "type": "E31 Document",
+            "short_type": "E31",
             "virtual": false,
-            "text": "Professor Schlüter",
-            "search_string": "professorschlüter",
-            "begin": 3043,
-            "end": 3062,
+            "text": "Inauguraldissertation",
+            "search_string": "inauguraldissertation",
+            "begin": 3308,
+            "end": 3329,
             "page": 122,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 12,
+            "line": 18,
             "txt_id": "Geo_1890",
-            "line_idx": 56,
+            "line_idx": 62,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
-            "color": "#3b95c4aa",
+            "color": "#d3d3d3",
             "incoming": [
-                "852"
+                "871"
             ],
             "outgoing": [
-                "853"
+                "796",
+                "872"
             ]
         },
-        "804": {
-            "id": "804",
+        "811": {
+            "id": "811",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -1346,14 +1528,14 @@
             "mentions": 1,
             "color": "#50c4c2aa",
             "incoming": [
-                "792",
-                "814",
-                "815"
+                "802",
+                "824",
+                "825"
             ],
             "outgoing": []
         },
-        "802": {
-            "id": "802",
+        "809": {
+            "id": "809",
             "type": "E57 Material",
             "short_type": "E57",
             "virtual": false,
@@ -1373,40 +1555,14 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "812"
+                "822"
             ],
             "outgoing": [
-                "813"
+                "823"
             ]
         },
-        "861": {
-            "id": "861",
-            "type": "E78 Curated Holding",
-            "short_type": "E78",
-            "virtual": false,
-            "text": "cretaceische Echiniden",
-            "search_string": "cretaceischeechiniden",
-            "begin": 3014,
-            "end": 3036,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 12,
-            "txt_id": "Geo_1890",
-            "line_idx": 56,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#b560d4aa",
-            "incoming": [
-                "850",
-                "851"
-            ],
-            "outgoing": []
-        },
-        "800": {
-            "id": "800",
+        "807": {
+            "id": "807",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -1426,15 +1582,15 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "810"
+                "820"
             ],
             "outgoing": [
-                "811",
-                "812"
+                "821",
+                "822"
             ]
         },
-        "801": {
-            "id": "801",
+        "808": {
+            "id": "808",
             "type": "E57 Material",
             "short_type": "E57",
             "virtual": false,
@@ -1454,39 +1610,12 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "811"
+                "821"
             ],
             "outgoing": []
         },
-        "881": {
-            "id": "881",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Studenten",
-            "search_string": "studenten",
-            "begin": 3411,
-            "end": 3420,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 19,
-            "txt_id": "Geo_1890",
-            "line_idx": 63,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [
-                "795"
-            ],
-            "outgoing": [
-                "865"
-            ]
-        },
-        "799": {
-            "id": "799",
+        "806": {
+            "id": "806",
             "type": "E20 Biological Object",
             "short_type": "E20",
             "virtual": false,
@@ -1506,37 +1635,12 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "809"
+                "819"
             ],
             "outgoing": []
         },
-        "863": {
-            "id": "863",
-            "type": "E53 Place",
-            "short_type": "E53",
-            "virtual": false,
-            "text": "Bonn",
-            "search_string": "bonn",
-            "begin": 3066,
-            "end": 3070,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 13,
-            "txt_id": "Geo_1890",
-            "line_idx": 57,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#fc7715aa",
-            "incoming": [
-                "853"
-            ],
-            "outgoing": []
-        },
-        "797": {
-            "id": "797",
+        "804": {
+            "id": "804",
             "type": "E20 Biological Object",
             "short_type": "E20",
             "virtual": false,
@@ -1556,37 +1660,41 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "807"
+                "817"
             ],
             "outgoing": []
         },
-        "866": {
-            "id": "866",
-            "type": "E53 Place",
-            "short_type": "E53",
+        "882": {
+            "id": "882",
+            "type": "E19 Physical Object",
+            "short_type": "E19",
             "virtual": false,
-            "text": "Berlin",
-            "search_string": "berlin",
-            "begin": 3117,
-            "end": 3123,
+            "text": "Crustaceen",
+            "search_string": "crustaceen",
+            "begin": 3339,
+            "end": 3349,
             "page": 122,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 14,
+            "line": 18,
             "txt_id": "Geo_1890",
-            "line_idx": 58,
+            "line_idx": 62,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
-            "color": "#fc7715aa",
+            "color": "#5a50c4aa",
             "incoming": [
-                "857"
+                "872"
             ],
-            "outgoing": []
+            "outgoing": [
+                "797",
+                "873",
+                "874"
+            ]
         },
-        "798": {
-            "id": "798",
+        "805": {
+            "id": "805",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -1606,39 +1714,39 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "808"
+                "818"
             ],
             "outgoing": [
-                "809"
+                "819"
             ]
         },
-        "867": {
-            "id": "867",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "5",
-            "search_string": "5",
-            "begin": 3200,
-            "end": 3201,
-            "page": 122,
+        "881": {
+            "id": "881",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Publication",
+            "search_string": "publication",
+            "begin": null,
+            "end": null,
+            "page": -1,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 16,
+            "line": -1,
             "txt_id": "Geo_1890",
-            "line_idx": 60,
+            "line_idx": 0,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
-            "color": "#50c4c2aa",
+            "color": "#06b67eaa",
             "incoming": [
-                "858"
+                "796"
             ],
             "outgoing": []
         },
-        "796": {
-            "id": "796",
+        "803": {
+            "id": "803",
             "type": "E19 Physical Object",
             "short_type": "E19",
             "virtual": false,
@@ -1658,42 +1766,43 @@
             "mentions": 1,
             "color": "#5a50c4aa",
             "incoming": [
-                "806"
+                "816"
             ],
             "outgoing": [
-                "805",
-                "807"
+                "815",
+                "817"
             ]
         },
-        "859": {
-            "id": "859",
+        "878": {
+            "id": "878",
             "type": "E21 Person",
             "short_type": "E21",
             "virtual": false,
-            "text": "Professor von Könen",
-            "search_string": "professorvonkönen",
-            "begin": 2979,
-            "end": 2999,
+            "text": "einer",
+            "search_string": "einer",
+            "begin": 3282,
+            "end": 3287,
             "page": 122,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 11,
+            "line": 17,
             "txt_id": "Geo_1890",
-            "line_idx": 55,
+            "line_idx": 61,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
             "color": "#3b95c4aa",
             "incoming": [
-                "848"
+                "870"
             ],
             "outgoing": [
-                "849"
+                "795",
+                "871"
             ]
         },
-        "794": {
-            "id": "794",
+        "801": {
+            "id": "801",
             "type": "E3 Condition State",
             "short_type": "E3",
             "virtual": false,
@@ -1713,12 +1822,12 @@
             "mentions": 1,
             "color": "#50c4c2aa",
             "incoming": [
-                "804"
+                "814"
             ],
             "outgoing": []
         },
-        "795": {
-            "id": "795",
+        "802": {
+            "id": "802",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -1738,143 +1847,37 @@
             "mentions": 1,
             "color": "#50c4c2aa",
             "incoming": [
-                "805"
+                "815"
             ],
             "outgoing": []
         },
-        "864": {
-            "id": "864",
-            "type": "E78 Curated Holding",
-            "short_type": "E78",
-            "virtual": false,
-            "text": "liassische Ammoniten",
-            "search_string": "liassischeammoniten",
-            "begin": 3072,
-            "end": 3092,
-            "page": 122,
+        "879": {
+            "id": "879",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Author",
+            "search_string": "author",
+            "begin": null,
+            "end": null,
+            "page": -1,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 13,
+            "line": -1,
             "txt_id": "Geo_1890",
-            "line_idx": 57,
+            "line_idx": 0,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
-            "color": "#b560d4aa",
+            "color": "#06b67eaa",
             "incoming": [
-                "854",
-                "855"
+                "795"
             ],
             "outgoing": []
         },
-        "793": {
-            "id": "793",
-            "type": "E19 Physical Object",
-            "short_type": "E19",
-            "virtual": false,
-            "text": "Hochvitrinen",
-            "search_string": "hochvitrinen",
-            "begin": 860,
-            "end": 872,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 16,
-            "txt_id": "Geo_1890",
-            "line_idx": 17,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#5a50c4aa",
-            "incoming": [
-                "803"
-            ],
-            "outgoing": [
-                "804"
-            ]
-        },
-        "791": {
-            "id": "791",
-            "type": "E19 Physical Object",
-            "short_type": "E19",
-            "virtual": false,
-            "text": "Flachvitrinen",
-            "search_string": "flachvitrinen",
-            "begin": 808,
-            "end": 821,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 15,
-            "txt_id": "Geo_1890",
-            "line_idx": 16,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#5a50c4aa",
-            "incoming": [
-                "801"
-            ],
-            "outgoing": [
-                "800",
-                "802"
-            ]
-        },
-        "792": {
-            "id": "792",
-            "type": "E3 Condition State",
-            "short_type": "E3",
-            "virtual": false,
-            "text": "botanisch-systematisch",
-            "search_string": "botanischsystematisch",
-            "begin": 827,
-            "end": 849,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 15,
-            "txt_id": "Geo_1890",
-            "line_idx": 16,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "802"
-            ],
-            "outgoing": []
-        },
-        "790": {
-            "id": "790",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "4",
-            "search_string": "4",
-            "begin": 798,
-            "end": 799,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 15,
-            "txt_id": "Geo_1890",
-            "line_idx": 16,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "800"
-            ],
-            "outgoing": []
-        },
-        "869": {
-            "id": "869",
+        "876": {
+            "id": "876",
             "type": "E7 Activity",
             "short_type": "E7",
             "virtual": false,
@@ -1895,12 +1898,172 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "784",
-                "859"
+                "794",
+                "869"
             ]
         },
-        "788": {
-            "id": "788",
+        "800": {
+            "id": "800",
+            "type": "E19 Physical Object",
+            "short_type": "E19",
+            "virtual": false,
+            "text": "Hochvitrinen",
+            "search_string": "hochvitrinen",
+            "begin": 860,
+            "end": 872,
+            "page": 121,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 16,
+            "txt_id": "Geo_1890",
+            "line_idx": 17,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#5a50c4aa",
+            "incoming": [
+                "813"
+            ],
+            "outgoing": [
+                "814"
+            ]
+        },
+        "798": {
+            "id": "798",
+            "type": "E19 Physical Object",
+            "short_type": "E19",
+            "virtual": false,
+            "text": "Flachvitrinen",
+            "search_string": "flachvitrinen",
+            "begin": 808,
+            "end": 821,
+            "page": 121,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 15,
+            "txt_id": "Geo_1890",
+            "line_idx": 16,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#5a50c4aa",
+            "incoming": [
+                "811"
+            ],
+            "outgoing": [
+                "810",
+                "812"
+            ]
+        },
+        "799": {
+            "id": "799",
+            "type": "E3 Condition State",
+            "short_type": "E3",
+            "virtual": false,
+            "text": "botanisch-systematisch",
+            "search_string": "botanischsystematisch",
+            "begin": 827,
+            "end": 849,
+            "page": 121,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 15,
+            "txt_id": "Geo_1890",
+            "line_idx": 16,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "812"
+            ],
+            "outgoing": []
+        },
+        "875": {
+            "id": "875",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Praktikanten",
+            "search_string": "praktikanten",
+            "begin": 3202,
+            "end": 3214,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 16,
+            "txt_id": "Geo_1890",
+            "line_idx": 60,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [
+                "869"
+            ],
+            "outgoing": [
+                "868",
+                "870"
+            ]
+        },
+        "797": {
+            "id": "797",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "4",
+            "search_string": "4",
+            "begin": 798,
+            "end": 799,
+            "page": 121,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 15,
+            "txt_id": "Geo_1890",
+            "line_idx": 16,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "810"
+            ],
+            "outgoing": []
+        },
+        "884": {
+            "id": "884",
+            "type": "E28 Conceptual Object",
+            "short_type": "E28",
+            "virtual": false,
+            "text": "Crustaceen",
+            "search_string": "crustaceen",
+            "begin": 3339,
+            "end": 3349,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 18,
+            "txt_id": "Geo_1890",
+            "line_idx": 62,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#06b67eaa",
+            "incoming": [
+                "873"
+            ],
+            "outgoing": [
+                "798"
+            ]
+        },
+        "795": {
+            "id": "795",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
@@ -1920,44 +2083,43 @@
             "mentions": 1,
             "color": "#b560d4aa",
             "incoming": [
-                "799"
+                "809"
             ],
             "outgoing": [
-                "801",
-                "803",
-                "806",
-                "808",
-                "810"
+                "811",
+                "813",
+                "816",
+                "818",
+                "820"
             ]
         },
-        "858": {
-            "id": "858",
-            "type": "E78 Curated Holding",
-            "short_type": "E78",
+        "874": {
+            "id": "874",
+            "type": "E54 Dimension",
+            "short_type": "E54",
             "virtual": false,
-            "text": "tertiäre Gastropoden",
-            "search_string": "tertiäregastropoden",
-            "begin": 2952,
-            "end": 2972,
+            "text": "5",
+            "search_string": "5",
+            "begin": 3200,
+            "end": 3201,
             "page": 122,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 11,
+            "line": 16,
             "txt_id": "Geo_1890",
-            "line_idx": 55,
+            "line_idx": 60,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
-            "color": "#b560d4aa",
+            "color": "#50c4c2aa",
             "incoming": [
-                "846",
-                "847"
+                "868"
             ],
             "outgoing": []
         },
-        "789": {
-            "id": "789",
+        "796": {
+            "id": "796",
             "type": "E63 Beginning of Existence",
             "short_type": "E63",
             "virtual": false,
@@ -1978,40 +2140,12 @@
             "color": "#50c4c2aa",
             "incoming": [],
             "outgoing": [
-                "792",
-                "799"
+                "802",
+                "809"
             ]
         },
-        "868": {
-            "id": "868",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Praktikanten",
-            "search_string": "praktikanten",
-            "begin": 3202,
-            "end": 3214,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 16,
-            "txt_id": "Geo_1890",
-            "line_idx": 60,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [
-                "859"
-            ],
-            "outgoing": [
-                "858",
-                "860"
-            ]
-        },
-        "787": {
-            "id": "787",
+        "794": {
+            "id": "794",
             "type": "E87 Curation Activity",
             "short_type": "E87",
             "virtual": false,
@@ -2032,172 +2166,11 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "798"
+                "808"
             ]
         },
-        "871": {
-            "id": "871",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "einer",
-            "search_string": "einer",
-            "begin": 3282,
-            "end": 3287,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 17,
-            "txt_id": "Geo_1890",
-            "line_idx": 61,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [
-                "860"
-            ],
-            "outgoing": [
-                "785",
-                "861"
-            ]
-        },
-        "872": {
-            "id": "872",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Author",
-            "search_string": "author",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": -1,
-            "txt_id": "Geo_1890",
-            "line_idx": 0,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#06b67eaa",
-            "incoming": [
-                "785"
-            ],
-            "outgoing": []
-        },
-        "784": {
-            "id": "784",
-            "type": "E78 Curated Holding",
-            "short_type": "E78",
-            "virtual": false,
-            "text": "Schausammlung",
-            "search_string": "schausammlung",
-            "begin": 122,
-            "end": 135,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 4,
-            "txt_id": "Geo_1890",
-            "line_idx": 5,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#b560d4aa",
-            "incoming": [
-                "796",
-                "797",
-                "798"
-            ],
-            "outgoing": []
-        },
-        "875": {
-            "id": "875",
-            "type": "E19 Physical Object",
-            "short_type": "E19",
-            "virtual": false,
-            "text": "Crustaceen",
-            "search_string": "crustaceen",
-            "begin": 3339,
-            "end": 3349,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 18,
-            "txt_id": "Geo_1890",
-            "line_idx": 62,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#5a50c4aa",
-            "incoming": [
-                "862"
-            ],
-            "outgoing": [
-                "787",
-                "863",
-                "864"
-            ]
-        },
-        "874": {
-            "id": "874",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Publication",
-            "search_string": "publication",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": -1,
-            "txt_id": "Geo_1890",
-            "line_idx": 0,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#06b67eaa",
-            "incoming": [
-                "786"
-            ],
-            "outgoing": []
-        },
-        "877": {
-            "id": "877",
-            "type": "E28 Conceptual Object",
-            "short_type": "E28",
-            "virtual": false,
-            "text": "Crustaceen",
-            "search_string": "crustaceen",
-            "begin": 3339,
-            "end": 3349,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 18,
-            "txt_id": "Geo_1890",
-            "line_idx": 62,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#06b67eaa",
-            "incoming": [
-                "863"
-            ],
-            "outgoing": [
-                "788"
-            ]
-        },
-        "879": {
-            "id": "879",
+        "886": {
+            "id": "886",
             "type": "E53 Place",
             "short_type": "E53",
             "virtual": false,
@@ -2217,62 +2190,12 @@
             "mentions": 1,
             "color": "#fc7715aa",
             "incoming": [
-                "864"
+                "874"
             ],
             "outgoing": []
         },
-        "785": {
-            "id": "785",
-            "type": "E87 Curation Activity",
-            "short_type": "E87",
-            "virtual": false,
-            "text": "Revision der Bestimmungen und Etiquetten",
-            "search_string": "revisionderbestimmungenundetiquetten",
-            "begin": 212,
-            "end": 253,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 5,
-            "txt_id": "Geo_1890",
-            "line_idx": 6,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#fc3915aa",
-            "incoming": [],
-            "outgoing": [
-                "796"
-            ]
-        },
-        "786": {
-            "id": "786",
-            "type": "E87 Curation Activity",
-            "short_type": "E87",
-            "virtual": false,
-            "text": "Einfügung einzelner Stücke",
-            "search_string": "einfügungeinzelnerstücke",
-            "begin": 259,
-            "end": 285,
-            "page": 121,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 6,
-            "txt_id": "Geo_1890",
-            "line_idx": 7,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#fc3915aa",
-            "incoming": [],
-            "outgoing": [
-                "797"
-            ]
-        },
-        "880": {
-            "id": "880",
+        "887": {
+            "id": "887",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -2292,12 +2215,12 @@
             "mentions": 1,
             "color": "#50c4c2aa",
             "incoming": [
-                "865"
+                "875"
             ],
             "outgoing": []
         },
-        "882": {
-            "id": "882",
+        "889": {
+            "id": "889",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
@@ -2317,142 +2240,66 @@
             "mentions": 1,
             "color": "#b560d4aa",
             "incoming": [
-                "866"
+                "876"
             ],
             "outgoing": []
         },
-        "865": {
-            "id": "865",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Dr. Denckmann",
-            "search_string": "dr.denckmann",
-            "begin": 3099,
-            "end": 3113,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 13,
-            "txt_id": "Geo_1890",
-            "line_idx": 57,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [
-                "856"
-            ],
-            "outgoing": [
-                "857"
-            ]
-        },
-        "889": {
-            "id": "889",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Direktor",
-            "search_string": "direktor",
-            "begin": 3708,
-            "end": 3716,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 26,
-            "txt_id": "Geo_1890",
-            "line_idx": 70,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#debb9b",
-            "incoming": [
-                "868"
-            ],
-            "outgoing": [
-                "791"
-            ]
-        },
-        "885": {
-            "id": "885",
+        "791": {
+            "id": "791",
             "type": "E78 Curated Holding",
             "short_type": "E78",
             "virtual": false,
-            "text": "Bibliothek",
-            "search_string": "bibliothek",
-            "begin": 3514,
-            "end": 3524,
-            "page": 122,
+            "text": "Schausammlung",
+            "search_string": "schausammlung",
+            "begin": 122,
+            "end": 135,
+            "page": 121,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 21,
+            "line": 4,
             "txt_id": "Geo_1890",
-            "line_idx": 65,
+            "line_idx": 5,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
             "color": "#b560d4aa",
             "incoming": [
-                "867"
+                "806",
+                "807",
+                "808"
             ],
             "outgoing": []
         },
-        "886": {
-            "id": "886",
-            "type": "E87 Curation Activity",
-            "short_type": "E87",
+        "888": {
+            "id": "888",
+            "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
-            "text": "vollständig geordnet",
-            "search_string": "vollständiggeordnet",
-            "begin": 3525,
-            "end": 3545,
+            "text": "Studenten",
+            "search_string": "studenten",
+            "begin": 3411,
+            "end": 3420,
             "page": 122,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 21,
+            "line": 19,
             "txt_id": "Geo_1890",
-            "line_idx": 65,
-            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#fc3915aa",
-            "incoming": [],
-            "outgoing": [
-                "867"
-            ]
-        },
-        "887": {
-            "id": "887",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Professor Dr. Beyrich",
-            "search_string": "professordr.beyrich",
-            "begin": 3684,
-            "end": 3705,
-            "page": 122,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 25,
-            "txt_id": "Geo_1890",
-            "line_idx": 69,
+            "line_idx": 63,
             "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
             "year": 1890,
             "mentions": 1,
             "color": "#3b95c4aa",
-            "incoming": [],
+            "incoming": [
+                "805"
+            ],
             "outgoing": [
-                "790",
-                "868"
+                "875"
             ]
         },
-        "883": {
-            "id": "883",
+        "890": {
+            "id": "890",
             "type": "E7 Activity",
             "short_type": "E7",
             "virtual": false,
@@ -2473,13 +2320,166 @@
             "color": "#fc3915aa",
             "incoming": [],
             "outgoing": [
-                "789",
-                "795",
-                "866"
+                "799",
+                "805",
+                "876"
             ]
         },
-        "888": {
-            "id": "888",
+        "892": {
+            "id": "892",
+            "type": "E78 Curated Holding",
+            "short_type": "E78",
+            "virtual": false,
+            "text": "Bibliothek",
+            "search_string": "bibliothek",
+            "begin": 3514,
+            "end": 3524,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 21,
+            "txt_id": "Geo_1890",
+            "line_idx": 65,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#b560d4aa",
+            "incoming": [
+                "877"
+            ],
+            "outgoing": []
+        },
+        "894": {
+            "id": "894",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Professor Dr. Beyrich",
+            "search_string": "professordr.beyrich",
+            "begin": 3684,
+            "end": 3705,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 25,
+            "txt_id": "Geo_1890",
+            "line_idx": 69,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [],
+            "outgoing": [
+                "800",
+                "878"
+            ]
+        },
+        "893": {
+            "id": "893",
+            "type": "E87 Curation Activity",
+            "short_type": "E87",
+            "virtual": false,
+            "text": "vollständig geordnet",
+            "search_string": "vollständiggeordnet",
+            "begin": 3525,
+            "end": 3545,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 21,
+            "txt_id": "Geo_1890",
+            "line_idx": 65,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc3915aa",
+            "incoming": [],
+            "outgoing": [
+                "877"
+            ]
+        },
+        "896": {
+            "id": "896",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Direktor",
+            "search_string": "direktor",
+            "begin": 3708,
+            "end": 3716,
+            "page": 122,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 26,
+            "txt_id": "Geo_1890",
+            "line_idx": 70,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#debb9b",
+            "incoming": [
+                "878"
+            ],
+            "outgoing": [
+                "801"
+            ]
+        },
+        "792": {
+            "id": "792",
+            "type": "E87 Curation Activity",
+            "short_type": "E87",
+            "virtual": false,
+            "text": "Revision der Bestimmungen und Etiquetten",
+            "search_string": "revisionderbestimmungenundetiquetten",
+            "begin": 212,
+            "end": 253,
+            "page": 121,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 5,
+            "txt_id": "Geo_1890",
+            "line_idx": 6,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc3915aa",
+            "incoming": [],
+            "outgoing": [
+                "806"
+            ]
+        },
+        "793": {
+            "id": "793",
+            "type": "E87 Curation Activity",
+            "short_type": "E87",
+            "virtual": false,
+            "text": "Einfügung einzelner Stücke",
+            "search_string": "einfügungeinzelnerstücke",
+            "begin": 259,
+            "end": 285,
+            "page": 121,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 6,
+            "txt_id": "Geo_1890",
+            "line_idx": 7,
+            "institution": "Geologisch-paläontologisches Institut und geologisch­paläontologische Sammlung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc3915aa",
+            "incoming": [],
+            "outgoing": [
+                "807"
+            ]
+        },
+        "895": {
+            "id": "895",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": true,
@@ -2499,12 +2499,12 @@
             "mentions": 1,
             "color": "#06b67eaa",
             "incoming": [
-                "790"
+                "800"
             ],
             "outgoing": []
         },
-        "891": {
-            "id": "891",
+        "898": {
+            "id": "898",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": true,
@@ -2524,677 +2524,677 @@
             "mentions": 1,
             "color": "#06b67eaa",
             "incoming": [
-                "869",
-                "870"
+                "879",
+                "880"
             ],
             "outgoing": []
         }
     },
     "Properties": {
-        "796": {
-            "id": "796",
-            "type": "P147 curated",
-            "short_type": "P147",
-            "source": "785",
-            "target": "784"
-        },
-        "797": {
-            "id": "797",
-            "type": "P147 curated",
-            "short_type": "P147",
-            "source": "786",
-            "target": "784"
-        },
-        "798": {
-            "id": "798",
-            "type": "P147 curated",
-            "short_type": "P147",
-            "source": "787",
-            "target": "784"
-        },
-        "799": {
-            "id": "799",
-            "type": "P92 brought into existence",
-            "short_type": "P92",
-            "source": "789",
-            "target": "788"
-        },
-        "800": {
-            "id": "800",
-            "type": "P43 has dimension",
-            "short_type": "P43",
-            "source": "791",
-            "target": "790"
-        },
-        "801": {
-            "id": "801",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "788",
-            "target": "791"
-        },
-        "802": {
-            "id": "802",
-            "type": "P44 has condition",
-            "short_type": "P44",
-            "source": "791",
-            "target": "792"
-        },
-        "803": {
-            "id": "803",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "788",
-            "target": "793"
-        },
-        "804": {
-            "id": "804",
-            "type": "P44 has condition",
-            "short_type": "P44",
-            "source": "793",
-            "target": "794"
-        },
-        "805": {
-            "id": "805",
-            "type": "P43 has dimension",
-            "short_type": "P43",
-            "source": "796",
-            "target": "795"
-        },
         "806": {
             "id": "806",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "788",
-            "target": "796"
+            "type": "P147 curated",
+            "short_type": "P147",
+            "source": "792",
+            "target": "791"
         },
         "807": {
             "id": "807",
-            "type": "P130 shows features of",
-            "short_type": "P130",
-            "source": "796",
-            "target": "797"
+            "type": "P147 curated",
+            "short_type": "P147",
+            "source": "793",
+            "target": "791"
         },
         "808": {
             "id": "808",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "788",
-            "target": "798"
+            "type": "P147 curated",
+            "short_type": "P147",
+            "source": "794",
+            "target": "791"
         },
         "809": {
             "id": "809",
-            "type": "P130 shows features of",
-            "short_type": "P130",
-            "source": "798",
-            "target": "799"
+            "type": "P92 brought into existence",
+            "short_type": "P92",
+            "source": "796",
+            "target": "795"
         },
         "810": {
             "id": "810",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "788",
-            "target": "800"
+            "type": "P43 has dimension",
+            "short_type": "P43",
+            "source": "798",
+            "target": "797"
         },
         "811": {
             "id": "811",
-            "type": "P45 consists of",
-            "short_type": "P45",
-            "source": "800",
-            "target": "801"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "795",
+            "target": "798"
         },
         "812": {
             "id": "812",
-            "type": "P45 consists of",
-            "short_type": "P45",
-            "source": "800",
-            "target": "802"
+            "type": "P44 has condition",
+            "short_type": "P44",
+            "source": "798",
+            "target": "799"
         },
         "813": {
             "id": "813",
-            "type": "P45 consists of",
-            "short_type": "P45",
-            "source": "802",
-            "target": "803"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "795",
+            "target": "800"
         },
         "814": {
             "id": "814",
-            "type": "P4 has time-span",
-            "short_type": "P4",
-            "source": "810",
-            "target": "804"
+            "type": "P44 has condition",
+            "short_type": "P44",
+            "source": "800",
+            "target": "801"
         },
         "815": {
             "id": "815",
-            "type": "P4 has time-span",
-            "short_type": "P4",
-            "source": "812",
-            "target": "804"
+            "type": "P43 has dimension",
+            "short_type": "P43",
+            "source": "803",
+            "target": "802"
         },
         "816": {
             "id": "816",
-            "type": "P1 is identified by",
-            "short_type": "P1",
-            "source": "807",
-            "target": "805"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "795",
+            "target": "803"
         },
         "817": {
             "id": "817",
-            "type": "P145 separated",
-            "short_type": "P145",
-            "source": "810",
-            "target": "807"
+            "type": "P130 shows features of",
+            "short_type": "P130",
+            "source": "803",
+            "target": "804"
         },
         "818": {
             "id": "818",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "809",
-            "target": "808"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "795",
+            "target": "805"
         },
         "819": {
             "id": "819",
-            "type": "P144 joined with",
-            "short_type": "P144",
-            "source": "810",
-            "target": "809"
+            "type": "P130 shows features of",
+            "short_type": "P130",
+            "source": "805",
+            "target": "806"
         },
         "820": {
             "id": "820",
-            "type": "P143 joined",
-            "short_type": "P143",
-            "source": "812",
-            "target": "814"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "795",
+            "target": "807"
         },
         "821": {
             "id": "821",
-            "type": "P4 has time-span",
-            "short_type": "P4",
-            "source": "816",
-            "target": "815"
+            "type": "P45 consists of",
+            "short_type": "P45",
+            "source": "807",
+            "target": "808"
         },
         "822": {
             "id": "822",
-            "type": "P1 is identified by",
-            "short_type": "P1",
-            "source": "814",
-            "target": "816"
+            "type": "P45 consists of",
+            "short_type": "P45",
+            "source": "807",
+            "target": "809"
         },
         "823": {
             "id": "823",
-            "type": "P146 separated from",
-            "short_type": "P146",
-            "source": "812",
-            "target": "818"
+            "type": "P45 consists of",
+            "short_type": "P45",
+            "source": "809",
+            "target": "810"
         },
         "824": {
             "id": "824",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "818",
-            "target": "819"
+            "type": "P4 has time-span",
+            "short_type": "P4",
+            "source": "817",
+            "target": "811"
         },
         "825": {
             "id": "825",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "820",
-            "target": "821"
+            "type": "P4 has time-span",
+            "short_type": "P4",
+            "source": "819",
+            "target": "811"
         },
         "826": {
             "id": "826",
-            "type": "P147 curated",
-            "short_type": "P147",
-            "source": "823",
-            "target": "822"
+            "type": "P1 is identified by",
+            "short_type": "P1",
+            "source": "814",
+            "target": "812"
         },
         "827": {
             "id": "827",
-            "type": "P24 transferred title of",
-            "short_type": "P24",
-            "source": "825",
-            "target": "826"
+            "type": "P145 separated",
+            "short_type": "P145",
+            "source": "817",
+            "target": "814"
         },
         "828": {
             "id": "828",
             "type": "P53 has former or current location",
             "short_type": "P53",
-            "source": "826",
-            "target": "827"
+            "source": "816",
+            "target": "815"
         },
         "829": {
             "id": "829",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "826",
-            "target": "828"
+            "type": "P144 joined with",
+            "short_type": "P144",
+            "source": "817",
+            "target": "816"
         },
         "830": {
             "id": "830",
-            "type": "P23 transferred title from",
-            "short_type": "P23",
-            "source": "825",
-            "target": "829"
+            "type": "P143 joined",
+            "short_type": "P143",
+            "source": "819",
+            "target": "821"
         },
         "831": {
             "id": "831",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "831",
-            "target": "830"
+            "type": "P4 has time-span",
+            "short_type": "P4",
+            "source": "823",
+            "target": "822"
         },
         "832": {
             "id": "832",
-            "type": "P24 transferred title of",
-            "short_type": "P24",
-            "source": "832",
-            "target": "831"
+            "type": "P1 is identified by",
+            "short_type": "P1",
+            "source": "821",
+            "target": "823"
         },
         "833": {
             "id": "833",
-            "type": "P23 transferred title from",
-            "short_type": "P23",
-            "source": "832",
-            "target": "807"
+            "type": "P146 separated from",
+            "short_type": "P146",
+            "source": "819",
+            "target": "825"
         },
         "834": {
             "id": "834",
-            "type": "P24 transferred title of",
-            "short_type": "P24",
-            "source": "834",
-            "target": "835"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "825",
+            "target": "826"
         },
         "835": {
             "id": "835",
-            "type": "P130 shows features of",
-            "short_type": "P130",
-            "source": "835",
-            "target": "836"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "827",
+            "target": "828"
         },
         "836": {
             "id": "836",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "835",
-            "target": "838"
+            "type": "P147 curated",
+            "short_type": "P147",
+            "source": "830",
+            "target": "829"
         },
         "837": {
             "id": "837",
             "type": "P24 transferred title of",
             "short_type": "P24",
-            "source": "840",
-            "target": "839"
+            "source": "832",
+            "target": "833"
         },
         "838": {
             "id": "838",
             "type": "P53 has former or current location",
             "short_type": "P53",
-            "source": "839",
-            "target": "841"
+            "source": "833",
+            "target": "834"
         },
         "839": {
             "id": "839",
-            "type": "P24 transferred title of",
-            "short_type": "P24",
-            "source": "845",
-            "target": "842"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "833",
+            "target": "835"
         },
         "840": {
             "id": "840",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "842",
-            "target": "843"
+            "type": "P23 transferred title from",
+            "short_type": "P23",
+            "source": "832",
+            "target": "836"
         },
         "841": {
             "id": "841",
             "type": "P53 has former or current location",
             "short_type": "P53",
-            "source": "842",
-            "target": "844"
+            "source": "838",
+            "target": "837"
         },
         "842": {
             "id": "842",
-            "type": "P23 transferred title from",
-            "short_type": "P23",
-            "source": "845",
-            "target": "846"
+            "type": "P24 transferred title of",
+            "short_type": "P24",
+            "source": "839",
+            "target": "838"
         },
         "843": {
             "id": "843",
-            "type": "P24 transferred title of",
-            "short_type": "P24",
-            "source": "849",
-            "target": "847"
+            "type": "P23 transferred title from",
+            "short_type": "P23",
+            "source": "839",
+            "target": "814"
         },
         "844": {
             "id": "844",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "847",
-            "target": "848"
+            "type": "P24 transferred title of",
+            "short_type": "P24",
+            "source": "841",
+            "target": "842"
         },
         "845": {
             "id": "845",
-            "type": "P23 transferred title from",
-            "short_type": "P23",
-            "source": "849",
-            "target": "850"
+            "type": "P130 shows features of",
+            "short_type": "P130",
+            "source": "842",
+            "target": "843"
         },
         "846": {
             "id": "846",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "820",
-            "target": "858"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "842",
+            "target": "845"
         },
         "847": {
             "id": "847",
-            "type": "P16 used specific object",
-            "short_type": "P16",
-            "source": "852",
-            "target": "858"
+            "type": "P24 transferred title of",
+            "short_type": "P24",
+            "source": "847",
+            "target": "846"
         },
         "848": {
             "id": "848",
-            "type": "P14 carried out by",
-            "short_type": "P14",
-            "source": "852",
-            "target": "859"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "846",
+            "target": "848"
         },
         "849": {
             "id": "849",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "859",
-            "target": "860"
+            "type": "P24 transferred title of",
+            "short_type": "P24",
+            "source": "852",
+            "target": "849"
         },
         "850": {
             "id": "850",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "820",
-            "target": "861"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "849",
+            "target": "850"
         },
         "851": {
             "id": "851",
-            "type": "P16 used specific object",
-            "short_type": "P16",
-            "source": "854",
-            "target": "861"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "849",
+            "target": "851"
         },
         "852": {
             "id": "852",
-            "type": "P14 carried out by",
-            "short_type": "P14",
-            "source": "854",
-            "target": "862"
+            "type": "P23 transferred title from",
+            "short_type": "P23",
+            "source": "852",
+            "target": "853"
         },
         "853": {
             "id": "853",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "862",
-            "target": "863"
+            "type": "P24 transferred title of",
+            "short_type": "P24",
+            "source": "856",
+            "target": "854"
         },
         "854": {
             "id": "854",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "820",
-            "target": "864"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "854",
+            "target": "855"
         },
         "855": {
             "id": "855",
-            "type": "P16 used specific object",
-            "short_type": "P16",
+            "type": "P23 transferred title from",
+            "short_type": "P23",
             "source": "856",
-            "target": "864"
+            "target": "857"
         },
         "856": {
             "id": "856",
-            "type": "P14 carried out by",
-            "short_type": "P14",
-            "source": "856",
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "827",
             "target": "865"
         },
         "857": {
             "id": "857",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "865",
-            "target": "866"
+            "type": "P16 used specific object",
+            "short_type": "P16",
+            "source": "859",
+            "target": "865"
         },
         "858": {
             "id": "858",
-            "type": "P43 has dimension",
-            "short_type": "P43",
-            "source": "868",
-            "target": "867"
+            "type": "P14 carried out by",
+            "short_type": "P14",
+            "source": "859",
+            "target": "866"
         },
         "859": {
             "id": "859",
-            "type": "P14 carried out by",
-            "short_type": "P14",
-            "source": "869",
-            "target": "868"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "866",
+            "target": "867"
         },
         "860": {
             "id": "860",
             "type": "P46 is composed of",
             "short_type": "P46",
-            "source": "868",
-            "target": "871"
+            "source": "827",
+            "target": "868"
         },
         "861": {
             "id": "861",
-            "type": "P94 has created",
-            "short_type": "P94",
-            "source": "871",
-            "target": "873"
+            "type": "P16 used specific object",
+            "short_type": "P16",
+            "source": "861",
+            "target": "868"
         },
         "862": {
             "id": "862",
-            "type": "P70 documents",
-            "short_type": "P70",
-            "source": "873",
-            "target": "875"
+            "type": "P14 carried out by",
+            "short_type": "P14",
+            "source": "861",
+            "target": "869"
         },
         "863": {
             "id": "863",
-            "type": "P130 shows features of",
-            "short_type": "P130",
-            "source": "875",
-            "target": "877"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "869",
+            "target": "870"
         },
         "864": {
             "id": "864",
-            "type": "P53 has former or current location",
-            "short_type": "P53",
-            "source": "875",
-            "target": "879"
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "827",
+            "target": "871"
         },
         "865": {
             "id": "865",
-            "type": "P43 has dimension",
-            "short_type": "P43",
-            "source": "881",
-            "target": "880"
+            "type": "P16 used specific object",
+            "short_type": "P16",
+            "source": "863",
+            "target": "871"
         },
         "866": {
             "id": "866",
-            "type": "P16 used specific object",
-            "short_type": "P16",
-            "source": "883",
-            "target": "882"
+            "type": "P14 carried out by",
+            "short_type": "P14",
+            "source": "863",
+            "target": "872"
         },
         "867": {
             "id": "867",
-            "type": "P147 curated",
-            "short_type": "P147",
-            "source": "886",
-            "target": "885"
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "872",
+            "target": "873"
         },
         "868": {
             "id": "868",
-            "type": "P1 is identified by",
-            "short_type": "P1",
-            "source": "887",
+            "type": "P43 has dimension",
+            "short_type": "P43",
+            "source": "875",
+            "target": "874"
+        },
+        "869": {
+            "id": "869",
+            "type": "P14 carried out by",
+            "short_type": "P14",
+            "source": "876",
+            "target": "875"
+        },
+        "870": {
+            "id": "870",
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "875",
+            "target": "878"
+        },
+        "871": {
+            "id": "871",
+            "type": "P94 has created",
+            "short_type": "P94",
+            "source": "878",
+            "target": "880"
+        },
+        "872": {
+            "id": "872",
+            "type": "P70 documents",
+            "short_type": "P70",
+            "source": "880",
+            "target": "882"
+        },
+        "873": {
+            "id": "873",
+            "type": "P130 shows features of",
+            "short_type": "P130",
+            "source": "882",
+            "target": "884"
+        },
+        "874": {
+            "id": "874",
+            "type": "P53 has former or current location",
+            "short_type": "P53",
+            "source": "882",
+            "target": "886"
+        },
+        "875": {
+            "id": "875",
+            "type": "P43 has dimension",
+            "short_type": "P43",
+            "source": "888",
+            "target": "887"
+        },
+        "876": {
+            "id": "876",
+            "type": "P16 used specific object",
+            "short_type": "P16",
+            "source": "890",
             "target": "889"
         },
-        "776": {
-            "id": "776",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "805",
-            "target": "806"
+        "877": {
+            "id": "877",
+            "type": "P147 curated",
+            "short_type": "P147",
+            "source": "893",
+            "target": "892"
         },
-        "777": {
-            "id": "777",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "810",
-            "target": "806"
-        },
-        "778": {
-            "id": "778",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "812",
-            "target": "806"
-        },
-        "779": {
-            "id": "779",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "816",
-            "target": "806"
-        },
-        "780": {
-            "id": "780",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "836",
-            "target": "837"
-        },
-        "781": {
-            "id": "781",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "852",
-            "target": "853"
-        },
-        "782": {
-            "id": "782",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "854",
-            "target": "853"
-        },
-        "783": {
-            "id": "783",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "856",
-            "target": "853"
-        },
-        "784": {
-            "id": "784",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "869",
-            "target": "853"
-        },
-        "785": {
-            "id": "785",
-            "type": "P2 has type",
-            "short_type": "P2",
-            "source": "871",
-            "target": "872"
+        "878": {
+            "id": "878",
+            "type": "P1 is identified by",
+            "short_type": "P1",
+            "source": "894",
+            "target": "896"
         },
         "786": {
             "id": "786",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "873",
-            "target": "874"
+            "source": "812",
+            "target": "813"
         },
         "787": {
             "id": "787",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "875",
-            "target": "837"
+            "source": "817",
+            "target": "813"
         },
         "788": {
             "id": "788",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "877",
-            "target": "837"
+            "source": "819",
+            "target": "813"
         },
         "789": {
             "id": "789",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "883",
-            "target": "853"
+            "source": "823",
+            "target": "813"
         },
         "790": {
             "id": "790",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "887",
-            "target": "888"
+            "source": "843",
+            "target": "844"
         },
         "791": {
             "id": "791",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "889",
-            "target": "806"
+            "source": "859",
+            "target": "860"
         },
         "792": {
             "id": "792",
-            "type": "P4 has time-span",
-            "short_type": "P4",
-            "source": "789",
-            "target": "804"
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "861",
+            "target": "860"
         },
         "793": {
             "id": "793",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "820",
-            "target": "822"
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "863",
+            "target": "860"
         },
         "794": {
             "id": "794",
-            "type": "P46 is composed of",
-            "short_type": "P46",
-            "source": "820",
-            "target": "824"
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "876",
+            "target": "860"
         },
         "795": {
             "id": "795",
-            "type": "P14 carried out by",
-            "short_type": "P14",
-            "source": "883",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "878",
+            "target": "879"
+        },
+        "796": {
+            "id": "796",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "880",
             "target": "881"
         },
-        "869": {
-            "id": "869",
+        "797": {
+            "id": "797",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "845",
-            "target": "891"
+            "source": "882",
+            "target": "844"
         },
-        "870": {
-            "id": "870",
+        "798": {
+            "id": "798",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "849",
-            "target": "891"
+            "source": "884",
+            "target": "844"
+        },
+        "799": {
+            "id": "799",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "890",
+            "target": "860"
+        },
+        "800": {
+            "id": "800",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "894",
+            "target": "895"
+        },
+        "801": {
+            "id": "801",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "896",
+            "target": "813"
+        },
+        "802": {
+            "id": "802",
+            "type": "P4 has time-span",
+            "short_type": "P4",
+            "source": "796",
+            "target": "811"
+        },
+        "803": {
+            "id": "803",
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "827",
+            "target": "829"
+        },
+        "804": {
+            "id": "804",
+            "type": "P46 is composed of",
+            "short_type": "P46",
+            "source": "827",
+            "target": "831"
+        },
+        "805": {
+            "id": "805",
+            "type": "P14 carried out by",
+            "short_type": "P14",
+            "source": "890",
+            "target": "888"
+        },
+        "879": {
+            "id": "879",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "852",
+            "target": "898"
+        },
+        "880": {
+            "id": "880",
+            "type": "P2 has type",
+            "short_type": "P2",
+            "source": "856",
+            "target": "898"
         }
     }
 }
