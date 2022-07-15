@@ -257,6 +257,10 @@ class SemanticEntity(object):
             char_begin = int(tag["begin"])
             char_end = int(tag["end"])
             
+            if char_begin == char_end:
+                print(f"INVALID ENTITY {self.year}: {char_begin}-{char_end} ({corrector.text[corrector.offset(char_begin-8):corrector.offset(char_end+8)]})")
+                exit()
+            
             if tag.has_attr("Postprocessing"):
                 virtual_from_source = parse_postprocessing(tag['Postprocessing'], self, anchors, corrector)
                 

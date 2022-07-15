@@ -46,7 +46,7 @@ def postprocessing(entities, properties, corrector):
                         acquisition.outgoing.append(p)
                         p.source = acquisition    
                 
-                if p53:
+                elif p53:
                     artefact = SemanticEntity({'SemanticClass':'E19 Physical Object','string':'(implicit) Object'}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=e)
                     SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=artefact, year=e.year, institution=e.institution)
                 
@@ -160,7 +160,12 @@ def split_large_acquisitions(entities, properties, corrector):
         for pp in old.incoming:
             if pp.short_type not in exclude:
                 SemanticProperty({"SemanticProperty":pp.type}, virtual=True, source=pp.source, target=new, year=old.year, institution=old.institution)
-        
+    
+    def change_source(prop, old, new):
+        new.outgoing.append(p)
+        prop.source = new
+        old.outgoing.remove(prop)
+    
     assert not SemanticProperty.virtuals and not SemanticEntity.virtuals
     for e in entities:
         if e.short_type in ("E8","E96"):
@@ -186,18 +191,17 @@ def split_large_acquisitions(entities, properties, corrector):
                     else:
                         copy_properties(e, acquisition, exclude=("P23",))
                     
-                    acquisition.outgoing.append(p)
-                    p.source = acquisition
-                    e.outgoing.remove(p)
+                    change_source(p, e, acquisition)
                     #print(f"    Generated {acquisition.id}:{str(acquisition)} from {e.id}:{str(e)}")
 
                     
             elif len(connected_givers) == 0 and len(connected_objs) == 1:
+                # potential too many places
                 connected_places = []
                 for p in connected_objs[0].target.outgoing:
                     if p.short_type == "P53": connected_places.append(p)
                 # Too many places
-                if len(connected_places) > 4:
+                if len(connected_places) > 3:
                     obj = connected_objs[0].target
                     for p in connected_places[1:]:
                         place = p.target
@@ -208,10 +212,17 @@ def split_large_acquisitions(entities, properties, corrector):
                         copy_properties(obj, new_obj, exclude=("P53","P24"))      
                         SemanticProperty({"SemanticProperty":"P24 transferred title of"}, virtual=True, source=acquisition, target=new_obj, year=e.year, institution=e.institution)
                         
-                        new_obj.outgoing.append(p)
-                        p.source = new_obj
-                        obj.outgoing.remove(p)
+                        change_source(p, obj, new_obj)
                         #print(f"    Generated {new_obj.id}:{str(new_obj)} from {obj.id}:{str(obj)}")
+                        
+            elif len(connected_givers) == 0 and len(connected_objs) > 3:
+                # too many objects
+                for p in connected_objs[1:]:
+                    acquisition = copy_entity(e, corrector)
+                    copy_properties(e, acquisition, exclude=("P24",))
+                    
+                    change_source(p, e, acquisition)
+                
     entities += SemanticEntity.virtuals
     properties += SemanticProperty.virtuals
     SemanticProperty.virtuals.clear()
@@ -274,9 +285,8 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
     
-    entities, properties = split_large_acquisitions(entities, properties, corrector)
-    
     entities, properties = postprocessing(entities, properties, corrector)
+    entities, properties = split_large_acquisitions(entities, properties, corrector)
     
     if consolidate: entities = consolidate_entities(entities) # Types and Holdings
     else: entities = set(entities)
