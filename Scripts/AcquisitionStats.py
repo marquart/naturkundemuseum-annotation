@@ -32,6 +32,15 @@ def classifyProperty(prop, neighbor):
     elif prop.short_type == "P53":  return "Location"
     return None
 
+def classifyAcquisition(e):
+    if e.short_type == "E96": return "Purchase"
+    assert e.short_type == "E8"
+    
+    for p in e.outgoing:
+        if p.short_type == "P2": return p.target.string
+    return "Unknown"
+    
+    
 def processDonations(entities, acqType):
     classes = ("Recipient","Giver","Object(s)","Dimension","Taxon","Condition State/ Condition Assessement","Modification","Location")
     result = Counter()
@@ -66,13 +75,31 @@ def processDonations(entities, acqType):
                 processed.add(obj)
             result.update(foundElements)
     acquisitions_count = len(acquisitions)
-    print(f"RESULT:\n{acquisitions_count} {acqType} Acquisitions")
+    
+    print(f"RESULT:\n    {len(entities)} Entities\n    {acquisitions_count} {acqType}Acquisitions")
+    
+    acquisitionsTypes = Counter([classifyAcquisition(e) for e in acquisitions])
+    print("\nACQUISITION TYPES:")
+    for element, count in acquisitionsTypes.most_common():
+        if count > 1: print(f"    {element:<12} | {count:<10} | {round(count/acquisitions_count*100, 1)}%")
+    
+    acquisitionsPerYear = Counter([e.year for e in acquisitions])
+    print(f"\nACQUISITIONS PER YEAR ({len(acquisitionsPerYear)} YEARS):")
+    progressChar = '□'#'░' #one character in progress bar equals 10 acquisitions
+    for year in sorted(acquisitionsPerYear.keys()):
+        count = acquisitionsPerYear[year]
+        bar = progressChar*int((count+9)/10)
+        print(f"    {year:<4} | {count:>5} | {round(count/acquisitions_count*100, 1):>5}% | {bar:<100}")
+    
+    
+    print("\nCONNECTED TYPES TO ACQUISITIONS:")
     for element, count in result.most_common():
-        print(f"{element:<60} | {count:<10} | {round(count/acquisitions_count*100, 2)}%")
+        print(f"    {element:<40} | {count:<10} | {round(count/acquisitions_count*100, 1):>5}%")
 
 if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     
     data = SemanticData(pickle_file)
+    
     processDonations(data.entities, "")
     

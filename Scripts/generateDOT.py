@@ -15,16 +15,21 @@ from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 import random, json
 
 class Node(object):
-    def __init__(self, entity=None, _id=0, label="", style="filled", fontsize=11, virtual=False):
+    def __init__(self, entity=None, _id=0, label="", style="filled", fontsize=11, virtual=False, renderYear=False):
         if isinstance(entity, SemanticEntity):
             self.entity = entity
             self.id = entity.id
-            self.label = f"{entity.type}<BR/>({entity.id})|{html.escape(entity.string)}"
             self.style = style
             self.fontsize = fontsize
             self.class_ = "entityNode"
             self.neighbor = virtual
             self.color = entity.color
+            self.renderYear = renderYear
+            
+            if renderYear and entity.year>0:
+                self.label = f"{entity.type}<BR/>({entity.id})<BR/>Year {entity.year}|{html.escape(entity.string)}"
+            else:
+                self.label = f"{entity.type}<BR/>({entity.id})|{html.escape(entity.string)}"
             
         else:
             self.entity = None
@@ -35,6 +40,7 @@ class Node(object):
             self.class_ = "entityNode"
             self.neighbor = virtual
             self.color = "#d3d3d3"
+            self.renderYear = renderYear
         
     def __str__(self):
         if self.id < 0: return f"V{self.id}".replace('-','_')
@@ -70,7 +76,7 @@ def add_virtual_node(node, arrows, virtual_nodes, neighbors=None):
     arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbours to draw"))
     virtual_nodes.append(excuse)
 
-def BFS(node, maxdepth=3):
+def BFS(node, maxdepth=3, renderYear=False):
     queue = deque([node])
     depths = {node.entity: 0}
     too_many_neighbors = {} # entity:node
@@ -99,7 +105,7 @@ def BFS(node, maxdepth=3):
                     arrows.append(Arrow(property, node, real_nodes[neighbour]))
                     processed_properties.add(property)
                 continue
-            neighbour_node = Node(neighbour)
+            neighbour_node = Node(neighbour, renderYear=renderYear)
             real_nodes[neighbour] = neighbour_node
             arrows.append(Arrow(property, node, neighbour_node))
             processed_properties.add(property)
@@ -120,7 +126,7 @@ def BFS(node, maxdepth=3):
                     processed_properties.add(property)
                 continue
             
-            neighbour_node = Node(neighbour)
+            neighbour_node = Node(neighbour, renderYear=renderYear)
             real_nodes[neighbour] = neighbour_node
             arrows.append(Arrow(property, neighbour_node, node))
             processed_properties.add(property)
@@ -131,49 +137,11 @@ def BFS(node, maxdepth=3):
     return list(real_nodes.values()) + virtual_nodes, arrows
 
 
-def traverse(node, visited, processed_properties, depth=3):
-    ''' Perform BFS recursively on the graph
-    Returns [...nodes], [...arrows]
-    '''
-    assert isinstance(node, Node)
-    if depth<0: return [],[]
-    if node.id in visited and visited[node.id]>0: return [],[]
-    visited[node.id] = depth
-    if (neighbors := len(node.entity.incoming)+len(node.entity.outgoing))>8 and depth<3:
-        excuse = Node(_id=-1*node.id, label=f"...|{neighbors} Neighbours")
-        relation = Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbours to draw")
-        return [excuse], [relation]
-    nodes = []
-    arrows = []
-    for property in node.entity.incoming:
-        if property in processed_properties: continue
-        if property.source.id in visited and visited[property.source.id]>0: continue
-        source = Node(property.source)
-        nodes.append(source)
-        arrows.append(Arrow(property, source, node))
-        processed_properties.add(property)
-        result = traverse(source, visited, processed_properties, depth=depth-1)
-        nodes += result[0]
-        arrows += result[1]
-    for property in node.entity.outgoing:
-        if property in processed_properties: continue
-        if property.target.id in visited and visited[property.target.id]>0: continue
-        target = Node(property.target)
-        nodes.append(target)
-        arrows.append(Arrow(property, node, target))
-        processed_properties.add(property)
-        result = traverse(target, visited, processed_properties, depth=depth-1)
-        nodes += result[0]
-        arrows += result[1]
-    return nodes, arrows
-
-
-def get_color(node):
-    if node.entity:
-        LOOKUP = {'E41': '#debb9b', 'E63': '#50c4c2aa', 'E74': '#3b95c4aa', 'E21': '#3b95c4aa', 'E52': '#50c4c2aa', 'E55': '#06b67eaa', 'E85': '#fc3915aa', 'E28': '#06b67eaa', 'E19': '#5a50c4aa', 'E87': '#fc3915aa', 'E78': '#b560d4aa', 'E8': '#fc3915aa', 'E53': '#fc7715aa', 'E39': '#3b95c4aa', 'E54': '#50c4c2aa', 'E20': '#5a50c4aa', 'E35': '#debb9b', 'E77': '#b560d4aa', 'E9': '#fc3915aa', 'E12': '#fc3915aa', 'E60': '#debb9b', 'E7': '#fc3915aa', 'E96': '#fc3915aa', 'E86': '#fc3915aa', 'E57': '#5a50c4aa', 'E3': '#50c4c2aa', 'E66': '#fc3915aa', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#fc3915aa', 'E14': '#fc3915aa', 'E79': '#fc3915aa'} #{'E41': '#debb9b', 'E21': '#a1c9f4', 'E52': '#fab0e4', 'E55': '#d0bbff', 'E74': '#a1c9f4', 'E63': '#fab0e4', 'E85': '#ff9f9b', 'E19': '#ffb482', 'E28': '#d0bbff', 'E8': '#ff9f9b', 'E39': '#a1c9f4', 'E78': '#b9f2f0', 'E87': '#ff9f9b', 'E53': '#8de5a1', 'E54': '#fab0e4', 'E20': '#ffb482', 'E35': '#debb9b', 'E9': '#ff9f9b', 'E77': '#b9f2f0', 'E12': '#ff9f9b', 'E60': '#debb9b', 'E7': '#ff9f9b', 'E3': '#fab0e4', 'E57': '#ffb482', 'E86': '#ff9f9b', 'E96': '#ff9f9b', 'E66': '#ff9f9b', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#ff9f9b', 'E14': '#ff9f9b', 'E79': '#ff9f9b'}#{'E41': '#8c613c', 'E55': '#956cb4', 'E74': '#4878d0', 'E63': '#dc7ec0', 'E21': '#4878d0', 'E52': '#dc7ec0', 'E85': '#d65f5f', 'E8': '#d65f5f', 'E78': '#797979', 'E87': '#d65f5f', 'E28': '#956cb4', 'E53': '#6acc64', 'E20': '#ee854a', 'E54': '#dc7ec0', 'E19': '#ee854a', 'E39': '#4878d0', 'E35': '#8c613c', 'E12': '#d65f5f', 'E77': '#797979', 'E9': '#d65f5f', 'E60': '#8c613c', 'E7': '#d65f5f', 'E96': '#d65f5f', 'E86': '#d65f5f', 'E57': '#ee854a', 'E3': '#dc7ec0', 'E66': '#d65f5f', 'E29': '#8c613c', 'E11': '#d65f5f', 'E73': '#8c613c', 'E79': '#d65f5f', 'E14': '#d65f5f'}
-        if node.entity.short_type in LOOKUP: return LOOKUP[node.entity.short_type]
-    return 'lightgrey'
-
+def needsRenderYears(root_entity):
+    """ Neighbors should display Years if the root is an E41 Appellation in Metadata
+    """
+    return root_entity.short_type == "E41" and root_entity.institution == "Metadata"
+    
 
 def count_nodes(nodes):
     return len([node for node in nodes if not node.neighbor])
@@ -181,7 +149,7 @@ def count_nodes(nodes):
 
 def build_tree(entity, depth=3):
     nodes = [Node(entity, style="rounded,filled", fontsize=11)]
-    result = BFS(nodes[0], maxdepth=depth)
+    result = BFS(nodes[0], maxdepth=depth, renderYear=needsRenderYears(entity))
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
     return count_nodes(nodes), nodes, arrows
@@ -245,6 +213,7 @@ NODES
     else: nodes, arrows = tree[0], tree[1]
     
     with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{node.color}" color="{"black" if i<1 else "white"}" fontsize="{node.fontsize}" style="{node.style}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
+    
     with_arrows = with_nodes.replace("ARROWS", '\n    '.join([str(arrow) for arrow in arrows]))
     
     #legend = "|".join(sorted(set(f"{{'{a.label}'|{a.verbose_label}}}" for a in arrows)))

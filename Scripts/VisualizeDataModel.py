@@ -4,6 +4,7 @@ from subprocess import run
 import argparse
 
 from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData
+from AcquisitionStats import validAcquisition
 
 from matplotlib.colors import to_hex
 import seaborn as sns
@@ -151,7 +152,12 @@ PROPERTIES
     with_arrows = with_properties.replace("ARROWS", '\n    '.join(f"{node_id_lookup[p[1]]} -> {prop_id_lookup[p]}\n {prop_id_lookup[p]} -> {node_id_lookup[p[2]]}" for p in properties))
    
     return with_arrows
-    
+
+
+def validEntity(e, entity_short_type):
+    if entity_short_type in ("E8","E96"): return validAcquisition(e, "")
+    return e.short_type == entity_short_type
+
 
 def build_subgraph(semantic_data, entity_short_type, savepath, filter_threshold=0.01):
     count = 0
@@ -159,12 +165,13 @@ def build_subgraph(semantic_data, entity_short_type, savepath, filter_threshold=
     properties = Counter()
     
     for entity in semantic_data.entities:
-        if entity.short_type == entity_short_type:
+        if validEntity(entity, entity_short_type):
             neighbors, neighbor_properties = BFS(entity, maxdepth=1)
             for p in neighbor_properties: properties[p] += 1
             for e in neighbors: neighbor_entities[e] += 1
             count += 1
-    
+    print(count, entity_short_type)
+
     filtered_properties = {p:c for p,c in properties.most_common() if c/count>filter_threshold}
     used_entity_type = set(pp for p in filtered_properties for pp in p[1:])
     

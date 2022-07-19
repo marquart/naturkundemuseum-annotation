@@ -1,0 +1,30 @@
+digraph Annotationen {
+    bgcolor="transparent";
+    rankdir="LR";
+
+    fontname="Roboto";
+    fontsize="11";
+    node [shape=record fontname="Roboto" fontsize="11" penwidth=1];
+    edge [fontname="sans-serif" fontsize="10" penwidth=1];
+    splines="ortho";
+    penwidth=8;
+    
+    {
+    
+    subgraph net {
+        label="GRAPHLABEL";
+        fontname="Roboto";
+        fontsize="11";
+        penwidth=1;
+        pencolor="transparent";
+        node [style="filled" color="white" class="semanticentity"]
+     
+NODES
+PROPERTIES
+
+    }
+    }
+    
+    ARROWS
+
+}

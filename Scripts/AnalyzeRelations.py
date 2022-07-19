@@ -175,10 +175,10 @@ if __name__ == "__main__":
     
     data = SemanticData(pickle_file)
     person_locations_table = build_actor_location_table(data.entities) #person_string: {..years: ..[..location_objs]}
-    collection_locations_table = build_holding_location_table(data.entities) #collection_string: {..years: ..[..location_objs]}
-    person_collection_table = build_holding_actors_table(data.entities)
+    collection_locations_table = build_holding_location_table(data.entities, table=person_locations_table) #collection_string: {..years: ..[..location_objs]}
+    #person_collection_table = build_holding_actors_table(data.entities)
     
      
-    save_table(table)
+    save_table(collection_locations_table)
     
     #

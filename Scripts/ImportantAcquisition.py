@@ -75,9 +75,6 @@ def calculateWeight(e):
                 if p.short_type in stopProperties[cursor.short_type]: continue
                 if not p.source.virtual:
                     weight += validTypes[p.source.short_type]
-                    if e.id == 29472 or e.id == 16277:
-                        print(f"    {weight} | Added {p.source.verbose()}")
-                        print(f"         <-- {p.short_type} <-- {cursor.verbose()}")
                 stack.append(p.source)
         for p in cursor.outgoing:
             if p.target in processed: continue
@@ -85,9 +82,6 @@ def calculateWeight(e):
                 if p.short_type in stopProperties[cursor.short_type]: continue
                 if not p.target.virtual:
                     weight += validTypes[p.target.short_type]
-                    if e.id == 29472 or e.id == 16277:
-                        print(f"    {weight} | Added {p.target.verbose()}")
-                        print(f"         --> {p.short_type} --> {cursor.verbose()}")
                 stack.append(p.target)
     return weight
 
@@ -111,9 +105,12 @@ if __name__ == "__main__":
             if w>9: w = 10
             weights[w] += 1
             if w>50: print(e.verbose())
+    progressChar = '□'#'░' #one character in progress bar equals 50 acquisitions
     print(f"Calculated weights for {sum(weights.values())} acquisitions:")
     for w in sorted(weights.keys()):
-        print(f"    {w:<5} weight | {weights[w]:<5} acquisitions | {round(weights[w]/sum(weights.values())*100, 1)}%")
+        count = weights[w]
+        bar = progressChar*int((count+39)/40)
+        print(f"    {w:>2} weight | {count:<5} acquisitions | {round(count/sum(weights.values())*100, 1):>4}% | {bar:<140}")
 
     
     

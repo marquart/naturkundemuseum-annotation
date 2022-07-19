@@ -13,11 +13,9 @@ from EntityURLResolver import get_URL_for_entity
 
 
 
-def postprocessing(entities, properties, corrector):
-    # Person and Place as part of Acquisition
+def modelShortcutP22(entities, properties, corrector):    # Person and Place as part of Acquisition
     # Model: Person has P22 transferred title to (via Postprocessing Field in Inception) and has P53 location
     assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
-    
     for e in entities:
         if e.short_type in ("E21","E74","E39"): # Person or Group or Actor
             p53, p22, p24 = [], None, []
@@ -60,8 +58,27 @@ def postprocessing(entities, properties, corrector):
                 p22.source = acquisition
                 
                 #print(f"\n\nADDED ACQUISITION FOR {e.verbose()}\n\n\n")
-                
+    orig_entities, orig_properties = len(entities), len(properties)
+    added_entities, added_properties = len(SemanticEntity.virtuals), len(SemanticProperty.virtuals)
     
+    entities += SemanticEntity.virtuals
+    properties += SemanticProperty.virtuals
+    
+    SemanticProperty.virtuals.clear()
+    SemanticEntity.virtuals.clear()
+    
+    assert len(entities) == orig_entities+added_entities and len(properties) == orig_properties+added_properties
+    return entities, properties
+
+
+def postprocessing(entities, properties, corrector):
+    # Person and Place as part of Acquisition
+    # Model: Person has P22 transferred title to (via Postprocessing Field in Inception) and has P53 location
+    assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
+    
+    entities, properties = modelShortcutP22(entities, properties, corrector)
+    assert len(SemanticEntity.virtuals) == 0 and len(SemanticProperty.virtuals) == 0
+
     # Donation Type
     donation = None
     for e in entities:
@@ -72,7 +89,7 @@ def postprocessing(entities, properties, corrector):
                     has_type = True
                     break
             if not has_type:
-                if donation is None: donation = SemanticEntity({'SemanticClass':'E55 Type','string':'Donation'}, corrector, virtual=True, year=e.year, institution=e.institution)
+                if donation is None: donation = SemanticEntity({'SemanticClass':'E55 Type','string':'Gift'}, corrector, virtual=True, year=e.year, institution=e.institution)
                 SemanticProperty({"SemanticProperty":"P2 has type"}, virtual=True, source=e, target=donation, year=e.year, institution=e.institution)
     
     # P128 carries --> 	P130 shows features of
@@ -146,11 +163,11 @@ def consolidate_entities(entities, verbose=False):
 
 
 def split_large_acquisitions(entities, properties, corrector):
-    def copy_entity(acq, corrector):
-        c = SemanticEntity({'SemanticClass':acq.type,'string':acq.string}, corrector, virtual=True, year=acq.year, institution=acq.institution, virtual_origin=acq)
-        c.virtual = acq.virtual
-        c.begin   = acq.begin
-        c.end     = acq.end
+    def copy_entity(orig, corrector):
+        c = SemanticEntity({'SemanticClass':orig.type,'string':orig.string}, corrector, virtual=True, year=orig.year, institution=orig.institution, virtual_origin=orig)
+        c.virtual = orig.virtual
+        c.begin   = orig.begin
+        c.end     = orig.end
         return c
         
     def copy_properties(old, new, exclude=()):
@@ -222,11 +239,14 @@ def split_large_acquisitions(entities, properties, corrector):
                     copy_properties(e, acquisition, exclude=("P24",))
                     
                     change_source(p, e, acquisition)
-                
+    
+    orig_entities, orig_properties = len(entities), len(properties)
+    added_entities, added_properties = len(SemanticEntity.virtuals), len(SemanticProperty.virtuals)
     entities += SemanticEntity.virtuals
     properties += SemanticProperty.virtuals
     SemanticProperty.virtuals.clear()
     SemanticEntity.virtuals.clear()
+    assert len(entities) == orig_entities+added_entities and len(properties) == orig_properties+added_properties
     return entities, properties
 
 
@@ -293,6 +313,17 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     
     assert len(set(e.id for e in entities)) == len(entities)
     return text, corrector.lines, entities, properties
+
+def delete_property_doublettes(container):
+    c = 0
+    for e in container.entities:
+        for p in e.outgoing:
+            for pp in e.outgoing:
+                if p is not pp and p.target is pp.target and p.short_type == pp.short_type and p.year == pp.year:
+                    c += 1
+    print(f"{c/2} PROPERTY DOUBLES")
+                    
+                
 
 
 def check_properties_connected_with_entitites(container):
@@ -488,7 +519,10 @@ def process_directory(dirpath, save=False, consolidate=True):
         
     # URLS and original Pages:
     container.entities = get_URL_for_entity(container.entities, filepath="../Data/URLS.json")
-
+    
+    # delete double properties
+    delete_property_doublettes(container)
+    
     check_properties_connected_with_entitites(container)
     
     if save and len(container.entities)>0:

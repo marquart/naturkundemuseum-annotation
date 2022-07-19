@@ -5,7 +5,7 @@ import pickle
 
 from igraph import Graph
 
-from ParseUIMAXMI import SemanticEntity, SemanticProperty
+from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 
 def clean(txt):
     return txt.replace('\r\n', ' ').replace('\n', ' ').replace('‑', '').replace('-', '')
@@ -90,7 +90,7 @@ def consolidate_entities(entities, queens):
     print(f"{len(entities)} Entities resolved to {len(result)} Entities")
     return result, queens
 
-if __name__ == "__main__":
+def buildGraphWithYearsAsGlue():
     pickle_file = "C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/ParsedSemanticAnnotations.pickle"
     data = load_pickle(pickle_file)
 
@@ -140,3 +140,23 @@ if __name__ == "__main__":
     
     g.save("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/graph.graphml", format="graphml")
     
+    
+if __name__ == "__main__":
+
+    pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
+    data = SemanticData(pickle_file)
+    entity_node_lookup = {e:i for i,e in enumerate(data.entities)}
+    
+    g = Graph(directed=True)
+    g.add_vertices(len(data.entities))
+    g.add_edges([(entity_node_lookup[p.source], entity_node_lookup[p.target]) for p in data.properties])
+    
+    
+    g.vs["Label"] = [e.short_type for e in data.entities] #+ ["E0 Metadata"]*len_glue
+    g.vs["Text"] = [e.string for e in data.entities] #+ [str(y) for y in year_node_lookup] + ins_strings
+    g.vs["Color"] = [e.color for e in data.entities]
+    
+    assert len(g.vs)==len(data.entities) and len(g.es)==len(data.properties)
+    savepath = "../Data/graph.graphml"
+    g.save(savepath, format="graphml")
+    print(f"\nBuild Graph with {len(g.vs)} nodes and {len(g.es)} edges")
