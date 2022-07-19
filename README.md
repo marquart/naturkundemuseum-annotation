@@ -3,10 +3,33 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python sowie JSON) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Expoerte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
 
+## ToDO (until End of August)
+1. Compose Docker file (with [starlette](https://github.com/tiangolo/uvicorn-gunicorn-starlette-docker))
+2. Implement Triple Search instead of single search on website, explain possibilities of our data on website
+3. Document our approach, explain Annotation-to-Website pipeline in this ReadMe
+
 ## Annotation-Layers
 1. **OCR**: OCR-Fehler-Korrektur in einem Kommentar-Feld
 2. **SemanticEntities**: Semantische Entitäten
 3. **SemanticRelationships**: Verbindungen zwischen semantischen Entitäten
+
+## Reproduction
+
+1. Install [INCEpTION](https://inception-project.github.io).
+2. Load latest Project file into INCEpTION `./Data/INCEpTION/Saved_Projects/`
+3. Annotate in INCEpTION
+4. Export Project in INCEpTION as `UIMA CAS XMI 1.1` to `./Data/INCEpTION/Saved_Projects/`
+5. If you haven't installed Python and dependencies (you need to do this only once):
+    1. Install [Python (3.10)](https://www.python.org/downloads/)
+    2. Navigate to `./Scripts/` in your command line
+    3. Install required packages (I recommend in a [virtual environment](https://docs.python.org/3/library/venv.html)) via `pip install -r requirements.txt`
+6. Execute `py UnzipInceptionSavefile.py`. Your annotated data can now be found in `./Data/INCEpTION/UIMA_CAS_XMI/` (one UIMA XMI file per year and report)
+7. Execute `py ParseUIMAXMI.py`. Your consolidated and enriched data can now be found:
+    1. As JSONs in `./Data/JSON/`
+    2. As one [pickled file](https://docs.python.org/3/library/pickle.html) in `./Data/ParsedSemanticAnnotations.pickle`
+    3. As one JSON for the website in `./website/public/webdata.json` (and one file with statistics for the website in `./website/public/class_stats.json`) 
+
+
 
 ## Annotation-Guide
 
