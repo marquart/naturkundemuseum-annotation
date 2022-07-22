@@ -23,7 +23,7 @@ Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von IN
     1. Install [Python (3.10)](https://www.python.org/downloads/)
     2. Navigate to `./Scripts/` in your command line
     3. Install required packages (I recommend in a [virtual environment](https://docs.python.org/3/library/venv.html)) via `pip install -r requirements.txt`
-6. Execute `py UnzipInceptionSavefile.py`. Your annotated data can now be found in `./Data/INCEpTION/UIMA_CAS_XMI/` (one UIMA XMI file per year and report)
+6. Execute `py UnzipInceptionSavefile.py`. Your raw annotated data can now be found in `./Data/INCEpTION/UIMA_CAS_XMI/` (one UIMA XMI file per year and report)
 7. Execute `py ParseUIMAXMI.py`. Your consolidated and enriched data can now be found:
     1. As JSONs in `./Data/JSON/`
     2. As one [pickled file](https://docs.python.org/3/library/pickle.html) in `./Data/ParsedSemanticAnnotations.pickle`
