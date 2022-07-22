@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class via the search options.</p>
-        <EntitySearcher ref="source" :classes="stats.entityClasses" @query="query"/>
+        <EntitySearcher ref="source" :classes="stats.entityClasses" :possiblePredicates="possiblePredicates" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
 
         <div v-show="loading" class="loadingMsg">
@@ -53,7 +53,8 @@ export default {
             searchClass: '',
             searchResults: [],
             lastSingleEntity: null,
-
+            possiblePredicates: null,
+            
             history: [],
             historyCursor: -1,
             maxSize: 40
@@ -83,6 +84,7 @@ export default {
             this.lastSingleEntity = null;
             this.getDataFromComponents();
             this.searchResults = Array.from(this.filterEntities());
+            this.possiblePredicates = this.findPredicates();
             this.pushHistory();
             this.loading = false;
             this.showResults= true;
@@ -108,6 +110,18 @@ export default {
                 }
                 i--;
             }
+        },
+
+        findPredicates() {
+            const foundProperties = [];
+
+            for (let i = 0; i < this.searchResults.length; i++) {
+                const element = this.searchResults[i];
+                foundProperties.push(...element.outgoingProps);
+                foundProperties.push(...element.incomingProps);
+            }
+            return new Set(foundProperties.map(p => p.type));
+
         },
 
         pushHistory() {

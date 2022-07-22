@@ -15,39 +15,59 @@
             />
         </div>
 
+        <div v-if="possiblePredicates" class="whiteBlock">
+            <p class="bttn" @click="toggleRefinedSearch">{{refinedSearchOpen ? '🡻': '🡺'}} Refine search</p>
+            <div v-show="refinedSearchOpen" id="refinedSearch">
+                <div class="searchbox minibox">
+                    <label class="floatLeft" for="selectfieldProperty">Select connected property type</label>
+                    <select id="selectfieldProperty"
+                        v-model="searchPropertyType">
+                        <option selected value=''></option>
+                        <option class="selectoption"
+                            v-for="(propType, i) in possiblePredicates"
+                            :key="i"
+                            :value="propType"
+                        >
+                            {{propType}}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
         <div v-if="classes" class="whiteBlock">
             <p class="bttn" @click="toggleAdvancedSearch">{{advancedSearchOpen ? '🡻': '🡺'}} Search options</p>
 
             <div v-show="advancedSearchOpen" id="advancedSearch">
                 <div class="searchbox smallbox">
-                <label class="floatLeft" for="selectfield">Filter semantic class:</label>
-                <select id="selectfield"
-                    v-model="searchClass">
-                    <option selected value=""></option>
-                    <option class="selectoption"
-                        v-for="(classString, i) in classes"
-                        :key="i"
-                        :value="classString.slice(0,4)"
-                    >
-                        {{classString}}
-                    </option>
-                </select>
+                    <label class="floatLeft" for="selectfield">Filter semantic class:</label>
+                    <select id="selectfield"
+                        v-model="searchClass">
+                        <option selected value=""></option>
+                        <option class="selectoption"
+                            v-for="(classString, i) in classes"
+                            :key="i"
+                            :value="classString.slice(0,4)"
+                        >
+                            {{classString}}
+                        </option>
+                    </select>
                 </div>
 
 
                 <div class="searchbox minibox">
-                <label class="floatLeft" for="selectfield">Set max results:*</label>
-                <select id="selectfieldDepth"
-                    v-model="maxSize">
-                    <option selected value=20>20</option>
-                    <option class="selectoption"
-                        v-for="i in [40,60,80,100,120,140,160,180,200]"
-                        :key="i"
-                        :value="i"
-                    >
-                        {{i}}
-                    </option>
-                </select>
+                    <label class="floatLeft" for="selectfieldDepth">Set max results:*</label>
+                    <select id="selectfieldDepth"
+                        v-model="maxSize">
+                        <option selected value=40>40</option>
+                        <option class="selectoption"
+                            v-for="i in [20,60,80,100,120,140,160,180,200]"
+                            :key="i"
+                            :value="i"
+                        >
+                            {{i}}
+                        </option>
+                    </select>
                 </div>
                 <p>* High values will negatively affect the performance on your end.</p>
             </div>
@@ -66,7 +86,8 @@ export default {
     },
 
     props: {
-        classes: Array
+        classes: Array,
+        possiblePredicates: Set // also functions as indicator if Triple Search should be possible
     },
 
     data() {
@@ -74,7 +95,10 @@ export default {
             advancedSearchOpen: false,
             searchString: '',
             searchClass:  '',
-            maxSize: 20
+            maxSize: 20,
+
+            refinedSearchOpen: false,
+            searchPropertyType: ''
         }
     },
 
@@ -90,6 +114,10 @@ export default {
         toggleAdvancedSearch() {
             this.advancedSearchOpen = !this.advancedSearchOpen;
         },
+
+        toggleRefinedSearch() {
+            this.refinedSearchOpen = !this.refinedSearchOpen;
+        }
 
     },
 }

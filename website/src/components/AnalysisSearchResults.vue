@@ -2,13 +2,13 @@
     <div class="analyzeResults">
         <h3>Search results:</h3>
         <p
-            v-for="entity in results"
-            :key="entity.id"
+            v-for="(entity,i) in results"
+            :key="i"
             class="analyzeResultsItem"
-            @click="emitID(entity.id)"
+            @click="emitClick(entity)"
 
         >
-        {{entity.text}}
+        {{entity[1]}}
         </p>
     </div>
 </template>
@@ -28,14 +28,13 @@ export default {
 
     data() {
         return {
-
         }
 
     },
 
     methods: {
-        emitID(entityID) {
-            this.$emit("showEntity", entityID);
+        emitClick(entity) {
+            this.$emit("showEntity", entity);
         }
 
 
