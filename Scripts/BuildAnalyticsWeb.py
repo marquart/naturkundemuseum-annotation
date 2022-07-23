@@ -13,7 +13,7 @@ from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 from ImportantAcquisition import calculateWeights, validAcquisition
 
 class Acquisition(object):
-    cmap = LinearSegmentedColormap.from_list(f"cmap", ("#c7df7f", "#7da30b"), N=10)
+    cmap = LinearSegmentedColormap.from_list("cmap", ("#c7df7f", "#7da30b"), N=10)
     
     def __init__(self, e, acquisitionsWeights):
         assert e.short_type in ("E8","E96")

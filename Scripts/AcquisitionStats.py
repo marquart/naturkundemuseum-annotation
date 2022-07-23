@@ -1,7 +1,20 @@
+from html import entities
 import os
 from collections import defaultdict, Counter, deque
 
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
+
+def count_lines(data):
+    complete_lines = 0
+    for txt in data.texts:
+        complete_lines += len(txt['Lines'])
+    
+    annotetdLinesPerTXT = defaultdict(set)
+    for e in data.entities:
+        if not e.virtual: annotetdLinesPerTXT[e.txt_id].add(e.line_idx)
+
+    annotated_lines = sum([len(s) for s in annotetdLinesPerTXT.values()])
+    return complete_lines, annotated_lines
 
 
 def is_museums_collection(e):
@@ -26,8 +39,8 @@ def validAcquisition(e, type):
 def classifyProperty(prop, neighbor):
     if prop.short_type == "P43": return "Dimension"
     elif prop.short_type == "P130":  return "Taxon"
-    elif neighbor.short_type == "E3":  return "Condition State/ Condition Assessement"
-    elif neighbor.short_type == "E14":  return "Condition State/ Condition Assessement"
+    elif neighbor.short_type == "E3":  return "Condition State/ Condition Assessment"
+    elif neighbor.short_type == "E14":  return "Condition State/ Condition Assessment"
     elif neighbor.short_type == "E11":  return "Modification"
     elif prop.short_type == "P53":  return "Location"
     return None
@@ -41,8 +54,9 @@ def classifyAcquisition(e):
     return "Unknown"
     
     
-def processDonations(entities, acqType):
-    classes = ("Recipient","Giver","Object(s)","Dimension","Taxon","Condition State/ Condition Assessement","Modification","Location")
+def processDonations(data, acqType):
+    entities = data.entities
+    classes = ("Recipient","Giver","Object(s)","Dimension","Taxon","Condition State/ Condition Assessment","Modification","Location")
     result = Counter()
     acquisitions = []
     for e in entities:
@@ -57,9 +71,9 @@ def processDonations(entities, acqType):
                 elif p.short_type == "P24":
                     foundElements.add("Object(s)")
                     objs.append(p.target)
-                elif p.target.short_type in ("E14","E3"): foundElements.add("Condition State/ Condition Assessement")
+                elif p.target.short_type in ("E14","E3"): foundElements.add("Condition State/ Condition Assessment")
             for p in e.incoming:
-                if p.source.short_type in ("E14","E3"): foundElements.add("Condition State/ Condition Assessement")
+                if p.source.short_type in ("E14","E3"): foundElements.add("Condition State/ Condition Assessment")
                     
             processed = set()
             while objs:
@@ -76,7 +90,11 @@ def processDonations(entities, acqType):
             result.update(foundElements)
     acquisitions_count = len(acquisitions)
     
-    print(f"RESULT:\n    {len(entities)} Entities\n    {acquisitions_count} {acqType}Acquisitions")
+    allLines, annotatedLines = count_lines(data)
+    print(f"RESULT:\n    {allLines} Lines\n    {annotatedLines} annotated Lines")
+
+
+    print(f"\n    {len(entities)} Entities\n    {acquisitions_count} {acqType}Acquisitions")
     
     acquisitionsTypes = Counter([classifyAcquisition(e) for e in acquisitions])
     print("\nACQUISITION TYPES:")
@@ -101,5 +119,5 @@ if __name__ == "__main__":
     
     data = SemanticData(pickle_file)
     
-    processDonations(data.entities, "")
+    processDonations(data, "")
     
