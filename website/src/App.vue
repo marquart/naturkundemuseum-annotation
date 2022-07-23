@@ -23,6 +23,9 @@
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntity" :baseBackend="backend" @displayTextOf="setDisplayTextOf" @randomEntity="setRandomEntityID"/>
             <Analysis v-show="mode === 4" :entitiesMap="entitiesMap" :backend="backend" @displayTextOf="setDisplayTextOf"/>
+
+            <hr/>
+            <p>Our work builds upon the version of the Chronik <a href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534" target="_blank">digitized</a> by the Library of the Humboldt-University and is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC-BY-NC-SA</a>.</p>
         </div>
     </div>
 </template>
@@ -191,6 +194,7 @@ export default {
     .content {
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 5%;
         text-align: left;
         width: 90%;
         display: block;
@@ -203,6 +207,7 @@ export default {
         display: grid;
         grid-template-columns: auto auto auto auto;
         align-content: center;
+        margin-bottom: 2em;
 
     }
 

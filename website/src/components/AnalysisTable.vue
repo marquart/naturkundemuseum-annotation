@@ -1,7 +1,7 @@
 <template>
     <div class="analysisTable">
         <h3 class="entityClick person">{{displayEntity[1]}}</h3>
-        <p>{{displayEntity[2].toString()}}</p>
+        <p v-if="displayEntity[2].length>1">Alternative names: {{displayEntity[2].toString()}}</p>
         <!--<div
             class="yearGrid"
         >-->
@@ -12,7 +12,7 @@
                 class="row"
             >
                 <!--Column1: Year-->
-                <th class="item year">{{years[i]}}:</th>
+                <th class="item year">{{years[i]}}</th>
                 <!--Column2:-->
                 <td><ul class="item">
                     <li
@@ -73,7 +73,7 @@ export default {
             this.$emit("displayTextOf", id);
         },
         buildRange() {
-            for (let i=1889; i < 1917; i++) {
+            for (let i=1889; i<1917; i++) {
                 this.years.push(i);
             }
         },
@@ -101,15 +101,6 @@ export default {
         box-shadow: 6px 6px #CBCBCB;
     }
 
-    .yearGrid {
-        display: grid;
-        /*gap: 3px;*/
-        grid-template-columns: auto auto auto;
-        align-items: center;
-        justify-content: start;
-        grid-row-gap: 10px;
-    }
-
     table {
         width: 100%;
     }
@@ -120,7 +111,6 @@ export default {
 
     .item {
         margin: 2px;
-
     }
 
     .year {

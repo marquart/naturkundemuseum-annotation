@@ -1,6 +1,7 @@
 <template>
     <div class="analyzeResults">
         <h3>Search results:</h3>
+        <p v-if="results.length<1">No results</p>
         <p
             v-for="(entity,i) in results"
             :key="i"
@@ -54,6 +55,7 @@ export default {
         text-align: center;
         width: 50%;
         margin-left: 25%;
+        margin-bottom: 2em;
     }
 
     .analyzeResultsItem {

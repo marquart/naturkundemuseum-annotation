@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-show="loadError" class="errormsg"><strong>{{errorMsg}}</strong></div>
-        <p>With this function it is possible to search for a person or a collection to discover the locations associated with him/her/it over the years.</p>
+        <p>As we annotated the acqusitions of objects over many years, it made sense to develop a tool which can be used to analyze the more consistent entities over the years more abstractly. It turned out that givers, original locations and the receiving collections are the most consistent information points. With the search bar below you can search for entities of either one of the three and get an overview of which of the entities of the other two types are connected to it over the years. The color and size indicate how much the author of the Chronik elaborated on each underlying acquisition compared to other acquisitions and can be interpreted as a level of appreciation of this transaction in the context of the gift economy.</p>
         <div class="modeselection">
             <p class="mode" :style="[mode === 0 ? focusStyle : unFocusStyle]" @click="navigate(0)">Givers</p>
             <p class="mode" :style="[mode === 1 ? focusStyle : unFocusStyle]" @click="navigate(1)">Locations</p>
@@ -63,8 +63,8 @@ export default {
     },
 
     methods: {
-        fetchData() {
-            Promise.all([
+        async fetchData() {
+            const rslt = await Promise.all([
                 fetch(this.backend + 'Persons.json', {
                 headers: {'Content-type': 'application/json', 'charset': 'utf-8'},
                 }).then(res => res.ok && res.json() || Promise.reject(res)),
@@ -79,6 +79,7 @@ export default {
                 if (data == undefined || data.length != 3 || data[0] == undefined || data[1] == undefined || data[2] == undefined) {
                     this.errorMsg = "Couldn't fetch data from backend!";
                     this.loadError = true;
+                    return false;
                 } else {
                     this.loadError = false;
                     //Persons
@@ -90,8 +91,11 @@ export default {
                     //Collections
                     this.collectionsLookup = data[2][0];
                     this.collectionsTable  = data[2][1];
+                    return true;
                 }
             });
+            return rslt
+ 
         },
 
         navigate(mode) {
@@ -102,17 +106,21 @@ export default {
             this.$emit("displayTextOf", id);
         },
 
-        query() {
-            const sourceData = this.$refs.source.getData();
-            const search_string = sourceData.searchString.replace(/[ -]/g, '').toLowerCase();
-            this.searchResults = [];
-            if (search_string != this.searchString) {
-                this.searchString = search_string;
-                if (this.mode==0) this.filterEntities(this.personsLookup);
-                else if (this.mode==1) this.filterEntities(this.locationsLookup);
-                else if (this.mode==2) this.filterEntities(this.collectionsLookup);
+        async query() {
+            let dataReady = !this.loadError;
+            if (!dataReady || this.personsLookup==null || this.locationsLookup==null ||this.collectionsLookup==null) dataReady = await this.fetchData();
+            if (dataReady) {
+                const sourceData = this.$refs.source.getData();
+                const search_string = sourceData.searchString.replace(/[ -]/g, '').toLowerCase();
+                this.searchResults = [];
+                if (search_string != this.searchString) {
+                    this.searchString = search_string;
+                    if (this.mode==0) this.filterEntities(this.personsLookup);
+                    else if (this.mode==1) this.filterEntities(this.locationsLookup);
+                    else if (this.mode==2) this.filterEntities(this.collectionsLookup);
+                }
+                this.showResults= true;
             }
-            this.showResults= true;
             
         },
 
@@ -152,7 +160,7 @@ export default {
     },
 
     mounted()  {
-        this.fetchData();
+        
     },
 
 

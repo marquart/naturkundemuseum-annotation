@@ -1,5 +1,6 @@
 <template>
     <div>
+        <QueryTextInfo/>
         <p>With this form it is possible to search the words annotated so far and/or filter the results by semantic class via the search options.</p>
         <EntitySearcher ref="source" :classes="stats.entityClasses" :possiblePredicates="possiblePredicates" @query="query"/>
         <input type="submit" value="Search" id="button" @click="query"/>
@@ -20,12 +21,14 @@
 <script>
 import EntitySearcher from './EntitySearcher.vue'
 import TextSearchResults from './TextSearchResults.vue'
+import QueryTextInfo from './QueryTextInfo.vue'
 
 export default {
     name: 'QueryText',
     components: {
         EntitySearcher,
-        TextSearchResults
+        TextSearchResults,
+        QueryTextInfo
 
     },
     props: {
