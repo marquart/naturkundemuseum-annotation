@@ -87,7 +87,7 @@ export default {
             this.lastSingleEntity = null;
             this.getDataFromComponents();
             this.searchResults = Array.from(this.filterEntities());
-            this.possiblePredicates = this.findPredicates();
+            //this.possiblePredicates = this.findPredicates();
             this.pushHistory();
             this.loading = false;
             this.showResults= true;

@@ -18,7 +18,7 @@
 
         </div>
         <div class="content">
-            <Info  v-show="mode === 0"/>
+            <Info  v-show="mode === 0" @displayTextOf="setDisplayTextOf"/>
             <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntity" :baseBackend="backend" @displayTextOf="setDisplayTextOf" @randomEntity="setRandomEntityID"/>
@@ -89,7 +89,7 @@ export default {
                 const idx =  Math.floor(Math.random() * (this.queryData.entities.length - 4000));//The maximum is exclusive and the minimum is inclusive
                 this.setDisplayGraphOf(this.queryData.entities[idx].id);
             } else {
-                this.setDisplayGraphOf("1644");
+                this.setDisplayGraphOf("18701");
             }
         },
 

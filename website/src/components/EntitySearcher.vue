@@ -59,9 +59,9 @@
                     <label class="floatLeft" for="selectfieldDepth">Set max results:*</label>
                     <select id="selectfieldDepth"
                         v-model="maxSize">
-                        <option selected value=40>40</option>
+                        <option selected value="40">40</option>
                         <option class="selectoption"
-                            v-for="i in [20,60,80,100,120,140,160,180,200]"
+                            v-for="i in [60,80,100,120,140,160,180,200]"
                             :key="i"
                             :value="i"
                         >
@@ -95,7 +95,7 @@ export default {
             advancedSearchOpen: false,
             searchString: '',
             searchClass:  '',
-            maxSize: 20,
+            maxSize: 40,
 
             refinedSearchOpen: false,
             searchPropertyType: ''

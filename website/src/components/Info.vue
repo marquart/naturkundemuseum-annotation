@@ -20,28 +20,70 @@
                 <li>model the annotations in a graph database in order to also integrate data from external sources as easily as possible as well as to offer other sources the possibility to embed the information of the annual reports into their own knowledge graphs,</li>
                 <li>develop an online platform from which the information from the graph database can be easily accessed</li>
             </ul>
-            <p>Our work builds upon the version of the chronicle <a href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534" target="_blank">digitized</a> by the Library of the Humboldt-University.</p>
+            <p>Our work builds upon the version of the Chronik <a href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534" target="_blank">digitized</a> by the Library of the Humboldt-University.</p>
         <h3>Status</h3>
             <p>All information found in the Chronik related to acquisitions of new objects is annotated. In over 7500 annotated lines of the over 32000 lines in total we processed nearly 39000 semantic entities.</p>
 
-            <p>12066 of these portray individual acquisition of objects. The remaining entities describe each of the acquisitions in more detail and can be categorized this way:</p>
-            <table class="connectedEntities">
-                <tr><th>Category</th><th>No. of acquisitions</th><th>Percentage of all acquisitions</th></tr>
-                <tr><td>Receiving collection</td><td class="right">12058</td><td class="right">99.9%</td></tr>
-                <tr><td>Location</td><td class="right">9510</td><td class="right">78.8%</td></tr>
-                <tr><td>Giver</td><td class="right">9462</td><td class="right">78.4%</td></tr>
-                <tr><td>Taxon</td><td class="right">983</td><td class="right">8.1%</td></tr>
-                <tr><td>Dimension</td><td class="right">844</td><td class="right">7.0%</td></tr>
-                <tr><td>Condition State/ Condition Assessment</td><td class="right">290</td><td class="right">2.4%</td></tr>
+            <p>12066 of these portray individual acquisition of objects. The remaining entities are mostly connected to these acquisitions to describe each of the acquisitions in more detail and can be categorized this way:</p>
+            <table class="table90">
+                <tr><th>Category</th><th>No. of connected acquisitions</th><th>Percentage of all acquisitions with this connection</th><th>Examples</th></tr>
+                <tr><td>Receiving collection</td><td class="right">12058</td><td class="right">99.9%</td><td>
+                    <span class="entityLink" @click="emitDisplayTextOf('20')">Arachnoidea</span>, <span class="entityLink" @click="emitDisplayTextOf('20')">Würmer</span></td></tr>
+                <tr><td>Location</td><td class="right">9510</td><td class="right">78.8%</td><td><span class="entityLink" @click="emitDisplayTextOf('20')">Deutsch-Neuguinea</span>, <span class="entityLink" @click="emitDisplayTextOf('20')">Tanganjikasee</span></td></tr>
+                <tr><td>Giver</td><td class="right">9462</td><td class="right">78.4%</td><td><span class="entityLink" @click="emitDisplayTextOf('20')">Bezirksamtmann Dr. Reuß</span>, <span class="entityLink" @click="emitDisplayTextOf('20')">Fräulein Tomala</span></td></tr>
+                <tr><td>Taxon</td><td class="right">983</td><td class="right">8.1%</td><td><span class="entityLink" @click="emitDisplayTextOf('20')">Aktinien</span>, <span class="entityLink" @click="emitDisplayTextOf('20')">Ichneumoniden</span></td></tr>
+                <tr><td>Dimension</td><td class="right">844</td><td class="right">7.0%</td><td><span class="entityLink" @click="emitDisplayTextOf('20')">zahlreiche</span>, <span class="entityLink" @click="emitDisplayTextOf('20')">vier</span></td></tr>
+                <tr><td>Condition State/ Condition Assessment</td><td class="right">290</td><td class="right">2.4%</td><td><span class="entityLink" @click="emitDisplayTextOf('20')">wertvoll</span>, <span class="entityLink" @click="emitDisplayTextOf('20')">äußerst selten</span></td></tr>
             </table>
+            <p>We were generally able to identify the person or institution which transferred an object to a collection of the museum and the original location of this object. In total we found 2313 distinct giving persons/institutions and 1250 distinct locations.</p>
+            <p>We have also categorized the acquisitions themself into three types:</p>
+            <table class="table60">
+                <tr><th>Type</th><th>No. of acquisitions</th><th>Percentage of all acquisitions</th></tr>
+                <tr><td>Gift</td><td class="right">8869</td><td class="right">73.5%</td></tr>
+                <tr><td>Purchase</td><td class="right">2587</td><td class="right">21.4%</td></tr>
+                <tr><td>Trade</td><td class="right">608</td><td class="right">5.0%</td></tr>
+            </table>
+            <p>The distribution of our identified acquisitions over the years look like this:</p>
+            <AcquisitionsPerYear/>
+
+                        <p>The annotated data is modeled in a <strong>knowledge graph</strong>. Every semantic entity is connected to at least another semantic entity via a labeled edge in order to preserve the context the entity is embedded in. The labels for clasifying semantic entities and these so called properties are defined in the Ontology of the <a href="https://cidoc-crm.org" target="_blank">CIDOC Conceptual Reference Model (CRM)</a>.</p>
+            <p>The majority of the data is <strong>centered around an acquisition</strong> in order to maintain the textual context of it. The general data model looks like this:</p>
+
+            <AcquisitionsModel/>
+
+            <p>We decided to enrich the knowledge graph with <strong>artificial entities</strong> wich have no explicit position in the source text because of:</p>
+            <ol>
+                <li>
+                    <strong>Ability to consolidate the entities over the years</strong><br>
+
+
+                </li>
+                <li>
+                    <strong>Possibility to correctly reason with the CIDOC CRM ontology</strong><br>
+                    In a lot of cases the acquisitions of a collection of the museums are described in a dense list-like fashion. The implicit context of such mentions makes us humans understand that it is an acquisition but in order to transfer this context into an abstract knowledge graph we needed to make this explicit. That is the reason that you can find many entities which have no content (that means textual fragment in the source). You can recognize these through the Keyword <strong>"(implicit)"</strong> instead of an textual phrase in the search results below.
+                </li>
+            </ol>
+
     </div>
 </template>
 
+
 <script>
+import AcquisitionsPerYear from './AcquisitionsPerYear.vue'
+import AcquisitionsModel from './AcquisitionsModel.vue'
 export default {
     name: 'Info',
+    components: {
+        AcquisitionsPerYear,
+        AcquisitionsModel
+    },
     props: {
     },
+    methods: {
+        emitDisplayTextOf(id) {
+            this.$emit("displayTextOf", id);
+        },
+    }
 }
 </script>
 
@@ -54,9 +96,14 @@ export default {
         margin-right: 20%;
     }
 
-    .connectedEntities {
+    .table90 {
         width: 90%;
         margin-left: 5%;
+    }
+
+    .table60 {
+        width: 60%;
+        margin-left: 20%;
     }
 
     .right {
@@ -65,15 +112,33 @@ export default {
 
     th,td {
         padding: 1ex;
+        text-align: left;
     }
 
     th {
         border-bottom: 2px solid black;
-        text-align: left;
+        
     }
 
     table tr:nth-child(odd) {
         background-color: #FFF;
+    }
+
+    .entityLink {
+        display: inline-block;
+        background: white;
+        border: 2px solid white;
+    }
+
+    table tr:nth-child(odd) .entityLink{
+        background-color: #f0f0f0;
+        border: 2px solid #f0f0f0;
+    }
+
+
+    .entityLink:hover {
+        cursor: pointer;
+        border: 2px solid black;
     }
 
     @media screen and (max-width: 700px) {

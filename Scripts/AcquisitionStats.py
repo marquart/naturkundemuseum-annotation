@@ -4,6 +4,30 @@ from collections import defaultdict, Counter, deque
 
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+def renderAcquisitionsPerYear(acquisitionsPerYear):
+    sns.set_theme(style="whitegrid") #style='white'
+    plt.rcParams['font.sans-serif'] = "Roboto, sans-serif"
+    plt.rcParams['font.family'] = "Roboto,"
+    plt.rcParams['svg.fonttype'] = 'none'
+
+    fig, ax = plt.subplots(figsize=(11.69,4))
+
+    for year in sorted(acquisitionsPerYear):
+        if year>1916: break
+        count = acquisitionsPerYear[year]
+        ax.bar(year, count, color="#fc3915", ecolor="#000000")
+    ax.set_ylabel("No. of acquisitions")
+    ax.set_xlabel("Years")
+    sns.despine(top=True, bottom=True, left=True, right=True)
+    plt.savefig("../Documentation/Visualizations/AcquisitionsPerYear.svg", dpi=300, bbox_inches='tight', format='svg', transparent=True)
+    print("Saved visualization '../Documentation/Visualizations/AcquisitionsPerYear.svg'")
+
+
+
 def count_lines(data):
     complete_lines = 0
     for txt in data.texts:
@@ -109,6 +133,7 @@ def processDonations(data, acqType):
         bar = progressChar*int((count+9)/10)
         print(f"    {year:<4} | {count:>5} | {round(count/acquisitions_count*100, 1):>5}% | {bar:<100}")
     
+    renderAcquisitionsPerYear(acquisitionsPerYear)
     
     print("\nCONNECTED TYPES TO ACQUISITIONS:")
     for element, count in result.most_common():
