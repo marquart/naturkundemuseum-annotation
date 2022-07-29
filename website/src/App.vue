@@ -13,8 +13,9 @@
             <div class="selectmode" :style="[mode === 0 ? focusStyle : unFocusStyle]"   @click="navigate(0)">INFO</div>
             <div class="selectmode" :style="[mode === 1 ? focusStyle : unFocusStyle]"   @click="navigate(1)">SEARCH</div>
             <!--<div class="selectmode" :style="[mode === 2 ? focusStyle : unFocusStyle]"   @click="navigate(2)">Query semantic Web</div>-->
-            <div class="selectmode" :style="[mode === 3 ? focusStyle : unFocusStyle]"   @click="navigate(3)">EXPLORE</div>
             <div class="selectmode" :style="[mode === 4 ? focusStyle : unFocusStyle]"   @click="navigate(4)">ANALYZE</div>
+            <div class="selectmode" :style="[mode === 3 ? focusStyle : unFocusStyle]"   @click="navigate(3)">EXPLORE</div>
+            
 
         </div>
         <div class="content">
@@ -22,7 +23,7 @@
             <QueryText v-show="mode === 1" :queryData="queryData" :stats="stats" :showSingleEntity="displayTextOfEntity" @displayGraphOf="setDisplayGraphOf"/>
             <!--<Query v-show="mode === 2" :properties="properties" :entities="entities" :stats="stats" @displayGraphOf="setDisplayGraphOf"/>-->
             <Visualizations v-show="mode === 3" :entityId="displayGraphOfEntity" :baseBackend="backend" @displayTextOf="setDisplayTextOf" @randomEntity="setRandomEntityID"/>
-            <Analysis v-show="mode === 4" :entitiesMap="entitiesMap" :backend="backend" @displayTextOf="setDisplayTextOf"/>
+            <Analysis v-show="mode === 4" :inFocus="mode === 4" :entitiesMap="entitiesMap" :backend="backend" @displayTextOf="setDisplayTextOf"/>
 
             <hr/>
             <p>Our work builds upon the version of the Chronik <a href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534" target="_blank">digitized</a> by the Library of the Humboldt-University and is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC-BY-NC-SA</a>.</p>

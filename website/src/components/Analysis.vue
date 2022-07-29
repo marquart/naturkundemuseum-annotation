@@ -24,6 +24,7 @@ import AnalysisSearchResults from './AnalysisSearchResults.vue'
 export default {
     name: 'Analysis',
     props: {
+        inFocus: Boolean,
         entitiesMap: Object,
         backend: String
     },
@@ -42,6 +43,7 @@ export default {
 
             loadError: false,
             errorMsg: "",
+            dataLoaded: false,
 
             personsLookup: null,
             locationsLookup: null,
@@ -60,6 +62,18 @@ export default {
             cursorResult: null
         }
 
+    },
+
+    watch: {
+        async inFocus() {
+            if (this.inFocus && !this.dataLoaded) {
+                this.dataLoaded = await this.fetchData();
+                if (this.dataLoaded) {
+                    this.showEntity(this.personsLookup[0])
+                }
+
+            }
+        }
     },
 
     methods: {
@@ -99,7 +113,9 @@ export default {
         },
 
         navigate(mode) {
+            this.showResults = false;
             this.mode = mode;
+            this.showEntity(this.personsLookup[0]);
         },
 
         emitDisplayTextOf(id) {
@@ -107,18 +123,17 @@ export default {
         },
 
         async query() {
-            let dataReady = !this.loadError;
-            if (!dataReady || this.personsLookup==null || this.locationsLookup==null ||this.collectionsLookup==null) dataReady = await this.fetchData();
-            if (dataReady) {
+            if (!this.dataLoaded || this.personsLookup==null || this.locationsLookup==null ||this.collectionsLookup==null) this.dataLoaded = await this.fetchData();
+            if (this.dataLoaded) {
                 const sourceData = this.$refs.source.getData();
                 const search_string = sourceData.searchString.replace(/[ -]/g, '').toLowerCase();
                 this.searchResults = [];
-                if (search_string != this.searchString) {
-                    this.searchString = search_string;
-                    if (this.mode==0) this.filterEntities(this.personsLookup);
-                    else if (this.mode==1) this.filterEntities(this.locationsLookup);
-                    else if (this.mode==2) this.filterEntities(this.collectionsLookup);
-                }
+                
+                this.searchString = search_string;
+                if (this.mode==0) this.filterEntities(this.personsLookup);
+                else if (this.mode==1) this.filterEntities(this.locationsLookup);
+                else if (this.mode==2) this.filterEntities(this.collectionsLookup);
+
                 this.showResults= true;
             }
             
