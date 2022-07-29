@@ -41,6 +41,44 @@ class Acquisition(object):
                             stack.append(pp.target)
 
 
+def addTop10(acquisitions, giverAcquisitions, collectionAcquisitions, locationAcquisitions):
+    topAcquiPerYear = defaultdict(list)
+    for a in acquisitions: topAcquiPerYear[a.entity.year].append(a)
+
+    for l in (giverAcquisitions, collectionAcquisitions, locationAcquisitions):
+        l[0].insert(0, ("top10","Top 10 acquisitions",("Top 10 acquisitions",)))
+        l[1]["Top 10 acquisitions"] = [[],[]]
+    
+    for i in range(1889, 1916):
+        if i in topAcquiPerYear:
+            topInYear = sorted(topAcquiPerYear[i], key=attrgetter('weight'), reverse=True)[:10]
+            topLocations = [(str(e.id), a.weight+11, a.color) for a in topInYear for e in a.locations]
+            topHoldings = [(str(a.holding.id), a.weight+11, a.color) for a in topInYear]
+            topActors = [(str(e.id), a.weight+11, a.color) for a in topInYear for e in a.givers]
+
+            giverAcquisitions[1]["Top 10 acquisitions"][0].append(topLocations) #Locations
+            giverAcquisitions[1]["Top 10 acquisitions"][1].append(topHoldings) #Collections
+
+            collectionAcquisitions[1]["Top 10 acquisitions"][0].append(topLocations) #Locations
+            collectionAcquisitions[1]["Top 10 acquisitions"][1].append(topActors) #Actors
+
+            locationAcquisitions[1]["Top 10 acquisitions"][0].append(topActors) #Actors
+            locationAcquisitions[1]["Top 10 acquisitions"][1].append(topHoldings) #Collections
+
+        else:
+            giverAcquisitions[1]["Top 10 acquisitions"][0].append([]) #Locations
+            giverAcquisitions[1]["Top 10 acquisitions"][1].append([]) #Collections
+
+            collectionAcquisitions[1]["Top 10 acquisitions"][0].append([]) #Locations
+            collectionAcquisitions[1]["Top 10 acquisitions"][1].append([]) #Actors
+
+            locationAcquisitions[1]["Top 10 acquisitions"][0].append([]) #Actors
+            locationAcquisitions[1]["Top 10 acquisitions"][1].append([]) #Collections
+
+    return giverAcquisitions, collectionAcquisitions, locationAcquisitions
+    
+
+
 def buildResult(column1, column2):
     result = {}
     for display_name in column1:
@@ -177,10 +215,12 @@ if __name__ == "__main__":
     acquisitionsWeights = calculateWeights(data.entities)
     
     acqusisitions = [Acquisition(e, acquisitionsWeights) for e in data.entities if validAcquisition(e)]
-    giverNames, giverAcquisitions           = buildActorTable(acqusisitions)
-    collectionNames, collectionAcquisitions = buildCollectionTable(acqusisitions)
-    locationNames, locationAcquisitions     = buildLocationTable(acqusisitions)
+    giverTables      = buildActorTable(acqusisitions)
+    collectionTables = buildCollectionTable(acqusisitions)
+    locationTables   = buildLocationTable(acqusisitions)
     
-    save_tables((giverNames, giverAcquisitions), filepath="../Website/public/Persons.json")
-    save_tables((collectionNames, collectionAcquisitions), filepath="../Website/public/Collections.json")
-    save_tables((locationNames, locationAcquisitions), filepath="../Website/public/Locations.json")
+    giverTables, collectionTables, locationTables = addTop10(acqusisitions, giverTables, collectionTables, locationTables)
+
+    save_tables(giverTables, filepath="../Website/public/Persons.json")
+    save_tables(collectionTables, filepath="../Website/public/Collections.json")
+    save_tables(locationTables, filepath="../Website/public/Locations.json")

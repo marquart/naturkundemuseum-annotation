@@ -51,7 +51,6 @@ def calculateWeight(e):
         "E20":("P1","P2","P22"), #Bio Object
         "E78":("P1","P2","P22","P46"), #Holding
         "E28":("P1","P2","P22","P130"), #Concept
-        "E54":("P1","P2","P22"), #Place
         "E39":("P1","P2","P22","P23"), #Actor
         "E21":("P1","P2","P22","P23"), #Person
         "E74":("P1","P2","P22","P23"), #Group
@@ -65,6 +64,7 @@ def calculateWeight(e):
     stack = deque((e,))
     processed = set()
     weight = 0
+    foundAssessment = False
     while stack:
         cursor = stack.popleft()
         if cursor in processed: continue
@@ -75,6 +75,7 @@ def calculateWeight(e):
                 if p.short_type in stopProperties[cursor.short_type]: continue
                 if not p.source.virtual:
                     weight += validTypes[p.source.short_type]
+                    if p.source.short_type in ("E3","E14"): foundAssessment = True
                 stack.append(p.source)
         for p in cursor.outgoing:
             if p.target in processed: continue
@@ -82,7 +83,10 @@ def calculateWeight(e):
                 if p.short_type in stopProperties[cursor.short_type]: continue
                 if not p.target.virtual:
                     weight += validTypes[p.target.short_type]
+                    if p.target.short_type in ("E3","E14"): foundAssessment = True
                 stack.append(p.target)
+    if foundAssessment: weight = MAX_WEIGHT
+    elif weight >= MAX_WEIGHT: weight = MAX_WEIGHT-1
     return weight
 
 def calculateWeights(entities):
@@ -90,9 +94,11 @@ def calculateWeights(entities):
     for e in entities:
         if validAcquisition(e):
             w = calculateWeight(e)
-            if w>9: w = 10
+            if w>MAX_WEIGHT: w = 10
             weights[e.id] = w
     return weights
+
+MAX_WEIGHT = 10
 
 if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
