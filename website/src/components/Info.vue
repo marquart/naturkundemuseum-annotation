@@ -69,8 +69,8 @@
 
 
 <script>
-import AcquisitionsPerYear from './AcquisitionsPerYear.vue'
-import AcquisitionsModel from './AcquisitionsModel.vue'
+import AcquisitionsPerYear from './SVG/AcquisitionsPerYear.vue'
+import AcquisitionsModel from './SVG/AcquisitionsModel.vue'
 export default {
     name: 'Info',
     components: {

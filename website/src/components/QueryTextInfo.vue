@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import AcquisitionsModel from './AcquisitionsModel.vue'
+import AcquisitionsModel from './SVG/AcquisitionsModel.vue'
 export default {
     name: 'QueryTextInfo',
     components: {
