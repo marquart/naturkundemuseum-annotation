@@ -7,38 +7,8 @@ import json
 
 from itertools import chain
 
-from matplotlib.colors import LinearSegmentedColormap, to_hex
-
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
-from ImportantAcquisition import calculateWeights, validAcquisition
-
-class Acquisition(object):
-    cmap = LinearSegmentedColormap.from_list("cmap", ("#c7df7f", "#7da30b"), N=10)
-    
-    def __init__(self, e, acquisitionsWeights):
-        assert e.short_type in ("E8","E96")
-        
-        self.entity    = e
-        self.holding   = None
-        self.locations = []
-        self.givers    = []
-        self.weight    = acquisitionsWeights[e.id]
-        self.color     = to_hex(Acquisition.cmap(self.weight))
-        
-        for p in e.outgoing:
-            if p.short_type == "P22":
-                self.holding = p.target
-            elif p.short_type == "P23":
-                self.givers.append(p.target)
-            elif p.short_type == "P24":
-                stack = deque((p.target,))
-                while stack:
-                    cursor = stack.popleft()
-                    for pp in cursor.outgoing:
-                        if pp.short_type == "P53":
-                            self.locations.append(pp.target)
-                        elif pp.short_type == "P46":
-                            stack.append(pp.target)
+from ImportantAcquisitions import Acquisition, findAcquisitions
 
 
 def addTop10(acquisitions, giverAcquisitions, collectionAcquisitions, locationAcquisitions):
@@ -212,9 +182,9 @@ if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     
     data = SemanticData(pickle_file)
-    acquisitionsWeights = calculateWeights(data.entities)
-    
-    acqusisitions = [Acquisition(e, acquisitionsWeights) for e in data.entities if validAcquisition(e)]
+
+    acqusisitions    = findAcquisitions(data.entities)
+
     giverTables      = buildActorTable(acqusisitions)
     collectionTables = buildCollectionTable(acqusisitions)
     locationTables   = buildLocationTable(acqusisitions)

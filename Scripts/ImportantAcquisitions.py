@@ -1,7 +1,47 @@
 import os
 from collections import defaultdict, Counter, deque 
 
+from matplotlib.colors import LinearSegmentedColormap, to_hex
+
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
+
+
+class Acquisition(object):
+    cmap = LinearSegmentedColormap.from_list("cmap", ("#c7df7f", "#7da30b"), N=10)
+    
+    def __init__(self, e, acquisitionsWeights=None):
+        assert e.short_type in ("E8","E96")
+        
+        self.entity     = e
+        self.holding    = None
+        self.locations  = []
+        self.givers     = []
+        self.category   = None
+        self.neighbors  = set()
+
+        if acquisitionsWeights:
+            self.weight = acquisitionsWeights[e.id]
+        else:
+            self.weight, self.neighbors = calculateWeight(e, return_stack=True)
+
+        self.color      = to_hex(Acquisition.cmap(self.weight))
+        
+        for p in e.outgoing:
+            if p.short_type == "P22":
+                self.holding = p.target
+            elif p.short_type == "P23":
+                self.givers.append(p.target)
+            elif p.short_type == "P24":
+                stack = deque((p.target,))
+                while stack:
+                    cursor = stack.popleft()
+                    for pp in cursor.outgoing:
+                        if pp.short_type == "P53":
+                            self.locations.append(pp.target)
+                        elif pp.short_type == "P46":
+                            stack.append(pp.target)
+            elif p.short_type == "P2":
+                self.category = p.target.string
 
 
 def is_museums_collection(e):
@@ -23,7 +63,7 @@ def validAcquisition(e, type=""):
     return museum_acquisition and correct_type
     
 
-def calculateWeight(e):
+def calculateWeight(e, return_stack=False):
     ''' e.short_type == Acquisition or Purchase
     '''
     assert e.short_type in ("E8","E96")
@@ -60,6 +100,11 @@ def calculateWeight(e):
         "E54":("P1","P2","P22","P43"), #Dimension
         "E60":("P1","P2","P22"), #Number
     }
+    stopNeighbors = {
+        "E3":  ("E78",),      #Condition State of receiving collection
+        "E78":  ("E3","E14"), #Condition State of receiving collection
+        "E14": ("E78",),      #Condition Assessment of receiving collection
+    }
     
     stack = deque((e,))
     processed = set()
@@ -73,6 +118,7 @@ def calculateWeight(e):
             if p.source in processed: continue
             if p.source.short_type in validTypes:
                 if p.short_type in stopProperties[cursor.short_type]: continue
+                if cursor.short_type in stopNeighbors and p.source.short_type in stopNeighbors[cursor.short_type]: continue
                 if not p.source.virtual:
                     weight += validTypes[p.source.short_type]
                     if p.source.short_type in ("E3","E14"): foundAssessment = True
@@ -81,13 +127,17 @@ def calculateWeight(e):
             if p.target in processed: continue
             if p.target.short_type in validTypes:
                 if p.short_type in stopProperties[cursor.short_type]: continue
+                if cursor.short_type in stopNeighbors and p.target.short_type in stopNeighbors[cursor.short_type]: continue
                 if not p.target.virtual:
                     weight += validTypes[p.target.short_type]
                     if p.target.short_type in ("E3","E14"): foundAssessment = True
                 stack.append(p.target)
     if foundAssessment: weight = MAX_WEIGHT
     elif weight >= MAX_WEIGHT: weight = MAX_WEIGHT-1
+
+    if return_stack: return weight, processed
     return weight
+
 
 def calculateWeights(entities):
     weights = {}
@@ -98,20 +148,23 @@ def calculateWeights(entities):
             weights[e.id] = w
     return weights
 
+
+def findAcquisitions(entities):
+    acquisitions = []
+    for e in entities:
+        if validAcquisition(e):
+            acquisitions.append(Acquisition(e))
+    return acquisitions
+
+
 MAX_WEIGHT = 10
 
 if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     
     data = SemanticData(pickle_file)
-    weights = Counter()
-    for e in data.entities:
-        if validAcquisition(e):
-            w = calculateWeight(e)
-            if w>9: w = 10
-            weights[w] += 1
-            if w>50: print(e.verbose())
-    progressChar = '□'#'░' #one character in progress bar equals 50 acquisitions
+    weights = Counter([a.weight for a in findAcquisitions(data.entities)])
+    progressChar = '□'#'░' #one character in progress bar equals 40 acquisitions
     print(f"Calculated weights for {sum(weights.values())} acquisitions:")
     for w in sorted(weights.keys()):
         count = weights[w]
