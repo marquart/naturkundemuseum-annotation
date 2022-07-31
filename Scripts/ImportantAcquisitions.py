@@ -156,6 +156,32 @@ def findAcquisitions(entities):
             acquisitions.append(Acquisition(e))
     return acquisitions
 
+def createSVG(shareOfWeights):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    sns.set_theme(style="whitegrid") #style='white'
+    plt.rcParams['font.sans-serif'] = "Roboto, sans-serif"
+    plt.rcParams['font.family'] = "Roboto,"
+    plt.rcParams['svg.fonttype'] = 'none'
+
+    fig, ax = plt.subplots(figsize=(11.69,4))
+
+    xs = sorted(shareOfWeights)
+    for i,weight in enumerate(xs):
+        share = shareOfWeights[weight]
+        color = Acquisition.cmap(i)
+        ax.bar(weight, share, color=color, ecolor="#000000")
+        ax.annotate(f"{round(share,1)}%", (weight, share), xytext=(weight-.55, share+8.), arrowprops=dict(arrowstyle="->",color="0.2",patchB=None,shrinkB=0,connectionstyle="arc3,rad=-0.3",))
+
+
+    ax.set_ylabel("Percentage of all acquisitions")
+    ax.set_xticks(xs)
+    ax.set_xticklabels(xs)
+    ax.set_xlabel("Weight")
+    sns.despine(top=True, bottom=True, left=True, right=True)
+    plt.savefig("../Documentation/Visualizations/AcquisitionsWeights.svg", dpi=300, bbox_inches='tight', format='svg', transparent=True)
+    print("Saved visualization '../Documentation/Visualizations/AcquisitionsWeights.svg'")
 
 MAX_WEIGHT = 10
 
@@ -165,11 +191,18 @@ if __name__ == "__main__":
     data = SemanticData(pickle_file)
     weights = Counter([a.weight for a in findAcquisitions(data.entities)])
     progressChar = '□'#'░' #one character in progress bar equals 40 acquisitions
+
+    shareOfWeights = {}
     print(f"Calculated weights for {sum(weights.values())} acquisitions:")
+    totalAcquisitions = sum(weights.values())
     for w in sorted(weights.keys()):
         count = weights[w]
+        share = count/totalAcquisitions*100
+        shareOfWeights[w] = share
         bar = progressChar*int((count+39)/40)
-        print(f"    {w:>2} weight | {count:<5} acquisitions | {round(count/sum(weights.values())*100, 1):>4}% | {bar:<140}")
+        print(f"    {w:>2} weight | {count:<5} acquisitions | {round(share, 1):>4}% | {bar:<140}")
+    
+    createSVG(shareOfWeights)
 
     
     
