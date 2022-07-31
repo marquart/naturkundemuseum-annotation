@@ -109,6 +109,14 @@ export default {
         background-color: #f2f2f2;
     }
 
+    table tr:nth-child(even) .entityClick {
+        border: 3px solid #f2f2f2;
+    }
+
+    table tr:nth-child(odd) .entityClick {
+        border: 3px solid #fff;
+    }
+
     .item {
         margin: 2px;
     }
@@ -133,12 +141,5 @@ export default {
         text-decoration: underline;   
     }
 
-    .place {
-        border: 3px solid #FFF;/*#c7df7f;/*#fc7715aa;*/
-        color: #000;
-    }
 
-    .person {
-        border: 3px solid #00000000;
-    }
 </style>

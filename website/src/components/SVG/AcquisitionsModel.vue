@@ -1,469 +1,472 @@
 <template>
-<svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
-   version="1.1"
-   id="svg5"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2">
-    <marker
-       style="overflow:visible"
-       id="TriangleOutM"
-       refX="0.0"
-       refY="0.0"
-       orient="auto">
-      <path
-         transform="scale(0.4)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
-         id="path33432" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="TriangleOutL"
-       refX="0.0"
-       refY="0.0"
-       orient="auto">
-      <path
-         transform="scale(0.8)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
-         id="path33429" />
-    </marker>
-    <marker
-       style="overflow:visible;"
-       id="Arrow1Lend"
-       refX="0.0"
-       refY="0.0"
-       orient="auto">
-      <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path33290" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow1Lstart"
-       refX="0.0"
-       refY="0.0"
-       orient="auto">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path33287" />
-    </marker>
-  </defs>
-  <g
-     id="layer1">
-    <rect
-       style="display:inline;fill:#5a50c4;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6"
-       width="60.854168"
-       height="23.812494"
-       x="119.06249"
-       y="124.35417"
-       ry="0.76862514" />
-    <rect
-       style="fill:#3b95c4;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2"
-       width="60.854168"
-       height="23.812494"
-       x="219.60416"
-       y="29.104176"
-       ry="0.76862514" />
-    <rect
-       style="fill:#06b67e;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9"
-       width="60.854168"
-       height="23.812494"
-       x="18.520828"
-       y="124.35417"
-       ry="0.76862514" />
-    <rect
-       style="fill:#fc3915;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3"
-       width="60.854168"
-       height="23.812494"
-       x="219.60416"
-       y="171.97917"
-       ry="0.76862514" />
-    <rect
-       style="fill:#06b67e;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-7"
-       width="60.854168"
-       height="23.812494"
-       x="18.520832"
-       y="76.729172"
-       ry="0.76862514" />
-    <rect
-       style="fill:#50c4c2;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-0"
-       width="60.854168"
-       height="23.812494"
-       x="18.520834"
-       y="171.97917"
-       ry="0.76862514" />
-    <rect
-       style="fill:#b560d4;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-93"
-       width="60.854168"
-       height="23.812494"
-       x="119.0625"
-       y="29.104176"
-       ry="0.76862514" />
-    <rect
-       style="fill:#fc3915;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-33"
-       width="60.854168"
-       height="23.812494"
-       x="119.06249"
-       y="76.729164"
-       ry="0.76862514" />
-    <rect
-       style="fill:#fc7715;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-4"
-       width="60.854168"
-       height="23.812494"
-       x="219.60416"
-       y="76.729172"
-       ry="0.76862514" />
-    <rect
-       style="fill:#fc3915;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-3"
-       width="60.854168"
-       height="23.812494"
-       x="219.60416"
-       y="124.35417"
-       ry="0.76862514" />
-    <rect
-       style="fill:#50c4c2;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect848-2-6-9-3-9"
-       width="60.854168"
-       height="23.812494"
-       x="119.06249"
-       y="171.97917"
-       ry="0.76862514" />
-  </g>
-  <g
-     id="layer2"
-     style="display:inline">
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 119.0625,89.958333 H 82.020833"
-       id="path33183" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 47.625,124.35417 V 103.1875"
-       id="path33185" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 119.0625,42.333333 H 105.83333 V 15.875 H 190.5 v 26.458333 h -7.9375"
-       id="path33187" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 132.29166,148.16666 V 158.75 H 47.625 v 10.58333"
-       id="path33189" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="m 148.16666,148.16666 1e-5,21.16667"
-       id="path33191" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 219.60417,185.20833 H 201.08333 V 158.75 h -37.04167 l 1e-5,-7.9375"
-       id="path33193" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 219.60417,137.58333 H 182.5625"
-       id="path33195" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="m 164.04167,124.35417 -1e-5,-13.22917 h 37.04167 V 89.958332 l 15.875,10e-7"
-       id="path33197" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 132.29167,76.729167 V 55.5625"
-       id="path33201" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="m 164.04167,76.729167 -1e-5,-13.229168 h 37.04167 V 42.333333 h 15.875"
-       id="path33203" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 248.70833,52.916666 V 74.083333"
-       id="path33205" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="M 119.0625,137.58333 H 82.020832"
-       id="path33957" />
-    <path
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
-       d="m 148.16666,100.54167 1e-5,21.16666"
-       id="path33199" />
-  </g>
-  <g
-     id="layer3"
-     style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="224.89581"
-       y="37.041676"
-       id="text3924-44"><tspan
-         id="tspan6537"
-         x="224.89581"
-         y="37.041676">E21 Person/</tspan><tspan
-         id="tspan6539"
-         x="224.89581"
-         y="42.333336">E39 Actor/</tspan><tspan
-         id="tspan6541"
-         x="224.89581"
-         y="47.625">E74 Group</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="23.991188"
-       y="137.55168"
-       id="text3924-4"><tspan
-         id="tspan6230"
-         x="23.991188"
-         y="137.55168">E28 Conceptual Object</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;white-space:pre;inline-size:42.8875;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="224.34171"
-       y="185.08533"
-       id="text3924-4-5"
-       transform="translate(-0.61330689,-2.2999009)"><tspan
-         x="224.34171"
-         y="185.08533"
-         id="tspan2097">E14 Condition </tspan><tspan
-         x="224.34171"
-         y="191.25894"
-         id="tspan2099">Assessment</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="23.438435"
-       y="90.083023"
-       id="text14250"><tspan
-         id="tspan14472"
-         x="23.438435"
-         y="90.083023">E55 Type</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="23.715488"
-       y="185.3607"
-       id="text17644"><tspan
-         id="tspan17800"
-         x="23.715488"
-         y="185.3607">E54 Dimension</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="124.5342"
-       y="42.485691"
-       id="text19520"><tspan
-         id="tspan20782"
-         x="124.5342"
-         y="42.485691">E78 Curated Holding</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="124.50652"
-       y="87.61721"
-       id="text25868"><tspan
-         id="tspan26222"
-         x="124.50652"
-         y="87.61721">E8 Acquisition/</tspan><tspan
-         id="tspan26224"
-         x="124.50652"
-         y="92.908875">E96 Purchase</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="224.79881"
-       y="89.833649"
-       id="text28142"><tspan
-         id="tspan28166"
-         x="224.79881"
-         y="89.833649">E53 Place</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="224.92351"
-       y="137.45865"
-       id="text29094"><tspan
-         id="tspan29118"
-         x="224.92351"
-         y="137.45865">E11 Modification</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="124.50652"
-       y="185.36069"
-       id="text30442"><tspan
-         id="tspan30466"
-         x="124.50652"
-         y="185.36069">E3 Condition State</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="124.6312"
-       y="135.06219"
-       id="text3924"><tspan
-         id="tspan4344"
-         x="124.6312"
-         y="135.06219">E19 Physical Object/</tspan><tspan
-         id="tspan4346"
-         x="124.6312"
-         y="140.35385">E20 Biological Object</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="94.774673"
-       y="134.58928"
-       id="text45929-0"><tspan
-         id="tspan48157"
-         x="94.774673"
-         y="134.58928">P130</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;white-space:pre;inline-size:68.7917;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="10.583333"
-       y="21.166666"
-       id="text36646"><tspan
-         x="10.583333"
-         y="21.166666"
-         id="tspan2101">General Data </tspan><tspan
-         x="10.583333"
-         y="31.750003"
-         id="tspan2103">Model of </tspan><tspan
-         x="10.583333"
-         y="42.333339"
-         id="tspan2105">Acquisitions in </tspan><tspan
-         x="10.583333"
-         y="52.916675"
-         id="tspan2107">the Chronik with </tspan><tspan
-         x="10.583333"
-         y="63.500011"
-         id="tspan2109">CIDOC CRM
-</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="39.617859"
-       y="114.24829"
-       id="text45929"><tspan
-         id="tspan48037"
-         x="39.617859"
-         y="114.24829">P2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="91.738953"
-       y="155.93111"
-       id="text45929-4"><tspan
-         id="tspan48077"
-         x="91.738953"
-         y="155.93111">P43</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="95.162415"
-       y="86.659851"
-       id="text45929-02"><tspan
-         id="tspan48017"
-         x="95.162415"
-         y="86.659851">P2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="145.48129"
-       y="13.710872"
-       id="text45929-6"><tspan
-         id="tspan47917"
-         x="145.48129"
-         y="13.710872">P46</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="191.06294"
-       y="59.988934"
-       id="text45929-04"><tspan
-         id="tspan47957"
-         x="191.06294"
-         y="59.988934">P23</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="121.83759"
-       y="68.053558"
-       id="text45929-3"><tspan
-         id="tspan47937"
-         x="121.83759"
-         y="68.053558">P22</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="190.75851"
-       y="106.78826"
-       id="text45929-7"><tspan
-         id="tspan47997"
-         x="190.75851"
-         y="106.78826">P53</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="138.1125"
-       y="113.24165"
-       id="text45929-48"><tspan
-         id="tspan48057"
-         x="138.1125"
-         y="113.24165">P24</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="238.51701"
-       y="65.105431"
-       id="text45929-45"><tspan
-         id="tspan47977"
-         x="238.51701"
-         y="65.105431">P53</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="198.08928"
-       y="134.89369"
-       id="text45929-2"><tspan
-         id="tspan48117"
-         x="198.08928"
-         y="134.89369">P31</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="190.72475"
-       y="166.51445"
-       id="text45929-69"><tspan
-         id="tspan48137"
-         x="190.72475"
-         y="166.51445">P34</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-       x="138.66753"
-       y="159.79251"
-       id="text45929-021"><tspan
-         id="tspan48097"
-         x="138.66753"
-         y="159.79251">P44</tspan></text>
-  </g>
-</svg>
+
+        <svg
+        :class="smaller ? 'small': 'normal'" 
+        width="297mm"
+        height="210mm"
+        viewBox="0 0 297 210"
+        version="1.1"
+        id="svg5"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:svg="http://www.w3.org/2000/svg">
+        <defs
+            id="defs2">
+            <marker
+            style="overflow:visible"
+            id="TriangleOutM"
+            refX="0.0"
+            refY="0.0"
+            orient="auto">
+            <path
+                transform="scale(0.4)"
+                style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+                d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+                id="path33432" />
+            </marker>
+            <marker
+            style="overflow:visible"
+            id="TriangleOutL"
+            refX="0.0"
+            refY="0.0"
+            orient="auto">
+            <path
+                transform="scale(0.8)"
+                style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+                d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+                id="path33429" />
+            </marker>
+            <marker
+            style="overflow:visible;"
+            id="Arrow1Lend"
+            refX="0.0"
+            refY="0.0"
+            orient="auto">
+            <path
+                transform="scale(0.8) rotate(180) translate(12.5,0)"
+                style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+                d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+                id="path33290" />
+            </marker>
+            <marker
+            style="overflow:visible"
+            id="Arrow1Lstart"
+            refX="0.0"
+            refY="0.0"
+            orient="auto">
+            <path
+                transform="scale(0.8) translate(12.5,0)"
+                style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+                d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+                id="path33287" />
+            </marker>
+        </defs>
+        <g
+            id="layer1">
+            <rect
+            style="display:inline;fill:#5a50c4;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6"
+            width="60.854168"
+            height="23.812494"
+            x="119.06249"
+            y="124.35417"
+            ry="0.76862514" />
+            <rect
+            style="fill:#3b95c4;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2"
+            width="60.854168"
+            height="23.812494"
+            x="219.60416"
+            y="29.104176"
+            ry="0.76862514" />
+            <rect
+            style="fill:#06b67e;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9"
+            width="60.854168"
+            height="23.812494"
+            x="18.520828"
+            y="124.35417"
+            ry="0.76862514" />
+            <rect
+            style="fill:#fc3915;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3"
+            width="60.854168"
+            height="23.812494"
+            x="219.60416"
+            y="171.97917"
+            ry="0.76862514" />
+            <rect
+            style="fill:#06b67e;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-7"
+            width="60.854168"
+            height="23.812494"
+            x="18.520832"
+            y="76.729172"
+            ry="0.76862514" />
+            <rect
+            style="fill:#50c4c2;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-0"
+            width="60.854168"
+            height="23.812494"
+            x="18.520834"
+            y="171.97917"
+            ry="0.76862514" />
+            <rect
+            style="fill:#b560d4;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-93"
+            width="60.854168"
+            height="23.812494"
+            x="119.0625"
+            y="29.104176"
+            ry="0.76862514" />
+            <rect
+            style="fill:#fc3915;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-33"
+            width="60.854168"
+            height="23.812494"
+            x="119.06249"
+            y="76.729164"
+            ry="0.76862514" />
+            <rect
+            style="fill:#fc7715;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-4"
+            width="60.854168"
+            height="23.812494"
+            x="219.60416"
+            y="76.729172"
+            ry="0.76862514" />
+            <rect
+            style="fill:#fc3915;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-3"
+            width="60.854168"
+            height="23.812494"
+            x="219.60416"
+            y="124.35417"
+            ry="0.76862514" />
+            <rect
+            style="fill:#50c4c2;fill-opacity:0.666667;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+            id="rect848-2-6-9-3-9"
+            width="60.854168"
+            height="23.812494"
+            x="119.06249"
+            y="171.97917"
+            ry="0.76862514" />
+        </g>
+        <g
+            id="layer2"
+            style="display:inline">
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 119.0625,89.958333 H 82.020833"
+            id="path33183" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 47.625,124.35417 V 103.1875"
+            id="path33185" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 119.0625,42.333333 H 105.83333 V 15.875 H 190.5 v 26.458333 h -7.9375"
+            id="path33187" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 132.29166,148.16666 V 158.75 H 47.625 v 10.58333"
+            id="path33189" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="m 148.16666,148.16666 1e-5,21.16667"
+            id="path33191" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 219.60417,185.20833 H 201.08333 V 158.75 h -37.04167 l 1e-5,-7.9375"
+            id="path33193" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 219.60417,137.58333 H 182.5625"
+            id="path33195" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="m 164.04167,124.35417 -1e-5,-13.22917 h 37.04167 V 89.958332 l 15.875,10e-7"
+            id="path33197" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 132.29167,76.729167 V 55.5625"
+            id="path33201" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="m 164.04167,76.729167 -1e-5,-13.229168 h 37.04167 V 42.333333 h 15.875"
+            id="path33203" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 248.70833,52.916666 V 74.083333"
+            id="path33205" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="M 119.0625,137.58333 H 82.020832"
+            id="path33957" />
+            <path
+            style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleOutM);stop-color:#000000;stop-opacity:1"
+            d="m 148.16666,100.54167 1e-5,21.16666"
+            id="path33199" />
+        </g>
+        <g
+            id="layer3"
+            style="display:inline">
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="224.89581"
+            y="37.041676"
+            id="text3924-44"><tspan
+                id="tspan6537"
+                x="224.89581"
+                y="37.041676">E21 Person/</tspan><tspan
+                id="tspan6539"
+                x="224.89581"
+                y="42.333336">E39 Actor/</tspan><tspan
+                id="tspan6541"
+                x="224.89581"
+                y="47.625">E74 Group</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="23.991188"
+            y="137.55168"
+            id="text3924-4"><tspan
+                id="tspan6230"
+                x="23.991188"
+                y="137.55168">E28 Conceptual Object</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;white-space:pre;inline-size:42.8875;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="224.34171"
+            y="185.08533"
+            id="text3924-4-5"
+            transform="translate(-0.61330689,-2.2999009)"><tspan
+                x="224.34171"
+                y="185.08533"
+                id="tspan2097">E14 Condition </tspan><tspan
+                x="224.34171"
+                y="191.25894"
+                id="tspan2099">Assessment</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="23.438435"
+            y="90.083023"
+            id="text14250"><tspan
+                id="tspan14472"
+                x="23.438435"
+                y="90.083023">E55 Type</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="23.715488"
+            y="185.3607"
+            id="text17644"><tspan
+                id="tspan17800"
+                x="23.715488"
+                y="185.3607">E54 Dimension</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            x="124.5342"
+            y="42.485691"
+            id="text19520"><tspan
+                id="tspan20782"
+                x="124.5342"
+                y="42.485691">E78 Curated Holding</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="124.50652"
+            y="87.61721"
+            id="text25868"><tspan
+                id="tspan26222"
+                x="124.50652"
+                y="87.61721">E8 Acquisition/</tspan><tspan
+                id="tspan26224"
+                x="124.50652"
+                y="92.908875">E96 Purchase</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="224.79881"
+            y="89.833649"
+            id="text28142"><tspan
+                id="tspan28166"
+                x="224.79881"
+                y="89.833649">E53 Place</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="224.92351"
+            y="137.45865"
+            id="text29094"><tspan
+                id="tspan29118"
+                x="224.92351"
+                y="137.45865">E11 Modification</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="124.50652"
+            y="185.36069"
+            id="text30442"><tspan
+                id="tspan30466"
+                x="124.50652"
+                y="185.36069">E3 Condition State</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="124.6312"
+            y="135.06219"
+            id="text3924"><tspan
+                id="tspan4344"
+                x="124.6312"
+                y="135.06219">E19 Physical Object/</tspan><tspan
+                id="tspan4346"
+                x="124.6312"
+                y="140.35385">E20 Biological Object</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="94.774673"
+            y="134.58928"
+            id="text45929-0"><tspan
+                id="tspan48157"
+                x="94.774673"
+                y="134.58928">P130</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;white-space:pre;inline-size:68.7917;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="10.583333"
+            y="21.166666"
+            id="text36646"><tspan
+                x="10.583333"
+                y="21.166666"
+                id="tspan2101">General Data </tspan><tspan
+                x="10.583333"
+                y="31.750003"
+                id="tspan2103">Model of </tspan><tspan
+                x="10.583333"
+                y="42.333339"
+                id="tspan2105">Acquisitions in </tspan><tspan
+                x="10.583333"
+                y="52.916675"
+                id="tspan2107">the Chronik with </tspan><tspan
+                x="10.583333"
+                y="63.500011"
+                id="tspan2109">CIDOC CRM
+        </tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="39.617859"
+            y="114.24829"
+            id="text45929"><tspan
+                id="tspan48037"
+                x="39.617859"
+                y="114.24829">P2</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="91.738953"
+            y="155.93111"
+            id="text45929-4"><tspan
+                id="tspan48077"
+                x="91.738953"
+                y="155.93111">P43</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="95.162415"
+            y="86.659851"
+            id="text45929-02"><tspan
+                id="tspan48017"
+                x="95.162415"
+                y="86.659851">P2</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="145.48129"
+            y="13.710872"
+            id="text45929-6"><tspan
+                id="tspan47917"
+                x="145.48129"
+                y="13.710872">P46</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="191.06294"
+            y="59.988934"
+            id="text45929-04"><tspan
+                id="tspan47957"
+                x="191.06294"
+                y="59.988934">P23</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="121.83759"
+            y="68.053558"
+            id="text45929-3"><tspan
+                id="tspan47937"
+                x="121.83759"
+                y="68.053558">P22</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="190.75851"
+            y="106.78826"
+            id="text45929-7"><tspan
+                id="tspan47997"
+                x="190.75851"
+                y="106.78826">P53</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="138.1125"
+            y="113.24165"
+            id="text45929-48"><tspan
+                id="tspan48057"
+                x="138.1125"
+                y="113.24165">P24</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="238.51701"
+            y="65.105431"
+            id="text45929-45"><tspan
+                id="tspan47977"
+                x="238.51701"
+                y="65.105431">P53</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="198.08928"
+            y="134.89369"
+            id="text45929-2"><tspan
+                id="tspan48117"
+                x="198.08928"
+                y="134.89369">P31</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="190.72475"
+            y="166.51445"
+            id="text45929-69"><tspan
+                id="tspan48137"
+                x="190.72475"
+                y="166.51445">P34</tspan></text>
+            <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+            x="138.66753"
+            y="159.79251"
+            id="text45929-021"><tspan
+                id="tspan48097"
+                x="138.66753"
+                y="159.79251">P44</tspan></text>
+        </g>
+        </svg>
+
 
 
 </template>
@@ -471,13 +474,22 @@
 <script>
 export default {
     name: 'AcquisitionsModel',
+    props: {
+        smaller: Boolean
+    }
 }
 </script>
 
 <style scoped>
-    svg {
+    .small {
         width: 60%;
         height: 60%;
         margin-left: 20%;
+    }
+
+    .normal {
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
     }
 </style>

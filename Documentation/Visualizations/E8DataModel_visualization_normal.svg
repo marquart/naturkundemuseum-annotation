@@ -4,7 +4,7 @@
 <svg
    width="297mm"
    height="210mm"
-   viewBox="0 0 297 210"
+   viewBox="0 0 296.99999 210"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -14,49 +14,49 @@
     <marker
        style="overflow:visible"
        id="TriangleOutM"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto">
       <path
          transform="scale(0.4)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
          id="path33432" />
     </marker>
     <marker
        style="overflow:visible"
        id="TriangleOutL"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto">
       <path
          transform="scale(0.8)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
          id="path33429" />
     </marker>
     <marker
-       style="overflow:visible;"
+       style="overflow:visible"
        id="Arrow1Lend"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto">
       <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path33290" />
     </marker>
     <marker
        style="overflow:visible"
        id="Arrow1Lstart"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto">
       <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path33287" />
     </marker>
   </defs>
@@ -212,7 +212,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="224.89581"
        y="37.041676"
        id="text3924-44"><tspan
@@ -221,13 +221,13 @@
          y="37.041676">E21 Person/</tspan><tspan
          id="tspan6539"
          x="224.89581"
-         y="42.333336">E39 Actor/</tspan><tspan
+         y="43.215286">E39 Actor/</tspan><tspan
          id="tspan6541"
          x="224.89581"
-         y="47.625">E74 Group</tspan></text>
+         y="49.388901">E74 Group</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="23.991188"
        y="137.55168"
        id="text3924-4"><tspan
@@ -243,13 +243,13 @@
        transform="translate(-0.61330689,-2.2999009)"><tspan
          x="224.34171"
          y="185.08533"
-         id="tspan2097">E14 Condition </tspan><tspan
+         id="tspan1261">E14 Condition </tspan><tspan
          x="224.34171"
          y="191.25894"
-         id="tspan2099">Assessment</tspan></text>
+         id="tspan1263">Assessment</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="23.438435"
        y="90.083023"
        id="text14250"><tspan
@@ -258,7 +258,7 @@
          y="90.083023">E55 Type</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="23.715488"
        y="185.3607"
        id="text17644"><tspan
@@ -267,7 +267,7 @@
          y="185.3607">E54 Dimension</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="124.5342"
        y="42.485691"
        id="text19520"><tspan
@@ -276,7 +276,7 @@
          y="42.485691">E78 Curated Holding</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="124.50652"
        y="87.61721"
        id="text25868"><tspan
@@ -285,10 +285,10 @@
          y="87.61721">E8 Acquisition/</tspan><tspan
          id="tspan26224"
          x="124.50652"
-         y="92.908875">E96 Purchase</tspan></text>
+         y="93.790825">E96 Purchase</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="224.79881"
        y="89.833649"
        id="text28142"><tspan
@@ -297,7 +297,7 @@
          y="89.833649">E53 Place</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="224.92351"
        y="137.45865"
        id="text29094"><tspan
@@ -306,7 +306,7 @@
          y="137.45865">E11 Modification</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="124.50652"
        y="185.36069"
        id="text30442"><tspan
@@ -315,7 +315,7 @@
          y="185.36069">E3 Condition State</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal ;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
        x="124.6312"
        y="135.06219"
        id="text3924"><tspan
@@ -324,7 +324,7 @@
          y="135.06219">E19 Physical Object/</tspan><tspan
          id="tspan4346"
          x="124.6312"
-         y="140.35385">E20 Biological Object</tspan></text>
+         y="141.23581">E20 Biological Object</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:ordinal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
@@ -342,19 +342,19 @@
        id="text36646"><tspan
          x="10.583333"
          y="21.166666"
-         id="tspan2101">General Data </tspan><tspan
+         id="tspan1265">General Data </tspan><tspan
          x="10.583333"
          y="31.750003"
-         id="tspan2103">Model of </tspan><tspan
+         id="tspan1267">Model of </tspan><tspan
          x="10.583333"
          y="42.333339"
-         id="tspan2105">Acquisitions in </tspan><tspan
+         id="tspan1269">Acquisitions in </tspan><tspan
          x="10.583333"
          y="52.916675"
-         id="tspan2107">the Chronik with </tspan><tspan
+         id="tspan1271">the Chronik with </tspan><tspan
          x="10.583333"
          y="63.500011"
-         id="tspan2109">CIDOC CRM
+         id="tspan1273">CIDOC CRM
 </tspan></text>
     <text
        xml:space="preserve"

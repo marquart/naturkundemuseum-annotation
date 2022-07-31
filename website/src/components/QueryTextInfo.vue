@@ -5,7 +5,7 @@
             <p>The annotated data is modeled in a <strong>knowledge graph</strong>. Every semantic entity is connected to at least another semantic entity via a labeled edge in order to preserve the context the entity is embedded in. The labels for clasifying semantic entities and these so called properties are defined in the Ontology of the <a href="https://cidoc-crm.org" target="_blank">CIDOC Conceptual Reference Model (CRM)</a>.</p>
             <p>The majority of the data is <strong>centered around an acquisition</strong> in order to maintain the textual context of it. The general data model looks like this:</p>
 
-            <AcquisitionsModel/>
+            <AcquisitionsModel :smaller="true"/>
 
             <p>We decided to enrich the knowledge graph with <strong>artificial entities</strong> wich have no explicit position in the source text because of:</p>
             <ol>
@@ -25,6 +25,7 @@
 
 <script>
 import AcquisitionsModel from './SVG/AcquisitionsModel.vue'
+
 export default {
     name: 'QueryTextInfo',
     components: {

@@ -1,7 +1,10 @@
 <template>
     <div>
         <div v-show="loadError" class="errormsg"><strong>{{errorMsg}}</strong></div>
-        <p>As we annotated the acqusitions of objects over many years, it made sense to develop a tool which can be used to analyze the more consistent entities over the years more abstractly. It turned out that givers, original locations and the receiving collections are the most consistent information points. With the search bar below you can search for entities of either one of the three and get an overview of which of the entities of the other two types are connected to it over the years. The color and size indicate how much the author of the Chronik elaborated on each underlying acquisition compared to other acquisitions and can be interpreted as a level of appreciation of this transaction in the context of the gift economy.</p>
+        <p>As we annotated the acqusitions of objects over many years, it made sense to develop a tool which can be used to analyze the more consistent entities over the years more abstractly. It turned out that givers, original locations and the receiving collections are the most consistent information points. With the search bar below you can search for entities of either one of the three and get an overview of which of the entities of the other two types are connected to it over the years.</p>
+        <p>The color and size indicate how much the author of the Chronik elaborated on each underlying acquisition compared to other acquisitions and can be interpreted as a level of appreciation of this specific transaction in the context of the gift economy. The more information the author packed into the description of a transaction, the higher the weight we gave it. The information points we have considered are primarily original locations (e.g. <span class="entityClick" @click="emitDisplayTextOf('11719')">"Dar-es-Salaam"</span>) & taxonomic classifications (e.g. <span class="entityClick" @click="emitDisplayTextOf('23459')">"Hirundo rustica"</span>) of the objects transferred and especially subjective assessments about the value and dimensions, like <span class="entityClick" @click="emitDisplayTextOf('44789')">"sauber präpariert"</span>, <span class="entityClick" @click="emitDisplayTextOf('34588')">"überaus wertvoll"</span> or <span class="entityClick" @click="emitDisplayTextOf('32397')">"sehr große Anzahl"</span>.</p>
+        <p>The distribution of these weights over all identified acquisitions looks like this:</p>
+        <AcquisitionsWeights/>
         <div class="modeselection">
             <p class="mode" :style="[mode === 0 ? focusStyle : unFocusStyle]" @click="navigate(0)">Givers</p>
             <p class="mode" :style="[mode === 1 ? focusStyle : unFocusStyle]" @click="navigate(1)">Locations</p>
@@ -17,6 +20,7 @@
 </template>
 
 <script>
+import AcquisitionsWeights from './SVG/AcquisitionsWeights.vue'
 import AnalysisTable from './AnalysisTable.vue';
 import EntitySearcher from './EntitySearcher.vue'
 import AnalysisSearchResults from './AnalysisSearchResults.vue'
@@ -30,6 +34,7 @@ export default {
     },
 
     components : {
+        AcquisitionsWeights,
         EntitySearcher,
         AnalysisTable,
         AnalysisSearchResults,
@@ -226,5 +231,21 @@ export default {
     
     #button:hover {
         background: #EBEBEB;
+    }
+
+    .entityClick {
+        display: inline-block;
+        padding: 1px;
+        margin: 2px;
+        border: 1px solid #f2f2f2;
+        background: #FFF0;/*#EBEBEB;*/
+        color: #7da30b;
+        
+    }
+
+    .entityClick:hover {
+        cursor: pointer;
+        border: 1px solid #000000;
+        text-decoration: underline;   
     }
 </style>

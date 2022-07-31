@@ -200,6 +200,7 @@ export default {
         width: 90%;
         display: block;
         line-height: 1.5;
+        font-size: 12pt;
     }
 
     #navigation {
