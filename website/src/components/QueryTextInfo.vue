@@ -2,7 +2,7 @@
     <div>
         <p class="bttn" @click="toggleIsOpen">{{isOpen ? '🡻': '🡺'}} Info</p>
         <div v-show="isOpen" class="info">
-            <p>The annotated data is modeled in a <strong>knowledge graph</strong>. Every semantic entity is connected to at least another semantic entity via a labeled edge in order to preserve the context the entity is embedded in. The labels for clasifying semantic entities and these so called properties are defined in the Ontology of the <a href="https://cidoc-crm.org" target="_blank">CIDOC Conceptual Reference Model (CRM)</a>.</p>
+            <p>The annotated data is modeled in a <strong>knowledge graph</strong>. Every semantic entity is connected to at least another semantic entity via a labeled edge in order to preserve the context the entity is embedded in. The labels for classifying semantic entities and these so called properties are defined in the ontology of the <a href="https://cidoc-crm.org" target="_blank">CIDOC Conceptual Reference Model (CRM)</a>.</p>
             <p>The majority of the data is <strong>centered around an acquisition</strong> in order to maintain the textual context of it. The general data model looks like this:</p>
 
             <AcquisitionsModel :smaller="true"/>

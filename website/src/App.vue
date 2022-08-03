@@ -27,6 +27,23 @@
 
             <hr/>
             <p>Our work builds upon the version of the Chronik <a href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534" target="_blank">digitized</a> by the Library of the Humboldt-University and is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC-BY-NC-SA</a>.</p>
+            <div id="impressumBox">
+                <p id="impressumClick" @click="showImpressum = !showImpressum">Impressum</p>
+                <p v-show="showImpressum">
+                    Museum für Naturkunde<br>
+                    Department 'Humanities of Nature'<br>
+                    Invalidenstraße 43<br>
+                    10115 Berlin, Germany<br><br>
+                    Landesunmittelbare rechtsfähige Stiftung des öffentlichen Rechts<br>
+
+                    phone: +49 (0)30 889140-8591<br>
+                    fax: +49 (0)30 889140-8561<br>
+                    email: info(at)mfn.berlin<br><br>
+
+                    Authorized representative person: Stephan Junker (Managing Director)<br>
+                    Editorial representative person: <a href="https://www.museumfuernaturkunde.berlin/en/about/team/ina.heumann" target="_blank">Ina Heumann</a>
+                </p>
+            </div>
         </div>
     </div>
 </template>
@@ -72,6 +89,7 @@ export default {
             backend: backend,
             loadError: false,
             errorMsg: "",
+            showImpressum: false,
         }
     },
 
@@ -279,6 +297,23 @@ export default {
         color: white;
         border: 3px solid white;
         margin-bottom: 1ex;
+    }
+
+    #impressumBox {
+        display: inline-block;
+        border: 1px solid #7da30b;
+        padding: 1ex;
+        
+    }
+
+    #impressumClick {
+        color: #7da30b;
+        margin: 0px;
+    }
+
+    #impressumClick:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
 
     @media screen and (max-width: 700px) {
