@@ -11,9 +11,11 @@ def build_citation(year, page, VOLUME_TABLE):
     else:
         year_range = f"{year}/{str(year+1)[2:]}"
     if year in VOLUME_TABLE:
-        return f"Chronik der Friedrich-Wilhelms-Universität zu Berlin, Vol. {VOLUME_TABLE[year]} ({year_range}), {page}."
+        if page: return f"Chronik der Friedrich-Wilhelms-Universität zu Berlin, Vol. {VOLUME_TABLE[year]} ({year_range}), {page}."
+        return f"Chronik der Friedrich-Wilhelms-Universität zu Berlin, Vol. {VOLUME_TABLE[year]} ({year_range})."
     else:
-        return f"Chronik der Friedrich-Wilhelms-Universität zu Berlin ({year_range}), {page}."
+       if page: return f"Chronik der Friedrich-Wilhelms-Universität zu Berlin ({year_range}), {page}."
+       return f"Chronik der Friedrich-Wilhelms-Universität zu Berlin ({year_range})."
 
 
 def build_URL_table(datapath="../../Data/Chronik/", savepath=""):
@@ -50,17 +52,20 @@ def get_URL_for_entity(entities, filepath=""):
         URL_TABLE, ORIGINAL_PAGES = build_URL_table()
     
     VOLUME_TABLE = {year:vol for vol, year in enumerate(range(1887, 1916), start=1)}
-    for e in entities:
-        assert isinstance(e, SemanticEntity)
-        if e.page and e.page > -1:
-            e.url = URL_TABLE[e.txt_id][str(e.page)]
-            e.original_page = ORIGINAL_PAGES[e.txt_id][str(e.page)]
-            e.cite = build_citation(e.year, e.original_page, VOLUME_TABLE)
-        else:
-            e.url = ""
-            e.original_page = 0
-            e.cite = ""
-    return entities
+    if entities:
+        for e in entities:
+            assert isinstance(e, SemanticEntity)
+            if e.page and e.page > -1:
+                e.url = URL_TABLE[e.txt_id][str(e.page)]
+                e.original_page = ORIGINAL_PAGES[e.txt_id][str(e.page)]
+                e.cite = build_citation(e.year, e.original_page, VOLUME_TABLE)
+            else:
+                e.url = ""
+                e.original_page = 0
+                e.cite = ""
+        return entities
+    else:
+        return URL_TABLE, ORIGINAL_PAGES, VOLUME_TABLE
 
 if __name__ == "__main__":
     URL_TABLE, ORIGINAL_PAGES = build_URL_table(savepath="../Data/URLS.json")
