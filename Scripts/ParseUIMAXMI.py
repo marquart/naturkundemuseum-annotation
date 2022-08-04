@@ -312,7 +312,7 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     else: entities = set(entities)
     
     assert len(set(e.id for e in entities)) == len(entities)
-    return text, corrector.lines, entities, properties
+    return text, corrector.lines, corrector.pages, entities, properties
 
 def delete_property_doublettes(container):
     c = 0
@@ -488,7 +488,7 @@ def process_directory(dirpath, save=False, consolidate=True):
         if file.endswith(".xmi"):
             year, institution, page_begin, page_end = extract_metadata(file)
             
-            text, lines, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate, save_anchors="../Data/INCEpTION/Used_Anchors.txt")
+            text, lines, pages, entities, properties = parse(os.path.join(dirpath, file), year=year, institution=institution, consolidate=consolidate, save_anchors="../Data/INCEpTION/Used_Anchors.txt")
             
             class_counter.update([e.type for e in entities])
             properties_counter.update([p.type for p in properties])
@@ -498,7 +498,7 @@ def process_directory(dirpath, save=False, consolidate=True):
             container.entities += entities
             container.properties += properties
             
-            container.texts.append({'Year':year, 'Institution':institution,'Page_Begin':page_begin, 'Page_End':page_end, 'Text':text, 'Lines':lines, 'Text_ID': f"{institution[:3]}_{year}"})
+            container.texts.append({'Year':year, 'Institution':institution,'Page_Begin':page_begin, 'Page_End':page_end, 'Text':text, 'Lines':lines, 'Text_ID': f"{institution[:3]}_{year}", 'Pages':pages})
             assert len(container.entities) == prev_entities+len(entities) and len(container.properties) == prev_properties+len(properties)
             
             #for_pickling.append(get_data_for_pickling(file, lines, text, entities, properties))
@@ -513,7 +513,7 @@ def process_directory(dirpath, save=False, consolidate=True):
 
         container.entities += global_entities
         container.properties += global_properties
-        container.texts.append({'Year':0, 'Institution':'Metadata','Page_Begin':0, 'Page_End':0, 'Text':"", 'Lines':["Artificially generated global metadata",], 'Text_ID': "Met_0"})
+        container.texts.append({'Year':0, 'Institution':'Metadata','Page_Begin':0, 'Page_End':0, 'Text':"", 'Lines':["Artificially generated global metadata",], 'Text_ID': "Met_0", 'Pages':{}})
         class_counter.update([e.type for e in global_entities])
         properties_counter.update([p.type for p in global_properties])
         

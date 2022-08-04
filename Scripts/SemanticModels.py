@@ -64,6 +64,7 @@ class Corrector(object):
         self.offsets           = {}
         self.text              = text
         self.pagenumbers       = {}
+        self.pages             = {} #Pageno:text
         self.linenumbers       = {}
         self.lineidx_from_orig = {0:0,}
         self.lines             = []
@@ -125,8 +126,16 @@ class Corrector(object):
         BREAK_PATTERN = re.compile(r"\r?\n\r?\n====PAGEBREAK TO (\d+?)====\r?\n\r?\n", flags=re.MULTILINE)
         begin = BEGIN_PATTERN.search(self.text)
         self.pagenumbers[begin.end()] = int(begin.group(1))
+
+        pageBreakMatches = [begin]
         for match in BREAK_PATTERN.finditer(self.text):
             self.pagenumbers[match.end()] = int(match.group(1))
+            pageBreakMatches.append(match)
+
+        for start, end in zip(pageBreakMatches, pageBreakMatches[1:]):
+            self.pages[self.pagenumbers[start.end()]] = self.text[start.end():end.start()]
+        last_page = pageBreakMatches[-1].end()
+        self.pages[self.pagenumbers[last_page]] = self.text[last_page:]
 
         
     def set_linenumbers(self):
