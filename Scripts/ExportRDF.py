@@ -21,7 +21,9 @@ def saveGraph(G, filepath):
                 ("n3", "n3"),
     )
     for fileEnding, format in formats:
-        G.serialize(destination=os.path.join(filepath, f"SemanticGraph.{fileEnding}"), format=format)
+        destination = os.path.join(filepath, f"SemanticGraph.{fileEnding}")
+        G.serialize(destination=destination, format=format)
+        print(f"Saved graph to '{destination}'")
 
 def makeValidURI(s):
     return s.replace(' ', '_')
@@ -34,14 +36,16 @@ def createEntityNodes(G, data):
         G.add((node, RDF.type, CRM[makeValidURI(e.short_type)]))
         result[e] = node
     
-    addedProperty = 0
+    print(f"    Graph has {len(G)} triples after creating {len(result)} semantic entities")
+    addedProperties = 0
     for e in data.entities:
         subj = result[e]
         for p in e.outgoing:
             obj = result[p.target]
             G.add((subj, CRM[makeValidURI(p.short_type)], obj))
-            addedProperty += 1
-    assert addedProperty == len(data.properties)
+            addedProperties += 1
+    assert addedProperties == len(data.properties)
+    print(f"    Graph has {len(G)} triples after connecting the semantic entities via {addedProperties} properties")
     return result
 
 def createDocumentNodes(G, entityNodes, data):
@@ -50,6 +54,10 @@ def createDocumentNodes(G, entityNodes, data):
     Eine Seite ist ein E31 Document (verbunden durch: Ausgabe-->P148 has component-->Page)
     Jede nicht-viruelle Entität ist verbunden mit Seite durch: 	Page-->P70 documents-->Entität
     '''
+    BASE_DOC = URIRef("urn:nbn:de:kobv:11-d-6653534")
+    G.add((BASE_DOC, RDF.type, CRM.E31))
+    G.add((BASE_DOC, RDFS.label, Literal("Chronik der Friedrich-Wilhelms-Universität zu Berlin", lang="de")))
+
     URL_TABLE, ORIGINAL_PAGES, VOLUME_TABLE = get_URL_for_entity(None, filepath="../Data/URLS.json")
     lookup = defaultdict(dict) # txt_id:page:node
     for txtData in data.texts:
@@ -57,9 +65,10 @@ def createDocumentNodes(G, entityNodes, data):
         year = txtData['Year']
         volume = URIRef(generateUUID())
         G.add((volume, RDF.type, CRM.E31))
+        G.add((BASE_DOC, CRM.P148, volume))
         G.add((volume, DCTERMS.date, Literal(txtData['Year'])))
 
-        citation = f"{build_citation(year, None, VOLUME_TABLE)[:-1]}, {txtData['Institution']}."
+        citation = f"{build_citation(year, None, VOLUME_TABLE)[:-1]}, {txtData['Institution']}, {txtData['Page_Begin']}-{txtData['Page_End']}."
         G.add((volume, RDFS.label, Literal(citation, lang="de")))
 
         for pageNo, pageContent in txtData['Pages'].items():
@@ -67,17 +76,21 @@ def createDocumentNodes(G, entityNodes, data):
             original_page = ORIGINAL_PAGES[txt_id][str(pageNo)]
             citation = build_citation(year, original_page, VOLUME_TABLE)
 
-            pageNode = URIRef(generateUUID())
+            pageNode = URIRef(url)
             G.add((pageNode, RDFS.label, Literal(citation, lang="de")))
             G.add((pageNode, RDF.type, CRM.E31))
+            G.add((pageNode, CRM.P190, Literal(pageContent.replace('\r',''), lang="de")))
             G.add((volume, CRM.P148, pageNode))
+
 
             lookup[txt_id][pageNo] = pageNode
 
+    print(f"    Graph has {len(G)} triples after creating document nodes")
     for e, node in entityNodes.items():
         if e.page > 0:
             pageNode = lookup[e.txt_id][e.page]
             G.add((pageNode, CRM.P70, node))
+    print(f"    Graph has {len(G)} triples after connecting semantic entities to document nodes")
     return lookup
 
 CRM = Namespace("http://www.cidoc-crm.org/cidoc-crm#")
