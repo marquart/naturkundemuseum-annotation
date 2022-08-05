@@ -32,8 +32,9 @@ def createEntityNodes(G, data):
     result = {}
     for e in data.entities:
         node = URIRef(generateUUID())
-        G.add((node, RDFS.label, Literal(e.string, lang="de")))
         G.add((node, RDF.type, CRM[makeValidURI(e.short_type)]))
+        G.add((node, RDFS.label, Literal(e.string, lang="de")))
+        G.add((node, CRM.P3, Literal(e.string, lang="de")))
         result[e] = node
     
     print(f"    Graph has {len(G)} triples after creating {len(result)} semantic entities")
@@ -99,7 +100,8 @@ if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     data = SemanticData(pickle_file)
 
-    G = Graph()
+    G = Graph(bind_namespaces="rdflib")
+    G.bind('cidoc_crm', CRM)
     nodes = createEntityNodes(G, data)
     documents = createDocumentNodes(G, nodes, data)
     saveGraph(G, "../Data/RDF/")
