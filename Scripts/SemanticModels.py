@@ -214,7 +214,7 @@ class SemanticEntity(object):
     virtuals = []
     IDs = itertools.count()
     SHORT_TYPE_PATTERN = re.compile(r"^(E\d+?) ")
-    COLORS = {'E41': '#debb9b', 'E63': '#50c4c2aa', 'E74': '#3b95c4aa', 'E21': '#3b95c4aa', 'E52': '#50c4c2aa', 'E55': '#06b67eaa', 'E85': '#fc3915aa', 'E28': '#06b67eaa', 'E19': '#5a50c4aa', 'E87': '#fc3915aa', 'E78': '#b560d4aa', 'E8': '#fc3915aa', 'E53': '#fc7715aa', 'E39': '#3b95c4aa', 'E54': '#50c4c2aa', 'E20': '#5a50c4aa', 'E35': '#debb9b', 'E77': '#b560d4aa', 'E9': '#fc3915aa', 'E12': '#fc3915aa', 'E60': '#debb9b', 'E7': '#fc3915aa', 'E96': '#fc3915aa', 'E86': '#fc3915aa', 'E57': '#5a50c4aa', 'E3': '#50c4c2aa', 'E66': '#fc3915aa', 'E29': '#debb9b', 'E73': '#debb9b', 'E11': '#fc3915aa', 'E14': '#fc3915aa', 'E79': '#fc3915aa'}
+    COLORS = {'E41': '#debb9baa', 'E63': '#50c4c2aa', 'E74': '#3b95c4aa', 'E21': '#3b95c4aa', 'E52': '#50c4c2aa', 'E55': '#06b67eaa', 'E85': '#fc3915aa', 'E28': '#06b67eaa', 'E19': '#5a50c4aa', 'E87': '#fc3915aa', 'E78': '#b560d4aa', 'E8': '#fc3915aa', 'E53': '#fc7715aa', 'E39': '#3b95c4aa', 'E54': '#50c4c2aa', 'E20': '#5a50c4aa', 'E35': '#debb9baa', 'E77': '#b560d4aa', 'E9': '#fc3915aa', 'E12': '#fc3915aa', 'E60': '#debb9baa', 'E7': '#fc3915aa', 'E96': '#fc3915aa', 'E86': '#fc3915aa', 'E57': '#5a50c4aa', 'E3': '#50c4c2aa', 'E66': '#fc3915aa', 'E29': '#debb9baa', 'E73': '#debb9baa', 'E11': '#fc3915aa', 'E14': '#fc3915aa', 'E79': '#fc3915aa'}
     def __init__(self, tag, corrector, anchors=None, virtual=False, year=0, institution=None, virtual_origin=None):
         '''virtual_origin: source from which virtual entity gets added in Postprocessing for page and line numbers'''
         self.id = next(SemanticEntity.IDs)
@@ -307,7 +307,7 @@ class SemanticEntity(object):
         
     def get_color(self):
         if self.short_type in SemanticEntity.COLORS: return SemanticEntity.COLORS[self.short_type]
-        else: return "#d3d3d3"
+        else: return "#d3d3d3aa"
     
     def verbose(self):
         return f"{self.type}: '{self.string}' ({self.id}, {self.institution} {self.year})"

@@ -7,6 +7,8 @@ import uuid
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
 from rdflib.namespace import RDF, RDFS, DCTERMS
 
+#from igraph import Graph as GraphML
+
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 from EntityURLResolver import get_URL_for_entity, build_citation
 
@@ -19,6 +21,7 @@ def saveGraph(G, filepath):
                 ("jsonld", "json-ld"),
                 ("nt", "nt11"),
                 ("n3", "n3"),
+                #("nq", "nquads")
     )
     for fileEnding, format in formats:
         destination = os.path.join(filepath, f"SemanticGraph.{fileEnding}")
@@ -61,6 +64,8 @@ def createDocumentNodes(G, entityNodes, data):
 
     URL_TABLE, ORIGINAL_PAGES, VOLUME_TABLE = get_URL_for_entity(None, filepath="../Data/URLS.json")
     lookup = defaultdict(dict) # txt_id:page:node
+    lookup["base"][0] = BASE_DOC
+
     for txtData in data.texts:
         txt_id = txtData['Text_ID']
         year = txtData['Year']
@@ -72,6 +77,7 @@ def createDocumentNodes(G, entityNodes, data):
         citation = f"{build_citation(year, None, VOLUME_TABLE)[:-1]}, {txtData['Institution']}, {txtData['Page_Begin']}-{txtData['Page_End']}."
         G.add((volume, RDFS.label, Literal(citation, lang="de")))
 
+        lookup[txt_id][0] = volume
         for pageNo, pageContent in txtData['Pages'].items():
             url = URL_TABLE[txt_id][str(pageNo)]
             original_page = ORIGINAL_PAGES[txt_id][str(pageNo)]
@@ -106,3 +112,5 @@ if __name__ == "__main__":
     documents = createDocumentNodes(G, nodes, data)
     saveGraph(G, "../Data/RDF/")
 
+    print(f"Graph has {len(list(G.subjects(unique=True)))} unique subjects (for {len(nodes)} semantic entities and {sum(len(v) for v in documents.values())} documents)")
+    #grahpml = GraphML(directed=True)

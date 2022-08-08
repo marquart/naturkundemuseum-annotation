@@ -2,10 +2,12 @@ import os
 from itertools import chain
 from collections import defaultdict
 import pickle
+from re import I
 
 from igraph import Graph
 
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
+from EntityURLResolver import get_URL_for_entity, build_citation
 
 def clean(txt):
     return txt.replace('\r\n', ' ').replace('\n', ' ').replace('‑', '').replace('-', '')
@@ -139,7 +141,65 @@ def buildGraphWithYearsAsGlue():
     #print(g.vs[2535])
     
     g.save("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/graph.graphml", format="graphml")
-    
+
+def connectViaDocuments(g, data, entity_node_lookup):
+    '''
+    Eine Ausgabe ist ein E31 Document
+    Eine Seite ist ein E31 Document (verbunden durch: Ausgabe-->P148 has component-->Page)
+    Jede nicht-viruelle Entität ist verbunden mit Seite durch: 	Page-->P70 documents-->Entität
+    '''
+    def ID_GENERATOR(entity_node_lookup):
+        i = max(entity_node_lookup.values())
+        while True:
+            i += 1
+            yield i
+    IDgenerator = ID_GENERATOR(entity_node_lookup)
+
+    BASE_ID = next(IDgenerator)
+    newNodes = {"Chronik der Friedrich-Wilhelms-Universität zu Berlin":BASE_ID}
+    newEdges = []
+
+    URL_TABLE, ORIGINAL_PAGES, VOLUME_TABLE = get_URL_for_entity(None, filepath="../Data/URLS.json")
+    lookup = defaultdict(dict) # txt_id:page:node
+
+    for txtData in data.texts:
+        txt_id = txtData['Text_ID']
+        year = txtData['Year']
+
+        volume = next(IDgenerator)
+        newEdges.append((BASE_ID, volume))
+
+        citation = f"{build_citation(year, None, VOLUME_TABLE)[:-1]}, {txtData['Institution']}, {txtData['Page_Begin']}-{txtData['Page_End']}."
+        assert citation not in newNodes
+        newNodes[citation] = volume
+
+        # Add Year
+        if year not in newNodes:
+            newNodes[year] = next(IDgenerator)
+        newEdges.append((volume, newNodes[year]))
+
+        for pageNo, pageContent in txtData['Pages'].items():
+            #url = URL_TABLE[txt_id][str(pageNo)]
+            original_page = ORIGINAL_PAGES[txt_id][str(pageNo)]
+            citation = build_citation(year, original_page, VOLUME_TABLE)
+
+            if citation not in newNodes:
+
+                pageNode = next(IDgenerator)
+                newEdges.append((volume, pageNode))
+                newNodes[citation] = pageNode
+            lookup[txt_id][pageNo] = newNodes[citation]
+
+    for e, node in entity_node_lookup.items():
+        if e.page > 0:
+            pageNode = lookup[e.txt_id][e.page]
+            newEdges.append((pageNode, node))
+
+    g.add_vertices(len(newNodes))
+    g.add_edges(newEdges)
+    #print(f"    Graph has {len(G)} triples after connecting semantic entities to document nodes")
+    return newNodes
+
     
 if __name__ == "__main__":
 
@@ -151,12 +211,18 @@ if __name__ == "__main__":
     g.add_vertices(len(data.entities))
     g.add_edges([(entity_node_lookup[p.source], entity_node_lookup[p.target]) for p in data.properties])
     
+    documentNodes = connectViaDocuments(g, data, entity_node_lookup) #Text: id
+    documentLabels = sorted(documentNodes, key=lambda x: documentNodes[x])
     
-    g.vs["Label"] = [e.short_type for e in data.entities] #+ ["E0 Metadata"]*len_glue
-    g.vs["Text"] = [e.string for e in data.entities] #+ [str(y) for y in year_node_lookup] + ins_strings
-    g.vs["Color"] = [e.color for e in data.entities]
+    g.vs["Label"] = [e.short_type for e in data.entities] + ["E31" if type(d) is str else "E61" for d in documentLabels] #+ ["E0 Metadata"]*len_glue
+    g.vs["Text"] = [e.string for e in data.entities] + [str(x) for x in documentLabels] #+ [str(y) for y in year_node_lookup] + ins_strings
+    g.vs["Color"] = [e.color[:7].upper() for e in data.entities] + ["#06B67E" if type(d) is str else "#DEBB9B" for d in documentLabels]
+    g.vs["r"] = [int(e.color[1:3], 16) for e in data.entities] + [6 if type(d) is str else 222 for d in documentLabels]
+    g.vs["g"] = [int(e.color[3:5], 16) for e in data.entities] + [182 if type(d) is str else 187 for d in documentLabels]
+    g.vs["b"] = [int(e.color[5:7], 16) for e in data.entities] + [126 if type(d) is str else 155 for d in documentLabels]
+    g.vs["a"] = [1.0 for e in data.entities] + [1.0 for d in documentLabels]
     
-    assert len(g.vs)==len(data.entities) and len(g.es)==len(data.properties)
-    savepath = "../Data/graph.graphml"
+    #assert len(g.vs)==len(data.entities) and len(g.es)==len(data.properties)
+    savepath = "../Data/RDF/SemanticGraph.graphml"
     g.save(savepath, format="graphml")
     print(f"\nBuild Graph with {len(g.vs)} nodes and {len(g.es)} edges")
