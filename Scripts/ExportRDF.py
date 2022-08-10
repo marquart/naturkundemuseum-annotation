@@ -4,7 +4,7 @@ from collections import defaultdict
 
 import uuid
 
-from rdflib import Graph, URIRef, Literal, BNode, Namespace
+from rdflib import Graph, URIRef, Literal, BNode, Namespace, ConjunctiveGraph
 from rdflib.namespace import RDF, RDFS, DCTERMS
 
 #from igraph import Graph as GraphML
@@ -15,6 +15,18 @@ from EntityURLResolver import get_URL_for_entity, build_citation
 def generateUUID():
     return uuid.uuid1().urn
 
+def saveQuads(G, filepath):
+    formats = ( ("trig","trig"),
+                ("nq","nquads"),
+    )
+    ds = ConjunctiveGraph() #identifier="naturkundemuseum-chronik"
+    ds += G
+    for fileEnding, format in formats:
+        destination = os.path.join(filepath, f"LosslessSemanticGraph.{fileEnding}")
+        ds.serialize(destination=destination, format=format)
+        print(f"Saved graph to '{destination}'")
+
+
 def saveGraph(G, filepath):
     formats = ( ("xml","pretty-xml"),
                 ("ttl", "turtle"),
@@ -24,7 +36,7 @@ def saveGraph(G, filepath):
                 #("nq", "nquads")
     )
     for fileEnding, format in formats:
-        destination = os.path.join(filepath, f"SemanticGraph.{fileEnding}")
+        destination = os.path.join(filepath, f"LosslessSemanticGraph.{fileEnding}")
         G.serialize(destination=destination, format=format)
         print(f"Saved graph to '{destination}'")
 
@@ -106,11 +118,12 @@ if __name__ == "__main__":
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     data = SemanticData(pickle_file)
 
-    G = Graph(bind_namespaces="rdflib")
+    G = Graph(identifier="naturkundemuseum-chronik", bind_namespaces="rdflib")
     G.bind('cidoc_crm', CRM)
     nodes = createEntityNodes(G, data)
     documents = createDocumentNodes(G, nodes, data)
     saveGraph(G, "../Data/RDF/")
+    saveQuads(G, "../Data/RDF/")
 
     print(f"Graph has {len(list(G.subjects(unique=True)))} unique subjects (for {len(nodes)} semantic entities and {sum(len(v) for v in documents.values())} documents)")
     #grahpml = GraphML(directed=True)

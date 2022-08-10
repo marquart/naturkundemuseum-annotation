@@ -142,7 +142,7 @@ def buildGraphWithYearsAsGlue():
     
     g.save("C:/Users/Aron/Documents/Naturkundemuseum/naturkundemuseum-annotation/Data/graph.graphml", format="graphml")
 
-def connectViaDocuments(g, data, entity_node_lookup):
+def connectViaDocuments(g, data, queens, entity_node_lookup):
     '''
     Eine Ausgabe ist ein E31 Document
     Eine Seite ist ein E31 Document (verbunden durch: Ausgabe-->P148 has component-->Page)
@@ -190,39 +190,91 @@ def connectViaDocuments(g, data, entity_node_lookup):
                 newNodes[citation] = pageNode
             lookup[txt_id][pageNo] = newNodes[citation]
 
-    for e, node in entity_node_lookup.items():
-        if e.page > 0:
-            pageNode = lookup[e.txt_id][e.page]
-            newEdges.append((pageNode, node))
+    if queens:
+        for e, queen in queens.items():
+            if e.page > 0:
+                node = entity_node_lookup[queen]
+                pageNode = lookup[e.txt_id][e.page]
+                newEdges.append((pageNode, node))
+    else:
+        for e, node in entity_node_lookup.items():
+            if e.page > 0:
+                pageNode = lookup[e.txt_id][e.page]
+                newEdges.append((pageNode, node))
 
     g.add_vertices(len(newNodes))
     g.add_edges(newEdges)
     #print(f"    Graph has {len(G)} triples after connecting semantic entities to document nodes")
     return newNodes
 
+
+def buildGraphWithConsolidatedSynonyms(g, data):
+    queens = {} #entity:entity_queen
+    entitiesToForget, propertiesToForget = set(), set()
+
+    for e in data.entities:
+        if e.short_type == "E55" and (e.string.startswith("Synonym for E21")):
+            for p in e.incoming:
+                app = p.source
+                queen = max(app.incoming, key=lambda x: len(x.source.string)).source
+                for pp in app.incoming:
+                    queens[pp.source] = queen
+                    propertiesToForget.add(pp)
+                if app in queens: del queens[app]
+                entitiesToForget.add(app)
+                propertiesToForget.add(p)
+            entitiesToForget.add(e)
+        else:
+            queens[e] = e
+
+    entity_node_lookup = {e:i for i,e in enumerate(set(queens.values()))}
+    #assert len(entity_node_lookup) == len(data.entities)-len(entitiesToForget)
+
+    edges = [(entity_node_lookup[queens[p.source]], entity_node_lookup[queens[p.target]]) for p in data.properties if p not in propertiesToForget]
+    assert len(edges) == len(data.properties)-len(propertiesToForget)
+
+    #print(max((max(s[0] for s in edges), max(s[1] for s in edges))), len(entity_node_lookup))
+    #print(edges[:5])
+
+    g.add_vertices(len(entity_node_lookup))
+    g.add_edges(edges)
+
+    return queens, entity_node_lookup
     
 if __name__ == "__main__":
 
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     data = SemanticData(pickle_file)
     entity_node_lookup = {e:i for i,e in enumerate(data.entities)}
+    consolidate = False
     
     g = Graph(directed=True)
-    g.add_vertices(len(data.entities))
-    g.add_edges([(entity_node_lookup[p.source], entity_node_lookup[p.target]) for p in data.properties])
+    if consolidate:
+        queens, entity_node_lookup = buildGraphWithConsolidatedSynonyms(g, data)
+    else:
+        queens = None
+        entity_node_lookup = {e:i for i,e in enumerate(data.entities)}
+        g.add_vertices(len(data.entities))
+        g.add_edges([(entity_node_lookup[p.source], entity_node_lookup[p.target]) for p in data.properties])
+
     
-    documentNodes = connectViaDocuments(g, data, entity_node_lookup) #Text: id
-    documentLabels = sorted(documentNodes, key=lambda x: documentNodes[x])
+    documentNodes = connectViaDocuments(g, data, queens, entity_node_lookup) #Text: id
     
-    g.vs["Label"] = [e.short_type for e in data.entities] + ["E31" if type(d) is str else "E61" for d in documentLabels] #+ ["E0 Metadata"]*len_glue
-    g.vs["Text"] = [e.string for e in data.entities] + [str(x) for x in documentLabels] #+ [str(y) for y in year_node_lookup] + ins_strings
-    g.vs["Color"] = [e.color[:7].upper() for e in data.entities] + ["#06B67E" if type(d) is str else "#DEBB9B" for d in documentLabels]
-    g.vs["r"] = [int(e.color[1:3], 16) for e in data.entities] + [6 if type(d) is str else 222 for d in documentLabels]
-    g.vs["g"] = [int(e.color[3:5], 16) for e in data.entities] + [182 if type(d) is str else 187 for d in documentLabels]
-    g.vs["b"] = [int(e.color[5:7], 16) for e in data.entities] + [126 if type(d) is str else 155 for d in documentLabels]
-    g.vs["a"] = [1.0 for e in data.entities] + [1.0 for d in documentLabels]
+    entityLabels = {i:e for e,i in entity_node_lookup.items()}
+    documentLabels = {i:e for e,i in documentNodes.items()}
+    assert len(entityLabels) == len(entity_node_lookup) and len(documentLabels) == len(documentNodes)
+    sortedEntities = sorted(entityLabels)
+    sortedDocuments = sorted(documentLabels)
+    
+    g.vs["Label"] = [entityLabels[i].short_type for i in sortedEntities] + ["E31" if type(documentLabels[d]) is str else "E61" for d in sortedDocuments] #+ ["E0 Metadata"]*len_glue
+    g.vs["Text"] = [entityLabels[i].string for i in sortedEntities] + [str(documentLabels[x]) for x in sortedDocuments] #+ [str(y) for y in year_node_lookup] + ins_strings
+    g.vs["Color"] = [entityLabels[i].color[:7].upper() for i in sortedEntities] + ["#06B67E" if type(documentLabels[d]) is str else "#DEBB9B" for d in sortedDocuments]
+    g.vs["r"] = [int(entityLabels[i].color[1:3], 16) for i in sortedEntities] + [6 if type(documentLabels[d]) is str else 222 for d in sortedDocuments]
+    g.vs["g"] = [int(entityLabels[i].color[3:5], 16) for i in sortedEntities] + [182 if type(documentLabels[d]) is str else 187 for d in sortedDocuments]
+    g.vs["b"] = [int(entityLabels[i].color[5:7], 16) for i in sortedEntities] + [126 if type(documentLabels[d]) is str else 155 for d in sortedDocuments]
+    g.vs["a"] = [1.0 for i in sortedEntities] + [1.0 for d in sortedDocuments]
     
     #assert len(g.vs)==len(data.entities) and len(g.es)==len(data.properties)
-    savepath = "../Data/RDF/SemanticGraph.graphml"
+    savepath = "../Data/RDF/LossySemanticGraph.graphml"
     g.save(savepath, format="graphml")
     print(f"\nBuild Graph with {len(g.vs)} nodes and {len(g.es)} edges")
