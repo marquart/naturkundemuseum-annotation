@@ -3,17 +3,6 @@ Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkund
 
 Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python sowie JSON) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Expoerte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
 
-## ToDO (until End of August)
-1. Compose Docker file (with nginx)
-2. Implement Triple Search instead of single search on website, explain possibilities of our data on website
-3. Document our approach, explain Annotation-to-Website pipeline in this ReadMe
-
-### Deadlines
-|                     | 06.08.                                            | 13.08.               | 20.08.                                                                     | 27.08                           |
-|---------------------|---------------------------------------------------|----------------------|----------------------------------------------------------------------------|---------------------------------|
-| **Website**         | 1. Data<br>2. Data functions                      | Project Information  | Deployment on test server                                                  | Deployment on production server |
-| **Persistent data** | Decision on format:<br>- raw RDF?<br>- N-Triples? | Wikidata-Integration | Export-Script                                                              | ---                             |
-| **Documentation**   |                                                   | Website Information  | 1. Data model<br>2. Annotation (esp. shortcuts/virtual)<br>3. Website Tech | Code                            |                         |                        |
 
 ## Annotation-Layers
 1. **OCR**: OCR-Fehler-Korrektur in einem Kommentar-Feld
