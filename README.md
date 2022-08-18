@@ -1,9 +1,9 @@
 # Naturkundemuseum-Annotation
 Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [CIDOC CRM](https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html) durch [INCEpTION](https://inception-project.github.io).
 
-Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
+Im Ordner [`Data`](./Data/) sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner [`Documentation`](./Documentation/) liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner [`Scripts`](./Scripts/) sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner [`website`](./website/) ist der Code für das Frontend der Website im Vue-Framework zu finden. 
 
-Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen des Museums. Die modellierten Daten liegen ohne Informationsverlust als RDF-Triples oder -Quads in `./Data/RDF/`.
+Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen des Museums. Die modellierten Daten liegen ohne Informationsverlust als RDF-Triples oder -Quads in [`./Data/RDF/`](./Data/RDF/).
 
 
 ## Reproduction-Guide
@@ -11,23 +11,23 @@ Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen d
 1. Install [INCEpTION](https://inception-project.github.io).
 2. Load latest Project file into INCEpTION [`./Data/INCEpTION/Saved_Projects/`](./Data/INCEpTION/Saved_Projects/)
 3. Annotate in INCEpTION
-4. Export Project in INCEpTION as `UIMA CAS XMI 1.1` to `./Data/INCEpTION/Saved_Projects/`
+4. Export Project in INCEpTION as `UIMA CAS XMI 1.1` to [`./Data/INCEpTION/Saved_Projects/`](./Data/INCEpTION/Saved_Projects/)
 5. If you haven't installed Python and dependencies (you need to do this only once):
     1. Install [Python (3.10)](https://www.python.org/downloads/)
     2. Navigate to `./Scripts/` in your command line
     3. Install required packages (I recommend in a [virtual environment](https://docs.python.org/3/library/venv.html)) via `pip install -r requirements.txt`
-6. Execute `py UnzipInceptionSavefile.py`. Your raw annotated data can now be found in `./Data/INCEpTION/UIMA_CAS_XMI/` (one UIMA XMI file per year and report)
-7. Execute `py ParseUIMAXMI.py`. The structure of all processed data is defined in `./Scripts/SemanticModels.py`. Your consolidated and enriched data can now be found:
-    1. As JSONs in `./Data/JSON/`
-    2. As one [pickled file](https://docs.python.org/3/library/pickle.html) in `./Data/ParsedSemanticAnnotations.pickle`
-    3. As one JSON for the website in `./website/public/webdata.json` (and one file with statistics for the website in `./website/public/class_stats.json`)
-8. In order to generate the data for the `Analyze`-Tab on Website: execute `py BuildAnalyticsWeb.py`. Three files will be written to `./Website/public/`
-    1. `./Website/public/Locations.json`
-    2. `./Website/public/Persons.json`
-    3. `./Website/public/Collections.json`
-9. Execute `py ExportRDF.py`. All consolidated and enriched data can now be found in `./Data/RDF/` as RDF-Triples or -Quads in different file formats
+6. Execute `py UnzipInceptionSavefile.py`. Your raw annotated data can now be found in [`./Data/INCEpTION/UIMA_CAS_XMI/`](./Data/INCEpTION/UIMA_CAS_XMI/) (one UIMA XMI file per year and report)
+7. Execute `py ParseUIMAXMI.py`. The structure of all processed data is defined in [`./Scripts/SemanticModels.py`](./Scripts/SemanticModels.py). Your consolidated and enriched data can now be found:
+    1. As JSONs in[ `./Data/JSON/`](./Data/JSON/)
+    2. As one [pickled file](https://docs.python.org/3/library/pickle.html) in [`./Data/ParsedSemanticAnnotations.pickle`](./Data/ParsedSemanticAnnotations.pickle)
+    3. As one JSON for the website in [`./website/public/webdata.json`](./website/public/webdata.json) (and one file with statistics for the website in [`./website/public/class_stats.json`](./website/public/class_stats.json))
+8. In order to generate the data for the `Analyze`-Tab on Website: execute `py BuildAnalyticsWeb.py`. Three files will be written to [`./Website/public/`](./Website/public/)
+    1. [`./Website/public/Locations.json`](./Website/public/Locations.json)
+    2. [`./Website/public/Persons.json`](./Website/public/Persons.json)
+    3. [`./Website/public/Collections.json`](./Website/public/Collections.json)
+9. Execute `py ExportRDF.py`. All consolidated and enriched data can now be found in [`./Data/RDF/`](./Data/RDF/) as RDF-Triples or -Quads in different file formats
 
-All scripts in `./Scripts/` that have not yet been mentioned are scripts that produce visualisations or exports for very specific queries.
+All scripts in [`./Scripts/`](./Scripts/) that have not yet been mentioned are scripts that produce visualisations or exports for very specific queries.
 
 
 ## Annotation-Guide
