@@ -1,18 +1,15 @@
 # Naturkundemuseum-Annotation
-Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [INCEpTION](https://inception-project.github.io).
+Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [CIDOC CRM](https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html) durch [INCEpTION](https://inception-project.github.io).
 
 Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
 
+Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen des Museums. Die modellierten Daten liegen ohne Informationsverlust als RDF-Triples oder -Quads in `./Data/RDF/`.
 
-## Annotation-Layers
-1. **OCR**: OCR-Fehler-Korrektur in einem Kommentar-Feld
-2. **SemanticEntities**: Semantische Entitäten
-3. **SemanticRelationships**: Verbindungen zwischen semantischen Entitäten
 
-## Reproduction Guide
+## Reproduction-Guide
 
 1. Install [INCEpTION](https://inception-project.github.io).
-2. Load latest Project file into INCEpTION `./Data/INCEpTION/Saved_Projects/`
+2. Load latest Project file into INCEpTION [`./Data/INCEpTION/Saved_Projects/`](./Data/INCEpTION/Saved_Projects/)
 3. Annotate in INCEpTION
 4. Export Project in INCEpTION as `UIMA CAS XMI 1.1` to `./Data/INCEpTION/Saved_Projects/`
 5. If you haven't installed Python and dependencies (you need to do this only once):
@@ -20,7 +17,7 @@ Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von IN
     2. Navigate to `./Scripts/` in your command line
     3. Install required packages (I recommend in a [virtual environment](https://docs.python.org/3/library/venv.html)) via `pip install -r requirements.txt`
 6. Execute `py UnzipInceptionSavefile.py`. Your raw annotated data can now be found in `./Data/INCEpTION/UIMA_CAS_XMI/` (one UIMA XMI file per year and report)
-7. Execute `py ParseUIMAXMI.py`. Your consolidated and enriched data can now be found:
+7. Execute `py ParseUIMAXMI.py`. The structure of all processed data is defined in `./Scripts/SemanticModels.py`. Your consolidated and enriched data can now be found:
     1. As JSONs in `./Data/JSON/`
     2. As one [pickled file](https://docs.python.org/3/library/pickle.html) in `./Data/ParsedSemanticAnnotations.pickle`
     3. As one JSON for the website in `./website/public/webdata.json` (and one file with statistics for the website in `./website/public/class_stats.json`)
@@ -35,6 +32,10 @@ All scripts in `./Scripts/` that have not yet been mentioned are scripts that pr
 
 ## Annotation-Guide
 
+### Annotation-Layers
+1. **OCR**: OCR-Fehler-Korrektur in einem Kommentar-Feld
+2. **SemanticEntities**: Semantische Entitäten
+3. **SemanticRelationships**: Verbindungen zwischen semantischen Entitäten
 
 ### Allgemein
 - **Virtuelle Entitäten**: wird mit einem Verb z.B. mehrere unabhängige Aktionen beschrieben kann ein bedeutunsloses Wort mit `virtual` im Postprocessing-Feld markiert werden, dass als virtuelle Maske für die Annotation dient
