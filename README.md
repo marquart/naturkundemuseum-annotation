@@ -1,7 +1,7 @@
 # Naturkundemuseum-Annotation
 Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [INCEpTION](https://inception-project.github.io).
 
-Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python sowie JSON) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Expoerte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
+Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner `Documentation` liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner `Scripts` sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner `website` ist der Code für das Frontend der Website im Vue-Framework zu finden. 
 
 
 ## Annotation-Layers
@@ -9,7 +9,7 @@ Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von IN
 2. **SemanticEntities**: Semantische Entitäten
 3. **SemanticRelationships**: Verbindungen zwischen semantischen Entitäten
 
-## Reproduction
+## Reproduction Guide
 
 1. Install [INCEpTION](https://inception-project.github.io).
 2. Load latest Project file into INCEpTION `./Data/INCEpTION/Saved_Projects/`
@@ -28,7 +28,9 @@ Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von IN
     1. `./Website/public/Locations.json`
     2. `./Website/public/Persons.json`
     3. `./Website/public/Collections.json`
+9. Execute `py ExportRDF.py`. All consolidated and enriched data can now be found in `./Data/RDF/` as RDF-Triples or -Quads in different file formats
 
+All scripts in `./Scripts/` that have not yet been mentioned are scripts that produce visualisations or exports for very specific queries.
 
 
 ## Annotation-Guide
@@ -48,24 +50,15 @@ Im Ordner `Data` sind die zu annotierenden Texte, Zwischenspeicherstände von IN
         
 ---
 ### Zugänge:Objekte
-- Wird der Acquisition kein Type gegeben wird `P2 has type:E55 Type:Donation` induziert ansonsten `Purchase` bei Kauf oder `P2 has type:E55 Type:Trade` bei Tausch
+- Die generelle Struktur sieht so aus:
+![General Data Model of Acquisitions in the Chronik with CIDOC CRM](/Documentation/Visualizations/E8DataModel_visualization.svg)
+
+
+- Wird der Acquisition kein Type gegeben wird `P2 has type:E55 Type:Gift` induziert ansonsten `Purchase` bei Kauf oder `P2 has type:E55 Type:Trade` bei Tausch
 
 - Place:
-
-    - **Herkunftsort**: `P2 has type:E55 Type:Origin` <-- falls keine Angabe wird dieser Fall induziert
     
-    - Letzter bekannter Ort der zugeführten Sammlung/Objektes: `P2 has type:E55 Type:Storage`
-
-- `Curated Holding` ist durch `P46 is composed of` mit den folgenden verbunden:
-    - Präparate (z.B. "Trockenpräparate", "Wachsmodelle") sind `Physical Objects`
-
-      ↓  `P130 shows features of`
-  
-    - Anatomische Begriffe sind `Biological Objects` (z.B. Gehirn, Skelellt, Leber, Fell)
-
-      ↓ `P128 carries`
-  
-    - Tiere sind `Conceptual Objects` mit `P2 has type:E55 Type:Taxon`
+    - Letzter bekannter Ort im Museum der zugeführten Sammlung/Objektes: `P2 has type:E55 Type:Storage`
 
 - Schlussnummern: `E78 Curated Holding` 
 
