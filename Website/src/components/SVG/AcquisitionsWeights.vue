@@ -1,0 +1,979 @@
+<template>
+  <svg
+    height="305.839891pt"
+    version="1.1"
+    viewBox="0 0 704.17575 305.839891"
+    width="704.17575pt"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+  >
+    <g id="figure_1">
+      <g id="patch_1">
+        <path
+          d="M 0 305.839891 
+L 704.17575 305.839891 
+L 704.17575 0 
+L 0 0 
+z
+"
+          style="fill: none"
+        />
+      </g>
+      <g id="axes_1">
+        <g id="patch_2">
+          <path
+            d="M 44.67375 263.159891 
+L 696.97575 263.159891 
+L 696.97575 41.399891 
+L 44.67375 41.399891 
+z
+"
+            style="fill: none"
+          />
+        </g>
+        <g id="matplotlib.axis_1">
+          <g id="xtick_1">
+            <g id="line2d_1">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 98.527997 263.159891 
+L 98.527997 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_1">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 98.527997, 280.909891)"
+                x="98.527997"
+                y="280.909891"
+              >
+                1
+              </text>
+            </g>
+          </g>
+          <g id="xtick_2">
+            <g id="line2d_2">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 159.038386 263.159891 
+L 159.038386 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_2">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 159.038386, 280.909891)"
+                x="159.038386"
+                y="280.909891"
+              >
+                2
+              </text>
+            </g>
+          </g>
+          <g id="xtick_3">
+            <g id="line2d_3">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 219.548776 263.159891 
+L 219.548776 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_3">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 219.548776, 280.909891)"
+                x="219.548776"
+                y="280.909891"
+              >
+                3
+              </text>
+            </g>
+          </g>
+          <g id="xtick_4">
+            <g id="line2d_4">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 280.059166 263.159891 
+L 280.059166 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_4">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 280.059166, 280.909891)"
+                x="280.059166"
+                y="280.909891"
+              >
+                4
+              </text>
+            </g>
+          </g>
+          <g id="xtick_5">
+            <g id="line2d_5">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 340.569555 263.159891 
+L 340.569555 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_5">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 340.569555, 280.909891)"
+                x="340.569555"
+                y="280.909891"
+              >
+                5
+              </text>
+            </g>
+          </g>
+          <g id="xtick_6">
+            <g id="line2d_6">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 401.079945 263.159891 
+L 401.079945 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_6">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 401.079945, 280.909891)"
+                x="401.079945"
+                y="280.909891"
+              >
+                6
+              </text>
+            </g>
+          </g>
+          <g id="xtick_7">
+            <g id="line2d_7">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 461.590334 263.159891 
+L 461.590334 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_7">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 461.590334, 280.909891)"
+                x="461.590334"
+                y="280.909891"
+              >
+                7
+              </text>
+            </g>
+          </g>
+          <g id="xtick_8">
+            <g id="line2d_8">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 522.100724 263.159891 
+L 522.100724 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_8">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 522.100724, 280.909891)"
+                x="522.100724"
+                y="280.909891"
+              >
+                8
+              </text>
+            </g>
+          </g>
+          <g id="xtick_9">
+            <g id="line2d_9">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 582.611114 263.159891 
+L 582.611114 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_9">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 582.611114, 280.909891)"
+                x="582.611114"
+                y="280.909891"
+              >
+                9
+              </text>
+            </g>
+          </g>
+          <g id="xtick_10">
+            <g id="line2d_10">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 643.121503 263.159891 
+L 643.121503 41.399891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_10">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: middle;
+                "
+                transform="rotate(-0, 643.121503, 280.909891)"
+                x="643.121503"
+                y="280.909891"
+              >
+                10
+              </text>
+            </g>
+          </g>
+          <g id="text_11">
+            <text
+              style="
+                fill: #262626;
+                font-family: Roboto;
+                font-size: 12px;
+                font-stretch: normal;
+                font-style: normal;
+                font-weight: normal;
+                text-anchor: middle;
+              "
+              transform="rotate(-0, 370.82475, 296.144266)"
+              x="370.82475"
+              y="296.144266"
+            >
+              Weight
+            </text>
+          </g>
+        </g>
+        <g id="matplotlib.axis_2">
+          <g id="ytick_1">
+            <g id="line2d_11">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 44.67375 263.159891 
+L 696.97575 263.159891 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_12">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: end;
+                "
+                transform="rotate(-0, 35.17375, 267.284891)"
+                x="35.17375"
+                y="267.284891"
+              >
+                0
+              </text>
+            </g>
+          </g>
+          <g id="ytick_2">
+            <g id="line2d_12">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 44.67375 218.460027 
+L 696.97575 218.460027 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_13">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: end;
+                "
+                transform="rotate(-0, 35.17375, 222.585027)"
+                x="35.17375"
+                y="222.585027"
+              >
+                10
+              </text>
+            </g>
+          </g>
+          <g id="ytick_3">
+            <g id="line2d_13">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 44.67375 173.760164 
+L 696.97575 173.760164 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_14">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: end;
+                "
+                transform="rotate(-0, 35.17375, 177.885164)"
+                x="35.17375"
+                y="177.885164"
+              >
+                20
+              </text>
+            </g>
+          </g>
+          <g id="ytick_4">
+            <g id="line2d_14">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 44.67375 129.060301 
+L 696.97575 129.060301 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_15">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: end;
+                "
+                transform="rotate(-0, 35.17375, 133.185301)"
+                x="35.17375"
+                y="133.185301"
+              >
+                30
+              </text>
+            </g>
+          </g>
+          <g id="ytick_5">
+            <g id="line2d_15">
+              <path
+                clip-path="url(#p4a1a39faaf)"
+                d="M 44.67375 84.360438 
+L 696.97575 84.360438 
+"
+                style="fill: none; stroke: #cccccc; stroke-linecap: round"
+              />
+            </g>
+            <g id="text_16">
+              <text
+                style="
+                  fill: #262626;
+                  font-family: Roboto;
+                  font-size: 11px;
+                  font-stretch: normal;
+                  font-style: normal;
+                  font-weight: normal;
+                  text-anchor: end;
+                "
+                transform="rotate(-0, 35.17375, 88.485438)"
+                x="35.17375"
+                y="88.485438"
+              >
+                40
+              </text>
+            </g>
+          </g>
+          <g id="text_17">
+            <text
+              style="
+                fill: #262626;
+                font-family: Roboto;
+                font-size: 12px;
+                font-stretch: normal;
+                font-style: normal;
+                font-weight: normal;
+                text-anchor: middle;
+              "
+              transform="rotate(-90, 16.32375, 152.279891)"
+              x="16.32375"
+              y="152.279891"
+            >
+              Percentage of all acquisitions
+            </text>
+          </g>
+        </g>
+        <g id="patch_3">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 74.323841 263.159891 
+L 122.732153 263.159891 
+L 122.732153 262.900568 
+L 74.323841 262.900568 
+z
+"
+            style="fill: #c7df7f; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_4">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 134.834231 263.159891 
+L 183.242542 263.159891 
+L 183.242542 197.662329 
+L 134.834231 197.662329 
+z
+"
+            style="fill: #bfd872; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_5">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 195.34462 263.159891 
+L 243.752932 263.159891 
+L 243.752932 51.959891 
+L 195.34462 51.959891 
+z
+"
+            style="fill: #b7d265; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_6">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 255.85501 263.159891 
+L 304.263321 263.159891 
+L 304.263321 208.18343 
+L 255.85501 208.18343 
+z
+"
+            style="fill: #aecb58; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_7">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 316.365399 263.159891 
+L 364.773711 263.159891 
+L 364.773711 232.670924 
+L 316.365399 232.670924 
+z
+"
+            style="fill: #a6c44b; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_8">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 376.875789 263.159891 
+L 425.284101 263.159891 
+L 425.284101 243.636579 
+L 376.875789 243.636579 
+z
+"
+            style="fill: #9ebe3f; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_9">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 437.386179 263.159891 
+L 485.79449 263.159891 
+L 485.79449 247.155961 
+L 437.386179 247.155961 
+z
+"
+            style="fill: #96b732; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_10">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 497.896568 263.159891 
+L 546.30488 263.159891 
+L 546.30488 251.971959 
+L 497.896568 251.971959 
+z
+"
+            style="fill: #8db025; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_11">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 558.406958 263.159891 
+L 606.815269 263.159891 
+L 606.815269 237.746244 
+L 558.406958 237.746244 
+z
+"
+            style="fill: #85aa18; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_12">
+          <path
+            clip-path="url(#p4a1a39faaf)"
+            d="M 618.917347 263.159891 
+L 667.325659 263.159891 
+L 667.325659 250.71239 
+L 618.917347 250.71239 
+z
+"
+            style="fill: #7da30b; stroke: #ffffff; stroke-linejoin: miter"
+          />
+        </g>
+        <g id="patch_13">
+          <path
+            d="M 89.561668 233.575444 
+Q 99.502988 245.362462 98.590056 261.784257 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 101.252789 257.124874 
+L 98.590056 261.784257 
+L 96.460189 256.858441 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_18">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 65.247282, 227.140677)"
+            x="65.247282"
+            y="227.140677"
+          >
+            0.1%
+          </text>
+        </g>
+        <g id="patch_14">
+          <path
+            d="M 152.100024 168.407112 
+Q 161.19602 180.555933 159.178296 196.553083 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 162.160096 192.091148 
+L 159.178296 196.553083 
+L 157.397828 191.490482 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_19">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 125.757672, 161.902438)"
+            x="125.757672"
+            y="161.902438"
+          >
+            14.7%
+          </text>
+        </g>
+        <g id="patch_15">
+          <path
+            d="M 212.610413 22.704674 
+Q 221.70641 34.853495 219.688685 50.850645 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 222.670486 46.38871 
+L 219.688685 50.850645 
+L 217.908217 45.788044 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_20">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 186.268062, 16.2)"
+            x="186.268062"
+            y="16.2"
+          >
+            47.2%
+          </text>
+        </g>
+        <g id="patch_16">
+          <path
+            d="M 273.120803 178.928214 
+Q 282.2168 191.077034 280.199075 207.074185 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 283.180875 202.61225 
+L 280.199075 207.074185 
+L 278.418607 202.011583 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_21">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 246.778451, 172.42354)"
+            x="246.778451"
+            y="172.42354"
+          >
+            12.3%
+          </text>
+        </g>
+        <g id="patch_17">
+          <path
+            d="M 331.603226 203.3458 
+Q 341.544547 215.132818 340.631614 231.554613 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 343.294348 226.89523 
+L 340.631614 231.554613 
+L 338.501748 226.628797 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_22">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 307.288841, 196.911033)"
+            x="307.288841"
+            y="196.911033"
+          >
+            6.8%
+          </text>
+        </g>
+        <g id="patch_18">
+          <path
+            d="M 392.113616 214.311455 
+Q 402.054936 226.098473 401.142004 242.520269 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 403.804737 237.860886 
+L 401.142004 242.520269 
+L 399.012137 237.594452 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_23">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 367.799231, 207.876688)"
+            x="367.799231"
+            y="207.876688"
+          >
+            4.4%
+          </text>
+        </g>
+        <g id="patch_19">
+          <path
+            d="M 452.624005 217.830838 
+Q 462.565326 229.617856 461.652393 246.039651 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 464.315127 241.380268 
+L 461.652393 246.039651 
+L 459.522527 241.113834 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_24">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 428.30962, 211.396071)"
+            x="428.30962"
+            y="211.396071"
+          >
+            3.6%
+          </text>
+        </g>
+        <g id="patch_20">
+          <path
+            d="M 513.134395 222.646835 
+Q 523.075715 234.433853 522.162783 250.855648 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 524.825516 246.196265 
+L 522.162783 250.855648 
+L 520.032917 245.929832 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_25">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 488.82001, 216.212068)"
+            x="488.82001"
+            y="216.212068"
+          >
+            2.5%
+          </text>
+        </g>
+        <g id="patch_21">
+          <path
+            d="M 573.644784 208.42112 
+Q 583.586105 220.208138 582.673172 236.629934 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 585.335906 231.970551 
+L 582.673172 236.629934 
+L 580.543306 231.704117 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_26">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 549.330399, 201.986353)"
+            x="549.330399"
+            y="201.986353"
+          >
+            5.7%
+          </text>
+        </g>
+        <g id="patch_22">
+          <path
+            d="M 634.155174 221.387267 
+Q 644.096495 233.174284 643.183562 249.59608 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+          <path
+            d="M 645.846296 244.936697 
+L 643.183562 249.59608 
+L 641.053696 244.670263 
+"
+            style="fill: none; stroke: #333333; stroke-linecap: round"
+          />
+        </g>
+        <g id="text_27">
+          <text
+            style="
+              fill: #262626;
+              font-family: Roboto;
+              font-size: 12px;
+              font-stretch: normal;
+              font-style: normal;
+              font-weight: normal;
+              text-anchor: start;
+            "
+            transform="rotate(-0, 609.840789, 214.9525)"
+            x="609.840789"
+            y="214.9525"
+          >
+            2.8%
+          </text>
+        </g>
+      </g>
+    </g>
+    <defs>
+      <clipPath id="p4a1a39faaf">
+        <rect height="221.76" width="652.302" x="44.67375" y="41.399891" />
+      </clipPath>
+    </defs>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: "AcquisitionsWeights",
+};
+</script>
+
+<style scoped>
+svg {
+  margin-left: 20%;
+}
+</style>
