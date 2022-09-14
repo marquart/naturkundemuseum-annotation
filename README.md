@@ -1,9 +1,9 @@
 # Naturkundemuseum-Annotation
 Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [CIDOC CRM](https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html) durch [INCEpTION](https://inception-project.github.io).
 
-Im Ordner [`Data`](./Data/) sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner [`Documentation`](./Documentation/) liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner [`Scripts`](./Scripts/) sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner [`Website`](./Website/) ist der Code für das Frontend der Website im Vue-Framework zu finden. 
+Im Ordner [`Data`](./Data/) sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner [`Documentation`](./Documentation/) liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner [`Scripts`](./Scripts/) sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner [`Website`](./Website/) ist der Code für das Frontend der [Website](https://aron-marquart.de/mfn-chronik) im Vue-Framework zu finden. Informationen zur Lizenz befinden sich in [`LICENSE.md`](./LICENSE.md). 
 
-Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen des Museums. Die modellierten Daten liegen ohne Informationsverlust als RDF-Triples oder -Quads in [`./Data/RDF/`](./Data/RDF/).
+Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen des Museums. Die modellierten Daten liegen ohne Informationsverlust als RDF-Triples oder -Quads in [`./Data/RDF/`](./Data/RDF/). Den Status des Annotations-Prozesses kann man in [`Status.md`](./Status.md) verfolgen.
 
 
 ## Reproduction-Guide

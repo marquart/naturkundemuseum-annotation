@@ -26,6 +26,12 @@
 
         <hr />
         <p>
+            Developed 2022 by 
+            <a
+                href="https://github.com/marquart/naturkundemuseum-annotation"
+                target="_blank">
+                Aron Marquart
+            </a>. 
             Our work builds upon the version of the Chronik
             <a
                 href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534"
