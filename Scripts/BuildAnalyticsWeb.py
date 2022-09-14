@@ -191,6 +191,6 @@ if __name__ == "__main__":
     
     giverTables, collectionTables, locationTables = addTop10(acqusisitions, giverTables, collectionTables, locationTables)
 
-    save_tables(giverTables, filepath="../Website/public/Persons.json")
-    save_tables(collectionTables, filepath="../Website/public/Collections.json")
-    save_tables(locationTables, filepath="../Website/public/Locations.json")
+    save_tables(giverTables, filepath="../Website/public/data/Persons.json")
+    save_tables(collectionTables, filepath="../Website/public/data/Collections.json")
+    save_tables(locationTables, filepath="../Website/public/data/Locations.json")

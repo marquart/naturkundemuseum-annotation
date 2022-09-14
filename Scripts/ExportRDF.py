@@ -20,6 +20,8 @@ def saveQuads(G, filepath):
                 ("nq","nquads"),
     )
     ds = ConjunctiveGraph() #identifier="naturkundemuseum-chronik"
+    ds.bind('cidoc_crm', CRM)
+    ds.bind('cdterms', DCTERMS)
     ds += G
     for fileEnding, format in formats:
         destination = os.path.join(filepath, f"LosslessSemanticGraph.{fileEnding}")
@@ -27,7 +29,7 @@ def saveQuads(G, filepath):
         print(f"Saved graph to '{destination}'")
 
 
-def saveGraph(G, filepath):
+def saveTriples(G, filepath):
     formats = ( ("xml","pretty-xml"),
                 ("ttl", "turtle"),
                 ("jsonld", "json-ld"),
@@ -122,7 +124,7 @@ if __name__ == "__main__":
     G.bind('cidoc_crm', CRM)
     nodes = createEntityNodes(G, data)
     documents = createDocumentNodes(G, nodes, data)
-    saveGraph(G, "../Data/RDF/")
+    saveTriples(G, "../Data/RDF/")
     saveQuads(G, "../Data/RDF/")
 
     print(f"Graph has {len(list(G.subjects(unique=True)))} unique subjects (for {len(nodes)} semantic entities and {sum(len(v) for v in documents.values())} documents)")

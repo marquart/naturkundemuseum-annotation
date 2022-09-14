@@ -401,7 +401,7 @@ def serialize(obj, stringify=True):
         return obj
 
 
-def save_webdata(entities, properties, lines, filepath="../Website/public/"):
+def save_webdata(entities, properties, lines, filepath="../Website/public/data/"):
     export_items = {
         "Entities": {serialized['id']:serialized for e in sorted(entities, key=attrgetter('year'), reverse=True) if (serialized := serialize(e))},
         "Properties": {serialized['id']:serialized for p in properties if (serialized := serialize(p))},

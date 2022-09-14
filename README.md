@@ -1,7 +1,7 @@
 # Naturkundemuseum-Annotation
 Semantische Annotation der Jahresberichte der Institute/Sammlungen des Naturkundemuseums in der Chronik der Friedrich-Wilhelms-Universität mit [CIDOC CRM](https://cidoc-crm.org/html/cidoc_crm_v7.1.1.html) durch [INCEpTION](https://inception-project.github.io).
 
-Im Ordner [`Data`](./Data/) sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner [`Documentation`](./Documentation/) liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner [`Scripts`](./Scripts/) sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner [`website`](./website/) ist der Code für das Frontend der Website im Vue-Framework zu finden. 
+Im Ordner [`Data`](./Data/) sind die zu annotierenden Texte, Zwischenspeicherstände von INCEpTION und die Annotationen in zur Weiterbearbeitung geeigneten Formaten (Pickle für Python, JSON, RDF-Triples bzw. -Quads) zu finden. Im Ordner [`Documentation`](./Documentation/) liegen hauptsächlich Dateien, die ich für die Vorstellung des Projektes verwendet habe. Im Ordner [`Scripts`](./Scripts/) sind Python-Skripte, die die Exporte von INCEpTION postprocessen oder visuell aufbereiten. Im Ordner [`Website`](./Website/) ist der Code für das Frontend der Website im Vue-Framework zu finden. 
 
 Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen des Museums. Die modellierten Daten liegen ohne Informationsverlust als RDF-Triples oder -Quads in [`./Data/RDF/`](./Data/RDF/).
 
@@ -20,11 +20,11 @@ Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen d
 7. Execute `py ParseUIMAXMI.py`. The structure of all processed data is defined in [`./Scripts/SemanticModels.py`](./Scripts/SemanticModels.py). Your consolidated and enriched data can now be found:
     1. As JSONs in[ `./Data/JSON/`](./Data/JSON/)
     2. As one [pickled file](https://docs.python.org/3/library/pickle.html) in [`./Data/ParsedSemanticAnnotations.pickle`](./Data/ParsedSemanticAnnotations.pickle)
-    3. As one JSON for the website in [`./website/public/webdata.json`](./website/public/webdata.json) (and one file with statistics for the website in [`./website/public/class_stats.json`](./website/public/class_stats.json))
-8. In order to generate the data for the `Analyze`-Tab on Website: execute `py BuildAnalyticsWeb.py`. Three files will be written to [`./Website/public/`](./Website/public/)
-    1. [`./Website/public/Locations.json`](./Website/public/Locations.json)
-    2. [`./Website/public/Persons.json`](./Website/public/Persons.json)
-    3. [`./Website/public/Collections.json`](./Website/public/Collections.json)
+    3. As one JSON for the website in [`./Website/public/data/webdata.json`](./Website/public/data/webdata.json) (and one file with statistics for the website in [`./Website/public/data/class_stats.json`](./Website/public/data/class_stats.json))
+8. In order to generate the data for the `Analyze`-Tab on Website: execute `py BuildAnalyticsWeb.py`. Three files will be written to [`./Website/public/data/`](./Website/public/data/)
+    1. [`./Website/public/data/Locations.json`](./Website/public/data/Locations.json)
+    2. [`./Website/public/data/Persons.json`](./Website/public/data/Persons.json)
+    3. [`./Website/public/data/Collections.json`](./Website/public/data/Collections.json)
 9. Execute `py ExportRDF.py`. All consolidated and enriched data can now be found in [`./Data/RDF/`](./Data/RDF/) as RDF-Triples or -Quads in different file formats
 
 All scripts in [`./Scripts/`](./Scripts/) that have not yet been mentioned are scripts that produce visualisations or exports for very specific queries.

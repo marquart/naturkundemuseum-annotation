@@ -38,14 +38,14 @@
 | 1913 |        |                              |                            |      Y       | ausf. in Mitteilungen des Zool. Museums |
 | 1914 |        |                              |                            |      Y       | ausf. in Mitteilungen des Zool. Museums |
 | 1915 |        |                              |                            |      Y       | ausf. in Mitteilungen des Zool. Museums |
-| 1928 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1929 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1930 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1931 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1932 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1933 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1934 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1935 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1936 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1937 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
-| 1938 |        |                              |                            |              | ausf. in Mitteilungen des Zool. Museums |
+| 1928 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1929 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1930 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1931 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1932 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1933 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1934 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1935 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1936 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1937 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
+| 1938 |        |                              |                            |      Y       | kaum/keine Berichte über Acquisitions, ausf. in Mitteilungen des Zool. Museums |
