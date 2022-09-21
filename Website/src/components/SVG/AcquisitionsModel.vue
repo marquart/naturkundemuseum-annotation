@@ -9,12 +9,7 @@
         xmlns="http://www.w3.org/2000/svg"
         xmlns:svg="http://www.w3.org/2000/svg">
         <defs id="defs2">
-            <marker
-                style="overflow: visible"
-                id="TriangleOutM"
-                refX="0.0"
-                refY="0.0"
-                orient="auto">
+            <marker style="overflow: visible" id="TriangleOutM" refX="0.0" refY="0.0" orient="auto">
                 <path
                     transform="scale(0.4)"
                     style="
@@ -26,12 +21,7 @@
                     d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
                     id="path33432" />
             </marker>
-            <marker
-                style="overflow: visible"
-                id="TriangleOutL"
-                refX="0.0"
-                refY="0.0"
-                orient="auto">
+            <marker style="overflow: visible" id="TriangleOutL" refX="0.0" refY="0.0" orient="auto">
                 <path
                     transform="scale(0.8)"
                     style="
@@ -43,12 +33,7 @@
                     d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
                     id="path33429" />
             </marker>
-            <marker
-                style="overflow: visible"
-                id="Arrow1Lend"
-                refX="0.0"
-                refY="0.0"
-                orient="auto">
+            <marker style="overflow: visible" id="Arrow1Lend" refX="0.0" refY="0.0" orient="auto">
                 <path
                     transform="scale(0.8) rotate(180) translate(12.5,0)"
                     style="
@@ -60,12 +45,7 @@
                     d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
                     id="path33290" />
             </marker>
-            <marker
-                style="overflow: visible"
-                id="Arrow1Lstart"
-                refX="0.0"
-                refY="0.0"
-                orient="auto">
+            <marker style="overflow: visible" id="Arrow1Lstart" refX="0.0" refY="0.0" orient="auto">
                 <path
                     transform="scale(0.8) translate(12.5,0)"
                     style="
@@ -566,12 +546,8 @@
                 x="224.89581"
                 y="37.041676"
                 id="text3924-44">
-                <tspan id="tspan6537" x="224.89581" y="37.041676">
-                    E21 Person/
-                </tspan>
-                <tspan id="tspan6539" x="224.89581" y="42.333336">
-                    E39 Actor/
-                </tspan>
+                <tspan id="tspan6537" x="224.89581" y="37.041676">E21 Person/</tspan>
+                <tspan id="tspan6539" x="224.89581" y="42.333336">E39 Actor/</tspan>
                 <tspan id="tspan6541" x="224.89581" y="47.625">E74 Group</tspan>
             </text>
             <text
@@ -598,9 +574,7 @@
                 x="23.991188"
                 y="137.55168"
                 id="text3924-4">
-                <tspan id="tspan6230" x="23.991188" y="137.55168">
-                    E28 Conceptual Object
-                </tspan>
+                <tspan id="tspan6230" x="23.991188" y="137.55168">E28 Conceptual Object</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -629,12 +603,8 @@
                 y="185.08533"
                 id="text3924-4-5"
                 transform="translate(-0.61330689,-2.2999009)">
-                <tspan x="224.34171" y="185.08533" id="tspan2097">
-                    E14 Condition
-                </tspan>
-                <tspan x="224.34171" y="191.25894" id="tspan2099">
-                    Assessment
-                </tspan>
+                <tspan x="224.34171" y="185.08533" id="tspan2097">E14 Condition</tspan>
+                <tspan x="224.34171" y="191.25894" id="tspan2099">Assessment</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -660,9 +630,7 @@
                 x="23.438435"
                 y="90.083023"
                 id="text14250">
-                <tspan id="tspan14472" x="23.438435" y="90.083023">
-                    E55 Type
-                </tspan>
+                <tspan id="tspan14472" x="23.438435" y="90.083023">E55 Type</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -688,9 +656,7 @@
                 x="23.715488"
                 y="185.3607"
                 id="text17644">
-                <tspan id="tspan17800" x="23.715488" y="185.3607">
-                    E54 Dimension
-                </tspan>
+                <tspan id="tspan17800" x="23.715488" y="185.3607">E54 Dimension</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -718,9 +684,7 @@
                 x="124.5342"
                 y="42.485691"
                 id="text19520">
-                <tspan id="tspan20782" x="124.5342" y="42.485691">
-                    E78 Curated Holding
-                </tspan>
+                <tspan id="tspan20782" x="124.5342" y="42.485691">E78 Curated Holding</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -746,12 +710,8 @@
                 x="124.50652"
                 y="87.61721"
                 id="text25868">
-                <tspan id="tspan26222" x="124.50652" y="87.61721">
-                    E8 Acquisition/
-                </tspan>
-                <tspan id="tspan26224" x="124.50652" y="92.908875">
-                    E96 Purchase
-                </tspan>
+                <tspan id="tspan26222" x="124.50652" y="87.61721">E8 Acquisition/</tspan>
+                <tspan id="tspan26224" x="124.50652" y="92.908875">E96 Purchase</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -777,9 +737,7 @@
                 x="224.79881"
                 y="89.833649"
                 id="text28142">
-                <tspan id="tspan28166" x="224.79881" y="89.833649">
-                    E53 Place
-                </tspan>
+                <tspan id="tspan28166" x="224.79881" y="89.833649">E53 Place</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -805,9 +763,7 @@
                 x="224.92351"
                 y="137.45865"
                 id="text29094">
-                <tspan id="tspan29118" x="224.92351" y="137.45865">
-                    E11 Modification
-                </tspan>
+                <tspan id="tspan29118" x="224.92351" y="137.45865">E11 Modification</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -833,9 +789,7 @@
                 x="124.50652"
                 y="185.36069"
                 id="text30442">
-                <tspan id="tspan30466" x="124.50652" y="185.36069">
-                    E3 Condition State
-                </tspan>
+                <tspan id="tspan30466" x="124.50652" y="185.36069">E3 Condition State</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -861,12 +815,8 @@
                 x="124.6312"
                 y="135.06219"
                 id="text3924">
-                <tspan id="tspan4344" x="124.6312" y="135.06219">
-                    E19 Physical Object/
-                </tspan>
-                <tspan id="tspan4346" x="124.6312" y="140.35385">
-                    E20 Biological Object
-                </tspan>
+                <tspan id="tspan4344" x="124.6312" y="135.06219">E19 Physical Object/</tspan>
+                <tspan id="tspan4346" x="124.6312" y="140.35385">E20 Biological Object</tspan>
             </text>
             <text
                 xml:space="preserve"
@@ -920,21 +870,11 @@
                 x="10.583333"
                 y="21.166666"
                 id="text36646">
-                <tspan x="10.583333" y="21.166666" id="tspan2101">
-                    General Data
-                </tspan>
-                <tspan x="10.583333" y="31.750003" id="tspan2103">
-                    Model of
-                </tspan>
-                <tspan x="10.583333" y="42.333339" id="tspan2105">
-                    Acquisitions in
-                </tspan>
-                <tspan x="10.583333" y="52.916675" id="tspan2107">
-                    the Chronik with
-                </tspan>
-                <tspan x="10.583333" y="63.500011" id="tspan2109">
-                    CIDOC CRM
-                </tspan>
+                <tspan x="10.583333" y="21.166666" id="tspan2101">General Data</tspan>
+                <tspan x="10.583333" y="31.750003" id="tspan2103">Model of</tspan>
+                <tspan x="10.583333" y="42.333339" id="tspan2105">Acquisitions in</tspan>
+                <tspan x="10.583333" y="52.916675" id="tspan2107">the Chronik with</tspan>
+                <tspan x="10.583333" y="63.500011" id="tspan2109">CIDOC CRM</tspan>
             </text>
             <text
                 xml:space="preserve"

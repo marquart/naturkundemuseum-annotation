@@ -1,17 +1,14 @@
 <template>
     <div>
-        <p class="bttn" @click="isOpen = !isOpen">
-            {{ isOpen ? '🡻' : '🡺' }} Info
-        </p>
+        <p class="bttn" @click="isOpen = !isOpen">{{ isOpen ? '🡻' : '🡺' }} Info</p>
         <div v-show="isOpen" class="info">
             <p>
                 The annotated data is modeled in a
                 <strong>knowledge graph</strong>
-                . Every semantic entity is connected to at least another
-                semantic entity via a labeled edge in order to preserve the
-                context the entity is embedded in. The labels for classifying
-                semantic entities and these so called properties are defined in
-                the ontology of the
+                . Every semantic entity is connected to at least another semantic entity via a
+                labeled edge in order to preserve the context the entity is embedded in. The labels
+                for classifying semantic entities and these so called properties are defined in the
+                ontology of the
                 <a href="https://cidoc-crm.org" target="_blank">
                     CIDOC Conceptual Reference Model (CRM)
                 </a>
@@ -20,8 +17,8 @@
             <p>
                 The majority of the data is
                 <strong>centered around an acquisition</strong>
-                in order to maintain the textual context of it. The general data
-                model looks like this:
+                in order to maintain the textual context of it. The general data model looks like
+                this:
             </p>
 
             <AcquisitionsModel :smaller="true" />
@@ -33,25 +30,18 @@
             </p>
             <ol>
                 <li>
-                    <strong>
-                        Ability to consolidate the entities over the years
-                    </strong>
+                    <strong>Ability to consolidate the entities over the years</strong>
                     <br />
                 </li>
                 <li>
-                    <strong>
-                        Possibility to correctly reason with the CIDOC CRM
-                        ontology
-                    </strong>
+                    <strong>Possibility to correctly reason with the CIDOC CRM ontology</strong>
                     <br />
-                    In a lot of cases the acquisitions of a collection of the
-                    museums are described in a dense list-like fashion. The
-                    implicit context of such mentions makes us humans understand
-                    that it is an acquisition but in order to transfer this
-                    context into an abstract knowledge graph we needed to make
-                    this explicit. That is the reason that you can find many
-                    entities which have no content (that means textual fragment
-                    in the source). You can recognize these through the Keyword
+                    In a lot of cases the acquisitions of a collection of the museums are described
+                    in a dense list-like fashion. The implicit context of such mentions makes us
+                    humans understand that it is an acquisition but in order to transfer this
+                    context into an abstract knowledge graph we needed to make this explicit. That
+                    is the reason that you can find many entities which have no content (that means
+                    textual fragment in the source). You can recognize these through the Keyword
                     <strong>"(implicit)"</strong>
                     instead of an textual phrase in the search results below.
                 </li>

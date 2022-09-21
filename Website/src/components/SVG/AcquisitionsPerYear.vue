@@ -36,11 +36,7 @@ z
                                 d="M 117.597798 228.96 
 L 117.597798 7.2 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_1">
                             <text
@@ -67,11 +63,7 @@ L 117.597798 7.2
                                 d="M 228.232465 228.96 
 L 228.232465 7.2 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_2">
                             <text
@@ -98,11 +90,7 @@ L 228.232465 7.2
                                 d="M 338.867133 228.96 
 L 338.867133 7.2 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_3">
                             <text
@@ -129,11 +117,7 @@ L 338.867133 7.2
                                 d="M 449.501801 228.96 
 L 449.501801 7.2 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_4">
                             <text
@@ -160,11 +144,7 @@ L 449.501801 7.2
                                 d="M 560.136468 228.96 
 L 560.136468 7.2 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_5">
                             <text
@@ -191,11 +171,7 @@ L 560.136468 7.2
                                 d="M 670.771136 228.96 
 L 670.771136 7.2 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_6">
                             <text
@@ -241,11 +217,7 @@ L 670.771136 7.2
                                 d="M 56.97 228.96 
 L 709.272 228.96 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_8">
                             <text
@@ -272,11 +244,7 @@ L 709.272 228.96
                                 d="M 56.97 188.577591 
 L 709.272 188.577591 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_9">
                             <text
@@ -303,11 +271,7 @@ L 709.272 188.577591
                                 d="M 56.97 148.195182 
 L 709.272 148.195182 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_10">
                             <text
@@ -334,11 +298,7 @@ L 709.272 148.195182
                                 d="M 56.97 107.812772 
 L 709.272 107.812772 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_11">
                             <text
@@ -365,11 +325,7 @@ L 709.272 107.812772
                                 d="M 56.97 67.430363 
 L 709.272 67.430363 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_12">
                             <text
@@ -396,11 +352,7 @@ L 709.272 67.430363
                                 d="M 56.97 27.047954 
 L 709.272 27.047954 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_13">
                             <text
@@ -447,11 +399,7 @@ L 104.321638 225.931319
 L 86.620091 225.931319 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_4">
                     <path
@@ -462,11 +410,7 @@ L 126.448571 217.451013
 L 108.747024 217.451013 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_5">
                     <path
@@ -477,11 +421,7 @@ L 148.575505 215.633805
 L 130.873958 215.633805 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_6">
                     <path
@@ -492,11 +432,7 @@ L 170.702438 218.864398
 L 153.000891 218.864398 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_7">
                     <path
@@ -507,11 +443,7 @@ L 192.829372 206.345851
 L 175.127825 206.345851 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_8">
                     <path
@@ -522,11 +454,7 @@ L 214.956305 194.836864
 L 197.254758 194.836864 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_9">
                     <path
@@ -537,11 +465,7 @@ L 237.083239 184.943174
 L 219.381692 184.943174 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_10">
                     <path
@@ -552,11 +476,7 @@ L 259.210172 155.262103
 L 241.508626 155.262103 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_11">
                     <path
@@ -567,11 +487,7 @@ L 281.337106 142.541644
 L 263.635559 142.541644 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_12">
                     <path
@@ -582,11 +498,7 @@ L 303.464039 147.185621
 L 285.762493 147.185621 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_13">
                     <path
@@ -597,11 +509,7 @@ L 325.590973 147.185621
 L 307.889426 147.185621 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_14">
                     <path
@@ -612,11 +520,7 @@ L 347.717906 129.619273
 L 330.01636 129.619273 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_15">
                     <path
@@ -627,11 +531,7 @@ L 369.84484 143.551205
 L 352.143293 143.551205 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_16">
                     <path
@@ -642,11 +542,7 @@ L 391.971773 117.100727
 L 374.270227 117.100727 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_17">
                     <path
@@ -657,11 +553,7 @@ L 414.098707 84.189063
 L 396.39716 84.189063 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_18">
                     <path
@@ -672,11 +564,7 @@ L 436.22564 91.457897
 L 418.524094 91.457897 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_19">
                     <path
@@ -687,11 +575,7 @@ L 458.352574 112.45675
 L 440.651027 112.45675 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_20">
                     <path
@@ -702,11 +586,7 @@ L 480.479507 65.411243
 L 462.777961 65.411243 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_21">
                     <path
@@ -717,11 +597,7 @@ L 502.606441 36.941644
 L 484.904894 36.941644 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_22">
                     <path
@@ -732,11 +608,7 @@ L 524.733374 70.459044
 L 507.031828 70.459044 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_23">
                     <path
@@ -747,11 +619,7 @@ L 546.860308 37.749293
 L 529.158761 37.749293 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_24">
                     <path
@@ -762,11 +630,7 @@ L 568.987242 17.76
 L 551.285695 17.76 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_25">
                     <path
@@ -777,11 +641,7 @@ L 591.114175 54.30608
 L 573.412628 54.30608 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_26">
                     <path
@@ -792,11 +652,7 @@ L 613.241109 48.450631
 L 595.539562 48.450631 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_27">
                     <path
@@ -807,11 +663,7 @@ L 635.368042 224.316023
 L 617.666495 224.316023 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_28">
                     <path
@@ -822,11 +674,7 @@ L 657.494976 227.95044
 L 639.793429 227.95044 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_29">
                     <path
@@ -837,11 +685,7 @@ L 679.621909 227.95044
 L 661.920362 227.95044 
 z
 "
-                        style="
-                            fill: #fc3915;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #fc3915; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
             </g>
         </g>

@@ -3,9 +3,7 @@
         <h3>Search semantic Entities</h3>
 
         <div class="searchbox largebox">
-            <label class="floatLeft" for="searchfield">
-                Search an annotated word:
-            </label>
+            <label class="floatLeft" for="searchfield">Search an annotated word:</label>
             <input
                 id="searchfield"
                 placeholder="Please enter search term "
@@ -21,9 +19,7 @@
 
             <div v-show="advancedSearchOpen" id="advancedSearch">
                 <div class="searchbox smallbox">
-                    <label class="floatLeft" for="selectfield">
-                        Filter semantic class:
-                    </label>
+                    <label class="floatLeft" for="selectfield">Filter semantic class:</label>
                     <select id="selectfield" v-model="searchClass">
                         <option selected value=""></option>
                         <option
@@ -37,9 +33,7 @@
                 </div>
 
                 <div class="searchbox minibox">
-                    <label class="floatLeft" for="selectfieldDepth">
-                        Set max results:*
-                    </label>
+                    <label class="floatLeft" for="selectfieldDepth">Set max results:*</label>
                     <select id="selectfieldDepth" v-model="maxSize">
                         <option selected value="40">40</option>
                         <option
@@ -51,10 +45,7 @@
                         </option>
                     </select>
                 </div>
-                <p>
-                    * High values may negatively affect the performance on your
-                    end.
-                </p>
+                <p>* High values may negatively affect the performance on your end.</p>
             </div>
         </div>
         <input type="submit" value="Search" id="button" @click="search" />

@@ -36,11 +36,7 @@ z
                                 d="M 98.527997 263.159891 
 L 98.527997 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_1">
                             <text
@@ -67,11 +63,7 @@ L 98.527997 41.399891
                                 d="M 159.038386 263.159891 
 L 159.038386 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_2">
                             <text
@@ -98,11 +90,7 @@ L 159.038386 41.399891
                                 d="M 219.548776 263.159891 
 L 219.548776 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_3">
                             <text
@@ -129,11 +117,7 @@ L 219.548776 41.399891
                                 d="M 280.059166 263.159891 
 L 280.059166 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_4">
                             <text
@@ -160,11 +144,7 @@ L 280.059166 41.399891
                                 d="M 340.569555 263.159891 
 L 340.569555 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_5">
                             <text
@@ -191,11 +171,7 @@ L 340.569555 41.399891
                                 d="M 401.079945 263.159891 
 L 401.079945 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_6">
                             <text
@@ -222,11 +198,7 @@ L 401.079945 41.399891
                                 d="M 461.590334 263.159891 
 L 461.590334 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_7">
                             <text
@@ -253,11 +225,7 @@ L 461.590334 41.399891
                                 d="M 522.100724 263.159891 
 L 522.100724 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_8">
                             <text
@@ -284,11 +252,7 @@ L 522.100724 41.399891
                                 d="M 582.611114 263.159891 
 L 582.611114 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_9">
                             <text
@@ -315,11 +279,7 @@ L 582.611114 41.399891
                                 d="M 643.121503 263.159891 
 L 643.121503 41.399891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_10">
                             <text
@@ -365,11 +325,7 @@ L 643.121503 41.399891
                                 d="M 44.67375 263.159891 
 L 696.97575 263.159891 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_12">
                             <text
@@ -396,11 +352,7 @@ L 696.97575 263.159891
                                 d="M 44.67375 218.460027 
 L 696.97575 218.460027 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_13">
                             <text
@@ -427,11 +379,7 @@ L 696.97575 218.460027
                                 d="M 44.67375 173.760164 
 L 696.97575 173.760164 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_14">
                             <text
@@ -458,11 +406,7 @@ L 696.97575 173.760164
                                 d="M 44.67375 129.060301 
 L 696.97575 129.060301 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_15">
                             <text
@@ -489,11 +433,7 @@ L 696.97575 129.060301
                                 d="M 44.67375 84.360438 
 L 696.97575 84.360438 
 "
-                                style="
-                                    fill: none;
-                                    stroke: #cccccc;
-                                    stroke-linecap: round;
-                                " />
+                                style="fill: none; stroke: #cccccc; stroke-linecap: round" />
                         </g>
                         <g id="text_16">
                             <text
@@ -540,11 +480,7 @@ L 122.732153 262.900568
 L 74.323841 262.900568 
 z
 "
-                        style="
-                            fill: #c7df7f;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #c7df7f; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_4">
                     <path
@@ -555,11 +491,7 @@ L 183.242542 197.662329
 L 134.834231 197.662329 
 z
 "
-                        style="
-                            fill: #bfd872;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #bfd872; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_5">
                     <path
@@ -570,11 +502,7 @@ L 243.752932 51.959891
 L 195.34462 51.959891 
 z
 "
-                        style="
-                            fill: #b7d265;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #b7d265; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_6">
                     <path
@@ -585,11 +513,7 @@ L 304.263321 208.18343
 L 255.85501 208.18343 
 z
 "
-                        style="
-                            fill: #aecb58;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #aecb58; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_7">
                     <path
@@ -600,11 +524,7 @@ L 364.773711 232.670924
 L 316.365399 232.670924 
 z
 "
-                        style="
-                            fill: #a6c44b;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #a6c44b; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_8">
                     <path
@@ -615,11 +535,7 @@ L 425.284101 243.636579
 L 376.875789 243.636579 
 z
 "
-                        style="
-                            fill: #9ebe3f;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #9ebe3f; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_9">
                     <path
@@ -630,11 +546,7 @@ L 485.79449 247.155961
 L 437.386179 247.155961 
 z
 "
-                        style="
-                            fill: #96b732;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #96b732; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_10">
                     <path
@@ -645,11 +557,7 @@ L 546.30488 251.971959
 L 497.896568 251.971959 
 z
 "
-                        style="
-                            fill: #8db025;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #8db025; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_11">
                     <path
@@ -660,11 +568,7 @@ L 606.815269 237.746244
 L 558.406958 237.746244 
 z
 "
-                        style="
-                            fill: #85aa18;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #85aa18; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_12">
                     <path
@@ -675,32 +579,20 @@ L 667.325659 250.71239
 L 618.917347 250.71239 
 z
 "
-                        style="
-                            fill: #7da30b;
-                            stroke: #ffffff;
-                            stroke-linejoin: miter;
-                        " />
+                        style="fill: #7da30b; stroke: #ffffff; stroke-linejoin: miter" />
                 </g>
                 <g id="patch_13">
                     <path
                         d="M 89.561668 233.575444 
 Q 99.502988 245.362462 98.590056 261.784257 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 101.252789 257.124874 
 L 98.590056 261.784257 
 L 96.460189 256.858441 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_18">
                     <text
@@ -724,21 +616,13 @@ L 96.460189 256.858441
                         d="M 152.100024 168.407112 
 Q 161.19602 180.555933 159.178296 196.553083 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 162.160096 192.091148 
 L 159.178296 196.553083 
 L 157.397828 191.490482 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_19">
                     <text
@@ -762,21 +646,13 @@ L 157.397828 191.490482
                         d="M 212.610413 22.704674 
 Q 221.70641 34.853495 219.688685 50.850645 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 222.670486 46.38871 
 L 219.688685 50.850645 
 L 217.908217 45.788044 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_20">
                     <text
@@ -800,21 +676,13 @@ L 217.908217 45.788044
                         d="M 273.120803 178.928214 
 Q 282.2168 191.077034 280.199075 207.074185 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 283.180875 202.61225 
 L 280.199075 207.074185 
 L 278.418607 202.011583 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_21">
                     <text
@@ -838,21 +706,13 @@ L 278.418607 202.011583
                         d="M 331.603226 203.3458 
 Q 341.544547 215.132818 340.631614 231.554613 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 343.294348 226.89523 
 L 340.631614 231.554613 
 L 338.501748 226.628797 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_22">
                     <text
@@ -876,21 +736,13 @@ L 338.501748 226.628797
                         d="M 392.113616 214.311455 
 Q 402.054936 226.098473 401.142004 242.520269 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 403.804737 237.860886 
 L 401.142004 242.520269 
 L 399.012137 237.594452 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_23">
                     <text
@@ -914,21 +766,13 @@ L 399.012137 237.594452
                         d="M 452.624005 217.830838 
 Q 462.565326 229.617856 461.652393 246.039651 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 464.315127 241.380268 
 L 461.652393 246.039651 
 L 459.522527 241.113834 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_24">
                     <text
@@ -952,21 +796,13 @@ L 459.522527 241.113834
                         d="M 513.134395 222.646835 
 Q 523.075715 234.433853 522.162783 250.855648 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 524.825516 246.196265 
 L 522.162783 250.855648 
 L 520.032917 245.929832 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_25">
                     <text
@@ -990,21 +826,13 @@ L 520.032917 245.929832
                         d="M 573.644784 208.42112 
 Q 583.586105 220.208138 582.673172 236.629934 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 585.335906 231.970551 
 L 582.673172 236.629934 
 L 580.543306 231.704117 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_26">
                     <text
@@ -1028,21 +856,13 @@ L 580.543306 231.704117
                         d="M 634.155174 221.387267 
 Q 644.096495 233.174284 643.183562 249.59608 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                     <path
                         d="M 645.846296 244.936697 
 L 643.183562 249.59608 
 L 641.053696 244.670263 
 "
-                        style="
-                            fill: none;
-                            stroke: #333333;
-                            stroke-linecap: round;
-                        " />
+                        style="fill: none; stroke: #333333; stroke-linecap: round" />
                 </g>
                 <g id="text_27">
                     <text
@@ -1065,11 +885,7 @@ L 641.053696 244.670263
         </g>
         <defs>
             <clipPath id="p4a1a39faaf">
-                <rect
-                    height="221.76"
-                    width="652.302"
-                    x="44.67375"
-                    y="41.399891" />
+                <rect height="221.76" width="652.302" x="44.67375" y="41.399891" />
             </clipPath>
         </defs>
     </svg>

@@ -15,9 +15,7 @@
                     {{ props.entity.type }}
                 </a>
             </h4>
-            <div
-                class="itemLink tooltip"
-                @click="emitDisplayGraphOf(props.entity.id)">
+            <div class="itemLink tooltip" @click="emitDisplayGraphOf(props.entity.id)">
                 <p class="tooltiptext">{{ graphHoverText }}</p>
                 <img class="symbol" src="/icons/zoom.svg" alt="Graph Symbol" />
                 Show Neighborhood Graph
@@ -29,9 +27,7 @@
                 </div>
 
                 <!--<div class="ncell"></div>-->
-                <div
-                    v-show="props.entity.citation.length > 0"
-                    class="ncell tooltip">
+                <div v-show="props.entity.citation.length > 0" class="ncell tooltip">
                     <a :href="props.entity.url" target="_blank">
                         <p class="tooltiptext">{{ imageHoverText }}</p>
                         {{ props.entity.url }}
@@ -55,18 +51,13 @@
             <h4>Predecessors (incoming Relations)</h4>
             <div
                 v-show="
-                    props.entity.incomingProps != undefined &&
-                    props.entity.incomingProps.length > 0
+                    props.entity.incomingProps != undefined && props.entity.incomingProps.length > 0
                 "
                 class="propTable">
                 <!--<div class="propItem tableHeading">Neighbor props.entity</div><div class="propItem"></div><div class="propItem tableHeading">CIDOC CRM Property</div><div class="propItem"></div>-->
-                <template
-                    v-for="(prop, i) in props.entity.incomingProps"
-                    :key="i">
+                <template v-for="(prop, i) in props.entity.incomingProps" :key="i">
                     <!--<div class="propItem">{{prop.source.type}}:</div>-->
-                    <div
-                        class="propItem itemLink tooltip"
-                        @click="showOneEntity(prop.source.id)">
+                    <div class="propItem itemLink tooltip" @click="showOneEntity(prop.source.id)">
                         <p class="tooltiptext">{{ neighborHoverText }}</p>
                         {{ prop.source.text }}
                     </div>
@@ -85,14 +76,11 @@
             <h4>Successors (outgoing Relations)</h4>
             <div
                 v-show="
-                    props.entity.outgoingProps != undefined &&
-                    props.entity.outgoingProps.length > 0
+                    props.entity.outgoingProps != undefined && props.entity.outgoingProps.length > 0
                 "
                 class="propTable">
                 <!--<div class="propItem"></div><div class="propItem tableHeading">CIDOC CRM Property</div><div class="propItem"></div><div class="propItem tableHeading">Neighbor props.entity</div>-->
-                <template
-                    v-for="(prop, i) in props.entity.outgoingProps"
-                    :key="i">
+                <template v-for="(prop, i) in props.entity.outgoingProps" :key="i">
                     <div class="propItem">🡺</div>
                     <div class="propItem cidocLink tooltip">
                         <a
@@ -104,9 +92,7 @@
                     </div>
                     <div class="propItem">🡺</div>
                     <!--<div class="propItem">{{prop.target.type}}:</div>-->
-                    <div
-                        class="propItem itemLink tooltip"
-                        @click="showOneEntity(prop.target.id)">
+                    <div class="propItem itemLink tooltip" @click="showOneEntity(prop.target.id)">
                         <p class="tooltiptext">{{ neighborHoverText }}</p>
                         {{ prop.target.text }}
                     </div>
@@ -126,8 +112,7 @@
     });
 
     const cidocHoverText = 'Read definition in CIDOC documentation',
-        graphHoverText =
-            'Display the entity embedded in a visualization of our knowledge graph',
+        graphHoverText = 'Display the entity embedded in a visualization of our knowledge graph',
         neighborHoverText = 'Jump to this entity',
         imageHoverText = 'Go to digitized image of this page';
 

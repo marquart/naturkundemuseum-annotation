@@ -3,10 +3,7 @@
         <img src="/icons/mfn-logo.png" alt="Naturkundemuseum Logo" />
         <div id="heading-text">
             <h1>Provenance research under the spotlight</h1>
-            <h2>
-                Digital Edition of the Annual Reports of the Museum 1887–1915
-                and 1928–1938
-            </h2>
+            <h2>Digital Edition of the Annual Reports of the Museum 1887–1915 and 1928–1938</h2>
         </div>
     </div>
     <div v-show="data.loadError || !loadError" class="content errormsg">
@@ -16,9 +13,7 @@
     <nav class="content" id="navigation">
         <RouterLink to="/">INFO</RouterLink>
         <RouterLink to="/search">SEARCH</RouterLink>
-        <RouterLink :to="{ name: 'analysis', params: { mode: 'Suppliers' } }">
-            ANALYZE
-        </RouterLink>
+        <RouterLink :to="{ name: 'analysis', params: { mode: 'Suppliers' } }">ANALYZE</RouterLink>
         <RouterLink to="/explore">EXPLORE</RouterLink>
     </nav>
     <div class="content">
@@ -26,30 +21,24 @@
 
         <hr />
         <p>
-            Developed 2022 by 
-            <a
-                href="https://github.com/marquart/naturkundemuseum-annotation"
-                target="_blank">
+            Developed 2022 by
+            <a href="https://github.com/marquart/naturkundemuseum-annotation" target="_blank">
                 Aron Marquart
-            </a>. 
-            Our work builds upon the version of the Chronik
+            </a>
+            . Our work builds upon the version of the Chronik
             <a
                 href="http://www.digi-hub.de/viewer/resolver?urn=urn:nbn:de:kobv:11-d-6653534"
                 target="_blank">
                 digitized
             </a>
             by the Library of the Humboldt-University and is licensed under
-            <a
-                href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                target="_blank">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
                 CC-BY-NC-SA
             </a>
             .
         </p>
         <div id="impressumBox">
-            <p id="impressumClick" @click="showImpressum = !showImpressum">
-                Impressum
-            </p>
+            <p id="impressumClick" @click="showImpressum = !showImpressum">Impressum</p>
             <p v-show="showImpressum">
                 Museum für Naturkunde
                 <br />
@@ -71,8 +60,7 @@
                 <br />
                 <br />
 
-                Authorized representative person: Stephan Junker (Managing
-                Director)
+                Authorized representative person: Stephan Junker (Managing Director)
                 <br />
                 Editorial representative person:
                 <a
@@ -91,7 +79,7 @@
     import { ref } from 'vue';
 
     const data = useDataStore();
-    const loadError = data.loadData();
+    const loadError = data.loadBaseData();
 
     const showImpressum = ref(false);
 </script>
@@ -107,8 +95,8 @@
         margin: 0;
         height: 100%;
 
-        font-family: 'Roboto', 'Titillium Web', 'Open Sans',
-            'Trade Gothic Next LT', Helvetica, Arial, sans-serif;
+        font-family: 'Roboto', 'Titillium Web', 'Open Sans', 'Trade Gothic Next LT', Helvetica,
+            Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: #2c3e50;

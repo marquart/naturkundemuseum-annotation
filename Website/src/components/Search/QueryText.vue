@@ -2,24 +2,27 @@
     <div>
         <QueryTextInfo />
         <p>
-            With this form it is possible to search the words annotated so far
-            and/or filter the results by semantic class via the search options.
+            With this form it is possible to search the words annotated so far and/or filter the
+            results by semantic class via the search options.
         </p>
-        <EntitySearcher :moreSearchOptions="true" route="search" :params="{}" />
+        <div v-if="loading"><strong>LOADING...</strong></div>
+        <div v-else>
+            <EntitySearcher :moreSearchOptions="true" route="search" :params="{}" />
 
-        <!--
-        <div v-show="loading" class="loadingMsg">
-            <img class="loadingSymb" src="../assets/otter-solid.svg" alt="Loading Symbol"/>
-            <p>Searching...</p>
-        </div>
-        
+            <!--
+            <div v-show="loading" class="loadingMsg">
+                <img class="loadingSymb" src="../assets/otter-solid.svg" alt="Loading Symbol"/>
+                <p>Searching...</p>
+            </div>
+            
 
-        <div id="navigationElements">
-            <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
-            <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
+            <div id="navigationElements">
+                <div v-if="historyCursor>0" class="navigationButton buttonLeft" @click="navigateHistory(-1)">🡸 Go Back</div>
+                <div v-if="historyCursor<history.length-1" class="navigationButton buttonRight" @click="navigateHistory(1)" >Go Forward 🡺</div>
+            </div>
+            -->
+            <TextSearchResults v-show="showResults" :results="searchResults" />
         </div>
-        -->
-        <TextSearchResults v-show="showResults" :results="searchResults" />
     </div>
 </template>
 
@@ -42,10 +45,8 @@
     watch(() => route.query, processProps, { deep: true, immediate: true });
 
     function processProps() {
-        if (route.query.id != undefined && route.query.id !== '')
-            queryOneEntity();
-        else if (route.query.q != undefined || route.query.class != undefined)
-            query();
+        if (route.query.id != undefined && route.query.id !== '') queryOneEntity();
+        else if (route.query.q != undefined || route.query.class != undefined) query();
     }
 
     async function query() {
@@ -63,8 +64,7 @@
 
     function* filterEntities() {
         let maxSize = route.query.size;
-        if (route.query.size > entities.value.length)
-            maxSize = entities.value.length;
+        if (route.query.size > entities.value.length) maxSize = entities.value.length;
 
         let count = 0;
         /* BACKWARDS SEARCH:*/

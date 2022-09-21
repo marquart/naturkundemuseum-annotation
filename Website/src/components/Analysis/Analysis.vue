@@ -1,52 +1,36 @@
 <template>
     <div>
-        <div v-show="loadError" class="errormsg">
-            <strong>{{ errorMsg }}</strong>
+        <div v-show="anaLoadError" class="errormsg">
+            <strong>{{ anaErrorMsg }}</strong>
         </div>
         <p>
-            As we annotated the acqusitions of objects over many years, it made
-            sense to develop a tool which can be used to analyze the more
-            consistent entities over the years more abstractly. It turned out
-            that suppliers, original locations and the receiving collections are
-            the most consistent information points. With the search bar below
-            you can search for entities of either one of the three and get an
-            overview of which of the entities of the other two types are
-            connected to it over the years.
+            As we annotated the acqusitions of objects over many years, it made sense to develop a
+            tool which can be used to analyze the more consistent entities over the years more
+            abstractly. It turned out that suppliers, original locations and the receiving
+            collections are the most consistent information points. With the search bar below you
+            can search for entities of either one of the three and get an overview of which of the
+            entities of the other two types are connected to it over the years.
         </p>
         <p>
-            The color and size indicate how much the author of the Chronik
-            elaborated on each underlying acquisition compared to other
-            acquisitions and can be interpreted as a level of appreciation of
-            this specific transaction in the context of the gift economy. The
-            more information the author packed into the description of a
-            transaction, the higher the weight we gave it. The information
-            points we have considered are primarily original locations (e.g.
-            <span class="entityClick" @click="emitDisplayTextOf('11719')">
-                "Dar-es-Salaam"
-            </span>
+            The color and size indicate how much the author of the Chronik elaborated on each
+            underlying acquisition compared to other acquisitions and can be interpreted as a level
+            of appreciation of this specific transaction in the context of the gift economy. The
+            more information the author packed into the description of a transaction, the higher the
+            weight we gave it. The information points we have considered are primarily original
+            locations (e.g.
+            <span class="entityClick" @click="emitDisplayTextOf('11719')">"Dar-es-Salaam"</span>
             ) & taxonomic classifications (e.g.
-            <span class="entityClick" @click="emitDisplayTextOf('23459')">
-                "Hirundo rustica"
-            </span>
-            ) of the objects transferred and especially subjective assessments
-            about the value and dimensions, like
-            <span class="entityClick" @click="emitDisplayTextOf('44789')">
-                "sauber präpariert"
-            </span>
+            <span class="entityClick" @click="emitDisplayTextOf('23459')">"Hirundo rustica"</span>
+            ) of the objects transferred and especially subjective assessments about the value and
+            dimensions, like
+            <span class="entityClick" @click="emitDisplayTextOf('44789')">"sauber präpariert"</span>
             ,
-            <span class="entityClick" @click="emitDisplayTextOf('34588')">
-                "überaus wertvoll"
-            </span>
+            <span class="entityClick" @click="emitDisplayTextOf('34588')">"überaus wertvoll"</span>
             or
-            <span class="entityClick" @click="emitDisplayTextOf('32397')">
-                "sehr große Anzahl"
-            </span>
+            <span class="entityClick" @click="emitDisplayTextOf('32397')">"sehr große Anzahl"</span>
             .
         </p>
-        <p>
-            The distribution of these weights over all identified acquisitions
-            looks like this:
-        </p>
+        <p>The distribution of these weights over all identified acquisitions looks like this:</p>
         <AcquisitionsWeights />
         <div class="modeselection">
             <p
@@ -68,31 +52,46 @@
                 Collections
             </p>
         </div>
-        <EntitySearcher
-            :moreSearchOptions="false"
-            route="analysis"
-            :params="{ mode: mode }" />
+        <div v-if="anaLoading"><strong>Loading...</strong></div>
+        <div v-else>
+            <EntitySearcher :moreSearchOptions="false" route="analysis" :params="{ mode: mode }" />
 
-        <AnalysisSearchResults
-            v-show="showResults"
-            :results="searchResults"
-            @showEntity="showEntity" />
+            <AnalysisSearchResults
+                v-show="showResults"
+                :results="searchResults"
+                @showEntity="showEntity" />
 
-        <AnalysisTable
-            v-if="showTable"
-            :displayEntity="displayEntity"
-            :entityData="cursorResult" />
+            <AnalysisTable
+                v-if="showTable"
+                :displayEntity="displayEntity"
+                :entityData="cursorResult" />
+        </div>
     </div>
 </template>
 
 <script setup>
     import { watch, ref, onMounted } from 'vue';
+    import { useDataStore } from '@/stores/data';
+    import { storeToRefs } from 'pinia';
     import { useRouter, useRoute } from 'vue-router';
 
     import AcquisitionsWeights from '@/components/SVG/AcquisitionsWeights.vue';
     import AnalysisTable from '@/components/Analysis/AnalysisTable.vue';
     import EntitySearcher from '@/components/EntitySearcher.vue';
     import AnalysisSearchResults from '@/components/Analysis/AnalysisSearchResults.vue';
+
+    const data = useDataStore();
+    const {
+        anaLoadError,
+        anaErrorMsg,
+        anaLoading,
+        personsLookup,
+        locationsLookup,
+        collectionsLookup,
+        personTable,
+        locationsTable,
+        collectionsTable,
+    } = storeToRefs(data);
 
     const router = useRouter();
     const route = useRoute();
@@ -102,15 +101,7 @@
     const mode = ref('Suppliers'),
         focusStyle = { background: '#ffffff', color: '#7da30b' },
         unFocusStyle = { background: '#EBEBEB' },
-        loadError = ref(false),
-        errorMsg = ref(''),
         dataLoaded = ref(false),
-        personsLookup = ref({}),
-        locationsLookup = ref({}),
-        collectionsLookup = ref({}),
-        personTable = ref({}),
-        locationsTable = ref({}),
-        collectionsTable = ref({}),
         maxSize = 40,
         showResults = ref(false),
         showTable = ref(false),
@@ -143,14 +134,12 @@
     }
 
     async function query(newQuery) {
-        if (!dataLoaded.value) dataLoaded.value = await fetchData();
+        if (!dataLoaded.value && !anaLoading.value) dataLoaded.value = await fetchData();
         if (dataLoaded.value && newQuery.q != undefined) {
             searchResults.value = [];
 
-            if (mode.value === 'Suppliers')
-                filterEntities(personsLookup.value, newQuery.q);
-            else if (mode.value === 'Locations')
-                filterEntities(locationsLookup.value, newQuery.q);
+            if (mode.value === 'Suppliers') filterEntities(personsLookup.value, newQuery.q);
+            else if (mode.value === 'Locations') filterEntities(locationsLookup.value, newQuery.q);
             else if (mode.value === 'Collections')
                 filterEntities(collectionsLookup.value, newQuery.q);
 
@@ -177,67 +166,17 @@
         showResults.value = false;
         while (!dataLoaded.value) await sleep(100);
         displayEntity.value = entity;
-        if (mode.value === 'Suppliers')
-            cursorResult.value = personTable.value[entity[1]];
-        else if (mode.value === 'Locations')
-            cursorResult.value = locationsTable.value[entity[1]];
+        if (mode.value === 'Suppliers') cursorResult.value = personTable.value[entity[1]];
+        else if (mode.value === 'Locations') cursorResult.value = locationsTable.value[entity[1]];
         else if (mode.value === 'Collections')
             cursorResult.value = collectionsTable.value[entity[1]];
 
-        showTable.value =
-            cursorResult.value != undefined && displayEntity.value != undefined;
+        showTable.value = cursorResult.value != undefined && displayEntity.value != undefined;
     }
 
     async function fetchData() {
-        const rslt = await Promise.all([
-            fetch(import.meta.env.BASE_URL + 'data/Persons.json', {
-                headers: {
-                    'Content-type': 'application/json',
-                    charset: 'utf-8',
-                },
-            }).then((res) => (res.ok && res.json()) || Promise.reject(res)),
-            fetch(import.meta.env.BASE_URL + 'data/Locations.json', {
-                headers: {
-                    'Content-type': 'application/json',
-                    charset: 'utf-8',
-                },
-            }).then((res) => (res.ok && res.json()) || Promise.reject(res)),
-            fetch(import.meta.env.BASE_URL + 'data/Collections.json', {
-                headers: {
-                    'Content-type': 'application/json',
-                    charset: 'utf-8',
-                },
-            }).then((res) => (res.ok && res.json()) || Promise.reject(res)),
-        ]).then((data) => {
-            // handle data array here
-            if (
-                data == undefined ||
-                data.length != 3 ||
-                data[0] == undefined ||
-                data[1] == undefined ||
-                data[2] == undefined
-            ) {
-                errorMsg.value = "Couldn't fetch data from backend!";
-                loadError.value = true;
-                return false;
-            } else {
-                loadError.value = false;
-                //Persons
-                personsLookup.value = data[0][0];
-                personTable.value = data[0][1];
-                //Locations
-                locationsLookup.value = data[1][0];
-                locationsTable.value = data[1][1];
-                //Collections
-                collectionsLookup.value = data[2][0];
-                collectionsTable.value = data[2][1];
-                dataLoaded.value = true;
-
-                if (!showResults.value) showEntity(personsLookup.value[0]);
-                return true;
-            }
-        });
-        return rslt;
+        dataLoaded.value = await data.loadAnalysisData();
+        if (!showResults.value) showEntity(personsLookup.value[0]);
     }
 
     onMounted(fetchData);

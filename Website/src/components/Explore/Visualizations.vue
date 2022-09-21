@@ -2,20 +2,18 @@
     <div>
         <!--<p>Async fetching of individual graphs is not yet implemented, but it will look like this example:</p>-->
         <p>
-            Through the interface below you can navigate the graph structure of
-            our semantic web. Clicking the box of an entity displays the
-            immediate neighborhood of that entity in the graph. You can jump to
-            the location of the selected entity in the text by clicking the
+            Through the interface below you can navigate the graph structure of our semantic web.
+            Clicking the box of an entity displays the immediate neighborhood of that entity in the
+            graph. You can jump to the location of the selected entity in the text by clicking the
             button "
             <img class="symbol" src="/icons/book.svg" alt="Book Symbol" />
-            Show Entity in Text". If you want to start exploring the graph from
-            a random node, click on the "
+            Show Entity in Text". If you want to start exploring the graph from a random node, click
+            on the "
             <img class="symbol" src="/icons/dice-solid.svg" alt="Dice Symbol" />
-            Start with random Entity" button. The entity which is currently in
-            focus is displayed with
+            Start with random Entity" button. The entity which is currently in focus is displayed
+            with
             <span class="rounded">rounded corners</span>
-            (and not clickable), every other annotated entity in its
-            neighborhood is displayed with
+            (and not clickable), every other annotated entity in its neighborhood is displayed with
             <span class="sharp">sharp corners</span>
             (and clickable to set it in focus).
         </p>
@@ -32,13 +30,8 @@
                 <img class="symbol" src="/icons/book.svg" alt="Book Symbol" />
                 Show Entity in Text
             </div>
-            <div
-                class="navigationButton functionalButton"
-                @click="setRandomEntityID">
-                <img
-                    class="symbol"
-                    src="/icons/dice-solid.svg"
-                    alt="Dice Symbol" />
+            <div class="navigationButton functionalButton" @click="setRandomEntityID">
+                <img class="symbol" src="/icons/dice-solid.svg" alt="Dice Symbol" />
                 Go to random Entity
             </div>
         </div>
@@ -110,9 +103,7 @@
 
     // SVG EVENTS
     function makeNodesClickable() {
-        listeners = [
-            ...graphVizElement.value.getElementsByClassName('entityNode'),
-        ];
+        listeners = [...graphVizElement.value.getElementsByClassName('entityNode')];
         listeners.forEach((e) => {
             e.addEventListener('click', requestSVGinternal, false);
         });
@@ -130,9 +121,7 @@
 
     function setRandomEntityID() {
         if (entities.value.length > 0) {
-            const idx = Math.floor(
-                Math.random() * (entities.value.length - 4000)
-            ); //The maximum is exclusive and the minimum is inclusive
+            const idx = Math.floor(Math.random() * (entities.value.length - 4000)); //The maximum is exclusive and the minimum is inclusive
             router.push({
                 name: 'explore',
                 params: { id: entities.value[idx].id },

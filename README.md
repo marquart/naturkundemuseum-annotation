@@ -25,7 +25,9 @@ Abgeschlossen ist die Modellierung der Zugänge von Objekten in die Sammlungen d
     1. [`./Website/public/data/Locations.json`](./Website/public/data/Locations.json)
     2. [`./Website/public/data/Persons.json`](./Website/public/data/Persons.json)
     3. [`./Website/public/data/Collections.json`](./Website/public/data/Collections.json)
-9. Execute `py ExportRDF.py`. All consolidated and enriched data can now be found in [`./Data/RDF/`](./Data/RDF/) as RDF-Triples or -Quads in different file formats
+9. To reduce the traffic load on the server the website expects all JSON Data gzipped: execute `py gzipWebdata.py`
+10. The neighborhood graphs for the `Explore`-Tab on the Website are generated via `py generateDOT.py --all`
+11. Execute `py ExportRDF.py`. All consolidated and enriched data can now be found in [`./Data/RDF/`](./Data/RDF/) as RDF-Triples or -Quads in different file formats
 
 All scripts in [`./Scripts/`](./Scripts/) that have not yet been mentioned are scripts that produce visualisations or exports for very specific queries.
 
