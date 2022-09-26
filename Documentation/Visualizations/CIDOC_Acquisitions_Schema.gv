@@ -1,50 +1,87 @@
 digraph Acquisitions_Schema {
-    bgcolor="transparent";
+    overlap = false;
+    sep = 0.1;
+    mode="major";
+    labelloc="t";
+    label="General Data Model of Acquisitions in the Chronik with CIDOC CRM";
+    bgcolor="none";
     rankdir="LR";
-    
-    fontname="Source Pro"; 
-    node [shape=box fontname="Source Serif Pro"];
-    edge [fontname="Source Serif Pro"];
+    ranksep="0.3 ";
+    fontname="Roboto";
+    fontsize="16";
+    node [shape=box fontname="Roboto" color="black" penwidth=1 style="filled" fillcolor="#00000000"];
+    edge [fontname="Roboto" fontsize="8" penwidth=1 weight=1.9];
     splines=ortho;
+    penwidth=8;
     
     {
-        E19 [label=<E19 Physical Object/<BR/>E20 Biological Object> color="black"];
-        E21 [label=<E21 Person/<BR/>E74 Group> color="black"];
-        E8 [label=<E8 Acquisition/<BR/>E96 Purchase> color="red"];
-        E78 [label=<E78 Curated Holding<BR/>> color="limegreen"];
-        E53_1 [label=<E53 Place> color="black"];
-        E3 [label=<E3 Condition State> color="black"];
-        E53_2 [label=<E53 Place> color="black"];
-        E28 [label=<E28 Conceptual Object> color="black"];
-        E54 [label=<E54 Dimension> color="black"];
-        
-        P23 [label=<P23 transferred<BR/>title from> color="black" style="dashed" fontsize="10"];
-        P22 [label=<P22 transferred<BR/>title to> color="black" style="dashed" fontsize="10"];
-        P53_1 [label=<P53 has former or<BR/>current location> color="black" style="dashed" fontsize="10"];
-        P24 [label=<P24 transferred<BR/>title of> color="black" style="dashed" fontsize="10"];
-        P53_2 [label=<P53 has former or<BR/>current location> color="black" style="dashed" fontsize="10"];
-        P128 [label=<P130 shows features of/<BR/>P128 carries> color="black" style="dashed" fontsize="10"];
-        P43 [label=<P43 has dimension> color="black" style="dashed" fontsize="10"];
-        P44 [label=<P44 has condition> color="black" style="dashed" fontsize="10"];
+        E78 [label=<E78 Curated Holding>  fillcolor="#b560d4aa" fontsize="11"];
+        E21 [label=<E21 Person<BR/>E39 Actor<BR/>E74 Group>  fillcolor="#3b95c4aa" fontsize="11"];
+        E55 [label=<E55 Type>  fillcolor="#06b67eaa" fontsize="11"];
+        E8  [label=<E8 Acquisition<BR/>E96 Purchase>  fillcolor="#fc3915aa" fontsize="11"];
+        E53 [label=<E53 Place>  fillcolor="#fc7715aa" fontsize="11"];
+        E28 [label=<E28 Conceptual Object>  fillcolor="#06b67eaa" fontsize="11"];
+        E19  [label=<E19 Physical Object<BR/>E20 Biological Object>  fillcolor="#5a50c4aa" fontsize="11"];
+        E11 [label=<E11 Modification>  fillcolor="#fc3915aa" fontsize="11"];
+        E54 [label=<E54 Dimension>  fillcolor="#50c4c2aa" fontsize="11"];
+        E3  [label=<E3 Condition State>  fillcolor="#50c4c2aa" fontsize="11"];
+        E14 [label=<E14 Condition<BR/>Assessment>  fillcolor="#fc3915aa" fontsize="11"];
+
+        P46 [label=<P46 is<BR/>composed of>  style="filled, rounded" fontsize="9" ];
+        P2_1 [label=<P2 has<BR/>Type>  style="filled, rounded" fontsize="9" ];
+        P22 [label=<P22 transferred<BR/>title to>  style="filled, rounded" fontsize="9" ];
+        P23 [label=<P23 transferred<BR/>title from>  style="filled, rounded" fontsize="9" ];
+        P53_1 [label=<P53 has former or<BR/>current location>  style="filled, rounded" fontsize="9" ];
+        P2_2 [label=<P2 has<BR/>Type>  style="filled, rounded" fontsize="9" ];
+        P130 [label=<P130 shows<BR/>features of>  style="filled, rounded" fontsize="9" ];
+        P24 [label=<P24 transferred<BR/>title of>  style="filled, rounded" fontsize="9" ];
+        P53_2 [label=<P53 has former or<BR/>current location>  style="filled, rounded" fontsize="9" ];
+        P31 [label=<P31 has<BR/>modified>  style="filled, rounded" fontsize="9" ];
+        P43 [label=<P43 has<BR/>dimension>  style="filled, rounded" fontsize="9" ];
+        P44 [label=<P44 has<BR/>condition>  style="filled, rounded" fontsize="9" ];
+        P34 [label=<P34 concerned>  style="filled, rounded" fontsize="9" ];
 
     }
-    
-    E8 -> P23 [arrowhead=none];
-    P23 -> E21;
-    E8 -> P24 [arrowhead=none];
-    P24 -> E19;
+
+
+
+    E8 -> P2_1 [arrowhead=none];
+    P2_1 -> E55;
+
     E8 -> P22 [arrowhead=none];
     P22 -> E78;
+
+    E8 -> P23 [arrowhead=none];
+    P23 -> E21;
+
     E21 -> P53_1 [arrowhead=none];
-    P53_1 -> E53_1;
-    E19 -> P128 [arrowhead=none];
-    P128 -> E28;
+    P53_1 -> E53;
+
+    E28 -> P2_2 [arrowhead=none];
+    P2_2 -> E55;
+
+    E19 -> P130 [arrowhead=none];
+    P130 -> E28;
+
+    E8 -> P24 [arrowhead=none];
+    P24 -> E19;
+
     E19 -> P53_2 [arrowhead=none];
-    P53_2 -> E53_2;
+    P53_2 -> E53;
+
+    E11 -> P31 [arrowhead=none];
+    P31 -> E19;
+
     E19 -> P43 [arrowhead=none];
     P43 -> E54;
+
     E19 -> P44 [arrowhead=none];
     P44 -> E3;
 
+    E14 -> P34 [arrowhead=none];
+    P34 -> E19;
+
+    P46 -> E78;
+    E78 -> P46 [arrowhead=none];
 }
     

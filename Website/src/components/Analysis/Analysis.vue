@@ -52,7 +52,7 @@
                 Collections
             </p>
         </div>
-        <div v-if="anaLoading"><strong>Loading...</strong></div>
+        <div v-if="!dataLoaded"><strong>Loading...</strong></div>
         <div v-else>
             <EntitySearcher :moreSearchOptions="false" route="analysis" :params="{ mode: mode }" />
 
@@ -98,7 +98,7 @@
 
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-    const mode = ref('Suppliers'),
+    const mode = ref(''),
         focusStyle = { background: '#ffffff', color: '#7da30b' },
         unFocusStyle = { background: '#EBEBEB' },
         dataLoaded = ref(false),
@@ -109,23 +109,45 @@
         cursorResult = ref({}),
         displayEntity = ref({});
 
-    watch(() => route.params, navigate, { deep: true, immediate: true });
-    watch(() => route.query, query, { deep: true, immediate: true });
+    //watch(() => route.params, navigate, { deep: true, immediate: true });
+    //watch(() => route.query, query, { deep: true, immediate: true });
+    watch(() => route, handleRouteChange, { deep: true, immediate: true });
 
     function goTo(para) {
         router.push({ name: 'analysis', params: { mode: para } });
     }
 
-    async function navigate(newParams, oldParams) {
+    async function handleRouteChange(newRoute, oldRoute) {
+        while (!dataLoaded.value) await sleep(300);
         if (
-            newParams != undefined &&
-            newParams.mode != undefined &&
-            (oldParams == undefined || oldParams.mode !== newParams.mode)
+            newRoute.params == undefined ||
+            newRoute.params.mode == undefined ||
+            newRoute.params.mode === ''
+        )
+            goTo('Suppliers');
+        else if (mode.value !== newRoute.params.mode) {
+            if (
+                newRoute.query != undefined &&
+                newRoute.query.q != undefined &&
+                newRoute.query.q !== ''
+            ) {
+                navigate(newRoute.params, false);
+                query(newRoute.query);
+            } else navigate(newRoute.params, true);
+        } else if (
+            newRoute.query != undefined &&
+            newRoute.query.q != undefined &&
+            newRoute.query.q !== ''
         ) {
+            query(newRoute.query);
+        }
+    }
+
+    async function navigate(newParams, showTopTable) {
+        mode.value = newParams.mode;
+        if (showTopTable) {
+            showEntity(personsLookup.value[0]);
             showResults.value = false;
-            mode.value = newParams.mode;
-            while (!dataLoaded.value) await sleep(200);
-            if (!showResults.value) showEntity(personsLookup.value[0]);
         }
     }
 
@@ -134,17 +156,13 @@
     }
 
     async function query(newQuery) {
-        if (!dataLoaded.value && !anaLoading.value) dataLoaded.value = await fetchData();
-        if (dataLoaded.value && newQuery.q != undefined) {
-            searchResults.value = [];
+        searchResults.value = [];
 
-            if (mode.value === 'Suppliers') filterEntities(personsLookup.value, newQuery.q);
-            else if (mode.value === 'Locations') filterEntities(locationsLookup.value, newQuery.q);
-            else if (mode.value === 'Collections')
-                filterEntities(collectionsLookup.value, newQuery.q);
+        if (mode.value === 'Suppliers') filterEntities(personsLookup.value, newQuery.q);
+        else if (mode.value === 'Locations') filterEntities(locationsLookup.value, newQuery.q);
+        else if (mode.value === 'Collections') filterEntities(collectionsLookup.value, newQuery.q);
 
-            showResults.value = true;
-        }
+        showResults.value = true;
     }
 
     function filterEntities(lookup, searchString) {
@@ -164,7 +182,6 @@
 
     async function showEntity(entity) {
         showResults.value = false;
-        while (!dataLoaded.value) await sleep(100);
         displayEntity.value = entity;
         if (mode.value === 'Suppliers') cursorResult.value = personTable.value[entity[1]];
         else if (mode.value === 'Locations') cursorResult.value = locationsTable.value[entity[1]];
@@ -176,7 +193,7 @@
 
     async function fetchData() {
         dataLoaded.value = await data.loadAnalysisData();
-        if (!showResults.value) showEntity(personsLookup.value[0]);
+        //if (!showResults.value) showEntity(personsLookup.value[0]);
     }
 
     onMounted(fetchData);

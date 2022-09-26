@@ -7,7 +7,8 @@
         <!--<div
             class="yearGrid"
         >-->
-        <table v-if="!loading">
+        <p v-if="loading"><strong>Loading...</strong></p>
+        <table v-else>
             <tr v-for="(yearData, i) in entityData[0]" :key="i" class="row">
                 <!--Column1: Year-->
                 <th class="item year">{{ years[i] }}</th>
@@ -53,7 +54,7 @@
 <script setup>
     import { storeToRefs } from 'pinia';
     import { useDataStore } from '@/stores/data';
-    import { onMounted } from 'vue';
+    import { onBeforeMount, onMounted } from 'vue';
     import { useRouter } from 'vue-router';
 
     defineProps({
@@ -70,7 +71,7 @@
         router.push({ name: 'search', query: { id: entity_id } });
     }
 
-    onMounted(() => {
+    onBeforeMount(() => {
         for (let i = 1889; i < 1917; i++) {
             years.push(i);
         }
@@ -119,6 +120,10 @@
         margin: 2px;
 
         background: #fff0; /*#EBEBEB;*/
+    }
+
+    .person {
+        border: 3px solid #00000000;
     }
 
     .entityClick:hover {
