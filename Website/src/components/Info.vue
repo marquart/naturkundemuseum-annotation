@@ -325,5 +325,11 @@
             margin-left: 5%;
             margin-right: 5%;
         }
+
+        .table60,
+        .table90 {
+            width: 100%;
+            margin-left: 0%;
+        }
     }
 </style>

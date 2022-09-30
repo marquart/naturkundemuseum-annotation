@@ -27,7 +27,7 @@ export const useDataStore = defineStore('data', {
 
     actions: {
         async loadBaseData() {
-            if (this.loading) {
+            if (this.entities.length < 1) {
                 const httpHeader = new Headers({
                     'Accept-Encoding': 'gzip',
                     'Content-type': 'application/json',
@@ -78,10 +78,11 @@ export const useDataStore = defineStore('data', {
                 this.loading = false;
                 return true;
             }
+            return true;
         },
 
         async loadAnalysisData() {
-            if (this.anaLoading) {
+            if (Object.keys(this.personsLookup).length < 1) {
                 const httpHeader = new Headers({
                     'Accept-Encoding': 'gzip',
                     'Content-type': 'application/json',
@@ -124,6 +125,7 @@ export const useDataStore = defineStore('data', {
                 this.anaLoading = false;
                 return true;
             }
+            return true;
         },
 
         populateProperty(element) {

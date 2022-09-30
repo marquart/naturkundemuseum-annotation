@@ -1,6 +1,6 @@
 <template>
     <div class="analysisTable">
-        <h3 class="entityClick person">{{ displayEntity[1] }}</h3>
+        <h3 class="entityClick source">{{ displayEntity[1] }}</h3>
         <p v-if="displayEntity[2].length > 1">
             Alternative names: {{ displayEntity[2].toString() }}
         </p>
@@ -18,9 +18,9 @@
                         <li
                             v-for="(lst, ii) in yearData"
                             :key="ii"
-                            class="entityClick place"
+                            class="entityClick target"
                             :style="{
-                                color: lst[2],
+                                '--color': lst[2],
                                 'font-size': lst[1] + 'px',
                             }"
                             @click="emitDisplayTextOf(lst[0])">
@@ -35,9 +35,9 @@
                         <li
                             v-for="(lst, ii) in entityData[1][i]"
                             :key="ii"
-                            class="entityClick place"
+                            class="entityClick target"
                             :style="{
-                                color: lst[2],
+                                '--color': lst[2],
                                 'font-size': lst[1] + 'px',
                             }"
                             @click="emitDisplayTextOf(lst[0])">
@@ -99,10 +99,12 @@
 
     table tr:nth-child(even) .entityClick {
         border: 3px solid #f2f2f2;
+        border-radius: 1ex;
     }
 
     table tr:nth-child(odd) .entityClick {
         border: 3px solid #fff;
+        border-radius: 1ex;
     }
 
     .item {
@@ -122,13 +124,25 @@
         background: #fff0; /*#EBEBEB;*/
     }
 
-    .person {
+    .source {
         border: 3px solid #00000000;
+    }
+
+    .source:hover {
+        border: 3px solid #000000;
+    }
+
+    .target {
+        color: white;
+        background-color: var(--color);
+    }
+
+    .target:hover {
+        color: var(--color);
+        background-color: #00000000;
     }
 
     .entityClick:hover {
         cursor: pointer;
-        border: 3px solid #000000;
-        text-decoration: underline;
     }
 </style>

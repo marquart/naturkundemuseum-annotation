@@ -703,4 +703,8 @@ z
     };
 </script>
 
-<style scoped></style>
+<style scoped>
+    svg {
+        width: 100%;
+    }
+</style>

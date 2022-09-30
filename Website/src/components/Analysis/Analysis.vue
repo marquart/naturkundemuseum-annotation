@@ -192,7 +192,7 @@
     }
 
     async function fetchData() {
-        dataLoaded.value = await data.loadAnalysisData();
+        if (!dataLoaded.value) dataLoaded.value = await data.loadAnalysisData();
         //if (!showResults.value) showEntity(personsLookup.value[0]);
     }
 

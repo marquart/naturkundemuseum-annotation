@@ -823,4 +823,12 @@
         height: 100%;
         margin-left: 0%;
     }
+
+    @media screen and (max-width: 700px) {
+        .small {
+            width: 100%;
+            height: 100%;
+            margin-left: 0%;
+        }
+    }
 </style>

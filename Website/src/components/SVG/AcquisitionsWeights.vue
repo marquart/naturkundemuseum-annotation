@@ -899,6 +899,7 @@ L 641.053696 244.670263
 
 <style scoped>
     svg {
-        margin-left: 20%;
+        width: 100%;
+        /*margin-left: 20%;*/
     }
 </style>
