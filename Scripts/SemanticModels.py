@@ -261,14 +261,10 @@ class SemanticEntity(object):
             
         else:
             self.original_id = int(tag["xmi:id"])
-            virtual_from_source = False
-            
+
             char_begin = int(tag["begin"])
             char_end = int(tag["end"])
-            
-            if char_begin == char_end:
-                print(f"INVALID ENTITY {self.year}: {char_begin}-{char_end} ({corrector.text[corrector.offset(char_begin-8):corrector.offset(char_end+8)]})")
-                exit()
+            virtual_from_source = char_begin == char_end # Zero-Span Annotation, normally False
             
             if tag.has_attr("Postprocessing"):
                 virtual_from_source = parse_postprocessing(tag['Postprocessing'], self, anchors, corrector)

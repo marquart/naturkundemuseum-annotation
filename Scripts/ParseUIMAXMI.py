@@ -8,10 +8,13 @@ from bs4 import BeautifulSoup
 from bs4.element import Tag as BS4_TAG
 
 from SemanticModels import SemanticData, Anchors, OCRCorrection, Corrector, SemanticEntity, SemanticProperty 
-from GlobalConsolidate import identify_global_consolidations
+from GlobalConsolidate import identify_global_consolidations, add_concept_to_objects
 from EntityURLResolver import get_URL_for_entity
 
-
+def has_outgoing_property(entity, short_type):
+    for p in entity.outgoing:
+        if p.short_type == short_type: return p.target
+    return None
 
 def modelShortcutP22(entities, properties, corrector):    # Person and Place as part of Acquisition
     # Model: Person has P22 transferred title to (via Postprocessing Field in Inception) and has P53 location
@@ -307,7 +310,8 @@ def parse(filepath, verbose=True, year=None, institution=None, consolidate=True,
     
     entities, properties = postprocessing(entities, properties, corrector)
     entities, properties = split_large_acquisitions(entities, properties, corrector)
-    
+    entities, properties = add_concept_to_objects(entities, properties, corrector)
+
     if consolidate: entities = consolidate_entities(entities) # Types and Holdings
     else: entities = set(entities)
     

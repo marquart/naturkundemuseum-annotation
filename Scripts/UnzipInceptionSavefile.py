@@ -28,7 +28,7 @@ def extractXMI(project_dir, target_dir, last_index=0):
             #print("files", files)
             
             for file in files:
-                if file.endswith('.zip'):
+                if file.startswith('admin') and file.endswith('.zip'):
                     name = os.path.basename(root).rstrip(".txt")
                     
                     with ZipFile(os.path.join(root, file), 'r') as zip:
