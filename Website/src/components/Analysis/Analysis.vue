@@ -35,20 +35,20 @@
         <div class="modeselection">
             <p
                 class="mode"
-                :style="[mode === 'Suppliers' ? focusStyle : unFocusStyle]"
-                @click="goTo('Suppliers')">
+                :style="[mode === suppliers ? focusStyle : unFocusStyle]"
+                @click="goTo(suppliers)">
                 Suppliers
             </p>
             <p
                 class="mode"
-                :style="[mode === 'Locations' ? focusStyle : unFocusStyle]"
-                @click="goTo('Locations')">
+                :style="[mode === locations ? focusStyle : unFocusStyle]"
+                @click="goTo(locations)">
                 Locations
             </p>
             <p
                 class="mode"
-                :style="[mode === 'Collections' ? focusStyle : unFocusStyle]"
-                @click="goTo('Collections')">
+                :style="[mode === collections ? focusStyle : unFocusStyle]"
+                @click="goTo(collections)">
                 Collections
             </p>
         </div>
@@ -64,7 +64,8 @@
             <AnalysisTable
                 v-if="showTable"
                 :displayEntity="displayEntity"
-                :entityData="cursorResult" />
+                :entityData="cursorResult"
+                :columnNames="getColumnNames()" />
         </div>
     </div>
 </template>
@@ -107,7 +108,10 @@
         showTable = ref(false),
         searchResults = ref([]),
         cursorResult = ref({}),
-        displayEntity = ref({});
+        displayEntity = ref({}),
+        suppliers = 'Suppliers',
+        locations = 'Locations',
+        collections = 'Collections';
 
     //watch(() => route.params, navigate, { deep: true, immediate: true });
     //watch(() => route.query, query, { deep: true, immediate: true });
@@ -124,7 +128,7 @@
             newRoute.params.mode == undefined ||
             newRoute.params.mode === ''
         )
-            goTo('Suppliers');
+            goTo(suppliers);
         else if (mode.value !== newRoute.params.mode) {
             if (
                 newRoute.query != undefined &&
@@ -158,9 +162,9 @@
     async function query(newQuery) {
         searchResults.value = [];
 
-        if (mode.value === 'Suppliers') filterEntities(personsLookup.value, newQuery.q);
-        else if (mode.value === 'Locations') filterEntities(locationsLookup.value, newQuery.q);
-        else if (mode.value === 'Collections') filterEntities(collectionsLookup.value, newQuery.q);
+        if (mode.value === suppliers) filterEntities(personsLookup.value, newQuery.q);
+        else if (mode.value === locations) filterEntities(locationsLookup.value, newQuery.q);
+        else if (mode.value === collections) filterEntities(collectionsLookup.value, newQuery.q);
 
         showResults.value = true;
     }
@@ -183,10 +187,9 @@
     async function showEntity(entity) {
         showResults.value = false;
         displayEntity.value = entity;
-        if (mode.value === 'Suppliers') cursorResult.value = personTable.value[entity[1]];
-        else if (mode.value === 'Locations') cursorResult.value = locationsTable.value[entity[1]];
-        else if (mode.value === 'Collections')
-            cursorResult.value = collectionsTable.value[entity[1]];
+        if (mode.value === suppliers) cursorResult.value = personTable.value[entity[1]];
+        else if (mode.value === locations) cursorResult.value = locationsTable.value[entity[1]];
+        else if (mode.value === collections) cursorResult.value = collectionsTable.value[entity[1]];
 
         showTable.value = cursorResult.value != undefined && displayEntity.value != undefined;
     }
@@ -194,6 +197,13 @@
     async function fetchData() {
         if (!dataLoaded.value) dataLoaded.value = await data.loadAnalysisData();
         //if (!showResults.value) showEntity(personsLookup.value[0]);
+    }
+
+    function getColumnNames() {
+        if (mode.value === suppliers) return ['ORIGINAL ' + locations, 'RECEIVING ' + collections];
+        else if (mode.value === locations) return [suppliers, 'RECEIVING ' + collections];
+        else if (mode.value === collections) return ['ORIGINAL ' + locations, suppliers];
+        return ['', ''];
     }
 
     onMounted(fetchData);

@@ -22,6 +22,16 @@
             </div>
             -->
             <TextSearchResults v-show="showResults" :results="searchResults" />
+            <p
+                v-if="
+                    showResults &&
+                    route.query.size != undefined &&
+                    searchResults.length >= route.query.size
+                "
+                class="moreResultsHint">
+                More than the entities currently shown could match this query – try increasing the
+                "max results" parameter in the query mask.
+            </p>
         </div>
     </div>
 </template>
@@ -127,6 +137,10 @@
         animation-iteration-count: infinite;
     }
 
+    .moreResultsHint {
+        font-style: italic;
+    }
+    /*
     @keyframes loading {
         0% {
             transform: rotate(0deg);
@@ -135,7 +149,7 @@
             transform: rotate(360deg);
         }
     }
-
+*/
     @media screen and (max-width: 700px) {
         .searchField {
             width: 100%;

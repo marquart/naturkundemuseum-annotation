@@ -9,6 +9,11 @@
         >-->
         <p v-if="loading"><strong>Loading...</strong></p>
         <table v-else>
+            <tr class="row">
+                <th>YEAR</th>
+                <th>{{ columnNames[0].toUpperCase() }}</th>
+                <th>{{ columnNames[1].toUpperCase() }}</th>
+            </tr>
             <tr v-for="(yearData, i) in entityData[0]" :key="i" class="row">
                 <!--Column1: Year-->
                 <th class="item year">{{ years[i] }}</th>
@@ -58,6 +63,7 @@
     import { useRouter } from 'vue-router';
 
     defineProps({
+        columnNames: Array,
         displayEntity: Array,
         entityData: Array,
     });
@@ -144,5 +150,9 @@
 
     .entityClick:hover {
         cursor: pointer;
+    }
+
+    th {
+        text-align: center;
     }
 </style>
