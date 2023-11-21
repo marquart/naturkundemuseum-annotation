@@ -11,6 +11,8 @@ from timeit import default_timer as timer
 
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData
 
+from BuildGraph import exportGraphMLfromTree
+
 # for Temp Website
 import random, json
 
@@ -45,7 +47,11 @@ class Node(object):
     def __str__(self):
         if self.id < 0: return f"V{self.id}".replace('-','_')
         return f"N{self.id}"
-        
+    def __len__(self):
+        if self.entity: return len(self.entity.incoming)+len(self.entity.outgoing)
+        return float('inf')
+
+
 class Arrow(object):
     def __init__(self, property, source, target, _id=0, verbose_label=""):
         if isinstance(property, SemanticProperty) and isinstance(source, Node) and isinstance(target, Node):
@@ -76,7 +82,11 @@ def add_virtual_node(node, arrows, virtual_nodes, neighbors=None):
     arrows.append(Arrow(None, node, excuse, _id=-1*node.id, verbose_label="too many neighbours to draw"))
     virtual_nodes.append(excuse)
 
-def BFS(node, maxdepth=3, renderYear=False):
+def BFS_rule_cut(node, maxdepth=3, renderYear=False):
+    ''' cuts edges for subtree based on entity type (E55 Type, E41 Appellation, E78 Curated Holding, E28 Conceptual Object, E53 Place)
+    '''
+    exclude = ("E55", "E41", "E78", "E28", "E53") # children will not get processed
+    complete_exclude = ("E55", "E41", ) # Entities will get completely ignored 
     queue = deque([node])
     depths = {node.entity: 0}
     too_many_neighbors = {} # entity:node
@@ -88,7 +98,73 @@ def BFS(node, maxdepth=3, renderYear=False):
         assert isinstance(node, Node)
         if depths[node.entity] > maxdepth:
             break
-        if (neighbors := len(node.entity.incoming)+len(node.entity.outgoing))>18-len(real_nodes) and depths[node.entity]>0:
+        if node.entity.short_type in exclude and depths[node.entity]>0:
+            neighbors = len(node)
+            add_virtual_node(node, arrows, virtual_nodes, neighbors=neighbors)
+            too_many_neighbors[node.entity] = node
+            continue
+            
+        for property in node.entity.outgoing:
+            neighbour = property.target
+            if neighbour.short_type in complete_exclude: continue
+            if neighbour in depths:
+                if property in processed_properties:
+                    continue
+                elif neighbour in too_many_neighbors:
+                    arrows.append(Arrow(property, node, too_many_neighbors[neighbour]))
+                    processed_properties.add(property)
+                else:
+                    arrows.append(Arrow(property, node, real_nodes[neighbour]))
+                    processed_properties.add(property)
+                continue
+            neighbour_node = Node(neighbour, renderYear=renderYear)
+            real_nodes[neighbour] = neighbour_node
+            arrows.append(Arrow(property, node, neighbour_node))
+            processed_properties.add(property)
+            queue.append(neighbour_node)
+            depths[neighbour] = depths[node.entity] + 1
+            if depths[neighbour]>maxdepth and len(neighbour.incoming)+len(neighbour.outgoing)>1:
+                add_virtual_node(neighbour_node, arrows, virtual_nodes)
+        for property in node.entity.incoming:
+            neighbour = property.source
+            if neighbour.short_type in complete_exclude: continue
+            if neighbour in depths:
+                if property in processed_properties:
+                    continue
+                elif neighbour in too_many_neighbors:
+                    arrows.append(Arrow(property, too_many_neighbors[neighbour], node))
+                    processed_properties.add(property)
+                else:
+                    arrows.append(Arrow(property, real_nodes[neighbour], node))
+                    processed_properties.add(property)
+                continue
+            
+            neighbour_node = Node(neighbour, renderYear=renderYear)
+            real_nodes[neighbour] = neighbour_node
+            arrows.append(Arrow(property, neighbour_node, node))
+            processed_properties.add(property)
+            queue.append(neighbour_node)
+            depths[neighbour] = depths[node.entity] + 1
+            if depths[neighbour]>maxdepth and len(neighbour.incoming)+len(neighbour.outgoing)>1:
+                add_virtual_node(neighbour_node, arrows, virtual_nodes)
+    return list(real_nodes.values()) + virtual_nodes, arrows
+
+
+def BFS_quantity_cut(node, maxdepth=3, renderYear=False):
+    ''' cuts edges for subtree based on threshold of nodes (18)
+    '''
+    queue = deque([node])
+    depths = {node.entity: 0}
+    too_many_neighbors = {} # entity:node
+    processed_properties = set()
+    real_nodes = {}
+    virtual_nodes, arrows = [], []
+    while queue:
+        node = queue.popleft()
+        assert isinstance(node, Node)
+        if depths[node.entity] > maxdepth:
+            break
+        if (neighbors := len(node))-len(real_nodes)>18 and depths[node.entity]>0:
             add_virtual_node(node, arrows, virtual_nodes, neighbors=neighbors)
             too_many_neighbors[node.entity] = node
             continue
@@ -147,18 +223,18 @@ def count_nodes(nodes):
     return len([node for node in nodes if not node.neighbor])
 
 
-def build_tree(entity, depth=3):
+def build_tree(entity, depth=3, BFS_function=BFS_quantity_cut):
     nodes = [Node(entity, style="rounded,filled", fontsize=11)]
-    result = BFS(nodes[0], maxdepth=depth, renderYear=needsRenderYears(entity))
+    result = BFS_function(nodes[0], maxdepth=depth, renderYear=needsRenderYears(entity))
     nodes += result[0]
     arrows = sorted(result[1], key=attrgetter("index"))
     return count_nodes(nodes), nodes, arrows
 
 
-def calculate_optimal_tree(entity, optimal_nodes=13):
+def calculate_optimal_tree(entity, optimal_nodes=13, BFS_function=BFS_quantity_cut, exportGraphml=False):
     trees, no_nodes = {}, {} #depth:tree, depth:number of nodes
     for i in range(0,5):
-        no, nodes, arrows = build_tree(entity, depth=i)
+        no, nodes, arrows = build_tree(entity, depth=i, BFS_function=BFS_function)
         if no == optimal_nodes:
             print(f"Optimal Tree for {str(entity)} with depth {i} ({no} nodes)")
             return generate_DOT(entity, depth=i, tree=(nodes,arrows)), i
@@ -169,10 +245,10 @@ def calculate_optimal_tree(entity, optimal_nodes=13):
     optimal_depth = min(no_nodes, key=lambda x: abs(optimal_nodes-no_nodes[x]))
     nodes, arrows = trees[optimal_depth][0] , trees[optimal_depth][1]
     print(f"    Optimal Tree for {str(entity)} with depth {optimal_depth} ({no_nodes[optimal_depth]} nodes) Alternatives {str(no_nodes)}")
-    return generate_DOT(entity, depth=optimal_depth, tree=(nodes,arrows)), optimal_depth
+    return generate_DOT(entity, depth=optimal_depth, tree=(nodes,arrows), exportGraphml=exportGraphml), optimal_depth
 
 
-def generate_DOT(entity, depth=3, tree=None):
+def generate_DOT(entity, depth=3, tree=None, BFS_function=BFS_quantity_cut, exportGraphml=False):
     #    
     template = """
 digraph Annotationen {
@@ -209,7 +285,7 @@ NODES
     if entity.year > 0: template = template.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} ({entity.year}) with depth {depth+1}")
     else: template = template.replace("GRAPHLABEL", f"Neighbourhood for Entity No. {entity.id} in {entity.institution} with depth {depth+1}")
     
-    if tree is None: _, nodes, arrows = build_tree(entity, depth=depth)
+    if tree is None: _, nodes, arrows = build_tree(entity, depth=depth, BFS_function=BFS_function)
     else: nodes, arrows = tree[0], tree[1]
     
     with_nodes = template.replace("NODES", '\n'.join([f'        {str(node)} [id={str(node)} class="{node.class_}" label=<{node.label}> fillcolor="{node.color}" color="{"black" if i<1 else "white"}" fontsize="{node.fontsize}" style="{node.style}"];' for i, node in enumerate(nodes)])) #style="{node.style}"
@@ -224,9 +300,12 @@ NODES
     else:
         # Not connected to any other Entity :(
         with_legend = with_arrows.replace("LEGEND", "")
-    return with_legend
     
-def generateSVG(data, output_path, entity_id=None, depth=3):
+    if exportGraphml: exportGraphMLfromTree(nodes, arrows)
+    return with_legend
+
+
+def generateSVG(data, output_path, entity_id=None, depth=3, quantity_based_BFS=False, exportGraphml=False):
     if not isinstance(data, SemanticData): data = SemanticData(data)
     entities = {e.id:e for e in data.entities}
     if not entity_id:
@@ -236,31 +315,42 @@ def generateSVG(data, output_path, entity_id=None, depth=3):
     else:
         entity = entities[entity_id]
         
-    svg_path = os.path.join(output_path, f"{entity.id}.svg")
+    svg_path = os.path.join(output_path, f"{entity.id}.{OUTPUT_FORMAT}")
+
+    if quantity_based_BFS: BFS_function = BFS_quantity_cut
+    else: BFS_function = BFS_rule_cut
     
-    if type(depth) is int: dot = generate_DOT(entity, depth=depth)
-    else: dot, depth = calculate_optimal_tree(entity)
+    if type(depth) is int: dot = generate_DOT(entity, depth=depth, BFS_function=BFS_function, exportGraphml=exportGraphml)
+    else: dot, depth = calculate_optimal_tree(entity, BFS_function=BFS_function, exportGraphml=exportGraphml)
     
-    success = run(("dot", "-Tsvg", "-o", svg_path), input=dot, encoding='UTF-8')
+    success = run(("dot", f"-T{OUTPUT_FORMAT}", "-o", svg_path), input=dot, encoding='UTF-8')
     while success.returncode != 0 and depth > 0:
         print(f"    Error for {str(entity)} in depth {depth}, trying with smaller depth")
         depth -= 1
-        success = run(("dot", "-Tsvg", "-o", svg_path), input=generate_DOT(entity, depth=depth), encoding='UTF-8')
+        success = run(("dot", f"-T{OUTPUT_FORMAT}", "-o", svg_path), input=generate_DOT(entity, depth=depth), encoding='UTF-8')
     
     print(f"Created '{svg_path}'")
     
-    
+
+OUTPUT_FORMAT = "svg"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--all', '-a', default=False, action='store_true')
     parser.add_argument('--entity', '-e', type=int, default=-1)
     parser.add_argument('--depth', '-d', type=int, default=-1)
+    parser.add_argument('--rulebased', '-r', default=False, action='store_true')
+    parser.add_argument('--graphml', '-g', default=False, action='store_true')
+    parser.add_argument('--format', '-f', type=str, default="svg")
+
     
     pickle_file = "../Data/ParsedSemanticAnnotations.pickle"
     svg_filepath = "../Website/public/Data/graphs" if os.path.exists("../Website/public/Data/graphs") else "../../Temp_Visualizations/DOTs/"
     
     data = SemanticData(pickle_file)
     args = parser.parse_args()
+
+    if args.format:
+        OUTPUT_FORMAT = args.format.strip().lower()
     
     if args.all:
         #temp_export = []
@@ -278,5 +368,5 @@ if __name__ == "__main__":
         if args.depth > -1: depth = args.depth
         else: depth = None
         
-        if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=depth)
-        else: generateSVG(data, svg_filepath, entity_id=None, depth=depth)
+        if args.entity > -1: generateSVG(data, svg_filepath, entity_id=args.entity, depth=depth, exportGraphml=args.graphml)
+        else: generateSVG(data, svg_filepath, entity_id=None, depth=depth, exportGraphml=args.graphml)

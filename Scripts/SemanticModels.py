@@ -307,6 +307,12 @@ class SemanticEntity(object):
     
     def verbose(self):
         return f"{self.type}: '{self.string}' ({self.id}, {self.institution} {self.year})"
+    
+    def incoming_entities(self):
+        for relation in self.incoming: yield relation.source
+    
+    def outgoing_entities(self):
+        for relation in self.outgoing: yield relation.target
         
 
 

@@ -12,9 +12,31 @@ from EntityURLResolver import get_URL_for_entity, build_citation
 def clean(txt):
     return txt.replace('\r\n', ' ').replace('\n', ' ').replace('‑', '').replace('-', '')
 
-
 def visited(entity):
     return hasattr(entity, "component")
+
+
+def exportGraphMLfromTree(nodes, arrows):
+    ''' Tree from ./generateDot.py
+    '''
+    node_to_id = {node:i for i, node in enumerate(nodes)}
+    g = Graph(directed=True)
+
+    g.add_vertices(len(nodes))
+    g.add_edges([(node_to_id[p.source], node_to_id[p.target]) for p in arrows])
+
+    g.vs["Label"] = [node.label for node in nodes]
+    g.vs["Text"] = [node.label for node in nodes]
+    g.vs["Color"] = [node.color for node in nodes]
+    g.vs["r"] = [int(node.color[1:3], 16) for node in nodes]
+    g.vs["g"] = [int(node.color[3:5], 16) for node in nodes]
+    g.vs["b"] = [int(node.color[5:7], 16) for node in nodes]
+    g.vs["a"] = [1.0 for node in nodes]
+    
+    savepath = f"../../Temp_Visualizations/GraphMLs/{nodes[0].entity.id}.graphml"
+    g.save(savepath, format="graphml")
+    print(f"\nBuild Graph with {len(g.vs)} nodes and {len(g.es)} edges")
+
 
 def DFS(entity, component_id, component_lst, lookup):
     entity.component = 0
@@ -247,6 +269,7 @@ if __name__ == "__main__":
     data = SemanticData(pickle_file)
     entity_node_lookup = {e:i for i,e in enumerate(data.entities)}
     consolidate = False
+    integrateDocuments = False
     
     g = Graph(directed=True)
     if consolidate:
@@ -257,22 +280,30 @@ if __name__ == "__main__":
         g.add_vertices(len(data.entities))
         g.add_edges([(entity_node_lookup[p.source], entity_node_lookup[p.target]) for p in data.properties])
 
-    
-    documentNodes = connectViaDocuments(g, data, queens, entity_node_lookup) #Text: id
-    
-    entityLabels = {i:e for e,i in entity_node_lookup.items()}
-    documentLabels = {i:e for e,i in documentNodes.items()}
-    assert len(entityLabels) == len(entity_node_lookup) and len(documentLabels) == len(documentNodes)
-    sortedEntities = sorted(entityLabels)
-    sortedDocuments = sorted(documentLabels)
-    
-    g.vs["Label"] = [entityLabels[i].short_type for i in sortedEntities] + ["E31" if type(documentLabels[d]) is str else "E61" for d in sortedDocuments] #+ ["E0 Metadata"]*len_glue
-    g.vs["Text"] = [entityLabels[i].string for i in sortedEntities] + [str(documentLabels[x]) for x in sortedDocuments] #+ [str(y) for y in year_node_lookup] + ins_strings
-    g.vs["Color"] = [entityLabels[i].color[:7].upper() for i in sortedEntities] + ["#06B67E" if type(documentLabels[d]) is str else "#DEBB9B" for d in sortedDocuments]
-    g.vs["r"] = [int(entityLabels[i].color[1:3], 16) for i in sortedEntities] + [6 if type(documentLabels[d]) is str else 222 for d in sortedDocuments]
-    g.vs["g"] = [int(entityLabels[i].color[3:5], 16) for i in sortedEntities] + [182 if type(documentLabels[d]) is str else 187 for d in sortedDocuments]
-    g.vs["b"] = [int(entityLabels[i].color[5:7], 16) for i in sortedEntities] + [126 if type(documentLabels[d]) is str else 155 for d in sortedDocuments]
-    g.vs["a"] = [1.0 for i in sortedEntities] + [1.0 for d in sortedDocuments]
+    if integrateDocuments:
+        documentNodes = connectViaDocuments(g, data, queens, entity_node_lookup) #Text: id
+        
+        entityLabels = {i:e for e,i in entity_node_lookup.items()}
+        documentLabels = {i:e for e,i in documentNodes.items()}
+        assert len(entityLabels) == len(entity_node_lookup) and len(documentLabels) == len(documentNodes)
+        sortedEntities = sorted(entityLabels)
+        sortedDocuments = sorted(documentLabels)
+        
+        g.vs["Label"] = [entityLabels[i].short_type for i in sortedEntities] + ["E31" if type(documentLabels[d]) is str else "E61" for d in sortedDocuments] #+ ["E0 Metadata"]*len_glue
+        g.vs["Text"] = [entityLabels[i].string for i in sortedEntities] + [str(documentLabels[x]) for x in sortedDocuments] #+ [str(y) for y in year_node_lookup] + ins_strings
+        g.vs["Color"] = [entityLabels[i].color[:7].upper() for i in sortedEntities] + ["#06B67E" if type(documentLabels[d]) is str else "#DEBB9B" for d in sortedDocuments]
+        g.vs["r"] = [int(entityLabels[i].color[1:3], 16) for i in sortedEntities] + [6 if type(documentLabels[d]) is str else 222 for d in sortedDocuments]
+        g.vs["g"] = [int(entityLabels[i].color[3:5], 16) for i in sortedEntities] + [182 if type(documentLabels[d]) is str else 187 for d in sortedDocuments]
+        g.vs["b"] = [int(entityLabels[i].color[5:7], 16) for i in sortedEntities] + [126 if type(documentLabels[d]) is str else 155 for d in sortedDocuments]
+        g.vs["a"] = [1.0 for i in sortedEntities] + [1.0 for d in sortedDocuments]
+    else:
+        g.vs["Label"] = [e.short_type for e in data.entities]
+        g.vs["Text"] = [e.string for e in data.entities]
+        g.vs["Color"] = [e.color for e in data.entities]
+        g.vs["r"] = [int(e.color[1:3], 16) for e in data.entities]
+        g.vs["g"] = [int(e.color[3:5], 16) for e in data.entities]
+        g.vs["b"] = [int(e.color[5:7], 16) for e in data.entities]
+        g.vs["a"] = [1.0 for e in data.entities]
     
     #assert len(g.vs)==len(data.entities) and len(g.es)==len(data.properties)
     savepath = "../Data/RDF/LossySemanticGraph.graphml"

@@ -11,10 +11,7 @@ from SemanticModels import SemanticData, Anchors, OCRCorrection, Corrector, Sema
 from GlobalConsolidate import identify_global_consolidations, add_concept_to_objects
 from EntityURLResolver import get_URL_for_entity
 
-def has_outgoing_property(entity, short_type):
-    for p in entity.outgoing:
-        if p.short_type == short_type: return p.target
-    return None
+
 
 def modelShortcutP22(entities, properties, corrector):    # Person and Place as part of Acquisition
     # Model: Person has P22 transferred title to (via Postprocessing Field in Inception) and has P53 location

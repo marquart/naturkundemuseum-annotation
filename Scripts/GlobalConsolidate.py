@@ -1,7 +1,12 @@
 from collections import defaultdict, deque
 from SemanticModels import SemanticEntity, SemanticProperty, SemanticData, Corrector
-from ParseUIMAXMI import has_outgoing_property
+
 #from ParseUIMAXMI import SemanticEntity, SemanticProperty, SemanticData, Corrector
+
+def has_outgoing_property(entity, short_type):
+    for p in entity.outgoing:
+        if p.short_type == short_type: return p.target
+    return None
 
 def generalize_global_collection(e):
     # unfinished
@@ -188,12 +193,13 @@ def add_concept_to_objects(entities, properties, corrector):
     for e in entities:
         if e.short_type in ("E19","E18","E20","E78","E35"):
             concept, relation = add_concept_to_object(e, corrector)
-            if concept:
-                assert relation is not None
-                new_entities.append(concept)
+            if relation:
+                if concept:
+                    new_entities.append(concept)
                 new_properties.append(relation)
                 i += 1
     print(f"==========\LOCAL CONSOLIDATE: Added {i} taxonomic concepts to objects and collections\n==========")
+    #print(len(new_entities), len(SemanticEntity.virtuals), len(new_properties), len(SemanticProperty.virtuals))
     assert len(new_entities)==len(SemanticEntity.virtuals) and len(new_properties)==len(SemanticProperty.virtuals)
     entities += new_entities
     properties += new_properties
@@ -226,13 +232,17 @@ def add_concept_to_object(e, corrector):
         if concept_name == collection.search_string:
             print(f"CANT RESOLVE CONCEPT BASED ON COLLECTION {collection} ({collection.search_string})")
         else:
+            new_creation = False
             if (target := has_outgoing_property(collection, "P130")): concept = target
-            else: concept = SemanticEntity({"SemanticClass":"E28 Conceptual Object", "string":concept_name}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=None)
+            else: 
+                new_creation = True
+                concept = SemanticEntity({"SemanticClass":"E28 Conceptual Object", "string":concept_name}, corrector, virtual=True, year=e.year, institution=e.institution, virtual_origin=None)
             if e.short_type == "E35":
                 relation = SemanticProperty({"SemanticProperty":"P129 is about"}, virtual=True, source=e, target=concept, institution=e.institution)
             else:
                 relation = SemanticProperty({"SemanticProperty":"P130 shows features of"}, virtual=True, source=e, target=concept, institution=e.institution)
-            return concept, relation
+            if new_creation: return concept, relation
+            return None, relation
     return None, None
 
 

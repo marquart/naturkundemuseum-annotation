@@ -5,35 +5,427 @@
     "Page_End": 120,
     "Text": "====PAGEBEGIN 120====\r\n\r\nM. Meissner, Vergleichende Untersuchung der Vogellunge.\r\n(Gekrönte Preisschrift der Kgl. Friedrich­W ilhelms- Universität.)\r\nAusserdem hat Dr. C. Heider zur Erläuterung seiner im\r\nvorhergegangenen Jahre veröffentlichten Abhandlung „Ueber die\r\nEmbryonalentwicklung von Hydrophilus piceus L.‘“ eine Serie\r\nvon Unterrichtsmodellen der Entwicklung des pechschwarzen\r\nSchwimmkäfers anfertigen lassen.\r\nDer Direktor\r\nProfessor F. E. Schulze.\r\n33. Das Museum für Naturkunde.\r\n Allgemeine Verwaltung.\r\nDie Schausammlungen des Museums für Naturkunde sind\r\nden Fortschritten der Neuordnung und Aufstellung der Samm­lungen entsprechend vom 1. Juli v. Js. ab, ausser Montags auch\r\nSonnabends von 11 bis 3 Uhr für das Publikum und Mittwochs\r\nNachmittags von 1 bis 4 Uhr für die Schüler höherer Lehr­anstalten geöffnet gewesen.\r\nIm verflossenen Wintersemester, in dem eine Zählung vor­genommen wurde, besuchten im Ganzen 11579 Personen und\r\n13 Schulklassen unter Führung ihrer Lehrer das Museum. Die\r\nhöchste Besucherzahl war am 28. März d. Js. mit 690 und die\r\nniedrigste am 15. Dezember v. Js. mit 75 Personen zu ver­zeichnen. Der Durchschnitt beträgt an den 53 in Betracht\r\nkommenden Tagen 219 Besucher.\r\nZur Aufsicht in den Sälen an den Besuchstagen sind seit\r\ndem 1. Juli v. Js. ausser drei etatsmässigen Aufsichtsdienern\r\nbei der zoologischen Sammlung, acht Hilfsaufseher für diese und\r\ndie übrigen Abtheilungen angenommen worden, deren Remune­rrung aus dem sächlichen Ausgabefonds der allgemeinen Ver­waltung erfolgte. Als Abzeichen tragen dieselben Dienstmützen,\r\nwie sie bei den hiesigen Königlichen Museen üblich sind und\r\neine schwarz-weisse Armbinde mit einem Messingschild, welches\r\ndie Aufschrift: „Königliches Museum für Naturkunde“ trägt.\r\nDie Aufbewahrung der von den Besuchern abzugebenden Garde­robegegenstände geschieht durch den Portier. Die Oberaufsicht\r\nwird von dem Kastellan ausgeübt.\r\nProfessor Dr. Beyrich,\r\nVerwaltungsdirektor.\r\n116",
     "Entities": {
-        "1239": {
-            "id": "1239",
-            "type": "E41 Appellation",
-            "short_type": "E41",
+        "1128": {
+            "id": "1128",
+            "type": "E74 Group",
+            "short_type": "E74",
             "virtual": false,
-            "text": "Verwaltungsdirektor",
-            "search_string": "verwaltungsdirektor",
-            "begin": 1946,
-            "end": 1965,
+            "text": "Publikum",
+            "search_string": "publikum",
+            "begin": 730,
+            "end": 738,
             "page": 120,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": 39,
+            "line": 16,
             "txt_id": "Mus_1890",
-            "line_idx": 40,
+            "line_idx": 17,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [],
+            "outgoing": [
+                "1181"
+            ]
+        },
+        "1162": {
+            "id": "1162",
+            "type": "E29 Design or Procedure",
+            "short_type": "E29",
+            "virtual": false,
+            "text": "Aufbewahrung der von den Besuchern abzugebenden Garderobegegenstände",
+            "search_string": "aufbewahrungdervondenbesuchernabzugebendengarderobegegenstände",
+            "begin": 1771,
+            "end": 1840,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 35,
+            "txt_id": "Mus_1890",
+            "line_idx": 36,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1890,
             "mentions": 1,
             "color": "#debb9baa",
             "incoming": [
-                "1221"
+                "1219"
             ],
             "outgoing": [
-                "1196"
+                "1191"
             ]
         },
-        "1206": {
-            "id": "1206",
+        "1130": {
+            "id": "1130",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
+            "search_string": "mittwochsnachmittagsvon1bis4uhr",
+            "begin": 743,
+            "end": 781,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 16,
+            "txt_id": "Mus_1890",
+            "line_idx": 17,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "1200"
+            ],
+            "outgoing": []
+        },
+        "1129": {
+            "id": "1129",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Audience",
+            "search_string": "audience",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 5,
+            "color": "#06b67eaa",
+            "incoming": [
+                "1181",
+                "1182",
+                "1185",
+                "1186",
+                "1187"
+            ],
+            "outgoing": []
+        },
+        "1164": {
+            "id": "1164",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Portier",
+            "search_string": "portier",
+            "begin": 1861,
+            "end": 1868,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 36,
+            "txt_id": "Mus_1890",
+            "line_idx": 37,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#debb9baa",
+            "incoming": [],
+            "outgoing": [
+                "1192",
+                "1219"
+            ]
+        },
+        "1131": {
+            "id": "1131",
+            "type": "E74 Group",
+            "short_type": "E74",
+            "virtual": false,
+            "text": "Schüler höherer Lehranstalten",
+            "search_string": "schülerhöhererlehranstalten",
+            "begin": 790,
+            "end": 820,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 17,
+            "txt_id": "Mus_1890",
+            "line_idx": 18,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [],
+            "outgoing": [
+                "1182"
+            ]
+        },
+        "1163": {
+            "id": "1163",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Task",
+            "search_string": "task",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 2,
+            "color": "#06b67eaa",
+            "incoming": [
+                "1191",
+                "1193"
+            ],
+            "outgoing": []
+        },
+        "1133": {
+            "id": "1133",
+            "type": "E3 Condition State",
+            "short_type": "E3",
+            "virtual": false,
+            "text": "geöffnet",
+            "search_string": "geöffnet",
+            "begin": 821,
+            "end": 829,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 18,
+            "txt_id": "Mus_1890",
+            "line_idx": 19,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [],
+            "outgoing": [
+                "1183",
+                "1197",
+                "1198",
+                "1199",
+                "1200"
+            ]
+        },
+        "1166": {
+            "id": "1166",
+            "type": "E29 Design or Procedure",
+            "short_type": "E29",
+            "virtual": false,
+            "text": "Oberaufsicht",
+            "search_string": "oberaufsicht",
+            "begin": 1874,
+            "end": 1886,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 36,
+            "txt_id": "Mus_1890",
+            "line_idx": 37,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#debb9baa",
+            "incoming": [
+                "1220"
+            ],
+            "outgoing": [
+                "1193"
+            ]
+        },
+        "1135": {
+            "id": "1135",
+            "type": "E52 Time-Span",
+            "short_type": "E52",
+            "virtual": false,
+            "text": "Wintersemester",
+            "search_string": "wintersemester",
+            "begin": 856,
+            "end": 870,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 19,
+            "txt_id": "Mus_1890",
+            "line_idx": 20,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "1201"
+            ],
+            "outgoing": []
+        },
+        "1134": {
+            "id": "1134",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Opening Times",
+            "search_string": "openingtimes",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#06b67eaa",
+            "incoming": [
+                "1183"
+            ],
+            "outgoing": []
+        },
+        "1168": {
+            "id": "1168",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Kastellan",
+            "search_string": "kastellan",
+            "begin": 1901,
+            "end": 1910,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 37,
+            "txt_id": "Mus_1890",
+            "line_idx": 38,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#debb9baa",
+            "incoming": [],
+            "outgoing": [
+                "1194",
+                "1220"
+            ]
+        },
+        "1136": {
+            "id": "1136",
+            "type": "E7 Activity",
+            "short_type": "E7",
+            "virtual": false,
+            "text": "besuchten",
+            "search_string": "besuchten",
+            "begin": 912,
+            "end": 921,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 20,
+            "txt_id": "Mus_1890",
+            "line_idx": 21,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#fc3915aa",
+            "incoming": [],
+            "outgoing": [
+                "1184",
+                "1201",
+                "1203",
+                "1205"
+            ]
+        },
+        "1138": {
+            "id": "1138",
+            "type": "E54 Dimension",
+            "short_type": "E54",
+            "virtual": false,
+            "text": "11579",
+            "search_string": "11579",
+            "begin": 932,
+            "end": 937,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 20,
+            "txt_id": "Mus_1890",
+            "line_idx": 21,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#50c4c2aa",
+            "incoming": [
+                "1202"
+            ],
+            "outgoing": []
+        },
+        "1170": {
+            "id": "1170",
+            "type": "E21 Person",
+            "short_type": "E21",
+            "virtual": false,
+            "text": "Professor Dr. Beyrich",
+            "search_string": "professordr.beyrich",
+            "begin": 1922,
+            "end": 1943,
+            "page": 120,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": 38,
+            "txt_id": "Mus_1890",
+            "line_idx": 39,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#3b95c4aa",
+            "incoming": [],
+            "outgoing": [
+                "1195",
+                "1221"
+            ]
+        },
+        "1137": {
+            "id": "1137",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Visiting",
+            "search_string": "visiting",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#06b67eaa",
+            "incoming": [
+                "1184"
+            ],
+            "outgoing": []
+        },
+        "1139": {
+            "id": "1139",
             "type": "E74 Group",
             "short_type": "E74",
             "virtual": false,
@@ -64,33 +456,35 @@
                 "1213"
             ]
         },
-        "1238": {
-            "id": "1238",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Reporter",
-            "search_string": "reporter",
-            "begin": null,
-            "end": null,
-            "page": -1,
+        "1172": {
+            "id": "1172",
+            "type": "E41 Appellation",
+            "short_type": "E41",
+            "virtual": false,
+            "text": "Verwaltungsdirektor",
+            "search_string": "verwaltungsdirektor",
+            "begin": 1946,
+            "end": 1965,
+            "page": 120,
             "original_page": 0,
             "url": "",
             "citation": "",
-            "line": -1,
+            "line": 39,
             "txt_id": "Mus_1890",
-            "line_idx": 0,
+            "line_idx": 40,
             "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
             "year": 1890,
             "mentions": 1,
-            "color": "#06b67eaa",
+            "color": "#debb9baa",
             "incoming": [
-                "1195"
+                "1221"
             ],
-            "outgoing": []
+            "outgoing": [
+                "1196"
+            ]
         },
-        "1208": {
-            "id": "1208",
+        "1141": {
+            "id": "1141",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -114,8 +508,33 @@
             ],
             "outgoing": []
         },
-        "1209": {
-            "id": "1209",
+        "1171": {
+            "id": "1171",
+            "type": "E55 Type",
+            "short_type": "E55",
+            "virtual": true,
+            "text": "Reporter",
+            "search_string": "reporter",
+            "begin": null,
+            "end": null,
+            "page": -1,
+            "original_page": 0,
+            "url": "",
+            "citation": "",
+            "line": -1,
+            "txt_id": "Mus_1890",
+            "line_idx": 0,
+            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
+            "year": 1890,
+            "mentions": 1,
+            "color": "#06b67eaa",
+            "incoming": [
+                "1195"
+            ],
+            "outgoing": []
+        },
+        "1142": {
+            "id": "1142",
             "type": "E74 Group",
             "short_type": "E74",
             "virtual": false,
@@ -142,8 +561,8 @@
                 "1204"
             ]
         },
-        "1211": {
-            "id": "1211",
+        "1144": {
+            "id": "1144",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": false,
@@ -168,8 +587,8 @@
             ],
             "outgoing": []
         },
-        "1212": {
-            "id": "1212",
+        "1145": {
+            "id": "1145",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -193,8 +612,8 @@
             ],
             "outgoing": []
         },
-        "1213": {
-            "id": "1213",
+        "1146": {
+            "id": "1146",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -221,8 +640,8 @@
                 "1208"
             ]
         },
-        "1214": {
-            "id": "1214",
+        "1147": {
+            "id": "1147",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -246,8 +665,8 @@
             ],
             "outgoing": []
         },
-        "1215": {
-            "id": "1215",
+        "1148": {
+            "id": "1148",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -274,8 +693,8 @@
                 "1210"
             ]
         },
-        "1218": {
-            "id": "1218",
+        "1151": {
+            "id": "1151",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": false,
@@ -299,8 +718,8 @@
             ],
             "outgoing": []
         },
-        "1219": {
-            "id": "1219",
+        "1152": {
+            "id": "1152",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -326,8 +745,8 @@
                 "1212"
             ]
         },
-        "1220": {
-            "id": "1220",
+        "1153": {
+            "id": "1153",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -351,8 +770,8 @@
             ],
             "outgoing": []
         },
-        "1221": {
-            "id": "1221",
+        "1154": {
+            "id": "1154",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -376,8 +795,8 @@
             ],
             "outgoing": []
         },
-        "1193": {
-            "id": "1193",
+        "1126": {
+            "id": "1126",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -401,8 +820,8 @@
             ],
             "outgoing": []
         },
-        "1222": {
-            "id": "1222",
+        "1155": {
+            "id": "1155",
             "type": "E41 Appellation",
             "short_type": "E41",
             "virtual": false,
@@ -429,8 +848,8 @@
                 "1215"
             ]
         },
-        "1194": {
-            "id": "1194",
+        "1127": {
+            "id": "1127",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -454,8 +873,8 @@
             ],
             "outgoing": []
         },
-        "1224": {
-            "id": "1224",
+        "1157": {
+            "id": "1157",
             "type": "E54 Dimension",
             "short_type": "E54",
             "virtual": false,
@@ -479,8 +898,8 @@
             ],
             "outgoing": []
         },
-        "1223": {
-            "id": "1223",
+        "1156": {
+            "id": "1156",
             "type": "E55 Type",
             "short_type": "E55",
             "virtual": true,
@@ -509,8 +928,8 @@
             ],
             "outgoing": []
         },
-        "1225": {
-            "id": "1225",
+        "1158": {
+            "id": "1158",
             "type": "E41 Appellation",
             "short_type": "E41",
             "virtual": false,
@@ -537,8 +956,8 @@
                 "1217"
             ]
         },
-        "1192": {
-            "id": "1192",
+        "1125": {
+            "id": "1125",
             "type": "E52 Time-Span",
             "short_type": "E52",
             "virtual": false,
@@ -562,8 +981,8 @@
             ],
             "outgoing": []
         },
-        "1227": {
-            "id": "1227",
+        "1160": {
+            "id": "1160",
             "type": "E66 Formation",
             "short_type": "E66",
             "virtual": false,
@@ -589,425 +1008,6 @@
                 "1216",
                 "1218"
             ]
-        },
-        "1229": {
-            "id": "1229",
-            "type": "E29 Design or Procedure",
-            "short_type": "E29",
-            "virtual": false,
-            "text": "Aufbewahrung der von den Besuchern abzugebenden Garderobegegenstände",
-            "search_string": "aufbewahrungdervondenbesuchernabzugebendengarderobegegenstände",
-            "begin": 1771,
-            "end": 1840,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 35,
-            "txt_id": "Mus_1890",
-            "line_idx": 36,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#debb9baa",
-            "incoming": [
-                "1219"
-            ],
-            "outgoing": [
-                "1191"
-            ]
-        },
-        "1195": {
-            "id": "1195",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Publikum",
-            "search_string": "publikum",
-            "begin": 730,
-            "end": 738,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 16,
-            "txt_id": "Mus_1890",
-            "line_idx": 17,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [],
-            "outgoing": [
-                "1181"
-            ]
-        },
-        "1197": {
-            "id": "1197",
-            "type": "E52 Time-Span",
-            "short_type": "E52",
-            "virtual": false,
-            "text": "Mittwochs Nachmittags von 1 bis 4 Uhr",
-            "search_string": "mittwochsnachmittagsvon1bis4uhr",
-            "begin": 743,
-            "end": 781,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 16,
-            "txt_id": "Mus_1890",
-            "line_idx": 17,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "1200"
-            ],
-            "outgoing": []
-        },
-        "1196": {
-            "id": "1196",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Audience",
-            "search_string": "audience",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": -1,
-            "txt_id": "Mus_1890",
-            "line_idx": 0,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 5,
-            "color": "#06b67eaa",
-            "incoming": [
-                "1181",
-                "1182",
-                "1185",
-                "1186",
-                "1187"
-            ],
-            "outgoing": []
-        },
-        "1231": {
-            "id": "1231",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Portier",
-            "search_string": "portier",
-            "begin": 1861,
-            "end": 1868,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 36,
-            "txt_id": "Mus_1890",
-            "line_idx": 37,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#debb9baa",
-            "incoming": [],
-            "outgoing": [
-                "1192",
-                "1219"
-            ]
-        },
-        "1230": {
-            "id": "1230",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Task",
-            "search_string": "task",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": -1,
-            "txt_id": "Mus_1890",
-            "line_idx": 0,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 2,
-            "color": "#06b67eaa",
-            "incoming": [
-                "1191",
-                "1193"
-            ],
-            "outgoing": []
-        },
-        "1198": {
-            "id": "1198",
-            "type": "E74 Group",
-            "short_type": "E74",
-            "virtual": false,
-            "text": "Schüler höherer Lehranstalten",
-            "search_string": "schülerhöhererlehranstalten",
-            "begin": 790,
-            "end": 820,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 17,
-            "txt_id": "Mus_1890",
-            "line_idx": 18,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [],
-            "outgoing": [
-                "1182"
-            ]
-        },
-        "1200": {
-            "id": "1200",
-            "type": "E3 Condition State",
-            "short_type": "E3",
-            "virtual": false,
-            "text": "geöffnet",
-            "search_string": "geöffnet",
-            "begin": 821,
-            "end": 829,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 18,
-            "txt_id": "Mus_1890",
-            "line_idx": 19,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [],
-            "outgoing": [
-                "1183",
-                "1197",
-                "1198",
-                "1199",
-                "1200"
-            ]
-        },
-        "1233": {
-            "id": "1233",
-            "type": "E29 Design or Procedure",
-            "short_type": "E29",
-            "virtual": false,
-            "text": "Oberaufsicht",
-            "search_string": "oberaufsicht",
-            "begin": 1874,
-            "end": 1886,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 36,
-            "txt_id": "Mus_1890",
-            "line_idx": 37,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#debb9baa",
-            "incoming": [
-                "1220"
-            ],
-            "outgoing": [
-                "1193"
-            ]
-        },
-        "1202": {
-            "id": "1202",
-            "type": "E52 Time-Span",
-            "short_type": "E52",
-            "virtual": false,
-            "text": "Wintersemester",
-            "search_string": "wintersemester",
-            "begin": 856,
-            "end": 870,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 19,
-            "txt_id": "Mus_1890",
-            "line_idx": 20,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "1201"
-            ],
-            "outgoing": []
-        },
-        "1235": {
-            "id": "1235",
-            "type": "E41 Appellation",
-            "short_type": "E41",
-            "virtual": false,
-            "text": "Kastellan",
-            "search_string": "kastellan",
-            "begin": 1901,
-            "end": 1910,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 37,
-            "txt_id": "Mus_1890",
-            "line_idx": 38,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#debb9baa",
-            "incoming": [],
-            "outgoing": [
-                "1194",
-                "1220"
-            ]
-        },
-        "1201": {
-            "id": "1201",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Opening Times",
-            "search_string": "openingtimes",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": -1,
-            "txt_id": "Mus_1890",
-            "line_idx": 0,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#06b67eaa",
-            "incoming": [
-                "1183"
-            ],
-            "outgoing": []
-        },
-        "1203": {
-            "id": "1203",
-            "type": "E7 Activity",
-            "short_type": "E7",
-            "virtual": false,
-            "text": "besuchten",
-            "search_string": "besuchten",
-            "begin": 912,
-            "end": 921,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 20,
-            "txt_id": "Mus_1890",
-            "line_idx": 21,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#fc3915aa",
-            "incoming": [],
-            "outgoing": [
-                "1184",
-                "1201",
-                "1203",
-                "1205"
-            ]
-        },
-        "1237": {
-            "id": "1237",
-            "type": "E21 Person",
-            "short_type": "E21",
-            "virtual": false,
-            "text": "Professor Dr. Beyrich",
-            "search_string": "professordr.beyrich",
-            "begin": 1922,
-            "end": 1943,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 38,
-            "txt_id": "Mus_1890",
-            "line_idx": 39,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#3b95c4aa",
-            "incoming": [],
-            "outgoing": [
-                "1195",
-                "1221"
-            ]
-        },
-        "1205": {
-            "id": "1205",
-            "type": "E54 Dimension",
-            "short_type": "E54",
-            "virtual": false,
-            "text": "11579",
-            "search_string": "11579",
-            "begin": 932,
-            "end": 937,
-            "page": 120,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": 20,
-            "txt_id": "Mus_1890",
-            "line_idx": 21,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#50c4c2aa",
-            "incoming": [
-                "1202"
-            ],
-            "outgoing": []
-        },
-        "1204": {
-            "id": "1204",
-            "type": "E55 Type",
-            "short_type": "E55",
-            "virtual": true,
-            "text": "Visiting",
-            "search_string": "visiting",
-            "begin": null,
-            "end": null,
-            "page": -1,
-            "original_page": 0,
-            "url": "",
-            "citation": "",
-            "line": -1,
-            "txt_id": "Mus_1890",
-            "line_idx": 0,
-            "institution": "Museum für Naturkunde - Allgemeine Verwaltung",
-            "year": 1890,
-            "mentions": 1,
-            "color": "#06b67eaa",
-            "incoming": [
-                "1184"
-            ],
-            "outgoing": []
         }
     },
     "Properties": {
@@ -1015,288 +1015,288 @@
             "id": "1197",
             "type": "P79 beginning is qualified by",
             "short_type": "P79",
-            "source": "1200",
-            "target": "1192"
+            "source": "1133",
+            "target": "1125"
         },
         "1198": {
             "id": "1198",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1200",
-            "target": "1193"
+            "source": "1133",
+            "target": "1126"
         },
         "1199": {
             "id": "1199",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1200",
-            "target": "1194"
+            "source": "1133",
+            "target": "1127"
         },
         "1200": {
             "id": "1200",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1200",
-            "target": "1197"
+            "source": "1133",
+            "target": "1130"
         },
         "1201": {
             "id": "1201",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1203",
-            "target": "1202"
+            "source": "1136",
+            "target": "1135"
         },
         "1202": {
             "id": "1202",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1206",
-            "target": "1205"
+            "source": "1139",
+            "target": "1138"
         },
         "1203": {
             "id": "1203",
             "type": "P14 carried out by",
             "short_type": "P14",
-            "source": "1203",
-            "target": "1206"
+            "source": "1136",
+            "target": "1139"
         },
         "1204": {
             "id": "1204",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1209",
-            "target": "1208"
+            "source": "1142",
+            "target": "1141"
         },
         "1205": {
             "id": "1205",
             "type": "P14 carried out by",
             "short_type": "P14",
-            "source": "1203",
-            "target": "1209"
+            "source": "1136",
+            "target": "1142"
         },
         "1206": {
             "id": "1206",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1213",
-            "target": "1211"
+            "source": "1146",
+            "target": "1144"
         },
         "1207": {
             "id": "1207",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1215",
-            "target": "1211"
+            "source": "1148",
+            "target": "1144"
         },
         "1208": {
             "id": "1208",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1213",
-            "target": "1212"
+            "source": "1146",
+            "target": "1145"
         },
         "1209": {
             "id": "1209",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1206",
-            "target": "1213"
+            "source": "1139",
+            "target": "1146"
         },
         "1210": {
             "id": "1210",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1215",
-            "target": "1214"
+            "source": "1148",
+            "target": "1147"
         },
         "1211": {
             "id": "1211",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1206",
-            "target": "1215"
+            "source": "1139",
+            "target": "1148"
         },
         "1212": {
             "id": "1212",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1219",
-            "target": "1218"
+            "source": "1152",
+            "target": "1151"
         },
         "1213": {
             "id": "1213",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1206",
-            "target": "1219"
+            "source": "1139",
+            "target": "1152"
         },
         "1214": {
             "id": "1214",
             "type": "P4 has time-span",
             "short_type": "P4",
-            "source": "1227",
-            "target": "1220"
+            "source": "1160",
+            "target": "1153"
         },
         "1215": {
             "id": "1215",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1222",
-            "target": "1221"
+            "source": "1155",
+            "target": "1154"
         },
         "1216": {
             "id": "1216",
             "type": "P95 has formed",
             "short_type": "P95",
-            "source": "1227",
-            "target": "1222"
+            "source": "1160",
+            "target": "1155"
         },
         "1217": {
             "id": "1217",
             "type": "P43 has dimension",
             "short_type": "P43",
-            "source": "1225",
-            "target": "1224"
+            "source": "1158",
+            "target": "1157"
         },
         "1218": {
             "id": "1218",
             "type": "P95 has formed",
             "short_type": "P95",
-            "source": "1227",
-            "target": "1225"
+            "source": "1160",
+            "target": "1158"
         },
         "1219": {
             "id": "1219",
             "type": "P14 carried out by",
             "short_type": "P14",
-            "source": "1231",
-            "target": "1229"
+            "source": "1164",
+            "target": "1162"
         },
         "1220": {
             "id": "1220",
             "type": "P14 carried out by",
             "short_type": "P14",
-            "source": "1235",
-            "target": "1233"
+            "source": "1168",
+            "target": "1166"
         },
         "1221": {
             "id": "1221",
             "type": "P1 is identified by",
             "short_type": "P1",
-            "source": "1237",
-            "target": "1239"
+            "source": "1170",
+            "target": "1172"
         },
         "1181": {
             "id": "1181",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1195",
-            "target": "1196"
+            "source": "1128",
+            "target": "1129"
         },
         "1182": {
             "id": "1182",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1198",
-            "target": "1196"
+            "source": "1131",
+            "target": "1129"
         },
         "1183": {
             "id": "1183",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1200",
-            "target": "1201"
+            "source": "1133",
+            "target": "1134"
         },
         "1184": {
             "id": "1184",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1203",
-            "target": "1204"
+            "source": "1136",
+            "target": "1137"
         },
         "1185": {
             "id": "1185",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1206",
-            "target": "1196"
+            "source": "1139",
+            "target": "1129"
         },
         "1186": {
             "id": "1186",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1209",
-            "target": "1196"
+            "source": "1142",
+            "target": "1129"
         },
         "1187": {
             "id": "1187",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1206",
-            "target": "1196"
+            "source": "1139",
+            "target": "1129"
         },
         "1188": {
             "id": "1188",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1222",
-            "target": "1223"
+            "source": "1155",
+            "target": "1156"
         },
         "1189": {
             "id": "1189",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1225",
-            "target": "1223"
+            "source": "1158",
+            "target": "1156"
         },
         "1190": {
             "id": "1190",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1227",
-            "target": "1223"
+            "source": "1160",
+            "target": "1156"
         },
         "1191": {
             "id": "1191",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1229",
-            "target": "1230"
+            "source": "1162",
+            "target": "1163"
         },
         "1192": {
             "id": "1192",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1231",
-            "target": "1223"
+            "source": "1164",
+            "target": "1156"
         },
         "1193": {
             "id": "1193",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1233",
-            "target": "1230"
+            "source": "1166",
+            "target": "1163"
         },
         "1194": {
             "id": "1194",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1235",
-            "target": "1223"
+            "source": "1168",
+            "target": "1156"
         },
         "1195": {
             "id": "1195",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1237",
-            "target": "1238"
+            "source": "1170",
+            "target": "1171"
         },
         "1196": {
             "id": "1196",
             "type": "P2 has type",
             "short_type": "P2",
-            "source": "1239",
-            "target": "1223"
+            "source": "1172",
+            "target": "1156"
         }
     }
 }
